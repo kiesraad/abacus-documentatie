@@ -1,0 +1,10 @@
+[book]
+language = "nl"
+multilingual = false
+src = "src"
+title = "Abacus Documentatie"
+
+[output.html]
+git-repository-url = "https://github.com/kiesraad/abacus-documentatie"
+edit-url-template = "https://github.com/kiesraad/abacus-documentatie/tree/main/{path}"
+hash-files = true
