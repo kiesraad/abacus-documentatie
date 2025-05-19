@@ -4,5 +4,6 @@
 
 # Gebruikersdocumentatie
 
+- [Cheatsheet: zo gebruik je Abacus](./cheatsheet.md)
 - [Installeren en starten](./installeren-en-starten.md)
 - [Instructies invoerder](./instructies-invoerder.md)

@@ -22,13 +22,14 @@ Nu je bent ingelogd, ben je klaar om de resultaten van een stembureau in te voer
 
 Je kunt in Abacus een aantal sneltoetsen gebruiken waarmee je handig naar andere velden nagiveert. Dit zijn de sneltoetsen:
 
-- Met `tab`, `pijl omlaag` of `enter` ga je naar het volgende veld.
-- Met `shift+tab` of met `pijl omhoog` ga je naar het vorige veld.
-- Met `shift+pijl omlaag` ga je naar het laatste veld.
-- Met `shift+enter` ga je naar de volgende pagina/lijst.
-- Je hoeft geen nullen in te voeren. Als je een veld leeg laat, wordt dat gezien als een 0.
+- Met `tab ↹`, `pijl omlaag ↓` of `enter ⏎` ga je naar het volgende veld.
+- Met `shift ⇧`+`tab ↹` of `pijl omhoog ↓` ga je naar het vorige veld.
+- Met `shift ⇧`+`pijl omlaag ↓` ga je naar het laatste veld op de pagina. Dit is handig als je geen aantallen meer hoeft in te vullen bij kandidaten en direct het totaal wilt invullen.
+- Met `shift ⇧`+`enter ⏎` ga je naar de volgende pagina/lijst.
 
-Als je even pauze wilt, klik dan op **Invoer afbreken** en vervolgens op **Invoer bewaren**. Na je pauze klik je onder **Je hebt nog een openstaande invoer** op het stembureau en kun je doorgaan waar je gebleven was.
+**Let op:** Je hoeft geen nullen in te voeren. Als je een veld leeg laat, wordt dat gezien als een nul. Je kunt direct met `tab ↹` naar het volgende veld gaan.
+
+Als je even pauze wilt, klik dan rechtsboven op **Invoer afbreken** en vervolgens op **Invoer bewaren**. Na je pauze klik je onder **Je hebt nog een openstaande invoer** op het stembureau en kun je doorgaan waar je gebleven was.
 
 ### Verkiezing selecteren
 
