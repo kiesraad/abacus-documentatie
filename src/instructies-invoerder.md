@@ -23,7 +23,7 @@ Nu je bent ingelogd, ben je klaar om de resultaten van een stembureau in te voer
 Je kunt in Abacus een aantal sneltoetsen gebruiken waarmee je handig naar andere velden nagiveert. Dit zijn de sneltoetsen:
 
 - Met `tab ↹`, `pijl omlaag ↓` of `enter ⏎` ga je naar het volgende veld.
-- Met `shift ⇧`+`tab ↹` of `pijl omhoog ↓` ga je naar het vorige veld.
+- Met `shift ⇧`+`tab ↹` of `pijl omhoog ↑` ga je naar het vorige veld.
 - Met `shift ⇧`+`pijl omlaag ↓` ga je naar het laatste veld op de pagina. Dit is handig als je geen aantallen meer hoeft in te vullen bij kandidaten en direct het totaal wilt invullen.
 - Met `shift ⇧`+`enter ⏎` ga je naar de volgende pagina/lijst.
 
