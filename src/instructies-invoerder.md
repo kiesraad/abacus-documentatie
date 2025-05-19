@@ -79,9 +79,9 @@ Neem de cijfers over zoals ze in het proces-verbaal staan. Lege velden en velden
 
 **Let op:** Op het proces-verbaal staan ook velden voor het subtotaal van elke kolom. Deze kun je negeren.
 
-Als je bij de kandidaten alle aantallen hebt ingevuld en je tot het totaal alleen maar lege velden ziet, ga je met `shift+pijl omlaag` direct naar het invoerveld voor het totaal.
+Als je bij de kandidaten alle aantallen hebt ingevuld en je tot het totaal alleen maar lege velden ziet, ga je met `shift ⇧`+`pijl omlaag ↓` direct naar het invoerveld voor het totaal.
 
-Als je klaar bent met het invoeren van de lijst, klik je op **Volgende** of druk je op `shift+enter` om naar de volgende lijst te gaan.
+Als je klaar bent met het invoeren van de lijst, klik je op **Volgende** of druk je op `shift ⇧`+`enter ⏎` om naar de volgende lijst te gaan.
 
 **Let op:** Er kan een foutmelding worden weergegeven als de aantallen niet met elkaar kloppen. Controleer of je de aantallen goed hebt overgenomen. Als de aantallen overeenkomen met het proces-verbaal en je de fout nog steeds ziet, overleg dan met je coördinator.
 
