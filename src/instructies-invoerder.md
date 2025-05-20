@@ -22,13 +22,14 @@ Nu je bent ingelogd, ben je klaar om de resultaten van een stembureau in te voer
 
 Je kunt in Abacus een aantal sneltoetsen gebruiken waarmee je handig naar andere velden nagiveert. Dit zijn de sneltoetsen:
 
-- Met `tab`, `pijl omlaag` of `enter` ga je naar het volgende veld.
-- Met `shift+tab` of met `pijl omhoog` ga je naar het vorige veld.
-- Met `shift+pijl omlaag` ga je naar het laatste veld.
-- Met `shift+enter` ga je naar de volgende pagina/lijst.
-- Je hoeft geen nullen in te voeren. Als je een veld leeg laat, wordt dat gezien als een 0.
+- Met `tab ↹`, `pijl omlaag ↓` of `enter ⏎` ga je naar het volgende veld.
+- Met `shift ⇧`+`tab ↹` of `pijl omhoog ↑` ga je naar het vorige veld.
+- Met `shift ⇧`+`pijl omlaag ↓` ga je naar het laatste veld op de pagina. Dit is handig als je geen aantallen meer hoeft in te vullen bij kandidaten en direct het totaal wilt invullen.
+- Met `shift ⇧`+`enter ⏎` ga je naar de volgende pagina/lijst.
 
-Als je even pauze wilt, klik dan op **Invoer afbreken** en vervolgens op **Invoer bewaren**. Na je pauze klik je onder **Je hebt nog een openstaande invoer** op het stembureau en kun je doorgaan waar je gebleven was.
+**Let op:** Je hoeft geen nullen in te voeren. Als je een veld leeg laat, wordt dat gezien als een nul. Je kunt direct met `tab ↹` naar het volgende veld gaan.
+
+Als je even pauze wilt, klik dan rechtsboven op **Invoer afbreken** en vervolgens op **Invoer bewaren**. Na je pauze klik je onder **Je hebt nog een openstaande invoer** op het stembureau en kun je doorgaan waar je gebleven was.
 
 ### Verkiezing selecteren
 
@@ -78,9 +79,9 @@ Neem de cijfers over zoals ze in het proces-verbaal staan. Lege velden en velden
 
 **Let op:** Op het proces-verbaal staan ook velden voor het subtotaal van elke kolom. Deze kun je negeren.
 
-Als je bij de kandidaten alle aantallen hebt ingevuld en je tot het totaal alleen maar lege velden ziet, ga je met `shift+pijl omlaag` direct naar het invoerveld voor het totaal.
+Als je bij de kandidaten alle aantallen hebt ingevuld en je tot het totaal alleen maar lege velden ziet, ga je met `shift ⇧`+`pijl omlaag ↓` direct naar het invoerveld voor het totaal.
 
-Als je klaar bent met het invoeren van de lijst, klik je op **Volgende** of druk je op `shift+enter` om naar de volgende lijst te gaan.
+Als je klaar bent met het invoeren van de lijst, klik je op **Volgende** of druk je op `shift ⇧`+`enter ⏎` om naar de volgende lijst te gaan.
 
 **Let op:** Er kan een foutmelding worden weergegeven als de aantallen niet met elkaar kloppen. Controleer of je de aantallen goed hebt overgenomen. Als de aantallen overeenkomen met het proces-verbaal en je de fout nog steeds ziet, overleg dan met je coördinator.
 
