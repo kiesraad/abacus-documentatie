@@ -70,57 +70,7 @@ Na het starten zie je een popup van Windows Security over de Windows Firewall. H
 
 Wanneer Abacus draait, ga je in je browser naar <http://127.0.0.1:8080> om de omgeving te gebruiken.
 
-### Methode 2: build artifact downloaden en starten (Linux, macOS, Windows)
-
-Je kunt ook zelf een bepaalde build downloaden en starten. Voer hiervoor de volgende stappen uit:
-
-1. Ga in de Abacus-repository naar [Actions](https://github.com/kiesraad/abacus/actions).
-2. Klik aan de linkerkant op [Build, lint & test](https://github.com/kiesraad/abacus/actions/workflows/build-lint-test.yml).
-3. Filter op `branch:main` en klik op de bovenste build in de lijst.
-4. Download de **latest** build voor jouw besturingssysteem. Let op: de download is alleen zichtbaar als je bent ingelogd in GitHub.
-
-![instructies1](./img/build-artifact-1.jpg)
-![instructies2](./img/build-artifact-2.jpg)
-
-De download bevat een ZIP-bestand met de binary. Deze binary bevat ook alle frontend-assets. Pak deze binary uit en start hem als volgt:
-
-#### Linux en macOS
-
-```sh
-./path/to/binary/abacus --reset-database --seed-data
-```
-
-De argumenten zorgen ervoor dat de database wordt gereset en wordt geladen met fixtures. Het is natuurlijk ook mogelijk om Abacus zonder argumenten te starten, maar als je dat doet bevat de app geen data en zie je op de pagina het bericht *'Verkiezingen niet gevonden'*.
-
-De kortere versie van deze opdracht is:
-
-```sh
-./path/to/binary/abacus -rs
-```
-
-Zie ook de [help](#help).
-
-#### Windows
-
-```sh
-start path\to\binary\abacus.exe --reset-database --seed-data
-```
-
-De argumenten zorgen ervoor dat de database wordt gereset en wordt geladen met fixtures. Het is natuurlijk ook mogelijk om Abacus zonder argumenten te starten, maar als je dat doet bevat de app geen data en zie je op de pagina het bericht *'Verkiezingen niet gevonden'*.
-
-De kortere versie van deze opdracht is:
-
-```sh
-start path\to\binary\abacus.exe -rs
-```
-
-Zie ook de [help](#help).
-
-Na het starten zie je een popup van Windows Security over de Windows Firewall. Het maakt niet uit wat je hier selecteert, de omgeving werkt altijd. Klik dus gerust op **Cancel (Annuleren)**.
-
-Wanneer Abacus draait, ga je in je browser naar <http://127.0.0.1:8080> om de omgeving te gebruiken.
-
-### Methode 3: script `pull-and-run` uitvoeren (Linux, macOS)
+### Methode 2: script `pull-and-run` uitvoeren (Linux, macOS)
 
 *Let op: voor deze methode moet je de repository klonen of downloaden.*
 
@@ -152,13 +102,13 @@ cargo install sqlx-cli
 ./pull-and-run
 ```
 
-### Methode 4: handmatig starten (Linux, macOS, Windows)
+### Methode 3: handmatig starten (Linux, macOS, Windows)
 
 *Let op: voor deze methode moet je de repository klonen of downloaden.*
 
 In plaats van het script kun je ook handmatig `cargo run` vanuit de backend-map en `npm run dev` vanuit de frontend-map in twee verschillende terminals starten. Hiervoor gelden dezelfde vereisten als bij het uitvoeren van het pull-and-run-script. Deze optie is bedoeld voor development.
 
-### Methode 5: Docker compose (Linux, macOS, Windows)
+### Methode 4: Docker Compose (Linux, macOS, Windows)
 
 Hiermee start je de backend in watch mode. Assets worden geserveerd door de build tool `vite` en maken dus gebruik van Hot Module Reloading:
 
