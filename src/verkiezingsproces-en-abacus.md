@@ -1,10 +1,10 @@
 # Abacus gebruikersdocumentatie
 
-Hier vind je gebruikersdocumentatie, cheatsheet en achtergrondinformatie bij [Abacus](https://github.com/kiesraad/abacus). 
+Hier vind je gebruikersdocumentatie, een cheatsheet en meer achtergrondinformatie bij [Abacus](https://github.com/kiesraad/abacus). 
 
 ## Wat is Abacus?
 
-De Kiesraad ontwikkelt nieuwe software voor de berekening van de uitslag van de verkiezingen: Abacus, software voor verkiezingsuitslagen en zetelverdeling. Het programma telt uitslagen bij elkaar op en berekent de zetelverdeling. Abacus vervangt de module Uitslagvaststelling van het programma Ondersteunende Software Verkiezingen (OSV2020) en zal ingezet worden bij alle verkiezingen in Nederland.
+De Kiesraad ontwikkelt nieuwe software voor de berekening van de uitslag van de verkiezingen: Abacus, software voor verkiezingsuitslagen en zetelverdeling. Het programma telt uitslagen bij elkaar op en berekent de zetelverdeling. Abacus vervangt op termijn de module Uitslagvaststelling van het programma [Ondersteunende Software Verkiezingen](https://www.kiesraad.nl/verkiezingen/osv-en-eml) (OSV2020) en zal ingezet worden bij alle verkiezingen in Nederland.
 
 Abacus is werk in uitvoering! Dit betekent dat de functionaliteit stapsgewijs wordt gebouwd. OSV2020 is de huidige software die bij verkiezingen wordt gebruikt. 
 
