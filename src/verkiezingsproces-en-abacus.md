@@ -1,6 +1,6 @@
 # Abacus gebruikersdocumentatie
 
-Hier vind je gebruikersdocumentatie, een cheatsheet en meer achtergrondinformatie bij [Abacus](https://github.com/kiesraad/abacus). 
+Dit is de gebruikersdocumentatie, een cheatsheet en meer achtergrondinformatie bij [Abacus](https://github.com/kiesraad/abacus). 
 
 ## Wat is Abacus?
 
