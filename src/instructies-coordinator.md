@@ -8,7 +8,7 @@ Wanneer alle invoerders klaar zijn, rond je de invoer af en kun je het proces-ve
 
 ## Inloggen en account instellen
 
-Je krijgt inloginstructies van de beheerder. Klik rechtsboven op **Inloggen** en vul de gegevens in. Als je al eerder ingelogd hebt, gebruik je het door jou ingestelde wachtwoord.
+Je krijgt inloginstructies van de beheerder of een andere coördinator. Vul de gegevens in op de inlogpagina. Als je al eerder ingelogd hebt, gebruik je het door jou ingestelde wachtwoord.
 
 Wanneer je voor de eerste keer inlogt, stel je je account eerst in voor gebruik. Voer je naam in als er nog geen naam staat, of wijzig je naam als die onjuist is. Kies vervolgens een nieuw wachtwoord en vul dit twee keer in.
 
@@ -52,7 +52,7 @@ Wanneer een stembureau twee keer is ingevoerd, kan het voorkomen dat er een vers
 
 ![Verschil tussen eerste en tweede invoer](./img/verschil-eerste-tweede-invoer.png)
 
-Controleer beide invoeren om na te gaan welke invoer overeenkomt met het proces-verbaal. Klik op de correcte invoer en vervolgens op **Opslaan** om deze te bewaren. De andere invoer wordt weggegooid en moet opnieuw gedaan worden. Let op: als je de tweede invoer bewaart, telt deze nu als eerste invoer. De volgende invoerder doet dan automatisch de tweede invoer.
+Controleer beide invoeren om na te gaan welke invoer overeenkomt met het proces-verbaal. Klik op de correcte invoer en vervolgens op **Opslaan** om deze te bewaren. De andere invoer wordt weggegooid en moet opnieuw gedaan worden.
 
 ## Afronden en proces-verbaal opmaken
 
