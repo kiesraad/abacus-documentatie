@@ -23,6 +23,8 @@ Als coördinator kun je stembureaus toevoegen, wijzigen en verwijderen. Kijk hie
 ### Stembureau toevoegen
 
 - Klik rechts op de knop **+ Stembureau toevoegen**.
+[comment]: # (TODO: Instructies voor batch import toevoegen wanneer de stembureau-importfunctie klaar is, en aangeven dat deze instructies alleen bedoeld zijn voor afwijkende situaties.)
+
 - Voer de gegevens van het stembureau in en geef aan welke soort stembureau het is. Als het aantal kiesgerechtigden van het stembureau bekend is kun je dit invullen, maar dat hoeft niet.
 - Klik op **Opslaan en toevoegen**.
 
@@ -38,7 +40,9 @@ Als coördinator kun je stembureaus toevoegen, wijzigen en verwijderen. Kijk hie
 
 ## Statusoverzicht steminvoer
 
-Op deze pagina zie je in één oogopslag wat de status van de stembureaus is en wat er nog in de werkvoorraad staat. Hier zie je ook of er fouten en waarschuwingen zijn.
+[comment]: # (TODO: instructies toevoegen voor doorklikken vanuit detailpagina naar de status van de steminvoer, zodra dit gebouwd is.)
+
+Op deze pagina zie je in één oogopslag wat de status van de stembureaus is en en welke stembureaus nog ingevoerd moeten worden (de werkvoorraad). Hier zie je ook welke invoer speciale aandacht van jou als coordinator nodig heeft vanwege fouten of waarschuwingen.
 
 ![Statusoverzicht steminvoer](./img/statusoverzicht-steminvoer.png)
 
