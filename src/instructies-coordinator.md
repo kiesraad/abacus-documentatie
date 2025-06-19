@@ -74,4 +74,4 @@ In het activiteitenlog kun je zien welke gebruikers zijn ingelogd en uitgelogd e
 
 ## Gebruikersbeheer
 
-Deze functie is nog in ontwikkeling.
+Gebruikersbeheer kan op dit moment alleen door de beheerder worden gedaan. Voor de coördinator is deze functie nog in ontwikkeling.
