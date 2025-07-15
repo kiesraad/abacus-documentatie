@@ -8,7 +8,7 @@ Welkom bij Abacus! Deze tool is ontwikkeld om de verkiezingsuitslagen per stembu
 
 ## Verkiezing toevoegen
 
-Je voegt een verkiezing toe door de verkiezingsdefinitie met de bijbehorende kandidatenlijsten te importeren in Abacus. Download de bestanden met de verkiezingsdefinitie en kandidatenlijsten volgens de instructies die je van de Kiesraad hebt gekregen.
+Je voegt een verkiezing toe door de bestanden met de verkiezingsdefinitie en de bijbehorende kandidatenlijsten te importeren in Abacus. Download deze bestanden volgens de instructies die je van de Kiesraad hebt gekregen.
 
 - Klik in het hoofdmenu op **Beheer verkiezingen** en vervolgens op **+ Verkiezing toevoegen**.
 
@@ -65,11 +65,11 @@ Naast het toevoegen van de verkiezing en stembureaus voeg je ook (andere) beheer
 
 ![Rol gebruiker](./img/rol-gebruiker.png)
 
-- Als de gebruiker een invoerder is, kies je eerst of het account op naam staat of anoniem is. Anonieme accounts zijn handig als je nog niet precies weet wie aanwezig zal zijn. Bij de eerste keer inloggen moeten de gebruikers hun echte naam invoeren. Bij beheerders en coördinators zie je dit scherm niet omdat deze accounts altijd op naam staan.
+- Als de gebruiker een invoerder is, kies je eerst of het account op naam staat of anoniem is. Bij de eerste keer inloggen moeten de gebruikers hun echte naam invoeren. Bij beheerders en coördinators zie je dit scherm niet omdat deze accounts altijd op naam staan.
 
 ![Invoerder: type account](./img/type-account-invoerder.png)
 
-- Voer de gebruikersnaam, de volledige naam (behalve bij een anonieme invoerder) en een tijdelijk wachtwoord in. De gebruiker moet het wachtwoord wijzigen bij de eerste keer inloggen.
+- Voer de gebruikersnaam, de volledige naam (behalve bij een anonieme invoerder) en een tijdelijk wachtwoord in. Bij de eerste keer inloggen moet de gebruiker het wachtwoord wijzigen.
 
 ![Gebruiker toevoegen](./img/gebruiker-toevoegen.png)
 
