@@ -8,3 +8,5 @@
 - [Installeren en starten](./installeren-en-starten.md)
 - [Instructies invoerder](./instructies-invoerder.md)
 - [Instructies coördinator](./instructies-coordinator.md)
+- [Instructies beheerder](./instructies-beheerder.md)
+ 
