@@ -50,10 +50,12 @@ Zie ook de [help](#help).
 
 #### Windows
 
-Open een Command Prompt of Powershell en voer Abacus uit:
+Voordat je Abacus kunt gebruiken op Windows heb je eerst het programma Microsoft Visual C++ Redistributable (MSVC Redist) nodig. Dit bestand kun je direct downloaden [op de website van Microsoft](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version). Een directe link vind je hier: [Microsoft Visual C++ Redistributable (MSVC Redist)](https://aka.ms/vs/17/release/vc_redist.x64.exe).
+
+Open een Command Prompt of Powershell en voer Abacus uit. Als je Command Prompt gebruikt, hoef je de `.\` aan het begin niet te typen.
 
 ```sh
-start path\to\binary\abacus-windows-[version].exe --reset-database --seed-data
+.\path\to\binary\abacus-windows-[version].exe --reset-database --seed-data
 ```
 
 De argumenten zorgen ervoor dat de database wordt gereset en wordt geladen met fixtures. Het is natuurlijk ook mogelijk om Abacus zonder argumenten te starten, maar als je dat doet bevat de app geen data en zie je op de pagina het bericht *'Verkiezingen niet gevonden'*.
@@ -61,7 +63,7 @@ De argumenten zorgen ervoor dat de database wordt gereset en wordt geladen met f
 De kortere versie van deze opdracht is:
 
 ```sh
-start path\to\binary\abacus-windows-[version].exe -rs
+.\path\to\binary\abacus-windows-[version].exe -rs
 ```
 
 Zie ook de [help](#help).
@@ -126,8 +128,8 @@ Voor meer informatie over de argumenten bekijk je de helpfunctie via de commandl
 ./path/to/binary/abacus-[OS-version] --help
 ```
 
-En op Windows:
+En op Windows (zonder `.\` in Command Prompt):
 
 ```sh
-start path\to\binary\abacus-windows-[version].exe --help
+.\path\to\binary\abacus-windows-[version].exe --help
 ```
