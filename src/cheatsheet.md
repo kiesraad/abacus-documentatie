@@ -17,9 +17,8 @@ Met het toetsenbord kun je snel door de pagina's heen nagiveren. Hiervoor gebrui
 
 Bij waarschuwingen en fouten doe je het volgende:
 
-- Als je een waarschuwing ziet, controleer je of je het papieren proces-verbaal goed hebt overgenomen. Als alles klopt, vink je de optie **Ik heb mijn invoer gecontroleerd met het papier en correct overgenomen** aan en kun je doorgaan naar de volgende pagina.
-- Zie je een blokkerende fout, controleer dan ook of je het papieren proces-verbaal goed hebt overgenomen. Overleg het met je coördinator als de aantallen overeenkomen met het proces-verbaal en je de fout nog steeds ziet.
-- Ook in het algemeen geldt: als je niet zeker weet wat je moet doen, overleg dan met je coördinator.
+- Als je een fout of waarschuwing tegenkomt, controleer je of je het papieren proces-verbaal goed hebt overgenomen. Abacus laat duidelijk zien welke velden je extra moet controleren. Als alles klopt, vink je de optie **Ik heb mijn invoer gecontroleerd met het papier en correct overgenomen** aan en kun je doorgaan naar de volgende pagina.
+- In het algemeen geldt: als je niet zeker weet wat je moet doen, overleg dan met je coördinator.
 
 ## Pauzeren of onderbreken
 
