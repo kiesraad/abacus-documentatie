@@ -6,39 +6,91 @@ Welkom bij Abacus! Deze tool is ontwikkeld om de verkiezingsuitslagen per stembu
 
 **Let op:** sommige adblockers in browsers kunnen een foutmelding in Abacus veroorzaken. Zet adblockers daarom uit of voeg Abacus toe aan de lijst met uitzonderingen in de adblocker.
 
-## Verkiezing toevoegen
+## Account voor beheerder aanmaken
 
-Je voegt een verkiezing toe door de bestanden met de verkiezingsdefinitie en de bijbehorende kandidatenlijsten te importeren in Abacus. Download deze bestanden volgens de instructies die je van de Kiesraad hebt gekregen.
+Wanneer je Abacus voor de eerste keer start is de applicatie leeg. Je begint met het aanmaken van een beheerdersaccount:
 
-- Klik in het hoofdmenu op **Beheer verkiezingen** en vervolgens op **+ Verkiezing toevoegen**.
+- Klik eerst op **Account voor beheerder aanmaken** en vul je naam en een gebruikersnaam in.
+- Kies een wachtwoord en klik op **Opslaan**. Nu kun je direct inloggen met de aangemaakte gegevens.
 
-![Beheer verkiezingen - Verkiezing toevoegen](./img/beheer-verkiezingen.png)
+![Verkiezingen beheren - Account voor beheerder aanmaken](./img/account-beheerder.png)
+
+Voordat je verdergaat met het toevoegen van een verkiezing kan het handig zijn om eerst een tweede beheerder aan te maken. Kijk hiervoor onder het kopje [Gebruiker toevoegen](#gebruiker-toevoegen).
+
+## Verkiezing toevoegen en beheren
+
+Je voegt een verkiezing toe door de bestanden met de verkiezingsdefinitie, de kandidatenlijsten en de lijst met stembureaus te importeren in Abacus. Download deze bestanden volgens de instructies die je van de Kiesraad hebt gekregen.
+
+- Als je het account voor de beheerder zojuist hebt aangemaakt, stuurt Abacus je direct naar de juiste pagina om de verkiezing toe te voegen. Als je nog niet op de juiste pagina bent, klik je in het hoofdmenu op **Verkiezingen beheren**.
+- Klik onderaan de pagina op **+ Verkiezing toevoegen**.
+
+![Verkiezingen beheren - Verkiezing toevoegen](./img/beheren-verkiezing-toevoegen.png)
+
+### Verkiezingsdefinitie
+
+Voeg eerst de verkiezingsdefinitie toe:
 
 - Klik op **Bestand kiezen** en kies het bestand met de verkiezingsdefinitie.
-- Je ziet nu de digitale vingerafdruk (de hashcode) die bij het bestand hoort, waarvan twee delen zijn afgeschermd. De volledige code heb je van de Kiesraad ontvangen. Voer de ontbrekende delen van de digitale vingerafdruk in.
+- Je ziet nu de digitale vingerafdruk (de hashcode) die bij het bestand hoort, waarvan twee delen zijn afgeschermd. De volledige code heb je van de Kiesraad ontvangen. Voer de ontbrekende delen van de digitale vingerafdruk in en klik op **Volgende**.
 
 ![Hashcode invullen](./img/hashcode-invullen.png)
 
-- Herhaal deze stappen voor het bestand met de kandidatenlijsten en klik dan op **Opslaan**. De verkiezing staat nu in de lijst.
+### Rol van het stembureau
 
-## Stembureaus importeren
+Nu zie je opties voor de rol van het stembureau. De rol van Centraal stembureau (CSB) wordt in een volgende versie toegevoegd, dus Gemeentelijk stembureau (GSB) is op dit moment de enige optie. Klik daarom meteen op **Volgende**.
 
-*Deze functie is nog in ontwikkeling en wordt later beschreven.*
+### Kandidatenlijsten
 
-[comment]: # (Tekst voor wanneer de functie is ontwikkeld: "De verkiezing die je hebt toegevoegd bevat nog geen stembureaus. Je voegt ze toe door een eml-bestand met de lijst van stembureaus te importeren in Abacus. Heeft je gemeente dit bestand niet, dan moet dit eerst aangemaakt worden. In uitzonderlijke situaties kun je stembureaus ook handmatig toevoegen, zie Stembureau toevoegen.")
+Voeg de kandidatenlijsten toe:
+
+- Klik weer op **Bestand kiezen** en voeg nu het bestand met de kandidatenlijsten toe.
+- Net zoals bij de verkiezingsdefinitie voer je de ontbrekende delen van de digitale vingerafdruk in en klik je op **Volgende**.
+
+### Stembureaus
+
+Voeg de lijst met stembureaus toe:
+
+- Klik nogmaals op **Bestand kiezen** en voeg het bestand met de stembureaulijst toe. Heeft je gemeente dit bestand niet, dan moet dit eerst aangemaakt worden.
+- Controleer de toegevoegde stembureaus en klik op volgende.
+
+![Controleer stembureaus](./img/controleer-stembureaus.png)
+
+Je kunt stembureaus ook handmatig toevoegen of wijzigen, maar dit is alleen bedoeld voor uitzonderlijke situaties. Kijk hiervoor bij [Stembureaus beheren](#stembureaus-beheren).
+
+### Type stemopneming
+
+Nu zie je opties voor het type stemopneming. Decentrale stemopneming (DSO) wordt in een volgende versie toegevoegd, dus Centrale stemopneming (CSO) is op dit moment de enige optie. Klik daarom meteen op **Volgende**.
+
+### Aantal kiesgerechtigden
+
+- Voer het aantal kiesgerechtigden in. Mogelijk is dit aantal al ingelezen uit het bestand met de stembureaus.
+- Klik weer op **Volgende**.
+
+![Kiesgerechtigden invullen](./img/kiesregerechtigden-invullen.png)
+
+### Controleren en opslaan
+
+- Controleer de gegevens over de verkiezing die je wilt toevoegen en klik op **Opslaan**.
+- Als er iets niet klopt klik je rechtsboven op **Afbreken**. Daarna kun je opnieuw beginnen.
+
+![Controleren en opslaan](./img/toevoegen-verkiezing-controleren-opslaan.png)
+
+De verkiezing is nu toegevoegd en klaar voor steminvoer.
+
+![Verkiezingen beheren](./img/verkiezingen-beheren.png)
 
 ## Stembureaus beheren
 
-Als beheerder kun je ook handmatig stembureaus toevoegen, wijzigen en verwijderen. Dit doe je alleen in afwijkende situaties. Onder **Beheer verkiezingen** klik je op **Stembureaus**. Als er al stembureaus zijn toegevoegd, zie je die hier staan.
+Als beheerder kun je ook handmatig stembureaus toevoegen, wijzigen en verwijderen. Dit doe je alleen in uitzonderlijke situaties.
+
+- Onder **Verkiezingen beheren** klik je op **Stembureaus**. 
+- Als er al stembureaus zijn toegevoegd, zie je die hier staan.
 
 ![Stembureaus beheren](./img/stembureaus-beheren.png)
 
 ### Stembureau toevoegen
 
 - Klik rechts op de knop **+ Stembureau toevoegen**.
-
-[comment]: # (TODO: Instructies voor batch import toevoegen wanneer de stembureau-importfunctie klaar is, en aangeven dat deze instructies alleen bedoeld zijn voor afwijkende situaties.)
-
 - Voer de gegevens van het stembureau in en geef aan welke soort stembureau het is. Als het aantal kiesgerechtigden van het stembureau bekend is kun je dit invullen, maar dat hoeft niet.
 - Klik op **Opslaan en toevoegen**.
 
@@ -65,7 +117,7 @@ Naast het toevoegen van de verkiezing en stembureaus voeg je ook (andere) beheer
 
 ![Rol gebruiker](./img/rol-gebruiker.png)
 
-- Als de gebruiker een invoerder is, kies je eerst of het account op naam staat of anoniem is. Bij de eerste keer inloggen moeten de gebruikers hun echte naam invoeren. Bij beheerders en coördinators zie je dit scherm niet omdat deze accounts altijd op naam staan.
+- Als de gebruiker een invoerder is, kies je eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de volledige naam invoeren. Beheerders en coördinators zien dit scherm niet omdat deze accounts altijd op naam staan.
 
 ![Invoerder: type account](./img/type-account-invoerder.png)
 
@@ -73,9 +125,9 @@ Naast het toevoegen van de verkiezing en stembureaus voeg je ook (andere) beheer
 
 ![Gebruiker toevoegen](./img/gebruiker-toevoegen.png)
 
-## Gebruiker wijzigen of verwijderen
+### Gebruiker wijzigen of verwijderen
 
-- Klik in **Gebruikersbeheer** op de betreffende gebruiker in de lijst.
+- Na naar **Gebruikers beheren** en klik op de betreffende gebruiker in de lijst.
 - Wijzig de volledige naam of reset het wachtwoord. De gebruikersnaam en de rol kunnen niet gewijzigd worden.
 - Verwijder de gebruiker door onderaan het scherm op **Gebruiker verwijderen** te klikken.
 
