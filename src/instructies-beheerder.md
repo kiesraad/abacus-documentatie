@@ -19,7 +19,7 @@ Voordat je verdergaat met het toevoegen van een verkiezing kan het handig zijn o
 
 ## Verkiezing toevoegen en beheren
 
-Je voegt een verkiezing toe door de bestanden met de verkiezingsdefinitie, de kandidatenlijsten en de lijst met stembureaus te importeren in Abacus. Download deze bestanden volgens de instructies die je van de Kiesraad hebt gekregen.
+Je voegt een verkiezing toe door de EML-bestanden met de verkiezingsdefinitie, de kandidatenlijsten en de lijst met stembureaus te importeren in Abacus. Download deze bestanden volgens de instructies die je van de Kiesraad hebt gekregen.
 
 - Als je het account voor de beheerder zojuist hebt aangemaakt, stuurt Abacus je direct naar de juiste pagina om de verkiezing toe te voegen. Als je nog niet op de juiste pagina bent, klik je in het hoofdmenu op **Verkiezingen beheren**.
 - Klik onderaan de pagina op **+ Verkiezing toevoegen**.
@@ -30,8 +30,8 @@ Je voegt een verkiezing toe door de bestanden met de verkiezingsdefinitie, de ka
 
 Voeg eerst de verkiezingsdefinitie toe:
 
-- Klik op **Bestand kiezen** en kies het bestand met de verkiezingsdefinitie.
-- Je ziet nu de digitale vingerafdruk (de hashcode) die bij het bestand hoort, waarvan twee delen zijn afgeschermd. De volledige code heb je van de Kiesraad ontvangen. Voer de ontbrekende delen van de digitale vingerafdruk in en klik op **Volgende**.
+- Klik op **Bestand kiezen** en kies het EML-bestand met de verkiezingsdefinitie.
+- Je ziet nu de digitale vingerafdruk (de hashcode) die bij het bestand hoort, waarvan twee delen zijn afgeschermd. De volledige digitale vingerafdruk staat in hetzelfde zip-bestand als de verkiezingsdefinitie uit de kandidaatstellingsmodule van OSV. Voer de ontbrekende delen van de digitale vingerafdruk in en klik op **Volgende**.
 
 ![Hashcode invullen](./img/hashcode-invullen.png)
 
@@ -43,15 +43,15 @@ Nu zie je opties voor de rol van het stembureau. De rol van Centraal stembureau 
 
 Voeg de kandidatenlijsten toe:
 
-- Klik weer op **Bestand kiezen** en voeg nu het bestand met de kandidatenlijsten toe.
-- Net zoals bij de verkiezingsdefinitie voer je de ontbrekende delen van de digitale vingerafdruk in en klik je op **Volgende**.
+- Klik weer op **Bestand kiezen** en voeg nu het EML-bestand met de kandidatenlijsten toe.
+- Net zoals bij de verkiezingsdefinitie voer je de ontbrekende delen van de digitale vingerafdruk in en klik je op **Volgende**. De digitale vingerafdruk van het EML-bestand met de kandidatenlijst vind je in de PDF met de kandidatenlijst.
 
 ### Stembureaus
 
 Voeg de lijst met stembureaus toe:
 
-- Klik nogmaals op **Bestand kiezen** en voeg het bestand met de stembureaulijst toe. Heeft je gemeente dit bestand niet, dan moet dit eerst aangemaakt worden.
-- Controleer de toegevoegde stembureaus en klik op volgende.
+- Klik nogmaals op **Bestand kiezen** en voeg het EML-bestand met de stembureaulijst toe. Heeft je gemeente dit bestand niet, dan moet dit eerst aangemaakt worden.
+- Controleer de toegevoegde stembureaus aan de hand van de door de gemeente gepubliceerde lijst en klik op volgende.
 
 ![Controleer stembureaus](./img/controleer-stembureaus.png)
 
@@ -59,7 +59,7 @@ Je kunt stembureaus ook handmatig toevoegen of wijzigen, maar dit is alleen bedo
 
 ### Type stemopneming
 
-Nu zie je opties voor het type stemopneming. Decentrale stemopneming (DSO) wordt in een volgende versie toegevoegd, dus Centrale stemopneming (CSO) is op dit moment de enige optie. Klik daarom meteen op **Volgende**.
+Nu zie je opties voor het type stemopneming. Centrale stemopneming (CSO) is op dit moment de enige optie, decentrale stemopneming (DSO) wordt in een volgende versie toegevoegd. Klik daarom meteen op **Volgende**.
 
 ### Aantal kiesgerechtigden
 
@@ -117,7 +117,7 @@ Naast het toevoegen van de verkiezing en stembureaus voeg je ook (andere) beheer
 
 ![Rol gebruiker](./img/rol-gebruiker.png)
 
-- Als de gebruiker een invoerder is, kies je eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de volledige naam invoeren. Beheerders en coördinators zien dit scherm niet omdat deze accounts altijd op naam staan.
+- Als de gebruiker een invoerder is, kies je eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de naam invoeren. Beheerders en coördinators zien dit scherm niet omdat deze accounts altijd op naam staan.
 
 ![Invoerder: type account](./img/type-account-invoerder.png)
 
