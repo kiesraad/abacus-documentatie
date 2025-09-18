@@ -31,7 +31,7 @@ Je voegt een verkiezing toe door de EML-bestanden met de verkiezingsdefinitie, d
 Voeg eerst de verkiezingsdefinitie toe:
 
 - Klik op **Bestand kiezen** en kies het EML-bestand met de verkiezingsdefinitie.
-- Je ziet nu de digitale vingerafdruk (de hashcode) die bij het bestand hoort, waarvan twee delen zijn afgeschermd. De volledige digitale vingerafdruk staat in hetzelfde zip-bestand als de verkiezingsdefinitie uit de kandidaatstellingsmodule van OSV. Voer de ontbrekende delen van de digitale vingerafdruk in en klik op **Volgende**.
+- Je ziet nu de digitale vingerafdruk (de hashcode) die bij het bestand hoort, waarvan twee delen zijn afgeschermd. De volledige digitale vingerafdruk staat in hetzelfde zip-bestand als de verkiezingsdefinitie. Voer de ontbrekende delen van de digitale vingerafdruk in en klik op **Volgende**.
 
 ![Hashcode invullen](./img/hashcode-invullen.png)
 
