@@ -44,7 +44,7 @@ Nu zie je opties voor de rol van het stembureau. De rol van Centraal stembureau 
 Voeg de kandidatenlijsten toe:
 
 - Klik weer op **Bestand kiezen** en voeg nu het EML-bestand met de kandidatenlijsten toe.
-- Net zoals bij de verkiezingsdefinitie voer je de ontbrekende delen van de digitale vingerafdruk in en klik je op **Volgende**. De digitale vingerafdruk van het EML-bestand met de kandidatenlijst vind je in de PDF met de kandidatenlijst.
+- Net zoals bij de verkiezingsdefinitie voer je de ontbrekende delen van de digitale vingerafdruk in en klik je op **Volgende**. De digitale vingerafdruk van het EML-bestand met de kandidatenlijst vind je in de PDF met de kandidatenlijst, onderaan elke pagina.
 
 ### Stembureaus
 
