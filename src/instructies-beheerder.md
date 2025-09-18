@@ -22,7 +22,7 @@ Voordat je verdergaat met het toevoegen van een verkiezing kan het handig zijn o
 Je voegt een verkiezing toe door de EML-bestanden met de verkiezingsdefinitie, de kandidatenlijsten en de lijst met stembureaus te importeren in Abacus. Download deze bestanden volgens de instructies die je van de Kiesraad hebt gekregen.
 
 - Als je het account voor de beheerder zojuist hebt aangemaakt, stuurt Abacus je direct naar de juiste pagina om de verkiezing toe te voegen. Als je nog niet op de juiste pagina bent, klik je in het hoofdmenu op **Verkiezingen beheren**.
-- Klik onderaan de pagina op **+ Verkiezing toevoegen**.
+- Klik onderaan de pagina op **Verkiezing toevoegen**.
 
 ![Verkiezingen beheren - Verkiezing toevoegen](./img/beheren-verkiezing-toevoegen.png)
 
