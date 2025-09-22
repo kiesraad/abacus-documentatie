@@ -19,7 +19,7 @@ Voordat je verdergaat met het toevoegen van een verkiezing kan het handig zijn o
 
 ## Verkiezing toevoegen en beheren
 
-Je voegt een verkiezing toe door de EML-bestanden met de verkiezingsdefinitie, de kandidatenlijsten en de lijst met stembureaus te importeren in Abacus. Download deze bestanden volgens de instructies die je van de Kiesraad hebt gekregen.
+Verzamel de gegevens die je nodig hebt om een verkiezing toe te voegen. Download de verkiezingsdefinitie en kandidatenlijsten volgens de instructies die je van de Kiesraad hebt gekregen. Zorg dat je de gepubliceerde lijst met stembureaus, het aantal kiesgerechtigden in de gemeente en (optioneel) het EML-bestand met de stembureaus hebt.
 
 - Als je het account voor de beheerder zojuist hebt aangemaakt, stuurt Abacus je direct naar de juiste pagina om de verkiezing toe te voegen. Als je nog niet op de juiste pagina bent, klik je in het hoofdmenu op **Verkiezingen beheren**.
 - Klik onderaan de pagina op **Verkiezing toevoegen**.
@@ -75,7 +75,7 @@ Nu zie je opties voor het type stemopneming. Centrale stemopneming (CSO) is op d
 
 ![Controleren en opslaan](./img/toevoegen-verkiezing-controleren-opslaan.png)
 
-De verkiezing is nu toegevoegd en klaar voor steminvoer.
+De verkiezing is nu toegevoegd. Als je de lijst met stembureaus ook hebt toegevoegd, is de verkiezing klaar voor steminvoer. Als dit nog niet gebeurd is, heeft de verkiezing de status 'Zitting voorbereiden' en moeten de stembureaus nog worden toegevoegd voordat de steminvoer kan beginnen.
 
 ![Verkiezingen beheren](./img/verkiezingen-beheren.png)
 
