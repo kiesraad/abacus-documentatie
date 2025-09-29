@@ -46,16 +46,16 @@ Voeg de kandidatenlijsten toe:
 - Klik weer op **Bestand kiezen** en voeg nu het EML-bestand met de kandidatenlijsten toe.
 - Net zoals bij de verkiezingsdefinitie voer je de ontbrekende delen van de digitale vingerafdruk in en klik je op **Volgende**. De digitale vingerafdruk van het EML-bestand met de kandidatenlijst vind je in de PDF van Model I 4: Proces-verbaal over geldigheid en nummering kandidatenlijsten, onderaan elke pagina.
 
-### Stembureaus
+### Optioneel: stembureaus
 
-Voeg de lijst met stembureaus toe:
+Als je een EML-bestand met de stembureaus hebt, voeg je die toe:
 
 - Klik nogmaals op **Bestand kiezen** en voeg het EML-bestand met de stembureaulijst toe. Heeft je gemeente dit bestand niet, dan moet dit eerst aangemaakt worden.
 - Controleer de toegevoegde stembureaus aan de hand van de door de gemeente gepubliceerde lijst en klik op volgende.
 
 ![Controleer stembureaus](./img/controleer-stembureaus.png)
 
-Je kunt stembureaus ook handmatig toevoegen of wijzigen, maar dit is alleen bedoeld voor uitzonderlijke situaties. Kijk hiervoor bij [Stembureaus beheren](#stembureaus-beheren).
+Als je deze stap wilt overslaan, klik je direct op **Volgende**. Na het toevoegen van de verkiezing kun je de stembureaus dan handmatig toevoegen of wijzigen. Kijk hiervoor bij [Stembureaus beheren](#stembureaus-beheren).
 
 ### Type stemopneming
 
@@ -81,9 +81,9 @@ De verkiezing is nu toegevoegd. Als je de lijst met stembureaus ook hebt toegevo
 
 ## Stembureaus beheren
 
-Je kunt stembureaus handmatig toevoegen, wijzigen en verwijderen om ervoor te zorgen dat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd. Dit is ook handig als de gemeente een klein aantal stembureaus heeft en er geen EML-bestand met stembureaus aanwezig is. 
+Je kunt stembureaus handmatig toevoegen, wijzigen en verwijderen om ervoor te zorgen dat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd. Dit is ook handig als de gemeente een klein aantal stembureaus heeft en er geen EML-bestand met stembureaus aanwezig is.
 
-- Onder **Verkiezingen beheren** klik je op **Stembureaus**. 
+- Onder **Verkiezingen beheren** klik je op **Stembureaus**.
 - Als er al stembureaus zijn toegevoegd, zie je die hier staan.
 
 ![Stembureaus beheren](./img/stembureaus-beheren.png)
