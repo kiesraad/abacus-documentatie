@@ -19,7 +19,7 @@ Voordat je verdergaat met het toevoegen van een verkiezing kan het handig zijn o
 
 ## Verkiezing toevoegen en beheren
 
-Verzamel de gegevens die je nodig hebt om een verkiezing toe te voegen. Zorg dat je de EML-bestanden met de verkiezingsdefinitie en kandidatenlijsten, de gepubliceerde lijst met stembureaus, het aantal kiesgerechtigden in de gemeente en (optioneel) het EML-bestand met de stembureaus hebt.
+Verzamel de gegevens die je nodig hebt om een verkiezing toe te voegen. Zorg dat je de EML-bestanden met de verkiezingsdefinitie (EML 110a) en kandidatenlijsten (EML 230b), de gepubliceerde lijst met stembureaus, het aantal kiesgerechtigden in de gemeente en (optioneel) het EML-bestand met de stembureaus (EML 110b) hebt.
 
 - Als je het account voor de beheerder zojuist hebt aangemaakt, stuurt Abacus je direct naar de juiste pagina om de verkiezing toe te voegen. Als je nog niet op de juiste pagina bent, klik je in het hoofdmenu op **Verkiezingen beheren**.
 - Klik onderaan de pagina op **Verkiezing toevoegen**.
@@ -30,8 +30,8 @@ Verzamel de gegevens die je nodig hebt om een verkiezing toe te voegen. Zorg dat
 
 Voeg eerst de verkiezingsdefinitie toe:
 
-- Klik op **Bestand kiezen** en kies het EML-bestand met de verkiezingsdefinitie.
-- Je ziet nu de digitale vingerafdruk (de hashcode) die bij het bestand hoort, waarvan twee delen zijn afgeschermd. De volledige digitale vingerafdruk staat in hetzelfde zip-bestand als de verkiezingsdefinitie. Voer de ontbrekende delen van de digitale vingerafdruk in en klik op **Volgende**.
+- Klik op **Bestand kiezen** en kies het EML-bestand met de verkiezingsdefinitie (EML 110a).
+- Je ziet nu de digitale vingerafdruk (de hashcode) die bij het bestand hoort, waarvan twee delen zijn afgeschermd. De volledige digitale vingerafdruk staat in hetzelfde ZIP-bestand als de verkiezingsdefinitie. Voer de ontbrekende delen van de digitale vingerafdruk in en klik op **Volgende**.
 
 ![Hashcode invullen](./img/hashcode-invullen.png)
 
@@ -43,14 +43,14 @@ Nu zie je opties voor de rol van het stembureau. De rol van Centraal stembureau 
 
 Voeg de kandidatenlijsten toe:
 
-- Klik weer op **Bestand kiezen** en voeg nu het EML-bestand met de kandidatenlijsten toe.
-- Net zoals bij de verkiezingsdefinitie voer je de ontbrekende delen van de digitale vingerafdruk in en klik je op **Volgende**. De digitale vingerafdruk van het EML-bestand met de kandidatenlijst vind je in de PDF van Model I 4: Proces-verbaal over geldigheid en nummering kandidatenlijsten, onderaan elke pagina.
+- Klik weer op **Bestand kiezen** en voeg nu het EML-bestand met de kandidatenlijsten (EML 230b) toe.
+- Net zoals bij de verkiezingsdefinitie voer je de ontbrekende delen van de digitale vingerafdruk in en klik je op **Volgende**. De digitale vingerafdruk van het EML-bestand met de kandidatenlijsten (EML 230b) vind je in de PDF van Model I 4: Proces-verbaal over geldigheid en nummering kandidatenlijsten, onderaan elke pagina.
 
 ### Optioneel: stembureaus
 
-Als je een EML-bestand met de stembureaus hebt, voeg je die toe:
+Als je een EML-bestand met de stembureaus (EML 110b) hebt, voeg je die toe:
 
-- Klik nogmaals op **Bestand kiezen** en voeg het EML-bestand met de stembureaulijst toe. Heeft je gemeente dit bestand niet, dan moet dit eerst aangemaakt worden.
+- Klik op **Bestand kiezen** en voeg het EML-bestand toe.
 - Controleer de toegevoegde stembureaus aan de hand van de door de gemeente gepubliceerde lijst en klik op volgende.
 
 ![Controleer stembureaus](./img/controleer-stembureaus.png)
@@ -63,7 +63,7 @@ Nu zie je opties voor het type stemopneming. Centrale stemopneming (CSO) is op d
 
 ### Aantal kiesgerechtigden
 
-- Voer het aantal kiesgerechtigden in. Mogelijk is dit aantal al ingelezen uit het bestand met de stembureaus.
+- Voer het aantal kiesgerechtigden in. Mogelijk is dit aantal al ingelezen uit het EML-bestand met de stembureaus (EML 110b).
 - Klik weer op **Volgende**.
 
 ![Kiesgerechtigden invullen](./img/kiesregerechtigden-invullen.png)
@@ -81,7 +81,7 @@ De verkiezing is nu toegevoegd. Als je de lijst met stembureaus ook hebt toegevo
 
 ## Stembureaus beheren
 
-Je kunt stembureaus handmatig toevoegen, wijzigen en verwijderen om ervoor te zorgen dat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd. Dit is ook handig als de gemeente een klein aantal stembureaus heeft en er geen EML-bestand met stembureaus aanwezig is.
+Je kunt stembureaus handmatig toevoegen, wijzigen en verwijderen om ervoor te zorgen dat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd. Dit is ook handig als de gemeente een klein aantal stembureaus heeft en er geen EML-bestand met stembureaus (EML 110b) aanwezig is.
 
 - Onder **Verkiezingen beheren** klik je op **Stembureaus**.
 - Als er al stembureaus zijn toegevoegd, zie je die hier staan.
