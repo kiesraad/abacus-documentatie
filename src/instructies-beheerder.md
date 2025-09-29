@@ -75,13 +75,13 @@ Nu zie je opties voor het type stemopneming. Centrale stemopneming (CSO) is op d
 
 ![Controleren en opslaan](./img/toevoegen-verkiezing-controleren-opslaan.png)
 
-De verkiezing is nu toegevoegd. Als je de lijst met stembureaus ook hebt toegevoegd, is de verkiezing klaar voor steminvoer. Als dit nog niet gebeurd is, heeft de verkiezing de status 'Zitting voorbereiden' en moeten de stembureaus nog worden toegevoegd voordat de steminvoer kan beginnen.
+De verkiezing is nu toegevoegd. Als je de lijst met stembureaus ook hebt toegevoegd, is de verkiezing klaar voor steminvoer. Als dit nog niet gebeurd is, heeft de verkiezing de status 'Zitting voorbereiden'. De steminvoer kan pas beginnen nadat de stembureaus zijn toegevoegd.
 
 ![Verkiezingen beheren](./img/verkiezingen-beheren.png)
 
 ## Stembureaus beheren
 
-Je kunt stembureaus handmatig toevoegen, wijzigen en verwijderen om ervoor te zorgen dat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd. Dit is ook handig als de gemeente een klein aantal stembureaus heeft en er geen EML-bestand met stembureaus (EML 110b) aanwezig is.
+Je kunt stembureaus ook handmatig toevoegen, wijzigen en verwijderen om ervoor te zorgen dat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd. Dit is ook handig als de gemeente een klein aantal stembureaus heeft en er geen EML-bestand met stembureaus (EML 110b) aanwezig is.
 
 - Onder **Verkiezingen beheren** klik je op **Stembureaus**.
 - Als er al stembureaus zijn toegevoegd, zie je die hier staan.
