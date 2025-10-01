@@ -7,14 +7,16 @@ Hieronder vind je instructies voor de verschillende methodes.
 
 Als je Abacus wilt uitproberen of testen zonder het te installeren, kun je dit doen op <https://abacus-test.nl/>. Hier heb je de volgende opties:
 
-- Maak een nieuwe omgeving aan door bovenaan op `Create new` te klikken. Deze omgeving is gebaseerd op onze wekelijkse release-builds.
+- Maak een nieuwe omgeving aan door bovenaan op `Create new` te klikken. Je kunt kiezen uit de twee meest recente main builds en release builds.
 - Als je wilt testen hoe de omgeving werkt na de implementatie van een specifieke pull request, klik dan op `Create new` bij de relevante regel onder **Pull requests**.
 - Zoek je naar een bepaalde pull request maar staat die er niet bij, klik dan op `Sync pull requests`. De lijst wordt dan vernieuwd.
-- Bestaande omgevingen staan onder **Running services**. Kies hier een omgeving die al is aangemaakt. Als het nodig is kun je hier een zelf aangemaakte omgeving stoppen.
+- Bestaande omgevingen staan onder **Running services**. Omgevingen die je eerder hebt aangemaakt vind je hier terug en kun je ook stoppen.
+
+Op <https://abacus-test.nl/> is het alleen mogelijk om een testomgeving aan te maken waarin al testgegevens staan. Als je met een lege database wilt beginnen moet je Abacus downloaden en installeren.
 
 ## Installeren en starten
 
-Bij de onderstaande installatiemethodes is aangegeven op welke besturingssystemen ze werken. De methoden voor Linux werken op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (22.04 en hoger) en Debian (12/bookworm). De Windows-methoden zijn getest op Windows 11.
+Bij de onderstaande installatiemethodes is aangegeven op welke besturingssystemen ze werken. De methoden voor Linux werken op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (22.04) en Debian (12/bookworm en 13/trixie). De Windows-methoden zijn getest op Windows 11.
 
 ### Methode 1: installatiebestand downloaden en starten (Linux, macOS, Windows)
 
@@ -35,15 +37,7 @@ chmod +x /path/to/binary/abacus-[OS-version]
 Voer Abacus uit:
 
 ```sh
-./path/to/binary/abacus-[OS-version] --reset-database --seed-data
-```
-
-De argumenten zorgen ervoor dat de database wordt gereset en wordt geladen met fixtures. Het is natuurlijk ook mogelijk om Abacus zonder argumenten te starten, maar als je dat doet bevat de app geen data en zie je op de pagina het bericht *'Verkiezingen niet gevonden'*.
-
-De kortere versie van deze opdracht is:
-
-```sh
-./path/to/binary/abacus-[OS-version] -rs
+./path/to/binary/abacus-[OS-version] 
 ```
 
 Zie ook de [help](#help).
@@ -55,15 +49,7 @@ Voordat je Abacus kunt gebruiken op Windows heb je eerst het programma Microsoft
 Open een Command Prompt of Powershell en voer Abacus uit. Als je Command Prompt gebruikt, hoef je de `.\` aan het begin niet te typen.
 
 ```sh
-.\path\to\binary\abacus-windows-[version].exe --reset-database --seed-data
-```
-
-De argumenten zorgen ervoor dat de database wordt gereset en wordt geladen met fixtures. Het is natuurlijk ook mogelijk om Abacus zonder argumenten te starten, maar als je dat doet bevat de app geen data en zie je op de pagina het bericht *'Verkiezingen niet gevonden'*.
-
-De kortere versie van deze opdracht is:
-
-```sh
-.\path\to\binary\abacus-windows-[version].exe -rs
+.\path\to\binary\abacus-windows-[version].exe
 ```
 
 Zie ook de [help](#help).
@@ -120,7 +106,11 @@ docker compose up
 
 Ook deze optie is bedoeld voor development.
 
-### Help
+## Starten met lege database
+
+In de map met het installatiebestand maakt Abacus het databasebestand *db.sqlite* aan waarin alle verkiezings- en gebruikersgegevens worden opgeslagen. Gooi dit bestand weg als je deze gegevens wilt verwijderen en Abacus wilt starten met een lege database. Je kunt ook de database resetten door Abacus te starten met het argument `-r` of `--reset-database`.
+
+## Help
 
 Voor meer informatie over de argumenten bekijk je de helpfunctie via de commandline. Op macOS en Linux gebruik je de volgende opdracht:
 
