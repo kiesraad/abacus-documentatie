@@ -6,7 +6,7 @@ Na het tellen van de stemmen wordt voor elk stembureau een proces-verbaal ingevu
 
 Elk stembureau wordt twee keer ingevoerd (door twee verschillende invoerders). De tweede invoerder krijgt een waarschuwing als diens invoer afwijkt van de eerste invoerder. Ook hier geldt dat je de instructies volgt of overlegt met je coördinator. Na de tweede invoer controleert Abacus of de eerste en tweede invoer overeenkomen. Als alles klopt is de invoer van het betreffende stembureau compleet.
 
-## 2. Informatie vooraf
+## 1. Informatie vooraf
 
 ### 1.1. Navigeren en pauzeren
 
