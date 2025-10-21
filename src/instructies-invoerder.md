@@ -33,9 +33,8 @@ Tijdens de invoer kunnen er fouten en waarschuwingen ontstaan. In alle gevallen 
 
 ### 1.3. Tweede invoer
 
-Bij het stembureau staat ook aangegeven of je de eerste invoer of tweede invoer gaat doen. Voor beide invoeren zijn de instructies hetzelfde. Bij een tweede invoer geldt daarnaast het volgende:
-
-- Je ziet mogelijk extra waarschuwingen als jouw invoer verschilt met de eerste invoer. Zorg dan dat je invoer overeenkomt met het papier en herstel eventuele fouten. Als alles klopt zet je een vinkje bij **Ik heb mijn invoer gecontroleerd met het papier en correct overgenomen** en klik je weer op **Volgende**.
+- Bij het stembureau staat ook aangegeven of je de eerste invoer of tweede invoer gaat doen. Voor beide invoeren zijn de instructies hetzelfde.
+- Bij een tweede invoer zie je mogelijk extra waarschuwingen als jouw invoer verschilt met de eerste invoer. Zorg dan dat je invoer overeenkomt met het papier en herstel eventuele fouten. Als alles klopt zet je een vinkje bij **Ik heb mijn invoer gecontroleerd met het papier en correct overgenomen** en klik je weer op **Volgende**.
 
 ![Tweede invoer extra controle](./img/invoeren-2e-invoer-extra-controle.png)
 
@@ -45,7 +44,7 @@ Bij het stembureau staat ook aangegeven of je de eerste invoer of tweede invoer 
 
 ## 2. Inloggen en account instellen
 
-Je krijgt inloginstructies van je coördinator. Klik rechtsboven op **Inloggen** en vul de gegevens in. Als je al eerder ingelogd hebt, gebruik je het door jou ingestelde wachtwoord.
+Je krijgt inloginstructies van je coördinator. Vul de gegevens in en klik op **Inloggen**. Als je al eerder ingelogd hebt, gebruik je het door jou ingestelde wachtwoord.
 
 Wanneer je voor de eerste keer inlogt, stel je je account eerst in voor gebruik. Voer je naam in als er nog geen naam staat, of wijzig je naam als die onjuist is. Kies vervolgens een nieuw wachtwoord en vul dit twee keer in.
 
