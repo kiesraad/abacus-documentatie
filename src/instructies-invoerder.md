@@ -8,7 +8,7 @@ Elk stembureau wordt twee keer ingevoerd (door twee verschillende invoerders). D
 
 ## 1. Informatie vooraf
 
-### 1.1. Navigeren en pauzeren
+### 1.1. Navigeren
 
 Je kunt in Abacus een aantal sneltoetsen gebruiken waarmee je handig naar andere velden navigeert. Dit zijn de sneltoetsen:
 
@@ -18,8 +18,6 @@ Je kunt in Abacus een aantal sneltoetsen gebruiken waarmee je handig naar andere
 - Met `shift ⇧`+`enter ⏎` ga je naar de volgende pagina/lijst.
 
 **Let op:** Je hoeft geen nullen in te voeren. Als je een veld leeg laat, wordt dat gezien als een nul. Je kunt direct met `tab ↹` naar het volgende veld gaan.
-
-Als je even pauze wilt, klik dan rechtsboven op **Invoer afbreken** en vervolgens op **Invoer bewaren**. Na je pauze klik je onder **Je hebt nog een openstaande invoer** op het stembureau en kun je doorgaan waar je gebleven was.
 
 ### 1.2. Fouten en waarschuwingen
 
@@ -125,4 +123,6 @@ Als je nog een stembureau wilt invoeren, kun je direct een ander stembureaunumme
 
 Het kan zijn dat je even pauze wilt nemen of de invoer om een andere reden wilt onderbreken. Je kunt ook de invoer weggooien om eventueel opnieuw te beginnen.
 
-Klik op **Invoer afbreken**. In een popup wordt gevraagd of je de invoer wilt bewaren. Als je later wilt doorgaan met invoeren, klik je op **Invoer bewaren**. Wil je de invoer weggooien, klik dan op **Niet bewaren**.
+- Klik op **Invoer afbreken**. In een popup wordt gevraagd of je de invoer wilt bewaren:
+  - Als je alleen wilt pauzeren, klik je op **Invoer bewaren**. Na je pauze klik je onder **Je hebt nog een openstaande invoer** op het stembureau en kun je doorgaan waar je gebleven was.
+  - Wil je de invoer weggooien, klik dan op **Niet bewaren**.
