@@ -7,6 +7,7 @@ Deze cheatsheet is een handig overzicht van de sneltoetsen voor navigatie. Ook l
 Met het toetsenbord kun je snel door de pagina's heen nagiveren. Hiervoor gebruik je de volgende sneltoetsen:
 
 - Met `tab ↹`, `pijl omlaag ↓` of `enter ⏎` ga je naar het volgende veld.
+- Vinkjes of keuzerondjes kun je met de spatiebalk aanzetten.
 - Met `shift ⇧`+`tab ↹` of `pijl omhoog ↑` ga je naar het vorige veld.
 - Met `shift ⇧`+`pijl omlaag ↓` ga je naar het laatste veld op de pagina. Dit is handig als je geen aantallen meer hoeft in te vullen bij kandidaten en direct het totaal wilt invullen.
 - Met de knop **Volgende** of met `shift ⇧`+`enter ⏎` ga je naar de volgende pagina/lijst.
