@@ -62,7 +62,14 @@ Wanneer Abacus draait, ga je in je browser naar <http://127.0.0.1:8080> om de om
 
 *Let op: voor deze methode moet je de repository klonen of downloaden.*
 
-In plaats van het script kun je ook handmatig `cargo run` vanuit de backend-map en `npm run dev` vanuit de frontend-map in twee verschillende terminals starten. Hiervoor gelden dezelfde vereisten als bij het uitvoeren van het pull-and-run-script. Deze optie is bedoeld voor development.
+Je kunt Abacus ook handmatig starten vanuit de gekloonde repository. Deze optie is bedoeld voor development.
+
+Zorg eerst dat je `npm` en `cargo` hebt geïnstalleerd:
+
+- `npm` is onderdeel van Node.js en dit kun je installeren door de instructies te volgen op de [website van Node.js](https://nodejs.org/en/download/package-manager).
+- `cargo` is onderdeel van Rust en installatie-instructies hiervoor vind je op de [website van Rust](https://www.rust-lang.org/learn/get-started).
+
+Daarna start je `cargo run` vanuit de backend-map en `npm run dev` vanuit de frontend-map in twee verschillende terminals.
 
 ### Methode 3: Docker Compose (Linux, macOS, Windows)
 
