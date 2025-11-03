@@ -58,49 +58,13 @@ Na het starten zie je een popup van Windows Security over de Windows Firewall. H
 
 Wanneer Abacus draait, ga je in je browser naar <http://127.0.0.1:8080> om de omgeving te gebruiken.
 
-### Methode 2: script `pull-and-run` uitvoeren (Linux, macOS)
-
-*Let op: voor deze methode moet je de repository klonen of downloaden.*
-
-Dit is een Bash-script dat is bedoeld om snel Abacus te bouwen en starten. Het staat in de hoofdmap van de repository. Het script maakt geen gebruik van Docker, waardoor het wel nodig is om `npm` en `cargo` geïnstalleerd te hebben.
-
-- `npm` is onderdeel van Node.js en dit kun je installeren door de instructies te volgen op de [website van Node.js](https://nodejs.org/en/download/package-manager).
-- `cargo` is onderdeel van Rust en installatie-instructies hiervoor vind je op de [website van Rust](https://www.rust-lang.org/learn/get-started).
-
-Voor pull-and-run geldt het volgende:
-
-- Je kunt een git-branch als argument meegeven, zodat je snel de productiebuild van een bepaalde branch kunt starten. Als je het argument weglaat, wordt de huidige branch gebouwd.
-- Bij starten met pull-and-run is het belangrijk dat je eerst een `git pull` doet of dat je start vanuit `./pull-and-run main`. Anders wordt niet de nieuwste versie gestart.
-- Starten met een lege database en het argument `-r` of `--reset-database` werkt niet vanuit pull-and-run.
-
-Zo start je de huidige branch:
-
-```sh
-./pull-and-run
-```
-
-En zo start je een specifieke branch:
-
-```sh
-./pull-and-run [name-of-branch]
-```
-
-Wanneer Abacus draait, ga je in je browser naar (<http://127.0.0.1:8080>) om de omgeving te gebruiken.
-
-**Let op:** mogelijk zie je een foutmelding die aangeeft dat de package `sqlx` ontbreekt. Installeer deze package dan eerst en probeer het vervolgens opnieuw:
-
-```sh
-cargo install sqlx-cli
-./pull-and-run
-```
-
-### Methode 3: handmatig starten (Linux, macOS, Windows)
+### Methode 2: handmatig starten (Linux, macOS, Windows)
 
 *Let op: voor deze methode moet je de repository klonen of downloaden.*
 
 In plaats van het script kun je ook handmatig `cargo run` vanuit de backend-map en `npm run dev` vanuit de frontend-map in twee verschillende terminals starten. Hiervoor gelden dezelfde vereisten als bij het uitvoeren van het pull-and-run-script. Deze optie is bedoeld voor development.
 
-### Methode 4: Docker Compose (Linux, macOS, Windows)
+### Methode 3: Docker Compose (Linux, macOS, Windows)
 
 Hiermee start je de backend in watch mode. Assets worden geserveerd door de build tool `vite` en maken dus gebruik van Hot Module Reloading:
 
