@@ -6,101 +6,82 @@ Na het tellen van de stemmen wordt voor elk stembureau een proces-verbaal ingevu
 
 Elk stembureau wordt twee keer ingevoerd (door twee verschillende invoerders). De tweede invoerder krijgt een waarschuwing als diens invoer afwijkt van de eerste invoerder. Ook hier geldt dat je de instructies volgt of overlegt met je coördinator. Na de tweede invoer controleert Abacus of de eerste en tweede invoer overeenkomen. Als alles klopt is de invoer van het betreffende stembureau compleet.
 
-## Inloggen en account instellen
+## 1. Inloggen en account instellen
 
-Je krijgt inloginstructies van je coördinator. Klik rechtsboven op **Inloggen** en vul de gegevens in. Als je al eerder ingelogd hebt, gebruik je het door jou ingestelde wachtwoord.
+Je krijgt inloginstructies van je coördinator. Vul de gegevens in en klik op **Inloggen**. Als je al eerder ingelogd hebt, gebruik je het door jou ingestelde wachtwoord.
 
 Wanneer je voor de eerste keer inlogt, stel je je account eerst in voor gebruik. Voer je naam in als er nog geen naam staat, of wijzig je naam als die onjuist is. Kies vervolgens een nieuw wachtwoord en vul dit twee keer in.
 
 ![Account instellen](./img/invoeren-account-instellen.png)
 
-## Invoeren
+## 2. Stembureau invoeren
 
-Nu je bent ingelogd, ben je klaar om de resultaten van een stembureau in te voeren.
+In de volgende stappen lees je hoe je een stembureau invoert. Gebruik hierbij de [cheatsheet](cheatsheet.md) met daarin de volgende informatie:
 
-### Navigeren en pauzeren
+- [Hoe je kunt invoeren en welke sneltoetsen je gebruikt](cheatsheet.md#invoeren-en-sneltoetsen)
+- [Wat je moet doen bij waarschuwingen en fouten](cheatsheet.md#waarschuwingen-en-fouten)
+- [Hoe je een tweede invoer afrondt](cheatsheet.md#tweede-invoer)
+- [Hoe je de invoer kunt pauzeren of onderbreken](cheatsheet.md#pauzeren-of-onderbreken)
 
-Je kunt in Abacus een aantal sneltoetsen gebruiken waarmee je handig naar andere velden nagiveert. Dit zijn de sneltoetsen:
+ **Let op:** je mag het papieren proces-verbaal niet aanpassen, ook niet als je fouten ziet. In dat geval neem je de foute invoer over zoals het op het papier staat.
 
-- Met `tab ↹`, `pijl omlaag ↓` of `enter ⏎` ga je naar het volgende veld.
-- Met `shift ⇧`+`tab ↹` of `pijl omhoog ↑` ga je naar het vorige veld.
-- Met `shift ⇧`+`pijl omlaag ↓` ga je naar het laatste veld op de pagina. Dit is handig als je geen aantallen meer hoeft in te vullen bij kandidaten en direct het totaal wilt invullen.
-- Met `shift ⇧`+`enter ⏎` ga je naar de volgende pagina/lijst.
+### 2.1. Verkiezing en stembureau selecteren
 
-**Let op:** Je hoeft geen nullen in te voeren. Als je een veld leeg laat, wordt dat gezien als een nul. Je kunt direct met `tab ↹` naar het volgende veld gaan.
-
-Als je even pauze wilt, klik dan rechtsboven op **Invoer afbreken** en vervolgens op **Invoer bewaren**. Na je pauze klik je onder **Je hebt nog een openstaande invoer** op het stembureau en kun je doorgaan waar je gebleven was.
-
-### Verkiezing selecteren
-
-Selecteer je eerst de verkiezing waarvoor je stemmen wilt invoeren. Meestal staat er maar één verkiezing in deze lijst. Zie je twee of meer verkiezingen en weet je niet welke je moet kiezen, vraag het dan aan je coördinator. Hier zie je ook wat de status van de verkiezing is.
+Selecteer eerst de verkiezing waarvoor je stemmen wilt invoeren. Hier zie je ook wat de status van de verkiezing is.
 
 ![Verkiezing selecteren](./img/invoeren-verkiezing-selecteren.png)
 
-### Stembureau invoeren of selecteren
+Selecteer nu het stembureau:
 
-Voer vervolgens het nummer in van het stembureau dat je wilt invoeren. Het nummer vind je op het proces-verbaal. Weet je het nummer niet, klik dan onderaan de pagina op **Bekijk de lijst met alle stembureaus** en kies vervolgens het juiste stembureau op basis van de naam.
+- Voer het nummer in van het stembureau dat je wilt invoeren. Het nummer vind je op het proces-verbaal.
+- Weet je het nummer niet, klik dan onderaan de pagina op **Toon de lijst met nog in te vullen stembureaus** en kies vervolgens het juiste stembureau.
 
-![Stembureaunummer invoeren](./img/invoeren-stembureaunummer-invoeren.png)
+![Stembureau kiezen](./img/invoeren-stembureau-kiezen.png)
 
-![Verkiezing selecteren](./img/invoeren-kies-stembureau.png)
+### 2.2. Extra onderzoek
 
-### Is er herteld?
+Op pagina 1 van het papieren formulier is aangegeven of er extra onderzoek is uitgevoerd.
 
-Geef eerst aan of er op basis van een onverklaard verschil tussen het aantal toegelaten kiezers en het aantal uitgebrachte stemmen een hertelling is geweest. Als dit zo is, kun je op het proces-verbaal zien dat het vakje direct onder de locatie van het stembureau is aangevinkt. Kies vervolgens **Ja, er was een hertelling** of **Nee, er was geen hertelling**.
+Neem de vinkjes over zoals ze in het proces-verbaal staan en klik op **Volgende**.
 
-![Was er een hertelling?](./img/invoeren-hertelling-ja-nee.png)
+![Extra onderzoek](./img/invoeren-extra-onderzoek.png)
 
-### Aantal kiezers en stemmen
+Als de vragen op het papier niet zijn ingevuld, dan is er geen extra onderzoek uitgevoerd en kun je direct doorgaan naar de volgende pagina.
 
-Op deze pagina voer je het aantal toegelaten kiezers en uitgebrachte stemmen in. Neem de aantallen over van de velden A tot en met H. Deze velden vind je in rubriek 1 en 2 op het proces-verbaal.
+### 2.3. Verschillen met stembureau
 
-**Hertelling:** als je op de vorige pagina hebt aangegeven dat er een hertelling is geweest, neem je ook de cijfers over van de velden A.2 tot en met D.2. Deze velden vind je in rubriek 3 op het proces-verbaal.
+Op pagina 2 van het papieren formulier is aangegeven of er verschillen zijn met de telresultaten van het stembureau.
 
-Nadat je de velden hebt ingevuld, klik je op **Volgende**.
+Neem de vinkjes over zoals ze in het proces-verbaal staan en klik op **Volgende**.
 
-**Let op:** Het is mogelijk dat je nu een of meerdere waarschuwingen ziet omdat er een onverwachte afwijking is. Controleer dan of je het papieren proces-verbaal goed hebt overgenomen. Als alles klopt, vink je de optie **Ik heb de aantallen gecontroleerd met het papier en correct overgenomen** aan en klik je nogmaals op **Volgende**.
+![Verschillen met stembureau](./img/invoeren-verschillen-stembureau.png)
 
-![Waarschuwingen bij Toegelaten kiezers en uitgebrachte stemmen](./img/invoeren-kiezers-stemmen-waarschuwingen.png)
+### 2.4. Aantal kiezers en stemmen
 
-### Verschillen
+Nu voer je de toegelaten kiezers en uitgebrachte stemmen in. Dit zijn de velden A tot en met H in rubriek B1 - 3.1 en 3.2 op pagina 4 en 5 van het papieren formulier.
 
-In rubriek 3 op het procesverbaal is aangegeven of er verschillen zijn tussen het aantal toegelaten kiezers en het aantal uitgebrachte stemmen, en wat de verklaringen hiervoor zijn. Neem de aantallen uit het proces-verbaal over in de velden I tot en met O.
+Neem de cijfers over zoals ze in het proces-verbaal staan en klik op **Volgende**.
 
-**Let op:** op het proces-verbaal zijn deze velden niet voorzien van letters. Kijk dus goed of je de cijfers juist overneemt.
+![Toegelaten kiezers en uitgebrachte stemmen](./img/invoeren-kiezers-stemmen.png)
 
-![Verschillen tussen toegelaten kiezers en uitgebrachte stemmen](./img/invoeren-verschillen.png)
+### 2.5. Verschillen D & H
 
-### Lijsten
+Op pagina 6 van het papieren formulier is aangegeven of er verschillen zijn tussen het aantal kiezers en het aantal uitgebrachte stemmen.
 
-Nu ga je invoeren hoeveel stemmen zijn geteld voor elke kandidaat op elke lijst.
+Neem de vinkjes en cijfers over zoals ze in het proces-verbaal staan en klik op **Volgende**.
 
-Neem de cijfers over zoals ze in het proces-verbaal staan. Lege velden en velden met een nul op het proces-verbaal kun je ook leeglaten in Abacus.
+![Verschillen tussen toegelaten kiezers en uitgebrachte stemmen](./img/invoeren-verschillen-dh.png)
 
-**Let op:** Op het proces-verbaal staan ook velden voor het subtotaal van elke kolom. Deze kun je negeren.
+### 2.6. Lijsten
 
-Als je bij de kandidaten alle aantallen hebt ingevuld en je tot het totaal alleen maar lege velden ziet, ga je met `shift ⇧`+`pijl omlaag ↓` direct naar het invoerveld voor het totaal.
-
-Als je klaar bent met het invoeren van de lijst, klik je op **Volgende** of druk je op `shift ⇧`+`enter ⏎` om naar de volgende lijst te gaan.
-
-**Let op:** Er kan een foutmelding worden weergegeven als de aantallen niet met elkaar kloppen. Controleer of je de aantallen goed hebt overgenomen. Als de aantallen overeenkomen met het proces-verbaal en je de fout nog steeds ziet, overleg dan met je coördinator.
+Nu ga je invoeren hoeveel stemmen zijn geteld voor elke kandidaat op elke lijst. Neem de cijfers over zoals ze in het proces-verbaal staan. Hierbij gebruik je de sneltoetsen en instructies in de [cheatsheet](cheatsheet.md#invoeren-en-sneltoetsen).
 
 ![Lijst invoeren](./img/invoeren-lijst.png)
 
-### Controleren en opslaan
+### 2.7. Controleren en opslaan
 
-Wanneer je de laatste lijst hebt ingevoerd, klik je op **Volgende**. De invoer wordt nu gecontroleerd en je ziet of er geaccepteerde waarschuwingen zijn. Klik nu op **Opslaan**.
-
-Als je nog een stembureau wilt invoeren, kun je direct een ander stembureaunummer invullen of een stembureau uit de lijst kiezen.
+Wanneer je de laatste lijst hebt ingevoerd, klik je op **Volgende**. De invoer wordt nu gecontroleerd en je ziet of er waarschuwingen zijn. Klik nu op **Opslaan**.
 
 ![Controleren en opslaan](./img/invoeren-controleren-opslaan.png)
 
-## Invoer afbreken
-
-Het kan zijn dat je even pauze wilt nemen of de invoer om een andere reden wilt onderbreken. Je kunt ook de invoer weggooien om eventueel opnieuw te beginnen.
-
-Klik op **Invoer afbreken**. In een popup wordt gevraagd of je de invoer wilt bewaren. Als je later wilt doorgaan met invoeren, klik je op **Invoer bewaren**. Wil je de invoer weggooien, klik dan op **Niet bewaren**.
-
-## Vragen
-
-Voor alle problemen en vragen die je hebt kun je bij je coördinator terecht.
+Als je nog een stembureau wilt invoeren, kun je direct een ander stembureaunummer invullen of een stembureau uit de lijst kiezen.

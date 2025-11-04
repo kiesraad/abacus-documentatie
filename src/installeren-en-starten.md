@@ -67,7 +67,11 @@ Dit is een Bash-script dat is bedoeld om snel Abacus te bouwen en starten. Het s
 - `npm` is onderdeel van Node.js en dit kun je installeren door de instructies te volgen op de [website van Node.js](https://nodejs.org/en/download/package-manager).
 - `cargo` is onderdeel van Rust en installatie-instructies hiervoor vind je op de [website van Rust](https://www.rust-lang.org/learn/get-started).
 
-Je kunt een git-branch als argument meegeven, zodat je snel de productiebuild van een bepaalde branch kunt starten. Als je het argument weglaat, wordt de huidige branch gebouwd.
+Voor pull-and-run geldt het volgende:
+
+- Je kunt een git-branch als argument meegeven, zodat je snel de productiebuild van een bepaalde branch kunt starten. Als je het argument weglaat, wordt de huidige branch gebouwd.
+- Bij starten met pull-and-run is het belangrijk dat je eerst een `git pull` doet of dat je start vanuit `./pull-and-run main`. Anders wordt niet de nieuwste versie gestart.
+- Starten met een lege database en het argument `-r` of `--reset-database` werkt niet vanuit pull-and-run.
 
 Zo start je de huidige branch:
 
@@ -83,7 +87,7 @@ En zo start je een specifieke branch:
 
 Wanneer Abacus draait, ga je in je browser naar (<http://127.0.0.1:8080>) om de omgeving te gebruiken.
 
-Let op: mogelijk zie je een foutmelding die aangeeft dat de package `sqlx` ontbreekt. Installeer deze package dan eerst en probeer het vervolgens opnieuw:
+**Let op:** mogelijk zie je een foutmelding die aangeeft dat de package `sqlx` ontbreekt. Installeer deze package dan eerst en probeer het vervolgens opnieuw:
 
 ```sh
 cargo install sqlx-cli
