@@ -98,3 +98,8 @@ En op Windows (zonder `.\` in Command Prompt):
 ```sh
 .\path\to\binary\abacus-windows-[version].exe --help
 ```
+
+## Testdocumenten
+
+In de map [pvs-juinen](./testdocumenten/test-pvs-juinen/) staan de processen-verbaal voor de testgemeente Juinen, waarmee je de testverkiezing kunt invoeren.
+Daarnaast staan in de map [emls-juinen](./testdocumenten/test-emls-juinen/) de eml-bestanden waarmee je deze testverkiezing zelf kunt toevoegen.
