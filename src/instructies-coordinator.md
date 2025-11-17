@@ -50,13 +50,13 @@ Op deze pagina zie je in één oogopslag wat de status van de stembureaus is en 
 
 ## 3. Stembureaus beheren
 
-Als er nog geen stembureaus zijn toegevoegd, doe je dit eerst. Je kunt een bestand met stembureaus importeren of de stembureaus handmatig toevoegen. Klik in de melding op **Stembureaus beheren**.
+Als er nog geen stembureaus zijn toegevoegd, doe je dit eerst. Je kunt een bestand met stembureaus importeren of de stembureaus handmatig toevoegen. Een bestand importeren is niet meer mogelijk als er al stembureaus aanwezig zijn. Klik in de melding op **Stembureaus beheren**.
 
 ![Geen stembureaus](./img/geen-stembureaus.png)
 
 ### 3.1. Lijst met stembureaus importeren
 
-Als je een EML-bestand met stembureaus hebt, kun je dit direct toevoegen.
+Als je een EML-bestand met stembureaus  (EML 110b) hebt, kun je dit direct toevoegen.
 
 - Klik op de knop **Importeren uit een bestand**.
 - Klik daarna op **Bestand kiezen** en kies het bestand.
@@ -99,7 +99,7 @@ Je kunt stembureaus ook handmatig toevoegen om ervoor te zorgen dat de stemburea
 
 ## 4. Gebruikers beheren
 
-Als coördinator kun je alleen invoerders toevoegen en beheren. Voor accounts met de rol van coördinator of beheerder moet een beheerder dit doen.
+Als coördinator kun je alleen invoerders beheren. Alleen een beheerder kan accounts met de rol van beheerder of coördinator beheren.
 
 - Klik in het hoofdmenu op **Gebruikers beheren**.
 
