@@ -66,10 +66,13 @@ Je kunt Abacus ook handmatig starten vanuit de gekloonde repository. Deze optie 
 
 Zorg eerst dat je `npm` en `cargo` hebt geïnstalleerd:
 
-- `npm` is onderdeel van Node.js en dit kun je installeren door de instructies te volgen op de [website van Node.js](https://nodejs.org/en/download/package-manager). Je kunt het beste Node versie 22 downloaden, nieuwere versies worden niet volledig ondersteund.
+- `npm` is onderdeel van Node.js en dit kun je installeren door de instructies te volgen op de [website van Node.js](https://nodejs.org/en/download/package-manager). Abacus werkt vanaf Node versie 22. Je kunt het beste de laatste versie van Node downloaden.
 - `cargo` is onderdeel van Rust en installatie-instructies hiervoor vind je op de [website van Rust](https://www.rust-lang.org/learn/get-started).
 
-Voer eerst in de frontend directory de opdracht `npm ci` uit. Daarna start je `cargo run -features memory-serve,embed-typst --` vanuit de backend-map en `npm run dev` vanuit de frontend-map in twee verschillende terminals.
+Voer eerst in de frontend directory de opdracht `npm ci` uit.
+Daarna voer je vanuit twee verschillende terminals (in deze volgorde) de volgende scripts uit:
+- vanuit de **backend** map voer je `cargo run -features memory-serve,embed-typst --`.
+- vanuit de **frontend** map voer je `npm run dev`.
 
 ### Methode 3: Docker Compose (Linux, macOS, Windows)
 
