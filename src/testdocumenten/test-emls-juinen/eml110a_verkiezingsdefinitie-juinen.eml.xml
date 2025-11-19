@@ -10,7 +10,7 @@
                 <ElectionName>Gemeenteraad 2025 Juinen</ElectionName>
                 <ElectionCategory>GR</ElectionCategory>
                 <kr:ElectionSubcategory>GR2</kr:ElectionSubcategory>
-                <kr:ElectionDomain Id="42">Juinen</kr:ElectionDomain>
+                <kr:ElectionDomain Id="0042">Juinen</kr:ElectionDomain>
                 <kr:ElectionDate>2025-08-29</kr:ElectionDate>
                 <kr:NominationDate>2025-07-10</kr:NominationDate>
             </ElectionIdentifier>

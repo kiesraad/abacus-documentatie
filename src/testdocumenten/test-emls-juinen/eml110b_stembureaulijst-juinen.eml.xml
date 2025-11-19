@@ -2,7 +2,7 @@
 <EML xmlns="urn:oasis:names:tc:evs:schema:eml" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:kr="http://www.kiesraad.nl/extensions" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="110b" SchemaVersion="5">
   <TransactionId>1</TransactionId>
   <ManagingAuthority>
-    <AuthorityIdentifier Id="42">Juinen</AuthorityIdentifier>
+    <AuthorityIdentifier Id="0042">Juinen</AuthorityIdentifier>
     <AuthorityAddress/>
   </ManagingAuthority>
   <kr:CreationDateTime>2025-08-29T00:00:00</kr:CreationDateTime>
@@ -19,9 +19,9 @@
       <Contest>
         <ContestIdentifier Id="geen"/>
         <ReportingUnit>
-          <ReportingUnitIdentifier Id="42">Juinen</ReportingUnitIdentifier>
+          <ReportingUnitIdentifier Id="0042">Juinen</ReportingUnitIdentifier>
         </ReportingUnit>
-        <VotingMethod />
+        <VotingMethod>SPV</VotingMethod>
         <MaxVotes>3353</MaxVotes>
         <PollingPlace Channel="polling">
           <PhysicalLocation>

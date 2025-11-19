@@ -2,7 +2,7 @@
 <EML xmlns="urn:oasis:names:tc:evs:schema:eml" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:kr="http://www.kiesraad.nl/extensions" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:xnl="urn:oasis:names:tc:ciq:xsdschema:xNL:2.0" Id="230b" SchemaVersion="5">
   <TransactionId>1</TransactionId>
   <ManagingAuthority>
-    <AuthorityIdentifier Id="42">Juinen</AuthorityIdentifier>
+    <AuthorityIdentifier Id="0042">Juinen</AuthorityIdentifier>
     <AuthorityAddress/>
   </ManagingAuthority>
   <IssueDate>2025-08-29</IssueDate>
@@ -14,7 +14,7 @@
         <ElectionName>Gemeenteraad 2025 Juinen</ElectionName>
         <ElectionCategory>GR</ElectionCategory>
         <kr:ElectionSubcategory>GR2</kr:ElectionSubcategory>
-        <kr:ElectionDomain Id="42">Juinen</kr:ElectionDomain>
+        <kr:ElectionDomain Id="0042">Juinen</kr:ElectionDomain>
         <kr:ElectionDate>2025-08-29</kr:ElectionDate>
          <kr:NominationDate>2025-07-10</kr:NominationDate>
       </ElectionIdentifier>
