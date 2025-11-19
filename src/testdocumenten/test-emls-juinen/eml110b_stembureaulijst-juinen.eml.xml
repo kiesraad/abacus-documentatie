@@ -21,7 +21,7 @@
         <ReportingUnit>
           <ReportingUnitIdentifier Id="0042">Juinen</ReportingUnitIdentifier>
         </ReportingUnit>
-        <VotingMethod />
+        <VotingMethod>SPV</VotingMethod>
         <MaxVotes>3353</MaxVotes>
         <PollingPlace Channel="polling">
           <PhysicalLocation>
