@@ -71,7 +71,7 @@ Zorg eerst dat je `npm` en `cargo` hebt geïnstalleerd:
 
 Voer eerst in de frontend directory de opdracht `npm ci` uit.
 Daarna voer je vanuit twee verschillende terminals (in deze volgorde) de volgende scripts uit:
-- vanuit de **backend** map voer je `cargo run -features memory-serve,embed-typst --`.
+- vanuit de **backend** map voer je `cargo run --features embed-typst`.
 - vanuit de **frontend** map voer je `npm run dev`.
 
 ### Methode 3: Docker Compose (Linux, macOS, Windows)
