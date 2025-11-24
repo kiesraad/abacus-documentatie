@@ -89,14 +89,14 @@ De verkiezing is nu toegevoegd. Als je de lijst met stembureaus ook hebt toegevo
 
 Je kunt stembureaus ook handmatig toevoegen, wijzigen en verwijderen om ervoor te zorgen dat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd. Dit is ook handig als de gemeente een klein aantal stembureaus heeft en er geen EML-bestand met stembureaus (EML 110b) aanwezig is.
 
-- Onder **Verkiezingen beheren** klik je op **Stembureaus**.
-- Hier zie je de stembureaus als ze zijn toegevoegd.
+- Klik onder de betreffende verkiezing op **Stembureaus** om naar het overzicht met stembureaus te gaan. Als je al in het voortgangsscherm van de verkiezing bent, kun je daar ook direct op **Stembureaus** klikken.
+- Stembureaus die al zijn toegevoegd zie je hier staan.
 
 ![Stembureaus beheren](./img/stembureaus-beheren.png)
 
 ### 3.1. Stembureau toevoegen
 
-- Klik rechts op de knop **+ Stembureau toevoegen**.
+- Klik op de knop **+ Stembureau toevoegen**.
 - Voer de gegevens van het stembureau in en geef aan welke soort stembureau het is. Als het aantal kiesgerechtigden van het stembureau bekend is kun je dit invullen, maar dat hoeft niet.
 - Klik op **Opslaan en toevoegen**.
 
