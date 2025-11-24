@@ -58,20 +58,7 @@ Na het starten zie je een popup van Windows Security over de Windows Firewall. H
 
 Wanneer Abacus draait, ga je in je browser naar <http://127.0.0.1:8080> om de omgeving te gebruiken.
 
-### Methode 2: handmatig starten (Linux, macOS, Windows)
-
-*Let op: voor deze methode moet je de repository klonen of downloaden.*
-
-Je kunt Abacus ook handmatig starten vanuit de gekloonde repository. Deze optie is bedoeld voor development.
-
-Zorg eerst dat je `npm` en `cargo` hebt geïnstalleerd:
-
-- `npm` is onderdeel van Node.js en dit kun je installeren door de instructies te volgen op de [website van Node.js](https://nodejs.org/en/download/package-manager).
-- `cargo` is onderdeel van Rust en installatie-instructies hiervoor vind je op de [website van Rust](https://www.rust-lang.org/learn/get-started).
-
-Daarna start je `cargo run` vanuit de backend-map en `npm run dev` vanuit de frontend-map in twee verschillende terminals.
-
-### Methode 3: Docker Compose (Linux, macOS, Windows)
+### Methode 2: Docker Compose (Linux, macOS, Windows)
 
 Hiermee start je de backend in watch mode. Assets worden geserveerd door de build tool `vite` en maken dus gebruik van Hot Module Reloading:
 
@@ -103,3 +90,7 @@ En op Windows (zonder `.\` in Command Prompt):
 
 In de map [test-pvs-juinen](https://github.com/kiesraad/abacus-documentatie/tree/main/src/testdocumenten/test-pvs-juinen) op GitHub staan de processen-verbaal voor de testgemeente Juinen, waarmee je de testverkiezing kunt invoeren.
 Daarnaast staan in de map [test-emls-juinen](https://github.com/kiesraad/abacus-documentatie/tree/main/src/testdocumenten/test-emls-juinen) de EML-bestanden waarmee je deze testverkiezing zelf kunt toevoegen.
+
+## Developers
+
+Ben je developer en wil je Abacus handmatig installeren en gebruiken? Lees dan de README-bestanden in de [Abacus repository](https://github.com/kiesraad/abacus).
