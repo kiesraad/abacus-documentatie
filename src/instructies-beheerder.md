@@ -1,7 +1,5 @@
 # Abacus - Instructies Beheerder
 
-*Dit document is in ontwikkeling en wordt continu gewijzigd/aangevuld tijdens de ontwikkeling van Abacus.*
-
 Welkom bij Abacus! Deze tool is ontwikkeld om de verkiezingsuitslagen per stembureau in te voeren en te controleren op fouten en afwijkende uitslagen. Na de installatie van Abacus voeg je een verkiezing toe en importeer je stembureaus. Ook maak je gebruikers aan en kun je ze wijzigen als dit nodig is. In dit document leggen we uit hoe je Abacus instelt en gebruikt als beheerder.
 
 **Let op:** sommige adblockers in browsers kunnen een foutmelding in Abacus veroorzaken. Zet adblockers daarom uit of voeg Abacus toe aan de lijst met uitzonderingen in de adblocker.
@@ -59,7 +57,7 @@ Als je een EML-bestand met de stembureaus (EML 110b) hebt, voeg je die toe:
 
 ![Controleer stembureaus](./img/verkiezing-toevoegen-controleer-stembureaus.png)
 
-Als je deze stap wilt overslaan, klik je op **Stap overslaan en stembureaus later toevoegen**. Na het toevoegen van de verkiezing kun je de stembureaus dan handmatig toevoegen of wijzigen. Kijk hiervoor bij [Stembureaus beheren](#stembureaus-beheren).
+Als je deze stap wilt overslaan, klik je op **Stap overslaan en stembureaus later toevoegen**. Na het toevoegen van de verkiezing kun je de stembureaus dan handmatig toevoegen of wijzigen. Kijk hiervoor bij [Stembureaus beheren](#3-stembureaus-beheren).
 
 ### 2.5. Type stemopneming
 
@@ -81,7 +79,7 @@ Nu zie je opties voor het type stemopneming. Centrale stemopneming (CSO) is op d
 
 ![Controleren en opslaan](./img/verkiezing-toevoegen-controleren-opslaan.png)
 
-De verkiezing is nu toegevoegd. Als je de lijst met stembureaus ook hebt toegevoegd, is de verkiezing klaar voor steminvoer. Als dit nog niet gebeurd is, heeft de verkiezing de status 'Zitting voorbereiden'. De steminvoer kan pas beginnen nadat de stembureaus zijn toegevoegd.
+De verkiezing is nu toegevoegd. Als je de lijst met stembureaus ook hebt toegevoegd, is de verkiezing klaar voor steminvoer. Als dit nog niet gebeurd is, heeft de verkiezing de status *Zitting voorbereiden*. De steminvoer kan pas beginnen nadat de stembureaus zijn toegevoegd.
 
 ![Verkiezingen beheren](./img/verkiezingen-beheren.png)
 
@@ -114,7 +112,7 @@ Je kunt stembureaus ook handmatig toevoegen, wijzigen en verwijderen om ervoor t
 
 Naast het toevoegen van de verkiezing en stembureaus voeg je ook (andere) beheerders, coördinators en invoerders toe. Hiervoor klik je in het hoofdmenu op **Gebruikers beheren**.
 
-![Gebruikersbeheer](./img/gebruikersbeheer.png)
+![Gebruikersbeheer](./img/gebruikers-beheren-beh.png)
 
 ### 4.1. Gebruiker toevoegen
 
@@ -129,7 +127,7 @@ Naast het toevoegen van de verkiezing en stembureaus voeg je ook (andere) beheer
 
 - Voer de gebruikersnaam, de volledige naam (behalve bij een anonieme invoerder) en een tijdelijk wachtwoord in. Bij de eerste keer inloggen moet de gebruiker het wachtwoord wijzigen.
 
-![Gebruiker toevoegen](./img/gebruiker-toevoegen.png)
+![Gebruiker toevoegen](./img/gebruiker-toevoegen-gegevens.png)
 
 ### 4.2. Gebruiker wijzigen of verwijderen
 
@@ -137,13 +135,9 @@ Naast het toevoegen van de verkiezing en stembureaus voeg je ook (andere) beheer
 - Wijzig de volledige naam of reset het wachtwoord. De gebruikersnaam en de rol kunnen niet gewijzigd worden.
 - Verwijder de gebruiker door onderaan het scherm op **Gebruiker verwijderen** te klikken.
 
-![Gebruiker wijzigen of verwijderen](./img/gebruiker-wijzigen-verwijderen.png)
+![Gebruiker wijzigen of verwijderen](./img/gebruiker-wijzigen.png)
 
-## 5. Werkplekken beheren
-
-*Deze functie is nog in ontwikkeling en wordt later beschreven.*
-
-## 6. Back-up maken
+## 5. Back-up maken
 
 Het kan handig zijn om tijdens de steminvoer een back-up te maken van de database in Abacus. Dit doe je als volgt:
 
@@ -153,7 +147,7 @@ Het kan handig zijn om tijdens de steminvoer een back-up te maken van de databas
 
 Als je de bestanden weer nodig hebt, kun je ze vanuit de back-uplocatie weer kopiëren naar de installatiemap. Zorg dan wel dat je de bestaande bestanden eerst verwijdert of verplaatst.
 
-## Activiteitenlog
+## 6. Activiteitenlog
 
 In het activiteitenlog kun je zien welke gebruikers zijn ingelogd en uitgelogd en welke activiteiten ze hebben uitgevoerd. Dit kan handig zijn als je wilt nagaan wat er met een bepaalde invoer gebeurd is.
 
