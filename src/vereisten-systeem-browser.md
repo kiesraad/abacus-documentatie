@@ -2,11 +2,11 @@
 
 ## Systeemvereisten
 
-Bij de gemeenteraadsverkiezingen van 2026 worden zowel OSV als Abacus ingezet. Omdat beide programma's op het systeem moeten kunnen draaien volgt Abacus de systeemvereisten van OSV.
+Bij de gemeenteraadsverkiezingen van 2026 worden zowel OSV2020 als Abacus ingezet. Omdat beide programma's op het systeem moeten kunnen draaien volgt Abacus de systeemvereisten van OSV2020.
 
 Deze systeemvereisten en de aansluit- en gebruiksvoorschriften vind je ook in de GR26 Toolkit Verkiezingen op de website van de Kiesraad:
 
-- [Systeemvereisten OSV2020-Uitslagvaststelling](https://www.kiesraad.nl/adviezen-en-publicaties/publicaties/2025/10/07/systeemvereisten-osv2020-uitslagvaststelling)
+- Systeemvereisten OSV2020-Uitslagvaststelling (beschikbaar in januari)
 - [Aansluit- en gebruiksvoorschriften Wet programmatuur verkiezingsuitslagen](https://www.kiesraad.nl/verkiezingen/adviezen-en-publicaties/publicaties/2025/10/23/aansluit--en-gebruiksvoorschriften-wet-programmatuur-verkiezingsuitslagen)
 
 ### Processor type
@@ -40,7 +40,7 @@ Gebruik een recente en ondersteunde versie van:
 
 Gebruik Abacus niet op een computer die verbonden is met het internet. Abacus geeft een foutmelding als een verbinding met internet wordt gedetecteerd.
 
-## Browservereisten
+## Browserondersteuning
 
 Hieronder staan de ondersteunde desktopbrowsers en versies. Mobiele browsers worden niet ondersteund.
 
