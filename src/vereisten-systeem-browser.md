@@ -9,7 +9,7 @@ Deze systeemvereisten en de aansluit- en gebruiksvoorschriften vind je ook in de
 - [Systeemvereisten OSV2020-Uitslagvaststelling](https://www.kiesraad.nl/adviezen-en-publicaties/publicaties/2025/10/07/systeemvereisten-osv2020-uitslagvaststelling)
 - [Aansluit- en gebruiksvoorschriften Wet programmatuur verkiezingsuitslagen](https://www.kiesraad.nl/verkiezingen/adviezen-en-publicaties/publicaties/2025/10/23/aansluit--en-gebruiksvoorschriften-wet-programmatuur-verkiezingsuitslagen)
 
-### Processortype
+### Processor type
 
 Windows/Linux:
 
