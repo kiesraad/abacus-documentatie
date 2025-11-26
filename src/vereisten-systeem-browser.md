@@ -22,7 +22,9 @@ Windows/Linux:
 Gebruik een recente en ondersteunde versie van:
 
 - Windows 11, Windows server 2022
-- Linux: Ubuntu 22.04
+- Linux: Ubuntu 22.04 LTS
+
+MacOS wordt niet ondersteund.
 
 ### Systeemgeheugen
 
