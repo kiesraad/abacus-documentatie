@@ -9,4 +9,5 @@
 - [Instructies invoerder](./instructies-invoerder.md)
 - [Instructies coördinator](./instructies-coordinator.md)
 - [Instructies beheerder](./instructies-beheerder.md)
+- [Vereisten voor systeem en browser](./vereisten-systeem-browser.md)
  
