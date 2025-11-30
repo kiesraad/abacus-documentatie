@@ -20,47 +20,51 @@ Bij de onderstaande installatiemethodes is aangegeven op welke besturingssysteme
 
 Kijk voordat je begint ook naar de [systeem- en browservereisten voor Abacus](./vereisten-systeem-browser.md).
 
-### Methode 1: installatiebestand downloaden en starten (Linux, macOS, Windows)
+### Methode 1: installatieprogramma downloaden en installeren (Windows)
 
-Deze methode is de snelste manier om Abacus te gebruiken. Voer hiervoor de volgende stappen uit:
+Deze methode is de snelste manier om Abacus te gebruiken en werkt alleen in Windows.
 
-Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases). Klik onder de bovenste release op `Assets` en klik vervolgens op het installatiebestand om het te downloaden.
+- Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
+- Klik onder de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-windows-setup-[versienummer].exe` om het te downloaden.
+- Dubbelklik op het gedownloade bestand om het installatieprogramma te openen. Klik op **Installeren**.
 
-![Installatiebestand downloaden 2](./img/binary-download.jpg)
+![Installeren op Windows](./img/windows-installer-intro.png)
 
-#### Linux en macOS
+- Tijdens de installatie zie je twee keer een pop-up waarin wordt gevraagd *Wilt u toestaan dat deze app wijzigingen aan uw apparaat aanbrengt?*. Klik in beide gevallen op **Ja**.
 
-Open een terminal en maak het bestand uitvoerbaar:
+![Installeren op Windows](./img/windows-installer-toestaan.png)
+
+- Klik bij de melding *Het toevoegen van de firewallregel is succesvol uitgevoerd* op **OK**.
+- Abacus is nu geïnstalleerd. Als je Abacus niet direct wilt starten en de interface niet wilt openen in de browser, zet dan de vinkjes uit. Klik op **Voltooien** om het installatieprogramma te sluiten.
+
+![Installatie voltooid](./img/windows-installer-geinstalleerd.png)
+
+Bij deze installatiemethode worden twee snelkoppelingen op het bureaublad geplaatst. Met de ene snelkoppeling start je de Abacus-server en met de andere open je de interface in de browser.
+
+![Snelkoppelingen op het bureaublad](./img/windows-snelkoppelingen.png)
+
+### Methode 2: installatiebestand downloaden en starten (Linux, macOS)
+
+Deze methode is geschikt voor Linux en macOS.
+
+- Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
+- Klik onder de bovenste release op `Assets` en klik vervolgens op het installatiebestand om het te downloaden.
+
+- Open een terminal en maak het bestand uitvoerbaar:
 
 ```sh
 chmod +x /path/to/binary/abacus-[OS-version]
 ```
 
-Voer Abacus uit:
+- Voer Abacus uit:
 
 ```sh
 ./path/to/binary/abacus-[OS-version] 
 ```
 
-Zie ook de [help](#help).
+Kijk bij [Help](#help) voor meer informatie over de argumenten.
 
-#### Windows
-
-Voordat je Abacus kunt gebruiken op Windows heb je eerst het programma Microsoft Visual C++ Redistributable (MSVC Redist) nodig. Dit bestand kun je direct downloaden [op de website van Microsoft](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version). Een directe link vind je hier: [Microsoft Visual C++ Redistributable (MSVC Redist)](https://aka.ms/vs/17/release/vc_redist.x64.exe).
-
-Open een Command Prompt of Powershell en voer Abacus uit. Als je Command Prompt gebruikt, hoef je de `.\` aan het begin niet te typen.
-
-```sh
-.\path\to\binary\abacus-windows-[version].exe
-```
-
-Zie ook de [help](#help).
-
-Na het starten zie je een popup van Windows Security over de Windows Firewall. Het maakt niet uit wat je hier selecteert, de omgeving werkt altijd. Klik dus gerust op **Cancel (Annuleren)**.
-
-Wanneer Abacus draait, ga je in je browser naar <http://127.0.0.1:8080> om de omgeving te gebruiken.
-
-### Methode 2: Docker Compose (Linux, macOS, Windows)
+### Methode 3: Docker Compose (Linux, macOS, Windows)
 
 Hiermee start je de backend in watch mode. Assets worden geserveerd door de build tool `vite` en maken dus gebruik van Hot Module Reloading:
 
