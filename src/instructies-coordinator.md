@@ -170,7 +170,67 @@ Wanneer de resultaten van alle stembureaus in jouw gemeente twee keer correct zi
 - Klik op **Terug naar overzicht** om de invoer af te ronden.
 - Als je toch nog iets wilt wijzigen klik je op **Steminvoer hervatten**.
 
-## 8. Activiteitenlog
+## 8. Nieuwe zitting
+
+Na het afronden van de invoerfase controleert het Centraal Stembureau de tellingen en de processen-verbaal. Het kan zijn dat het Centraal Stembureau zelf een fout ontdekt of een melding van een burger krijgt, bijvoorbeeld als die een stem niet kan terugvinden op het proces-verbaal. In dat geval kan het Centraal Stembureau opdracht geven om de resultaten van het stembureau te onderzoeken. Als je één of meer onderzoeksverzoeken hebt ontvangen, open je een nieuwe zitting.
+
+Voeg alleen een nieuwe zitting toe als het Centraal Stembureau hier opdracht voor heeft gegeven. Wil het Gemeentelijk Stembureau zelf een fout herstellen en is de zitting nog niet afgesloten door de voorzitter? Ga dan verder in de eerste zitting.
+
+### 8.1. Voorbereiden
+
+- Klik onder de bestaande zitting op **Nieuwe zitting voorbereiden** en in de pop-up op **Ja, zitting toevoegen**.
+
+![Nieuwe zitting voorbereiden](./img/nieuwe-zitting-voorbereiden-popup.png)
+
+- Je ziet nu een tweede zitting met de status *Zitting voorbereiden*.
+
+![Nieuwe zitting naast vorige zitting](./img/onderzoek-nieuwe-zitting.png)
+
+- Onder **Details van de zitting** voer je de plaatsnaam, datum en starttijd van de zitting in. Dit werkt net zoals bij de eerste zitting, kijk hiervoor bij [Details van de zitting](#21-details-van-de-zitting).
+- Klik op **Aangevraagde onderzoeken** en vervolgens op **+ Onderzoek toevoegen**.
+
+![Onderzoek toevoegen](./img/onderzoek-toevoegen.png)
+
+- Kies het stembureau waarvoor je een onderzoek wilt toevoegen.
+- Ontbreekt het stembureau in de lijst, klik dan op **Ontbrekend stembureau toevoegen**. Dit werkt hetzelfde als in de eerste zitting, kijk hiervoor bij [Stembureau handmatig toevoegen](#32-stembureau-handmatig-toevoegen). Daarna ga je terug naar de nieuwe zitting en herhaal je de bovenstaande stappen.
+
+![Onderzoek toevoegen: stembureau kiezen](./img/onderzoek-toevoegen-stembureaukeuze.png)
+
+- Schrijf op welke aanleiding en opdracht het centraal stembureau heeft gegeven voor het onderzoek en klik op **Volgende**.
+
+![Aanleiding en opdracht van het centraal stembureau](./img/onderzoek-aanleiding-opdracht.png)
+
+- Nu kun je het corrigendum afdrukken en het onderzoek uitvoeren volgens de instructies op het scherm.
+
+![Print het corrigendum](./img/onderzoek-print-corrigendum.png)
+
+- Als er meer onderzoeken nodig zijn, klik je op **Terug naar alle onderzoeken** om terug te gaan naar het overzicht met onderzoeken. Klik dan weer op **+ Onderzoek toevoegen**.
+
+![Overzicht van onderzoeken](./img/onderzoeken-overzicht.png)
+
+### 8.2. Bevindingen en invoerfase
+
+- Na het afronden van een onderzoek klik je op **Verder naar bevindingen**. Als je al in het overzicht met onderzoeken bent, klik je daar op **Nu invullen**.
+- Klik op **Invoerfase starten** om de zitting officieel te openen. Wil je dit nog niet doen, klik dan op **Annuleren**.
+
+![Nieuwe zitting: invoerfase starten](./img/onderzoek-invoerfase-starten.png)
+
+- Neem de bevindingen over zoals ze in het corrigendum zijn opgeschreven en klik op **Opslaan**.
+
+![Bevindingen van onderzoeken](./img/onderzoek-bevindingen.png)
+
+In het overzicht van de onderzoeken zie je wat je moet doen en wat de status van elk onderzoek is.
+
+- Is de uitslag niet gecorrigeerd, dan hoef je niets meer te doen.
+- Is de uitslag wel gecorrigeerd, dan laat je twee invoerders het corrigendum overnemen in Abacus.
+
+![Onderzoeken: invoerfase bezig](./img/onderzoeken-invoerfase-bezig.png)
+
+### 8.3. Nieuwe zitting afronden
+
+Nadat de stembureaus met een gecorrigeerde uitkomst opnieuw twee keer zijn ingevoerd, kun je de nieuwe zitting afronden. Dit doe je op dezelfde manier als bij de eerste zitting. Kijk hiervoor bij [Afronden en proces-verbaal opmaken](#7-afronden-en-proces-verbaal-opmaken).
+
+## 9. Activiteitenlog
 
 In het activiteitenlog kun je zien welke gebruikers zijn ingelogd en uitgelogd en welke activiteiten ze hebben uitgevoerd. Dit kan handig zijn als je wilt nagaan wat er met een bepaalde invoer gebeurd is.
 
