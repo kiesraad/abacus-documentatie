@@ -22,7 +22,7 @@ Kijk voordat je begint ook naar de [systeem- en browservereisten voor Abacus](./
 
 ### Methode 1: installatieprogramma downloaden en installeren (Windows)
 
-Deze methode is de snelste manier om Abacus te gebruiken en werkt alleen in Windows.
+Dit is de snelste manier om Abacus op een Windows-machine te installeren.
 
 - Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
 - Klik onder de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-windows-setup-[versienummer].exe` om het te downloaden.
