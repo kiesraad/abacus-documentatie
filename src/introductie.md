@@ -8,15 +8,6 @@ Bij het Gemeentelijk Stembureau worden de papieren processen-verbaal door twee i
 
 Meer context en uitleg over het verkiezingsproces vind je in het document [Verkiezingsproces en Abacus](verkiezingsproces-en-abacus.md).
 
-## Structuur van Abacus
-
-De software is opgebouwd met een 
-
-- backend
-- frontend: browser
-- input: eml
-- output: eml en pdf
-
 ## Rollen in Abacus
 
 ### Beheerder
