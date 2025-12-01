@@ -22,7 +22,7 @@ Kijk voordat je begint ook naar de [systeem- en browservereisten voor Abacus](./
 
 ### Methode 1: installatieprogramma downloaden en installeren (Windows)
 
-Dit is de snelste manier om Abacus op een Windows-machine te installeren.
+Met deze methode installeer je Abacus op een Windows-machine.
 
 - Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
 - Klik onder de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-windows-setup-[versienummer].exe` om het te downloaden.
@@ -45,7 +45,7 @@ Bij deze installatiemethode worden twee snelkoppelingen op het bureaublad geplaa
 
 ### Methode 2: installatiebestand downloaden en starten (Linux)
 
-Deze methode is geschikt voor Linux. macOS wordt niet ondersteund.
+Met deze methode installeer je Abacus op een Linux-machine.
 
 - Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
 - Klik onder de bovenste release op `Assets` en klik vervolgens op het installatiebestand om het te downloaden.
@@ -59,10 +59,14 @@ chmod +x /path/to/binary/abacus-[OS-version]
 - Voer Abacus uit:
 
 ```sh
-./path/to/binary/abacus-[OS-version] 
+./path/to/binary/abacus-[OS-version] [arguments]
 ```
 
 Kijk bij [Help](#help) voor meer informatie over de argumenten.
+
+#### macOS
+
+Officieel wordt macOS niet ondersteund, maar je kunt de stappen voor Linux volgen omdat deze meestal ook op macOS werken.
 
 ### Methode 3: Docker Compose (Linux, macOS, Windows)
 
