@@ -43,9 +43,9 @@ Bij deze installatiemethode worden twee snelkoppelingen op het bureaublad geplaa
 
 ![Snelkoppelingen op het bureaublad](./img/windows-snelkoppelingen.png)
 
-### Methode 2: installatiebestand downloaden en starten (Linux, macOS)
+### Methode 2: installatiebestand downloaden en starten (Linux)
 
-Deze methode is geschikt voor Linux en macOS.
+Deze methode is geschikt voor Linux. macOS wordt niet ondersteund.
 
 - Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
 - Klik onder de bovenste release op `Assets` en klik vervolgens op het installatiebestand om het te downloaden.
