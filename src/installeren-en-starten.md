@@ -22,7 +22,7 @@ Kijk voordat je begint ook naar de [systeem- en browservereisten voor Abacus](./
 
 ### Methode 1: installatieprogramma downloaden en installeren (Windows)
 
-Met deze methode installeer je Abacus op een Windows-machine.
+Met deze methode installeer je Abacus op een Windows-machine. Deze versie is geschikt om mee te testen. Het is nog niet de definitieve versie van Abacus. Die ontvangen de gemeenten direct van de Kiesraad.
 
 - Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
 - Klik onder de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-windows-setup-[versienummer].exe` om het te downloaden.
