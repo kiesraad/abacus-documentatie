@@ -30,7 +30,7 @@ Met deze methode installeer je Abacus op een Windows-machine.
 
 ![Installeren op Windows](./img/windows-installer-intro.png)
 
-- Tijdens de installatie zie je twee keer een pop-up waarin wordt gevraagd *Wilt u toestaan dat deze app wijzigingen aan uw apparaat aanbrengt?*. Klik in beide gevallen op **Ja**.
+- Tijdens het installatieprogramma wordt Microsoft Visual C++ Redistributable geïnstalleerd en wordt een firewallregel ingesteld via Windows Command Prompt. Daarom zie je tijdens de installatie twee keer een pop-up waarin wordt gevraagd *Wilt u toestaan dat deze app wijzigingen aan uw apparaat aanbrengt?*. Klik in beide gevallen op **Ja**.
 
 ![Installeren op Windows](./img/windows-installer-toestaan.png)
 
