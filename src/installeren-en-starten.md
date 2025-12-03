@@ -39,7 +39,11 @@ Met deze methode installeer je Abacus op een Windows-machine.
 
 ![Installatie voltooid](./img/windows-installer-geinstalleerd.png)
 
-Bij deze installatiemethode worden twee snelkoppelingen op het bureaublad geplaatst. Met de ene snelkoppeling start je de Abacus-server en met de andere open je de interface in de browser.
+Bij deze installatiemethode worden drie snelkoppelingen op het bureaublad geplaatst:
+
+- Met **1. Start Abacus Gr26 server** start je de Abacus-server. Gebruik deze snelkoppeling voordat je Abacus opent in de browser.
+- Met **2. Open Abacus GR26 in browser** waarmee je de browserinterface opent.
+- Met **Abacus GR26 database map** open je de map met de databasebestanden.
 
 ![Snelkoppelingen op het bureaublad](./img/windows-snelkoppelingen.png)
 
