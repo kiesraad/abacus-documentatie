@@ -16,51 +16,63 @@ Op <https://abacus-test.nl/> is het alleen mogelijk om een testomgeving aan te m
 
 ## Installeren en starten
 
-Bij de onderstaande installatiemethodes is aangegeven op welke besturingssystemen ze werken. De methoden voor Linux werken op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (22.04) en Debian (12/bookworm en 13/trixie). De Windows-methoden zijn getest op Windows 11.
+Bij de onderstaande installatiemethodes is aangegeven op welke besturingssystemen ze werken. De methoden voor Linux werken op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (22.04 en 24.04) en Debian (12/bookworm en 13/trixie). De Windows-methoden zijn getest op Windows 11.
 
 Kijk voordat je begint ook naar de [systeem- en browservereisten voor Abacus](./vereisten-systeem-browser.md).
 
-### Methode 1: installatiebestand downloaden en starten (Linux, macOS, Windows)
+### Methode 1: installatieprogramma downloaden en installeren (Windows)
 
-Deze methode is de snelste manier om Abacus te gebruiken. Voer hiervoor de volgende stappen uit:
+Met deze methode installeer je Abacus op een Windows-machine. Deze versie is geschikt om mee te testen. Het is nog niet de definitieve versie van Abacus. Die ontvangen de gemeenten rechtstreeks van de Kiesraad.
 
-Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases). Klik onder de bovenste release op `Assets` en klik vervolgens op het installatiebestand om het te downloaden.
+- Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
+- Klik bij de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-windows-setup-[versienummer].exe` om het te downloaden.
+- Dubbelklik op het gedownloade bestand om het installatieprogramma te openen. Klik op **Installeren**.
 
-![Installatiebestand downloaden 2](./img/binary-download.jpg)
+![Installeren op Windows](./img/windows-installer-intro.png)
 
-#### Linux en macOS
+- Tijdens het installatieprogramma wordt Microsoft Visual C++ Redistributable geïnstalleerd en wordt een firewallregel ingesteld via Windows Command Prompt. Daarom zie je tijdens de installatie twee keer een pop-up waarin wordt gevraagd *Wilt u toestaan dat deze app wijzigingen aan uw apparaat aanbrengt?*. Klik in beide gevallen op **Ja**.
 
-Open een terminal en maak het bestand uitvoerbaar:
+![Installeren op Windows](./img/windows-installer-toestaan.png)
+
+- Klik bij de melding *Het toevoegen van de firewallregel is succesvol uitgevoerd* op **OK**.
+- Abacus is nu geïnstalleerd. Als je Abacus niet direct wilt starten en de interface niet wilt openen in de browser, zet dan de vinkjes uit. Klik op **Voltooien** om het installatieprogramma te sluiten.
+
+![Installatie voltooid](./img/windows-installer-geinstalleerd.png)
+
+Bij deze installatiemethode worden drie snelkoppelingen op het bureaublad geplaatst:
+
+- Met **1. Start Abacus GR26 server** start je de Abacus-server. Gebruik deze snelkoppeling voordat je Abacus opent in de browser.
+- Met **2. Open Abacus GR26 in browser** waarmee je de browserinterface opent.
+- Met **Abacus GR26 database map** open je de map met de databasebestanden.
+
+![Snelkoppelingen op het bureaublad](./img/windows-snelkoppelingen.png)
+
+### Methode 2: installatiebestand downloaden en starten (Linux)
+
+Met deze methode installeer je Abacus op een Linux-machine.
+
+- Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
+- Klik bij de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-linux-[versienummer].tar.gz` om het te downloaden.
+
+- Open een terminal en maak het bestand uitvoerbaar:
 
 ```sh
 chmod +x /path/to/binary/abacus-[OS-version]
 ```
 
-Voer Abacus uit:
+- Voer Abacus uit:
 
 ```sh
-./path/to/binary/abacus-[OS-version] 
+./path/to/binary/abacus-[OS-version] [arguments]
 ```
 
-Zie ook de [help](#help).
+Kijk bij [Help](#help) voor meer informatie over de argumenten.
 
-#### Windows
+#### macOS
 
-Voordat je Abacus kunt gebruiken op Windows heb je eerst het programma Microsoft Visual C++ Redistributable (MSVC Redist) nodig. Dit bestand kun je direct downloaden [op de website van Microsoft](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version). Een directe link vind je hier: [Microsoft Visual C++ Redistributable (MSVC Redist)](https://aka.ms/vs/17/release/vc_redist.x64.exe).
+Officieel wordt macOS niet ondersteund, maar je kunt de stappen voor Linux volgen omdat deze meestal ook op macOS werken.
 
-Open een Command Prompt of Powershell en voer Abacus uit. Als je Command Prompt gebruikt, hoef je de `.\` aan het begin niet te typen.
-
-```sh
-.\path\to\binary\abacus-windows-[version].exe
-```
-
-Zie ook de [help](#help).
-
-Na het starten zie je een popup van Windows Security over de Windows Firewall. Het maakt niet uit wat je hier selecteert, de omgeving werkt altijd. Klik dus gerust op **Cancel (Annuleren)**.
-
-Wanneer Abacus draait, ga je in je browser naar <http://127.0.0.1:8080> om de omgeving te gebruiken.
-
-### Methode 2: Docker Compose (Linux, macOS, Windows)
+### Methode 3: Docker Compose (Linux, macOS, Windows)
 
 Hiermee start je de backend in watch mode. Assets worden geserveerd door de build tool `vite` en maken dus gebruik van Hot Module Reloading:
 
