@@ -1,6 +1,6 @@
 # Summary
 
-[Verkiezingsproces en Abacus](./verkiezingsproces-en-abacus.md)
+
 
 # Gebruikersdocumentatie
 
@@ -12,3 +12,6 @@
 - [Instructies invoerder](./instructies-invoerder.md)
 - [Vereisten voor systeem en browser](./vereisten-systeem-browser.md)
  
+# Achtergrond
+
+- [Verkiezingsproces en Abacus](./verkiezingsproces-en-abacus.md)

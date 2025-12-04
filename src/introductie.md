@@ -1,40 +1,49 @@
 # Introductie
 
-Welkom bij Abacus, de nieuwe software voor de berekening van de uitslag van de verkiezingen en zetelverdeling.
+<p align="center">
+<img src="/img/abacus.svg" alt="Abacus software voor verkiezingsuitslagen en zetelverdeling" height="300px">
+</p>
 
-Na het sluiten van de stembureaus worden de stemmen geteld en na deze tellingen wordt bij elk stembureau een proces-verbaal opgemaakt. Het doel van Abacus is om de papieren processen-verbaal te digitaliseren en te helpen met de controle op de optellingen, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen.
+Welkom bij Abacus, software voor verkiezingsuitslagen en zetelverdeling. Dankjewel dat je onze software gebruikt!
 
-Bij het Gemeentelijk Stembureau worden de papieren processen-verbaal door twee invoerders ingevoerd in de software.
+Abacus vervangt de module Uitslagvaststelling van het programma Ondersteunende Software Verkiezingen (OSV2020) en wordt als proef ingezet bij de gemeenteraadsverkiezingen op 18 maart 2026. Uiteindelijk zal Abacus ingezet worden bij alle verkiezingen in Nederland.
 
-Meer context en uitleg over het verkiezingsproces vind je in het document [Verkiezingsproces en Abacus](verkiezingsproces-en-abacus.md).
+Je gebruikt Abacus om de papieren processen-verbaal te digitaliseren en de tellingen te controleren, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen. Zo maken we het verkiezingsproces eerlijk, open en controleerbaar.
+
+## Abacus in het verkiezingsproces
+
+Het proces van uitslagvaststelling begint op de dag van stemming. Wanneer de stembureaus gesloten zijn worden de stemmen geteld en maakt de voorzitter van het stembureau een proces-verbaal op.
+Dan wordt alles naar een centrale plek in de gemeente gebracht, waar het gemeentelijk stembureau de werkzaamheden overneemt. Zij controleren de processen-verbaal door alle getallen digitaal in te voeren.
+
+Abacus is de nieuwe software die hiervoor zal worden gebruikt. Elk proces-verbaal wordt door twee invoerders van het gemeentelijk stembureau ingevoerd. Wanneer alle stembureaus zijn ingevoerd kan de zitting worden afgerond en genereert Abacus een proces-verbaal van het gemeentelijk stembureau (Na 31-2) en een EML-bestand. Het centraal stembureau kan dit dan controleren en de uitslag definitief vaststellen, om vervolgens de zetelverdeling te berekenen.
+
+**Let op:** Voor de gemeenteraadsverkiezingen op 18 maart 2026 wordt Abacus alleen door het gemeentelijk stembureau gebruikt. Voor de werkzaamheden van het centraal stembureau wordt OSV2020 gebruikt.
+
+Voor meer informatie lees je het document [Het verkiezingsproces en Abacus](verkiezingsproces-en-abacus.md), waarin precies wordt uitgelegd hoe het verkiezingsproces werkt.
 
 ## Rollen in Abacus
 
+Abacus heeft drie rollen: de beheerder, de coördinator en de invoerder. Hieronder staat een kort overzicht van de taken die in deze rollen worden uitgevoerd.
+
 ### Beheerder
 
-Als beheerder installeer je Abacus en richt je de applicatie in voor gebruik. Jouw taken:
-
 - Abacus installeren en zorgen dat de applicatie goed draait
-- Gebruikersaccounts beheren: eerst stel je het beheerdersaccount in, en vervolgens maak je accounts aan voor de coördinator(s) en invoerders
 - Verkiezingen toevoegen en beheren
 - Stembureaus toevoegen en wijzigen
+- Gebruikers toevoegen en beheren (alle rollen)
 
 Instructies voor jouw rol vind je hier: [Instructies beheerder](./instructies-beheerder.md)
 
 ### Coördinator
 
-Als coördinator regel je dat de invoerders aan de slag kunnen met invoeren en help je bij het oplossen van fouten en waarschuwingen. Jouw taken:
-
 - Verkiezingen en zittingen beheren
 - Invoerders helpen bij het invoeren
 - Helpen bij het oplossen van fouten en waarschuwingen
-- Extra gebruikers (alleen invoerders) toevoegen
+- Gebruikers toevoegen en beheren (alleen invoerders)
 
 Instructies voor jouw rol vind je hier: [Instructies coördinator](./instructies-coordinator.md)
 
 ### Invoerder
-
-Als invoerder voer je de papieren processen-verbaal in Abacus in. Jouw taken:
 
 - Stembureau invoeren: alle vinkjes en getallen overnemen in Abacus zoals ze op het papieren proces-verbaal staan
 - Corrigendum invoeren: alleen de gewijzigde aantallen invoeren
@@ -42,3 +51,8 @@ Als invoerder voer je de papieren processen-verbaal in Abacus in. Jouw taken:
 
 Instructies voor jouw rol vind je hier: [Instructies invoerder](./instructies-invoerder.md)
 
+## Vragen en bijdragen
+
+Met vragen over het gebruik van Abacus of over het verkiezingsproces kun je terecht bij het [Informatiepunt Verkiezingen](https://www.kiesraad.nl/contact) op de website van de Kiesraad.
+
+Ben je developer en heb je een bug of beveiligingsprobleem gevonden, of wil je een feature request doen? Op de [GitHub-repository van Abacus](https://github.com/kiesraad/abacus?tab=contributing-ov-file) lees je hoe je kunt bijdragen.
