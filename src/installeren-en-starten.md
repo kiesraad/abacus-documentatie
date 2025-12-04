@@ -22,10 +22,10 @@ Kijk voordat je begint ook naar de [systeem- en browservereisten voor Abacus](./
 
 ### Methode 1: installatieprogramma downloaden en installeren (Windows)
 
-Met deze methode installeer je Abacus op een Windows-machine. Deze versie is geschikt om mee te testen. Het is nog niet de definitieve versie van Abacus. Die ontvangen de gemeenten direct van de Kiesraad.
+Met deze methode installeer je Abacus op een Windows-machine. Deze versie is geschikt om mee te testen. Het is nog niet de definitieve versie van Abacus. Die ontvangen de gemeenten rechtstreeks van de Kiesraad.
 
 - Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
-- Klik onder de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-windows-setup-[versienummer].exe` om het te downloaden.
+- Klik bij de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-windows-setup-[versienummer].exe` om het te downloaden.
 - Dubbelklik op het gedownloade bestand om het installatieprogramma te openen. Klik op **Installeren**.
 
 ![Installeren op Windows](./img/windows-installer-intro.png)
@@ -41,7 +41,7 @@ Met deze methode installeer je Abacus op een Windows-machine. Deze versie is ges
 
 Bij deze installatiemethode worden drie snelkoppelingen op het bureaublad geplaatst:
 
-- Met **1. Start Abacus Gr26 server** start je de Abacus-server. Gebruik deze snelkoppeling voordat je Abacus opent in de browser.
+- Met **1. Start Abacus GR26 server** start je de Abacus-server. Gebruik deze snelkoppeling voordat je Abacus opent in de browser.
 - Met **2. Open Abacus GR26 in browser** waarmee je de browserinterface opent.
 - Met **Abacus GR26 database map** open je de map met de databasebestanden.
 
@@ -52,7 +52,7 @@ Bij deze installatiemethode worden drie snelkoppelingen op het bureaublad geplaa
 Met deze methode installeer je Abacus op een Linux-machine.
 
 - Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
-- Klik onder de bovenste release op `Assets` en klik vervolgens op het installatiebestand om het te downloaden.
+- Klik bij de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-linux-[versienummer].tar.gz` om het te downloaden.
 
 - Open een terminal en maak het bestand uitvoerbaar:
 
