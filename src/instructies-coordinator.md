@@ -211,7 +211,7 @@ Voeg alleen een nieuwe zitting toe als het Centraal Stembureau hier opdracht voo
 ### 8.2. Bevindingen en invoerfase
 
 - Na het afronden van een onderzoek klik je op **Verder naar bevindingen**. Als je al in het overzicht met onderzoeken bent, klik je daar op **Nu invullen**.
-- Klik op **Invoerfase starten** om de zitting officieel te openen. Wil je dit nog niet doen, klik dan op **Annuleren**.
+- Klik op **Invoerfase starten** om de invoer van de bevindingen en eventuele telresultaten te starten. Wil je dit nog niet doen, klik dan op **Annuleren**.
 
 ![Nieuwe zitting: invoerfase starten](./img/onderzoek-invoerfase-starten.png)
 
