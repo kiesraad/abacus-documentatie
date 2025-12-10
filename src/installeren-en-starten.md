@@ -59,14 +59,14 @@ Met deze methode installeer je Abacus op een Linux-machine.
 
 #### Installeren
 
-Kopieer het installatiebestand en het servicebestand naar de juiste mappen:
+Kopieer Abacus en het servicebestand naar de juiste mappen:
 
 ```
 sudo cp abacus /usr/local/bin/abacus
 sudo cp abacus.service /etc/systemd/system/abacus.service
 ```
 
-Maak het installatiebestand uitvoerbaar:
+Maak Abacus uitvoerbaar:
 
 ```
 sudo chmod +x /usr/local/bin/abacus
