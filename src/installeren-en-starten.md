@@ -47,26 +47,56 @@ Bij deze installatiemethode worden drie snelkoppelingen op het bureaublad geplaa
 
 ![Snelkoppelingen op het bureaublad](./img/windows-snelkoppelingen.png)
 
-### Methode 2: installatiebestand downloaden en starten (Linux)
+### Methode 2: installatiebestand downloaden en starten met systemd (Linux)
 
 Met deze methode installeer je Abacus op een Linux-machine.
 
+#### Downloaden
+
 - Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
 - Klik bij de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-linux-[versienummer].tar.gz` om het te downloaden.
+- Download daarnaast ook het servicebestand `abacus.service` uit de [map `abacus/packaging/linux/` in de Abacus-repository](https://github.com/kiesraad/abacus/tree/8476da5e3adb50d915f24e3611a1431becab9799/packaging/linux).
 
-- Open een terminal en maak het bestand uitvoerbaar:
+#### Installeren
 
-```sh
-chmod +x /path/to/binary/abacus-[OS-version]
+Kopieer het installatiebestand en het servicebestand naar de juiste mappen:
+
+```
+sudo cp abacus /usr/local/bin/abacus
+sudo cp abacus.service /etc/systemd/system/abacus.service
 ```
 
-- Voer Abacus uit:
+Maak het installatiebestand uitvoerbaar:
 
-```sh
-./path/to/binary/abacus-[OS-version] [arguments]
+```
+sudo chmod +x /usr/local/bin/abacus
 ```
 
-Kijk bij [Help](#help) voor meer informatie over de argumenten.
+Laad systemd opnieuw en schakel de service in, zodat Abacus direct start en bij het opstarten van het systeem wordt gestart:
+
+```
+sudo systemctl daemon-reload
+sudo systemctl enable --now abacus.service
+```
+#### Beheren
+
+Zo bekijk je het service-logboek:
+
+```
+sudo journalctl -u abacus.service
+```
+
+Stop de Abacus-service:
+```
+sudo systemctl stop abacus.service
+```
+
+Start de Abacus-service:
+```
+sudo systemctl start abacus.service
+```
+
+De database vind je in `/var/lib/abacus/`.
 
 #### macOS
 
