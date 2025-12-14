@@ -7,4 +7,4 @@ Het doel van Abacus is om de papieren processen-verbaal te digitaliseren en te h
 - Volledig open source ontwikkelen.
 - De oplossing zelf ontwikkelen en beheren.
 
-Abacus wordt in de eerste instantie ontwikkeld voor de Gemeenteraadsverkiezingen in maart 2026. Meer informatie over de functionaliteit die wordt gebouwd vind je in [Functionaliteit voor Abacus 1.0](https://github.com/kiesraad/abacus/blob/main/documentatie/functionaliteit/versie-1.0-gr2026.md).
+Abacus wordt in de eerste instantie ontwikkeld voor de gemeenteraadsverkiezingen in maart 2026. Meer informatie over de functionaliteit die wordt gebouwd vind je in [Functionaliteit voor Abacus 1.0](https://github.com/kiesraad/abacus/blob/main/documentatie/functionaliteit/versie-1.0-gr2026.md).
