@@ -1,0 +1,31 @@
+# Zitting voorbereiden
+
+- Klik onder de bestaande zitting op **Nieuwe zitting voorbereiden** en in de pop-up op **Ja, zitting toevoegen**.
+
+![Nieuwe zitting voorbereiden](./img/nieuwe-zitting-voorbereiden-popup.png)
+
+- Je ziet nu een tweede zitting met de status *Zitting voorbereiden*.
+
+![Nieuwe zitting naast vorige zitting](./img/onderzoek-nieuwe-zitting.png)
+
+- Onder **Details van de zitting** voer je de plaatsnaam, datum en starttijd van de zitting in. Dit werkt net zoals bij de eerste zitting, kijk hiervoor bij [Details van de zitting](/coordinator/verkiezing-beheren/details-zitting.md).
+- Klik op **Aangevraagde onderzoeken** en vervolgens op **+ Onderzoek toevoegen**.
+
+![Onderzoek toevoegen](./img/onderzoek-toevoegen.png)
+
+- Kies het stembureau waarvoor je een onderzoek wilt toevoegen.
+- Ontbreekt het stembureau in de lijst, klik dan op **Ontbrekend stembureau toevoegen**. Dit werkt hetzelfde als in de eerste zitting, kijk hiervoor bij [Stembureau handmatig toevoegen](/coordinator/stembureaus-beheren/sb-handmatig-toevoegen.md). Daarna ga je terug naar de nieuwe zitting en herhaal je de bovenstaande stappen.
+
+![Onderzoek toevoegen: stembureau kiezen](./img/onderzoek-toevoegen-stembureaukeuze.png)
+
+- Schrijf op welke aanleiding en opdracht het centraal stembureau heeft gegeven voor het onderzoek en klik op **Volgende**.
+
+![Aanleiding en opdracht van het centraal stembureau](./img/onderzoek-aanleiding-opdracht.png)
+
+- Nu kun je het corrigendum afdrukken en het onderzoek uitvoeren volgens de instructies op het scherm.
+
+![Print het corrigendum](./img/onderzoek-print-corrigendum.png)
+
+- Als er meer onderzoeken nodig zijn, klik je op **Terug naar alle onderzoeken** om terug te gaan naar het overzicht met onderzoeken. Klik dan weer op **+ Onderzoek toevoegen**.
+
+![Overzicht van onderzoeken](./img/onderzoeken-overzicht.png)
