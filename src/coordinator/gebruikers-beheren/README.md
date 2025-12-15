@@ -1,6 +1,6 @@
 # Gebruikers beheren
 
-Als coördinator kun je alleen invoerders beheren. Alleen een beheerder kan accounts met de rol van beheerder, coördinator en invoerder beheren.
+Als coördinator kun je alleen invoerders beheren. Alleen een beheerder kan ook accounts met de rol van beheerder of coördinator beheren.
 
 - Klik in het hoofdmenu op **Gebruikers beheren**.
 
