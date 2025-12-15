@@ -1,6 +1,6 @@
 # Gebruiker toevoegen
 
-- Klik onder **Gebruikersbeheer** op **+ Gebruiker toevoegen**.
+- Klik onder **Gebruikers beheren** op **+ Gebruiker toevoegen**.
 - Eerst kies je de rol van de nieuwe gebruiker: Beheerder, Coördinator of Invoerder. Dit kun je later niet meer aanpassen.
 
 ![Rol gebruiker](./img/rol-gebruiker.png)

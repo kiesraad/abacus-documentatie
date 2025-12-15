@@ -8,6 +8,6 @@ Als je een EML-bestand met stembureaus (EML 110b) hebt, kun je dit direct toevoe
 ![Stembureaus importeren](./img/stembureaus-import.png)
 
 - Je ziet nu alle stembureaus die uit het bestand zijn ingelezen.
-- Controleer of alles klopt en klik op **Stembureaus importeren**.
+- Controleer de toegevoegde stembureaus aan de hand van de door de gemeente gepubliceerde lijst en klik op **Stembureaus importeren**.
 
 ![Stembureaus importeren - bevestigen](./img/stembureaus-import-bevestig.png)

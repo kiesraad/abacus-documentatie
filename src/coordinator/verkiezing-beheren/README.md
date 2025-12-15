@@ -6,7 +6,7 @@ In het menu klik je onder **Verkiezingen** op de naam van de verkiezing. Je ziet
 
 Onder de zitting staat een overzicht met alle gegevens over deze verkiezing. Je kunt hier het volgende doen:
 
-- Klik op de rij *Aantal kiesgerechtigden* om het aantal kiesgerechtigden te wijzigen. **Let op:** zorg ervoor dat dit getal juist is ingevuld voordat je de zitting begint.
+- Klik op de rij *Aantal kiesgerechtigden* om het aantal kiesgerechtigden te wijzigen. **Let op:** zorg ervoor dat dit getal juist is ingevuld voordat je de zitting begint. Na het openen van de zitting kan dit getal niet meer worden gewijzigd.
 - Klik op de rij *Stembureaus* om ze te beheren, zie [Stembureaus beheren](/coordinator/stembureaus-beheren/).
 - Onderaan de pagina kun je de lege processen-verbaal voor deze verkiezing downloaden.
 
