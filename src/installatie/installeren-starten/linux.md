@@ -1,6 +1,8 @@
-# Methode 2: installatiebestand downloaden en starten met systemd (Linux)
+# Linux (en macOS)
 
 Met deze methode installeer je Abacus op een Linux-machine.
+
+Officieel wordt macOS niet ondersteund, maar je kunt de stappen voor Linux volgen omdat deze meestal ook op macOS werken.
 
 ## Downloaden
 

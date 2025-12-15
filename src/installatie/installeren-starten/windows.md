@@ -1,4 +1,4 @@
-# Methode 1: installatieprogramma downloaden en installeren (Windows)
+# Windows
 
 Met deze methode installeer je Abacus op een Windows-machine.
 Deze versie is geschikt om mee te testen. Het is nog niet de definitieve versie van Abacus. Die ontvangen de gemeenten rechtstreeks van de Kiesraad.

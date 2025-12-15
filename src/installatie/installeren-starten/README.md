@@ -5,7 +5,3 @@ De methoden voor Linux werken op alle gangbare (recente) Linux-distributies en z
 De Windows-methoden zijn getest op Windows 11.
 
 Kijk voordat je begint ook naar de [systeem- en browservereisten voor Abacus](../vereisten-systeem-browser.md).
-
-### MacOS
-
-Officieel wordt macOS niet ondersteund, maar je kunt de stappen voor Linux volgen omdat deze meestal ook op macOS werken.

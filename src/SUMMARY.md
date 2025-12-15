@@ -10,14 +10,13 @@
 - [Uitproberen, installeren en starten](./installatie/README.md)
   - [Uitproberen](./installatie/uitproberen.md)
   - [Installeren en starten](./installatie/installeren-starten/README.md)
-    - [Installatieprogramma Windows](./installatie/installeren-starten/methode-1.md)
-    - [Installatiebestand Linux](./installatie/installeren-starten/methode-2.md)
-    - [Development met Docker Compose](./installatie/installeren-starten/methode-3.md)
+    - [Windows](./installatie/installeren-starten/windows.md)
+    - [Linux (en macOS)](./installatie/installeren-starten/linux.md)
   - [Starten met lege database](./installatie/lege-database.md)
   - [Help](./installatie/help.md)
   - [Testdocumenten](./installatie/testdocumenten.md)
   - [Vereisten voor systeem en browser](./installatie/vereisten-systeem-browser.md)
-  - [Developers](./installatie/developers.md)
+  - [Meewerken als ontwikkelaar](./installatie/ontwikkelaar.md)
 
 # Abacus gebruiken
 
