@@ -3,8 +3,13 @@
 Met deze methode installeer je Abacus op een Windows-machine.
 Deze versie is geschikt om mee te testen. Het is nog niet de definitieve versie van Abacus. Die ontvangen de gemeenten rechtstreeks van de Kiesraad.
 
+## Downloaden
+
 - Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
 - Klik bij de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-windows-setup-[versienummer].exe` om het te downloaden.
+
+## Installeren
+
 - Dubbelklik op het gedownloade bestand om het installatieprogramma te openen. Klik op **Installeren**.
 
 ![Installeren op Windows](./img/windows-installer-intro.png)
@@ -18,6 +23,8 @@ Deze versie is geschikt om mee te testen. Het is nog niet de definitieve versie 
 
 ![Installatie voltooid](./img/windows-installer-geinstalleerd.png)
 
+## Starten
+
 Bij deze installatiemethode worden drie snelkoppelingen op het bureaublad geplaatst:
 
 - Met **1. Start Abacus GR26 server** start je de Abacus-server. Gebruik deze snelkoppeling voordat je Abacus opent in de browser.
@@ -25,3 +32,5 @@ Bij deze installatiemethode worden drie snelkoppelingen op het bureaublad geplaa
 - Met **Abacus GR26 database map** open je de map met de databasebestanden.
 
 ![Snelkoppelingen op het bureaublad](./img/windows-snelkoppelingen.png)
+
+**Let op:** Wanneer je de Abacus-server start, start Windows een command prompt. Zorg ervoor dat dit venster moet open blijft. Als je het venster sluit wordt de Abacus-server gestopt.
