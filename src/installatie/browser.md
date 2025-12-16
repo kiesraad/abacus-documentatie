@@ -16,7 +16,8 @@ Zet adblockers daarom uit of voeg Abacus toe aan de lijst met uitzonderingen in 
 
 ## Gebruik geen wachtwoordmanager
 
-In sommige gevallen worden wachtwoorden op een verkeerde manier opgeslagen in wachtwoordmanagers. Zorg er daarom voor dat je geen wachtwoordmanager gebruikt. Gebruik je een externe wachtwoordmanager, schakel die dan uit. In de browser zet je dit als volgt uit:
+De computers waarop Abacus wordt geïnstalleerd zijn geen persoonlijke computers. Het is belangrijk dat wachtwoorden van Abacus niet worden opgeslagen op een plek die voor andere gebruikers ook bereikbaar is.
+Zorg er daarom voor dat je geen wachtwoordmanager gebruikt. Gebruik je een externe wachtwoordmanager, schakel die dan uit. In de browser zet je dit als volgt uit:
 
 - Chrome: klik op de drie puntjes rechtsboven, selecteer **Wachtwoorden en Automatisch invullen**, klik op **Google Wachtwoordmanager** en zet de optie **Aanbieden om wachtwoorden op te slaan** uit.
 - Firefox: klik op de drie streepjes rechtsboven, selecteer **Instellingen**, dan **Privacy & Beveiliging** en zet de optie **Vragen om wachtwoorden op te slaan** uit.
