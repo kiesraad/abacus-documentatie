@@ -33,4 +33,4 @@ Bij deze installatiemethode worden drie snelkoppelingen op het bureaublad geplaa
 
 ![Snelkoppelingen op het bureaublad](./img/windows-snelkoppelingen.png)
 
-**Let op:** Wanneer je de Abacus-server start, start Windows een command prompt. Zorg ervoor dat dit venster moet open blijft. Als je het venster sluit wordt de Abacus-server gestopt.
+**Let op:** Wanneer je de Abacus-server start, start Windows een command prompt. Zorg ervoor dat dit venster open blijft. Als je dit venster sluit wordt de Abacus-server gestopt.
