@@ -15,7 +15,8 @@
   - [Starten met lege database](./installatie/lege-database.md)
   - [Help](./installatie/help.md)
   - [Testdocumenten](./installatie/testdocumenten.md)
-  - [Vereisten voor systeem en browser](./installatie/vereisten-systeem-browser.md)
+  - [Systeemvereisten](./installatie/systeemvereisten.md)
+  - [Browserondersteuning](./installatie/browser.md)
   - [Meewerken als ontwikkelaar](./installatie/ontwikkelaar.md)
 
 # Abacus gebruiken

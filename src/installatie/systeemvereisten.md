@@ -1,6 +1,4 @@
-# Vereisten voor systeem en browser
-
-## Systeemvereisten
+# Systeemvereisten
 
 Bij de gemeenteraadsverkiezingen van 2026 worden zowel OSV2020 als Abacus ingezet. Omdat beide programma's op het systeem moeten kunnen draaien volgt Abacus de systeemvereisten van OSV2020.
 
@@ -9,7 +7,7 @@ Deze systeemvereisten en de aansluit- en gebruiksvoorschriften vind je ook in de
 - Systeemvereisten OSV2020-Uitslagvaststelling (beschikbaar in januari)
 - [Aansluit- en gebruiksvoorschriften Wet programmatuur verkiezingsuitslagen](https://www.kiesraad.nl/verkiezingen/adviezen-en-publicaties/publicaties/2025/10/23/aansluit--en-gebruiksvoorschriften-wet-programmatuur-verkiezingsuitslagen)
 
-### Processortype
+## Processortype
 
 Windows/Linux:
 
@@ -17,7 +15,7 @@ Windows/Linux:
 - AMD Ryzen 5 3400G / 3,7 GHz
 - Minimaal 4 rekenkernen
 
-### Besturingssysteem
+## Besturingssysteem
 
 Gebruik een recente en ondersteunde versie van:
 
@@ -26,7 +24,7 @@ Gebruik een recente en ondersteunde versie van:
 
 MacOS wordt niet ondersteund.
 
-### Systeemgeheugen
+## Systeemgeheugen
 
 - Tot 10 stembureaus / 2 tot 4 invoerstations: 4 GB of beter
 - Tussen 10 en 25 stembureaus / 4 tot 8 invoerstations: 6 GB of beter
@@ -34,25 +32,10 @@ MacOS wordt niet ondersteund.
 - Tussen 100 en 200 stembureaus / 15 tot 24 invoerstations: 12 GB of beter
 - Meer dan 200 stembureaus / meer dan 25 invoerstations: 24 GB of beter
 
-### Vrije schijfruimte
+## Vrije schijfruimte
 
 10 GB vrije schijfruimte
 
-### Geen internet
+## Geen internet
 
 Gebruik Abacus niet op een computer die verbonden is met het internet. Abacus geeft een foutmelding als een verbinding met internet wordt gedetecteerd.
-
-## Browserondersteuning
-
-Hieronder staan de ondersteunde desktopbrowsers en versies. Mobiele browsers worden niet ondersteund.
-
-| Browser | OS                | Versie    |
-|---------|-------------------|-----------|
-| Chrome  | Windows/Mac/Linux | Laatste 2 |
-| Firefox | Windows/Mac/Linux | Laatste 2 |
-| Edge    | Windows           | Laatste 2 |
-| Safari  | Mac               | Laatste 2 |
-
-### Gebruik geen adblocker
-
-Als de browser een adblocker bevat, zet die dan voor de zekerheid uit voor Abacus. Anders kan het zijn dat sommige pagina's niet goed werken.
