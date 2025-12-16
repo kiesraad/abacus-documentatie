@@ -11,7 +11,7 @@
   - [Uitproberen](./installatie/uitproberen.md)
   - [Installeren en starten](./installatie/installeren-starten/README.md)
     - [Windows](./installatie/installeren-starten/windows.md)
-    - [Linux (en macOS)](./installatie/installeren-starten/linux.md)
+    - [Linux](./installatie/installeren-starten/linux.md)
   - [Starten met lege database](./installatie/lege-database.md)
   - [Help](./installatie/help.md)
   - [Testdocumenten](./installatie/testdocumenten.md)

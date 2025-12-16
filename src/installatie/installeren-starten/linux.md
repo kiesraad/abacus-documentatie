@@ -1,8 +1,6 @@
-# Linux (en macOS)
+# Linux
 
 Met deze methode installeer je Abacus op een Linux-machine.
-
-Officieel wordt macOS niet ondersteund, maar je kunt de stappen voor Linux volgen omdat deze meestal ook op macOS werken.
 
 ## Downloaden
 
