@@ -14,6 +14,6 @@ Abacus mag alleen gebruikt worden in een netwerk dat niet verbonden is met het i
 
 ## Testen
 
-Wanneer Abacus op de server draait, kopieer je het IP-adres. Open vervolgens de browser op je client en ga naar het IP-adres om te testen of de browser verbinding maakt met de Abacus-server. Maak ook een bladwijzer in de browser zodat je Abacus snel weer kunt openen. Dit doe je voor alle client-computers.
+Wanneer Abacus op de server draait, noteer je dit IP-adres. Open vervolgens de browser op je client en ga naar dit IP-adres om te testen of de browser verbinding maakt met de Abacus-server. Maak ook een bladwijzer in de browser zodat je Abacus snel weer kunt openen. Dit doe je voor alle client-computers.
 
-**Let op:** omdat er geen certificaat aanwezig is, staat in het IP-adres alleen *http* en niet *https*. Als je browser hier een beveiligingswaarschuwing over geeft, accepteer dan het risico en ga verder.
+**Let op:** omdat er geen SSL-certificaat aanwezig is, staat in het IP-adres alleen *http* en niet *https*. Als je browser hier een beveiligingswaarschuwing over geeft, accepteer dan het risico en ga verder.
