@@ -8,8 +8,8 @@ Je installeert Abacus op één computer die dient als server. De andere computer
 
 - Installeer de meest recente updates van het besturingssysteem voordat je de verbinding met het internet verbreekt.
 - De computers die je gebruikt moeten worden aangesloten op een bedraad lokaal netwerk en mogen op geen enkele manier verbonden zijn met het internet. Zorg dat alle aanwezige draadloze
-communicatiemodules zoals wifi en bluetooth zijn gedeactiveerd.
-- Op de computers zelf zet je wifi-functie uit zodat er ook op die manier geen internetverbinding kan worden gemaakt.
+communicatiemodules zoals wifi en Bluetooth zijn gedeactiveerd.
+- Op de computers zelf zet je de wifi-functie uit zodat er ook op die manier geen internetverbinding kan worden gemaakt.
 - Zorg dat de datum en tijd van alle computers kloppen. Als de datum en tijd afwijken, kan dit leiden tot problemen met inloggen en andere foutmeldingen.
 
 Meer informatie over de vereisten voor de computer en het besturingssysteem vind je in de [Aansluit- en gebruiksvoorschriften Wet programmatuur verkiezingsuitslagen](https://www.kiesraad.nl/verkiezingen/adviezen-en-publicaties/publicaties/2025/10/23/aansluit--en-gebruiksvoorschriften-wet-programmatuur-verkiezingsuitslagen) op de website van de Kiesraad.
