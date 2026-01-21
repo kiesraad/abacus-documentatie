@@ -25,6 +25,7 @@
 - [Cheatsheet: zo gebruik je Abacus](./cheatsheet/README.md)
   - [Invoeren en sneltoetsen](./cheatsheet/invoeren-sneltoetsen.md)
   - [Waarschuwingen en fouten](./cheatsheet/waarschuwingen-fouten.md)
+  - [Codes van fouten en waarschuwingen](./cheatsheet/codes-fouten-ws.md)
   - [Tweede invoer](./cheatsheet/tweede-invoer.md)
   - [Pauzeren of afbreken](./cheatsheet/pauzeren-afbreken.md)
 - [Instructies beheerder](./beheerder/README.md)
