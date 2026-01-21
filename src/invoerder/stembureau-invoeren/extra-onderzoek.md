@@ -1,6 +1,6 @@
 # Extra onderzoek
 
-Op pagina 1 van het papieren formulier is aangegeven of er extra onderzoek is uitgevoerd.
+Op pagina 1 van het papieren proces-verbaal is aangegeven of er extra onderzoek is uitgevoerd.
 
 Neem de vinkjes over zoals ze in het proces-verbaal staan en klik op **Volgende**.
 

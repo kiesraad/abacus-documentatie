@@ -1,7 +1,13 @@
 # Installeren en starten
 
-Bij de onderstaande installatiemethodes is aangegeven op welke besturingssystemen ze werken. 
+Tijdens de gemeenteraadsverkiezingen 2026 gebruiken 10 tot 20 gemeentelijk stembureaus Abacus bij de uitslagvaststelling. In dit document staan de installatie-instructies voor Windows en Linux.
+
+Bij de onderstaande installatiemethodes is aangegeven op welke besturingssystemen ze werken.
 De methoden voor Linux werken op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (22.04 en 24.04) en Debian (12/bookworm en 13/trixie).
 De Windows-methoden zijn getest op Windows 11.
 
-Kijk voordat je begint ook naar de [systeem- en browservereisten voor Abacus](../vereisten-systeem-browser.md).
+Om Abacus goed te kunnen gebruiken, adviseren we het volgende (naast de systeemvereisten die je op de website van de Kiesraad vindt):
+
+- Gebruik de meest recente versie van Edge, Chrome of Firefox.
+- Gebruik geen adblocker; dit kan foutmeldingen veroorzaken. Zet adblockers daarom uit of voeg Abacus toe aan de lijst met uitzonderingen.
+- Gebruik geen wachtwoordmanager; in sommige gevallen worden wachtwoorden in wachtwoordmanagers verkeerd opgeslagen. Schakel je wachtwoordmanager dus uit.

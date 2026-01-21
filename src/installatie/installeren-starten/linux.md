@@ -4,8 +4,7 @@ Met deze methode installeer je Abacus op een Linux-machine.
 
 ## Downloaden
 
-- Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
-- Klik bij de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-linux-[versienummer].tar.gz` om het te downloaden.
+- Je downloadt Abacus via Rijkscloud SecureFileTransfer. Deze link krijg je van de Kiesraad.
 - Pak de tarball uit:
 
 ```
@@ -27,7 +26,7 @@ Maak Abacus uitvoerbaar:
 sudo chmod +x /usr/local/bin/abacus
 ```
 
-Laad systemd opnieuw en schakel de service in, zodat Abacus direct start en bij het opstarten van het systeem wordt gestart:
+Laad systemd opnieuw en schakel de service in:
 
 ```
 sudo systemctl daemon-reload

@@ -2,12 +2,11 @@
 
 Hieronder staan de ondersteunde desktopbrowsers en versies. Mobiele browsers worden niet ondersteund.
 
-| Browser | OS                | Versie    |
-|---------|-------------------|-----------|
-| Chrome  | Windows/Mac/Linux | Laatste 2 |
-| Firefox | Windows/Mac/Linux | Laatste 2 |
-| Edge    | Windows           | Laatste 2 |
-| Safari  | Mac               | Laatste 2 |
+| Browser | OS            | Versie    |
+|---------|---------------|-----------|
+| Chrome  | Windows/Linux | Laatste 2 |
+| Firefox | Windows/Linux | Laatste 2 |
+| Edge    | Windows       | Laatste 2 |
 
 ## Gebruik geen adblocker
 

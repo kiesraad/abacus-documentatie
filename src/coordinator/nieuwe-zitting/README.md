@@ -1,10 +1,33 @@
 # Nieuwe zitting
 
-Na het afronden van de invoerfase controleert het Centraal Stembureau de tellingen en de processen-verbaal.
-Het kan zijn dat het Centraal Stembureau zelf een fout ontdekt of een melding van een burger krijgt, bijvoorbeeld als die een stem niet kan terugvinden op het proces-verbaal.
-In dat geval kan het Centraal Stembureau opdracht geven om de resultaten van het stembureau te onderzoeken.
-Als je één of meer onderzoeksverzoeken hebt ontvangen, open je een nieuwe zitting.
+Als het centraal stembureau hier opdracht voor heeft gegeven, voeg je een nieuwe zitting toe. Wil het gemeentelijk stembureau zelf een fout herstellen en is de zitting nog niet afgesloten door de voorzitter? Ga dan verder in de eerste zitting.
 
-Voeg alleen een nieuwe zitting toe als het Centraal Stembureau hier opdracht voor heeft gegeven.
-Wil het Gemeentelijk Stembureau zelf een fout herstellen en is de zitting nog niet afgesloten door de voorzitter?
-Ga dan verder in de eerste zitting.
+- Selecteer onder de bestaande zitting **Nieuwe zitting voorbereiden** en in de pop-up **Ja, zitting toevoegen**.
+
+![Nieuwe zitting voorbereiden](./img/nieuwe-zitting-voorbereiden-popup.png)
+
+- Je ziet nu een tweede zitting met de status *Zitting voorbereiden*.
+
+![Nieuwe zitting naast vorige zitting](./img/onderzoek-nieuwe-zitting.png)
+
+- Onder **Details van de zitting** voer je de plaatsnaam, datum en starttijd van de zitting in. Dit werkt net zoals bij de eerste zitting, kijk hiervoor bij [Details van de zitting](/coordinator/verkiezing-beheren/details-zitting.md).
+- Klik op **Aangevraagde onderzoeken** en vervolgens op **+ Onderzoek toevoegen**.
+
+![Onderzoek toevoegen](./img/onderzoek-toevoegen.png)
+
+- Kies het stembureau waarvoor je een onderzoek wilt toevoegen.
+- Ontbreekt het stembureau in de lijst, klik dan op **Ontbrekend stembureau toevoegen**. Dit werkt hetzelfde als in de eerste zitting, kijk hiervoor bij [Stembureau handmatig toevoegen](/coordinator/stembureaus-beheren/sb-handmatig-toevoegen.md). Daarna ga je terug naar de nieuwe zitting en herhaal je de bovenstaande stappen.
+
+![Onderzoek toevoegen: stembureau kiezen](./img/onderzoek-toevoegen-stembureaukeuze.png)
+
+- Schrijf op welke aanleiding en opdracht het centraal stembureau heeft gegeven voor het onderzoek en klik op **Volgende**.
+
+![Aanleiding en opdracht van het centraal stembureau](./img/onderzoek-aanleiding-opdracht.png)
+
+- Nu kun je het corrigendum afdrukken en het onderzoek uitvoeren volgens de instructies op het scherm.
+
+![Print het corrigendum](./img/onderzoek-print-corrigendum.png)
+
+- Als er meer onderzoeken nodig zijn, klik je op **Terug naar alle onderzoeken** om terug te gaan naar het overzicht met onderzoeken. Klik dan weer op **+ Onderzoek toevoegen**.
+
+![Overzicht van onderzoeken](./img/onderzoeken-overzicht.png)

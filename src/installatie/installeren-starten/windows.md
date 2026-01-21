@@ -3,13 +3,9 @@
 Met deze methode installeer je Abacus op een Windows-machine.
 Deze versie is geschikt om mee te testen. Het is nog niet de definitieve versie van Abacus. Die ontvangen de gemeenten rechtstreeks van de Kiesraad.
 
-## Downloaden
+## Downloaden en installeren
 
-- Op de hoofdpagina van de Abacus-repository klik je aan de rechterkant op [Releases](https://github.com/kiesraad/abacus/releases).
-- Klik bij de bovenste release op `Assets` en klik vervolgens op het installatiebestand `abacus-windows-setup-[versienummer].exe` om het te downloaden.
-
-## Installeren
-
+- Je downloadt Abacus via Rijkscloud SecureFileTransfer. Deze link krijg je van de Kiesraad.
 - Dubbelklik op het gedownloade bestand om het installatieprogramma te openen. Klik op **Installeren**.
 
 ![Installeren op Windows](./img/windows-installer-intro.png)
@@ -19,7 +15,7 @@ Deze versie is geschikt om mee te testen. Het is nog niet de definitieve versie 
 ![Installeren op Windows](./img/windows-installer-toestaan.png)
 
 - Klik bij de melding *Het toevoegen van de firewallregel is succesvol uitgevoerd* op **OK**.
-- Abacus is nu geïnstalleerd. Als je Abacus niet direct wilt starten en de interface niet wilt openen in de browser, zet dan de vinkjes uit. Klik op **Voltooien** om het installatieprogramma te sluiten.
+- Abacus is nu geïnstalleerd. Als je Abacus niet direct wil starten en de interface niet wil openen in de browser, zet dan de vinkjes uit. Klik op **Voltooien** om het installatieprogramma te sluiten.
 
 ![Installatie voltooid](./img/windows-installer-geinstalleerd.png)
 
