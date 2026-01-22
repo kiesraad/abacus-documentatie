@@ -7,6 +7,6 @@ Selecteer eerst de verkiezing waarvoor je stemmen wilt invoeren. Hier zie je ook
 Selecteer nu het stembureau:
 
 - Voer het nummer in van het stembureau dat je wilt invoeren. Het nummer vind je op het proces-verbaal.
-- Weet je het nummer niet, klik dan onderaan de pagina op **Toon de lijst met nog in te vullen stembureaus** en kies vervolgens het juiste stembureau.
+- Weet je het nummer niet, selecteer dan onderaan de pagina **Toon de lijst met nog in te vullen stembureaus** en kies vervolgens het juiste stembureau.
 
 ![Stembureau kiezen](./img/invoeren-stembureau-kiezen.png)

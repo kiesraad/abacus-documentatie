@@ -6,16 +6,16 @@ Deze versie is geschikt om mee te testen. Het is nog niet de definitieve versie 
 ## Downloaden en installeren
 
 - Je downloadt Abacus via Rijkscloud SecureFileTransfer. Deze link krijg je van de Kiesraad.
-- Dubbelklik op het gedownloade bestand om het installatieprogramma te openen. Klik op **Installeren**.
+- Dubbelklik op het gedownloade bestand om het installatieprogramma te openen. Selecteer **Installeren**.
 
 ![Installeren op Windows](./img/windows-installer-intro.png)
 
-- Tijdens het installatieprogramma wordt Microsoft Visual C++ Redistributable geïnstalleerd en wordt een firewallregel ingesteld via Windows Command Prompt. Daarom zie je tijdens de installatie twee keer een pop-up waarin wordt gevraagd *Wilt u toestaan dat deze app wijzigingen aan uw apparaat aanbrengt?*. Klik in beide gevallen op **Ja**.
+- Tijdens het installatieprogramma wordt Microsoft Visual C++ Redistributable geïnstalleerd en wordt een firewallregel ingesteld via Windows Command Prompt. Daarom zie je tijdens de installatie twee keer een pop-up waarin wordt gevraagd *Wilt u toestaan dat deze app wijzigingen aan uw apparaat aanbrengt?*. Selecteer in beide gevallen **Ja**.
 
 ![Installeren op Windows](./img/windows-installer-toestaan.png)
 
-- Klik bij de melding *Het toevoegen van de firewallregel is succesvol uitgevoerd* op **OK**.
-- Abacus is nu geïnstalleerd. Als je Abacus niet direct wil starten en de interface niet wil openen in de browser, zet dan de vinkjes uit. Klik op **Voltooien** om het installatieprogramma te sluiten.
+- Bij de melding *Het toevoegen van de firewallregel is succesvol uitgevoerd* selecteer je **OK**.
+- Abacus is nu geïnstalleerd. Als je Abacus niet direct wil starten en de interface niet wil openen in de browser, zet dan de vinkjes uit. Selecteer **Voltooien** om het installatieprogramma te sluiten.
 
 ![Installatie voltooid](./img/windows-installer-geinstalleerd.png)
 

@@ -2,7 +2,7 @@
 
 Op pagina 1 van het papieren proces-verbaal is aangegeven of er extra onderzoek is uitgevoerd.
 
-Neem de vinkjes over zoals ze in het proces-verbaal staan en klik op **Volgende**.
+Neem de vinkjes over zoals ze in het proces-verbaal staan en selecteren **Volgende**.
 
 ![Extra onderzoek](./img/invoeren-extra-onderzoek.png)
 

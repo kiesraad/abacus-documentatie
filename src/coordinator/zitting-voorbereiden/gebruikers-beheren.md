@@ -4,13 +4,13 @@ Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen.
 
 **Let op:** je kunt alleen invoerders beheren. Alleen een beheerder kan ook accounts met de rol van beheerder of coördinator beheren.
 
-- Klik in het hoofdmenu op **Gebruikers beheren**.
+- Selecteer in het hoofdmenu **Gebruikers beheren**.
 
 ![Gebruikers beheren als coördinator](./img/gebruikers-beheren-coord.png)
 
 ## Gebruiker toevoegen
 
-- Klik op **+ Gebruiker toevoegen**.
+- Selecteer **+ Gebruiker toevoegen**.
 - Kies eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de naam invoeren.
 
 ![Invoerder: type account](./img/type-account-invoerder.png)
@@ -21,8 +21,8 @@ Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen.
 
 ## Gebruiker wijzigen of verwijderen
 
-- Klik onder **Gebruikers beheren** op de gebruiker die je wilt wijzigen.
+- Selecteer onder **Gebruikers beheren** de gebruiker die je wilt wijzigen.
 - Wijzig de volledige naam of reset het wachtwoord. De gebruikersnaam en de rol kunnen niet gewijzigd worden.
-- Verwijder de gebruiker door onderaan het scherm op **Gebruiker verwijderen** te klikken.
+- Verwijder de gebruiker door onderaan het scherm **Gebruiker verwijderen** te selecteren.
 
 ![Gebruiker wijzigen als coördinator](./img/gebruiker-wijzigen.png)

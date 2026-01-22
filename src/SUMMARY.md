@@ -74,6 +74,8 @@ sb-wijzigen-verwijderen.md)
     - [Verschillen D & H](./invoerder/stembureau-invoeren/verschillen-d-h.md)
     - [Lijsten invoeren](./invoerder/stembureau-invoeren/lijsten.md)
     - [Controleren en opslaan](./invoerder/stembureau-invoeren/controleren-opslaan.md)
+  - [Tweede invoer](./invoerder/tweede-invoer.md)
+  - [Pauzeren of afbreken](./invoerder/pauzeren-afbreken.md)
   - [Extra zitting: corrigendum invoeren](./invoerder/extra-zitting-corrigendum.md)
 
 # Achtergrond bij Abacus

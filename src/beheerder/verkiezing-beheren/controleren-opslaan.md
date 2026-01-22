@@ -1,7 +1,7 @@
 # Controleren en opslaan
 
-- Controleer de gegevens over de verkiezing die je wilt toevoegen en klik op **Opslaan**.
-- Als er iets niet klopt, klik je rechtsboven op **Afbreken**. Daarna kun je opnieuw beginnen.
+- Controleer de gegevens over de verkiezing die je wilt toevoegen en selecteer **Opslaan**.
+- Als er iets niet klopt, selecteer je rechtsboven **Afbreken**. Daarna kun je opnieuw beginnen.
 
 ![Controleren en opslaan](./img/verkiezing-toevoegen-controleren-opslaan.png)
 

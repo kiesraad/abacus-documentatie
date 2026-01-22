@@ -11,16 +11,16 @@ Als het centraal stembureau hier opdracht voor heeft gegeven, voeg je een nieuwe
 ![Nieuwe zitting naast vorige zitting](./img/onderzoek-nieuwe-zitting.png)
 
 - Onder **Details van de zitting** voer je de plaatsnaam, datum en starttijd van de zitting in. Dit werkt net zoals bij de eerste zitting, kijk hiervoor bij [Details van de zitting](/coordinator/verkiezing-beheren/details-zitting.md).
-- Klik op **Aangevraagde onderzoeken** en vervolgens op **+ Onderzoek toevoegen**.
+- Selecteer **Aangevraagde onderzoeken** en vervolgens **+ Onderzoek toevoegen**.
 
 ![Onderzoek toevoegen](./img/onderzoek-toevoegen.png)
 
 - Kies het stembureau waarvoor je een onderzoek wilt toevoegen.
-- Ontbreekt het stembureau in de lijst, klik dan op **Ontbrekend stembureau toevoegen**. Dit werkt hetzelfde als in de eerste zitting, kijk hiervoor bij [Stembureau handmatig toevoegen](/coordinator/stembureaus-beheren/sb-handmatig-toevoegen.md). Daarna ga je terug naar de nieuwe zitting en herhaal je de bovenstaande stappen.
+- Ontbreekt het stembureau in de lijst, selecteer dan **Ontbrekend stembureau toevoegen**. Dit werkt hetzelfde als in de eerste zitting, kijk hiervoor bij [Stembureau handmatig toevoegen](/coordinator/stembureaus-beheren/sb-handmatig-toevoegen.md). Daarna ga je terug naar de nieuwe zitting en herhaal je de bovenstaande stappen.
 
 ![Onderzoek toevoegen: stembureau kiezen](./img/onderzoek-toevoegen-stembureaukeuze.png)
 
-- Schrijf op welke aanleiding en opdracht het centraal stembureau heeft gegeven voor het onderzoek en klik op **Volgende**.
+- Schrijf op welke aanleiding en opdracht het centraal stembureau heeft gegeven voor het onderzoek en selecteer **Volgende**.
 
 ![Aanleiding en opdracht van het centraal stembureau](./img/onderzoek-aanleiding-opdracht.png)
 
@@ -28,6 +28,6 @@ Als het centraal stembureau hier opdracht voor heeft gegeven, voeg je een nieuwe
 
 ![Print het corrigendum](./img/onderzoek-print-corrigendum.png)
 
-- Als er meer onderzoeken nodig zijn, klik je op **Terug naar alle onderzoeken** om terug te gaan naar het overzicht met onderzoeken. Klik dan weer op **+ Onderzoek toevoegen**.
+- Als er meer onderzoeken nodig zijn, selecteer je **Terug naar alle onderzoeken** om terug te gaan naar het overzicht met onderzoeken. Selecteer dan weer **+ Onderzoek toevoegen**.
 
 ![Overzicht van onderzoeken](./img/onderzoeken-overzicht.png)
