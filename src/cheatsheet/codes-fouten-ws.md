@@ -16,7 +16,7 @@ Validatieregels vragen de gebruiker de invoer extra te controleren en geven een 
 
 - Een regel met de foutcode, de titel en een korte toelichting
 - De melding die de invoerder krijgt
-- De melding die jij als coördinator krijgt en wat je moet doen
+- De melding die de coördinator krijgt en wat de coördinator moet doen
 
 ### F.101: Alleen bij extra onderzoek B1-1: één van beide vragen is beantwoord, en de andere niet
 
@@ -38,7 +38,7 @@ Validatieregels vragen de gebruiker de invoer extra te controleren en geven een 
 
 > Coördinator: **Bij beide vragen moet een antwoord gegeven worden**
 
-### F.112: Verschillen met telresultaten van het stembureau: er zijn meerdere antwoorden per vraag  gegeven
+### F.112: Verschillen met telresultaten van het stembureau: er zijn meerdere antwoorden per vraag gegeven
 
 > Invoerder: **Controleer je antwoorden**
 
