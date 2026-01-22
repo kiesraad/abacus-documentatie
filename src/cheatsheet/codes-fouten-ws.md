@@ -96,8 +96,6 @@ Validatieregels vragen de gebruiker de invoer extra te controleren en geven een 
 
 > Coördinator: **Het getal dat is ingevuld bij H is niet kleiner dan D**
 
-Veld markeren: foutmelding op 3.3.1 "Vergelijk D en H"
-
 ### F.304: Vergelijk D en H: er zijn meerdere vakjes aangevinkt of is geen enkel vakje aangevinkt
 
 > Invoerder: **Controleer je antwoorden**
