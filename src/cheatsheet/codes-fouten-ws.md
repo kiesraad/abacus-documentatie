@@ -8,7 +8,7 @@ Hieronder staat een overzicht van de fouten en waarschuwingen die je kunt tegenk
 Een fout wijst op een probleem in het papieren proces-verbaal. Dit probleem moet opgelost worden voordat een tweede invoerder aan de slag gaat. Als een proces-verbaal gecorrigeerd wordt, moet het proces-verbaal twee keer opnieuw ingevoerd worden.
 
 **Waarschuwing**:
-Een waarschuwing wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. Dit moet het GSB verklaren, anders kan dit resulteren in een nieuwe zitting.
+Een waarschuwing wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. De uitslag kan dan nog steeds correct zijn, maar het is wel goed om dit te onderzoeken.
 
 ## Fouten
 
