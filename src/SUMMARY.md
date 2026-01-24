@@ -9,6 +9,7 @@
 
 - [Uitproberen, installeren en starten](./installatie/README.md)
   - [Uitproberen](./installatie/uitproberen.md)
+  - [Netwerk inrichten](./installatie/netwerk.md)
   - [Installeren en starten](./installatie/installeren-starten/README.md)
     - [Windows](./installatie/installeren-starten/windows.md)
     - [Linux](./installatie/installeren-starten/linux.md)
@@ -24,6 +25,7 @@
 - [Cheatsheet: zo gebruik je Abacus](./cheatsheet/README.md)
   - [Invoeren en sneltoetsen](./cheatsheet/invoeren-sneltoetsen.md)
   - [Waarschuwingen en fouten](./cheatsheet/waarschuwingen-fouten.md)
+  - [Codes van fouten en waarschuwingen](./cheatsheet/codes-fouten-ws.md)
   - [Tweede invoer](./cheatsheet/tweede-invoer.md)
   - [Pauzeren of afbreken](./cheatsheet/pauzeren-afbreken.md)
 - [Instructies beheerder](./beheerder/README.md)
