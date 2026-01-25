@@ -45,4 +45,4 @@ Meer informatie over het gebruik van Abacus door jouw gemeente krijg je via de c
 
 Meer informatie over Abacus zelf krijg je bij het Informatiepunt Verkiezingen van de Kiesraad: [https://www.kiesraad.nl/contact](https://www.kiesraad.nl/contact)
 
-U kunt de broncode van Abacus ook zelf op internet bekijken: [https://github.com/kiesraad/abacus](https://github.com/kiesraad/abacus)
+Je kunt de broncode van Abacus ook zelf op internet bekijken: [https://github.com/kiesraad/abacus](https://github.com/kiesraad/abacus)
