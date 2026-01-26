@@ -1,4 +1,4 @@
-# Privacyverklaring Abacus (versie 18-11-2025)
+# Privacyverklaring Abacus (versie 26-01-2026)
 
 Abacus wordt geleverd door de Kiesraad en gebruikt door de gemeente in het verkiezingsproces om processen-verbaal te digitaliseren, uitslagen op te tellen en documenten te genereren.
 
@@ -43,6 +43,6 @@ Meer informatie over gegevensbescherming krijg je via de Functionaris Gegevensbe
 
 Meer informatie over het gebruik van Abacus door jouw gemeente krijg je via de coördinator en/of beheerder van de Abacus-installatie waar je mee werkt.
 
-Meer informatie over Abacus zelf krijg je bij het Informatiepunt Verkiezingen van de Kiesraad: [https://www.kiesraad.nl/contact](https://www.kiesraad.nl/contact)
+Meer informatie over Abacus zelf krijg je bij het Informatiepunt Verkiezingen van de Kiesraad: [https://kiesraad.nl/contact](https://kiesraad.nl/contact)
 
 Je kunt de broncode van Abacus ook zelf op internet bekijken: [https://github.com/kiesraad/abacus](https://github.com/kiesraad/abacus)
