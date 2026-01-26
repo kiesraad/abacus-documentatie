@@ -1,8 +1,8 @@
 # Fouten en waarschuwingen
 
-Zowel tijdens als na de invoer kunnen er fouten en/of waarschuwingen ontstaan.
+Zowel tijdens als na de invoer kunnen er fouten of waarschuwingen ontstaan.
 
-**Tijdens de invoer** kunnen de invoerders te maken hebben met verschillende fouten eof waarschuwingen. Zij moeten dit met jou overleggen om tot een oplossing te komen.
+**Tijdens de invoer** kunnen de invoerders te maken hebben met verschillende fouten of waarschuwingen. Zij moeten dit met jou overleggen om tot een oplossing te komen.
 
 ![Voorbeeld van fout bij invoerder](./img/invoeren-fouten-waarschuwingen.png)
 

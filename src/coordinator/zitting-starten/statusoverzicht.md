@@ -2,6 +2,6 @@
 
 Selecteer in het hoofdmenu onder de naam van de verkiezing **Statusoverzicht steminvoer**. Je kunt ook eerst de verkiezing en daarna **Bekijk voortgang** selecteren.
 
-Op deze pagina zie je in één oogopslag wat de status van de stembureaus is en en welke stembureaus nog ingevoerd moeten worden (de werkvoorraad). Hier zie je ook welke invoer speciale aandacht van jou als coördinator nodig heeft vanwege [fouten en/of waarschuwingen](/coordinator/fouten-waarschuwingen/).
+Op deze pagina zie je in één oogopslag wat de status van de stembureaus is en welke stembureaus nog ingevoerd moeten worden (de werkvoorraad). Hier zie je ook welke invoer speciale aandacht van jou als coördinator nodig heeft vanwege [fouten en/of waarschuwingen](/coordinator/fouten-waarschuwingen/).
 
 ![Statusoverzicht steminvoer](./img/statusoverzicht-steminvoer.png)

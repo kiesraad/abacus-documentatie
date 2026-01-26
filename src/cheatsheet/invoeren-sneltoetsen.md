@@ -1,6 +1,6 @@
 # Invoeren en sneltoetsen
 
-Met het toetsenbord kun je snel door de pagina's heen nagiveren. Hiervoor gebruik je de volgende sneltoetsen:
+Met het toetsenbord kun je snel door de pagina's heen navigeren. Hiervoor gebruik je de volgende sneltoetsen:
 
 - Met `tab ↹`, `pijl omlaag ↓` of `enter ⏎` ga je naar het volgende veld.
 - Vinkjes of keuzerondjes kun je met de spatiebalk aanzetten. Je zet een vinkje weer uit door nog een keer op de spatiebalk te drukken. Bij keuzerondjes druk je op `pijl omlaag ↓` of  `pijl omhoog ↑` om je keuze te wijzigen.
