@@ -3,7 +3,7 @@
 Abacus kent drie rollen: de beheerder, de coördinator en de invoerder.
 Hieronder staat een kort overzicht van de taken die in deze rollen worden uitgevoerd.
 
-### Beheerder
+## Beheerder
 
 - Abacus installeren en zorgen dat de applicatie goed draait
 - Verkiezingen toevoegen en beheren
@@ -12,7 +12,7 @@ Hieronder staat een kort overzicht van de taken die in deze rollen worden uitgev
 
 Instructies voor jouw rol vind je hier: [Instructies beheerder](../beheerder/)
 
-### Coördinator
+## Coördinator
 
 - Verkiezingen en zittingen beheren
 - Invoerders helpen bij het invoeren
@@ -23,7 +23,7 @@ Instructies voor jouw rol vind je hier: [Instructies beheerder](../beheerder/)
 
 Instructies voor jouw rol vind je hier: [Instructies coördinator](../coordinator/)
 
-### Invoerder
+## Invoerder
 
 - Processen-verbaal van stembureaus invoeren: alle vinkjes en getallen overnemen in Abacus zoals ze op het papieren proces-verbaal staan
 - Corrigendum invoeren: alleen de gewijzigde aantallen invoeren

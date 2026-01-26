@@ -1,6 +1,6 @@
 # Extra zitting: corrigendum invoeren
 
-Na het afronden van de invoerfase controleert het Centraal Stembureau de tellingen en de processen-verbaal. Het kan zijn dat het Centraal Stembureau zelf een fout ontdekt of een melding van een burger krijgt, bijvoorbeeld als die een stem niet kan terugvinden op het proces-verbaal. In dat geval kan het Centraal Stembureau opdracht geven om de resultaten van het stembureau te onderzoeken en dit leidt tot een corrigendum.
+Nadat de gemeentelijke uitslag bekend is gemaakt, controleert het centraal stembureau deze uitslag. Als het een fout ontdekt, geeft het opdracht om een stembureau opnieuw te tellen. Dit leidt tot een corrigendum waar de nieuwe, juiste aantallen in staan.
 
 - Ook een corrigendum wordt twee keer ingevoerd. Het invoeren van een corrigendum werkt hetzelfde als het invoeren van een stembureau in de eerste zitting.
 - Er is maar één verschil: Neem alleen de getallen die veranderd zijn over uit het corrigendum.
@@ -9,4 +9,4 @@ Na het afronden van de invoerfase controleert het Centraal Stembureau de telling
 
 ![Corrigendum invoeren: veranderde getallen](./img/corrigendum-veranderde-getallen.png)
 
-Wanneer je klaar bent, sla je de invoer op dezelfde manier op als in de eerste zitting.
+Wanneer je klaar bent, sla je de invoer op dezelfde manier op als in de eerste zitting. Ook hier wordt de invoer twee keer gedaan door twee verschillende invoerders.

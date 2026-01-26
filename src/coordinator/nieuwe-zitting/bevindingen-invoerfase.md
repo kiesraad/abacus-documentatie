@@ -1,11 +1,11 @@
 # Bevindingen en invoerfase
 
-- Na het afronden van een onderzoek klik je op **Verder naar bevindingen**. Als je al in het overzicht met onderzoeken bent, klik je daar op **Nu invullen**.
-- Klik op **Invoerfase starten** om de invoer van de bevindingen en eventuele telresultaten te starten. Wil je dit nog niet doen, klik dan op **Annuleren**.
+- Na het afronden van een onderzoek selecteer je **Verder naar bevindingen**. Als je al in het overzicht met onderzoeken bent, selecteer je daar **Nu invullen**.
+- Selecteer **Invoerfase starten** om de invoer van de bevindingen en eventuele telresultaten te starten. Wil je dit nog niet doen, selecteer dan **Annuleren**.
 
 ![Nieuwe zitting: invoerfase starten](./img/onderzoek-invoerfase-starten.png)
 
-- Neem de bevindingen over zoals ze in het corrigendum zijn opgeschreven en klik op **Opslaan**.
+- Neem de bevindingen over zoals ze in het corrigendum zijn opgeschreven en selecteer **Opslaan**.
 
 ![Bevindingen van onderzoeken](./img/onderzoek-bevindingen.png)
 

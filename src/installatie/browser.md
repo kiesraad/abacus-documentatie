@@ -2,12 +2,11 @@
 
 Hieronder staan de ondersteunde desktopbrowsers en versies. Mobiele browsers worden niet ondersteund.
 
-| Browser | OS                | Versie    |
-|---------|-------------------|-----------|
-| Chrome  | Windows/Mac/Linux | Laatste 2 |
-| Firefox | Windows/Mac/Linux | Laatste 2 |
-| Edge    | Windows           | Laatste 2 |
-| Safari  | Mac               | Laatste 2 |
+| Browser | OS            | Versie    |
+|---------|---------------|-----------|
+| Chrome  | Windows/Linux | Laatste 2 |
+| Firefox | Windows/Linux | Laatste 2 |
+| Edge    | Windows       | Laatste 2 |
 
 ## Gebruik geen adblocker
 
@@ -19,6 +18,6 @@ Zet adblockers daarom uit of voeg Abacus toe aan de lijst met uitzonderingen in 
 De computers waarop Abacus wordt geïnstalleerd zijn geen persoonlijke computers. Het is belangrijk dat wachtwoorden van Abacus niet worden opgeslagen op een plek die voor andere gebruikers ook bereikbaar is.
 Zorg er daarom voor dat je geen wachtwoordmanager gebruikt. Gebruik je een externe wachtwoordmanager, schakel die dan uit. In de browser zet je dit als volgt uit:
 
-- Chrome: klik op de drie puntjes rechtsboven, selecteer **Wachtwoorden en Automatisch invullen**, klik op **Google Wachtwoordmanager** en zet de optie **Aanbieden om wachtwoorden op te slaan** uit.
-- Firefox: klik op de drie streepjes rechtsboven, selecteer **Instellingen**, dan **Privacy & Beveiliging** en zet de optie **Vragen om wachtwoorden op te slaan** uit.
-- Edge: klik op de drie puntjes rechtsboven, selecteer **Wachtwoorden** en zet de optie **Vragen om wachtwoorden en wachtwoordsleutels op te slaan** uit.
+- Chrome: selecteer de drie puntjes rechtsboven, selecteer **Wachtwoorden en Automatisch invullen**, selecteer **Google Wachtwoordmanager** en zet de optie **Aanbieden om wachtwoorden op te slaan** uit.
+- Firefox: selecteer de drie streepjes rechtsboven, selecteer **Instellingen**, dan **Privacy & Beveiliging** en zet de optie **Vragen om wachtwoorden op te slaan** uit.
+- Edge: selecteer de drie puntjes rechtsboven, selecteer **Wachtwoorden** en zet de optie **Vragen om wachtwoorden en wachtwoordsleutels op te slaan** uit.

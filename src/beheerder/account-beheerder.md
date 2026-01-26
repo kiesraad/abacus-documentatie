@@ -1,9 +1,9 @@
 # Account voor beheerder aanmaken
 
-Wanneer je Abacus voor de eerste keer start is de applicatie leeg. Je begint met het aanmaken van een beheerdersaccount:
+Wanneer je Abacus voor de eerste keer start, is de applicatie leeg. Je begint met het aanmaken van een beheerdersaccount:
 
-- Klik eerst op **Account voor beheerder aanmaken** en vul je naam en een gebruikersnaam in.
-- Kies een wachtwoord en klik op **Opslaan**. Nu kun je direct inloggen met de aangemaakte gegevens.
+- Selecteer eerst **Account voor beheerder aanmaken** en vul je naam en een gebruikersnaam in.
+- Kies een wachtwoord en selecteer **Opslaan**. Nu kun je direct inloggen met de aangemaakte gegevens.
 
 ![Verkiezingen beheren - Account voor beheerder aanmaken](./img/account-beheerder.png)
 
