@@ -1,6 +1,6 @@
 # Summary
 
-- [Introductie](./introductie/README.md)
+- [Gebruikersdocumentatie Abacus](./introductie/README.md)
   - [Abacus in het verkiezingsproces](./introductie/abacus-verkiezingsproces.md)
   - [Rollen in Abacus](./introductie/rollen-abacus.md)
   - [Vragen en bijdragen](./introductie/vragen-bijdragen.md)
@@ -10,10 +10,10 @@
 
 - [Uitproberen, installeren en starten](./installatie/README.md)
   - [Uitproberen](./installatie/uitproberen.md)
-  - [Netwerk inrichten](./installatie/netwerk.md)
   - [Installeren en starten](./installatie/installeren-starten/README.md)
-    - [Windows](./installatie/installeren-starten/windows.md)
-    - [Linux](./installatie/installeren-starten/linux.md)
+    - [Netwerk inrichten](./installatie/installeren-starten/netwerk.md)
+    - [Installeren op Windows](./installatie/installeren-starten/windows.md)
+    - [Installeren op Linux](./installatie/installeren-starten/linux.md)
   - [Starten met lege database](./installatie/lege-database.md)
   - [Help](./installatie/help.md)
   - [Testdocumenten](./installatie/testdocumenten.md)
