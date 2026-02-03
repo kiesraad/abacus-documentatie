@@ -4,6 +4,7 @@
   - [Abacus in het verkiezingsproces](./introductie/abacus-verkiezingsproces.md)
   - [Rollen in Abacus](./introductie/rollen-abacus.md)
   - [Vragen en bijdragen](./introductie/vragen-bijdragen.md)
+  - [Bekende problemen](./introductie/bekende-problemen.md)
   - [Privacyverklaring](./introductie/privacyverklaring.md)
 
 # Abacus installeren
