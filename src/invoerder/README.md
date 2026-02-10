@@ -10,7 +10,7 @@ Ook wordt gecheckt of er bijzondere afwijkingen zijn, bijvoorbeeld als het aanta
 Als er fouten of waarschuwingen zijn, volg je de instructies op of overleg je het met je coördinator.
 
 Elk stembureau wordt twee keer ingevoerd (door twee verschillende invoerders).
-De tweede invoerder krijgt een waarschuwing als diens invoer afwijkt van de eerste invoerder.
+De tweede invoerder krijgt een waarschuwing als diens invoer afwijkt van de eerste invoer.
 Ook hier geldt dat je de instructies volgt of overlegt met je coördinator.
 Na de tweede invoer controleert Abacus of de eerste en tweede invoer overeenkomen.
 Als alles klopt, is de invoer van het stembureau compleet.

@@ -2,4 +2,4 @@
 
 Nu zie je opties voor de rol van het stembureau. De rol van centraal stembureau (CSB) wordt in een volgende versie van Abacus toegevoegd, dus gemeentelijk stembureau (GSB) is op dit moment de enige optie. Selecteer daarom meteen **Volgende**.
 
-![Rol van het stembureau](./img/verkiezing-toevoegen-rol-stembureau.png)
+![Rol van het stembureau selecteren](./img/verkiezing-toevoegen-rol-stembureau.png)

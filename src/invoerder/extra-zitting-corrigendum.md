@@ -7,6 +7,6 @@ Nadat de gemeentelijke uitslag bekend is gemaakt, controleert het centraal stemb
   - Als het vakje leeg is in het corrigendum, laat het dan ook leeg in Abacus.
   - Zodra je een veranderd getal hebt ingevuld, zet Abacus automatisch een kruis door het oude getal.
 
-![Corrigendum invoeren: veranderde getallen](./img/corrigendum-veranderde-getallen.png)
+![Gecorrigeerd aantal bij een corrigendum](./img/corrigendum-veranderde-getallen.png)
 
 Wanneer je klaar bent, sla je de invoer op dezelfde manier op als in de eerste zitting. Ook hier wordt de invoer twee keer gedaan door twee verschillende invoerders.
