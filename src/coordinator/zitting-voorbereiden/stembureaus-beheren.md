@@ -47,8 +47,8 @@ Je kunt stembureaus ook handmatig toevoegen om ervoor te zorgen dat de stemburea
 
 ## # Stembureau wijzigen of verwijderen
 
-- Selecteer het stembureau dat je wilt wijzigen of verwijderen.
-- Wijzig het stembureau door de relevante gegevens te veranderen en vervolgens **Wijzigingen opslaan** te selecteren. Selecteer **Annuleren** als je de wijzigingen toch niet wilt opslaan.
+- Selecteer het stembureau dat je wil wijzigen of verwijderen.
+- Wijzig het stembureau door de relevante gegevens te veranderen en vervolgens **Wijzigingen opslaan** te selecteren. Selecteer **Annuleren** als je de wijzigingen toch niet wil opslaan.
 - Verwijder het stembureau door onderaan het scherm **Stembureau verwijderen** te selecteren.
 
 ![Stembureau wijzigen of verwijderen](./img/stembureau-wijzigen.png)

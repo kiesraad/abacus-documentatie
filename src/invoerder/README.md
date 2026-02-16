@@ -1,6 +1,7 @@
 # Instructies voor de invoerder
 
-Abacus is ontwikkeld om de papieren processen-verbaal te digitaliseren en de tellingen te controleren, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen.
+Abacus is ontwikkeld om de uitkomsten van alle stembureaus in de gemeente bij elkaar op te tellen.
+Abacus controleert de optellingen, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen.
 In dit document leggen we uit hoe je Abacus gebruikt als invoerder.
 
 De uitslag van de telling van elk stembureau is vastgelegd in een proces-verbaal.

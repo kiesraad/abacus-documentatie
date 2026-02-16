@@ -1,9 +1,11 @@
 # Instructies voor de beheerder
 
-Abacus is ontwikkeld om de verkiezingsuitslagen per stembureau in te voeren en te controleren op fouten en afwijkende uitslagen.
-Na de installatie van Abacus voeg je een verkiezing toe en importeer je stembureaus.
-Ook maak je gebruikers aan en kun je ze wijzigen als dit nodig is.
-In dit document leggen we uit hoe je Abacus instelt en gebruikt als beheerder.
+Abacus is ontwikkeld om de uitkomsten van alle stembureaus in de gemeente bij elkaar op te tellen.
+Abacus controleert de optellingen, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen.
+In dit document leggen we uit hoe je Abacus gebruikt als beheerder.
+
+Na de installatie van Abacus voeg je een verkiezing toe en importeer
+je stembureaus. Ook maak je gebruikers aan en kun je ze wijzigen als dit nodig is.
 
 **Let op:**
 

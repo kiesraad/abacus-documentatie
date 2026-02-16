@@ -11,4 +11,4 @@ Wanneer de resultaten van alle stembureaus in jouw gemeente twee keer correct zi
 ![Afronden en documenten downloaden](./img/telresultaten-downloaden.png)
 
 - Selecteer **Terug naar overzicht** om de invoer af te ronden.
-- Als je toch nog iets wilt wijzigen selecteer je **Steminvoer hervatten**.
+- Als je toch nog iets wil wijzigen selecteer je **Steminvoer hervatten**.

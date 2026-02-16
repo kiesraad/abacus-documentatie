@@ -1,6 +1,6 @@
 # Pauzeren of afbreken
 
-Als je pauze neemt, selecteer rechtsboven **Invoer afbreken** en vervolgens **Invoer bewaren**.
+Als je pauze neemt, selecteer dan rechtsboven **Invoer afbreken** en vervolgens **Invoer bewaren**.
 Na je pauze selecteer je onder **Je hebt nog een openstaande invoer** het stembureau en kun je doorgaan waar je gebleven was.
 
 ## Invoer niet bewaren

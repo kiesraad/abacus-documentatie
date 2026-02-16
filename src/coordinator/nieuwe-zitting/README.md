@@ -15,7 +15,7 @@ Als het centraal stembureau hier opdracht voor heeft gegeven, voeg je een nieuwe
 
 ![Onderzoek toevoegen](./img/onderzoek-toevoegen.png)
 
-- Kies het stembureau waarvoor je een onderzoek wilt toevoegen.
+- Kies het stembureau waarvoor je een onderzoek wil toevoegen.
 - Ontbreekt het stembureau in de lijst, selecteer dan **Ontbrekend stembureau toevoegen**. Dit werkt hetzelfde als in de eerste zitting, kijk hiervoor bij [Stembureau handmatig toevoegen](/coordinator/stembureaus-beheren/sb-handmatig-toevoegen.md). Daarna ga je terug naar de nieuwe zitting en herhaal je de bovenstaande stappen.
 
 ![Onderzoek toevoegen: stembureau kiezen](./img/onderzoek-toevoegen-stembureaukeuze.png)

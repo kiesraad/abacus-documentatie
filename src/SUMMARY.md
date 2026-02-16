@@ -24,12 +24,12 @@
 
 # Abacus gebruiken
 
-- [Cheatsheet: zo gebruik je Abacus](./cheatsheet/README.md)
-  - [Invoeren en sneltoetsen](./cheatsheet/invoeren-sneltoetsen.md)
-  - [Waarschuwingen en fouten](./cheatsheet/waarschuwingen-fouten.md)
-  - [Tweede invoer](./cheatsheet/tweede-invoer.md)
-  - [Pauzeren of afbreken](./cheatsheet/pauzeren-afbreken.md)
-  - [Codes van fouten en waarschuwingen](./cheatsheet/codes-fouten-ws.md)
+- [Spiekbrief voor gebruik](./spiekbrief/README.md)
+  - [Invoeren en sneltoetsen](./spiekbrief/invoeren-sneltoetsen.md)
+  - [Waarschuwingen en fouten](./spiekbrief/waarschuwingen-fouten.md)
+  - [Tweede invoer](./spiekbrief/tweede-invoer.md)
+  - [Pauzeren of afbreken](./spiekbrief/pauzeren-afbreken.md)
+  - [Codes van fouten en waarschuwingen](./spiekbrief/codes-fouten-ws.md)
 - [Instructies beheerder](./beheerder/README.md)
   - [Account voor beheerder aanmaken](./beheerder/account-beheerder.md)
   - [Verkiezing toevoegen en beheren](./beheerder/verkiezing-beheren/README.md)
