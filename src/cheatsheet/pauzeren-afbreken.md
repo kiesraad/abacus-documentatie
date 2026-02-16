@@ -1,1 +1,0 @@
-# Pauzeren of afbreken
