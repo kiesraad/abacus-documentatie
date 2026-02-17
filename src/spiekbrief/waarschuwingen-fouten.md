@@ -6,4 +6,4 @@ Het kan zijn dat je bij het opslaan een waarschuwing krijgt. Er wordt je dan gev
 - Als alles klopt, vink je de optie **Ik heb mijn invoer gecontroleerd met het papier en correct overgenomen** aan en kun je doorgaan naar de volgende pagina.
 - In het algemeen geldt: als je niet zeker weet wat je moet doen, overleg dan met je coördinator.
 
-![Fouten en waarschuwingen](./img/invoeren-fouten-waarschuwingen.png)
+![Fouten en waarschuwingen tijdens het invoeren](./img/invoeren-fouten-waarschuwingen.png)

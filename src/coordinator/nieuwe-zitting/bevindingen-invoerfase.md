@@ -7,11 +7,11 @@
 
 - Neem de bevindingen over zoals ze in het corrigendum zijn opgeschreven en selecteer **Opslaan**.
 
-![Bevindingen van onderzoeken](./img/onderzoek-bevindingen.png)
+![Bevindingen van onderzoeken invullen](./img/onderzoek-bevindingen.png)
 
 In het overzicht van de onderzoeken zie je wat je moet doen en wat de status van elk onderzoek is.
 
 - Is de uitslag niet gecorrigeerd, dan hoef je niets meer te doen.
 - Is de uitslag wel gecorrigeerd, dan laat je twee invoerders het corrigendum overnemen in Abacus.
 
-![Onderzoeken: invoerfase bezig](./img/onderzoeken-invoerfase-bezig.png)
+![Overzicht van onderzoeken tijdens de invoerfase](./img/onderzoeken-invoerfase-bezig.png)

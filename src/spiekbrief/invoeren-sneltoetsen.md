@@ -5,7 +5,7 @@ Met het toetsenbord kun je snel door de pagina's heen navigeren. Hiervoor gebrui
 - Met `tab ↹`, `pijl omlaag ↓` of `enter ⏎` ga je naar het volgende veld.
 - Vinkjes of keuzerondjes kun je met de spatiebalk aanzetten. Je zet een vinkje weer uit door nog een keer op de spatiebalk te drukken. Bij keuzerondjes druk je op `pijl omlaag ↓` of  `pijl omhoog ↑` om je keuze te wijzigen.
 - Met `shift ⇧`+`tab ↹` of `pijl omhoog ↑` ga je naar het vorige veld.
-- Met `shift ⇧`+`pijl omlaag ↓` ga je naar het laatste veld op de pagina. Dit is handig als je geen aantallen meer hoeft in te vullen bij kandidaten en direct het totaal wilt invullen.
+- Met `shift ⇧`+`pijl omlaag ↓` ga je naar het laatste veld op de pagina. Dit is handig als je geen aantallen meer hoeft in te vullen bij kandidaten en direct het totaal wil invullen.
 - Met de knop **Volgende** of met `shift ⇧`+`enter ⏎` ga je naar de volgende pagina/lijst.
 
 Tips:

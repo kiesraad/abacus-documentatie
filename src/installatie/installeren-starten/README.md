@@ -1,6 +1,6 @@
 # Installeren en starten
 
-Tijdens de gemeenteraadsverkiezingen 2026 gebruiken 10 tot 20 gemeentelijk stembureaus Abacus bij de uitslagvaststelling. In dit document staan de installatie-instructies voor Windows en Linux.
+Abacus is ontwikkeld om de uitkomsten van alle stembureaus in de gemeente bij elkaar op te tellen. Abacus controleert de optellingen, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen. In dit document leggen we uit hoe je Abacus installeert.
 
 Bij de onderstaande installatiemethodes is aangegeven op welke besturingssystemen ze werken.
 De methoden voor Linux werken op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (22.04 en 24.04) en Debian (12/bookworm en 13/trixie).

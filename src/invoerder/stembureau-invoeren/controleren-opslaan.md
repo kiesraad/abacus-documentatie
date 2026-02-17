@@ -12,4 +12,4 @@ Als er geen waarschuwingen zijn of als je alle waarschuwingen hebt gecontroleerd
 
 ![Controleren en opslaan](./img/invoeren-controleren-opslaan.png)
 
-Als je nog een stembureau wilt invoeren, kun je direct een ander stembureaunummer invullen of een stembureau uit de lijst kiezen.
+Als je nog een stembureau wil invoeren, kun je direct een ander stembureaunummer invullen of een stembureau uit de lijst kiezen.
