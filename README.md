@@ -36,8 +36,8 @@ De brondocumenten van de gebruikersdocumentatie zijn te vinden in deze repositor
 
 In deze repository staan verschillende testdocumenten:
 
-- In de map [pvs-juinen](https://github.com/kiesraad/abacus-documentatie/tree/src/main/testdocumenten/test-pvs-juinen/) staan de processen-verbaal voor de testgemeente Juinen, waarmee je de testverkiezing kunt invoeren.
-- Daarnaast staan in de map [emls-juinen](https://github.com/kiesraad/abacus-documentatie/tree/src/main/testdocumenten/test-emls-juinen/) de eml-bestanden waarmee je deze testverkiezing zelf kunt toevoegen.
+- In de map [test-pvs-juinen](https://github.com/kiesraad/abacus-documentatie/tree/main/gebruikersdocumentatie/src/testdocumenten/test-pvs-juinen) staan de processen-verbaal voor de testgemeente Juinen, waarmee je de testverkiezing kunt invoeren.
+- Daarnaast staan in de map [test-emls-juinen](https://github.com/kiesraad/abacus-documentatie/tree/main/gebruikersdocumentatie/src/testdocumenten/test-emls-juinen) de eml-bestanden waarmee je deze testverkiezing zelf kunt toevoegen.
 
 ## Externe documentatie
 
