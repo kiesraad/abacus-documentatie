@@ -98,6 +98,8 @@ __Uitbreidingen:__
 9a. De applicatie stelt vast dat een invoerder waarschuwingen heeft geaccepteerd in de tweede invoer:  
 &emsp; 9a1. De coördinator GSB beoordeelt de geaccepteerde waarschuwingen.
 
+_Zie ook de flowchart ["Afhandeling fouten en verschillen door coördinator"](./afhandeling-fouten-verschillen-coordinator.md)._
+
 ### Open punten
 
 - Waar in het scenario kan de coördinator GSB verklaringen maken over de waarschuwingen, zodat het CSB deze beter kan beoordelen? Na de eerste of tweede invoer? Of pas nadat het resultaat van een stembureau definitief is?
