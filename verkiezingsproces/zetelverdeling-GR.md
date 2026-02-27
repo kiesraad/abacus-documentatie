@@ -6,8 +6,8 @@ In dit document staat beschreven hoe de zetelverdeling en de aanwijzing van geko
 
 Op twee punten zijn er verschillen in het proces op basis van het aantal raadszetels waar de verkiezing over gaat:
 
-- A. Zetelverdeling: 3. toedelen restzetels (\>= 19 vs < 19 raadszetels)
-- B. Aanwijzing gekozen kandidaten: 1. vaststellen voorkeursdrempel (\>= 19 vs < 19 raadszetels)
+- A. Zetelverdeling: 3. toedelen restzetels (\>= 19 vs. < 19 raadszetels)
+- B. Aanwijzing gekozen kandidaten: 1. vaststellen voorkeursdrempel (\>= 19 vs. < 19 raadszetels)
 
 Op alle overige punten is het proces gelijk.
 
@@ -19,7 +19,7 @@ Van de 342 gemeentes in Nederland hebben er iets minder dan 20% minder dan 19 ze
 
 Het maximaal mogelijke aantal restzetels is het aantal lijsten - 1. De restzetels komen namelijk uit het getal achter de komma voor elke lijst bij de verdeling van de volle zetels. Dus het maximale mogelijke aantal restzetels is de som van een reeks getallen die als lengte het aantal lijsten heeft en als maximale waarde voor elk getal in de reeks een getal kleiner dan 1.
 
-Bij minder dan 19 zetels zijn er voor de restzetels mogelijk drie rondes: grootste overschotten, grootste gemiddelden (max 1 restzetel per lijst), grootste gemiddelden (meerdere restzetels per lijst toegestaan). Die derde ronde kan alleen gebeuren bij lijstuitputting. In de tweede ronde komt namelijk elke lijst in aanmerking voor een restzetel en het maximaal mogelijke aantal restzetels is het aantal partijen - 1. Dus zonder lijstuitputting worden alle restzetels ten laatste in die tweede ronde toegekend.
+Bij minder dan 19 zetels zijn er voor de restzetels mogelijk drie rondes: grootste overschotten, grootste gemiddelden (maximaal 1 restzetel per lijst), grootste gemiddelden (meerdere restzetels per lijst toegestaan). Die derde ronde kan alleen gebeuren bij lijstuitputting. In de tweede ronde komt namelijk elke lijst in aanmerking voor een restzetel en het maximaal mogelijke aantal restzetels is het aantal partijen - 1. Dus zonder lijstuitputting worden alle restzetels ten laatste in die tweede ronde toegekend.
 
 In de gemeenteraadsverkiezingen van 2014 t/m 2024 zijn bij alle gemeentes met minder dan 19 zetels alle restzetels toegekend o.b.v. grootse overschotten. Er waren dus altijd meer partijen die minstens 75% van de kiesdeler haalden, dan dat er restzetels toe te wijzen waren. Er moest dus niet overgegaan worden op het stelsel van grootste gemiddelden na het toepassen van grootste overschotten.
 
@@ -53,10 +53,10 @@ Het resultaat van delingen is een breuk, niet een decimaal.
 
 #### Stelsel grootste gemiddelden
 
-- Selecteer alle lijsten (inc. lijsten zonder zetels)
+- Selecteer alle lijsten (inclusief lijsten zonder zetels)
 - Gemiddelde = stemtotaal van lijst / (aantal reeds toegekende zetels + 1)
   - Gemiddelde is hier het gemiddeld aantal stemmen per toegewezen zetel
-  - Voor het berekenen van dit gemiddelde wordt het aantal zetels van een lijst genomen inc. de eventueel toegewezen restzetel
+  - Voor het berekenen van dit gemiddelde wordt het aantal zetels van een lijst genomen inclusief de eventueel toegewezen restzetel
 - Ken de eerste restzetel toe aan de lijst met het hoogste gemiddelde
 - Herbereken het gemiddelde van de lijst die de restzetel kreeg (dus + 2 i.p.v. + 1)
 - Ken alle volgende restzetels op dezelfde wijze toe
@@ -67,10 +67,10 @@ Het resultaat van delingen is een breuk, niet een decimaal.
 
 ### 4. Wijziging van de zetelverdeling indien een lijst de volstrekte meerderheid van stemmen behaalt (art P 9)
 
-- Als een lijst wel volstrekte meerderheid aan stemmen heeft, maar niet volstrekte meerderheid aan zetels, dan een extra zetel
+- Als een lijst wel volstrekte meerderheid aan stemmen heeft, maar niet volstrekte meerderheid aan zetels, dan krijgt die een extra zetel
 - Een volstrekte meerderheid van stemmen en zetels wordt berekend als 50% + 1 (bij even totaal) of 50% + ½ (bij oneven totaal)
 - De zetel wordt afgenomen van de lijst waaraan de laatste restzetel is toegekend
-  - Als twee of meer lijsten voor hetzelfde gemiddelde of overschot de laatste restzetels hebben gekregen, dan wordt in de zitting van het CSB door loting bepaald welke van die partijen een zetel af moet geven
+  - Als twee of meer lijsten voor hetzelfde gemiddelde of overschot de laatste restzetels hebben gekregen, dan wordt in de zitting van het CSB door loting bepaald welke van die partijen een zetel af moet staan
   - Sectie 2.4.6 van "Determination of the Election Results" toont aan dat de laatste restzetel nooit van de partij met volstrekte meerderheid aan stemmen kan komen
 
 
@@ -91,7 +91,7 @@ Overleden kandidaten worden buiten beschouwing gelaten. (art P19a)
   - < 19 raadszetels: 50% van kiesdeler
 - Selecteer kandidaten die voorkeursdrempel gehaald hebben
 - Ken zetels toe op volgorde van aantal behaalde stemmen (tot aantal behaalde zetels van de lijst)
-- Bij gelijke aantallen stemmen maar minder zetels: loting in zitting CSB
+- Bij gelijke aantallen stemmen, maar minder zetels: loting in zitting CSB
 
 ### 2. Aanwijzing van de overige gekozen kandidaten (art P 17)
 
@@ -101,8 +101,8 @@ Overleden kandidaten worden buiten beschouwing gelaten. (art P19a)
 
 - Met het oog op het vervullen van vacatures: volgorde lijst wijzigen o.b.v. voorkeurstemmen
 - Lijsten die in aanmerking komen voor rangschikking:
-  - meer dan 19 zetels: lijsten (1) met minstens één zetel EN (2) waarop kandidaten aantal stemmen hebben behaald hoger dan 25% van de kiesdeler (voorkeurdrempel)
-  - minder dan 19 zetels: lijsten waarop kandidaten aantal stemmen hebben behaald hoger dan 50% van de kiesdeler (voorkeurdrempel)
+  - \>= 19 raadszetels: lijsten (1) met minstens één zetel EN (2) waarop kandidaten aantal stemmen hebben behaald hoger dan 25% van de kiesdeler (voorkeurdrempel)
+  - < 19 raadszetels: lijsten waarop kandidaten aantal stemmen hebben behaald hoger dan 50% van de kiesdeler (voorkeurdrempel)
 - Rangschikking
   - Eerst kandidaten die met voorkeurstemmen zijn gekozen, in volgorde waarin zetels toegewezen
   - Daarna kandidaten met stemmen hoger dan voorkeursdrempel maar geen zetel, in volgorde van aantal stemmen

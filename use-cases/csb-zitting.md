@@ -89,7 +89,7 @@ __Uitbreidingen:__
 &emsp;&emsp; 2d1a1. De applicatie toont een foutmelding om contact op te nemen met de Kiesraad.
 
 3a. Er zijn minder beschikbare zetels dan kandidaten met gelijke behaalde (voorkeur)stemmen:  
-&emsp; 3a1. Het CSB kent de zetel bij loting toe.
+&emsp; 3a1. Het CSB kent de zetel(s) bij loting toe.
 
 ### Buiten scope
 - Er is een voorgestelde wetswijziging dat lijsten de kiesdeler moeten halen om een restzetel te kunnen krijgen. De minister is voornemens de vragen in het verslag wetsvoorstel te beantwoorden na de gemeenteraadsverkiezingen van 2026. Deze wetswijziging gaat dus niet in vóór GR 2026.
