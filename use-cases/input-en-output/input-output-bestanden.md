@@ -185,3 +185,17 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
   - output van Abacus - CSB
 
 EML_NL 510c (tellingsbestand hoofdstembureau) wordt niet gebruikt binnen de huidige scope, namelijk gemeenteraadsverkiezingen.
+
+### Naamgeving documenten
+
+- `definitieve-documenten_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
+  - `Totaaltelling_GR2026_GemeenteNaam.zip`
+    - `Totaaltelling_GR2026_GemeenteNaam.eml.xml`
+
+- `vaststelling-uitslag_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
+  - `Model_P22-2.pdf`
+  - `Resultaat_GR2026_GemeenteNaam.zip`
+    - `Resultaat_GR2026_GemeenteNaam.eml.xml`
+
+- `model-p22-2-bijlage_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
+  - `Model_P22-2_bijlage.pdf`
