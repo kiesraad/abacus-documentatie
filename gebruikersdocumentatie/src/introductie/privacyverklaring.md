@@ -27,9 +27,9 @@ Tijdens het werk verzamelt Abacus de volgende gegevens:
 
 Abacus gebruikt de gegevens voor het correct laten verlopen van het invoerproces. Ook bestaat de mogelijkheid dat de gegevens door de gemeente of Kiesraad worden gebruikt bij onderzoek naar het verkiezingsproces.
 
-Jouw inlognaam wordt gebruikt voor het goed laten functioneren van het vierogenprincipe bij de invoer van de processen-verbaal. Gebruikersgegevens worden niet automatisch gedeeld en blijven op de server totdat ze door de gemeente worden gewist.
+Jouw inlognaam wordt gebruikt voor het goed laten functioneren van het vierogenprincipe bij de invoer van de processen-verbaal. Gebruikersgegevens worden niet automatisch gedeeld en blijven op de server totdat ze door de gemeente worden gewist. Gebruikersgegevens worden niet opgenomen in processen-verbaal die met Abacus worden gemaakt.
 
-In het verkiezingsproces is de wettelijke termijn voor het bewaren van alle papieren documenten voor onderzoek 3 maanden.
+In het verkiezingsproces is de wettelijke termijn voor het bewaren van alle papieren documenten voor onderzoek 3 maanden nadat over de toelating van de gekozenen is beslist. Voor de gegevens op de Abacus-server geldt dezelfde termijn. De gegevens op de Abacus-server mogen na deze termijn van 3 maanden worden vernietigd.
 
 Er is geen sprake van geautomatiseerde besluitvorming op basis van jouw gegevens.
 
