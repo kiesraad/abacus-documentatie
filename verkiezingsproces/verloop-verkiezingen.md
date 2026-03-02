@@ -26,7 +26,7 @@ Voor de processen-verbaal (PV's) zijn de volgende modellen beschikbaar:
 - Model Na 14-1: Corrigendum bij het proces-verbaal van een stembureau
 - Model Na 14-2: Corrigendum bij het proces-verbaal van een gemeentelijk
   stembureau/stembureau voor het openbaar lichaam
-- Model Na 14-2 Bijlage 2: Correctie van fouten in het proces-verbaal van het
+- Model Na 14-2 Bijlage 1: Correctie van fouten in het proces-verbaal van het
   gemeentelijk stembureau/stembureau voor het openbaar lichaam (uitkomsten per
   stembureau)
 - Model Na 14-3: Corrigendum bij de processen-verbaal van een briefstembureau
@@ -109,7 +109,7 @@ sequenceDiagram
       GSB->>HSB: PV (Model N 10-1, Na 31-1), EML (510b)
     else Centrale stemopneming
       SB->>GSB: PV (Model N 10-2)
-      GSB->>HSB: PV (Model Na 31-2 met bijlage 2), EML (510b)
+      GSB->>HSB: PV (Model Na 31-2 met bijlage 1), EML (510b)
     end
     HSB->>+CSB: PV (Model O 7, P1f-1), EML (510c)
     BSB->>NBSB: PV (Model N 29-1, N 29-2)
@@ -156,7 +156,7 @@ sequenceDiagram
       GSB->>CSB: PV (Model N 10-1, Na 31-1), EML (510b)
     else Centrale stemopneming
       SB->>GSB: PV (Model N 10-2)
-      GSB->>CSB: PV (Model Na 31-2 met bijlage 2), EML (510b)
+      GSB->>CSB: PV (Model Na 31-2 met bijlage 1), EML (510b)
     end
     opt Onderzoek bij Stembureau
       CSB->>+GSB: Terugverwijzing voor onderzoek
@@ -181,7 +181,7 @@ sequenceDiagram
       GSB->>CSB: PV (Model N 10-1, Na 31-1), EML (510b)
     else Centrale stemopneming
       SB->>GSB: PV (Model Model N 10-2)
-      GSB->>CSB: PV (Model Na 31-2 met bijlage 2), EML ()
+      GSB->>CSB: PV (Model Na 31-2 met bijlage 1), EML ()
     end
     opt Onderzoek bij Stembureau
       CSB->>+GSB: Terugverwijzing voor onderzoek
@@ -208,7 +208,7 @@ sequenceDiagram
       GSB->>CSB: PV (Model N 10-1, Na 31-1), EML (510b)
     else Centrale stemopneming
       SB->>GSB: PV (Model Model N 10-2)
-      GSB->>CSB: PV (Model Na 31-2 met bijlage 2), EML (510b)
+      GSB->>CSB: PV (Model Na 31-2 met bijlage 1), EML (510b)
     end
     else Provincie met meerdere kieskringen
     CSB->>GSB: EML's (110a, 230b)
@@ -218,7 +218,7 @@ sequenceDiagram
     GSB->>HSB: PV (Model N 10-1, Na 31-1), EML (510b)
     else Centrale stemopneming
       SB->>GSB: PV (Model Model N 10-2)
-      GSB->>HSB: PV (Model Na 31-2 met bijlage 2), EML (510b)
+      GSB->>HSB: PV (Model Na 31-2 met bijlage 1), EML (510b)
     end
     HSB->>+CSB: PV (Model O 7), EML (510c)
     end
