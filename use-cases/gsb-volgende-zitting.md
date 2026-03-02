@@ -66,9 +66,8 @@ __Uitbreidingen:__
 
 1b. De coördinator GSB ontdekt dat een stembureau dat op de vooraf gepubliceerde lijst staat, niet in Abacus is opgenomen:  
 &emsp; 1b1. De coördinator GSB voegt het stembureau toe.  
-&emsp; 1b2. De coördinator GSB voert een verklaring voor de wijziging in.  
-&emsp; 1b3. De applicatie maakt melding op het PV Na 14-2 dat het stembureau is toegevoegd.  
-&emsp; 1b4. Het corrigendum corrigeert het aantal stemmen bij dit stembureau van 0 naar het werkelijke aantal.  
+&emsp; 1b2. Het corrigendum corrigeert het aantal stemmen bij dit stembureau van 0 naar het werkelijke aantal.  
+&emsp; 1b3. De coördinator GSB zorgt dat er een verklaring voor de wijziging in het PV Na 14-2 wordt opgenomen.
 
 1c. De coördinator GSB ontdekt dat een stembureau ten onrechte is meegenomen in een eerdere zitting:  
 &emsp; 1c1. Het GSB maakt een corrigendum naar 0 stemmen voor dit stembureau.  
@@ -91,14 +90,12 @@ __Hoofdscenario 1:__
 1. De coördinator GSB corrigeert de gegevens van een stembureau met resultaten uit een vorige zitting.  
 2. De applicatie laat niet toe dat het nummer van het stembureau wordt aangepast.  
 3. De applicatie slaat de gecorrigeerde stembureaugegevens op, alleen voor de huidige zitting.  
-4. De coördinator GSB voert een verklaring voor de wijziging in.  
-5. De applicatie neemt de verklaring op in het PV Na 14-2.  
+4. De coördinator GSB zorgt dat er een verklaring voor de wijziging in het PV Na 14-2 wordt opgenomen.  
 
 __Uitbreidingen:__
 
 1a. De fout zit in het nummer van het stembureau:  
-&emsp; 1a1. De coördinator GSB voert een vermelding van de fout in de applicatie in.  
-&emsp; 1a2. De applicatie neemt de verklaring op in het PV Na 14-2.  
+&emsp; 1a1. De coördinator GSB zorgt dat er een vermelding van de fout in het PV Na 14-2 wordt opgenomen.  
 
 __Hoofdscenario 2:__
 

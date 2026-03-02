@@ -10,7 +10,7 @@ __Hoofdscenario:__
 
 1. De coördinator GSB stelt de invoer open.
 2. (voor elk stembureau) [De invoerders vullen de resultaten van de tellingen in.](#de-invoerders-vullen-de-resultaten-van-de-tellingen-in-vlieger)
-3. (parallel aan invoer stembureaus) [De coördinator GSB voert details zitting, bezwaren, bijzonderheden, etc. van de GSB-zitting in.](#de-coördinator-gsb-voert-details-zitting-bezwaren-bijzonderheden-etc-van-de-gsb-zitting-in-zee)
+3. (parallel aan invoer stembureaus) De coördinator GSB voert de locatie, startdatum en starttijd van de zitting in.
 4. De applicatie stelt vast dat voor alle stembureaus de resultaten zijn ingevoerd.
 5. De coördinator GSB sluit de invoer.
 
@@ -28,6 +28,9 @@ __Uitbreidingen:__
 &emsp;&emsp;&emsp; 2-3b3a1. De applicatie verwijdert de gegenereerde documenten.  
 &emsp; 2-3b4. De coördinator GSB laat het stembureau twee keer invoeren.
 
+3a. De coördinator GSB voert deze gegevens nog niet in:  
+&emsp; 3a1. De applicatie dwingt af deze gegevens in te vullen, voordat het PV (DSO: Na 31-1, CSO: Na 31-2) en het tellingsbestand EML 510b gegenereerd kunnen worden.
+
 4a. De applicatie stelt vast dat niet voor alle stembureaus de resultaten zijn ingevoerd:  
 &emsp; 4a1. De applicatie laat niet toe dat de coördinator GSB de invoer sluit.
 
@@ -36,32 +39,6 @@ __Uitbreidingen:__
 - Controles op gemeenteniveau nadat alle stembureaus zijn ingevoerd:
   - Controle "mogelijke omwisseling van kandidaatstemmen"
   - Controle "verschilpercentage van 50% of hoger"
-
-## De coördinator GSB voert details zitting, bezwaren, bijzonderheden, etc. van de GSB-zitting in. (zee)
-
-__Niveau:__ gebruikersdoel, zee, 🌊
-
-### Hoofdscenario en uitbreidingen
-
-__Hoofdscenario:__
-
-1. De coördinator GSB voert de locatie, startdatum en starttijd van de zitting in.
-2. De coördinator GSB voert de aanwezige leden van het GSB in.
-3. De coördinator GSB voert de bezwaren van kiezers/belangstellenden tijdens de zitting in.
-4. De coördinator GSB voert onregelmatigheden of bijzonderheden tijdens de zitting in.
-
-__Uitbreidingen:__
-
-3a. De coördinator GSB vult in: "zie bijlage".
-
-4a. De coördinator GSB vult in: "zie bijlage".
-
-### Open punten
-
-- Voert de coördinator GSB de sectie "Nieuwe telling aantal toegelaten kiezers bij onverklaarde telverschillen" in? Of doet de applicatie dat? → op welk PV staat deze sectie?  
-  → Na 14-1 Pv corrigendum SB DSO versie 1 / bijlage 1 (per SB) bij Na 31-2 Pv GSB CSO  
-  sectie 1.1 voor de vraag en 2.1 voor nieuwe aantallen (DSO)  
-  sectie 2.1 voor de vraag en 3.1 voor nieuwe aantallen (CSO)  
 
 ## De invoerders vullen de resultaten van de tellingen in (vlieger)
 
