@@ -130,7 +130,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 - `definitieve-documenten_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
   - `Model_Na31-2.pdf`
   - `Telling_GR2026_GemeenteNaam.zip`
-    - `Telling_GR2026_GemeenteNaam.eml.xml`
+    - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
 
 #### Volgende zitting
 
@@ -138,23 +138,21 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
   - `Leeg_Model_P2a.pdf`
   - `Model_Na14-2.pdf` (als corrigendum)
   - `Telling_GR2026_GemeenteNaam.zip` (als corrigendum)
-    - `Telling_GR2026_GemeenteNaam.eml.xml`
+    - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
 
 ## CSB
 
 ### Documenten
 
-| Model(onderdeel)       | DSO | CSO | Doel                                                                 | input voor Abacus | output van Abacus |
-|------------------------|:---:|:---:|----------------------------------------------------------------------|:-----------------:|:-----------------:|
-| Na 31-1                |  X  |     | PV GSB - 1ste zitting                                                |         X         |                   |
-| Na 31-2                |     |  X  | PV GSB - 1ste zitting                                                |         X         |                   |
-| Na 14-2                |  X  |  X  | Corrigendum GSB - 2de zitting                                        |         X         |                   |
-| P 2a                   |  X  |  X  | Verslag 2de zitting GSB                                              |                   |                   |
-| P 22-2                 |  X  |  X  | PV CSB - einduitslag                                                 |                   |         X         |
-| P 22-2 sectie 2.11     |  X  |  X  | PV CSB - hertelling n.a.v. bezwaar                                   |                   |        ???        |
-| P 22-2 Bijlage 1       |  X  |  X  | PV CSB - stemmen per lijst en per kandidaat                          |                   |         X         |
-| P 22-2 Bijlage 2 t/m 5 |  X  |  X  | PV CSB - meldingen, controlewerkzaamheden, bezwaren & bijzonderheden |                   |                   |
-
+| Model(onderdeel)   | DSO | CSO | Doel                                        | input voor Abacus | output van Abacus |
+|--------------------|:---:|:---:|---------------------------------------------|:-----------------:|:-----------------:|
+| Na 31-1            |  X  |     | PV GSB - 1ste zitting                       |         X         |                   |
+| Na 31-2            |     |  X  | PV GSB - 1ste zitting                       |         X         |                   |
+| Na 14-2            |  X  |  X  | Corrigendum GSB - 2de zitting               |         X         |                   |
+| P 2a               |  X  |  X  | Verslag 2de zitting GSB                     |                   |                   |
+| P 22-2             |  X  |  X  | PV CSB - einduitslag                        |                   |         X         |
+| P 22-2 sectie 2.11 |  X  |  X  | PV CSB - hertelling n.a.v. bezwaar          |                   |        ???        |
+| P 22-2 Bijlage 1   |  X  |  X  | PV CSB - stemmen per lijst en per kandidaat |                   |         X         |
 
 #### P 22-2: einduitslag CSB
 
@@ -173,10 +171,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 #### P 22-2: Bijlage 1
 
 - gegenereerd door Abacus
-
-#### P 22-2: Bijlage 2 t/m 5
-
-- niet gegenereerd door Abacus; uit verkiezingentoolkit of door gemeente zelf gemaakt
+- bijlage 2 t/m 5 worden niet door Abacus gegenereerd; uit verkiezingentoolkit
 
 ### Benoemingsbrieven en geloofsbrieven
 
@@ -201,12 +196,12 @@ EML_NL 510c (tellingsbestand hoofdstembureau) wordt niet gebruikt binnen de huid
 
 - `definitieve-documenten_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
   - `Totaaltelling_GR2026_GemeenteNaam.zip`
-    - `Totaaltelling_GR2026_GemeenteNaam.eml.xml`
+    - `Totaaltelling_GR2026_GemeenteNaam.eml.xml` (510d)
 
 - `vaststelling-uitslag_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
   - `Model_P22-2.pdf`
   - `Resultaat_GR2026_GemeenteNaam.zip`
-    - `Resultaat_GR2026_GemeenteNaam.eml.xml`
+    - `Resultaat_GR2026_GemeenteNaam.eml.xml` (520)
 
 - `model-p22-2-bijlage_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
   - `Model_P22-2_bijlage.pdf`
