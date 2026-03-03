@@ -49,7 +49,7 @@ __Niveau:__ subfunctie, vis, 🐟
 __Hoofdscenario:__
 
 1. [De beheerder leest de verkiezingsdefinitie (EML 110a) in.](#de-beheerder-leest-de-verkiezingsdefinitie-eml-110a-in-vis)
-2. De beheerder selecteert "GSB" als rol van het stembureau.
+2. De beheerder selecteert "Gemeentelijk stembureau (GSB)" als rol van het stembureau.
 3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
 4. [De beheerder leest het bestand met stembureaus en aantal kiesgerechtigden (EML 110b) in.](#de-beheerder-leest-het-bestand-met-stembureaus-en-aantal-kiesgerechtigden-eml-110b-in-vis)
 5. De beheerder selecteert het type stemopneming.
@@ -57,9 +57,6 @@ __Hoofdscenario:__
 7. De applicatie maakt het GSB voor de verkiezing aan.
 
 __Uitbreidingen:__
-
-2a. Er is al een GSB-stembureau voor deze verkiezing en dit gebied:  
-&emsp; 2a1. De applicatie staat niet toe de optie "GSB" te selecteren.
 
 4a. De beheerder slaat het invoeren van stembureaus over:  
 &emsp; 4a1. (tijdens stap 5) De beheerder voert het aantal kiesgerechtigden in de gemeente handmatig in.  
@@ -81,14 +78,9 @@ __Niveau:__ subfunctie, vis, 🐟
 __Hoofdscenario:__
 
 1. [De beheerder leest de verkiezingsdefinitie (EML 110a) in.](#de-beheerder-leest-de-verkiezingsdefinitie-eml-110a-in-vis)
-2. De beheerder selecteert "CSB" als rol van het stembureau.
+2. De beheerder selecteert "Centraal stembureau (CSB)" als rol van het stembureau.
 3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
 4. De applicatie maakt het CSB voor de verkiezing en het GSB als stembureau voor het CSB aan.
-
-__Uitbreidingen:__
-
-2a. Er is al een CSB-stembureau voor deze verkiezing en dit gebied:  
-&emsp; 2a1. De applicatie staat niet toe de optie "CSB" te selecteren.
 
 
 ## De beheerder leest de verkiezingsdefinitie (EML 110a) in (vis)
@@ -224,7 +216,7 @@ __Uitbreidingen:__
 &emsp; 4-5a1. De beheerder maakt een invoerder aan met een gebruikersnaam en tijdelijk wachtwoord, 
   maar zonder volledige naam.  
 
-6a. De lijst met gebruikers moet aangepast worden:  
+6a. De lijst met gebruikers moet aangepast worden:   
 &emsp; 6a1. De beheerder past de volledige naam aan van een gebruiker.  
 &emsp; 6a2. De beheerder stelt een nieuw tijdelijk wachtwoord in voor een gebruiker.  
 &emsp; 6a3. De beheerder verwijdert een gebruiker.
