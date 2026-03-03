@@ -62,7 +62,7 @@ __Uitbreidingen:__
 &emsp; 4a1. (tijdens stap 5) De beheerder voert het aantal kiesgerechtigden in de gemeente handmatig in.  
 &emsp; 4a2. (na inrichten applicatie) [De beheerder of coördinator zet de stembureaus in de applicatie.](#de-beheerder-of-coördinator-gsb-zet-de-stembureaus-in-de-applicatie-zee)
 
-6a. De beheerder stelt vast dat het aantal kiesgerechtigden uit het stembureaubestand (EML 110b) niet klopt:
+6a. De beheerder stelt vast dat het aantal kiesgerechtigden uit het stembureaubestand (EML 110b) niet klopt:  
 &emsp; 6a1. De beheerder corrigeert het aantal kiesgerechtigden in de applicatie.
 
 6b. Het aantal kiesgerechtigden staat niet in het bestand met stembureaus (EML 110b):  
