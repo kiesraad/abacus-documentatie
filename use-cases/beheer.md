@@ -216,7 +216,7 @@ __Uitbreidingen:__
 &emsp; 4-5a1. De beheerder maakt een invoerder aan met een gebruikersnaam en tijdelijk wachtwoord, 
   maar zonder volledige naam.  
 
-6a. De lijst met gebruikers moet aangepast worden:   
+6a. De lijst met gebruikers moet aangepast worden:  
 &emsp; 6a1. De beheerder past de volledige naam aan van een gebruiker.  
 &emsp; 6a2. De beheerder stelt een nieuw tijdelijk wachtwoord in voor een gebruiker.  
 &emsp; 6a3. De beheerder verwijdert een gebruiker.
