@@ -155,23 +155,12 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 | Na 14-2            |  X  |  X  | Corrigendum GSB - 2de zitting               |         X         |                   |
 | P 2a               |  X  |  X  | Verslag 2de zitting GSB                     |                   |                   |
 | P 22-2             |  X  |  X  | PV CSB - einduitslag                        |                   |         X         |
-| P 22-2 sectie 2.12 |  X  |  X  | PV CSB - hertelling n.a.v. bezwaar          |                   |        ???        |
 | P 22-2 Bijlage 1   |  X  |  X  | PV CSB - stemmen per lijst en per kandidaat |                   |         X         |
 
 #### P 22-2: einduitslag CSB
 
 - gegenereerd door Abacus
 - zie [P 22-2](P22-2.md)
-
-#### P 22-2 sectie 2.12 Hertelling
-
-- open punt of gegenereerd door Abacus
-- twee varianten:
-  - hertelling maar geen wijziging in zetelverdeling: aangevuld met 2.3 t/m 2.5 o.b.v nieuwe telling
-  - hertelling en wijziging in zetelverdeling: aangevuld met 2.3 t/m 2.10 o.b.v nieuwe telling
-- alleen relevant bij een hertelling n.a.v. bezwaar tijdens zitting CSB
-  - dus niet bij terugverwijzing door CSB vóór invoer in Abacus
-  - dus niet bij hertelling op verzoek van gemeenteraad ([Artikel V 4a Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01/#AfdelingIV_HoofdstukV_Paragraaf1_ArtikelV4a))
 
 #### P 22-2: Bijlage 1
 
