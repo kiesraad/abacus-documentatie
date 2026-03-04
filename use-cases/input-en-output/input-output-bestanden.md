@@ -39,9 +39,7 @@ EML_NL 210 (kandidatenlijst voor een politieke groepering) wordt niet gebruikt, 
 | N 10-1            |  X  |     | PV SB                               |             X              |         X         |                   |
 | Na 14-1 versie 1  |  X  |     | Corrigendum SB - eerste zitting     |             X              |         X         |                   |
 | N 10-2            |     |  X  | PV SB                               |             X              |                   |                   |
-| N 5               |  X  |  X  | Overdrachtsdocument GSB             |                            |                   |                   |
 | Na 31-2 Bijlage 1 |     |  X  | Telresultaten SB                    |             X              |         X         |                   |
-| Na 31-2 Bijlage 2 |     |  X  | Bezwaren SB's                       |                            |                   |                   |
 | Na 31-1           |  X  |     | PV GSB - eerste zitting             |                            |                   |         X         |
 | Na 31-2           |     |  X  | PV GSB - eerste zitting             |                            |                   |         X         |
 | Na 14-1 versie 2  |  X  |     | Corrigendum SB - volgende zitting   |             X              |         X         |                   |
@@ -76,9 +74,14 @@ EML_NL 210 (kandidatenlijst voor een politieke groepering) wordt niet gebruikt, 
 - niet gegenereerd door Abacus; uit verkiezingentoolkit of door gemeente zelf gemaakt
 - typist (niet invoerder) neemt deze over van SB PV's, buiten Abacus om
 
-#### Na 31-1 (DSO) en Na 31-2 (CSO): PV op GSB-niveau voor eerste zitting
+#### Na 31-1 (DSO): PV op GSB-niveau voor eerste zitting
 
 - gegenereerd door Abacus
+
+#### Na 31-2 (CSO): PV op GSB-niveau voor eerste zitting
+
+- gegenereerd door Abacus
+- zie [Na 31-2](Na31-2.md)
 
 #### Na 14-1 versie 2 (DSO): Corrigendum op SB-niveau voor volgende zitting
 
@@ -94,10 +97,12 @@ EML_NL 210 (kandidatenlijst voor een politieke groepering) wordt niet gebruikt, 
 
 - gegenereerd door Abacus, alleen als hertellingen tot een ander resultaat leidden
 - input voor CSB
+- zie [Na 14-2](Na14-2.md)
 
 #### P 2a (DSO en CSO): Verslag volgende zitting
 
 - gegenereerd door Abacus, alleen als er een volgende zitting is
+- zie [P 2a](P2a.md)
 
 #### Na 31-2 Inlegvel (CSO): Inlegvel PV GSB eerste zitting n.a.v. controles in opdracht van CSB
 
@@ -116,7 +121,6 @@ EML_NL 210 (kandidatenlijst voor een politieke groepering) wordt niet gebruikt, 
 
 EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 
-
 #### CSV-bestand met tellingen
 
 - niet in scope Abacus
@@ -130,7 +134,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 - `definitieve-documenten_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
   - `Model_Na31-2.pdf`
   - `Telling_GR2026_GemeenteNaam.zip`
-    - `Telling_GR2026_GemeenteNaam.eml.xml`
+    - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
 
 #### Volgende zitting
 
@@ -138,34 +142,33 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
   - `Leeg_Model_P2a.pdf`
   - `Model_Na14-2.pdf` (als corrigendum)
   - `Telling_GR2026_GemeenteNaam.zip` (als corrigendum)
-    - `Telling_GR2026_GemeenteNaam.eml.xml`
+    - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
 
 ## CSB
 
 ### Documenten
 
-| Model(onderdeel)   | DSO | CSO | Doel                               | input voor Abacus | output van Abacus |
-|--------------------|:---:|:---:|------------------------------------|:-----------------:|:-----------------:|
-| Na 31-1            |  X  |     | PV GSB - 1ste zitting              |         X         |                   |
-| Na 31-2            |     |  X  | PV GSB - 1ste zitting              |         X         |                   |
-| Na 14-2            |  X  |  X  | Corrigendum GSB - 2de zitting      |         X         |                   |
-| P 2a               |  X  |  X  | Verslag 2de zitting GSB            |                   |                   |
-| P 22-2             |  X  |  X  | PV CSB - einduitslag               |                   |         X         |
-| P 22-2 sectie 2.11 |  X  |  X  | PV CSB - hertelling n.a.v. bezwaar |                   |        ???        |
+| Model(onderdeel)   | DSO | CSO | Doel                                        | input voor Abacus | output van Abacus |
+|--------------------|:---:|:---:|---------------------------------------------|:-----------------:|:-----------------:|
+| Na 31-1            |  X  |     | PV GSB - 1ste zitting                       |         X         |                   |
+| Na 31-2            |     |  X  | PV GSB - 1ste zitting                       |         X         |                   |
+| Na 14-2            |  X  |  X  | Corrigendum GSB - 2de zitting               |         X         |                   |
+| P 2a               |  X  |  X  | Verslag 2de zitting GSB                     |                   |                   |
+| P 22-2             |  X  |  X  | PV CSB - einduitslag                        |                   |         X         |
+| P 22-2 Bijlage 1   |  X  |  X  | PV CSB - stemmen per lijst en per kandidaat |                   |         X         |
 
 #### P 22-2: einduitslag CSB
 
 - gegenereerd door Abacus
+- zie [P 22-2](P22-2.md)
 
-#### P 22-2 sectie 2.11 Hertelling
+#### P 22-2: Bijlage 1
 
-- open punt of gegenereerd door Abacus
-- twee varianten:
-  - hertelling maar geen wijziging in zetelverdeling: aangevuld met 2.3 t/m 2.5 o.b.v nieuwe telling
-  - hertelling en wijziging in zetelverdeling: aangevuld met 2.3 t/m 2.10 o.b.v nieuwe telling
-- alleen relevant bij een hertelling n.a.v. bezwaar tijdens zitting CSB
-  - dus niet bij terugverwijzing door CSB vóór invoer in Abacus
-  - dus niet bij hertelling op verzoek van gemeenteraad ([Artikel V 4a Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01/#AfdelingIV_HoofdstukV_Paragraaf1_ArtikelV4a))
+- gegenereerd door Abacus
+
+#### P 22-2: Bijlage 2 t/m 5
+
+- niet door Abacus gegenereerd; uit verkiezingentoolkit
 
 ### Benoemingsbrieven en geloofsbrieven
 
@@ -185,3 +188,23 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
   - output van Abacus - CSB
 
 EML_NL 510c (tellingsbestand hoofdstembureau) wordt niet gebruikt binnen de huidige scope, namelijk gemeenteraadsverkiezingen.
+
+#### CSV-bestand met tellingen
+
+- tellingen CSB en GSB's
+- worden gepubliceerd op de gemeentewebsite
+
+### Naamgeving documenten
+
+- `definitieve-documenten_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
+  - `osv4-3_telling_gr2026_gemeentenaam.csv`
+  - `Totaaltelling_GR2026_GemeenteNaam.zip`
+    - `Totaaltelling_GR2026_GemeenteNaam.eml.xml` (510d)
+
+- `vaststelling-uitslag_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
+  - `Model_P22-2.pdf`
+  - `Resultaat_GR2026_GemeenteNaam.zip`
+    - `Resultaat_GR2026_GemeenteNaam.eml.xml` (520)
+
+- `model-p22-2-bijlage_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
+  - `Model_P22-2_bijlage.pdf`
