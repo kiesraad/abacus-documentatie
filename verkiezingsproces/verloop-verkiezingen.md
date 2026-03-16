@@ -35,6 +35,7 @@ Voor de processen-verbaal (PV's) zijn de volgende modellen beschikbaar:
 - Model Na 31-2: Proces-verbaal van een gemeentelijk stembureau/stembureau voor
   het openbaar lichaam in een gemeente/openbaar lichaam waar een centrale
   stemopneming wordt verricht
+  Model Na 31-2 Bijlage 1: Telresultaten per stembureau bij centrale stemopneming
 - Model O 7: Proces-verbaal van een hoofdstembureau
 - Model O 20: Proces-verbaal van het nationaal briefstembureau
 - Model P 1f-1: Corrigendum bij het proces-verbaal van een hoofdstembureau
