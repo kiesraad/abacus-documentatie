@@ -38,7 +38,7 @@ jobs:
       run:
         working-directory: ./gebruikersdocumentatie
     env:
-      MDBOOK_VERSION: v0.4.48
+      MDBOOK_VERSION: v0.5.2
     steps:
       - uses: actions/checkout@v4
       - name: Install mdBook

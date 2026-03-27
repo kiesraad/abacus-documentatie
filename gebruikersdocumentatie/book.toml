@@ -1,6 +1,5 @@
 [book]
 language = "nl"
-multilingual = false
 src = "src"
 title = "Abacus Documentatie"
 
