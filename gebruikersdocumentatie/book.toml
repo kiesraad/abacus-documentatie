@@ -6,5 +6,5 @@ title = "Abacus Documentatie"
 
 [output.html]
 git-repository-url = "https://github.com/kiesraad/abacus-documentatie"
-edit-url-template = "https://github.com/kiesraad/abacus-documentatie/tree/main/{path}"
+edit-url-template = "https://github.com/kiesraad/abacus-documentatie/tree/main/gebruikersdocumentatie/{path}"
 hash-files = true
