@@ -150,7 +150,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: A, B en D
 
-#### CSO en DSO | F.202: `E.1 t/m E.n tellen niet op naar E`
+#### CSO en DSO | F.202: (Als F.204 niet getoond wordt) `E.1 t/m E.n tellen niet op naar E`
 
 > Invoerder **Controleer je antwoorden** (F.202)
 
@@ -171,6 +171,24 @@ Velden markeren: E.1 t/m E.n en E
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
 Velden markeren: E, F, G en H
+
+#### CSO en DSO | F.204: `De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en (E = leeg of 0)`
+
+> Invoerder: **Controleer je antwoorden** (F.204)
+
+> Coördinator (CSO): **Het totaal aantal stemmen op kandidaten is niet ingevuld** (F.204)  
+> Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als de juiste getallen bij E en E.1 t/m E.n worden ingevuld.
+> - Zo ja: herstel op papier de optelfout door bij E en E.1 t/m E.n de juiste getallen in te vullen.
+> - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
+
+Velden markeren: E
+
+> Coördinator (DSO): **Het totaal aantal stemmen op kandidaten is niet ingevuld** (F.204)  
+> Controleer in rubriek 2.2 of er een onverklaard verschil opgelost wordt als de juiste getallen bij E en E.1 t/m E.n worden ingevuld.
+> - Zo ja: herstel op papier de optelfout door bij E en E.1 t/m E.n de juiste getallen in te vullen.
+> - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
+
+Velden markeren: E
 
 ### Regels voor verschillen (reeks F.3xx)
 
