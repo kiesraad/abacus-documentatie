@@ -204,14 +204,12 @@ Velden markeren: E, F, G en H
 > - Zo ja: herstel op papier de optelfout door bij E en E.1 t/m E.n de juiste getallen in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
-Velden markeren: E
-
 > Coördinator (DSO): **Het totaal aantal stemmen op kandidaten is niet ingevuld** (F.204)  
 > Controleer in rubriek 2.2 of er een onverklaard verschil opgelost wordt als de juiste getallen bij E en E.1 t/m E.n worden ingevuld.
 > - Zo ja: herstel op papier de optelfout door bij E en E.1 t/m E.n de juiste getallen in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
-Velden markeren: E
+Veld markeren: E
 
 
 
@@ -241,14 +239,12 @@ Velden markeren: E
 > - Controleer ook of er een onverklaard verschil ontstaat.
 > - Pas zo nodig rubriek 3.3.2 (eerste zitting) of 2.3.2 (volgende zitting) aan, en volg de instructies over hertellen die daar staan.
 
-Veld markeren: foutmelding op 3.3.1 "Vergelijk D en H"
-
 > Coördinator (DSO): **De getallen die zijn ingevuld bij D en H zijn niet gelijk** (F.301)
 > - Herstel de fout door op papier het juiste getal in te (laten) vullen.
 > - Controleer ook of er een onverklaard verschil ontstaat.
 > - Pas zo nodig rubriek 2.3.2 aan, en volg de instructies over hertellen die daar staan.
 
-Veld markeren: foutmelding op 2.3.1 "Vergelijk D en H"
+Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
 #### F.302 "Vergelijk D&H": (checkbox H>D is aangevinkt, maar H<=D)
 
@@ -256,12 +252,10 @@ Veld markeren: foutmelding op 2.3.1 "Vergelijk D en H"
 
 > Coördinator (CSO): **Het getal dat is ingevuld bij H is niet groter dan D** (F.302)
 
-Veld markeren: foutmelding op 3.3.1 "Vergelijk D en H"
-
 > Coördinator (DSO): **Het getal dat is ingevuld bij H is niet groter dan D** (F.302)
 > - Maak een corrigendum waarin de juiste optie geselecteerd wordt.
 
-Veld markeren: foutmelding op 2.3.1 "Vergelijk D en H"
+Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
 #### F.303 "Vergelijk D&H": (checkbox H<D is aangevinkt, maar H>=D)
 
@@ -269,12 +263,10 @@ Veld markeren: foutmelding op 2.3.1 "Vergelijk D en H"
 
 > Coördinator (CSO): **Het getal dat is ingevuld bij H is niet kleiner dan D** (F.303)
 
-Veld markeren: foutmelding op 3.3.1 "Vergelijk D en H"
-
 > Coördinator (DSO): **Het getal dat is ingevuld bij H is niet kleiner dan D** (F.303)
 > - Maak een corrigendum waarin de juiste optie geselecteerd wordt.
 
-Veld markeren: foutmelding op 2.3.1 "Vergelijk D en H"
+Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
 #### F.304 "Vergelijk D&H": Meerdere aangevinkt of geen enkele aangevinkt
 
@@ -282,14 +274,12 @@ Veld markeren: foutmelding op 2.3.1 "Vergelijk D en H"
 
 > Coördinator (CSO): **Deze vraag moet precies één antwoord hebben** (F.304)
 
-Veld markeren: foutmelding op 3.3.1 "Vergelijk D en H"
-
 > Coördinator (DSO): **Deze vraag moet precies één antwoord hebben** (F.304)  
 > Is op het proces-verbaal duidelijk aangegeven welk van de opties bedoeld is?
 > - Zo ja: laat dat dan overnemen in Abacus.
 > - Zo nee: maak een corrigendum waarin de juiste optie geselecteerd wordt.
 
-Veld markeren: foutmelding op 2.3.1 "Vergelijk D en H"
+Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
 #### F.305 (Als D = H) I en/of J zijn ingevuld
 > Invoerder: **Controleer je antwoorden** (F.305)
@@ -297,8 +287,6 @@ Veld markeren: foutmelding op 2.3.1 "Vergelijk D en H"
 > Coördinator (CSO): **Controleer I en J** (F.305)  
 > De getallen bij D en H zijn gelijk. Er zijn geen stemmen meer of minder geteld.
 > - Herstel de fout door op papier I en/of J leeg te (laten) maken.
-
-Veld markeren: I en/of J (als ingevuld)
 
 > Coördinator (DSO): **Controleer I en J** (F.305)  
 > De getallen bij D en H zijn gelijk. Er zijn geen stemmen meer of minder geteld.
@@ -318,8 +306,6 @@ Veld markeren: I en/of J (als ingevuld)
 > - Controleer ook of het verschil nog volledig verklaard is.
 > - Pas zo nodig rubriek 3.3.2 (eerste zitting) of 2.3.2 (volgende zitting) aan, en volg de instructies over hertellen die daar staan.
 
-Veld markeren: I
-
 > Coördinator (DSO): **Controleer aantal méér getelde stemmen (I)** (F.306)
 > - Corrigeer de rekenfout in een corrigendum.
 > - Kijk ook of het corrigeren van de fout een onverklaard verschil introduceert (zie 2.3.2).
@@ -337,8 +323,6 @@ Veld markeren: I
 > - Controleer ook of het verschil nog volledig verklaard is.
 > - Pas zo nodig rubriek 3.3.2 (eerste zitting) of 2.3.2 (volgende zitting) aan, en volg de instructies over hertellen die daar staan.
 
-Veld markeren: I, J
-
 > Coördinator (DSO): **Controleer of I en J verwisseld zijn** (F.307)
 > - Corrigeer de rekenfout in een corrigendum.
 > - Kijk ook of het corrigeren van de fout een onverklaard verschil introduceert (zie 2.3.2).
@@ -355,8 +339,6 @@ Veld markeren: I, J
 > - Controleer ook of het verschil nog volledig verklaard is.
 > - Pas zo nodig rubriek 3.3.2 (eerste zitting) of 2.3.2 (volgende zitting) aan, en volg de instructies over hertellen die daar staan.
 
-Veld markeren: J
-
 > Coördinator (DSO): **Controleer aantal minder getelde stemmen (J)** (F.308)
 > - Corrigeer de rekenfout in een corrigendum.
 > - Kijk ook of het corrigeren van de fout een onverklaard verschil introduceert (zie 2.3.2).
@@ -372,8 +354,6 @@ Veld markeren: J
 > - Herstel de fout door op papier het verschil op de juiste plek in te (laten) vullen.
 > - Controleer ook of het verschil nog volledig verklaard is.
 > - Pas zo nodig rubriek 3.3.2 (eerste zitting) of 2.3.2 (volgende zitting) aan, en volg de instructies over hertellen die daar staan.
-
-Veld markeren: I, J
 
 > Coördinator (DSO): **Controleer of I en J verwisseld zijn** (F.309)
 > - Corrigeer de rekenfout in een corrigendum.
@@ -430,10 +410,6 @@ Velden markeren: D, H, I en J
 > - Zo ja: corrigeer de optelfout op het papieren proces-verbaal.
 > - Zo nee: onderzoek wat er fout is gegaan en tel zo nodig de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
 
-Velden markeren: totaal van de lijst
-N.b. anders dan de andere foutmeldingen, tonen we deze foutmelding _bij invoerders_ onderaan de pagina, onder het totaal-veld ([Voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=6128-28260&t=R2mG7PyAWfHk3c8S-11))  
-Het standaard handelingsperspectief wordt bij deze foutmelding niet getoond.
-
 > Coördinator (DSO): **Het totaal van de lijst is niet ingevuld** (F.401)  
 > Kijk of het corrigeren van de fout een onverklaard verschil in rubriek 2.3 wegneemt.
 > - Zo ja: maak een corrigendum en corrigeer daarin de optelfout. Corrigeer ook rubriek 2.3 in het corrigendum.
@@ -455,8 +431,6 @@ Het standaard handelingsperspectief wordt bij deze foutmelding niet getoond.
 > - Zo ja: corrigeer de optelfout op het papieren proces-verbaal.
 > - Zo nee: onderzoek wat er fout is gegaan en tel zo nodig de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
 
-Velden markeren: geen (laat alleen foutmelding zien op de pagina)
-
 > Coördinator (DSO): **De stemmen op kandidaten tellen niet op tot het lijsttotaal** (F.402)  
 > Reken de optelling in het papieren proces-verbaal na.  
 > Kijk of het corrigeren van de fout een onverklaard verschil in rubriek 2.3 wegneemt.
@@ -473,8 +447,6 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 > Coördinator (CSO): **Controleer het totaal van de lijst en E.{x} in rubriek 3.2 (eerste zitting) of 2.2 (volgende zitting)** (F.403)
 > - Controleer wat er fout is gegaan in rubriek 3.2 (eerste zitting) of 2.2 (volgende zitting) en herstel de fout.
 > - Pas zo nodig rubriek 3.3.2 (eerste zitting) of 2.3.2 (volgende zitting) aan, en volg de instructies over hertellen die daar staan.
-
-Velden markeren: totaal van de lijst
 
 > Coördinator (DSO): **Controleer het totaal van de lijst en E.{x} in rubriek 2.2** (F.403)  
 > Kijk of het corrigeren van de fout een onverklaard verschil in rubriek 2.3 wegneemt.
