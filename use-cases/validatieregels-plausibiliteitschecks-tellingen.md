@@ -428,7 +428,7 @@ Veld markeren: foutmelding op 2.3.2
 > Invoerder: **Controleer je antwoorden** (F.312)
 
 > Coördinator: **D is niet gelijk aan H min I plus J** (F.312)  
-> Controleer of de juiste getallen zijn overgenomen. Indien de optelling niet klopt kun je niet verder gaan met de invoer. Er is iets misgegaan met het opmaken of overdragen van het procesverbaal van het onderliggende niveau. Overleg met het CSB over de vervolgstappen.
+> Controleer of de juiste getallen zijn overgenomen. Indien de optelling niet klopt kun je niet verder gaan met de invoer. Er is iets misgegaan met het opmaken of overdragen van het proces-verbaal van het onderliggende niveau. Overleg met het CSB over de vervolgstappen.
 
 Velden markeren: D, H, I en J
 
