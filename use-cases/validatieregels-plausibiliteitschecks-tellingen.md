@@ -166,8 +166,13 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 > Invoerder: **Controleer je antwoorden** (F.201)
 
-> Coördinator: **A en B tellen niet op tot D** (F.201)  
+> Coördinator (CSO): **A en B tellen niet op tot D** (F.201)  
 > Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
+> - Zo ja: herstel op papier de optelfout door bij D het juiste getal in te vullen.
+> - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
+
+> Coördinator (DSO): **A en B tellen niet op tot D** (F.201)  
+> Controleer in rubriek 2.3 of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
 > - Zo ja: herstel op papier de optelfout door bij D het juiste getal in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
@@ -177,8 +182,13 @@ Velden markeren: A, B en D
 
 > Invoerder **Controleer je antwoorden** (F.202)
 
-> Coördinator: **De stemmen op lijsten tellen niet op tot E** (F.202)  
+> Coördinator (CSO): **De stemmen op lijsten tellen niet op tot E** (F.202)  
 > Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als de juiste getallen bij E en H worden ingevuld.
+> - Zo ja: herstel op papier de optelfout door bij E en H de juiste getallen in te vullen.
+> - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
+
+> Coördinator (DSO): **De stemmen op lijsten tellen niet op tot E** (F.202)  
+> Controleer in rubriek 2.3 of er een onverklaard verschil opgelost wordt als de juiste getallen bij E en H worden ingevuld.
 > - Zo ja: herstel op papier de optelfout door bij E en H de juiste getallen in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
@@ -188,8 +198,13 @@ Velden markeren: E.1 t/m E.n en E
 
 > Invoerder: **Controleer je antwoorden** (F.203)
 
-> Coördinator: **E, F en G tellen niet op tot H** (F.203)  
+> Coördinator (CSO): **E, F en G tellen niet op tot H** (F.203)  
 > Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als het juiste getal bij H wordt ingevuld.
+> - Zo ja: herstel op papier de optelfout door bij H het juiste getal in te vullen.
+> - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
+
+> Coördinator (DSO): **E, F en G tellen niet op tot H** (F.203)  
+> Controleer in rubriek 2.3 of er een onverklaard verschil opgelost wordt als het juiste getal bij H wordt ingevuld.
 > - Zo ja: herstel op papier de optelfout door bij H het juiste getal in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
@@ -205,7 +220,7 @@ Velden markeren: E, F, G en H
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
 > Coördinator (DSO): **Het totaal aantal stemmen op kandidaten is niet ingevuld** (F.204)  
-> Controleer in rubriek 2.2 of er een onverklaard verschil opgelost wordt als de juiste getallen bij E en E.1 t/m E.n worden ingevuld.
+> Controleer in rubriek 2.3 of er een onverklaard verschil opgelost wordt als de juiste getallen bij E en E.1 t/m E.n worden ingevuld.
 > - Zo ja: herstel op papier de optelfout door bij E en E.1 t/m E.n de juiste getallen in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
@@ -365,7 +380,7 @@ Veld markeren: I, J
 
 > Invoerder: **Controleer je antwoorden** (F.310)
 
-> Coördinator: **Deze vraag moet precies één antwoord hebben** (F.310)
+> Coördinator (CSO/DSO): **Deze vraag moet precies één antwoord hebben** (F.310)
 
 Veld markeren: foutmelding op 3.3.2 (CSO) of 2.3.2 (DSO)
 
@@ -502,7 +517,7 @@ Geen checks.
 
 > Invoerder: **Controleer F** (W.201)
 
-> Coördinator: **Het aantal blanco stemmen (F) is erg hoog** (W.201)
+> Coördinator (CSO/DSO): **Het aantal blanco stemmen (F) is erg hoog** (W.201)
 > - Hertel de blanco stemmen of geef een verklaring voor het hoge aantal.
 > - Geef in elk geval aan wat je hebt gedaan in het proces-verbaal van het GSB (rubriek 1.2).
 
@@ -512,7 +527,7 @@ Veld markeren: F
 
 > Invoerder: **Controleer G** (W.202)
 
-> Coördinator: **Het aantal ongeldige stemmen (G) is erg hoog** (W.202)
+> Coördinator (CSO/DSO): **Het aantal ongeldige stemmen (G) is erg hoog** (W.202)
 > - Hertel de ongeldige stemmen of geef een verklaring voor het hoge aantal.
 > - Geef in elk geval aan wat je hebt gedaan in het proces-verbaal van het GSB (rubriek 1.2).
 
@@ -527,7 +542,7 @@ _N.B. Voor "2% of meer" delen we door uitgebrachte stemmen, consistent met de be
 
 > Invoerder: **Controleer D en H** (W.203)
 
-> Coördinator: **Groot verschil tussen D en H** (W.203)  
+> Coördinator (CSO/DSO): **Groot verschil tussen D en H** (W.203)  
 > Er is een groot verschil tussen het aantal toegelaten kiezers (D) en het aantal uitgebrachte stemmen (H).
 > - Tel het stembureau in zijn geheel nogmaals. Dit hoeft niet als er al twee keer geteld is met precies dezelfde uitkomst per lijst.
 > - Verklaar in het proces-verbaal van het GSB (rubriek 1.2) zo goed mogelijk wat de oorzaak van de opmerkelijke uitkomst is.
@@ -539,7 +554,7 @@ Velden markeren: D en H
 
 > Invoerder: **Controleer H** (W.204)
 
-> Coördinator: **Het totaal aantal uitgebrachte stemmen (H) is nul** (W.204)  
+> Coördinator (CSO/DSO): **Het totaal aantal uitgebrachte stemmen (H) is nul** (W.204)  
 > Controleer of het stembureau is opgenomen in de vóór de verkiezing gepubliceerde lijst.
 > - Zo ja: verklaar in het proces-verbaal van het GSB (rubriek 1.2) waarom in dit stembureau geen stemmen zijn uitgebracht.
 > - Zo nee: verwijder het stembureau uit Abacus. Het proces-verbaal moet niet ingevoerd worden.
