@@ -212,7 +212,7 @@ Velden markeren: D, H, I en J
 | F.308 | (Als H < D) `J <> D - H`                                                                                                            | X | X |   |
 | F.309 | (Als H < D) I is ingevuld                                                                                                           | X | X |   |
 | F.310 | (Als D <> H en verklaring voor verschil niks aangevinkt of 'ja' en 'nee' aangevinkt)                                                | X | X |   |
-| F.360 | (2.3.2 (verklaring voor verschil) = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt) |   | X |   |
+| F.311 | (2.3.2 (verklaring voor verschil) = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt) |   | X |   |
 
 #### F.301 "Vergelijk D&H": (checkbox D=H is aangevinkt, maar D<>H)
 
@@ -373,11 +373,11 @@ Veld markeren: I, J
 
 Veld markeren: foutmelding op 3.3.2 (CSO) of 2.3.2 (DSO)
 
-#### F.360 (2.3.2 (verklaring voor verschil) = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt)
+#### F.311 (2.3.2 (verklaring voor verschil) = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt)
 
-> Invoerder: **Controleer je antwoorden** (F.360)
+> Invoerder: **Controleer je antwoorden** (F.311)
 
-> Coördinator: **Hertel onverklaard verschil** (F.360)  
+> Coördinator: **Hertel onverklaard verschil** (F.311)  
 > Er is een onverklaard verschil dat herteld moet worden.
 > - Hertel de stembiljetten en het aantal toegelaten kiezers. Hertel tot de fout gevonden is, of alles één keer herteld is.
 > - Vul nieuwe telresultaten op een corrigendum in.
