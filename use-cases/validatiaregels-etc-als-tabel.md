@@ -456,3 +456,36 @@ Velden markeren: totaal van de lijst
 
 Velden markeren: totaal van de lijst
 
+---
+
+## Plausibiliteitschecks geven waarschuwingen
+
+Plausibiliteitschecks vragen de gebruiker de invoer extra te controleren. Ze resulteren in een niet-blokkerende waarschuwing. De waarschuwing wordt getoond als de check evalueert naar `TRUE`.
+
+De foutmelding die wordt getoond bestaat uit dezelfde onderdelen als bij de validatieregels. Het handelingsperspectief voor alle plausibiliteitschecks is als volgt:
+
+> Invoerder:
+> - Heb je iets niet goed overgenomen? Herstel de fout en ga verder.
+> - Heb je alles gecontroleerd en komt je invoer overeen met het papier? Ga dan verder.
+
+> Coördinator:
+> Er is geen standaard handelingsperspectief voor de coördinator.
+
+### Checks voor alle velden (reeks W.0xx)
+
+| code  | check | GSB CSO | GSB DSO | CSB |
+| ----- | ----- | :-----: | :-----: | :-: |
+| W.001 | (Bij tweede invoer) Niet alle ingevoerde waardes van de tweede invoer zijn gelijk aan die van de eerste invoer | X | X | X |
+
+#### W.001 (Bij tweede invoer) Niet alle ingevoerde waardes van de tweede invoer zijn gelijk aan die van de eerste invoer
+
+> Invoerder: **Extra controle nodig** (W.001)  
+> De gemarkeerde velden zijn anders dan in de eerste invoer.
+
+> Coördinator: W.001 is er alleen voor invoerders
+> Voor de coördinator hebben we het scherm 'verschillen oplossen'.
+
+Velden markeren: alle velden met een verschil
+
+[Voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=130-10813&t=zTY4ajWtsFkiTOYP-11)
+
