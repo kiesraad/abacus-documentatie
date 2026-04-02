@@ -8,6 +8,7 @@ Een fout wijst op een probleem in het papieren proces-verbaal. Dit probleem moet
 **[Waarschuwing](#plausibiliteitschecks-geven-waarschuwingen)**:
 Een waarschuwing wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. Dit moet het GSB verklaren, anders kan dit resulteren in een nieuwe zitting.
 
+
 ## Validatieregels geven fouten
 
 Validatieregels vragen de gebruiker de invoer extra te controleren. Ze resulteren in een niet-blokkerende foutmelding. De foutmelding wordt getoond als de regel evalueert naar `TRUE`.
@@ -152,7 +153,6 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-
 ### Regels voor totalen (reeks F.2xx)
 
 | code  | regel | GSB CSO | GSB DSO | CSB |
@@ -210,8 +210,6 @@ Velden markeren: E, F, G en H
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
 Veld markeren: E
-
-
 
 ### Regels voor verschillen (reeks F.3xx)
 
@@ -391,7 +389,6 @@ Veld markeren: foutmelding op 2.3.2
 > Controleer of de juiste getallen zijn overgenomen. Indien de optelling niet klopt kun je niet verder gaan met de invoer. Er is iets misgegaan met het opmaken of overdragen van het procesverbaal van het onderliggende niveau. Overleg met het CSB over de vervolgstappen.
 
 Velden markeren: D, H, I en J
-
 
 ### Regels voor kandidaten en lijsttotalen (reeks F.4xx)
 
