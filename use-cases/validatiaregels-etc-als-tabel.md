@@ -4,6 +4,128 @@ __Dit overzicht is niet volledig. Het is een voorstel voor het gebruik van tabel
 
 ## Validatieregels geven fouten
 
+### Regels voor alle numerieke invoervelden (reeks F.0xx)
+
+Er zijn geen regels omdat het niet mogelijk is om foute aantallen in te vullen in de frontend, dus er wordt een error vanuit de backend gegeven als er toch met de aantallen geknoeid is en ze niet toegestaan zijn.
+
+### Regels voor extra onderzoek en controles (reeks F.1xx)
+
+Deze regels zijn alleen van toepassing bij invoer voor de eerste zitting. De gerelateerde velden staan namelijk niet in corrigenda-PV's.
+
+| code  | regel | GSB CSO | GSB DSO | CSB |
+| ----- | ----- | :-----: | :-----: | :-: |
+| F.101 | 'Alleen bij extra onderzoek B1-1': één van beide vragen is beantwoord, en de andere niet                     | X |   |   |
+| F.102 | 'Alleen bij extra onderzoek B1-1': meerdere antwoorden op 1 van de vragen                                    | X |   |   |
+| F.111 | 'Verschillen met telresultaten van het stembureau': één of beide vragen zijn niet beantwoord                 | X |   |   |
+| F.112 | 'Verschillen met telresultaten van het stembureau': meerdere antwoorden per vraag                            | X |   |   |
+| F.121 | Over het proces-verbaal: Niet alle vragen bij 'Over het proces-verbaal' zijn beantwoord                      |   | X |   |
+| F.122 | Over het proces-verbaal: Ongeldige combinatie van antwoorden: `wel corrigendum, geen inlegvel`               |   | X |   |
+| F.131 | 'Controles en correcties': geen vinkjes bij de eerste twee vragen                                            |   | X |   |
+| F.132 | 'Controles en correcties': Ongeldige set documenten (vraag 'gecorrigeerde telresultaten' = 'nee')            |   | X |   |
+| F.133 | 'Controles en correcties': Ongeldig antwoord in eerste zitting (vraag 'op verzoek van het CSB'  is ingevuld) |   | X |   |
+| F.134 | 'Controles en correcties': meer dan 1 antwoord op vraag 'zijn er gecorrigeerde telresultaten'                |   | X |   |
+
+#### F.101: 'Alleen bij extra onderzoek B1-1': één van beide vragen is beantwoord, en de andere niet
+
+> Invoerder: **Controleer je antwoorden** (F.101)
+
+> Coördinator: **Beide vragen moeten beantwoord ofwel overgeslagen zijn** (F.101)  
+> Als er extra onderzoek is gedaan, moeten beide vragen beantwoord worden.  
+> Als er geen extra onderzoek is gedaan, moeten deze vragen overgeslagen worden.
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+#### F.102: 'Alleen bij extra onderzoek B1-1': meerdere antwoorden op 1 van de vragen
+
+> Invoerder: **Controleer je antwoorden** (F.102)
+
+> Coördinator: **Er mag maar één antwoord per vraag worden gegeven** (F.102)
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+#### F.111: 'Verschillen met telresultaten van het stembureau': één of beide vragen zijn niet beantwoord
+
+> Invoerder: **Controleer je antwoorden** (F.111)
+
+> Coördinator: **Bij beide vragen moet een antwoord gegeven worden** (F.111)
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+#### F.112: 'Verschillen met telresultaten van het stembureau': meerdere antwoorden per vraag
+
+> Invoerder: **Controleer je antwoorden** (F.112)
+
+> Coördinator: **Er mag maar één antwoord per vraag worden gegeven** (F.112)
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+#### F.121: Over het proces-verbaal: Niet alle vragen bij 'Over het proces-verbaal' zijn beantwoord
+
+> Invoerder: **Controleer je antwoorden** (F.121)
+> - Beantwoord de vragen over het papieren proces-verbaal.
+> - Overleg met de coördinator als je twijfelt.
+
+> Coördinator: **Er is niet correct aangegeven welke documenten zijn ingevoerd** (F.121)
+> - Bekijk welke documenten aanwezig zijn.
+> - Geef daarna de invoer terug aan de invoerder zodat deze vraag opnieuw beantwoord kan worden.
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+[Voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=10078-124322)
+
+#### F.122: Over het proces-verbaal: Ongeldige combinatie van antwoorden: `wel corrigendum, geen inlegvel`
+
+> Invoerder: **Het inlegvel ontbreekt, maar hoort wel aanwezig te zijn** (F.122)
+> - Overleg met de coördinator over het ontbrekende inlegvel.
+
+> Coördinator: **Het inlegvel ontbreekt, maar hoort wel aanwezig te zijn** (F.122)
+> - Zorg dat een correct ingevuld inlegvel wordt toegevoegd.
+> - Geef daarna de invoer terug aan de invoerder zodat deze vraag opnieuw beantwoord kan worden.
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+#### F.131: 'Controles en correcties': geen vinkjes bij de eerste twee vragen
+
+> Invoerder: **Controleer je antwoorden** (F.131)
+
+> Coördinator: **De vragen op het inlegvel zijn niet volledig beantwoord** (F.131)
+> - Zorg dat het inlegvel volledig is ingevuld.
+> - Geef daarna de invoer terug aan de invoerder zodat deze vraag opnieuw beantwoord kan worden.
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+#### F.132: 'Controles en correcties': Ongeldige set documenten (vraag 'gecorrigeerde telresultaten' = 'nee')
+
+> Invoerder: **Controleer je antwoorden** (F.132)  
+> Er is een corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' geen gecorrigeerde telresultaten.
+> - Overleg met de coördinator.
+
+> Coördinator: **Onterecht corrigendum?** (F.132)  
+> Er is een corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' geen gecorrigeerde telresultaten.
+> - Als er geen gecorrigeerde telresultaten zijn, dan hoort er ook geen corrigendum te zijn.
+> - Verwijder het corrigendum, of geef op het inlegvel aan dat er wel gecorrigeerde telresultaten zijn.
+> - Geef daarna de invoer terug aan de invoerder.
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+#### F.133: 'Controles en correcties': Ongeldig antwoord in eerste zitting (vraag 'op verzoek van het CSB' is ingevuld)
+
+> Invoerder: **Controleer je antwoorden** (F.133)
+
+> Coördinator: **Tijdens de eerste zitting kan er nog geen verzoek van het Centraal Stembureau zijn** (F.133)
+> - Herstel de fout door op papier de juiste optie(s) aan te (laten) vinken.
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+#### F.134: 'Controles en correcties': meer dan 1 antwoord op vraag 'zijn er gecorrigeerde telresultaten'
+
+> Invoerder: **Controleer je antwoorden** (F.134)
+
+> Coördinator: **Er mag maar 1 antwoord per vraag worden gegeven** (F.134)
+> - Herstel de fout door op papier de juiste optie(s) aan te (laten) vinken.
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+
 ### Regels voor totalen (reeks F.2xx)
 
 | code  | regel | GSB CSO | GSB DSO | CSB |
