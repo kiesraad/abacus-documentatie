@@ -157,10 +157,11 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 | code  | regel | GSB CSO | GSB DSO | CSB |
 | ----- | ----- | :-----: | :-----: | :-: |
-| F.201 | stempassen + volmachten <> totaal toegelaten kiezers                                                       | X | X |   |
-| F.202 | E.1 t/m E.n tellen niet op naar E                                                                          | X | X |   |
-| F.203 | stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen           | X | X |   |
-| F.204 | De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en (E = leeg of 0)                                   | X | X | X |
+| F.201 | stempassen + volmachten <> totaal toegelaten kiezers                                                     | X | X | X |
+| F.202 | E.1 t/m E.n tellen niet op naar E                                                                        | X | X | X |
+| F.203 | stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen         | X | X | X |
+| F.204 | De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en E = leeg of 0                                   | X | X | X |
+| F.205 | Aantal kiesgerechtigden = leeg of 0                                                                      |   |   | X |
 
 #### F.201: `stempassen + volmachten <> totaal toegelaten kiezers`
 
@@ -175,6 +176,10 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 > Controleer in rubriek 2.3 of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
 > - Zo ja: herstel op papier de optelfout door bij D het juiste getal in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
+
+> Coördinator (CSB): **A en B tellen niet op tot D** (F.201)  
+> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: A, B en D
 
@@ -192,6 +197,10 @@ Velden markeren: A, B en D
 > - Zo ja: herstel op papier de optelfout door bij E en H de juiste getallen in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
+> Coördinator (CSB): **De stemmen op lijsten tellen niet op tot E** (F.202)  
+> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
+
 Velden markeren: E.1 t/m E.n en E
 
 #### F.203: `stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen`
@@ -208,9 +217,13 @@ Velden markeren: E.1 t/m E.n en E
 > - Zo ja: herstel op papier de optelfout door bij H het juiste getal in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
+> Coördinator (CSB): **E, F en G tellen niet op tot H** (F.203)  
+> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
+
 Velden markeren: E, F, G en H
 
-#### F.204: `De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en (E = leeg of 0)`
+#### F.204: `De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en E = leeg of 0`
 
 > Invoerder: **Controleer je antwoorden** (F.204)
 
@@ -224,7 +237,21 @@ Velden markeren: E, F, G en H
 > - Zo ja: herstel op papier de optelfout door bij E en E.1 t/m E.n de juiste getallen in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
+> Coördinator (CSB): **Het totaal aantal stemmen op kandidaten is niet ingevuld** (F.204)  
+> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
+
 Veld markeren: E
+
+#### F.205: `Aantal kiesgerechtigden = leeg of 0`
+
+> Invoerder: **Controleer je antwoorden** (F.205)
+
+> Coördinator: **Het aantal kiesgerechtigden is niet ingevuld** (F.204)  
+> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
+
+Veld markeren: Z
 
 ### Regels voor verschillen (reeks F.3xx)
 
@@ -409,9 +436,9 @@ Velden markeren: D, H, I en J
 
 | code  | regel | GSB CSO | GSB DSO | CSB |
 | ----- | ----- | :-----: | :-----: | :-: |
-| F.401 | `Er zijn (stemmen op kandidaten of het lijsttotaal van corresponderende E.x is groter dan 0) en het totaal aantal stemmen op een lijst = leeg of 0` | X | X |   |
-| F.402 | (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst <> som van aantal stemmen op de kandidaten van die lijst`                        | X | X |   |
-| F.403 | (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst komt niet overeen met het lijsttotaal van corresponderende E.x`                  | X | X |   |
+| F.401 | `Er zijn (stemmen op kandidaten of het lijsttotaal van corresponderende E.x is groter dan 0) en het totaal aantal stemmen op een lijst = leeg of 0` | X | X | X |
+| F.402 | (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst <> som van aantal stemmen op de kandidaten van die lijst`                        | X | X | X |
+| F.403 | (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst komt niet overeen met het lijsttotaal van corresponderende E.x`                  | X | X | X |
 
 #### F.401 `Er zijn (stemmen op kandidaten of het lijsttotaal van corresponderende E.x is groter dan 0) en het totaal aantal stemmen op een lijst = leeg of 0`
 > Invoerder: **Controleer het totaal van de lijst. Is dit veld op het papieren proces-verbaal ook leeg? Dan kan je verdergaan** (F.401)
@@ -426,6 +453,10 @@ Velden markeren: D, H, I en J
 > Kijk of het corrigeren van de fout een onverklaard verschil in rubriek 2.3 wegneemt.
 > - Zo ja: maak een corrigendum en corrigeer daarin de optelfout. Corrigeer ook rubriek 2.3 in het corrigendum.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
+
+> Coördinator (CSB): **Het totaal van de lijst is niet ingevuld** (F.401)  
+> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: totaal van de lijst
 N.b. anders dan de andere foutmeldingen, tonen we deze foutmelding _bij invoerders_ onderaan de pagina, onder het totaal-veld ([Voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=6128-28260&t=R2mG7PyAWfHk3c8S-11))  
@@ -449,6 +480,10 @@ Het standaard handelingsperspectief wordt bij deze foutmelding niet getoond.
 > - Zo ja: maak een corrigendum en corrigeer daarin de optelfout. Corrigeer ook rubriek 2.3 in het corrigendum.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
 
+> Coördinator (CSB): **De stemmen op kandidaten tellen niet op tot het lijsttotaal** (F.402)  
+> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
+
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.403 (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst komt niet overeen met het lijsttotaal van corresponderende E.x`
@@ -464,6 +499,10 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 > Kijk of het corrigeren van de fout een onverklaard verschil in rubriek 2.3 wegneemt.
 > - Zo ja: maak een corrigendum en corrigeer daarin de optelfout. Corrigeer ook rubriek 2.3 in het corrigendum.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
+
+> Coördinator (CSB): **Controleer het totaal van de lijst en E.{x} in rubriek 2.2** (F.403)
+> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: totaal van de lijst
 
@@ -511,7 +550,7 @@ Geen checks.
 | W.201 | W.201 aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen                                                       | X | X |   |
 | W.202 | W.202: Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen                                                   | X | X |   |
 | W.203 | W.203: Verschil tussen totaal aantal toegelaten kiezers en totaal aantal uitgebrachte stemmen is groter dan of gelijk aan 2% en groter dan of gelijk aan 15 | X | X |   |
-| W.204 | W.204 Totaal aantal uitgebrachte stemmen leeg of 0                                                                                                          | X | X |   |
+| W.204 | W.204 Totaal aantal uitgebrachte stemmen leeg of 0                                                                                                          | X | X | X |
 
 #### W.201 aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 
@@ -558,6 +597,10 @@ Velden markeren: D en H
 > Controleer of het stembureau is opgenomen in de vóór de verkiezing gepubliceerde lijst.
 > - Zo ja: verklaar in het proces-verbaal van het GSB (rubriek 1.2) waarom in dit stembureau geen stemmen zijn uitgebracht.
 > - Zo nee: verwijder het stembureau uit Abacus. Het proces-verbaal moet niet ingevoerd worden.
+
+> Coördinator (CSB): **Het totaal aantal uitgebrachte stemmen (H) is nul** (W.204)  
+> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Veld markeren: H
 
