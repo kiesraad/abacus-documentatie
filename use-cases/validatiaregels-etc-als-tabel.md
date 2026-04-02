@@ -173,7 +173,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: A, B en D
 
-#### F.202: `E.1 t/m E.n tellen niet op naar E`
+#### F.202: (Als F.204 niet getoond wordt) `E.1 t/m E.n tellen niet op naar E`
 
 > Invoerder **Controleer je antwoorden** (F.202)
 
@@ -223,7 +223,7 @@ Velden markeren: E
 | F.302 | "Vergelijk D&H": (checkbox H>D is aangevinkt, maar H<=D)                                                                            | X | X |   |
 | F.303 | "Vergelijk D&H": (checkbox H<D is aangevinkt, maar H>=D)                                                                            | X | X |   |
 | F.304 | "Vergelijk D&H": Meerdere aangevinkt of geen enkele aangevinkt                                                                      | X | X |   |
-| F.304 | (Als D = H) I en/of J zijn ingevuld                                                                                                 | X | X |   |
+| F.305 | (Als D = H) I en/of J zijn ingevuld                                                                                                 | X | X |   |
 | F.306 | (Als H > D) `I <> H - D`                                                                                                            | X | X |   |
 | F.307 | (Als H > D) J is ingevuld                                                                                                           | X | X |   |
 | F.308 | (Als H < D) `J <> D - H`                                                                                                            | X | X |   |
