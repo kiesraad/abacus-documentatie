@@ -1,8 +1,35 @@
 # Validatieregels en plausibiliteitschecks voor invoer tellingen
 
-__Dit overzicht is niet volledig. Het is een voorstel voor het gebruik van tabellen voor de regels en checks.__
+## Definities
+
+**[Fout](#validatieregels-geven-fouten)**:
+Een fout wijst op een probleem in het papieren proces-verbaal. Dit probleem moet opgelost worden voordat een tweede invoerder aan de slag gaat. Als een proces-verbaal gecorrigeerd wordt, moet het proces-verbaal twee keer opnieuw ingevoerd worden.
+
+**[Waarschuwing](#plausibiliteitschecks-geven-waarschuwingen)**:
+Een waarschuwing wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. Dit moet het GSB verklaren, anders kan dit resulteren in een nieuwe zitting.
 
 ## Validatieregels geven fouten
+
+Validatieregels vragen de gebruiker de invoer extra te controleren. Ze resulteren in een niet-blokkerende foutmelding. De foutmelding wordt getoond als de regel evalueert naar `TRUE`.
+
+De foutmelding die wordt getoond bestaat uit vier onderdelen:
+
+- titel
+- nummer
+- toelichting
+- handelingsperspectief
+
+Titel, nummer en toelichting zijn uniek voor iedere foutmelding. Het handelingsperspectief is voor alle foutmeldingen gelijk, en is als volgt:
+
+Invoerder:
+> - Heb je iets niet goed overgenomen? Herstel de fout en ga verder.
+> - Heb je alles gecontroleerd en komt je invoer overeen met het papier? Ga dan verder.
+
+Coördinator
+> - Controleer of de invoer in Abacus goed is overgenomen van het papieren proces-verbaal.
+> - Zit de fout ook in het papieren proces-verbaal? Los de fout dan daar op.
+
+Voor sommige meldingen geldt een specifiek handelingsperspectief. Dit is vermeld met bulletpoints. In dat geval zal het standaard handelingsperspectief niet getoond worden.
 
 ### Regels voor alle numerieke invoervelden (reeks F.0xx)
 
@@ -557,3 +584,18 @@ Geen checks.
 ### Checks voor kandidaten en lijsttotalen (reeks W.4xx)
 
 Geen checks.
+
+---
+
+## Meerdere fouten en waarschuwingen in 1 response
+
+Een request naar de backend kan meerdere fouten en waarschuwingen teruggeven.
+
+In de user interface behandelen we die als volgt:
+
+- Voor de stappen **vóór** de hoogste stap waar de gebruiker invoer voor heeft gedaan: als er fouten zijn dan tonen we bij die stap in de navigatiebalk een fout-icoon, als er alleen waarschuwingen zijn dan tonen we bij die stap in de navigatiebalk een waarschuwings-icoon ([voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=137-4359&t=6BRGJQMHbKwihTCh-4)).
+- Fouten of waarschuwingen **voorbij** de hoogste stap waar de gebruiker invoer voor heeft gedaan, tonen we niet.
+- Zijn er fouten of waarschuwingen in de huidige stap, dan tonen we alle fouten en waarschuwingen ([voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=2871-9169&t=FtsIfhKtOeDxlo9v-4)).
+  - We tonen van elke melding de titel, het nummer en de toelichting.
+  - Omdat het handelingsperspectief voor alle meldingen hetzelfde is, tonen we deze maar één keer.
+  - We markeren alle invoervelden waar een foutmelding of waarschuwing op is. Gaat melding 1 over veld A, B en C, en melding 2 over veld C en D, dan markeren we dus A, B, C en D. Mocht er voor een invoerveld zowel een foutmelding als een waarschuwing zijn, dan wordt alleen de foutmelding markering getoond.
