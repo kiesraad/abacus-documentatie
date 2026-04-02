@@ -134,7 +134,6 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 | F.202 | E.1 t/m E.n tellen niet op naar E                                                                          | X | X |   |
 | F.203 | stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen           | X | X |   |
 | F.204 | De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en (E = leeg of 0)                                   | X | X | X |
-| F.205 | totaal aantal kiezers = totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen |   |   | X |
 
 #### F.201: `stempassen + volmachten <> totaal toegelaten kiezers`
 
@@ -187,15 +186,6 @@ Velden markeren: E
 
 Velden markeren: E
 
-#### F.205: `totaal aantal kiezers = totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen`
-
-> Invoerder: **Controleer je antwoorden** (F.204)
-
-> Coördinator: **D is niet gelijk aan H min I plus J** (F.204)  
-> Controleer of de juiste getallen zijn overgenomen. Indien de optelling niet klopt kun je niet verder gaan met de invoer. Er is iets misgegaan met het opmaken of overdragen van het procesverbaal van het onderliggende niveau. Overleg met het CSB over de vervolgstappen.
-
-Velden markeren: D, H, I en J
-
 
 
 ### Regels voor verschillen (reeks F.3xx)
@@ -213,6 +203,7 @@ Velden markeren: D, H, I en J
 | F.309 | (Als H < D) I is ingevuld                                                                                                           | X | X |   |
 | F.310 | (Als D <> H en verklaring voor verschil niks aangevinkt of 'ja' en 'nee' aangevinkt)                                                | X | X |   |
 | F.311 | (2.3.2 (verklaring voor verschil) = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt) |   | X |   |
+| F.312 | totaal aantal kiezers = totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen                          |   |   | X |
 
 #### F.301 "Vergelijk D&H": (checkbox D=H is aangevinkt, maar D<>H)
 
@@ -384,3 +375,12 @@ Veld markeren: foutmelding op 3.3.2 (CSO) of 2.3.2 (DSO)
 > - Is er al herteld? Zorg dan dat het inlegvel 'controles en correcties' wordt ingevuld en toegevoegd aan het proces-verbaal van het stembureau.
 
 Veld markeren: foutmelding op 2.3.2
+
+#### F.312: `totaal aantal kiezers = totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen`
+
+> Invoerder: **Controleer je antwoorden** (F.312)
+
+> Coördinator: **D is niet gelijk aan H min I plus J** (F.312)  
+> Controleer of de juiste getallen zijn overgenomen. Indien de optelling niet klopt kun je niet verder gaan met de invoer. Er is iets misgegaan met het opmaken of overdragen van het procesverbaal van het onderliggende niveau. Overleg met het CSB over de vervolgstappen.
+
+Velden markeren: D, H, I en J
