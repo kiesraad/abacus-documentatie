@@ -384,3 +384,75 @@ Veld markeren: foutmelding op 2.3.2
 > Controleer of de juiste getallen zijn overgenomen. Indien de optelling niet klopt kun je niet verder gaan met de invoer. Er is iets misgegaan met het opmaken of overdragen van het procesverbaal van het onderliggende niveau. Overleg met het CSB over de vervolgstappen.
 
 Velden markeren: D, H, I en J
+
+
+### Regels voor kandidaten en lijsttotalen (reeks F.4xx)
+
+| code  | regel | GSB CSO | GSB DSO | CSB |
+| ----- | ----- | :-----: | :-----: | :-: |
+| F.401 | `Er zijn (stemmen op kandidaten of het lijsttotaal van corresponderende E.x is groter dan 0) en het totaal aantal stemmen op een lijst = leeg of 0` | X | X |   |
+| F.402 | (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst <> som van aantal stemmen op de kandidaten van die lijst`                        | X | X |   |
+| F.403 | (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst komt niet overeen met het lijsttotaal van corresponderende E.x`                  | X | X |   |
+
+#### F.401 `Er zijn (stemmen op kandidaten of het lijsttotaal van corresponderende E.x is groter dan 0) en het totaal aantal stemmen op een lijst = leeg of 0`
+> Invoerder: **Controleer het totaal van de lijst. Is dit veld op het papieren proces-verbaal ook leeg? Dan kan je verdergaan** (F.401)
+
+> Coördinator (CSO): **Het totaal van de lijst is niet ingevuld** (F.401)  
+> Controleer of het proces-verbaal tijdens het telproces volledig is ingevuld (controleer ook E.{x} in rubriek 3.2 (eerste zitting) of 2.2 (volgende zitting)).  
+> Kijk of het corrigeren van de fout een onverklaard verschil wegneemt in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting).
+> - Zo ja: corrigeer de optelfout op het papieren proces-verbaal.
+> - Zo nee: onderzoek wat er fout is gegaan en tel zo nodig de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
+
+Velden markeren: totaal van de lijst
+N.b. anders dan de andere foutmeldingen, tonen we deze foutmelding _bij invoerders_ onderaan de pagina, onder het totaal-veld ([Voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=6128-28260&t=R2mG7PyAWfHk3c8S-11))  
+Het standaard handelingsperspectief wordt bij deze foutmelding niet getoond.
+
+> Coördinator (DSO): **Het totaal van de lijst is niet ingevuld** (F.401)  
+> Kijk of het corrigeren van de fout een onverklaard verschil in rubriek 2.3 wegneemt.
+> - Zo ja: maak een corrigendum en corrigeer daarin de optelfout. Corrigeer ook rubriek 2.3 in het corrigendum.
+> - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
+
+Velden markeren: totaal van de lijst
+N.b. anders dan de andere foutmeldingen, tonen we deze foutmelding _bij invoerders_ onderaan de pagina, onder het totaal-veld ([Voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=6128-28260&t=R2mG7PyAWfHk3c8S-11))  
+Het standaard handelingsperspectief wordt bij deze foutmelding niet getoond.
+
+#### F.402 (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst <> som van aantal stemmen op de kandidaten van die lijst`
+
+> Invoerder: **Controleer ingevoerde aantallen** (F.402)  
+> De opgetelde stemmen op de kandidaten en het ingevoerde totaal zijn niet gelijk.
+
+> Coördinator (CSO): **De stemmen op kandidaten tellen niet op tot het lijsttotaal** (F.402)  
+> Controleer of het proces-verbaal tijdens het telproces volledig is ingevuld.  
+> Reken de optelling in het papieren proces-verbaal na.  
+> Kijk of het corrigeren van de fout een onverklaard verschil wegneemt in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting).
+> - Zo ja: corrigeer de optelfout op het papieren proces-verbaal.
+> - Zo nee: onderzoek wat er fout is gegaan en tel zo nodig de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+> Coördinator (DSO): **De stemmen op kandidaten tellen niet op tot het lijsttotaal** (F.402)  
+> Reken de optelling in het papieren proces-verbaal na.  
+> Kijk of het corrigeren van de fout een onverklaard verschil in rubriek 2.3 wegneemt.
+> - Zo ja: maak een corrigendum en corrigeer daarin de optelfout. Corrigeer ook rubriek 2.3 in het corrigendum.
+> - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+#### F.403 (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst komt niet overeen met het lijsttotaal van corresponderende E.x`
+
+> Invoerder: **Controleer het totaal van de lijst** (F.403)  
+> Als het totaal overeenkomt met het papieren proces-verbaal, controleer dan ook de waarde bij E.{x} bij [Aantal kiezers en stemmen]().
+
+> Coördinator (CSO): **Controleer het totaal van de lijst en E.{x} in rubriek 3.2 (eerste zitting) of 2.2 (volgende zitting)** (F.403)
+> - Controleer wat er fout is gegaan in rubriek 3.2 (eerste zitting) of 2.2 (volgende zitting) en herstel de fout.
+> - Pas zo nodig rubriek 3.3.2 (eerste zitting) of 2.3.2 (volgende zitting) aan, en volg de instructies over hertellen die daar staan.
+
+Velden markeren: totaal van de lijst
+
+> Coördinator (DSO): **Controleer het totaal van de lijst en E.{x} in rubriek 2.2** (F.403)  
+> Kijk of het corrigeren van de fout een onverklaard verschil in rubriek 2.3 wegneemt.
+> - Zo ja: maak een corrigendum en corrigeer daarin de optelfout. Corrigeer ook rubriek 2.3 in het corrigendum.
+> - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
+
+Velden markeren: totaal van de lijst
+
