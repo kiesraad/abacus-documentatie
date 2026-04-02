@@ -489,3 +489,71 @@ Velden markeren: alle velden met een verschil
 
 [Voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=130-10813&t=zTY4ajWtsFkiTOYP-11)
 
+### Checks voor extra onderzoek en controles (reeks W.1xx)
+
+Geen checks.
+
+### Checks voor totalen (reeks W.2xx)
+
+| code  | check | GSB CSO | GSB DSO | CSB |
+| ----- | ----- | :-----: | :-----: | :-: |
+| W.201 | W.201 aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen                                                       | X | X |   |
+| W.202 | W.202: Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen                                                   | X | X |   |
+| W.203 | W.203: Verschil tussen totaal aantal toegelaten kiezers en totaal aantal uitgebrachte stemmen is groter dan of gelijk aan 2% en groter dan of gelijk aan 15 | X | X |   |
+| W.204 | W.204 Totaal aantal uitgebrachte stemmen leeg of 0                                                                                                          | X | X |   |
+
+#### W.201 aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
+
+> Invoerder: **Controleer F** (W.201)
+
+> Coördinator: **Het aantal blanco stemmen (F) is erg hoog** (W.201)
+> - Hertel de blanco stemmen of geef een verklaring voor het hoge aantal.
+> - Geef in elk geval aan wat je hebt gedaan in het proces-verbaal van het GSB (rubriek 1.2).
+
+Veld markeren: F
+
+#### W.202: Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
+
+> Invoerder: **Controleer G** (W.202)
+
+> Coördinator: **Het aantal ongeldige stemmen (G) is erg hoog** (W.202)
+> - Hertel de ongeldige stemmen of geef een verklaring voor het hoge aantal.
+> - Geef in elk geval aan wat je hebt gedaan in het proces-verbaal van het GSB (rubriek 1.2).
+
+Veld markeren: G
+
+#### W.203: Verschil tussen totaal aantal toegelaten kiezers en totaal aantal uitgebrachte stemmen is groter dan of gelijk aan 2% en groter dan of gelijk aan 15
+
+- 2% of meer: abs(toegelaten kiezers - uitgebrachte stemmen) / uitgebrachte stemmen \>= 0.02
+- 15 of meer: abs(toegelaten kiezers - uitgebrachte stemmen) \>= 15
+
+_N.B. Voor "2% of meer" delen we door uitgebrachte stemmen, consistent met de berekening van W.201 (blanco stemmen) en W.202 (ongeldige stemmen). Het is dus niet nodig de 2% ook te berekenen door te delen door toegelaten kiezers._
+
+> Invoerder: **Controleer D en H** (W.203)
+
+> Coördinator: **Groot verschil tussen D en H** (W.203)  
+> Er is een groot verschil tussen het aantal toegelaten kiezers (D) en het aantal uitgebrachte stemmen (H).
+> - Tel het stembureau in zijn geheel nogmaals. Dit hoeft niet als er al twee keer geteld is met precies dezelfde uitkomst per lijst.
+> - Verklaar in het proces-verbaal van het GSB (rubriek 1.2) zo goed mogelijk wat de oorzaak van de opmerkelijke uitkomst is.
+> - Schrijf ook op welke stappen het GSB heeft gezet om deze te hertellen en onderzoeken.
+
+Velden markeren: D en H
+
+#### W.204 Totaal aantal uitgebrachte stemmen leeg of 0
+
+> Invoerder: **Controleer H** (W.204)
+
+> Coördinator: **Het totaal aantal uitgebrachte stemmen (H) is nul** (W.204)  
+> Controleer of het stembureau is opgenomen in de vóór de verkiezing gepubliceerde lijst.
+> - Zo ja: verklaar in het proces-verbaal van het GSB (rubriek 1.2) waarom in dit stembureau geen stemmen zijn uitgebracht.
+> - Zo nee: verwijder het stembureau uit Abacus. Het proces-verbaal moet niet ingevoerd worden.
+
+Veld markeren: H
+
+### Checks voor verschillen (reeks W.3xx)
+
+Geen checks.
+
+### Checks voor kandidaten en lijsttotalen (reeks W.4xx)
+
+Geen checks.
