@@ -211,7 +211,7 @@ Velden markeren: D, H, I en J
 | F.307 | (Als H > D) J is ingevuld                                                                                                           | X | X |   |
 | F.308 | (Als H < D) `J <> D - H`                                                                                                            | X | X |   |
 | F.309 | (Als H < D) I is ingevuld                                                                                                           | X | X |   |
-| F.310 | (Als D <> H en verklaring voor verschil niks aangevinkt of 'ja' en 'nee' aangevinkt)                                                | X |   |   |
+| F.310 | (Als D <> H en verklaring voor verschil niks aangevinkt of 'ja' en 'nee' aangevinkt)                                                | X | X |   |
 | F.360 | (2.3.2 (verklaring voor verschil) = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt) |   | X |   |
 
 #### F.301 "Vergelijk D&H": (checkbox D=H is aangevinkt, maar D<>H)
@@ -371,7 +371,7 @@ Veld markeren: I, J
 
 > Coördinator: **Deze vraag moet precies één antwoord hebben** (F.310)
 
-Veld markeren: foutmelding op 3.3.2
+Veld markeren: foutmelding op 3.3.2 (CSO) of 2.3.2 (DSO)
 
 #### F.360 (2.3.2 (verklaring voor verschil) = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt)
 
