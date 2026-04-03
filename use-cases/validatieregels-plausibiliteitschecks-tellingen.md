@@ -203,7 +203,7 @@ Velden markeren: A, B en D
 
 Velden markeren: E.1 t/m E.n en E
 
-#### F.203: `stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen`
+#### F.203: (Als F.204 niet getoond wordt) `stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen`
 
 > Invoerder: **Controleer je antwoorden** (F.203)
 
