@@ -178,7 +178,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
 > Coördinator (CSB): **A en B tellen niet op tot D** (F.201)  
-> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: A, B en D
@@ -198,7 +198,7 @@ Velden markeren: A, B en D
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
 > Coördinator (CSB): **De stemmen op lijsten tellen niet op tot E** (F.202)  
-> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: E.1 t/m E.n en E
@@ -218,7 +218,7 @@ Velden markeren: E.1 t/m E.n en E
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
 > Coördinator (CSB): **E, F en G tellen niet op tot H** (F.203)  
-> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: E, F, G en H
@@ -238,7 +238,7 @@ Velden markeren: E, F, G en H
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
 > Coördinator (CSB): **Het totaal aantal stemmen op kandidaten is niet ingevuld** (F.204)  
-> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Veld markeren: E
@@ -248,7 +248,7 @@ Veld markeren: E
 > Invoerder: **Controleer je antwoorden** (F.205)
 
 > Coördinator: **Het aantal kiesgerechtigden is niet ingevuld** (F.204)  
-> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Veld markeren: Z
@@ -428,7 +428,7 @@ Veld markeren: foutmelding op 2.3.2
 > Invoerder: **Controleer je antwoorden** (F.312)
 
 > Coördinator: **D is niet gelijk aan H min I plus J** (F.312)  
-> Controleer of de juiste getallen zijn overgenomen. Indien de optelling niet klopt kun je niet verder gaan met de invoer. Er is iets misgegaan met het opmaken of overdragen van het proces-verbaal van het onderliggende niveau. Overleg met het CSB over de vervolgstappen.
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 
 Velden markeren: D, H, I en J
 
@@ -455,7 +455,7 @@ Velden markeren: D, H, I en J
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
 
 > Coördinator (CSB): **Het totaal van de lijst is niet ingevuld** (F.401)  
-> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: totaal van de lijst
@@ -481,7 +481,7 @@ Het standaard handelingsperspectief wordt bij deze foutmelding niet getoond.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
 
 > Coördinator (CSB): **De stemmen op kandidaten tellen niet op tot het lijsttotaal** (F.402)  
-> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
@@ -501,7 +501,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
 
 > Coördinator (CSB): **Controleer het totaal van de lijst en E.{x} in rubriek 2.2** (F.403)
-> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: totaal van de lijst
@@ -599,7 +599,7 @@ Velden markeren: D en H
 > - Zo nee: verwijder het stembureau uit Abacus. Het proces-verbaal moet niet ingevoerd worden.
 
 > Coördinator (CSB): **Het totaal aantal uitgebrachte stemmen (H) is nul** (W.204)  
-> Controleer of de juiste getallen zijn overgenomen. Als dat zo is, kan je niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Veld markeren: H
