@@ -1,4 +1,4 @@
-# CSB: Invoer zitting
+# CSB: Invoer
 
 ## Het CSB voert de tellingen van het GSB in (vlieger)
 
