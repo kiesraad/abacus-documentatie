@@ -266,7 +266,7 @@ Veld markeren: Z
 | F.307 | (Als H > D) J is ingevuld                                                                                                           | X | X |   |
 | F.308 | (Als H < D) `J <> D - H`                                                                                                            | X | X |   |
 | F.309 | (Als H < D) I is ingevuld                                                                                                           | X | X |   |
-| F.310 | (Als D <> H en verklaring voor verschil niks aangevinkt of 'ja' en 'nee' aangevinkt)                                                | X | X |   |
+| F.310 | (Als D <> H) Verklaring voor verschil niks aangevinkt of zowel 'ja' als 'nee' aangevinkt                                            | X | X |   |
 | F.311 | (2.3.2 (verklaring voor verschil) = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt) |   | X |   |
 | F.312 | totaal aantal kiezers = totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen                          |   |   | X |
 
@@ -403,7 +403,7 @@ Veld markeren: J
 
 Veld markeren: I, J
 
-#### F.310 (Als D <> H en verklaring voor verschil niks aangevinkt of 'ja' en 'nee' aangevinkt)
+#### F.310 (Als D <> H) Verklaring voor verschil niks aangevinkt of zowel 'ja' als 'nee' aangevinkt
 
 > Invoerder: **Controleer je antwoorden** (F.310)
 
