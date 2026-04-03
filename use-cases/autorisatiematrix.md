@@ -14,9 +14,9 @@ die de zetelverdeling vaststelt en daarvoor een proces-verbaal genereert.
   Geen bevoegdheden in het uitslagen / telproces.
   Primair bedoeld voor technische medewerkers die verder geen rol in het verkiezingsproces hebben.
 - **Coördinator GSB**:
-   Inhoudelijk expert die de zittingen van het GSB leidt.
+  Inhoudelijk expert die de zittingen van het GSB leidt.
 - **Coördinator CSB**:
-   Inhoudelijk expert die de zittingen van het CSB leidt.
+  Inhoudelijk expert die de zittingen van het CSB leidt.
 - **Invoerder GSB**:
   Kan tellingen invoeren tijdens de zitting van het GSB.
 - **Invoerder CSB**:
@@ -32,8 +32,8 @@ die de zetelverdeling vaststelt en daarvoor een proces-verbaal genereert.
 | Invoerstations beheren                           |     X     |                 |                 |               |               |
 | Stembureaus beheren [^1]                         |     X     |        X        |                 |               |               |
 | Gebruikers beheren: alle gebruikers              |     X     |                 |                 |               |               |
-| Gebruikers beheren: invoerders GSB [^2]          |           |        X        |                 |               |               |
-| Gebruikers beheren: invoerders CSB [^2]          |           |                 |        X        |               |               |
+| Gebruikers beheren: invoerders GSB               |           |        X        |                 |               |               |
+| Gebruikers beheren: invoerders CSB               |           |                 |        X        |               |               |
 | **Tijdens de zitting GSB**                       |           |                 |                 |               |               |
 | Een nieuwe zitting openen                        |           |        X        |                 |               |               |
 | Stembureaus beheren [^1]                         |           |        X        |                 |               |               |
@@ -47,13 +47,14 @@ die de zetelverdeling vaststelt en daarvoor een proces-verbaal genereert.
 | Proces-verbaal maken                             |           |        X        |                 |               |               |
 | **Zitting CSB**                                  |           |                 |                 |               |               |
 | EML_NL bestand zitting GSB importeren            |           |                 |        X        |               |               |
+| Invoer starten/schorsen/stoppen                  |           |                 |                 |       X       |               |
 | Resultaten GSB invoeren                          |           |                 |                 |               |       X       |
 | Conflicten en waarschuwingen oplossen            |           |                 |        X        |               |               |
+| Volledig ingevoerde tellingen GSB bekijken       |     X     |                 |        X        |               |               |
+| **Zitting CSB afronden**                         |           |                 |                 |               |               |
 | Zetelverdeling vaststellen                       |           |                 |        X        |               |               |
 | Proces-verbaal maken                             |           |                 |        X        |               |               |
 | **Algemeen**                                     |           |                 |                 |               |               |
 | Logs raadplegen                                  |     X     |        X        |        X        |               |               |
 
 [^1]: Stembureaus binnen de gemeente waar gestemd kan worden. Niet GSB(s) of CSB.
-
-[^2]: Zeer gewenst (should have), initieel nog geen gebruikersbeheer voor coördinator.
