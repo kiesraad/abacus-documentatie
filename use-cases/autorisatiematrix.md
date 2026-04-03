@@ -40,14 +40,13 @@ die de zetelverdeling vaststelt en daarvoor een proces-verbaal genereert.
 | Invoer starten/schorsen/stoppen                  |           |        X        |                 |               |               |
 | Tellingen SB invoeren en waarschuwingen oplossen |           |                 |                 |       X       |               |
 | Conflicten en waarschuwingen oplossen            |           |        X        |                 |               |               |
-| Bezwaren en bijzonderheden SB invoeren           |           |        X        |                 |               |               |
-| Volledig ingevoerde tellingen SB's bekijken      |     X     |        X        |                 |       X       |               |
+| Volledig ingevoerde tellingen SB's bekijken      |     X     |        X        |                 |               |               |
 | **Zitting GSB afronden**                         |           |                 |                 |               |               |
 | Bezwaren en bijzonderheden zitting GSB invoeren  |           |        X        |                 |               |               |
 | Proces-verbaal maken                             |           |        X        |                 |               |               |
 | **Zitting CSB**                                  |           |                 |                 |               |               |
 | EML_NL bestand zitting GSB importeren            |           |                 |        X        |               |               |
-| Invoer starten/schorsen/stoppen                  |           |                 |                 |       X       |               |
+| Invoer starten/schorsen/stoppen                  |           |                 |        X        |               |               |
 | Resultaten GSB invoeren                          |           |                 |                 |               |       X       |
 | Conflicten en waarschuwingen oplossen            |           |                 |        X        |               |               |
 | Volledig ingevoerde tellingen GSB bekijken       |     X     |                 |        X        |               |               |
