@@ -8,19 +8,17 @@ __Niveau:__ hoog-over, vlieger, 🪁
 
 __Hoofdscenario:__
 
-1. [De coördinator CSB leest de resultaten van de laatste GSB-zitting in als eerste invoer van het CSB.](#de-coördinator-csb-leest-de-resultaten-van-de-laatste-gsb-zitting-in-als-eerste-invoer-van-het-csb-zee)
-2. Het CSB voert de resultaten handmatig in als tweede invoer.
-3. De applicatie stelt vast dat beide invoeren gelijk zijn.
-4. De applicatie slaat het definitieve resultaat op.
+1. De coördinator CSB stelt de invoer open.
+2. [De coördinator CSB leest de resultaten van de laatste GSB-zitting in als eerste invoer van het CSB.](#de-coördinator-csb-leest-de-resultaten-van-de-laatste-gsb-zitting-in-als-eerste-invoer-van-het-csb-zee)
+4. Het CSB voert de resultaten handmatig in als tweede invoer.
+5. De applicatie stelt vast dat beide invoeren gelijk zijn.
+6. (parallel aan invoer resultaten) De coördinator CSB voert de locatie, startdatum en starttijd van de zitting in.
+7. De applicatie slaat het definitieve resultaat op.
 
 __Uitbreidingen:__
 
-3a. De applicatie stelt vast dat beide invoeren niet gelijk zijn:  
-&emsp; 3a1. [De coördinator CSB beoordeelt de verschillen tussen de twee invoeren.](#de-coördinator-csb-beoordeelt-de-verschillen-tussen-de-twee-invoeren-zee)
-
-### Open punten
-- De startdatum en -tijd van de zitting CSB zijn bekend, hoewel de zitting pas plaats vindt, nadat alle gegevens in de applicatie zijn ingevoerd. Willen we dat de coördinator de gegevens van de zitting alvast invoert?
-
+5a. De applicatie stelt vast dat beide invoeren niet gelijk zijn:  
+&emsp; 5a1. [De coördinator CSB beoordeelt de verschillen tussen de twee invoeren.](#de-coördinator-csb-beoordeelt-de-verschillen-tussen-de-twee-invoeren-zee)
 
 ## De coördinator CSB leest de resultaten van de laatste GSB-zitting in als eerste invoer van het CSB (zee)
 
