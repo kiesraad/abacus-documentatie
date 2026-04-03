@@ -53,7 +53,7 @@ Deze regels zijn alleen van toepassing bij invoer voor de eerste zitting. De ger
 | F.133 | 'Controles en correcties': Ongeldig antwoord in eerste zitting (vraag 'op verzoek van het CSB'  is ingevuld) |   | X |   |
 | F.134 | 'Controles en correcties': meer dan 1 antwoord op vraag 'zijn er gecorrigeerde telresultaten'                |   | X |   |
 
-#### F.101: 'Alleen bij extra onderzoek B1-1': één van beide vragen is beantwoord, en de andere niet
+#### F.101 'Alleen bij extra onderzoek B1-1': één van beide vragen is beantwoord, en de andere niet
 
 > Invoerder: **Controleer je antwoorden** (F.101)
 
@@ -63,7 +63,7 @@ Deze regels zijn alleen van toepassing bij invoer voor de eerste zitting. De ger
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-#### F.102: 'Alleen bij extra onderzoek B1-1': meerdere antwoorden op 1 van de vragen
+#### F.102 'Alleen bij extra onderzoek B1-1': meerdere antwoorden op 1 van de vragen
 
 > Invoerder: **Controleer je antwoorden** (F.102)
 
@@ -71,7 +71,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-#### F.111: 'Verschillen met telresultaten van het stembureau': één of beide vragen zijn niet beantwoord
+#### F.111 'Verschillen met telresultaten van het stembureau': één of beide vragen zijn niet beantwoord
 
 > Invoerder: **Controleer je antwoorden** (F.111)
 
@@ -79,7 +79,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-#### F.112: 'Verschillen met telresultaten van het stembureau': meerdere antwoorden per vraag
+#### F.112 'Verschillen met telresultaten van het stembureau': meerdere antwoorden per vraag
 
 > Invoerder: **Controleer je antwoorden** (F.112)
 
@@ -87,7 +87,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-#### F.121: Over het proces-verbaal: Niet alle vragen bij 'Over het proces-verbaal' zijn beantwoord
+#### F.121 Over het proces-verbaal: Niet alle vragen bij 'Over het proces-verbaal' zijn beantwoord
 
 > Invoerder: **Controleer je antwoorden** (F.121)
 > - Beantwoord de vragen over het papieren proces-verbaal.
@@ -100,7 +100,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 [Voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=10078-124322)
 
-#### F.122: Over het proces-verbaal: Ongeldige combinatie van antwoorden: `wel corrigendum, geen inlegvel`
+#### F.122 Over het proces-verbaal: Ongeldige combinatie van antwoorden: `wel corrigendum, geen inlegvel`
 
 > Invoerder: **Het inlegvel ontbreekt, maar hoort wel aanwezig te zijn** (F.122)
 > - Overleg met de coördinator over het ontbrekende inlegvel.
@@ -111,7 +111,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-#### F.131: 'Controles en correcties': geen vinkjes bij de eerste twee vragen
+#### F.131 'Controles en correcties': geen vinkjes bij de eerste twee vragen
 
 > Invoerder: **Controleer je antwoorden** (F.131)
 
@@ -121,7 +121,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-#### F.132: 'Controles en correcties': Ongeldige set documenten (vraag 'gecorrigeerde telresultaten' = 'nee')
+#### F.132 'Controles en correcties': Ongeldige set documenten (vraag 'gecorrigeerde telresultaten' = 'nee')
 
 > Invoerder: **Controleer je antwoorden** (F.132)  
 > Er is een corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' geen gecorrigeerde telresultaten.
@@ -135,7 +135,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-#### F.133: 'Controles en correcties': Ongeldig antwoord in eerste zitting (vraag 'op verzoek van het CSB' is ingevuld)
+#### F.133 'Controles en correcties': Ongeldig antwoord in eerste zitting (vraag 'op verzoek van het CSB' is ingevuld)
 
 > Invoerder: **Controleer je antwoorden** (F.133)
 
@@ -144,7 +144,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-#### F.134: 'Controles en correcties': meer dan 1 antwoord op vraag 'zijn er gecorrigeerde telresultaten'
+#### F.134 'Controles en correcties': meer dan 1 antwoord op vraag 'zijn er gecorrigeerde telresultaten'
 
 > Invoerder: **Controleer je antwoorden** (F.134)
 
@@ -163,7 +163,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 | F.204 | De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en E = leeg of 0                                   | X | X | X |
 | F.205 | Aantal kiesgerechtigden = leeg of 0                                                                      |   |   | X |
 
-#### F.201: `stempassen + volmachten <> totaal toegelaten kiezers`
+#### F.201 `stempassen + volmachten <> totaal toegelaten kiezers`
 
 > Invoerder: **Controleer je antwoorden** (F.201)
 
@@ -183,7 +183,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: A, B en D
 
-#### F.202: (Als F.204 niet getoond wordt) `E.1 t/m E.n tellen niet op naar E`
+#### F.202 (Als F.204 niet getoond wordt) `E.1 t/m E.n tellen niet op naar E`
 
 > Invoerder **Controleer je antwoorden** (F.202)
 
@@ -203,7 +203,7 @@ Velden markeren: A, B en D
 
 Velden markeren: E.1 t/m E.n en E
 
-#### F.203: (Als F.204 niet getoond wordt) `stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen`
+#### F.203 (Als F.204 niet getoond wordt) `stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen`
 
 > Invoerder: **Controleer je antwoorden** (F.203)
 
@@ -223,7 +223,7 @@ Velden markeren: E.1 t/m E.n en E
 
 Velden markeren: E, F, G en H
 
-#### F.204: `De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en E = leeg of 0`
+#### F.204 `De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en E = leeg of 0`
 
 > Invoerder: **Controleer je antwoorden** (F.204)
 
@@ -243,7 +243,7 @@ Velden markeren: E, F, G en H
 
 Veld markeren: E
 
-#### F.205: `Aantal kiesgerechtigden = leeg of 0`
+#### F.205 `Aantal kiesgerechtigden = leeg of 0`
 
 > Invoerder: **Controleer je antwoorden** (F.205)
 
@@ -411,7 +411,7 @@ Veld markeren: I, J
 
 Veld markeren: foutmelding op 3.3.2 (CSO) of 2.3.2 (DSO)
 
-#### F.311 (2.3.2 (verklaring voor verschil) = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt)
+#### F.311 3.3.2 Verklaring voor verschil = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt
 
 > Invoerder: **Controleer je antwoorden** (F.311)
 
@@ -423,7 +423,7 @@ Veld markeren: foutmelding op 3.3.2 (CSO) of 2.3.2 (DSO)
 
 Veld markeren: foutmelding op 2.3.2
 
-#### F.312: `totaal aantal kiezers = totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen`
+#### F.312 `totaal aantal kiezers = totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen`
 
 > Invoerder: **Controleer je antwoorden** (F.312)
 
@@ -562,7 +562,7 @@ Geen checks.
 
 Veld markeren: F
 
-#### W.202: Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
+#### W.202 Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 
 > Invoerder: **Controleer G** (W.202)
 
@@ -572,7 +572,7 @@ Veld markeren: F
 
 Veld markeren: G
 
-#### W.203: Verschil tussen totaal aantal toegelaten kiezers en totaal aantal uitgebrachte stemmen is groter dan of gelijk aan 2% en groter dan of gelijk aan 15
+#### W.203 Verschil tussen totaal aantal toegelaten kiezers en totaal aantal uitgebrachte stemmen is groter dan of gelijk aan 2% en groter dan of gelijk aan 15
 
 - 2% of meer: abs(toegelaten kiezers - uitgebrachte stemmen) / uitgebrachte stemmen \>= 0.02
 - 15 of meer: abs(toegelaten kiezers - uitgebrachte stemmen) \>= 15
