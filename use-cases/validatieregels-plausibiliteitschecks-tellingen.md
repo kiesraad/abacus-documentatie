@@ -247,7 +247,7 @@ Veld markeren: E
 
 > Invoerder: **Controleer je antwoorden** (F.205)
 
-> Coördinator: **Het aantal kiesgerechtigden is niet ingevuld** (F.204)  
+> Coördinator: **Het aantal kiesgerechtigden is niet ingevuld** (F.205)  
 > Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
