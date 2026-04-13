@@ -430,7 +430,7 @@ Veld markeren: foutmelding op 2.3.2
 > Coördinator: **D is niet gelijk aan H min I plus J** (F.312)  
 > Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 
-Velden markeren: D, H, I en J
+Velden markeren: I en J
 
 ### Regels voor kandidaten en lijsttotalen (reeks F.4xx)
 
