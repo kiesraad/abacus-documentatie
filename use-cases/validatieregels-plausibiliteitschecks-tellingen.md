@@ -161,7 +161,6 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 | F.202 | E.1 t/m E.n tellen niet op naar E                                                                        | X | X | X |
 | F.203 | stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen         | X | X | X |
 | F.204 | De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en E = leeg of 0                                   | X | X | X |
-| F.205 | Aantal kiesgerechtigden = leeg of 0                                                                      |   |   | X |
 
 #### F.201 `stempassen + volmachten <> totaal toegelaten kiezers`
 
@@ -242,16 +241,6 @@ Velden markeren: E, F, G en H
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Veld markeren: E
-
-#### F.205 `Aantal kiesgerechtigden = leeg of 0`
-
-> Invoerder: **Controleer je antwoorden** (F.205)
-
-> Coördinator: **Het aantal kiesgerechtigden is niet ingevuld** (F.205)  
-> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
-> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
-
-Veld markeren: Z
 
 ### Regels voor verschillen (reeks F.3xx)
 
@@ -551,6 +540,7 @@ Geen checks.
 | W.202 | W.202: Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen                                                   | X | X |   |
 | W.203 | W.203: Verschil tussen totaal aantal toegelaten kiezers en totaal aantal uitgebrachte stemmen is groter dan of gelijk aan 2% en groter dan of gelijk aan 15 | X | X |   |
 | W.204 | W.204 Totaal aantal uitgebrachte stemmen leeg of 0                                                                                                          | X | X | X |
+| W.205 | Aantal kiesgerechtigden = leeg of 0                                                                                                                         |   |   | X |
 
 #### W.201 aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 
@@ -603,6 +593,16 @@ Velden markeren: D en H
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Veld markeren: H
+
+#### W.205 `Aantal kiesgerechtigden = leeg of 0`
+
+> Invoerder: **Controleer je antwoorden** (W.205)
+
+> Coördinator: **Het aantal kiesgerechtigden is niet ingevuld** (W.205)  
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
+
+Veld markeren: Z
 
 ### Checks voor verschillen (reeks W.3xx)
 
