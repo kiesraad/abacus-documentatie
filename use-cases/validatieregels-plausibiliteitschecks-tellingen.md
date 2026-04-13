@@ -536,11 +536,12 @@ Geen checks.
 
 | code  | check | GSB CSO | GSB DSO | CSB |
 | ----- | ----- | :-----: | :-----: | :-: |
-| W.201 | W.201 aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen                                                       | X | X |   |
-| W.202 | W.202: Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen                                                   | X | X |   |
-| W.203 | W.203: Verschil tussen totaal aantal toegelaten kiezers en totaal aantal uitgebrachte stemmen is groter dan of gelijk aan 2% en groter dan of gelijk aan 15 | X | X |   |
-| W.204 | W.204 Totaal aantal uitgebrachte stemmen leeg of 0                                                                                                          | X | X | X |
-| W.205 | Aantal kiesgerechtigden = leeg of 0                                                                                                                         |   |   | X |
+| W.201 | Aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen                                                      | X | X |   |
+| W.202 | Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen                                                   | X | X |   |
+| W.203 | Verschil tussen totaal aantal toegelaten kiezers en totaal aantal uitgebrachte stemmen is groter dan of gelijk aan 2% en groter dan of gelijk aan 15 | X | X |   |
+| W.204 | Totaal aantal uitgebrachte stemmen leeg of 0                                                                                                         | X | X | X |
+| W.205 | Aantal kiesgerechtigden = leeg of 0                                                                                                                  |   |   | X |
+| W.206 | Aantal kiesgerechtigden is kleiner dan aantal stempassen                                                                                             |   |   | X |
 
 #### W.201 aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 
@@ -599,6 +600,16 @@ Veld markeren: H
 > Invoerder: **Controleer je antwoorden** (W.205)
 
 > Coördinator: **Het aantal kiesgerechtigden is niet ingevuld** (W.205)  
+> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
+
+Veld markeren: Z
+
+#### W.206 `Aantal kiesgerechtigden is kleiner dan aantal stempassen`
+
+> Invoerder: **Controleer je antwoorden** (W.206)
+
+> Coördinator: **Het aantal kiesgerechtigden is niet ingevuld** (W.206)  
 > Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
