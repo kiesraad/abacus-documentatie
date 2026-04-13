@@ -319,7 +319,7 @@ Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
 > Coördinator (GSB DSO): **Controleer I en J** (F.305)  
 > De getallen bij D en H zijn gelijk. Er zijn geen stemmen meer of minder geteld.
-> - Corrigeer de rekenfout door op een corrigendum I en/of J leeg te (laten) maken.
+> - Corrigeer de rekenfout door een corrigendum te (laten) maken waarop I en/of J leeg zijn.
 > - Kijk ook of het corrigeren van de fout een onverklaard verschil introduceert (zie 2.3.2).
 > - Hertel dan de stembiljetten en het aantal toegelaten kiezers. Hertel tot de fout gevonden is, of alles één keer herteld is.
 > - Vul nieuwe telresultaten op het corrigendum in.
