@@ -611,7 +611,7 @@ Veld markeren: Z
 
 > Invoerder: **Controleer je antwoorden** (W.206)
 
-> Coördinator: **Het aantal kiesgerechtigden is niet ingevuld** (W.206)  
+> Coördinator: **Het aantal kiesgerechtigden is kleiner dan het aantal stempassen** (W.206)  
 > Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
