@@ -8,6 +8,8 @@ Een fout wijst op een probleem in het papieren proces-verbaal. Dit probleem moet
 **[Waarschuwing](#plausibiliteitschecks-geven-waarschuwingen)**:
 Een waarschuwing wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. Dit moet het GSB verklaren, anders kan dit resulteren in een nieuwe zitting.
 
+### Bijzonderheden
+Voor het aantal kiesgerechtigden geven we een waarschuwing, nooit een fout. Dit is omdat het aantal kiesgerechtigden niet gecorrigeerd kan worden d.m.v. een corrigendum.
 
 ## Validatieregels geven fouten
 
