@@ -592,7 +592,7 @@ Velden markeren: D en H
 > - Zo nee: verwijder het stembureau uit Abacus. Het proces-verbaal moet niet ingevoerd worden.
 
 > Coördinator (CSB): **Het totaal aantal uitgebrachte stemmen (H) is nul** (W.204)  
-> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Veld markeren: H
@@ -601,8 +601,8 @@ Veld markeren: H
 
 > Invoerder: **Controleer je antwoorden** (W.205)
 
-> Coördinator: **Het aantal kiesgerechtigden is niet ingevuld** (W.205)  
-> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Coördinator: **Het aantal kiesgerechtigden (Z) is niet ingevuld** (W.205)  
+> Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Veld markeren: Z
@@ -611,8 +611,8 @@ Veld markeren: Z
 
 > Invoerder: **Controleer je antwoorden** (W.206)
 
-> Coördinator: **Het aantal kiesgerechtigden is kleiner dan het aantal stempassen** (W.206)  
-> Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Coördinator: **Het aantal kiesgerechtigden (Z) is kleiner dan het aantal stempassen (A)** (W.206)  
+> Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Veld markeren: Z
