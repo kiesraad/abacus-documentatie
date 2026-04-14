@@ -57,9 +57,9 @@ Deze regels zijn alleen van toepassing bij invoer voor de eerste zitting. De ger
 
 #### F.101 'Alleen bij extra onderzoek B1-1': één van beide vragen is beantwoord, en de andere niet
 
-> Invoerder: **Controleer je antwoorden** (F.101)
+> Invoerder (GSB CSO): **Controleer je antwoorden** (F.101)
 
-> Coördinator: **Beide vragen moeten beantwoord ofwel overgeslagen zijn** (F.101)  
+> Coördinator (GSB CSO): **Beide vragen moeten beantwoord ofwel overgeslagen zijn** (F.101)  
 > Als er extra onderzoek is gedaan, moeten beide vragen beantwoord worden.  
 > Als er geen extra onderzoek is gedaan, moeten deze vragen overgeslagen worden.
 
@@ -67,35 +67,35 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.102 'Alleen bij extra onderzoek B1-1': meerdere antwoorden op 1 van de vragen
 
-> Invoerder: **Controleer je antwoorden** (F.102)
+> Invoerder (GSB CSO): **Controleer je antwoorden** (F.102)
 
-> Coördinator: **Er mag maar één antwoord per vraag worden gegeven** (F.102)
+> Coördinator (GSB CSO): **Er mag maar één antwoord per vraag worden gegeven** (F.102)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.111 'Verschillen met telresultaten van het stembureau': één of beide vragen zijn niet beantwoord
 
-> Invoerder: **Controleer je antwoorden** (F.111)
+> Invoerder (GSB CSO): **Controleer je antwoorden** (F.111)
 
-> Coördinator: **Bij beide vragen moet een antwoord gegeven worden** (F.111)
+> Coördinator (GSB CSO): **Bij beide vragen moet een antwoord gegeven worden** (F.111)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.112 'Verschillen met telresultaten van het stembureau': meerdere antwoorden per vraag
 
-> Invoerder: **Controleer je antwoorden** (F.112)
+> Invoerder (GSB CSO): **Controleer je antwoorden** (F.112)
 
-> Coördinator: **Er mag maar één antwoord per vraag worden gegeven** (F.112)
+> Coördinator (GSB CSO): **Er mag maar één antwoord per vraag worden gegeven** (F.112)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.121 Over het proces-verbaal: Niet alle vragen bij 'Over het proces-verbaal' zijn beantwoord
 
-> Invoerder: **Controleer je antwoorden** (F.121)
+> Invoerder (GSB DSO): **Controleer je antwoorden** (F.121)
 > - Beantwoord de vragen over het papieren proces-verbaal.
 > - Overleg met de coördinator als je twijfelt.
 
-> Coördinator: **Er is niet correct aangegeven welke documenten zijn ingevoerd** (F.121)
+> Coördinator (GSB DSO): **Er is niet correct aangegeven welke documenten zijn ingevoerd** (F.121)
 > - Bekijk welke documenten aanwezig zijn.
 > - Geef daarna de invoer terug aan de invoerder zodat deze vraag opnieuw beantwoord kan worden.
 
@@ -104,10 +104,10 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.122 Over het proces-verbaal: Ongeldige combinatie van antwoorden: `wel corrigendum, geen inlegvel`
 
-> Invoerder: **Het inlegvel ontbreekt, maar hoort wel aanwezig te zijn** (F.122)
+> Invoerder (GSB DSO): **Het inlegvel ontbreekt, maar hoort wel aanwezig te zijn** (F.122)
 > - Overleg met de coördinator over het ontbrekende inlegvel.
 
-> Coördinator: **Het inlegvel ontbreekt, maar hoort wel aanwezig te zijn** (F.122)
+> Coördinator (GSB DSO): **Het inlegvel ontbreekt, maar hoort wel aanwezig te zijn** (F.122)
 > - Zorg dat een correct ingevuld inlegvel wordt toegevoegd.
 > - Geef daarna de invoer terug aan de invoerder zodat deze vraag opnieuw beantwoord kan worden.
 
@@ -115,9 +115,9 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.131 'Controles en correcties': geen vinkjes bij de eerste twee vragen
 
-> Invoerder: **Controleer je antwoorden** (F.131)
+> Invoerder (GSB DSO): **Controleer je antwoorden** (F.131)
 
-> Coördinator: **De vragen op het inlegvel zijn niet volledig beantwoord** (F.131)
+> Coördinator (GSB DSO): **De vragen op het inlegvel zijn niet volledig beantwoord** (F.131)
 > - Zorg dat het inlegvel volledig is ingevuld.
 > - Geef daarna de invoer terug aan de invoerder zodat deze vraag opnieuw beantwoord kan worden.
 
@@ -125,11 +125,11 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.132 'Controles en correcties': Ongeldige set documenten (vraag 'gecorrigeerde telresultaten' = 'nee')
 
-> Invoerder: **Controleer je antwoorden** (F.132)  
+> Invoerder (GSB DSO): **Controleer je antwoorden** (F.132)  
 > Er is een corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' geen gecorrigeerde telresultaten.
 > - Overleg met de coördinator.
 
-> Coördinator: **Onterecht corrigendum?** (F.132)  
+> Coördinator (GSB DSO): **Onterecht corrigendum?** (F.132)  
 > Er is een corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' geen gecorrigeerde telresultaten.
 > - Als er geen gecorrigeerde telresultaten zijn, dan hoort er ook geen corrigendum te zijn.
 > - Verwijder het corrigendum, of geef op het inlegvel aan dat er wel gecorrigeerde telresultaten zijn.
@@ -139,18 +139,18 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.133 'Controles en correcties': Ongeldig antwoord in eerste zitting (vraag 'op verzoek van het CSB' is ingevuld)
 
-> Invoerder: **Controleer je antwoorden** (F.133)
+> Invoerder (GSB DSO): **Controleer je antwoorden** (F.133)
 
-> Coördinator: **Tijdens de eerste zitting kan er nog geen verzoek van het Centraal Stembureau zijn** (F.133)
+> Coördinator (GSB DSO): **Tijdens de eerste zitting kan er nog geen verzoek van het Centraal Stembureau zijn** (F.133)
 > - Herstel de fout door op papier de juiste optie(s) aan te (laten) vinken.
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.134 'Controles en correcties': meer dan 1 antwoord op vraag 'zijn er gecorrigeerde telresultaten'
 
-> Invoerder: **Controleer je antwoorden** (F.134)
+> Invoerder (GSB DSO): **Controleer je antwoorden** (F.134)
 
-> Coördinator: **Er mag maar 1 antwoord per vraag worden gegeven** (F.134)
+> Coördinator (GSB DSO): **Er mag maar 1 antwoord per vraag worden gegeven** (F.134)
 > - Herstel de fout door op papier de juiste optie(s) aan te (laten) vinken.
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
@@ -166,7 +166,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.201 `stempassen + volmachten <> totaal toegelaten kiezers`
 
-> Invoerder: **Controleer je antwoorden** (F.201)
+> Invoerder (GSB CSO, GSB DSO, CSB): **Controleer je antwoorden** (F.201)
 
 > Coördinator (GSB CSO): **A en B tellen niet op tot D** (F.201)  
 > Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
@@ -186,7 +186,7 @@ Velden markeren: A, B en D
 
 #### F.202 (Als F.204 niet getoond wordt) `E.1 t/m E.n tellen niet op naar E`
 
-> Invoerder **Controleer je antwoorden** (F.202)
+> Invoerder (GSB CSO, GSB DSO, CSB): **Controleer je antwoorden** (F.202)
 
 > Coördinator (GSB CSO): **De stemmen op lijsten tellen niet op tot E** (F.202)  
 > Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als de juiste getallen bij E en H worden ingevuld.
@@ -206,7 +206,7 @@ Velden markeren: E.1 t/m E.n en E
 
 #### F.203 (Als F.204 niet getoond wordt) `stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen`
 
-> Invoerder: **Controleer je antwoorden** (F.203)
+> Invoerder (GSB CSO, GSB DSO, CSB): **Controleer je antwoorden** (F.203)
 
 > Coördinator (GSB CSO): **E, F en G tellen niet op tot H** (F.203)  
 > Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als het juiste getal bij H wordt ingevuld.
@@ -226,7 +226,7 @@ Velden markeren: E, F, G en H
 
 #### F.204 `De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en E = leeg of 0`
 
-> Invoerder: **Controleer je antwoorden** (F.204)
+> Invoerder (GSB CSO, GSB DSO, CSB): **Controleer je antwoorden** (F.204)
 
 > Coördinator (GSB CSO): **Het totaal aantal stemmen op kandidaten is niet ingevuld** (F.204)  
 > Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als de juiste getallen bij E en E.1 t/m E.n worden ingevuld.
@@ -263,7 +263,7 @@ Veld markeren: E
 
 #### F.301 "Vergelijk D&H": (checkbox D=H is aangevinkt, maar D<>H)
 
-> Invoerder: **Controleer je antwoorden** (F.301)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.301)
 
 > Coördinator (GSB CSO): **De getallen die zijn ingevuld bij D en H zijn niet gelijk** (F.301)
 > - Herstel de fout door op papier het juiste getal in te (laten) vullen.
@@ -279,7 +279,7 @@ Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
 #### F.302 "Vergelijk D&H": (checkbox H>D is aangevinkt, maar H<=D)
 
-> Invoerder: **Controleer je antwoorden** (F.302)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.302)
 
 > Coördinator (GSB CSO): **Het getal dat is ingevuld bij H is niet groter dan D** (F.302)
 
@@ -290,7 +290,7 @@ Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
 #### F.303 "Vergelijk D&H": (checkbox H<D is aangevinkt, maar H>=D)
 
-> Invoerder: **Controleer je antwoorden** (F.303)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.303)
 
 > Coördinator (GSB CSO): **Het getal dat is ingevuld bij H is niet kleiner dan D** (F.303)
 
@@ -301,7 +301,7 @@ Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
 #### F.304 "Vergelijk D&H": Meerdere aangevinkt of geen enkele aangevinkt
 
-> Invoerder: **Controleer je antwoorden** (F.304)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.304)
 
 > Coördinator (GSB CSO): **Deze vraag moet precies één antwoord hebben** (F.304)
 
@@ -313,7 +313,7 @@ Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
 #### F.305 (Als D = H) I en/of J zijn ingevuld
-> Invoerder: **Controleer je antwoorden** (F.305)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.305)
 
 > Coördinator (GSB CSO): **Controleer I en J** (F.305)  
 > De getallen bij D en H zijn gelijk. Er zijn geen stemmen meer of minder geteld.
@@ -330,7 +330,7 @@ Veld markeren: I en/of J (als ingevuld)
 
 #### F.306 (Als H > D) `I <> H - D`
 
-> Invoerder: **Controleer je antwoorden** (F.306)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.306)
 
 > Coördinator (GSB CSO): **Controleer aantal méér getelde stemmen (I)** (F.306)
 > - Herstel de fout door op papier het juiste getal in te (laten) vullen.
@@ -347,7 +347,7 @@ Veld markeren: I
 
 #### F.307 (Als H > D) J is ingevuld
 
-> Invoerder: **Controleer je antwoorden** (F.307)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.307)
 
 > Coördinator (GSB CSO): **Controleer of I en J verwisseld zijn** (F.307)
 > - Herstel de fout door op papier het verschil op de juiste plek in te (laten) vullen.
@@ -363,7 +363,7 @@ Veld markeren: I
 Veld markeren: I, J
 
 #### F.308 (Als H < D) `J <> D - H`
-> Invoerder: **Controleer je antwoorden** (F.308)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.308)
 
 > Coördinator (GSB CSO): **Controleer aantal minder getelde stemmen (J)** (F.308)
 > - Herstel de fout door op papier het juiste getal in te (laten) vullen.
@@ -379,7 +379,7 @@ Veld markeren: I, J
 Veld markeren: J
 
 #### F.309 (Als H < D) I is ingevuld
-> Invoerder: **Controleer je antwoorden** (F.309)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.309)
 
 > Coördinator (GSB CSO): **Controleer of I en J verwisseld zijn** (F.309)
 > - Herstel de fout door op papier het verschil op de juiste plek in te (laten) vullen.
@@ -396,17 +396,17 @@ Veld markeren: I, J
 
 #### F.310 (Als D <> H) Verklaring voor verschil niks aangevinkt of zowel 'ja' als 'nee' aangevinkt
 
-> Invoerder: **Controleer je antwoorden** (F.310)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.310)
 
-> Coördinator (CSO/DSO): **Deze vraag moet precies één antwoord hebben** (F.310)
+> Coördinator (GSB CSO, GSB DSO): **Deze vraag moet precies één antwoord hebben** (F.310)
 
 Veld markeren: foutmelding op 3.3.2 (CSO) of 2.3.2 (DSO)
 
 #### F.311 3.3.2 Verklaring voor verschil = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt
 
-> Invoerder: **Controleer je antwoorden** (F.311)
+> Invoerder (GSB DSO): **Controleer je antwoorden** (F.311)
 
-> Coördinator: **Hertel onverklaard verschil** (F.311)  
+> Coördinator (GSB DSO): **Hertel onverklaard verschil** (F.311)  
 > Er is een onverklaard verschil dat herteld moet worden.
 > - Hertel de stembiljetten en het aantal toegelaten kiezers. Hertel tot de fout gevonden is, of alles één keer herteld is.
 > - Vul nieuwe telresultaten op een corrigendum in.
@@ -416,9 +416,9 @@ Veld markeren: foutmelding op 2.3.2
 
 #### F.312 `totaal aantal kiezers = totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen`
 
-> Invoerder: **Controleer je antwoorden** (F.312)
+> Invoerder (CSB): **Controleer je antwoorden** (F.312)
 
-> Coördinator: **D is niet gelijk aan H min I plus J** (F.312)  
+> Coördinator (CSB): **D is niet gelijk aan H min I plus J** (F.312)  
 > Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 
 Velden markeren: I en J
@@ -432,7 +432,7 @@ Velden markeren: I en J
 | F.403 | (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst komt niet overeen met het lijsttotaal van corresponderende E.x`                  | X | X | X |
 
 #### F.401 `Er zijn (stemmen op kandidaten of het lijsttotaal van corresponderende E.x is groter dan 0) en het totaal aantal stemmen op een lijst = leeg of 0`
-> Invoerder: **Controleer het totaal van de lijst. Is dit veld op het papieren proces-verbaal ook leeg? Dan kan je verdergaan** (F.401)
+> Invoerder (GSB CSO, GSB DSO, CSB): **Controleer het totaal van de lijst. Is dit veld op het papieren proces-verbaal ook leeg? Dan kan je verdergaan** (F.401)
 
 > Coördinator (GSB CSO): **Het totaal van de lijst is niet ingevuld** (F.401)  
 > Controleer of het proces-verbaal tijdens het telproces volledig is ingevuld (controleer ook E.{x} in rubriek 3.2 (eerste zitting) of 2.2 (volgende zitting)).  
@@ -455,7 +455,7 @@ Het standaard handelingsperspectief wordt bij deze foutmelding niet getoond.
 
 #### F.402 (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst <> som van aantal stemmen op de kandidaten van die lijst`
 
-> Invoerder: **Controleer ingevoerde aantallen** (F.402)  
+> Invoerder (GSB CSO, GSB DSO, CSB): **Controleer ingevoerde aantallen** (F.402)  
 > De opgetelde stemmen op de kandidaten en het ingevoerde totaal zijn niet gelijk.
 
 > Coördinator (GSB CSO): **De stemmen op kandidaten tellen niet op tot het lijsttotaal** (F.402)  
@@ -479,7 +479,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 #### F.403 (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst komt niet overeen met het lijsttotaal van corresponderende E.x`
 
-> Invoerder: **Controleer het totaal van de lijst** (F.403)  
+> Invoerder (GSB CSO, GSB DSO, CSB): **Controleer het totaal van de lijst** (F.403)  
 > Als het totaal overeenkomt met het papieren proces-verbaal, controleer dan ook de waarde bij E.{x} bij [Aantal kiezers en stemmen]().
 
 > Coördinator (GSB CSO): **Controleer het totaal van de lijst en E.{x} in rubriek 3.2 (eerste zitting) of 2.2 (volgende zitting)** (F.403)
@@ -520,10 +520,10 @@ De foutmelding die wordt getoond bestaat uit dezelfde onderdelen als bij de vali
 
 #### W.001 (Bij tweede invoer) Niet alle ingevoerde waardes van de tweede invoer zijn gelijk aan die van de eerste invoer
 
-> Invoerder: **Extra controle nodig** (W.001)  
+> Invoerder (GSB CSO, GSB DSO, CSB): **Extra controle nodig** (W.001)  
 > De gemarkeerde velden zijn anders dan in de eerste invoer.
 
-> Coördinator: W.001 is er alleen voor invoerders
+> Coördinator (GSB CSO, GSB DSO, CSB): W.001 is er alleen voor invoerders
 > Voor de coördinator hebben we het scherm 'verschillen oplossen'.
 
 Velden markeren: alle velden met een verschil
@@ -547,9 +547,9 @@ Geen checks.
 
 #### W.201 aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 
-> Invoerder: **Controleer F** (W.201)
+> Invoerder (GSB CSO, GSB DSO): **Controleer F** (W.201)
 
-> Coördinator (CSO/DSO): **Het aantal blanco stemmen (F) is erg hoog** (W.201)
+> Coördinator (GSB CSO, GSB DSO): **Het aantal blanco stemmen (F) is erg hoog** (W.201)
 > - Hertel de blanco stemmen of geef een verklaring voor het hoge aantal.
 > - Geef in elk geval aan wat je hebt gedaan in het proces-verbaal van het GSB (rubriek 1.2).
 
@@ -557,9 +557,9 @@ Veld markeren: F
 
 #### W.202 Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 
-> Invoerder: **Controleer G** (W.202)
+> Invoerder (GSB CSO, GSB DSO): **Controleer G** (W.202)
 
-> Coördinator (CSO/DSO): **Het aantal ongeldige stemmen (G) is erg hoog** (W.202)
+> Coördinator (GSB CSO, GSB DSO): **Het aantal ongeldige stemmen (G) is erg hoog** (W.202)
 > - Hertel de ongeldige stemmen of geef een verklaring voor het hoge aantal.
 > - Geef in elk geval aan wat je hebt gedaan in het proces-verbaal van het GSB (rubriek 1.2).
 
@@ -572,9 +572,9 @@ Veld markeren: G
 
 _N.B. Voor "2% of meer" delen we door uitgebrachte stemmen, consistent met de berekening van W.201 (blanco stemmen) en W.202 (ongeldige stemmen). Het is dus niet nodig de 2% ook te berekenen door te delen door toegelaten kiezers._
 
-> Invoerder: **Controleer D en H** (W.203)
+> Invoerder (GSB CSO, GSB DSO): **Controleer D en H** (W.203)
 
-> Coördinator (CSO/DSO): **Groot verschil tussen D en H** (W.203)  
+> Coördinator (GSB CSO, GSB DSO): **Groot verschil tussen D en H** (W.203)  
 > Er is een groot verschil tussen het aantal toegelaten kiezers (D) en het aantal uitgebrachte stemmen (H).
 > - Tel het stembureau in zijn geheel nogmaals. Dit hoeft niet als er al twee keer geteld is met precies dezelfde uitkomst per lijst.
 > - Verklaar in het proces-verbaal van het GSB (rubriek 1.2) zo goed mogelijk wat de oorzaak van de opmerkelijke uitkomst is.
@@ -584,9 +584,9 @@ Velden markeren: D en H
 
 #### W.204 Totaal aantal uitgebrachte stemmen leeg of 0
 
-> Invoerder: **Controleer H** (W.204)
+> Invoerder (GSB CSO, GSB DSO, CSB): **Controleer H** (W.204)
 
-> Coördinator (CSO/DSO): **Het totaal aantal uitgebrachte stemmen (H) is nul** (W.204)  
+> Coördinator  (GSB CSO, GSB DSO): **Het totaal aantal uitgebrachte stemmen (H) is nul** (W.204)  
 > Controleer of het stembureau is opgenomen in de vóór de verkiezing gepubliceerde lijst.
 > - Zo ja: verklaar in het proces-verbaal van het GSB (rubriek 1.2) waarom in dit stembureau geen stemmen zijn uitgebracht.
 > - Zo nee: verwijder het stembureau uit Abacus. Het proces-verbaal moet niet ingevoerd worden.
@@ -599,9 +599,9 @@ Veld markeren: H
 
 #### W.205 `Aantal kiesgerechtigden = leeg of 0`
 
-> Invoerder: **Controleer je antwoorden** (W.205)
+> Invoerder (CSB): **Controleer je antwoorden** (W.205)
 
-> Coördinator: **Het aantal kiesgerechtigden (Z) is niet ingevuld** (W.205)  
+> Coördinator (CSB): **Het aantal kiesgerechtigden (Z) is niet ingevuld** (W.205)  
 > Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
@@ -609,9 +609,9 @@ Veld markeren: Z
 
 #### W.206 `Aantal kiesgerechtigden is kleiner dan aantal stempassen`
 
-> Invoerder: **Controleer je antwoorden** (W.206)
+> Invoerder (CSB): **Controleer je antwoorden** (W.206)
 
-> Coördinator: **Het aantal kiesgerechtigden (Z) is kleiner dan het aantal stempassen (A)** (W.206)  
+> Coördinator (CSB): **Het aantal kiesgerechtigden (Z) is kleiner dan het aantal stempassen (A)** (W.206)  
 > Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
