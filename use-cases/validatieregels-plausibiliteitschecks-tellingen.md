@@ -259,7 +259,7 @@ Veld markeren: E
 | F.309 | (Als H < D) I is ingevuld                                                                                                           | X | X |   |
 | F.310 | (Als D <> H) Verklaring voor verschil niks aangevinkt of zowel 'ja' als 'nee' aangevinkt                                            | X | X |   |
 | F.311 | (2.3.2 (verklaring voor verschil) = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt) |   | X |   |
-| F.312 | totaal aantal kiezers = totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen                          |   |   | X |
+| F.312 | totaal aantal kiezers <> totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen                         |   |   | X |
 
 #### F.301 "Vergelijk D&H": (checkbox D=H is aangevinkt, maar D<>H)
 
@@ -414,7 +414,7 @@ Veld markeren: foutmelding op 3.3.2 (CSO) of 2.3.2 (DSO)
 
 Veld markeren: foutmelding op 2.3.2
 
-#### F.312 `totaal aantal kiezers = totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen`
+#### F.312 `totaal aantal kiezers <> totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen`
 
 > Invoerder (CSB): **Controleer je antwoorden** (F.312)
 
