@@ -248,20 +248,20 @@ Veld markeren: E
 
 | code  | regel | GSB CSO | GSB DSO | CSB |
 | ----- | ----- | :-----: | :-----: | :-: |
-| F.301 | "Vergelijk D&H": (checkbox D=H is aangevinkt, maar D<>H)                                                                            | X | X |   |
-| F.302 | "Vergelijk D&H": (checkbox H>D is aangevinkt, maar H<=D)                                                                            | X | X |   |
-| F.303 | "Vergelijk D&H": (checkbox H<D is aangevinkt, maar H>=D)                                                                            | X | X |   |
-| F.304 | "Vergelijk D&H": Meerdere aangevinkt of geen enkele aangevinkt                                                                      | X | X |   |
-| F.305 | (Als D = H) I en/of J zijn ingevuld                                                                                                 | X | X |   |
-| F.306 | (Als H > D) `I <> H - D`                                                                                                            | X | X |   |
-| F.307 | (Als H > D) J is ingevuld                                                                                                           | X | X |   |
-| F.308 | (Als H < D) `J <> D - H`                                                                                                            | X | X |   |
-| F.309 | (Als H < D) I is ingevuld                                                                                                           | X | X |   |
-| F.310 | (Als D <> H) Verklaring voor verschil niks aangevinkt of zowel 'ja' als 'nee' aangevinkt                                            | X | X |   |
-| F.311 | (2.3.2 (verklaring voor verschil) = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt) |   | X |   |
-| F.312 | totaal aantal kiezers <> totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen                         |   |   | X |
+| F.301 | "Vergelijk D&H": (Als checkbox D=H is aangevinkt) `D<>H`                                                                        | X | X |   |
+| F.302 | "Vergelijk D&H": (Als checkbox H>D is aangevinkt) `H<=D`                                                                        | X | X |   |
+| F.303 | "Vergelijk D&H": (Als checkbox H<D is aangevinkt) `H>=D`                                                                        | X | X |   |
+| F.304 | "Vergelijk D&H": Meerdere aangevinkt of geen enkele aangevinkt                                                                  | X | X |   |
+| F.305 | (Als D = H) I en/of J zijn ingevuld                                                                                             | X | X |   |
+| F.306 | (Als H > D) `I <> H - D`                                                                                                        | X | X |   |
+| F.307 | (Als H > D) J is ingevuld                                                                                                       | X | X |   |
+| F.308 | (Als H < D) `J <> D - H`                                                                                                        | X | X |   |
+| F.309 | (Als H < D) I is ingevuld                                                                                                       | X | X |   |
+| F.310 | (Als D <> H) Verklaring voor verschil niks aangevinkt of zowel 'ja' als 'nee' aangevinkt                                        | X | X |   |
+| F.311 | 2.3.2 Verklaring voor verschil = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt |   | X |   |
+| F.312 | totaal aantal kiezers <> totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen                     |   |   | X |
 
-#### F.301 "Vergelijk D&H": (checkbox D=H is aangevinkt, maar D<>H)
+#### F.301 "Vergelijk D&H": (Als checkbox D=H is aangevinkt) `D<>H`
 
 > Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.301)
 
@@ -277,7 +277,7 @@ Veld markeren: E
 
 Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
-#### F.302 "Vergelijk D&H": (checkbox H>D is aangevinkt, maar H<=D)
+#### F.302 "Vergelijk D&H": (Als checkbox H>D is aangevinkt) `H<=D`
 
 > Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.302)
 
@@ -288,7 +288,7 @@ Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
 Veld markeren: foutmelding op 3.3.1 (CSO) of 2.3.1 (DSO) "Vergelijk D en H"
 
-#### F.303 "Vergelijk D&H": (checkbox H<D is aangevinkt, maar H>=D)
+#### F.303 "Vergelijk D&H": (Als checkbox H<D is aangevinkt) `H>=D`
 
 > Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.303)
 
@@ -402,7 +402,7 @@ Veld markeren: I, J
 
 Veld markeren: foutmelding op 3.3.2 (CSO) of 2.3.2 (DSO)
 
-#### F.311 3.3.2 Verklaring voor verschil = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt
+#### F.311 2.3.2 Verklaring voor verschil = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt
 
 > Invoerder (GSB DSO): **Controleer je antwoorden** (F.311)
 
