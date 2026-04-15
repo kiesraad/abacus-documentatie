@@ -100,7 +100,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 > - Geef daarna de invoer terug aan de invoerder zodat deze vraag opnieuw beantwoord kan worden.
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
-[Voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=10078-124322)
+[Voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=20761-58052&t=gt3BuM41FB9Rkna7-11)
 
 #### F.122 Over het proces-verbaal: Ongeldige combinatie van antwoorden: `wel corrigendum, geen inlegvel`
 
