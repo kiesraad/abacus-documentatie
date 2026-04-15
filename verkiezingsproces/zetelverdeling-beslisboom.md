@@ -1,38 +1,42 @@
-# Zetelverdeling beslisboom
+# Zetelverdeling flowchart
 
 
 ## 19 of meer zetels
 
-lijstuitputting kan voorkomen in de gele stappen
+Lijstuitputting kan voorkomen in de gele stappen.
 
 
 ```Mermaid
 flowchart
-
-    flow_start@{ shape: sm-circ }
-    flow_end@{ shape: sm-circ }
-
+    %% styling
     classDef lijstuitputting fill:#ffc943,stroke:#e8a302
+    classDef greyFill fill:#eee,stroke:#bbb;
+
+    %% elements
+    flow_start@{ shape: sm-circ, label: "start" }
+    flow_end@{ shape: framed-circle, label: "end" }
 
     vaststellen_kiesdeler(vaststellen kiesdeler)
 
     toedeling_volledige_zetels(toedeling volledige zetels)
     class toedeling_volledige_zetels lijstuitputting
 
-    zetels_over{zetels over}
+    zetels_over{"zetel(s) over?"}
 
-    stelsel_grootste_gemiddelden(stelsel grootste gemiddelden -> stap, niet stelsel)
+    bereken_partijen_met_grootste_gemiddelde("bereken partij(en) met grootste gemiddelde")
 
-    gelijk_gemiddelde{gelijk<br/>gemiddelde}
-
-    loting(loting)
-    toekennen_restzetels(toekennen restzetels)
+    voldoende_restzetels{voldoende<br/>restzetels?}
+    loting_grootste_gemiddelden(loting)
+    toekennen_restzetels("toekennen restzetel(s)")
     class toekennen_restzetels lijstuitputting
-    volstrekte_meerderheid{volstrekte<br/>meerderheid}
+    volstrekte_meerderheid{lijst met<br/>>50% stemmen,<br/>maar niet zetels?}
+    laatste_restzetels_samen{laatste restzetels<br/>samen?}
+    loting_abs_meerderheid(loting)
 
-    hertoekenning_zetel(hertoekennen zetel)
-    class hertoekenning_zetel lijstuitputting
+    herverdeling_laatste_restzetel(herverdeling laatste restzetel)
+    class herverdeling_laatste_restzetel lijstuitputting
 
+    %% flow
     flow_start --> vaststellen_kiesdeler
     vaststellen_kiesdeler --> toedeling_volledige_zetels
 
@@ -40,23 +44,27 @@ flowchart
 
     zetels_over --->|Nee| volstrekte_meerderheid
 
-    zetels_over -->|Ja| stelsel_grootste_gemiddelden
+    zetels_over --->|Ja| bereken_partijen_met_grootste_gemiddelde
 
-    stelsel_grootste_gemiddelden --> gelijk_gemiddelde
-    
-    gelijk_gemiddelde -->|Nee| toekennen_restzetels
-
-    gelijk_gemiddelde -->|Ja| loting
+    subgraph grootste_gemiddelden["stelsel grootste gemiddelden"]
+        bereken_partijen_met_grootste_gemiddelde --> voldoende_restzetels
+        voldoende_restzetels -->|Ja| toekennen_restzetels
+        voldoende_restzetels -->|Nee| loting_grootste_gemiddelden
+        loting_grootste_gemiddelden --> toekennen_restzetels        
+    end
+    class grootste_gemiddelden greyFill;
 
     toekennen_restzetels --> zetels_over
 
-    loting --> toekennen_restzetels
+    volstrekte_meerderheid -->|Ja| laatste_restzetels_samen
 
-    volstrekte_meerderheid -->|Ja| hertoekenning_zetel
+    laatste_restzetels_samen -->|Ja| loting_abs_meerderheid
+    laatste_restzetels_samen -->|Nee| herverdeling_laatste_restzetel
 
-    volstrekte_meerderheid -->|Nee| flow_end
+    loting_abs_meerderheid --> herverdeling_laatste_restzetel
 
-    hertoekenning_zetel --> flow_end
+    volstrekte_meerderheid --->|Nee| flow_end
 
+    herverdeling_laatste_restzetel ---> flow_end
 
 ```
