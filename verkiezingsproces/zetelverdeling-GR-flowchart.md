@@ -1,4 +1,4 @@
-# Zetelverdeling flowchart
+# Zetelverdeling gemeenteraadsverkiezingen
 
 
 ## 19 of meer zetels
