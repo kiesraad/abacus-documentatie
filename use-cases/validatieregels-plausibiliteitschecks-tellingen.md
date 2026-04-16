@@ -607,7 +607,7 @@ Veld markeren: H
 
 Veld markeren: Z
 
-#### W.206 `Aantal kiesgerechtigden is kleiner dan aantal stempassen`
+#### W.206 (Als W.205 niet getoond wordt) `Aantal kiesgerechtigden is kleiner dan aantal stempassen`
 
 > Invoerder (CSB): **Controleer je antwoorden** (W.206)
 
