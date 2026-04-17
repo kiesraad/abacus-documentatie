@@ -1,12 +1,11 @@
 # Zetelverdeling gemeenteraadsverkiezingen
 
-
-## 19 of meer zetels
-
 Lijstuitputting kan voorkomen in de gele stappen.
 
 Als er er geen restzetels zijn, dus alle zetels toegekend worden tijdens "toedeling volledige zetels", dan zal een partij met een volstrekte meerderheid aan stemmen ook al de volstrekte meerderheid aan zetels hebben.
 
+
+## 19 of meer zetels
 
 ```Mermaid
 flowchart
@@ -24,13 +23,11 @@ flowchart
 
     restzetels{"restzetel(s)?"}
 
-    bereken_partijen_met_grootste_gemiddelde("bereken partij(en) met grootste gemiddelde")
+    bereken_partijen_met_grootste_gemiddelde("(her)bereken partij(en) met grootste gemiddelde")
     voldoende_restzetels{voldoende<br/>restzetels?}
     loting_grootste_gemiddelden(loting)
     toekennen_restzetels("toekennen restzetel(s)")
     class toekennen_restzetels lijstuitputting
-
-    restzetels_na_gemiddelden{"restzetel(s) over?"}
 
     volstrekte_meerderheid{lijst met<br/>>50% stemmen,<br/>maar niet zetels?}
     laatste_restzetels_samen{laatste restzetels<br/>samen?}
@@ -44,32 +41,32 @@ flowchart
     toedeling_volledige_zetels --> restzetels
 
     restzetels -->|Nee| flow_end
-    restzetels -->|Ja| bereken_partijen_met_grootste_gemiddelde
+    restzetels -->|Ja| grootste_gemiddelden
 
     subgraph grootste_gemiddelden["grootste gemiddelden"]
+        direction LR
         bereken_partijen_met_grootste_gemiddelde --> voldoende_restzetels
         voldoende_restzetels -->|Ja| toekennen_restzetels
         voldoende_restzetels -->|Nee| loting_grootste_gemiddelden
-        loting_grootste_gemiddelden --> toekennen_restzetels        
+        loting_grootste_gemiddelden --> toekennen_restzetels
+        toekennen_restzetels -->|tot geen restzetels meer over| bereken_partijen_met_grootste_gemiddelde
     end
     class grootste_gemiddelden greyFill;
 
-    toekennen_restzetels --> restzetels_na_gemiddelden
-
-    restzetels_na_gemiddelden --->|Nee| volstrekte_meerderheid
-    restzetels_na_gemiddelden --->|Ja| bereken_partijen_met_grootste_gemiddelde
+    grootste_gemiddelden --> volstrekte_meerderheid
+    volstrekte_meerderheid -->|Ja| absolute_meerderheid
+    volstrekte_meerderheid --->|Nee| flow_end
 
     subgraph absolute_meerderheid["absolute meerderheid"]
-        volstrekte_meerderheid -->|Ja| laatste_restzetels_samen
+        direction LR
         laatste_restzetels_samen -->|Ja| loting_abs_meerderheid
         laatste_restzetels_samen -->|Nee| herverdeling_laatste_restzetel
         loting_abs_meerderheid --> herverdeling_laatste_restzetel
     end
     class absolute_meerderheid greyFill;
 
-    volstrekte_meerderheid --->|Nee| flow_end
-    herverdeling_laatste_restzetel ---> flow_end
-
+    
+    absolute_meerderheid ---> flow_end
 ```
 
 ## minder dan 19 zetels
@@ -107,14 +104,11 @@ flowchart
 
     restzetels_na_gemiddelden_1{"restzetel(s)<br/>over?"}
 
-    bereken_partijen_met_grootste_gemiddelde("bereken partij(en) met grootste gemiddelde")
+    bereken_partijen_met_grootste_gemiddelde("(her)bereken partij(en) met grootste gemiddelde")
     voldoende_restzetels{voldoende<br/>restzetels?}
     loting_grootste_gemiddelden_2(loting)
     restzetels_grootste_gemiddelden_2("toekennen restzetel(s)")
     class restzetels_grootste_gemiddelden_2 lijstuitputting
-
-
-    restzetels_na_gemiddelden_2{"restzetel(s)<br/>over?"}
 
     volstrekte_meerderheid{lijst met<br/>>50% stemmen,<br/>maar niet zetels?}
     laatste_restzetels_samen{laatste restzetels<br/>samen?}
@@ -128,9 +122,10 @@ flowchart
 
     toedeling_volledige_zetels --> restzetels
     restzetels --->|Nee| flow_end
-    restzetels -->|Ja| bereken_overschotten_van_partijen
+    restzetels -->|Ja| grootste_overschotten
 
     subgraph grootste_overschotten["grootste overschotten"]
+        direction LR
         bereken_overschotten_van_partijen --> gelijke_overschotten
         gelijke_overschotten -->|Nee| gelijke_overschotten_ronde1
         gelijke_overschotten -->|Ja| loting_grootste_overschotten
@@ -138,11 +133,12 @@ flowchart
     end
     class grootste_overschotten greyFill;
 
-    gelijke_overschotten_ronde1 --> restzetels_na_overschotten
+    grootste_overschotten --> restzetels_na_overschotten
     restzetels_na_overschotten -->|Nee| volstrekte_meerderheid
-    restzetels_na_overschotten -->|Ja| bereken_gemiddelden_van_partijen
+    restzetels_na_overschotten -->|Ja| grootste_gemiddelden_1
 
     subgraph grootste_gemiddelden_1["grootste gemiddelden - 1"]
+        direction LR
         bereken_gemiddelden_van_partijen --> gelijke_gemiddelden
         gelijke_gemiddelden -->|Nee| restzetels_grootste_gemiddelden_1
         gelijke_gemiddelden -->|Ja| loting_grootste_gemiddelden_1
@@ -150,32 +146,34 @@ flowchart
     end
     class grootste_gemiddelden_1 greyFill;
 
-    restzetels_grootste_gemiddelden_1 --> restzetels_na_gemiddelden_1
+    grootste_gemiddelden_1 --> restzetels_na_gemiddelden_1
     restzetels_na_gemiddelden_1 -->|Nee| volstrekte_meerderheid
-    restzetels_na_gemiddelden_1 -->|Ja| bereken_partijen_met_grootste_gemiddelde
+    restzetels_na_gemiddelden_1 -->|Ja| grootste_gemiddelden_2
 
     subgraph grootste_gemiddelden_2["grootste gemiddelden - 2"]
         bereken_partijen_met_grootste_gemiddelde --> voldoende_restzetels
         voldoende_restzetels -->|Ja| restzetels_grootste_gemiddelden_2
         voldoende_restzetels -->|Nee| loting_grootste_gemiddelden_2
-        loting_grootste_gemiddelden_2 --> restzetels_grootste_gemiddelden_2      
+        loting_grootste_gemiddelden_2 --> restzetels_grootste_gemiddelden_2
+        restzetels_grootste_gemiddelden_2 -->|tot geen restzetels meer over| bereken_partijen_met_grootste_gemiddelde
+        
     end
     class grootste_gemiddelden_2 greyFill;
 
-    restzetels_grootste_gemiddelden_2 --> restzetels_na_gemiddelden_2
+    grootste_gemiddelden_2 --> volstrekte_meerderheid
 
-    restzetels_na_gemiddelden_2 -->|Ja| bereken_partijen_met_grootste_gemiddelde
-     restzetels_na_gemiddelden_2 -->|Nee| volstrekte_meerderheid
+    volstrekte_meerderheid -->|Ja| absolute_meerderheid
+    volstrekte_meerderheid --->|Nee| flow_end
 
     subgraph absolute_meerderheid["absolute meerderheid"]
-        volstrekte_meerderheid -->|Ja| laatste_restzetels_samen
+        direction LR
         laatste_restzetels_samen -->|Ja| loting_abs_meerderheid
         laatste_restzetels_samen -->|Nee| herverdeling_laatste_restzetel
         loting_abs_meerderheid --> herverdeling_laatste_restzetel
     end
     class absolute_meerderheid greyFill;
 
-    volstrekte_meerderheid --->|Nee| flow_end
-    herverdeling_laatste_restzetel ---> flow_end
+    
+    absolute_meerderheid ---> flow_end
 
 ```
