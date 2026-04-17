@@ -547,7 +547,7 @@ Geen checks.
 
 #### W.201 aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 
-> Invoerder (GSB CSO, GSB DSO): **Controleer F** (W.201)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (W.201)
 
 > Coördinator (GSB CSO, GSB DSO): **Het aantal blanco stemmen (F) is erg hoog** (W.201)
 > - Hertel de blanco stemmen of geef een verklaring voor het hoge aantal.
@@ -557,7 +557,7 @@ Veld markeren: F
 
 #### W.202 Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 
-> Invoerder (GSB CSO, GSB DSO): **Controleer G** (W.202)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (W.202)
 
 > Coördinator (GSB CSO, GSB DSO): **Het aantal ongeldige stemmen (G) is erg hoog** (W.202)
 > - Hertel de ongeldige stemmen of geef een verklaring voor het hoge aantal.
@@ -572,7 +572,7 @@ Veld markeren: G
 
 _N.B. Voor "2% of meer" delen we door uitgebrachte stemmen, consistent met de berekening van W.201 (blanco stemmen) en W.202 (ongeldige stemmen). Het is dus niet nodig de 2% ook te berekenen door te delen door toegelaten kiezers._
 
-> Invoerder (GSB CSO, GSB DSO): **Controleer D en H** (W.203)
+> Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (W.203)
 
 > Coördinator (GSB CSO, GSB DSO): **Groot verschil tussen D en H** (W.203)  
 > Er is een groot verschil tussen het aantal toegelaten kiezers (D) en het aantal uitgebrachte stemmen (H).
@@ -584,7 +584,7 @@ Velden markeren: D en H
 
 #### W.204 Totaal aantal uitgebrachte stemmen leeg of 0
 
-> Invoerder (GSB CSO, GSB DSO, CSB): **Controleer H** (W.204)
+> Invoerder (GSB CSO, GSB DSO, CSB): **Controleer je antwoorden** (W.204)
 
 > Coördinator  (GSB CSO, GSB DSO): **Het totaal aantal uitgebrachte stemmen (H) is nul** (W.204)  
 > Controleer of het stembureau is opgenomen in de vóór de verkiezing gepubliceerde lijst.
