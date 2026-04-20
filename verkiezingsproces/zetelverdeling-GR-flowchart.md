@@ -50,6 +50,7 @@ flowchart
         voldoende_restzetels -->|Nee| loting_grootste_gemiddelden
         loting_grootste_gemiddelden --> toekennen_restzetels
         toekennen_restzetels -->|tot geen restzetels meer over| bereken_partijen_met_grootste_gemiddelde
+        comment_grootste_gemiddelden@{ shape: braces, label: "mogelijk meerdere zetels per lijst" }
     end
     class grootste_gemiddelden greyFill;
 
@@ -95,7 +96,7 @@ flowchart
     restzetels_na_overschotten{"restzetel(s)<br/>over?"}
 
     bereken_gemiddelden_van_partijen(bereken gemiddelden<br/>van partijen)
-    gelijke_gemiddelden{"onvoldoende<br/>restzetels<br/>bij gelijk<br/>gemiddelde?"}
+    gelijke_gemiddelden_1{"onvoldoende<br/>restzetels<br/>bij gelijk<br/>gemiddelde?"}
     loting_grootste_gemiddelden_1(loting)
     toekennen_restzetels_grootste_gemiddelden_1("toekennen restzetel(s)")
     class toekennen_restzetels_grootste_gemiddelden_1 lijstuitputting
@@ -103,13 +104,13 @@ flowchart
     restzetels_na_gemiddelden_1{"restzetel(s)<br/>over?"}
 
     bereken_partijen_met_grootste_gemiddelde("(her)bereken partij(en) met grootste gemiddelde")
-    voldoende_restzetels{voldoende<br/>restzetels?}
+    gelijke_gemiddelden_2{"onvoldoende<br/>restzetels<br/>bij gelijk<br/>gemiddelde?"}
     loting_grootste_gemiddelden_2(loting)
     toekennen_restzetels_grootste_gemiddelden_2("toekennen restzetel(s)")
     class toekennen_restzetels_grootste_gemiddelden_2 lijstuitputting
 
     meerderheid_aan_stemmen_maar_niet_zetels{lijst met<br/>>50% stemmen,<br/>maar niet<br/>>50% zetels?}
-    laatste_restzetels_obv_gelijk_gemiddelde_of_overschot{laatste<br/>restzetels o.b.v.<br/>gelijk gemiddelde of<br/>overschot?}
+    laatste_restzetels_obv_gelijk_gemiddelde_of_overschot{laatste<br/>restzetels o.b.v.<br/>gelijk gemiddelde of<br/>gelijk overschot?}
     loting_volstrekte_meerderheid(loting)
     herverdeling_laatste_restzetel(herverdeling laatste restzetel)
     class herverdeling_laatste_restzetel lijstuitputting
@@ -128,6 +129,7 @@ flowchart
         gelijke_overschotten -->|Nee| toekennen_restzetels_gelijke_overschotten
         gelijke_overschotten -->|Ja| loting_grootste_overschotten
         loting_grootste_overschotten --> toekennen_restzetels_gelijke_overschotten
+        comment_grootste_overschotten@{ shape: braces, label: "max. 1 zetel per lijst" }
     end
     class grootste_overschotten greyFill;
 
@@ -137,10 +139,11 @@ flowchart
 
     subgraph grootste_gemiddelden_1["grootste gemiddelden - 1"]
         direction LR
-        bereken_gemiddelden_van_partijen --> gelijke_gemiddelden
-        gelijke_gemiddelden -->|Nee| toekennen_restzetels_grootste_gemiddelden_1
-        gelijke_gemiddelden -->|Ja| loting_grootste_gemiddelden_1
+        bereken_gemiddelden_van_partijen --> gelijke_gemiddelden_1
+        gelijke_gemiddelden_1 -->|Nee| toekennen_restzetels_grootste_gemiddelden_1
+        gelijke_gemiddelden_1 -->|Ja| loting_grootste_gemiddelden_1
         loting_grootste_gemiddelden_1 --> toekennen_restzetels_grootste_gemiddelden_1
+        comment_grootste_gemiddelden_1@{ shape: braces, label: "max. 1 zetel per lijst" }
     end
     class grootste_gemiddelden_1 greyFill;
 
@@ -149,12 +152,12 @@ flowchart
     restzetels_na_gemiddelden_1 -->|Ja| grootste_gemiddelden_2
 
     subgraph grootste_gemiddelden_2["grootste gemiddelden - 2"]
-        bereken_partijen_met_grootste_gemiddelde --> voldoende_restzetels
-        voldoende_restzetels -->|Ja| toekennen_restzetels_grootste_gemiddelden_2
-        voldoende_restzetels -->|Nee| loting_grootste_gemiddelden_2
+        bereken_partijen_met_grootste_gemiddelde --> gelijke_gemiddelden_2
+        gelijke_gemiddelden_2 -->|Nee| toekennen_restzetels_grootste_gemiddelden_2
+        gelijke_gemiddelden_2 -->|Ja| loting_grootste_gemiddelden_2
         loting_grootste_gemiddelden_2 --> toekennen_restzetels_grootste_gemiddelden_2
         toekennen_restzetels_grootste_gemiddelden_2 -->|tot geen restzetels meer over| bereken_partijen_met_grootste_gemiddelde
-
+        comment_grootste_gemiddelden_2@{ shape: braces, label: "mogelijk meerdere zetels per lijst" }
     end
     class grootste_gemiddelden_2 greyFill;
 
