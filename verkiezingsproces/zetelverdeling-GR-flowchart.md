@@ -2,7 +2,7 @@
 
 Lijstuitputting kan voorkomen in de gele stappen.
 
-Als er er geen restzetels zijn, dus alle zetels toegekend worden tijdens "toedeling volledige zetels", dan zal een partij met een volstrekte meerderheid aan stemmen ook al de volstrekte meerderheid aan zetels hebben.
+Als er er geen restzetels zijn, dus alle zetels toegekend worden tijdens "toedeling volle zetels", dan zal een partij met een volstrekte meerderheid aan stemmen ook al de volstrekte meerderheid aan zetels hebben.
 
 
 ## 19 of meer zetels
@@ -18,8 +18,8 @@ flowchart
     flow_end@{ shape: framed-circle, label: "end" }
 
     vaststellen_kiesdeler(vaststellen kiesdeler)
-    toedeling_volledige_zetels(toedeling volledige zetels)
-    class toedeling_volledige_zetels lijstuitputting
+    toedeling_volle_zetels(toedeling volle zetels)
+    class toedeling_volle_zetels lijstuitputting
 
     restzetels{"restzetel(s)?"}
 
@@ -31,14 +31,14 @@ flowchart
 
     meerderheid_aan_stemmen_maar_niet_zetels{lijst met<br/>>50% stemmen,<br/>maar niet<br/>>50% zetels?}
     laatste_restzetels_obv_gelijk_gemiddelde{laatste<br/>restzetels o.b.v.<br/>gelijk gemiddelde?}
-    loting_absolute_meerderheid(loting)
+    loting_volstrekte_meerderheid(loting)
     herverdeling_laatste_restzetel(herverdeling laatste restzetel)
     class herverdeling_laatste_restzetel lijstuitputting
 
     %% flow
     flow_start --> vaststellen_kiesdeler
-    vaststellen_kiesdeler --> toedeling_volledige_zetels
-    toedeling_volledige_zetels --> restzetels
+    vaststellen_kiesdeler --> toedeling_volle_zetels
+    toedeling_volle_zetels --> restzetels
 
     restzetels -->|Nee| flow_end
     restzetels -->|Ja| grootste_gemiddelden
@@ -54,18 +54,18 @@ flowchart
     class grootste_gemiddelden greyFill;
 
     grootste_gemiddelden --> meerderheid_aan_stemmen_maar_niet_zetels
-    meerderheid_aan_stemmen_maar_niet_zetels -->|Ja| absolute_meerderheid
+    meerderheid_aan_stemmen_maar_niet_zetels -->|Ja| volstrekte_meerderheid
     meerderheid_aan_stemmen_maar_niet_zetels --->|Nee| flow_end
 
-    subgraph absolute_meerderheid["absolute meerderheid"]
+    subgraph volstrekte_meerderheid["volstrekte meerderheid"]
         direction LR
-        laatste_restzetels_obv_gelijk_gemiddelde -->|Ja| loting_absolute_meerderheid
+        laatste_restzetels_obv_gelijk_gemiddelde -->|Ja| loting_volstrekte_meerderheid
         laatste_restzetels_obv_gelijk_gemiddelde -->|Nee| herverdeling_laatste_restzetel
-        loting_absolute_meerderheid --> herverdeling_laatste_restzetel
+        loting_volstrekte_meerderheid --> herverdeling_laatste_restzetel
     end
-    class absolute_meerderheid greyFill;
+    class volstrekte_meerderheid greyFill;
 
-    absolute_meerderheid ---> flow_end
+    volstrekte_meerderheid ---> flow_end
 ```
 
 ## minder dan 19 zetels
@@ -81,8 +81,8 @@ flowchart
     flow_end@{ shape: framed-circle, label: "end" }
 
     vaststellen_kiesdeler(vaststellen kiesdeler)
-    toedeling_volledige_zetels(toedeling volledige zetels)
-    class toedeling_volledige_zetels lijstuitputting
+    toedeling_volle_zetels(toedeling volle zetels)
+    class toedeling_volle_zetels lijstuitputting
 
     restzetels{"restzetel(s)?"}
 
@@ -110,15 +110,15 @@ flowchart
 
     meerderheid_aan_stemmen_maar_niet_zetels{lijst met<br/>>50% stemmen,<br/>maar niet<br/>>50% zetels?}
     laatste_restzetels_obv_gelijk_gemiddelde_of_overschot{laatste<br/>restzetels o.b.v.<br/>gelijk gemiddelde of<br/>overschot?}
-    loting_absolute_meerderheid(loting)
+    loting_volstrekte_meerderheid(loting)
     herverdeling_laatste_restzetel(herverdeling laatste restzetel)
     class herverdeling_laatste_restzetel lijstuitputting
 
     %% flow
     flow_start --> vaststellen_kiesdeler
-    vaststellen_kiesdeler --> toedeling_volledige_zetels
+    vaststellen_kiesdeler --> toedeling_volle_zetels
 
-    toedeling_volledige_zetels --> restzetels
+    toedeling_volle_zetels --> restzetels
     restzetels --->|Nee| flow_end
     restzetels -->|Ja| grootste_overschotten
 
@@ -160,16 +160,16 @@ flowchart
 
     grootste_gemiddelden_2 --> meerderheid_aan_stemmen_maar_niet_zetels
 
-    meerderheid_aan_stemmen_maar_niet_zetels -->|Ja| absolute_meerderheid
+    meerderheid_aan_stemmen_maar_niet_zetels -->|Ja| volstrekte_meerderheid
     meerderheid_aan_stemmen_maar_niet_zetels --->|Nee| flow_end
 
-    subgraph absolute_meerderheid["absolute meerderheid"]
+    subgraph volstrekte_meerderheid["volstrekte meerderheid"]
         direction LR
-        laatste_restzetels_obv_gelijk_gemiddelde_of_overschot -->|Ja| loting_absolute_meerderheid
+        laatste_restzetels_obv_gelijk_gemiddelde_of_overschot -->|Ja| loting_volstrekte_meerderheid
         laatste_restzetels_obv_gelijk_gemiddelde_of_overschot -->|Nee| herverdeling_laatste_restzetel
-        loting_absolute_meerderheid --> herverdeling_laatste_restzetel
+        loting_volstrekte_meerderheid --> herverdeling_laatste_restzetel
     end
-    class absolute_meerderheid greyFill;
+    class volstrekte_meerderheid greyFill;
 
-    absolute_meerderheid ---> flow_end
+    volstrekte_meerderheid ---> flow_end
 ```
