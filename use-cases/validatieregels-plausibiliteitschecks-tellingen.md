@@ -22,13 +22,13 @@ De foutmelding die wordt getoond bestaat uit vier onderdelen:
 - toelichting
 - handelingsperspectief
 
-Titel, nummer en toelichting zijn uniek voor iedere foutmelding. Het handelingsperspectief is voor alle foutmeldingen gelijk, en is als volgt:
+Titel, nummer en toelichting zijn uniek voor iedere foutmelding. Het handelingsperspectief is voor alle meldingen gelijk, en is als volgt:
 
-Invoerder:
+Invoerder (GSB CSO, GSB DSO, CSB; bij fouten en waarschuwingen):
 > - Heb je iets niet goed overgenomen? Herstel de fout en ga verder.
 > - Heb je alles gecontroleerd en komt je invoer overeen met het papier? Ga dan verder.
 
-Coördinator
+Coördinator (GSB CSO, GSB DSO; bij fouten)
 > - Controleer of de invoer in Abacus goed is overgenomen van het papieren proces-verbaal.
 > - Zit de fout ook in het papieren proces-verbaal? Los de fout dan daar op.
 
@@ -52,7 +52,7 @@ Deze regels zijn alleen van toepassing bij invoer voor de eerste zitting. De ger
 | F.122 | Over het proces-verbaal: Ongeldige combinatie van antwoorden: `wel corrigendum, geen inlegvel`               |   | X |   |
 | F.131 | 'Controles en correcties': geen vinkjes bij de eerste twee vragen                                            |   | X |   |
 | F.132 | 'Controles en correcties': Ongeldige set documenten (vraag 'gecorrigeerde telresultaten' = 'nee')            |   | X |   |
-| F.133 | 'Controles en correcties': Ongeldig antwoord in eerste zitting (vraag 'op verzoek van het CSB'  is ingevuld) |   | X |   |
+| F.133 | 'Controles en correcties': Ongeldig antwoord in eerste zitting (vraag 'op verzoek van het CSB' is ingevuld)  |   | X |   |
 | F.134 | 'Controles en correcties': meer dan 1 antwoord op vraag 'zijn er gecorrigeerde telresultaten'                |   | X |   |
 
 #### F.101 'Alleen bij extra onderzoek B1-1': één van beide vragen is beantwoord, en de andere niet
@@ -420,6 +420,7 @@ Veld markeren: foutmelding op 2.3.2
 
 > Coördinator (CSB): **D is niet gelijk aan H min I plus J** (F.312)  
 > Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: I en J
 
