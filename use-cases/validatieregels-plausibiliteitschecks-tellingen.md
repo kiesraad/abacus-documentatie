@@ -523,7 +523,7 @@ Invoerder (GSB CSO, GSB DSO, CSB; bij waarschuwingen):
 > - Heb je iets niet goed overgenomen? Herstel de fout en ga verder.
 > - Heb je alles gecontroleerd en komt je invoer overeen met het papier? Ga dan verder.
 
-Coördinator (GSB CSO, GSB DSO; bij fouten)
+Coördinator (GSB CSO, GSB DSO; bij waarschuwingen):
 > Er is geen standaard handelingsperspectief voor de coördinator.
 
 ### Checks voor alle velden (reeks W.0xx)
