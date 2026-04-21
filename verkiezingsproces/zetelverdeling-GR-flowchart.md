@@ -7,7 +7,7 @@ Als er er geen restzetels zijn, dus alle zetels toegekend worden tijdens "toewij
 
 ## 19 of meer zetels
 
-```Mermaid
+```mermaid
 flowchart
     %% styling
     classDef lijstuitputting fill:#ffc943,stroke:#e8a302
@@ -71,7 +71,7 @@ flowchart
 
 ## minder dan 19 zetels
 
-```Mermaid
+```mermaid
 flowchart
     %% styling
     classDef lijstuitputting fill:#ffc943,stroke:#e8a302
