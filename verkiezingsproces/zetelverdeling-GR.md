@@ -89,7 +89,7 @@ Overleden kandidaten worden buiten beschouwing gelaten. (art P19a)
 - Stel voorkeursdrempel vast
   - \>= 19 raadszetels: 25% van kiesdeler
   - < 19 raadszetels: 50% van kiesdeler
-- Selecteer kandidaten die voorkeursdrempel gehaald hebben
+- Selecteer kandidaten wiens aantal stemmen groter is dan de voorkeursdrempel
 - Ken zetels toe op volgorde van aantal behaalde stemmen (tot aantal behaalde zetels van de lijst)
 - Bij gelijke aantallen stemmen, maar minder zetels: loting in zitting CSB
 
