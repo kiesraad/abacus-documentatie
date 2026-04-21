@@ -8,6 +8,19 @@ Een fout wijst op een probleem in het papieren proces-verbaal. Dit probleem moet
 **[Waarschuwing](#plausibiliteitschecks-geven-waarschuwingen)**:
 Een waarschuwing wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. Dit moet het GSB verklaren, anders kan dit resulteren in een nieuwe zitting.
 
+### Meerdere fouten en waarschuwingen in 1 response
+
+Een request naar de backend kan meerdere fouten en waarschuwingen teruggeven.
+
+In de user interface behandelen we die als volgt:
+
+- Voor de stappen **vóór** de hoogste stap waar de gebruiker invoer voor heeft gedaan: als er fouten zijn dan tonen we bij die stap in de navigatiebalk een fout-icoon, als er alleen waarschuwingen zijn dan tonen we bij die stap in de navigatiebalk een waarschuwings-icoon ([voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=137-4359&t=6BRGJQMHbKwihTCh-4)).
+- Fouten of waarschuwingen **voorbij** de hoogste stap waar de gebruiker invoer voor heeft gedaan, tonen we niet.
+- Zijn er fouten of waarschuwingen in de huidige stap, dan tonen we alle fouten en waarschuwingen ([voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=2871-9169&t=FtsIfhKtOeDxlo9v-4)).
+  - We tonen van elke melding de titel, het nummer en de toelichting.
+  - Omdat het handelingsperspectief voor alle meldingen hetzelfde is, tonen we deze maar één keer.
+  - We markeren alle invoervelden waar een foutmelding of waarschuwing op is. Gaat melding 1 over veld A, B en C, en melding 2 over veld C en D, dan markeren we dus A, B, C en D. Mocht er voor een invoerveld zowel een foutmelding als een waarschuwing zijn, dan wordt alleen de foutmelding markering getoond.
+
 ### Bijzonderheden
 Voor het aantal kiesgerechtigden geven we een waarschuwing, nooit een fout. Dit is omdat het aantal kiesgerechtigden niet gecorrigeerd kan worden d.m.v. een corrigendum.
 
@@ -24,7 +37,7 @@ De foutmelding die wordt getoond bestaat uit vier onderdelen:
 
 Titel, nummer en toelichting zijn uniek voor iedere foutmelding. Het handelingsperspectief is voor alle meldingen gelijk, en is als volgt:
 
-Invoerder (GSB CSO, GSB DSO, CSB; bij fouten en waarschuwingen):
+Invoerder (GSB CSO, GSB DSO, CSB; bij fouten):
 > - Heb je iets niet goed overgenomen? Herstel de fout en ga verder.
 > - Heb je alles gecontroleerd en komt je invoer overeen met het papier? Ga dan verder.
 
@@ -506,11 +519,11 @@ Plausibiliteitschecks vragen de gebruiker de invoer extra te controleren. Ze res
 
 De foutmelding die wordt getoond bestaat uit dezelfde onderdelen als bij de validatieregels. Het handelingsperspectief voor alle plausibiliteitschecks is als volgt:
 
-> Invoerder:
+Invoerder (GSB CSO, GSB DSO, CSB; bij waarschuwingen):
 > - Heb je iets niet goed overgenomen? Herstel de fout en ga verder.
 > - Heb je alles gecontroleerd en komt je invoer overeen met het papier? Ga dan verder.
 
-> Coördinator:
+Coördinator (GSB CSO, GSB DSO; bij fouten)
 > Er is geen standaard handelingsperspectief voor de coördinator.
 
 ### Checks voor alle velden (reeks W.0xx)
@@ -625,18 +638,3 @@ Geen checks.
 ### Checks voor kandidaten en lijsttotalen (reeks W.4xx)
 
 Geen checks.
-
----
-
-## Meerdere fouten en waarschuwingen in 1 response
-
-Een request naar de backend kan meerdere fouten en waarschuwingen teruggeven.
-
-In de user interface behandelen we die als volgt:
-
-- Voor de stappen **vóór** de hoogste stap waar de gebruiker invoer voor heeft gedaan: als er fouten zijn dan tonen we bij die stap in de navigatiebalk een fout-icoon, als er alleen waarschuwingen zijn dan tonen we bij die stap in de navigatiebalk een waarschuwings-icoon ([voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=137-4359&t=6BRGJQMHbKwihTCh-4)).
-- Fouten of waarschuwingen **voorbij** de hoogste stap waar de gebruiker invoer voor heeft gedaan, tonen we niet.
-- Zijn er fouten of waarschuwingen in de huidige stap, dan tonen we alle fouten en waarschuwingen ([voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=2871-9169&t=FtsIfhKtOeDxlo9v-4)).
-  - We tonen van elke melding de titel, het nummer en de toelichting.
-  - Omdat het handelingsperspectief voor alle meldingen hetzelfde is, tonen we deze maar één keer.
-  - We markeren alle invoervelden waar een foutmelding of waarschuwing op is. Gaat melding 1 over veld A, B en C, en melding 2 over veld C en D, dan markeren we dus A, B, C en D. Mocht er voor een invoerveld zowel een foutmelding als een waarschuwing zijn, dan wordt alleen de foutmelding markering getoond.
