@@ -8,6 +8,19 @@ Een fout wijst op een probleem in het papieren proces-verbaal. Dit probleem moet
 **[Waarschuwing](#plausibiliteitschecks-geven-waarschuwingen)**:
 Een waarschuwing wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. Dit moet het GSB verklaren, anders kan dit resulteren in een nieuwe zitting.
 
+### Meerdere fouten en waarschuwingen in 1 response
+
+Een request naar de backend kan meerdere fouten en waarschuwingen teruggeven.
+
+In de user interface behandelen we die als volgt:
+
+- Voor de stappen **vóór** de hoogste stap waar de gebruiker invoer voor heeft gedaan: als er fouten zijn dan tonen we bij die stap in de navigatiebalk een fout-icoon, als er alleen waarschuwingen zijn dan tonen we bij die stap in de navigatiebalk een waarschuwings-icoon ([voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=137-4359&t=6BRGJQMHbKwihTCh-4)).
+- Fouten of waarschuwingen **voorbij** de hoogste stap waar de gebruiker invoer voor heeft gedaan, tonen we niet.
+- Zijn er fouten of waarschuwingen in de huidige stap, dan tonen we alle fouten en waarschuwingen ([voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=2871-9169&t=FtsIfhKtOeDxlo9v-4)).
+  - We tonen van elke melding de titel, het nummer en de toelichting.
+  - Omdat het handelingsperspectief voor alle meldingen hetzelfde is, tonen we deze maar één keer.
+  - We markeren alle invoervelden waar een foutmelding of waarschuwing op is. Gaat melding 1 over veld A, B en C, en melding 2 over veld C en D, dan markeren we dus A, B, C en D. Mocht er voor een invoerveld zowel een foutmelding als een waarschuwing zijn, dan wordt alleen de foutmelding markering getoond.
+
 ### Bijzonderheden
 Voor het aantal kiesgerechtigden geven we een waarschuwing, nooit een fout. Dit is omdat het aantal kiesgerechtigden niet gecorrigeerd kan worden d.m.v. een corrigendum.
 
@@ -22,13 +35,13 @@ De foutmelding die wordt getoond bestaat uit vier onderdelen:
 - toelichting
 - handelingsperspectief
 
-Titel, nummer en toelichting zijn uniek voor iedere foutmelding. Het handelingsperspectief is voor alle foutmeldingen gelijk, en is als volgt:
+Titel, nummer en toelichting zijn uniek voor iedere foutmelding. Het handelingsperspectief is voor alle meldingen gelijk, en is als volgt:
 
-Invoerder:
+Invoerder (GSB CSO, GSB DSO, CSB; bij fouten):
 > - Heb je iets niet goed overgenomen? Herstel de fout en ga verder.
 > - Heb je alles gecontroleerd en komt je invoer overeen met het papier? Ga dan verder.
 
-Coördinator
+Coördinator (GSB CSO, GSB DSO; bij fouten)
 > - Controleer of de invoer in Abacus goed is overgenomen van het papieren proces-verbaal.
 > - Zit de fout ook in het papieren proces-verbaal? Los de fout dan daar op.
 
@@ -52,7 +65,7 @@ Deze regels zijn alleen van toepassing bij invoer voor de eerste zitting. De ger
 | F.122 | Over het proces-verbaal: Ongeldige combinatie van antwoorden: `wel corrigendum, geen inlegvel`               |   | X |   |
 | F.131 | 'Controles en correcties': geen vinkjes bij de eerste twee vragen                                            |   | X |   |
 | F.132 | 'Controles en correcties': Ongeldige set documenten (vraag 'gecorrigeerde telresultaten' = 'nee')            |   | X |   |
-| F.133 | 'Controles en correcties': Ongeldig antwoord in eerste zitting (vraag 'op verzoek van het CSB'  is ingevuld) |   | X |   |
+| F.133 | 'Controles en correcties': Ongeldig antwoord in eerste zitting (vraag 'op verzoek van het CSB' is ingevuld)  |   | X |   |
 | F.134 | 'Controles en correcties': meer dan 1 antwoord op vraag 'zijn er gecorrigeerde telresultaten'                |   | X |   |
 
 #### F.101 'Alleen bij extra onderzoek B1-1': één van beide vragen is beantwoord, en de andere niet
@@ -420,6 +433,7 @@ Veld markeren: foutmelding op 2.3.2
 
 > Coördinator (CSB): **D is niet gelijk aan H min I plus J** (F.312)  
 > Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
+> Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: I en J
 
@@ -505,11 +519,11 @@ Plausibiliteitschecks vragen de gebruiker de invoer extra te controleren. Ze res
 
 De foutmelding die wordt getoond bestaat uit dezelfde onderdelen als bij de validatieregels. Het handelingsperspectief voor alle plausibiliteitschecks is als volgt:
 
-> Invoerder:
+Invoerder (GSB CSO, GSB DSO, CSB; bij waarschuwingen):
 > - Heb je iets niet goed overgenomen? Herstel de fout en ga verder.
 > - Heb je alles gecontroleerd en komt je invoer overeen met het papier? Ga dan verder.
 
-> Coördinator:
+Coördinator (GSB CSO, GSB DSO; bij waarschuwingen):
 > Er is geen standaard handelingsperspectief voor de coördinator.
 
 ### Checks voor alle velden (reeks W.0xx)
@@ -624,18 +638,3 @@ Geen checks.
 ### Checks voor kandidaten en lijsttotalen (reeks W.4xx)
 
 Geen checks.
-
----
-
-## Meerdere fouten en waarschuwingen in 1 response
-
-Een request naar de backend kan meerdere fouten en waarschuwingen teruggeven.
-
-In de user interface behandelen we die als volgt:
-
-- Voor de stappen **vóór** de hoogste stap waar de gebruiker invoer voor heeft gedaan: als er fouten zijn dan tonen we bij die stap in de navigatiebalk een fout-icoon, als er alleen waarschuwingen zijn dan tonen we bij die stap in de navigatiebalk een waarschuwings-icoon ([voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=137-4359&t=6BRGJQMHbKwihTCh-4)).
-- Fouten of waarschuwingen **voorbij** de hoogste stap waar de gebruiker invoer voor heeft gedaan, tonen we niet.
-- Zijn er fouten of waarschuwingen in de huidige stap, dan tonen we alle fouten en waarschuwingen ([voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=2871-9169&t=FtsIfhKtOeDxlo9v-4)).
-  - We tonen van elke melding de titel, het nummer en de toelichting.
-  - Omdat het handelingsperspectief voor alle meldingen hetzelfde is, tonen we deze maar één keer.
-  - We markeren alle invoervelden waar een foutmelding of waarschuwing op is. Gaat melding 1 over veld A, B en C, en melding 2 over veld C en D, dan markeren we dus A, B, C en D. Mocht er voor een invoerveld zowel een foutmelding als een waarschuwing zijn, dan wordt alleen de foutmelding markering getoond.
