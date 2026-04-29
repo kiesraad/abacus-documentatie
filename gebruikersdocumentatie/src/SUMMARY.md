@@ -30,11 +30,14 @@
   - [Tweede invoer](./spiekbrief/tweede-invoer.md)
   - [Pauzeren of afbreken](./spiekbrief/pauzeren-afbreken.md)
   - [Codes van fouten en waarschuwingen](./spiekbrief/codes-fouten-ws.md)
+
+# Gemeentelijk stembureau
+
 - [Instructies beheerder](./beheerder/README.md)
   - [Account voor beheerder aanmaken](./beheerder/account-beheerder.md)
   - [Verkiezing toevoegen en beheren](./beheerder/verkiezing-beheren/README.md)
     - [Verkiezingsdefinitie](./beheerder/verkiezing-beheren/verkiezingsdefinitie.md)
-    - [Rol van het stembureau](./beheerder/verkiezing-beheren/rol-stembureau.md)
+    - [Type stembureau](./beheerder/verkiezing-beheren/type-stembureau.md)
     - [Kandidatenlijsten](./beheerder/verkiezing-beheren/kandidatenlijsten.md)
     - [Optioneel: stembureaus](./beheerder/verkiezing-beheren/stembureaus.md)
     - [Type stemopneming](./beheerder/verkiezing-beheren/type-stemopneming.md)
@@ -81,6 +84,15 @@ sb-wijzigen-verwijderen.md)
   - [Tweede invoer](./invoerder/tweede-invoer.md)
   - [Pauzeren of afbreken](./invoerder/pauzeren-afbreken.md)
   - [Extra zitting: corrigendum invoeren](./invoerder/extra-zitting-corrigendum.md)
+
+# Centraal stembureau
+
+- [Instructies beheerder CSB](./beheerder-csb/README.md)
+  - [Verkiezing toevoegen en beheren](./beheerder-csb/verkiezing-beheren/README.md)
+    - [Verkiezingsdefinitie](./beheerder-csb/verkiezing-beheren/verkiezingsdefinitie.md)
+    - [Type stembureau](./beheerder-csb/verkiezing-beheren/type-stembureau.md)
+    - [Kandidatenlijsten](./beheerder-csb/verkiezing-beheren/kandidatenlijsten.md)
+    - [Controleren en opslaan](./beheerder-csb/verkiezing-beheren/controleren-opslaan.md)
 
 # Achtergrond bij Abacus
 
