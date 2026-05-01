@@ -1,5 +1,7 @@
 # GSB: Invoer
 
+Onderstaande use cases gelden voor zowel een eerste als volgende zitting van het GSB, als voor CSO en DSO. Als een use case het over een "PV" (proces-verbaal) heeft, dan kun je in [Overzicht modellen en Abacus](./input-en-output/overzicht-modellen.md#gemeentelijk-stembureau) opzoeken over welke PVs het gaat.
+
 ## De coördinator GSB en de invoerders voeren alle gegevens in de applicatie in (vlieger)
 
 __Niveau:__ hoog-over, vlieger, 🪁
@@ -23,13 +25,13 @@ __Uitbreidingen:__
 2-3b. De telling van het stembureau moet worden gecorrigeerd nadat deze al twee keer was ingevoerd:  
 &emsp; 2-3b1. De coördinator GSB verwijdert de invoer van het stembureau.  
 &emsp; 2-3b2. De applicatie zet de invoer terug naar de initiële status.  
-&emsp; 2-3b3. De applicatie stelt vast dat het PV (DSO: Na 31-1, CSO: Na 31-2) en het tellingsbestand EML 510b van de zitting niet zijn gegenereerd.  
+&emsp; 2-3b3. De applicatie stelt vast dat het PV en het tellingsbestand EML 510b van de zitting niet zijn gegenereerd.  
 &emsp;&emsp; 2-3b3a. De applicatie stelt vast dat het PV en het tellingsbestand van de zitting zijn gegenereerd:  
 &emsp;&emsp;&emsp; 2-3b3a1. De applicatie verwijdert de gegenereerde documenten.  
 &emsp; 2-3b4. De coördinator GSB laat het stembureau twee keer invoeren.
 
 3a. De coördinator GSB voert deze gegevens nog niet in:  
-&emsp; 3a1. De applicatie dwingt af deze gegevens in te vullen, voordat het PV (DSO: Na 31-1, CSO: Na 31-2) en het tellingsbestand EML 510b gegenereerd kunnen worden.
+&emsp; 3a1. De applicatie dwingt af deze gegevens in te vullen, voordat het PV en het tellingsbestand EML 510b gegenereerd kunnen worden.
 
 4a. De applicatie stelt vast dat niet voor alle stembureaus de resultaten zijn ingevoerd:  
 &emsp; 4a1. De applicatie laat niet toe dat de coördinator GSB de invoer sluit.
@@ -46,16 +48,16 @@ __Niveau:__ hoog-over, vlieger, 🪁
 
 ### Hoofdscenario en uitbreidingen
 
-__Trigger:__ De coördinator GSB ontvangt een SB PV evt. met corrigendum.
+__Trigger:__ De coördinator GSB ontvangt een SB PV.
 
 __Hoofdscenario:__
 
-1. De coördinator GSB geeft het SB PV (DSO: N 10-1 evt. met Na 14-1 versie 1, CSO: Na 31-2 Bijlage 1) aan de eerste invoerder.
+1. De coördinator GSB geeft het SB PV aan de eerste invoerder.
 2. (tijdens invoer) De coördinator GSB monitort de voortgang op het statusoverzicht van de invoer.
 3. [De eerste invoerder voert de resultaten van de telling in.](#de-eerste-of-tweede-invoerder-voert-de-resultaten-van-de-telling-in-zee)
 4. De applicatie stelt vast dat de eerste invoer geen geaccepteerde fouten bevat.
 5. De applicatie stelt vast dat de eerste invoer geen geaccepteerde waarschuwingen bevat.
-6. De coördinator GSB geeft het SB PV (DSO: N 10-1 evt. met Na 14-1 versie 1, CSO: Na 31-2 Bijlage 1) aan de tweede invoerder.
+6. De coördinator GSB geeft het SB PV aan de tweede invoerder.
 7. [De tweede invoerder voert de resultaten van de telling in.](#de-eerste-of-tweede-invoerder-voert-de-resultaten-van-de-telling-in-zee)
 8. De applicatie stelt vast dat beide invoeren gelijk zijn.
 9. De applicatie stelt vast dat de tweede invoer geen geaccepteerde waarschuwingen bevat.
@@ -87,11 +89,9 @@ __Niveau:__ gebruikersdoel, zee, 🌊
 
 ### Hoofdscenario en uitbreidingen
 
-__Trigger:__ De coördinator GSB geeft het SB PV (DSO: N 10-1, CSO: Na 31-2 Bijlage 1) en eventueel SB corrigendum PV (DSO: Na 14-1 versie 1; CSO: n.v.t.) aan de invoerder.
-
 __Hoofdscenario:__
 
-1. De invoerder selecteert het stembureau van het PV (DSO: N 10-1 evt. met Na 14-1 versie 1, CSO: Na 31-2 Bijlage 1) in de applicatie.
+1. De invoerder selecteert het stembureau van het PV in de applicatie.
 2. De applicatie stelt vast dat er geen eerdere invoer voor het stembureau is opgeslagen.
 3. De invoerder neemt het proces-verbaal in de applicatie over.
 4. (tijdens invoer) De applicatie stelt vast dat de invoer voldoet aan
@@ -140,7 +140,7 @@ __Niveau:__ gebruikersdoel, zee, 🌊
 __Hoofdscenario:__
 
 1. De coördinator GSB bekijkt de verschillen tussen de twee invoeren.
-2. De coördinator GSB stelt vast dat één van de twee invoeren overeenkomt met het papier (DSO: N 10-1 evt. met Na 14-1 versie 1, CSO: Na 31-2 Bijlage 1).
+2. De coördinator GSB stelt vast dat één van de twee invoeren overeenkomt met het papieren PV.
 3. De coördinator GSB accepteert de correcte invoer en gooit de andere invoer weg.
 4. De applicatie behandelt de geaccepteerde invoer als een eerste invoer. (Dus bij nieuwe tweede invoer: waarschuwingen over verschillen met geaccepteerde invoer.)
 5. De coördinator GSB geeft het PV aan een invoerder om nogmaals in te voeren.
