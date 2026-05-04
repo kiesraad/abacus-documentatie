@@ -4,7 +4,7 @@ Verzamel de gegevens die je nodig hebt om een verkiezing toe te voegen. Zorg dat
 
 De EML-bestanden met de verkiezingsdefinitie en kandidatenlijsten komen uit de kandidaatstellingsmodule van OSV2020.
 
-- Als je het account voor de beheerder zojuist hebt aangemaakt, stuurt Abacus je direct naar de juiste pagina om de verkiezing toe te voegen. Als je nog niet op de juiste pagina bent, selecteer je **Verkiezingen beheren** in het hoofdmenu.
+- In het hoofdmenu selecteer je **Verkiezingen beheren**.
 - Selecteer **Verkiezing toevoegen**.
 
 ![Verkiezingen beheren - Verkiezing toevoegen](./img/verkiezing-toevoegen-csb.png)
