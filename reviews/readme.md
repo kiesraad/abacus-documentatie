@@ -8,3 +8,4 @@ Wanneer dit leidt tot een rapport wordt dit hier opgenomen, samen met de reactie
 1. SIG code review (maart 2025)
 2. Bureau Veritas beveiligingsonderzoek (juli 2025)
 3. Adviescollege ICT Toetsing (december 2025)
+4. GR26: beveiligingsonderzoek en toets op wettelijke kaders (februari 2026)
