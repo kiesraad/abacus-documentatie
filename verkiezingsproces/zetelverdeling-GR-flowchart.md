@@ -29,6 +29,9 @@ flowchart
     loting_volstrekte_meerderheid(loting)
     herverdeling_laatste_restzetel(herverdeling laatste restzetel)
 
+    overleden_kandidaten{"overleden<br/>kandidaten?"}
+    overleden_kandidaten_buiten_beschouwing("laat overleden kandidaten buiten beschouwing")
+
     lijstuitputting{"lijstuitputting?"}
     lijsten_met_vrije_kandidaten("selecteer lijsten met vrije kandidaten")
     herverdeling_vrijgekomen_zetels("herverdeel vrijgekomen zetels")
@@ -38,7 +41,7 @@ flowchart
     vaststellen_kiesdeler --> toewijzing_volle_zetels
     toewijzing_volle_zetels --> restzetels
 
-    restzetels -->|Nee| lijstuitputting
+    restzetels -->|Nee| overleden_kandidaten
     restzetels -->|Ja| grootste_gemiddelden
 
     subgraph grootste_gemiddelden["grootste gemiddelden"]
@@ -54,7 +57,7 @@ flowchart
 
     grootste_gemiddelden --> meerderheid_aan_stemmen_maar_niet_zetels
     meerderheid_aan_stemmen_maar_niet_zetels -->|Ja| volstrekte_meerderheid
-    meerderheid_aan_stemmen_maar_niet_zetels --->|Nee| lijstuitputting
+    meerderheid_aan_stemmen_maar_niet_zetels --->|Nee| overleden_kandidaten
 
     subgraph volstrekte_meerderheid["volstrekte meerderheid"]
         direction LR
@@ -64,7 +67,11 @@ flowchart
     end
     class volstrekte_meerderheid greyFill;
 
-    volstrekte_meerderheid --> lijstuitputting
+    volstrekte_meerderheid --> overleden_kandidaten
+
+    overleden_kandidaten -->|Nee| lijstuitputting
+    overleden_kandidaten -->|Ja| overleden_kandidaten_buiten_beschouwing
+    overleden_kandidaten_buiten_beschouwing --> lijstuitputting
     
     lijstuitputting -->|Ja| herverdeling_restzetels
     lijstuitputting --->|Nee| flow_end
@@ -121,6 +128,9 @@ flowchart
     loting_volstrekte_meerderheid(loting)
     herverdeling_laatste_restzetel(herverdeling laatste restzetel)
 
+    overleden_kandidaten{"overleden<br/>kandidaten?"}
+    overleden_kandidaten_buiten_beschouwing("laat overleden kandidaten buiten beschouwing")
+
     lijstuitputting{"lijstuitputting?"}
     lijsten_met_vrije_kandidaten("selecteer lijsten met vrije kandidaten")
     herverdeling_vrijgekomen_zetels("herverdeel vrijgekomen zetels")
@@ -130,7 +140,7 @@ flowchart
     vaststellen_kiesdeler --> toewijzing_volle_zetels
 
     toewijzing_volle_zetels --> restzetels
-    restzetels --->|Nee| lijstuitputting
+    restzetels --->|Nee| overleden_kandidaten
     restzetels -->|Ja| grootste_overschotten
 
     subgraph grootste_overschotten["grootste overschotten"]
@@ -174,7 +184,7 @@ flowchart
     grootste_gemiddelden_2 --> meerderheid_aan_stemmen_maar_niet_zetels
 
     meerderheid_aan_stemmen_maar_niet_zetels -->|Ja| volstrekte_meerderheid
-    meerderheid_aan_stemmen_maar_niet_zetels --->|Nee| lijstuitputting
+    meerderheid_aan_stemmen_maar_niet_zetels --->|Nee| overleden_kandidaten
 
     subgraph volstrekte_meerderheid["volstrekte meerderheid"]
         direction LR
@@ -184,7 +194,11 @@ flowchart
     end
     class volstrekte_meerderheid greyFill;
 
-    volstrekte_meerderheid ---> lijstuitputting
+    volstrekte_meerderheid ---> overleden_kandidaten
+
+    overleden_kandidaten -->|Nee| lijstuitputting
+    overleden_kandidaten -->|Ja| overleden_kandidaten_buiten_beschouwing
+    overleden_kandidaten_buiten_beschouwing --> lijstuitputting
 
     lijstuitputting -->|Ja| herverdeling_restzetels
     lijstuitputting --->|Nee| flow_end
