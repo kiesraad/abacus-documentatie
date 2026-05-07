@@ -1,7 +1,5 @@
 # Zetelverdeling gemeenteraadsverkiezingen
 
-Lijstuitputting kan voorkomen in de gele stappen.
-
 Als er er geen restzetels zijn, dus alle zetels toegekend worden tijdens "toewijzing volle zetels", dan zal een partij met een volstrekte meerderheid aan stemmen ook al de volstrekte meerderheid aan zetels hebben.
 
 
@@ -10,7 +8,6 @@ Als er er geen restzetels zijn, dus alle zetels toegekend worden tijdens "toewij
 ```mermaid
 flowchart
     %% styling
-    classDef lijstuitputting fill:#ffc943,stroke:#e8a302
     classDef greyFill fill:#eee,stroke:#bbb;
 
     %% elements
@@ -19,7 +16,6 @@ flowchart
 
     vaststellen_kiesdeler(vaststellen kiesdeler)
     toewijzing_volle_zetels(toewijzing volle zetels)
-    class toewijzing_volle_zetels lijstuitputting
 
     restzetels{"restzetel(s)?"}
 
@@ -27,20 +23,22 @@ flowchart
     voldoende_restzetels{voldoende<br/>restzetels?}
     loting_grootste_gemiddelden(loting)
     toewijzen_restzetels("toewijzen restzetel(s)")
-    class toewijzen_restzetels lijstuitputting
 
     meerderheid_aan_stemmen_maar_niet_zetels{lijst met<br/>>50% stemmen,<br/>maar niet<br/>>50% zetels?}
     laatste_restzetels_obv_gelijk_gemiddelde{laatste<br/>restzetels o.b.v.<br/>gelijk gemiddelde?}
     loting_volstrekte_meerderheid(loting)
     herverdeling_laatste_restzetel(herverdeling laatste restzetel)
-    class herverdeling_laatste_restzetel lijstuitputting
+
+    lijstuitputting{"lijstuitputting?"}
+    lijsten_met_vrije_kandidaten("selecteer lijsten met vrije kandidaten")
+    herverdeling_vrijgekomen_zetels("herverdeel vrijgekomen zetels")
 
     %% flow
     flow_start --> vaststellen_kiesdeler
     vaststellen_kiesdeler --> toewijzing_volle_zetels
     toewijzing_volle_zetels --> restzetels
 
-    restzetels -->|Nee| flow_end
+    restzetels -->|Nee| lijstuitputting
     restzetels -->|Ja| grootste_gemiddelden
 
     subgraph grootste_gemiddelden["grootste gemiddelden"]
@@ -56,7 +54,7 @@ flowchart
 
     grootste_gemiddelden --> meerderheid_aan_stemmen_maar_niet_zetels
     meerderheid_aan_stemmen_maar_niet_zetels -->|Ja| volstrekte_meerderheid
-    meerderheid_aan_stemmen_maar_niet_zetels --->|Nee| flow_end
+    meerderheid_aan_stemmen_maar_niet_zetels --->|Nee| lijstuitputting
 
     subgraph volstrekte_meerderheid["volstrekte meerderheid"]
         direction LR
@@ -66,7 +64,20 @@ flowchart
     end
     class volstrekte_meerderheid greyFill;
 
-    volstrekte_meerderheid ---> flow_end
+    volstrekte_meerderheid --> lijstuitputting
+    
+    lijstuitputting -->|Ja| herverdeling_restzetels
+    lijstuitputting --->|Nee| flow_end
+
+    subgraph herverdeling_restzetels["herverdeling (rest)zetels"]
+        direction LR
+        lijsten_met_vrije_kandidaten --> herverdeling_vrijgekomen_zetels
+        herverdeling@{ shape: comment, label: "Keer terug naar de situatie zoals die net voor de lijstuitputting was en ga vanaf dat punt verder." }
+        herverdeling_vrijgekomen_zetels ~~~ herverdeling
+    end
+    class herverdeling_restzetels greyFill;
+
+    herverdeling_restzetels ---> flow_end
 ```
 
 ## minder dan 19 zetels
@@ -83,7 +94,6 @@ flowchart
 
     vaststellen_kiesdeler(vaststellen kiesdeler)
     toewijzing_volle_zetels(toewijzing volle zetels)
-    class toewijzing_volle_zetels lijstuitputting
 
     restzetels{"restzetel(s)?"}
 
@@ -91,7 +101,6 @@ flowchart
     gelijke_overschotten{onvoldoende<br/>restzetels<br/>bij gelijk<br/>overschot?}
     loting_grootste_overschotten(loting)
     toewijzen_restzetels_gelijke_overschotten("toewijzen restzetel(s)")
-    class toewijzen_restzetels_gelijke_overschotten lijstuitputting
 
     restzetels_na_overschotten{"restzetel(s)<br/>over?"}
 
@@ -99,7 +108,6 @@ flowchart
     gelijke_gemiddelden_1{"onvoldoende<br/>restzetels<br/>bij gelijk<br/>gemiddelde?"}
     loting_grootste_gemiddelden_1(loting)
     toewijzen_restzetels_grootste_gemiddelden_1("toewijzen restzetel(s)")
-    class toewijzen_restzetels_grootste_gemiddelden_1 lijstuitputting
 
     restzetels_na_gemiddelden_1{"restzetel(s)<br/>over?"}
 
@@ -107,20 +115,22 @@ flowchart
     gelijke_gemiddelden_2{"onvoldoende<br/>restzetels<br/>bij gelijk<br/>gemiddelde?"}
     loting_grootste_gemiddelden_2(loting)
     toewijzen_restzetels_grootste_gemiddelden_2("toewijzen restzetel(s)")
-    class toewijzen_restzetels_grootste_gemiddelden_2 lijstuitputting
 
     meerderheid_aan_stemmen_maar_niet_zetels{lijst met<br/>>50% stemmen,<br/>maar niet<br/>>50% zetels?}
     laatste_restzetels_obv_gelijk_gemiddelde_of_overschot{laatste<br/>restzetels o.b.v.<br/>gelijk gemiddelde of<br/>gelijk overschot?}
     loting_volstrekte_meerderheid(loting)
     herverdeling_laatste_restzetel(herverdeling laatste restzetel)
-    class herverdeling_laatste_restzetel lijstuitputting
+
+    lijstuitputting{"lijstuitputting?"}
+    lijsten_met_vrije_kandidaten("selecteer lijsten met vrije kandidaten")
+    herverdeling_vrijgekomen_zetels("herverdeel vrijgekomen zetels")
 
     %% flow
     flow_start --> vaststellen_kiesdeler
     vaststellen_kiesdeler --> toewijzing_volle_zetels
 
     toewijzing_volle_zetels --> restzetels
-    restzetels --->|Nee| flow_end
+    restzetels --->|Nee| lijstuitputting
     restzetels -->|Ja| grootste_overschotten
 
     subgraph grootste_overschotten["grootste overschotten"]
@@ -164,7 +174,7 @@ flowchart
     grootste_gemiddelden_2 --> meerderheid_aan_stemmen_maar_niet_zetels
 
     meerderheid_aan_stemmen_maar_niet_zetels -->|Ja| volstrekte_meerderheid
-    meerderheid_aan_stemmen_maar_niet_zetels --->|Nee| flow_end
+    meerderheid_aan_stemmen_maar_niet_zetels --->|Nee| lijstuitputting
 
     subgraph volstrekte_meerderheid["volstrekte meerderheid"]
         direction LR
@@ -174,5 +184,19 @@ flowchart
     end
     class volstrekte_meerderheid greyFill;
 
-    volstrekte_meerderheid ---> flow_end
+    volstrekte_meerderheid ---> lijstuitputting
+
+    lijstuitputting -->|Ja| herverdeling_restzetels
+    lijstuitputting --->|Nee| flow_end
+
+    subgraph herverdeling_restzetels["herverdeling (rest)zetels"]
+        direction LR
+        lijsten_met_vrije_kandidaten --> herverdeling_vrijgekomen_zetels
+        herverdeling@{ shape: comment, label: "Keer terug naar de situatie zoals die net voor de lijstuitputting was en ga vanaf dat punt verder." }
+        herverdeling_vrijgekomen_zetels ~~~ herverdeling
+    end
+    class herverdeling_restzetels greyFill;
+
+    herverdeling_restzetels ---> flow_end
+    
 ```
