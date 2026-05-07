@@ -47,7 +47,7 @@ Het resultaat van delingen is een breuk, niet een decimaal.
 #### Stelsel grootste overschotten
 
 - Selecteer alle lijsten met \>= 75% van de kiesdeler aan stemmen
-- Overschot = stemtotaal van lijst - (kiesdeler * aantal zetels van de lijst)
+- Overschot = stemtotaal van lijst - (kiesdeler * aantal volle zetels van de lijst)
 - Ken restzetels toe o.b.v. overschotten van hoog naar laag, dus maximaal één zetel per partij
 - Bij gelijke overschotten van lijsten en minder restzetels dan lijsten met gelijk overschot: loting in zitting CSB
 
