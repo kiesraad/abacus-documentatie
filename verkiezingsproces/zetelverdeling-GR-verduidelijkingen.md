@@ -18,6 +18,13 @@ De volgorde van het aanwijzen maakt hier uit. Het PV moet melding maken van de l
 
 De resultaten van deze lotingen kunnen wel op hetzelfde scherm ingevoerd worden.
 
+## Hoe zit het met de tweede ronde grootste overschotten bij minder dan 19 zetels?
+Deze stap wordt niet expliciet in de wet beschreven. De stap is wel opgenomen in de formele beschrijving en is meermaals goedegekeurd in een onafhankelijke toetsing. Volledigheidshalve is het volgende opgemerkt:
+
+"Stap 4 eindigt met het theoretische scenario dat ook na toepassing van het stelsel van grootste gemiddelden nog zetels te verdelen over zijn. Volgens deze opmerking vervalt dan het vereiste dat aan elke lijst maar één restzetel toegewezen mag worden. Dit volgt niet uit de tekst van (art. P 8 van) de Kieswet. Niettemin is dit een logische gevolgtrekking, die voortvloeit uit het uitgangspunt dat alle zetels verdeeld moeten worden."
+
+Als er restzetels verdeeld worden in de tweede ronde grootste overschotten, dan komt hiervoor geen extra tabel in de P 22-2 van Abacus. Deze tweede ronde kan namelijk alleen voorkomen na lijstuitputting. Dus in de P 22-2 worden deze zetels weergegeven zoals alle andere zetels die worden toegewezen na lijstuitputting, dus in een voetnoot bij de stap waar de lijstuituptting plaatsvond.
+
 ## Wat als je op basis van art. P 9 (volstrekte meerderheid) een zetel weg moet halen bij de partij met de volstrekte meerderheid aan stemmen?
 
 Deze situatie kan niet voorkomen. Als je de volstrekte meerderheid aan stemmen hebt, kun je nooit twee zetels tekort komen voor de volstrekte meerderheid aan zetels. Dus ofwel heeft de partij met de volstrekte meerderheid aan stemmen een restzetel gekregen en daarmee een volstrekte meerderheid aan zetels, ofwel haalt P9 een restzetel weg van een andere partij om die aan de partij met de volstrekte meerderheid aan stemmen te geven.
