@@ -93,6 +93,9 @@ sb-wijzigen-verwijderen.md)
     - [Type stembureau](./beheerder-csb/verkiezing-beheren/type-stembureau.md)
     - [Kandidatenlijsten](./beheerder-csb/verkiezing-beheren/kandidatenlijsten.md)
     - [Controleren en opslaan](./beheerder-csb/verkiezing-beheren/controleren-opslaan.md)
+  - [Gebruikers beheren](./beheerder-csb/gebruikers-beheren/README.md)
+    - [Gebruiker toevoegen](./beheerder-csb/gebruikers-beheren/gebr-toevoegen.md)
+    - [Gebruiker wijzigen of verwijderen](./beheerder-csb/gebruikers-beheren/gebr-wijzigen-verwijderen.md)
 
 # Achtergrond bij Abacus
 
