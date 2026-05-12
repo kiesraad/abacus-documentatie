@@ -8,7 +8,7 @@ OSV2020 geeft in dit geval een zetelverdeling waarin 0 zetels worden toegewezen.
 
 ## Wat als er minder kandidaten zijn dan zetels?
 
-Dan moeten alle kandidaten benoemd worden en is er geen volledige gemeenteraad. Als minder dan de helft van de zetels gevuld kunnen worden, komt er een nieuwe verkiezing (maar dat is buiten beschouwing van onze software). Een alternatieve oplossing, is het geven van een error, zodat het buiten abacus geregeld kan worden. Deze situatie is namelijk niet specifiek in de wet geregeld.
+Dan moeten alle kandidaten benoemd worden en is er geen volledige gemeenteraad. Als minder dan de helft van de zetels gevuld kunnen worden, komt er een nieuwe verkiezing (maar dat is buiten beschouwing van onze software). Een alternatieve oplossing, is het geven van een error, zodat het buiten Abacus geregeld kan worden. Deze situatie is namelijk niet specifiek in de wet geregeld.
 
 ## Is de volgorde relevant voor loting bij gelijke overschotten, gemiddelden of voorkeurstemmen?
 
@@ -23,7 +23,7 @@ Deze stap wordt niet expliciet in de wet beschreven. De stap is wel opgenomen in
 
 "Stap 4 eindigt met het theoretische scenario dat ook na toepassing van het stelsel van grootste gemiddelden nog zetels te verdelen over zijn. Volgens deze opmerking vervalt dan het vereiste dat aan elke lijst maar één restzetel toegewezen mag worden. Dit volgt niet uit de tekst van (art. P 8 van) de Kieswet. Niettemin is dit een logische gevolgtrekking, die voortvloeit uit het uitgangspunt dat alle zetels verdeeld moeten worden."
 
-Als er restzetels verdeeld worden in de tweede ronde grootste overschotten, dan komt hiervoor geen extra tabel in de P 22-2 van Abacus. Deze tweede ronde kan namelijk alleen voorkomen na lijstuitputting. Dus in de P 22-2 worden deze zetels weergegeven zoals alle andere zetels die worden toegewezen na lijstuitputting, dus in een voetnoot bij de stap waar de lijstuituptting plaatsvond.
+Als er restzetels verdeeld worden in de tweede ronde grootste overschotten, dan komt hiervoor geen extra tabel in de P 22-2 van Abacus. Deze tweede ronde kan namelijk alleen voorkomen na lijstuitputting. Dus in de P 22-2 worden deze zetels weergegeven zoals alle andere zetels die worden toegewezen na lijstuitputting, dus in een voetnoot bij de stap waar de lijstuitputting plaatsvond.
 
 ## Wat als je op basis van art. P 9 (volstrekte meerderheid) een zetel weg moet halen bij de partij met de volstrekte meerderheid aan stemmen?
 
@@ -43,7 +43,7 @@ Dit betekent ook dat bij lijstuitputting, de applicatie terug moet gaan naar de 
 
 Dit mag bij het herverdelen van zetels o.b.v. lijstuitputting. Artikel P 10 zegt ook "[...] gaan de overblijvende zetel of zetels door voortgezette toepassing van die bepalingen over op één of meer van de overige lijsten, waarop kandidaten voorkomen aan wie geen zetel is toegewezen." Voorwaarde is wel dat dat Abacus duidelijk aangeeft waarom Abacus bepaalde lijsten heeft uitgesloten.
 
-Dus na het toepassen van art. P  9 (volstrekte meerderheid) en het buiten beschouwing laten van overleden kandidaten, worden zetels waarvoor een lijst geen kandidaat heeft, weggehaald. Die zetels worden herverdeeld waarbij lijsten waarvan het aantal kandidaten gelijk is aan het aantal toegewezen zetels worden uitgesloten.
+Dus na het toepassen van art. P 9 (volstrekte meerderheid) en het buiten beschouwing laten van overleden kandidaten, worden zetels waarvoor een lijst geen kandidaat heeft, weggehaald. Die zetels worden herverdeeld waarbij lijsten waarvan het aantal kandidaten gelijk is aan het aantal toegewezen zetels worden uitgesloten.
 
 ## Hoe werkt lijstuitputting in combinatie met art. P 9 (volstrekte meerderheid)?
 
@@ -57,8 +57,7 @@ Wat betreft het proces-verbaal hoort dan in de tabel komen te staan dat de laats
 
 ## Kan een lijst een negatief overschot hebben?
 
-Nee, voor de berekening van het overschot wordt het aantal stemmen gedeeld door de kiesdeler, zoals wordt besproken in Bijlage 2 van [dit Kamerstuk](https://zoek.officielebekendmakingen.nl/kst-34377-3.html). Of anders gezegd: het stemtotaal van de lijst verminderd met de kiesdeler maal het
-aantal volle zetels van de lijst.
+Nee, voor de berekening van het overschot wordt het aantal stemmen gedeeld door de kiesdeler, zoals wordt besproken in Bijlage 2 van [dit Kamerstuk](https://zoek.officielebekendmakingen.nl/kst-34377-3.html). Of anders gezegd: het stemtotaal van de lijst verminderd met de kiesdeler maal het aantal volle zetels van de lijst.
 
 Een zetel toegekend o.b.v. artikel P 9 wordt dus niet meegenomen in de berekening van het overschot. Daarmee is er geen scenario mogelijk waarin een lijst een negatief overschot heeft.
 
