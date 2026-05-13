@@ -9,6 +9,8 @@ Voor de volledigheid zijn het beveiligingsonderzoek en de toets op de wettelijke
 * [Beveiligingsonderzoek](https://www.kiesraad.nl/documenten/2026/02/02/rapport-pentest-abacus---gr26)
 * [Toets op de wettelijke kaders](https://www.kiesraad.nl/documenten/2026/02/02/toets-op-wettelijke-kaders-abacus-en-osv2020-u---gr26)
 
+Naar aanleiding van een vraag uit de community over de totstandkoming van de pentest is [meer informatie beschikbaar gemaakt](context-pentest). 
+
 ## Onderzoeken achteraf
 
 De toepassing van Abacus tijdens GR26 wordt geevalueerd. De resultaten hiervan worden hier opgenomen.
