@@ -1,8 +1,8 @@
-# Instructies voor de coördinator
+# Instructies voor de coördinator (centraal stembureau)
 
 Abacus is ontwikkeld om uitkomsten van stembureaus, hoofdstembureaus en het centraal stembureau bij elkaar op te tellen.
 Abacus controleert de optellingen, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen.
-In dit document leggen we uit hoe je Abacus gebruikt als coördinator bij het gemeentelijk stembureau.
+In dit document leggen we uit hoe je Abacus gebruikt als coördinator bij het centraal stembureau.
 
 Na het tellen van de stemmen wordt voor elk stembureau een proces-verbaal ingevuld.
 De invoerders nemen de cijfers van de processen-verbaal over in Abacus.

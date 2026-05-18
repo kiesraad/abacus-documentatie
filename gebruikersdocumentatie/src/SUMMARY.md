@@ -96,6 +96,9 @@ sb-wijzigen-verwijderen.md)
   - [Gebruikers beheren](./beheerder-csb/gebruikers-beheren/README.md)
     - [Gebruiker toevoegen](./beheerder-csb/gebruikers-beheren/gebr-toevoegen.md)
     - [Gebruiker wijzigen of verwijderen](./beheerder-csb/gebruikers-beheren/gebr-wijzigen-verwijderen.md)
+- [Instructies coördinator CSB](./coordinator-csb/README.md)
+  - [Zitting voorbereiden](./coordinator-csb/zitting-voorbereiden/README.md)
+    - [Gebruikers beheren](./coordinator-csb/zitting-voorbereiden/gebruikers-beheren.md)
 
 # Achtergrond bij Abacus
 

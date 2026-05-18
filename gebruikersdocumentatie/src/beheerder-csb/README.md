@@ -1,4 +1,4 @@
-# Instructies beheerder CSB
+# Instructies voor de beheerder (centraal stembureau)
 
 Abacus is ontwikkeld om uitkomsten van stembureaus, hoofdstembureaus en het centraal stembureau bij elkaar op te tellen. Abacus controleert de optellingen, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen. In dit document leggen we uit hoe je Abacus gebruikt als beheerder bij het centraal stembureau.
 
