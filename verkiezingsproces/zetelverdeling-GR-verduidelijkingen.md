@@ -50,10 +50,13 @@ Deze situatie kan niet voorkomen.
 Als je de volstrekte meerderheid aan stemmen hebt, kun je nooit twee zetels tekort komen voor de volstrekte meerderheid aan zetels. 
 Dus ofwel heeft de partij met de volstrekte meerderheid aan stemmen een restzetel gekregen en daarmee een volstrekte meerderheid aan zetels, ofwel haalt P9 een restzetel weg van een andere partij om die aan de partij met de volstrekte meerderheid aan stemmen te geven.
 
-## Op welk punt mogen we overleden kandidaten buiten beschouwing laten?
+## Hoe moeten we omgaan met overleden kandidaten?
 
-Overleden kandidaten moeten meegenomen worden voor lijstuitputting (art. P 10) wordt verwerkt. 
-Dus na het toepassen van art. P 9 (volstrekte meerderheid).
+Stemmen voor een overleden kandidaat tellen mee en worden op het PV als stemmen voor die kandidaat vermeld.
+
+In de zetelverdeling worden overleden kandidaten buiten beschouwing gelaten na het toepassen van art. P 9 (volstrekte meerderheid) en vóór het toepassen van lijstuitputting (art. P 10). Dit om te voorkomen dat je in een cirkel in je proces belandt.
+
+In de aanwijzing van de kandidaten worden overleden kandidaten vanaf het begin buiten beschouwing gelaten. Ze kunnen niet verkozen worden en worden dus niet vermeld in de rij van benoemden. Ze worden ook niet opgenomen in de rangschikking van de kandidaten. HiervoorDaarvoor wordt geen reden opgegeven op het PV.
 
 ## Op welk punt moeten we lijstuitputting toepassen?
 
