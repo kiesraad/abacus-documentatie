@@ -6,18 +6,18 @@ Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen.
 
 - Selecteer in het hoofdmenu **Gebruikers beheren**.
 
-![Gebruikers beheren als coördinator](./img/gebr-beh-coord-gsb.png)
+![Gebruikers beheren als coördinator](./img/gebr-beh-coord-csb.png)
 
 ## Gebruiker toevoegen
 
 - Selecteer **+ Gebruiker toevoegen**.
 - Kies eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de naam invoeren.
 
-![Alleen bij invoerder: type account selecteren](./img/gebr-toev-type-gsb.png)
+![Alleen bij invoerder: type account selecteren](./img/gebr-toev-type-csb.png)
 
 - Voer de gebruikersnaam, de volledige naam (behalve bij een anonieme invoerder) en een tijdelijk wachtwoord in. Bij de eerste keer inloggen moet de gebruiker het wachtwoord wijzigen.
 
-![Accountgegevens invoeren en opslaan](./img/gebr-toev-details-gsb.png)
+![Accountgegevens invoeren en opslaan](./img/gebr-toev-details-csb.png)
 
 ## Gebruiker wijzigen of verwijderen
 
@@ -25,4 +25,4 @@ Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen.
 - Wijzig de volledige naam of reset het wachtwoord. De gebruikersnaam en de rol kunnen niet gewijzigd worden.
 - Verwijder de gebruiker door onderaan het scherm **Gebruiker verwijderen** te selecteren.
 
-![Gebruiker wijzigen of verwijderen](./img/gebr-wijz-gsb.png)
+![Gebruiker wijzigen of verwijderen](./img/gebr-wijz-csb.png)
