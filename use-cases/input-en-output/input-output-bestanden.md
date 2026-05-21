@@ -153,7 +153,6 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 | Na 31-1            |  X  |     | PV GSB - 1ste zitting                       |         X         |                   |
 | Na 31-2            |     |  X  | PV GSB - 1ste zitting                       |         X         |                   |
 | Na 14-2            |  X  |  X  | Corrigendum GSB - 2de zitting               |         X         |                   |
-| P 2a               |  X  |  X  | Verslag 2de zitting GSB                     |                   |                   |
 | P 22-2             |  X  |  X  | PV CSB - einduitslag                        |                   |         X         |
 | P 22-2 Bijlage 1   |  X  |  X  | PV CSB - stemmen per lijst en per kandidaat |                   |         X         |
 
