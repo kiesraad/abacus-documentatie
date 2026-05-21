@@ -56,7 +56,7 @@ Stemmen voor een overleden kandidaat tellen mee en worden op het PV als stemmen 
 
 In de zetelverdeling worden overleden kandidaten buiten beschouwing gelaten na het toepassen van art. P 9 (volstrekte meerderheid) en vóór het toepassen van lijstuitputting (art. P 10). Dit om te voorkomen dat je in een cirkel in je proces belandt.
 
-In de aanwijzing van de kandidaten worden overleden kandidaten vanaf het begin buiten beschouwing gelaten. Ze kunnen niet verkozen worden en worden dus niet vermeld in de rij van benoemden. Ze worden ook niet opgenomen in de rangschikking van de kandidaten. HiervoorDaarvoor wordt geen reden opgegeven op het PV.
+In de aanwijzing van de kandidaten worden overleden kandidaten vanaf het begin buiten beschouwing gelaten. Ze kunnen niet verkozen worden en worden dus niet vermeld in de rij van benoemden. Ze worden ook niet opgenomen in de rangschikking van de kandidaten. Hiervoor wordt geen reden opgegeven op het PV.
 
 ## Op welk punt moeten we lijstuitputting toepassen?
 
