@@ -1,6 +1,6 @@
 # Gebruikers beheren
 
-Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen.
+Als coördinator kun je invoerders toevoegen, wijzigen of verwijderen.
 
 **Let op:** je kunt alleen invoerders beheren. Alleen een beheerder kan ook accounts met de rol van beheerder of coördinator beheren.
 
@@ -11,7 +11,7 @@ Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen.
 ## Gebruiker toevoegen
 
 - Selecteer **+ Gebruiker toevoegen**.
-- Kies eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de naam invoeren.
+- Kies eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen diens naam invoeren.
 
 ![Alleen bij invoerder: type account selecteren](./img/gebr-toev-type-csb.png)
 
