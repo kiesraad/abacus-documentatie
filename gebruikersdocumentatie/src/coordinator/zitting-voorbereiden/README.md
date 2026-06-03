@@ -4,6 +4,6 @@ Voordat de zitting kan beginnen, controleer je of alle gegevens kloppen. In het 
 
 ![Overzicht van geselecteerde verkiezing](./img/verkiez-select-gsb.png)
 
-Direct onder de zitting zie je alle gegevens over deze verkiezing.  Hier kun je ook de lege processen-verbaal downloaden.
+Direct onder de zitting zie je alle gegevens over deze verkiezing.  Hier kun je ook de lege processen-verbaal voor jouw zitting downloaden.
 
 ![Over deze verkiezing en lege processen-verbaal](./img/verkiez-over-gsb.png)
