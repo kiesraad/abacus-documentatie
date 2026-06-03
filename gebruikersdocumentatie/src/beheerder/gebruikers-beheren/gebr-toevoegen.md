@@ -9,7 +9,7 @@
 
 ![Type stembureau gebruiker](./img/gebr-toev-typesb-gsb.png)
 
-- Als de gebruiker een invoerder is, kies je eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de naam invoeren. Beheerders en coördinators zien dit scherm niet omdat deze accounts altijd op naam staan.
+- Als de gebruiker een invoerder is, kies je eerst of het account op naam staat of anoniem is. Een anoniem account blijft niet anoniem: de gebruiker moet bij de eerste keer inloggen altijd diens naam invoeren. Het is niet mogelijk anonieme accounts voor beheerders en coördinators te maken.
 
 ![Alleen bij invoerder: type account selecteren](./img/gebr-toev-type-gsb.png)
 
