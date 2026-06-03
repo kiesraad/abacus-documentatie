@@ -1,11 +1,9 @@
 # Instructies voor de coördinator (centraal stembureau)
 
-Abacus is ontwikkeld om uitkomsten van stembureaus, hoofdstembureaus en het centraal stembureau bij elkaar op te tellen.
-Abacus controleert de optellingen, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen.
+Abacus is ontwikkeld voor het gemeentelijk stembureau, hoofdstembureau en centraal stembureau, ter ondersteuning van het optellen van de stembureautotalen.
+De software controleert de handmatige tellingen en telt per niveau de resultaten van de onderliggende niveaus bij elkaar op, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen.
 In dit document leggen we uit hoe je Abacus gebruikt als coördinator bij het centraal stembureau.
 
-Na het tellen van de stemmen wordt voor elk stembureau een proces-verbaal ingevuld.
-De invoerders nemen de cijfers van de processen-verbaal over in Abacus.
-Als coördinator begeleid je de invoerders en help je waar mogelijk bij het oplossen van waarschuwingen, fouten en andere problemen bij de invoer.
+Eerst worden de getallen van het onderliggende stembureauniveau (GSB of HSB) geïmporteerd. Daarna kan een invoerder alle getallen nogmaals handmatig invoeren.
 
-Wanneer alle invoerders klaar zijn, rond je de invoerfase af en kun je het proces-verbaal samen met het EML-telbestand downloaden.
+Wanneer de invoer klaar is, rond je de invoerfase af. Abacus berekent dan de zetelverdeling. Na afronding kun je het proces-verbaal samen met het EML-telbestand downloaden.

@@ -1,7 +1,7 @@
 # Instructies voor de invoerder
 
-Abacus is ontwikkeld om de uitkomsten van alle stembureaus in de gemeente bij elkaar op te tellen.
-Abacus controleert de optellingen, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen.
+Abacus is ontwikkeld voor het gemeentelijk stembureau, hoofdstembureau en centraal stembureau, ter ondersteuning van het optellen van de stembureautotalen.
+De software controleert de handmatige tellingen en telt per niveau de resultaten van de onderliggende niveaus bij elkaar op, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen.
 In dit document leggen we uit hoe je Abacus gebruikt als invoerder.
 
 De uitslag van de telling van elk stembureau is vastgelegd in een proces-verbaal.
