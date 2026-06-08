@@ -123,7 +123,6 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 
 #### CSV-bestand met tellingen
 
-- niet in scope Abacus
 - tellingen GSB en SB's
 - worden gepubliceerd op de gemeentewebsite
 
@@ -133,6 +132,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 
 - `definitieve-documenten_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
   - `Model_Na31-2.pdf`
+  - `osv4-3_telling_gr2026_gemeentenaam.csv`
   - `Telling_GR2026_GemeenteNaam.zip`
     - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
 
@@ -141,6 +141,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 - `correctie_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
   - `Leeg_Model_P2a.pdf`
   - `Model_Na14-2.pdf` (als corrigendum)
+  - `osv4-3_telling_gr2026_gemeentenaam.csv`
   - `Telling_GR2026_GemeenteNaam.zip` (als corrigendum)
     - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
 
