@@ -123,7 +123,6 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 
 #### CSV-bestand met tellingen
 
-- niet in scope Abacus
 - tellingen GSB en SB's
 - worden gepubliceerd op de gemeentewebsite
 
