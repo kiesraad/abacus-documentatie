@@ -1,6 +1,6 @@
 # Gemeentelijk stembureau - Centrale stemopneming (CSO)
 
-Dit zijn alle foutmeldingen en waarschuwingen bij het gemeentelijk stembureau in gemeentes met centrale stemopneming (CSO).
+Dit zijn alle foutmeldingen en waarschuwingen die je kunt tegenkomen tijdens de invoer voor het gemeentelijk stembureau in gemeentes met centrale stemopneming (CSO).
 
 ## Fouten
 
@@ -277,4 +277,3 @@ Velden markeren: D en H
 > - Zo nee: verwijder het stembureau uit Abacus. Het proces-verbaal moet niet ingevoerd worden.
 
 Veld markeren: H
-

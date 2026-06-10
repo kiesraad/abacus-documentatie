@@ -1,6 +1,6 @@
 # Gemeentelijk stembureau - Decentrale stemopneming (DSO)
 
-Dit zijn alle foutmeldingen en waarschuwingen bij het gemeentelijk stembureau in gemeentes met decentrale stemopneming (DSO).
+Dit zijn alle foutmeldingen en waarschuwingen tijdens de invoer voor het gemeentelijk stembureau in gemeentes met decentrale stemopneming (DSO).
 
 ## Fouten
 
@@ -38,14 +38,12 @@ Dit zijn alle foutmeldingen en waarschuwingen bij het gemeentelijk stembureau in
 
 ### F.132: Controles en correcties: de set documenten is ongeldig (de vraag 'Zijn er gecorrigeerde telresultaten?' is beantwoord met 'Nee')
 
-> Invoerder: **Controleer je antwoorden**
->
+> Invoerder: **Controleer je antwoorden**  
 > Er is een corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' geen gecorrigeerde telresultaten.
 >
 > - Overleg met de coördinator.
 
 > Coördinator: **Onterecht corrigendum?**  
->
 > Er is een corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' geen gecorrigeerde telresultaten.
 >
 > - Als er geen gecorrigeerde telresultaten zijn, dan hoort er ook geen corrigendum te zijn.
@@ -72,7 +70,7 @@ Dit zijn alle foutmeldingen en waarschuwingen bij het gemeentelijk stembureau in
 
 > Invoerder: **Controleer je antwoorden**
 
-> Coördinator: **A en B tellen niet op tot D** (F.201)  
+> Coördinator: **A en B tellen niet op tot D**  
 > Controleer in rubriek 2.3 of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
 >
 > - Zo ja: herstel op papier de optelfout door bij D het juiste getal in te vullen.
@@ -342,4 +340,3 @@ Velden markeren: D en H
 > - Zo nee: verwijder het stembureau uit Abacus. Het proces-verbaal moet niet ingevoerd worden.
 
 Veld markeren: H
-

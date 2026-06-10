@@ -1,6 +1,6 @@
 # Foutcodes CSB
 
-Dit zijn alle foutmeldingen en waarschuwingen voor het centraal stembureau.
+Dit zijn alle foutmeldingen en waarschuwingen die je kunt tegenkomen tijdens de invoer voor het centraal stembureau.
 
 ## Fouten
 
@@ -78,7 +78,7 @@ Gemarkeerde velden: totaal van de lijst
 > Invoerder: **Controleer het totaal van de lijst**  
 > Als het totaal overeenkomt met het papieren proces-verbaal, controleer dan ook de waarde bij E.{x} bij *Aantal kiezers en stemmen*.
 
-> Coördinator: **Controleer het totaal van de lijst en E.{x} in rubriek 2.2**
+> Coördinator: **Controleer het totaal van de lijst en E.{x} in rubriek 2.2**  
 > Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
