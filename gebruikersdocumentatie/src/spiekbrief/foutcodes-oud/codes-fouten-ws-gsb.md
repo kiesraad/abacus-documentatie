@@ -1,6 +1,6 @@
-# Codes van fouten en waarschuwingen
+# Codes van fouten en waarschuwingen - GSB
 
-Hieronder staat een overzicht van de fouten en waarschuwingen die je kunt tegenkomen in Abacus en wat je kunt doen als invoerder en als coördinator.
+Dit is een overzicht van de fouten en waarschuwingen die je kunt tegenkomen in Abacus en wat je kunt doen als invoerder en als coördinator.
 
 ## Definities
 
