@@ -29,7 +29,10 @@
   - [Waarschuwingen en fouten](./spiekbrief/waarschuwingen-fouten.md)
   - [Tweede invoer](./spiekbrief/tweede-invoer.md)
   - [Pauzeren of afbreken](./spiekbrief/pauzeren-afbreken.md)
-  - [Codes van fouten en waarschuwingen](./spiekbrief/codes-fouten-ws.md)
+  - [Codes van fouten en waarschuwingen](./spiekbrief/foutcodes/README.md)
+    - [Gemeentelijk stembureau - Centrale stemopneming (CSO)](./spiekbrief/foutcodes/foutcodes-gsb-cso.md)
+    - [Gemeentelijk stembureau - Decentrale stemopneming (DSO)](./spiekbrief/foutcodes/foutcodes-gsb-dso.md)
+    - [Centraal stembureau](./spiekbrief/foutcodes/foutcodes-csb.md)
 
 # Gemeentelijk stembureau
 
@@ -70,7 +73,6 @@ sb-wijzigen-verwijderen.md)
     - [Bevindingen en invoerfase](./coordinator/nieuwe-zitting/bevindingen-invoerfase.md)
     - [Nieuwe zitting afronden](./coordinator/nieuwe-zitting/afronden.md)
   - [Activiteitenlog](./coordinator/activiteitenlog.md)
-  - [Codes van fouten en waarschuwingen](./coordinator/codes-fouten-ws.md)
 - [Instructies invoerder](./invoerder/README.md)
   - [Inloggen en account instellen](./invoerder/inloggen-account.md)
   - [Stembureau invoeren](./invoerder/stembureau-invoeren/README.md)
