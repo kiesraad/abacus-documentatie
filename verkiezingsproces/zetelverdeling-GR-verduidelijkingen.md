@@ -4,15 +4,14 @@
 
 Dit is niet expliciet in de wet geregeld. Voorkeursoplossing is een error teruggeven.
 
-OSV2020 geeft in dit geval een zetelverdeling waarin 0 zetels worden toegewezen. 
-In dat opzicht kun je dit geval ook zien als een variant op de situatie waarin er onvoldoende verkozen kandidaten zijn om alle zetels toe te kunnen wijzen.
+OSV2020 geeft in dit geval een zetelverdeling waarin 0 zetels worden toegewezen.
 
 ## Wat als er minder kandidaten zijn dan zetels?
 
-Dan moeten alle kandidaten benoemd worden en is er geen volledige gemeenteraad. 
+Deze situatie is niet specifiek in de wet geregeld. De situatie kan wel worden voorzien, aangezien de kandidaten al ruim voor de dag van stemming bekend zijn.
+
+Als er minder kandidaten dan zetels zijn, dan moeten alle kandidaten benoemd worden en is er geen volledige gemeenteraad. Abacus moet deze situatie dus ondersteunen.
 Als minder dan de helft van de zetels gevuld kunnen worden, komt er een nieuwe verkiezing (maar dat is buiten beschouwing van onze software). 
-Een alternatieve oplossing, is het geven van een error, zodat het buiten Abacus geregeld kan worden. 
-Deze situatie is namelijk niet specifiek in de wet geregeld.
 
 ## Is de volgorde relevant voor loting bij gelijke overschotten, gemiddelden of voorkeurstemmen?
 
@@ -63,8 +62,8 @@ In de aanwijzing van de kandidaten worden overleden kandidaten vanaf het begin b
 De wet schrijft voor dat lijstuitputting onderdeel is van zetelverdeling, dus vóór het aanwijzen van kandidaten.
 
 Dit betekent ook dat bij lijstuitputting, de applicatie terug moet gaan naar de toekenning van de zetel waar de lijstuitputting voor wordt vastgesteld tijdens de aanwijzing van de kandidaten. 
-Vanaf dat punt moet de applicatie dan de zetelverdeling opnieuw berekenen. 
-Let wel: dit komt (vrijwel?) nooit voor. Realistischer scenario is lijstuitputting nadat kandidaten hun zetel weigeren.
+Vanaf dat punt moet de applicatie dan de zetelverdeling opnieuw berekenen.
+Let wel: lijstuitputting tijdens zetelverdeling is relatief zeldzaam. Een realistischer scenario is lijstuitputting nadat kandidaten hun zetel weigeren.
 
 ## Wanneer mogen we lijsten uitsluiten die geen vrije kandidaten hebben?
 
@@ -92,7 +91,7 @@ Wat betreft het proces-verbaal hoort dan in de tabel komen te staan dat de laats
 Nee, voor de berekening van het overschot wordt het aantal stemmen gedeeld door de kiesdeler, zoals wordt besproken in Bijlage 2 van [dit Kamerstuk](https://zoek.officielebekendmakingen.nl/kst-34377-3.html). 
 Of anders gezegd: het stemtotaal van de lijst verminderd met de kiesdeler maal het aantal volle zetels van de lijst.
 
-Een zetel toegekend o.b.v. artikel P 9 wordt dus niet meegenomen in de berekening van het overschot. 
+Een zetel toegekend o.b.v. artikel P 9 wordt niet meegenomen in de berekening van het overschot, aangezien deze eventuele toewijzing pas na de restzetelverdeling plaatsvindt. 
 Daarmee is er geen scenario mogelijk waarin een lijst een negatief overschot heeft.
 
 ## Kan een lijst een restzetel krijgen als de lijst wel 75% of meer van de kiesdeler aan stemmen heeft gehaald, maar die lijst bij het berekenen van de overschotten een overschot van 0 heeft?
@@ -100,6 +99,8 @@ Daarmee is er geen scenario mogelijk waarin een lijst een negatief overschot hee
 Artikel P 8 van de Kieswet schrijft voor dat bij minder dan 19 zetels de restzetels moeten worden verdeeld op basis van de grootste overschotten. 
 In dit artikel staat ook dat lijsten zonder overschot worden gezien als lijsten met het kleinste overschot.
 De lijst kan dus een restzetel krijgen met een overschot van 0.
+
+Let wel: een lijst kan alleen een overschot van 0 hebben als het aantal stemmen van de lijst een veelvoud is van de kiesdeler. Dus een lijst met minder dan 100% van de kiesdeler aan stemmen, zal nooit een overschot van 0 hebben.
 
 ## Kan een lijst die een zetel heeft gekregen o.b.v. P 9 extra zetels krijgen vanwege lijstuitputting?
 
