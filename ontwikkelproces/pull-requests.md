@@ -17,7 +17,7 @@ Beschrijf in de PR (zie ook het [PR-template](https://github.com/kiesraad/abacus
 
 ## Reviewen van een PR
 
-In een review nemen we alle [kwaliteitsattributen](/documentatie/ontwikkelproces/testen-en-kwaliteit.md#kwaliteitsattributen) uit "Testen en kwaliteit" mee:
+In een review nemen we alle [kwaliteitsattributen](testen-en-kwaliteit.md#kwaliteitsattributen) uit "Testen en kwaliteit" mee:
 - betrouwbaarheid
 - bruikbaarheid
 - beveiliging

@@ -21,7 +21,7 @@ Er zijn meerdere manieren om deze stappen te zetten.
 
 - Schrijf de code:
     - Implementeer de functionaliteit die wordt beschreven in het issue.
-    - Test de functionaliteit, schrijf zover zinvol tests (unit, integration etc).
+    - Test de functionaliteit, schrijf voor zover mogelijk zinvolle tests (unit, integration etc).
     - Push ook tussentijdse commits naar GitHub.
     - Dit project gebruikt [Lefthook] om de Git pre-commit hook te beheren.
       Lefthook moet daarvoor worden [geïnstalleerd][lefthook-install], waarna
@@ -47,6 +47,6 @@ Er zijn meerdere manieren om deze stappen te zetten.
 
 [draft pull request]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests
 [Lefthook]: https://github.com/evilmartians/lefthook
-[lefthook-install]: https://lefthook.dev/installation/
+[lefthook-install]: https://lefthook.dev/install/
 [merge queue]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request-with-a-merge-queue
-["Pull Requests (PRs)"]: /documentatie/ontwikkelproces/pull-requests.md
+["Pull Requests (PRs)"]: pull-requests.md
