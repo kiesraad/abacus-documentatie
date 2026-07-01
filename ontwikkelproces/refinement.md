@@ -32,4 +32,4 @@ De details van een issue kunnen vaak wachten totdat je aan het issue zelf begint
 
 Houd er rekening mee dat het verder uitschrijven van een issue niet alleen handig voor jezelf is, maar ook voor de reviewers van je PR. (In dat opzicht kan een gedeelte van de beschrijving ook in de PR i.p.v. het issue.)
 
-Alle stappen voor het werken aan issue staan beschreven in onze [GitHub-werkwijze](/documentatie/ontwikkelproces/GitHub-werkwijze.md).
+Alle stappen voor het werken aan issue staan beschreven in onze [GitHub-werkwijze](GitHub-werkwijze.md).

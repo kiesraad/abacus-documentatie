@@ -2,7 +2,7 @@
 
 Doel van dit document is beschrijven welke tooling we voor welke tests gebruiken.
 
-De nadruk in dit document ligt op testautomatisering, maar zoals in ons ["Testen en kwaliteit"](./testen-en-kwaliteit.md)-document staat: *"handmatig en automatisch testen gaan samen"*.
+De nadruk in dit document ligt op testautomatisering, maar zoals in ons ["Testen en kwaliteit"](testen-en-kwaliteit.md)-document staat: *"handmatig en automatisch testen gaan samen"*.
 
 Tests uitgevoerd door externe partijen (pen test, wettelijke toets) zijn niet opgenomen in dit document.
 
