@@ -15,13 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: check
-        uses: kiesraad/cla-bot@99048d3d89305bee35b3903b124878e5864855e8 # main
+        uses: kiesraad/cla-bot@40435ce736a10b83ace6f708a8e3d364052fd8e7 # main
         with:
           contributors-repository-owner: kiesraad
           contributors-repository-name: abacus
           contributors-file: contributors.yml
       - if: failure() && steps.check.outputs.missing
-        uses: marocchino/sticky-pull-request-comment@67d0dec7b07ed060a405f9b2a64b8ab319fdd7db # v2
+        uses: marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0 # v3.0.4
         with:
           message: |
             Hi ${{steps.check.outputs.missing}}!
@@ -31,6 +31,6 @@ jobs:
             Please [review the CLA](https://github.com/kiesraad/abacus/blob/main/CLA.md), and send your signed copy to abacus[@]kiesraad.nl. Thanks!
 
       - if: success()
-        uses: marocchino/sticky-pull-request-comment@67d0dec7b07ed060a405f9b2a64b8ab319fdd7db # v2
+        uses: marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0 # v3.0.4
         with:
           delete: true

@@ -25,7 +25,7 @@ Het bouwen van een nieuwe feature begint bij het verzamelen van input. Vele soor
 
 De planning is de fase waarin we de verzamelde input vertalen naar epics en issues. We besluiten of we er iets mee gaan
 doen en zo ja, hoe we dit gaan uitvoeren. De issues zijn niet overdreven specifiek: er is veel ruimte voor eigen inbreng
-en refinement. Voor een beschrijving van hoe we epics en issues uitwerken, zie ons [refinement-document](/documentatie/ontwikkelproces/refinement.md).  
+en refinement. Voor een beschrijving van hoe we epics en issues uitwerken, zie ons [refinement-document](refinement.md).  
 Als het nodig is overleggen we geplande features ook met het hogere management en/of de leden van de Kiesraad.
 
 In de tweewekelijkse planningsmeeting wordt een duidelijk overzicht gemaakt van alle geplande taken. Alle taken en
@@ -39,7 +39,7 @@ Het aanmaken van een nieuw GitHub-issue voor een feature of change request gebeu
 
 ### Ontwikkeling
 
-Voor de ontwikkeling via GitHub werken we met issues die zijn opgenomen in epics. Aan issues in de 'Current' kolom van het bord kan worden gewerkt. Maak een nieuwe branch aan op basis van de main branch en schrijf de code die je wilt maken. Test je functionaliteit door zover zinvol tests te schrijven. Denk hierbij aan unittests, integration tests enzovoorts. Als je code en de tests klaar zijn en geschikt zijn voor review, maak dan een pull request aan. Wijs reviewers aan. Na review en approval kan de code worden gemerged. Een uitgebreidere beschrijving is te vinden in het document over [de werkwijze op GitHub](</documentatie/ontwikkelproces/GitHub-werkwijze.md>).
+Voor de ontwikkeling via GitHub werken we met issues die zijn opgenomen in epics. Aan issues in de 'Current' kolom van het bord kan worden gewerkt. Maak een nieuwe branch aan op basis van de main branch en schrijf de code die je wilt maken. Test je functionaliteit door zover zinvol tests te schrijven. Denk hierbij aan unittests, integration tests enzovoorts. Als je code en de tests klaar zijn en geschikt zijn voor review, maak dan een pull request aan. Wijs reviewers aan. Na review en approval kan de code worden gemerged. Een uitgebreidere beschrijving is te vinden in het document over [de werkwijze op GitHub](<GitHub-werkwijze.md>).
 
 ### Releases
 
@@ -63,7 +63,7 @@ aantal wijzigingen tussen de getoetste en de definitieve versie minimaal blijft.
 Een release moet aan een aantal vereisten voldoen:
 
 - Alle issues en epics in de milestone voor de release zijn klaar.
-- Alle functionaliteit is voldoende getest, zie [Testen en kwaliteit](</documentatie/ontwikkelproces/testen-en-kwaliteit.md>).
+- Alle functionaliteit is voldoende getest, zie [Testen en kwaliteit](testen-en-kwaliteit.md).
 - De formele checks zijn geslaagd (pentest en [toets op de wettelijke kaders](https://zoek.officielebekendmakingen.nl/stb-2025-172.html))
 - Alle documentatie is bijgewerkt voor de wijzigingen in deze release.
 - De release is voorzien van release notes.
