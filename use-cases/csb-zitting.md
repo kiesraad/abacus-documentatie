@@ -11,7 +11,7 @@ __Hoofdscenario:__
 1. Het CSB ontvangt het GSB PV incl. bijlagen (DSO: Na 31-1, CSO: Na 31-2) van de burgemeester.
 2. Het CSB ontvangt alle overige documenten (PVs, onderliggende PVs, corrigenda, tellingsbestand EML 510b) van het GSB en controleert ze op volledigheid.
 3. Het CSB stelt vast dat het GSB PV geen aanleiding geeft tot een terugverwijzing. (controleprotocol deel A)
-4. [Het CSB voert de tellingen van het GSB in.](./csb-invoer-zitting.md#het-csb-voert-de-tellingen-van-het-gsb-in-vlieger)
+4. [Het CSB voert de tellingen van het GSB in.](./csb-invoer.md#het-csb-voert-de-tellingen-van-het-gsb-in-vlieger)
 5. Het CSB voert het controleprotocol optellingen uit. (controleprotocol deel B)
 6. [Het CSB stelt de zetelverdeling vast en wijst de gekozen kandidaten aan.](#het-csb-stelt-de-zetelverdeling-vast-en-wijst-de-gekozen-kandidaten-aan-vlieger)
 7. De applicatie genereert de benodigde bestanden: PV P 22-2, tellingsbestanden EML 510d, EML 520.
@@ -88,8 +88,11 @@ __Uitbreidingen:__
 &emsp; 2d1a. Er zijn te weinig kandidaten om alle aan lijsten toegewezen zetels te vullen:  
 &emsp;&emsp; 2d1a1. De applicatie toont een foutmelding om contact op te nemen met de Kiesraad.
 
-3a. Er zijn minder beschikbare zetels dan kandidaten met gelijke behaalde (voorkeur)stemmen:  
+3a. Er zijn kandidaten met gelijke behaalde voorkeurstemmen en genoeg beschikbare zetels:
 &emsp; 3a1. Het CSB kent de zetel(s) bij loting toe.
+
+3b. Er zijn minder beschikbare zetels dan kandidaten met gelijke behaalde voorkeurstemmen:  
+&emsp; 3b1. Het CSB kent de zetel(s) bij loting toe.
 
 ### Buiten scope
 - Er is een voorgestelde wetswijziging dat lijsten de kiesdeler moeten halen om een restzetel te kunnen krijgen. De minister is voornemens de vragen in het verslag wetsvoorstel te beantwoorden na de gemeenteraadsverkiezingen van 2026. Deze wetswijziging gaat dus niet in vóór GR 2026.
