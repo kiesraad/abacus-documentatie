@@ -30,7 +30,6 @@ De brondocumenten van de gebruikersdocumentatie zijn te vinden in deze repositor
 - Verkiezingsproces:
   - [Verloop van verkiezingen](./verkiezingsproces/verloop-verkiezingen.md)
   - [Wie doet welke stembureaus](./verkiezingsproces/wie-doet-welke-stembureaus.md)
-  - [Zetelverdeling voor gemeenteraadsverkiezingen](./verkiezingsproces/zetelverdeling-GR.md)
 
 ## Testdocumenten
 
