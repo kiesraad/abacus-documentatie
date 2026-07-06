@@ -67,8 +67,9 @@ Zie ook [Zetelverdeling en aanwijzing kandidaten bij gemeenteraadsverkiezingen](
 __Hoofdscenario:__
 
 1. Het CSB markeert overleden kandidaten.
-2. Het CSB stelt de zetelverdeling vast.
-3. Het CSB wijst de gekozen kandidaten aan.
+2. De applicatie stelt de zetelverdeling vast.
+3. De applicatie wijst de gekozen kandidaten aan.
+4. De applicatie rangschikt de kandidaten.
 
 __Uitbreidingen:__
 
@@ -88,11 +89,14 @@ __Uitbreidingen:__
 &emsp; 2d1a. Er zijn te weinig kandidaten om alle aan lijsten toegewezen zetels te vullen:  
 &emsp;&emsp; 2d1a1. De applicatie toont een foutmelding om contact op te nemen met de Kiesraad.
 
-3a. Er zijn kandidaten met gelijke behaalde voorkeurstemmen en genoeg beschikbare zetels:
-&emsp; 3a1. Het CSB kent de zetel(s) bij loting toe.
+3a. Er zijn kandidaten met een gelijk aantal stemmen, hoger dan de voorkeursdrempel:  
+&emsp; 3aa. Er zijn voldoende beschikbare zetels voor de kandidaten met gelijk aantal stemmen:  
+&emsp;&emsp; 3aa1. Het CSB kent de zetels bij loting toe.  
+&emsp; 3ab. Er zijn minder beschikbare zetels dan kandidaten met gelijk aantal stemmen:  
+&emsp;&emsp; 3ab1. Het CSB kent de beschikbare zetel(s) bij loting toe.
 
-3b. Er zijn minder beschikbare zetels dan kandidaten met gelijke behaalde voorkeurstemmen:  
-&emsp; 3b1. Het CSB kent de zetel(s) bij loting toe.
+4a. Er zijn niet-gekozen kandidaten met een aantal stemmen hoger dan de voorkeursdrempel:  
+&emsp; 4a1. De niet-gekozen kandidaten worden gerangschikt o.b.v. de volgorde van de lijst.
 
 ### Buiten scope
 - Er is een voorgestelde wetswijziging dat lijsten de kiesdeler moeten halen om een restzetel te kunnen krijgen. De minister is voornemens de vragen in het verslag wetsvoorstel te beantwoorden na de gemeenteraadsverkiezingen van 2026. Deze wetswijziging gaat dus niet in vóór GR 2026.
