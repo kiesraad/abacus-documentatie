@@ -1,8 +1,12 @@
-# Berekening van de zetelverdeling
+# Vaststelling van de verkiezingsuitslag
+
+Bij de vaststelling van de verkiezingsuitslag wordt de zetelverdeling berekend en worden alle zetels aan kandidaten toegewezen volgens de regels in [hoofdstuk P van de Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01#AfdelingII_HoofdstukP).
 
 Op de pagina **Zetelverdeling** staat precies aangegeven hoe de zetelverdeling is berekend en op welke manier de (rest)zetels zijn toegekend.
 
-Bovenaan staan de kengetallen, met onder andere het opkomstpercentage, de kiesdeler en de voorkeursdrempel. Als het nodig is kun je de overleden kandidaten nog aanpassen door op **Beheer overleden kandidaten** te klikken.
+Bovenaan staan de kengetallen, met onder andere het opkomstpercentage, de kiesdeler en de voorkeursdrempel.
+
+- Als het nodig is kun je de overleden kandidaten nog aanpassen door op **Beheer overleden kandidaten** te klikken. De zetelverdeling wordt dan opnieuw gedaan en eventuele lotingen moeten ook opnieuw worden ingevoerd.
 
 ![Kengetallen](./img/kengetallen.png)
 

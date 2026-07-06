@@ -109,7 +109,7 @@
   - [Verschil tussen eerste en tweede invoer](./coordinator-csb/verschil-invoer.md)
   - [Zitting afronden en proces-verbaal opmaken](./coordinator-csb/zitting-afronden/README.md)
     - [Overleden kandidaten](./coordinator-csb/zitting-afronden/overleden-kandidaten.md)
-    - [Berekening van de zetelverdeling](./coordinator-csb/zitting-afronden/zetelverdeling.md)
+    - [Vaststelling van de verkiezingsuitslag](./coordinator-csb/zitting-afronden/verkiezingsuitslag.md)
     - [Loting en naar proces-verbaal](./coordinator-csb/zitting-afronden/loting-pv.md)
     - [Documenten downloaden](./coordinator-csb/zitting-afronden/docs-downloaden.md)
   - [Activiteitenlog](./coordinator-csb/activiteitenlog.md)

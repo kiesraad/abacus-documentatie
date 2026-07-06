@@ -8,7 +8,7 @@ In sommige gevallen kunnen niet alle restzetels automatisch worden toegewezen en
 
 ## Naar loting
 
-- Klik op **Naar loting** om de loting direct uit te voeren. Voor meer details klik je eerst op **Details restzetelverdeling** en dan op **Ga naar loting**.
+- Klik op **Naar loting** om het resultaat van de loting in te voeren. Voor meer details klik je eerst op **Details restzetelverdeling** en dan op **Ga naar loting**.
 - De loting vindt buiten Abacus plaats, in aanwezigheid van alle leden van het centraal stembureau.
 - Voer het resultaat van de loting in door het juiste keuzerondje te selecteren en klik op **Volgende**.
 - Herhaal de bovenstaande stappen voor alle te verdelen restzetels.
