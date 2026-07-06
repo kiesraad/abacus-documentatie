@@ -11,7 +11,7 @@ Ons team werkt volgens deze principes:
 
 Voor meer informatie over onze werkwijzen kun je de volgende links bekijken:
 
-- De [werkwijze op GitHub](https://github.com/kiesraad/abacus/blob/main/documentatie/ontwikkelproces/GitHub-werkwijze.md)
-- Het [proces voor ontwikkeling en releases](https://github.com/kiesraad/abacus/blob/main/documentatie/ontwikkelproces/proces-ontwikkeling-en-releases.md)
-- De [methode voor refinement](https://github.com/kiesraad/abacus/blob/main/documentatie/ontwikkelproces/refinement.md)
-- De [tools](https://github.com/kiesraad/abacus/blob/main/documentatie/ontwikkelproces/test-tooling.md) die het team gebruikt voor tests en hoe we omgaan met [testen en kwaliteit](https://github.com/kiesraad/abacus/blob/main/documentatie/ontwikkelproces/testen-en-kwaliteit.md)
+- De [werkwijze op GitHub](https://github.com/kiesraad/abacus-documentatie/blob/main/ontwikkelproces/GitHub-werkwijze.md)
+- Het [proces voor ontwikkeling en releases](https://github.com/kiesraad/abacus-documentatie/blob/main/ontwikkelproces/proces-ontwikkeling-en-releases.md)
+- De [methode voor refinement](https://github.com/kiesraad/abacus-documentatie/blob/main/ontwikkelproces/refinement.md)
+- De [tools](https://github.com/kiesraad/abacus-documentatie/blob/main/ontwikkelproces/test-tooling.md) die het team gebruikt voor tests en hoe we omgaan met [testen en kwaliteit](https://github.com/kiesraad/abacus-documentatie/blob/main/ontwikkelproces/testen-en-kwaliteit.md)
