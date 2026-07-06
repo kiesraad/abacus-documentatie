@@ -1,5 +1,7 @@
 # Zitting starten
 
-Wanneer de zitting is aangemaakt, kan de invoer in Abacus beginnen. Abacus heeft de status *Klaar voor steminvoer*. Staat de verkiezing nog op *Zitting voorbereiden*, controleer dan nogmaals of je alle stappen ter voorbereiding van de zitting hebt uitgevoerd.
+De zitting heeft nu de status *Klaar voor invoer*. Klik op de knop **Start invoer** om de zitting te starten. Nu kunnen de invoerders aan de slag.
 
-Laat alle aantallen twee keer invoeren door twee verschillende gebruikers. Zodra de eerste invoer is begonnen, verandert de status van de verkiezing in *Steminvoer bezig*.
+![De invoer starten](./img/start-invoer-csb.png)
+
+Laat alle aantallen twee keer invoeren door twee verschillende invoerders. Zodra de eerste invoer is begonnen, verandert de status van de verkiezing in *Steminvoer bezig*.
