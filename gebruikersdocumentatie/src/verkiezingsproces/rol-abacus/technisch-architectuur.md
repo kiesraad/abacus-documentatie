@@ -8,8 +8,8 @@ De backend wordt gemaakt met Rust, een high-level programmeertaal waarmee je eff
 
 Voor de database wordt SQLite gebruikt. Deze library is populair, lichtgewicht en gebruiksvriendelijk voor developers, en bovendien is SQLite een '[zero-configuration database](https://www.sqlite.org/zeroconf.html)'. Dit betekent dat installeren niet nodig is, zodat de developer meteen aan de slag kan.
 
-Voor meer informatie over onze keuzes en de onderbouwingen hiervan lees je het document [Overwegingen talen en frameworks](https://github.com/kiesraad/abacus/blob/main/documentatie/softwarearchitectuur/overwegingen-talen-en-frameworks.md).
+Voor meer informatie over onze keuzes en de onderbouwingen hiervan lees je het document [Overwegingen talen en frameworks](https://github.com/kiesraad/abacus-documentatie/blob/main/softwarearchitectuur/overwegingen-talen-en-frameworks.md).
 
-Voor de architectuur kun je beginnen bij het [Overzicht van de softwarearchitectuur](https://github.com/kiesraad/abacus/blob/main/documentatie/softwarearchitectuur/Overzicht.md).
+Voor de architectuur kun je beginnen bij het [Overzicht van de softwarearchitectuur](https://github.com/kiesraad/abacus-documentatie/blob/main/softwarearchitectuur/Overzicht.md).
 
 De UI/UX designs vind je in onze [Figma](https://www.figma.com/design/xHDfsv69Nhmk3IrWC0303B/Public---Kiesraad---Abacus-optelsoftware?node-id=3190-28385&t=VnghjibSJMqrQepm-1).
