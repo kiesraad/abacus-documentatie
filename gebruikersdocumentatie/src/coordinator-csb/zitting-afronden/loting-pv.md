@@ -4,7 +4,7 @@ Als alle zetels zijn toegewezen, hoef je niets meer te doen en kun je direct doo
 
 In sommige gevallen kunnen niet alle restzetels automatisch worden toegewezen en is loting nodig. In een geel vak staat aangegeven waarom de loting noodzakelijk is en hoeveel restzetels op deze manier moeten worden toegewezen.
 
-![Loting is noodzakelijk](./img/loting%20noodzakelijk.png)
+![Loting is noodzakelijk](./img/loting-noodzakelijk.png)
 
 ## Naar loting
 
