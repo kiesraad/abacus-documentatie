@@ -1,6 +1,6 @@
 # Vaststelling van de verkiezingsuitslag
 
-Bij de vaststelling van de verkiezingsuitslag wordt de zetelverdeling berekend en worden alle zetels aan kandidaten toegewezen volgens de regels in [hoofdstuk P van de Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01#AfdelingII_HoofdstukP).
+Bij de vaststelling van de verkiezingsuitslag wordt de zetelverdeling berekend en worden alle zetels aan kandidaten toegewezen volgens de regels van de Kieswet.
 
 Op de pagina **Zetelverdeling** staat precies aangegeven hoe de zetelverdeling is berekend en op welke manier de (rest)zetels zijn toegekend.
 
