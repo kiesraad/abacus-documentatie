@@ -28,9 +28,10 @@ De brondocumenten van de gebruikersdocumentatie zijn te vinden in deze repositor
   - [Validatieregels en plausibiliteitschecks voor invoer tellingen](./use-cases/validatieregels-plausibiliteitschecks-tellingen.md)
   - [Input- en output-bestanden](./use-cases/input-en-output/input-output-bestanden.md)
 - Verkiezingsproces:
+  - [Zetelverdeling gemeenteraadsverkiezingen](./verkiezingsproces/zetelverdeling-GR-flowchart.md) (flowchart)
+  - [Verduidelijkingen zetelverdeling](./verkiezingsproces/zetelverdeling-GR-verduidelijkingen.md)
   - [Verloop van verkiezingen](./verkiezingsproces/verloop-verkiezingen.md)
   - [Wie doet welke stembureaus](./verkiezingsproces/wie-doet-welke-stembureaus.md)
-  - [Zetelverdeling voor gemeenteraadsverkiezingen](./verkiezingsproces/zetelverdeling-GR.md)
 
 ## Testdocumenten
 

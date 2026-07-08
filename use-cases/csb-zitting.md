@@ -62,8 +62,6 @@ __Niveau:__ hoog-over, vlieger, 🪁
 
 ### Hoofdscenario en uitbreidingen
 
-Zie ook [Zetelverdeling en aanwijzing kandidaten bij gemeenteraadsverkiezingen](../verkiezingsproces/zetelverdeling-GR.md)
-
 __Hoofdscenario:__
 
 1. Het CSB markeert overleden kandidaten.
