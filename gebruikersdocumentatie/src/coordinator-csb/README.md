@@ -1,6 +1,6 @@
 # Instructies voor de coördinator (centraal stembureau)
 
-Abacus is ontwikkeld ter ondersteuning van het optellen van stembureautotalen.
+Abacus is ontwikkeld ter ondersteuning van het optellen van stembureautotalen en het vaststellen van de verkiezingsuitslag.
 De software controleert de handmatige tellingen en telt per niveau de resultaten van de onderliggende niveaus bij elkaar op, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen.
 
 In dit document leggen we uit hoe je Abacus gebruikt als coördinator bij het centraal stembureau.
