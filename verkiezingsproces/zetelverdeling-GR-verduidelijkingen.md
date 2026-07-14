@@ -31,14 +31,11 @@ De resultaten van deze lotingen kunnen wel op hetzelfde scherm ingevoerd worden.
 
 ## Wanneer moet er loting plaatsvinden bij kandidaten met een gelijk aantal voorkeurstemmen?
 
-Als er nog één of meer zetels beschikbaar zijn voor de lijst, dan moet er geloot worden. Op grond van artikel P 15, eerste lid, van de Kieswet wordt er geloot als aantallen gelijk zijn. Aangezien er verder geen uitzonderingen zijn vermeld, geldt dit dus altijd wanneer er gelijke aantallen zijn. 
+Er moet loting plaatsvinden als er niet voldoende zetels zijn voor kandidaten met een gelijk aantal voorkeurstemmen. Het lot bepaalt dan per zetel welke kandidaat verkozen wordt en daarmee de volgorde van de verkozen kandidaten.
 
-Dus uitgewerkt in een aantal voorbeelden:
--	Twee kandidaten met hetzelfde aantal voorkeurstemmen en twee zetels beschikbaar: loting om te bepalen welke zetel naar welke kandidaat gaat.
--	Twee kandidaten met hetzelfde aantal voorkeurstemmen en één zetel beschikbaar: loting om te bepalen welke van de twee kandidaten de zetel krijgt.
--	Drie kandidaten met hetzelfde aantal voorkeurstemmen en twee zetels beschikbaar: twee keer loting, één loting per zetel.
+Als er voldoende restzetels zijn voor kandidaten met gelijk aantal voorkeurstemmen, dan worden deze kandidaten verkozen op volgorde van de lijst.
 
-Als er kandidaten zijn met hetzelfde aantal voorkeurstemmen, maar die geen van allen verkozen worden, omdat er geen beschikbare zetels meer zijn voor de lijst, dan bepaalt de lijstvolgorde de volgorde in de rangschikking van de kandidaten.
+Hetzelfde geldt voor het rangschikken van niet-verkozen kandidaten met een gelijk aantal voorkeurstemmen. Ook hier gebeurt dit op volgorde van de lijst.
 
 ## Hoe zit het met de tweede ronde grootste gemiddelden bij minder dan 19 zetels?
 Deze stap wordt niet expliciet in de wet beschreven. 
