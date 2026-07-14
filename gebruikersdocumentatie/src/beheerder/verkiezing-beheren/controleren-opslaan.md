@@ -5,6 +5,8 @@
 
 ![Controleren en opslaan](./img/verkiezing-toevoegen-controleren-opslaan.png)
 
-De verkiezing is nu toegevoegd. Als je de lijst met stembureaus ook hebt toegevoegd, is de verkiezing klaar voor steminvoer. Als dit nog niet gebeurd is, heeft de verkiezing de status *Zitting voorbereiden*. De steminvoer kan pas beginnen nadat de stembureaus zijn toegevoegd.
+De verkiezing is nu toegevoegd en is zichtbaar in de lijst met verkiezingen.
 
-![Verkiezingen beheren](./img/verkiezingen-beheren.png)
+![Verkiezingen toegevoegd](./img/verkiezingen-toegevoegd.png)
+
+Voor het **gemeentelijk stembureau** geldt: als je de lijst met stembureaus ook hebt toegevoegd, is de verkiezing klaar voor steminvoer. Als dit nog niet gebeurd is, heeft de verkiezing de status *Zitting voorbereiden*. De steminvoer kan pas beginnen nadat de stembureaus zijn toegevoegd.
