@@ -9,4 +9,4 @@ De verkiezing is nu toegevoegd en is zichtbaar in de lijst met verkiezingen.
 
 ![Verkiezingen toegevoegd](./img/verkiezingen-toegevoegd.png)
 
-Voor het **gemeentelijk stembureau** geldt: als je de lijst met stembureaus ook hebt toegevoegd, is de verkiezing klaar voor steminvoer. Als dit nog niet gebeurd is, heeft de verkiezing de status *Zitting voorbereiden*. De steminvoer kan pas beginnen nadat de stembureaus zijn toegevoegd.
+Voor het **gemeentelijk stembureau** geldt dat de verkiezing pas klaar is voor invoer als je de lijst met stembureaus ook hebt toegevoegd. Als dit nog niet gebeurd is, heeft de verkiezing de status *Zitting voorbereiden*.

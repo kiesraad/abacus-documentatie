@@ -10,8 +10,10 @@ Als het aantal kiesgerechtigden in de gemeente **niet** in de EML 110b staat, zo
 ## Verkiezing toevoegen
 
 - In het hoofdmenu selecteer je **Verkiezingen beheren**.
-- Selecteer onderaan of bovenaan de pagina **Verkiezing toevoegen**.
+- Selecteer onderaan de pagina **Verkiezing toevoegen**.
 
-![Verkiezingen beheren - Verkiezing toevoegen - nog geen verkiezingen ingesteld](./img/verkiez-toev-nieuw.png)
+![Verkiezingen beheren - Verkiezing toevoegen - nog geen verkiezingen ingesteld](./img/verkiezing-toevoegen-eerste.png)
+
+- Als er al verkiezingen aanwezig zijn, selecteer je bovenaan de pagina **+ Verkiezing toevoegen**.
 
 ![Verkiezingen beheren - Verkiezing toevoegen - verkiezingen aanwezig](./img/verkiezing-toevoegen.png)

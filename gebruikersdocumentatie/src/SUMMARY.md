@@ -34,9 +34,9 @@
     - [Gemeentelijk stembureau - Decentrale stemopneming (DSO)](./spiekbrief/foutcodes/foutcodes-gsb-dso.md)
     - [Centraal stembureau](./spiekbrief/foutcodes/foutcodes-csb.md)
 
-# Beheerder GSB
+# Instructies beheerder
 
-- [Instructies beheerder](./beheerder/README.md)
+- [Instructies voor de beheerder](./beheerder/README.md)
   - [Account voor beheerder aanmaken](./beheerder/account-beheerder.md)
   - [Verkiezing toevoegen en beheren](./beheerder/verkiezing-beheren/README.md)
     - [Verkiezingsdefinitie](./beheerder/verkiezing-beheren/verkiezingsdefinitie.md)
@@ -55,19 +55,7 @@
   - [Back-ups](./beheerder/backups.md)
   - [Activiteitenlog](./beheerder/activiteitenlog.md)
 
-## Beheerder CSB
-
-- [Instructies beheerder CSB](./beheerder-csb/README.md)
-  - [Verkiezing toevoegen en beheren](./beheerder-csb/verkiezing-beheren/README.md)
-    - [Verkiezingsdefinitie](./beheerder-csb/verkiezing-beheren/verkiezingsdefinitie.md)
-    - [Type stembureau](./beheerder-csb/verkiezing-beheren/type-stembureau.md)
-    - [Kandidatenlijsten](./beheerder-csb/verkiezing-beheren/kandidatenlijsten.md)
-    - [Controleren en opslaan](./beheerder-csb/verkiezing-beheren/controleren-opslaan.md)
-  - [Gebruikers beheren](./beheerder-csb/gebruikers-beheren/README.md)
-    - [Gebruiker toevoegen](./beheerder-csb/gebruikers-beheren/gebr-toevoegen.md)
-    - [Gebruiker wijzigen of verwijderen](./beheerder-csb/gebruikers-beheren/gebr-wijzigen-verwijderen.md)
-
-# Coördinator en invoerder - gemeentelijk stembureau
+# Instructies coördinator en invoerder GSB
 
 - [Instructies coördinator GSB](./coordinator/README.md)
   - [Inloggen en account instellen](./coordinator/inloggen-account.md)
@@ -101,7 +89,7 @@
   - [Pauzeren of afbreken](./invoerder/pauzeren-afbreken.md)
   - [Extra zitting: corrigendum invoeren](./invoerder/extra-zitting-corrigendum.md)
 
-# Coördinator en invoerder - centraal stembureau
+# Instructies coördinator en invoerder CSB
 
 - [Instructies coördinator CSB](./coordinator-csb/README.md)
   - [Inloggen en account instellen](./coordinator-csb/inloggen-account.md)
