@@ -31,9 +31,9 @@ De resultaten van deze lotingen kunnen wel op hetzelfde scherm ingevoerd worden.
 
 ## Wanneer moet er loting plaatsvinden bij kandidaten met een gelijk aantal voorkeurstemmen?
 
-Er moet loting plaatsvinden als er niet voldoende zetels zijn voor alle kandidaten met een gelijk aantal voorkeurstemmen. Het lot bepaalt dan welke kandidaten verkozen worden.
+Er moet loting plaatsvinden als er niet voldoende zetels zijn voor kandidaten met een gelijk aantal voorkeurstemmen. Het lot bepaalt dan welke kandidaten verkozen worden en in welke volgorde.
 
-Als er voldoende restzetels zijn voor alle kandidaten met gelijk aantal voorkeurstemmen, dan worden de kandidaten verkozen op volgorde van de lijst.
+Als er voldoende restzetels zijn voor kandidaten met gelijk aantal voorkeurstemmen, dan worden deze kandidaten verkozen op volgorde van de lijst.
 
 Hetzelfde geldt voor het rangschikken van niet-verkozen kandidaten met een gelijk aantal voorkeurstemmen. Ook hier gebeurt dit op volgorde van de lijst.
 
