@@ -1,4 +1,4 @@
-# Gemeentelijk stembureau: stembureaus beheren
+# Stembureaus beheren (gemeentelijk stembureau)
 
 Wanneer je een verkiezing toevoegt voor het gemeentelijk stembureau, kun je stembureaus ook handmatig toevoegen, wijzigen en verwijderen om ervoor te zorgen dat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd.
 Dit is ook handig als de gemeente een klein aantal stembureaus heeft en er geen EML-bestand met stembureaus (EML 110b) aanwezig is.

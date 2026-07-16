@@ -8,4 +8,4 @@ Voeg de kandidatenlijsten toe:
 ![Kandidatenlijsten importeren](./img/verkiezing-toevoegen-kandidatenlijsten.png)
 
 - Als je een verkiezing toevoegt voor het *gemeentelijk stembureau*, ga je door naar de volgende stap.
-- Als je een verkiezing toevoegt voor het *centraal stembureau*, ga je direct door naar [Controleren en opslaan](controleren-opslaan.md).
+- Als je een verkiezing toevoegt voor het *centraal stembureau*, ga je direct door naar [Controleren en opslaan](controleren-opslaan.md). **Let op**: bij een verkiezing voor het centraal stembureau zie je aan de linkerkant van het scherm niet alle stappen in de bovenstaande afbeelding, maar alleen de stappen die relevant zijn voor het centraal stembureau.

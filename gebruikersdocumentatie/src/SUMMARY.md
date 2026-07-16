@@ -46,7 +46,7 @@
     - [Type stemopneming](./beheerder/verkiezing-beheren/type-stemopneming.md)
     - [Aantal kiesgerechtigden](./beheerder/verkiezing-beheren/kiesgerechtigden.md)
     - [Controleren en opslaan](./beheerder/verkiezing-beheren/controleren-opslaan.md)
-  - [Stembureaus beheren](./beheerder/stembureaus-beheren/README.md)
+  - [Stembureaus beheren (gemeentelijk stembureau)](./beheerder/stembureaus-beheren/README.md)
     - [Stembureau toevoegen](./beheerder/stembureaus-beheren/sb-toevoegen.md)
     - [Stembureau wijzigen of verwijderen](./beheerder/stembureaus-beheren/sb-wijzigen-verwijderen.md)
   - [Gebruikers beheren](./beheerder/gebruikers-beheren/README.md)
