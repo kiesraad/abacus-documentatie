@@ -32,7 +32,7 @@ In sommige gevallen kunnen niet alle restzetels automatisch worden toegewezen en
 
 ## Naar proces-verbaal
 
-- Wanneer alle zetels zijn toegewezen, klik je op **Naar proces-verbaal**. Als de details van de zitting nog niet zijn ingevoerd, doe je dit nu. Daarna selecteer je nogmals **Naar proces-verbaal**.
+- Wanneer alle zetels zijn toegewezen, klik je op **Naar proces-verbaal**. Als de details van de zitting nog niet zijn ingevoerd, doe je dit nu. Daarna selecteer je nogmaals **Naar proces-verbaal**.
 - Als je toch nog iets wil wijzigen, klik je op **Zetelverdeling opnieuw doen**. Je kunt dan de overleden kandidaten en de loting van restzetels opnieuw invoeren.
 
 ![Alle zetels zijn toegewezen](./img/alle-zetels-toegewezen.png)
