@@ -1,5 +1,5 @@
 # Gebruiksvriendelijkheid
-Omdat er niet al te vaak verkiezingen zijn, maken de gebruikers slechts korte tijd gebruik van verkiezingssoftware. Daarom is het van groot belang dat Abacus zo gebruiksvriendelijk mogelijk is en proberen we de invoer zo intuitief mogelijk te maken:
+Omdat er niet al te vaak verkiezingen zijn, maken de gebruikers slechts korte tijd gebruik van verkiezingssoftware. Daarom is het van groot belang dat Abacus zo gebruiksvriendelijk mogelijk is en proberen we de invoer zo intuïtief mogelijk te maken:
 
 - Er worden regelmatige gebruikerstests gedaan met echte gebruikers.
 - De invoer wordt in kleinere secties gedaan met een validatiecheck na elke invoer.

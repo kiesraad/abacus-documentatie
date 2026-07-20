@@ -34,9 +34,9 @@
     - [Gemeentelijk stembureau - Decentrale stemopneming (DSO)](./spiekbrief/foutcodes/foutcodes-gsb-dso.md)
     - [Centraal stembureau](./spiekbrief/foutcodes/foutcodes-csb.md)
 
-# Gemeentelijk stembureau
+# Instructies beheerder
 
-- [Instructies beheerder](./beheerder/README.md)
+- [Instructies voor de beheerder](./beheerder/README.md)
   - [Account voor beheerder aanmaken](./beheerder/account-beheerder.md)
   - [Verkiezing toevoegen en beheren](./beheerder/verkiezing-beheren/README.md)
     - [Verkiezingsdefinitie](./beheerder/verkiezing-beheren/verkiezingsdefinitie.md)
@@ -46,7 +46,7 @@
     - [Type stemopneming](./beheerder/verkiezing-beheren/type-stemopneming.md)
     - [Aantal kiesgerechtigden](./beheerder/verkiezing-beheren/kiesgerechtigden.md)
     - [Controleren en opslaan](./beheerder/verkiezing-beheren/controleren-opslaan.md)
-  - [Stembureaus beheren](./beheerder/stembureaus-beheren/README.md)
+  - [Stembureaus beheren (gemeentelijk stembureau)](./beheerder/stembureaus-beheren/README.md)
     - [Stembureau toevoegen](./beheerder/stembureaus-beheren/sb-toevoegen.md)
     - [Stembureau wijzigen of verwijderen](./beheerder/stembureaus-beheren/sb-wijzigen-verwijderen.md)
   - [Gebruikers beheren](./beheerder/gebruikers-beheren/README.md)
@@ -54,7 +54,10 @@
     - [Gebruiker wijzigen of verwijderen](./beheerder/gebruikers-beheren/gebr-wijzigen-verwijderen.md)
   - [Back-ups](./beheerder/backups.md)
   - [Activiteitenlog](./beheerder/activiteitenlog.md)
-- [Instructies coördinator](./coordinator/README.md)
+
+# Instructies coördinator en invoerder GSB
+
+- [Instructies coördinator GSB](./coordinator/README.md)
   - [Inloggen en account instellen](./coordinator/inloggen-account.md)
   - [Zitting voorbereiden](./coordinator/zitting-voorbereiden/README.md)
     - [Aantal kiesgerechtigden wijzigen](./coordinator/zitting-voorbereiden/kiesgerechtigden.md)
@@ -72,7 +75,7 @@
     - [Bevindingen en invoerfase](./coordinator/nieuwe-zitting/bevindingen-invoerfase.md)
     - [Nieuwe zitting afronden](./coordinator/nieuwe-zitting/afronden.md)
   - [Activiteitenlog](./coordinator/activiteitenlog.md)
-- [Instructies invoerder](./invoerder/README.md)
+- [Instructies invoerder GSB](./invoerder/README.md)
   - [Inloggen en account instellen](./invoerder/inloggen-account.md)
   - [Stembureau invoeren](./invoerder/stembureau-invoeren/README.md)
     - [Verkiezing en stembureau selecteren](./invoerder/stembureau-invoeren/verkiezing-sb-selecteren.md)
@@ -86,17 +89,8 @@
   - [Pauzeren of afbreken](./invoerder/pauzeren-afbreken.md)
   - [Extra zitting: corrigendum invoeren](./invoerder/extra-zitting-corrigendum.md)
 
-# Centraal stembureau
+# Instructies coördinator en invoerder CSB
 
-- [Instructies beheerder CSB](./beheerder-csb/README.md)
-  - [Verkiezing toevoegen en beheren](./beheerder-csb/verkiezing-beheren/README.md)
-    - [Verkiezingsdefinitie](./beheerder-csb/verkiezing-beheren/verkiezingsdefinitie.md)
-    - [Type stembureau](./beheerder-csb/verkiezing-beheren/type-stembureau.md)
-    - [Kandidatenlijsten](./beheerder-csb/verkiezing-beheren/kandidatenlijsten.md)
-    - [Controleren en opslaan](./beheerder-csb/verkiezing-beheren/controleren-opslaan.md)
-  - [Gebruikers beheren](./beheerder-csb/gebruikers-beheren/README.md)
-    - [Gebruiker toevoegen](./beheerder-csb/gebruikers-beheren/gebr-toevoegen.md)
-    - [Gebruiker wijzigen of verwijderen](./beheerder-csb/gebruikers-beheren/gebr-wijzigen-verwijderen.md)
 - [Instructies coördinator CSB](./coordinator-csb/README.md)
   - [Inloggen en account instellen](./coordinator-csb/inloggen-account.md)
   - [Zitting voorbereiden](./coordinator-csb/zitting-voorbereiden/README.md)

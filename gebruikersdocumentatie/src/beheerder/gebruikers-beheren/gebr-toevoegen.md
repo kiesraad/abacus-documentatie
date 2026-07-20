@@ -5,7 +5,7 @@
 
 ![Rol van de gebruiker](./img/gebr-toev-rol.png)
 
-- Selecteer het type stembureau waarvoor de gebruiker een rol krijgt. In dit geval selecteer je **gemeentelijk stembureau (GSB)**.
+- Selecteer het type stembureau waarvoor de gebruiker een rol krijgt: **gemeentelijk stembureau (GSB)** of **centraal stembureau (CSB)**.
 
 ![Type stembureau gebruiker](./img/gebr-toev-typesb-gsb.png)
 
