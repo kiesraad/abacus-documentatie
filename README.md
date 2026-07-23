@@ -24,7 +24,7 @@ De brondocumenten van de gebruikersdocumentatie zijn te vinden in deze repositor
   - [Overzicht van de softwarearchitectuur](./softwarearchitectuur/Overzicht.md)
 - Use cases:
   - [Readme usecases](./use-cases/README.md)
-  - [Autorisatiematrix Gemeenteraadsverkiezingen](./use-cases/autorisatiematrix.md)
+  - [Autorisatiematrix](./use-cases/autorisatiematrix.md)
   - [Validatieregels en plausibiliteitschecks voor invoer tellingen](./use-cases/validatieregels-plausibiliteitschecks-tellingen.md)
   - [Input- en output-bestanden](./use-cases/input-en-output/input-output-bestanden.md)
 - Verkiezingsproces:
