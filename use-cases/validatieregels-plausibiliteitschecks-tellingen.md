@@ -172,30 +172,30 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 | code  | regel | GSB CSO | GSB DSO | CSB |
 | ----- | ----- | :-----: | :-----: | :-: |
-| F.201 | stempassen + volmachten <> totaal toegelaten kiezers                                                     | X | X | X |
+| F.201 | stempassen + volmachten + kiezerspassen <> totaal toegelaten kiezers                                                     | X | X | X |
 | F.202 | E.1 t/m E.n tellen niet op naar E                                                                        | X | X | X |
 | F.203 | stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen         | X | X | X |
 | F.204 | De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en E = leeg of 0                                   | X | X | X |
 
-#### F.201 `stempassen + volmachten <> totaal toegelaten kiezers`
+#### F.201 `stempassen + volmachten + kiezerspassen <> totaal toegelaten kiezers`
 
 > Invoerder (GSB CSO, GSB DSO, CSB): **Controleer je antwoorden** (F.201)
 
-> Coördinator (GSB CSO): **A en B tellen niet op tot D** (F.201)  
+> Coördinator (GSB CSO): **A, B en C tellen niet op tot D** (F.201)  
 > Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
 > - Zo ja: herstel op papier de optelfout door bij D het juiste getal in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
-> Coördinator (GSB DSO): **A en B tellen niet op tot D** (F.201)  
+> Coördinator (GSB DSO): **A, B en C tellen niet op tot D** (F.201)  
 > Controleer in rubriek 2.3 of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
 > - Zo ja: herstel op papier de optelfout door bij D het juiste getal in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
-> Coördinator (CSB): **A en B tellen niet op tot D** (F.201)  
+> Coördinator (CSB): **A, B en C tellen niet op tot D** (F.201)  
 > Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
-Velden markeren: A, B en D
+Velden markeren: A, B, C en D
 
 #### F.202 (Als F.204 niet getoond wordt) `E.1 t/m E.n tellen niet op naar E`
 
