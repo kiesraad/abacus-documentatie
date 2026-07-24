@@ -183,12 +183,12 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 > Invoerder (GSB CSO, GSB DSO, CSB): **Controleer je antwoorden** (F.201)
 
-> Coördinator (GSB CSO): (GR) **A, B en C tellen niet op tot D** (F.201)  
+> Coördinator (GSB CSO): **A, B en C tellen niet op tot D** (F.201)  
 > Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
 > - Zo ja: herstel op papier de optelfout door bij D het juiste getal in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
-> Coördinator (GSB DSO): (GR) **A, B en C tellen niet op tot D** (F.201)  
+> Coördinator (GSB DSO): **A, B en C tellen niet op tot D** (F.201)  
 > Controleer in rubriek 2.3 of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
 > - Zo ja: herstel op papier de optelfout door bij D het juiste getal in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
