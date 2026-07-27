@@ -1,8 +1,9 @@
 # Verschillen in de zetelverdeling tussen OSV2020 en Abacus
 
-Er zijn twee verschillen in de implementatie van zetelverdeling tussen OSV2020 en Abacus. Deze verschillen betreffen een uiterst zeldzame situatie en een dat geen verschil in de uitkomst oplevert:
+Er zijn een aantal verschillen in de implementatie van zetelverdeling tussen OSV2020 en Abacus. Deze verschillen betreffen uiterst zeldzame situaties en geven geen verschil in de uitkomst:
 1. Verdeling van restzetels bij minder dan 19 zetels en toepassing van zowel P 9 als P 10
 2. Toewijzing restzetels aan uitgeputte lijsten na lijstuitputting
+3. Volgorde van toewijzen van zetels aan gekozen kandidaten bij gelijk aantal stemmen
 
 De verschillen en gevolgen ervan staan hieronder beschreven.
 
