@@ -12,6 +12,7 @@ Er zijn meerdere manieren om deze stappen te zetten.
     - Bedenk of het issue duidelijk genoeg is om te implementeren.
       Zijn er architectuur-overwegingen die afgestemd moeten worden?
       Betrek bij twijfel het team voordat je code gaat schrijven.
+    - We werken met [signed commits], richt je client hierop in.
 
 - Maak een nieuwe branch aan op basis van de main branch:
     - `git checkout -b <branch name>`
@@ -46,6 +47,7 @@ Er zijn meerdere manieren om deze stappen te zetten.
     - Klik op 'Merge when ready' om te mergen via de [merge queue].
 
 [draft pull request]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests
+[signed commits]: https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits
 [Lefthook]: https://github.com/evilmartians/lefthook
 [lefthook-install]: https://lefthook.dev/install/
 [merge queue]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request-with-a-merge-queue
