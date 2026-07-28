@@ -24,5 +24,5 @@ Als alles klopt, is de invoer van het stembureau compleet.
 ## Centraal stembureau
 
 Het proces-verbaal van het gemeentelijk stembureau moet twee keer met de hand worden ingevoerd door twee verschillende invoerders.
-Ook bij deze invoer volg je de instructies en overleg je met je coördinator bij fouten of waarschuwingen.
+Ook tijdens de invoer bij het centraal stembureau volg je de instructies en overleg je met je coördinator bij fouten of waarschuwingen.
 Wanneer de invoer klaar is, rondt de coördinator de invoerfase af. Abacus berekent dan de zetelverdeling en genereert het proces-verbaal samen met het EML-telbestand.

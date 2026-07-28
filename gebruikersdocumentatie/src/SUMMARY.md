@@ -57,7 +57,7 @@
 
 # Instructies coördinator GSB
 
-- [Instructies coördinator GSB](./coordinator/README.md)
+- [Instructies coördinator (gemeentelijk stembureau)](./coordinator/README.md)
   - [Inloggen en account instellen](./coordinator/inloggen-account.md)
   - [Zitting voorbereiden](./coordinator/zitting-voorbereiden/README.md)
     - [Aantal kiesgerechtigden wijzigen](./coordinator/zitting-voorbereiden/kiesgerechtigden.md)
@@ -78,7 +78,7 @@
 
 # Instructies coördinator CSB
 
-- [Instructies coördinator CSB](./coordinator-csb/README.md)
+- [Instructies coördinator (centraal stembureau)](./coordinator-csb/README.md)
   - [Inloggen en account instellen](./coordinator-csb/inloggen-account.md)
   - [Zitting voorbereiden](./coordinator-csb/zitting-voorbereiden/README.md)
     - [Gebruikers beheren](./coordinator-csb/zitting-voorbereiden/gebruikers-beheren.md)
