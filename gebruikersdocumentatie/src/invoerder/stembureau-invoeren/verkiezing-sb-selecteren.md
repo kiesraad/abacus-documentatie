@@ -11,7 +11,6 @@ Selecteer nu het stembureau:
 
 ![Stembureau selecteren - GSB](./img/inv-sb-selecteren-gsb.png)
 
-- Bij een invoer voor het *centraal stembureau* kun je het stembureau direct selecteren.
-- Je begint dan met de stap [Aantal kiezers en stemmen](./kiezers-stemmen.md). **Let op**: aan de linkerkant van het scherm zie je alleen de stappen die relevant zijn voor het centraal stembureau.
+- Bij een invoer voor het *centraal stembureau* kun je het stembureau meteen selecteren. Je gaat dan direct door naar de stap [Aantal kiezers en stemmen](./kiezers-stemmen.md).
 
 ![Stembureau selecteren - CSB](./img/inv-sb-selecteren-csb.png)
