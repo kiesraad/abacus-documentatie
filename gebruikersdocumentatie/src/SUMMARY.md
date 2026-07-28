@@ -97,12 +97,12 @@
 
 # Instructies invoerder
 
-- [Instructies invoerder GSB](./invoerder/README.md)
+- [Instructies invoerder](./invoerder/README.md)
   - [Inloggen en account instellen](./invoerder/inloggen-account.md)
   - [Stembureau invoeren](./invoerder/stembureau-invoeren/README.md)
     - [Verkiezing en stembureau selecteren](./invoerder/stembureau-invoeren/verkiezing-sb-selecteren.md)
-    - [Extra onderzoek](./invoerder/stembureau-invoeren/extra-onderzoek.md)
-    - [Verschillen met stembureau](./invoerder/stembureau-invoeren/verschillen-sb.md)
+    - [Extra onderzoek (alleen GSB)](./invoerder/stembureau-invoeren/extra-onderzoek.md)
+    - [Verschillen met stembureau (alleen GSB)](./invoerder/stembureau-invoeren/verschillen-sb.md)
     - [Aantal kiezers en stemmen](./invoerder/stembureau-invoeren/kiezers-stemmen.md)
     - [Verschillen D & H](./invoerder/stembureau-invoeren/verschillen-d-h.md)
     - [Lijsten invoeren](./invoerder/stembureau-invoeren/lijsten.md)
