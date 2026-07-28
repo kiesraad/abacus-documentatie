@@ -37,7 +37,7 @@ Bij Europees Parlementsverkiezingen is er geen Europees stembureau, want elk lan
 ### Provinciale Staten
 
 - In de Kieswet, Afdeling II artikel E.1.2, staat "Provinciale Staten kunnen voor de verkiezing van de leden van provinciale staten deze kieskringen in meer kieskringen verdelen."[^4]
-- Bij Provinciale Statenverkiezingen vallen 8 van de 12 kieskringen samen met een provincie.
+- Bij Provinciale Statenverkiezingen vallen 8 van de 12 kieskringen samen met een provincie. Bijzonder geval hier is Limburg, dat alleen voor PS (dus niet voor TK) twee kieskringen heeft, nl. I Maastricht en II Venlo.
 
 [^4]: [Afdeling II Artikel E.1 Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01/#AfdelingII_HoofdstukE_Paragraaf1_ArtikelE1)
 

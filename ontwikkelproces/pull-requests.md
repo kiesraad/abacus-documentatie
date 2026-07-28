@@ -40,6 +40,8 @@ We werken liever met een paar grondige reviews dan met veel losse "drive-by" opm
 
 ## Comments en approvals op een PR
 
+Pair/ensemble programming telt als review. Degene die niet de PR aanmaakt mag een approval geven.
+
 Als je alleen een gedeelte van de PR reviewt (bijv. alleen frontend), geef dat duidelijk aan in je commentaar.
 
 Als je wijzigingen wil zien, gebruik je de "Request changes" optie. Als wijzigingen aan de PR niet noodzakelijk zijn, kies dan voor "Approve".

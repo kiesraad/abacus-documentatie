@@ -50,28 +50,49 @@ __Hoofdscenario:__
 
 1. [De beheerder leest de verkiezingsdefinitie (EML 110a) in.](#de-beheerder-leest-de-verkiezingsdefinitie-eml-110a-in-vis)
 2. De beheerder selecteert "Gemeentelijk stembureau (GSB)" als rol van het stembureau.
-3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
-4. [De beheerder leest het bestand met stembureaus en aantal kiesgerechtigden (EML 110b) in.](#de-beheerder-leest-het-bestand-met-stembureaus-en-aantal-kiesgerechtigden-eml-110b-in-vis)
-5. De beheerder selecteert het type stemopneming.
-6. De beheerder bevestigt het aantal kiesgerechtigden in de gemeente.
-7. De applicatie maakt het GSB voor de verkiezing aan.
+3. (PS/WS) De beheerder selecteert de gemeente van het GSB uit de lijst met gemeenten in de verkiezingsdefinitie.
+4. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
+5. [De beheerder leest het bestand met stembureaus en aantal kiesgerechtigden (EML 110b) in.](#de-beheerder-leest-het-bestand-met-stembureaus-en-aantal-kiesgerechtigden-eml-110b-in-vis)
+6. De beheerder selecteert het type stemopneming.
+7. De beheerder bevestigt het aantal kiesgerechtigden in de gemeente.
+8. De applicatie maakt het GSB voor de verkiezing aan.
 
 __Uitbreidingen:__
 
-4a. De beheerder slaat het invoeren van stembureaus over:  
-&emsp; 4a1. (tijdens stap 5) De beheerder voert het aantal kiesgerechtigden in de gemeente handmatig in.  
-&emsp; 4a2. (na inrichten applicatie) [De beheerder of coördinator zet de stembureaus in de applicatie.](#de-beheerder-of-coördinator-gsb-zet-de-stembureaus-in-de-applicatie-zee)
+3a. (PS/WS) De gemeente van het GSB staat niet in de lijst met gemeenten:  
+&emsp; 3a1. De beheerder stelt vast dat de verkeerde verkiezingsdefinitie is ingelezen en leest het correcte bestand in.  
+&emsp;&emsp; 3a1a. De beheerder stelt vast dat de ingelezen verkiezingsdefinitie wel correct is:  
+&emsp;&emsp;&emsp; 3a1a1. De beheerder neemt contact op met het CSB.
 
-6a. De beheerder stelt vast dat het aantal kiesgerechtigden uit het stembureaubestand (EML 110b) niet klopt:  
-&emsp; 6a1. De beheerder corrigeert het aantal kiesgerechtigden in de applicatie.
+5a. De beheerder slaat het invoeren van stembureaus over:  
+&emsp; 5a1. (tijdens stap 6) De beheerder voert het aantal kiesgerechtigden voor het GSB handmatig in.  
+&emsp; 5a2. (na inrichten applicatie) [De beheerder of coördinator zet de stembureaus in de applicatie.](#de-beheerder-of-coördinator-gsb-zet-de-stembureaus-in-de-applicatie-zee)
 
-6b. Het aantal kiesgerechtigden staat niet in het bestand met stembureaus (EML 110b):  
-&emsp; 6b1. De beheerder voert het aantal kiesgerechtigden handmatig in.
+7a. De beheerder stelt vast dat het aantal kiesgerechtigden uit het stembureaubestand (EML 110b) niet klopt:  
+&emsp; 7a1. De beheerder corrigeert het aantal kiesgerechtigden in de applicatie.
+
+7b. Het aantal kiesgerechtigden staat niet in het bestand met stembureaus (EML 110b):  
+&emsp; 7b1. De beheerder voert het aantal kiesgerechtigden handmatig in.
+
+### Bijzonderheden PS/WS
+
+- De verkiezingen voor Provinciale Staten en de waterschappen vinden op dezelfde dag plaats. De beheerder richt elke verkiezing apart in, binnen dezelfde Abacus-installatie.
+- Een gemeente kan in meerdere waterschappen liggen (er zijn 21 waterschappen, elk met een eigen CSB). De gemeente stelt dan per waterschap een GSB in. De beheerder richt voor elk waterschap een aparte verkiezing in, elk met een eigen lijst stembureaus. Een stembureau kan in meerdere van deze lijsten voorkomen.
+- Bij WS geldt het aantal kiesgerechtigden voor het gebied van het GSB (het deel van de gemeente binnen het waterschap), niet noodzakelijk voor de hele gemeente.
+
+### Niet in scope
+
+- (PS/WS) De rollen CSB en HSB: Abacus ondersteunt voor PS/WS op dit moment alleen het GSB.
+- (WS) Een GSB zonder stembureaus, bijvoorbeeld als het deel van de gemeente in het waterschap geen of te weinig kiesgerechtigden heeft (zie [kiesraad/abacus#3623](https://github.com/kiesraad/abacus/issues/3623)).
 
 
 ## De beheerder zet het CSB voor de verkiezingen in de applicatie (vis)
 
 __Niveau:__ subfunctie, vis, 🐟
+
+__Precondities:__
+
+- De verkiezing is een gemeenteraadsverkiezing (GR). Voor PS/WS ondersteunt Abacus de rol CSB nog niet.
 
 ### Hoofdscenario en uitbreidingen
 

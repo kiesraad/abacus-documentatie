@@ -1,5 +1,7 @@
 # CSB: Zitting
 
+Abacus ondersteunt op dit moment de rol CSB alleen voor gemeenteraadsverkiezingen (GR). Deze use cases gelden dus alleen voor GR.
+
 ## Centraal stembureau (CSB) stelt verkiezingsuitslag vast (wolk)
 
 __Niveau:__ hoog-over, wolk, ☁️

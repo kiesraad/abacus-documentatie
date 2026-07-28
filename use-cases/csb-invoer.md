@@ -1,5 +1,7 @@
 # CSB: Invoer
 
+Abacus ondersteunt op dit moment de rol CSB alleen voor gemeenteraadsverkiezingen (GR). Deze use cases gelden dus alleen voor GR.
+
 ## Het CSB voert de tellingen van het GSB in (vlieger)
 
 __Niveau:__ hoog-over, vlieger, 🪁

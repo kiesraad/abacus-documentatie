@@ -2,10 +2,13 @@
 
 Dit document geeft een overzicht van alle input- en output-bestanden die relevant zijn voor Abacus. Voor een gedetailleerd overzicht van hoe de modellen gebruikt worden in combinatie met Abacus, zie ["Overzicht modellen en Abacus"](./overzicht-modellen.md). Dit overzicht linkt door naar de relevante details per model.
 
+De GSB-bestanden in dit document gelden voor alle ondersteunde verkiezingen (GR, PS en WS). Abacus ondersteunt de rol CSB alleen voor GR; de sectie [CSB](#csb-alleen-gr) geldt dus alleen voor GR.
+
 ## Open punten
 
 - Hoe stellen we de adresgegevens van de (verkozen) kandidaten beschikbaar, makkelijker dan d.m.v. de totaallijst (EML_NL 230c)? Deze gegevens zijn nodig voor het opstellen van de benoemings- en geloofsbrieven.
 - Als er een hertelling gebeurt n.a.v. een verzoek van het CSB of van het vertegenwoordigend lichaam, leidt dit dan op stembureau-niveau tot een corrigendum of tot een volledig nieuw tellings-PV?
+- De naamgeving van de PS/WS-outputbestanden van het GSB moet overeenkomen met de naamgeving van OSV2020 en geaccepteerd worden door het overdrachtsplatform. De exacte eisen zijn nog niet bevestigd (zie [kiesraad/abacus#3624](https://github.com/kiesraad/abacus/issues/3624)).
 
 ## Genereren van documenten door Abacus
 
@@ -116,7 +119,8 @@ EML_NL 210 (kandidatenlijst voor een politieke groepering) wordt niet gebruikt, 
 
 - Telling 510b: tellingen GSB en SB's
   - output van Abacus - GSB
-  - input voor Abacus - CSB
+  - (GR) input voor Abacus - CSB
+  - (PS/WS) wordt aangeleverd aan het CSB van de provincie of het waterschap, of aan het HSB (PS met meerdere kieskringen)
   - mogelijk input voor Abacus - GSB, als de telresultaten van de vorige zitting niet meer beschikbaar zijn in Abacus
 
 EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
@@ -145,7 +149,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
   - `Telling_GR2026_GemeenteNaam.zip` (als corrigendum)
     - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
 
-## CSB
+## CSB (alleen GR)
 
 ### Documenten
 
@@ -187,7 +191,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 - Resultaat 520: verkozen kandidaten
   - output van Abacus - CSB
 
-EML_NL 510c (tellingsbestand hoofdstembureau) wordt niet gebruikt binnen de huidige scope, namelijk gemeenteraadsverkiezingen.
+EML_NL 510c (tellingsbestand hoofdstembureau) wordt niet gebruikt binnen de huidige scope.
 
 #### CSV-bestand met tellingen
 
