@@ -1,6 +1,6 @@
 # Na 14-1 versie 1
 
-Proces verbaal van de telling van een herteld stembureau, DSO
+Na 14-1 versie 1: Proces-verbaal van de telling van een herteld stembureau, DSO
 
 ## Welke data zet Abacus in dit proces-verbaal voor het GSB?
 
