@@ -1,6 +1,6 @@
 # Extra zitting: corrigendum invoeren (alleen GSB)
 
-Nadat de gemeentelijke uitslag bekend is gemaakt, controleert het centraal stembureau deze uitslag. Als het een fout ontdekt, geeft het opdracht aan het gemeentelijk stembureau om een stembureau opnieuw te tellen. Dit leidt tot een corrigendum waar de nieuwe, juiste aantallen in staan.
+Nadat de gemeentelijke uitslag bekend is gemaakt, controleert het centraal stembureau deze uitslag. Als een fout wordt ontdekt, geeft het centraal stembureau opdracht tot onderzoek. Een stembureau kan (deels) worden herteld als hier aanleiding toe is. Als er gewijzigde resultaten zijn, leidt dit tot een corrigendum waar de nieuwe, juiste aantallen in staan.
 
 - Ook een corrigendum wordt twee keer ingevoerd. Het invoeren van een corrigendum werkt hetzelfde als het invoeren van een stembureau in de eerste zitting.
 - Er is maar één verschil: Neem alleen de getallen die veranderd zijn over uit het corrigendum.

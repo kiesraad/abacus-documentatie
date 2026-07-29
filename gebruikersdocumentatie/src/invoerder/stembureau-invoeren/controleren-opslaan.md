@@ -11,4 +11,4 @@ Als er geen waarschuwingen zijn, selecteer je **Opslaan**.
 
 ![Controleren en opslaan](./img/inv-contr-opsl.png)
 
-Als je een invoer voor het gemeentelijk stembureau doet en nog een stembureau wil invoeren, kun je direct een ander stembureaunummer invullen of een stembureau uit de lijst kiezen.
+Als je een invoer voor het **gemeentelijk stembureau** doet en nog een stembureau wil invoeren, kun je direct een ander stembureaunummer invullen of een stembureau uit de lijst kiezen.
