@@ -13,10 +13,10 @@ Proces verbaal van de telling van een herteld stembureau bij een nieuwe zitting,
 
 ### Deel 1 - Onderzoek naar telresultaten
 
-| sectie | titel                        | ingevuld door Abacus            |
-| ------ | ---------------------------- | ------------------------------- |
-| 1      | Aanleiding van het onderzoek | ingevoerd in de corrigendumflow |
-|        | Uitkomst van het onderzoek   | nee                             |
+| element                      | ingevuld door Abacus            |
+| ---------------------------- | ------------------------------- |
+| Aanleiding van het onderzoek | ja, obv input in de corrigendumflow |
+| Uitkomst van het onderzoek   | nee                             |
 
 
 ### Deel 2 - Gecorrigeerde telresultaten
@@ -26,7 +26,7 @@ Proces verbaal van de telling van een herteld stembureau bij een nieuwe zitting,
 | 2.1    | Toegelaten kiezers                                        | ja                    |
 | 2.2    | Uitgebrachte stemmen                                      | ja                    |
 | 2.3    | Verschillen tussen aantal kiezers en uitgebrachte stemmen | ja (alleen aantallen) |
-| 2.4    | Stemmen per lijst en per kandidaat                        | ja                    |
+| 2.4    | Stemmen per lijst en per kandidaat                        | ja (originele aantallen) |
 
 
 ### Deel 3 - Ondertekening door de leden
@@ -42,13 +42,13 @@ Proces verbaal van de telling van een herteld stembureau bij een nieuwe zitting,
 ---
 
 
-## Welke data wordt door het CSB in Abacus ingevoerd?
+## Welke data wordt door het GSB in Abacus ingevoerd?
 
 ### Deel 1 - Onderzoek naar telresultaten
 
 | sectie | titel                                    | ingevoerd in Abacus |
 | ------ | ---------------------------------------- | ------------------- |
-| 1      | Aanleiding en uitkomst van het onderzoek | nee                 |
+| 1      | Aanleiding en uitkomst van het onderzoek | "Aanleiding en opdracht van het centraal stembureau" vóór het aanmaken van de bijlage; "Bevindingen" en "Is er een gecorrigeerde uitslag?" na het onderzoek               |
 
 
 ### Deel 2 - Gecorrigeerde telresultaten
@@ -60,14 +60,3 @@ Proces verbaal van de telling van een herteld stembureau bij een nieuwe zitting,
 | 2.3    | Verschillen tussen aantal kiezers en uitgebrachte stemmen | ja                  |
 | 2.4    | Stemmen per lijst en per kandidaat                        | ja                  |
 
-
-### Deel 3 - Ondertekening door de leden
-
-| sectie | titel                                     | ingevoerd in Abacus |
-| ------ | ----------------------------------------- | ------------------- |
-| 3.1    | Verplicht: voorzitter en twee leden       | nee                 |
-| 3.2    | Ondertekening door andere aanwezige leden | nee                 |
-
-
-
-### 
