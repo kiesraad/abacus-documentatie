@@ -1,4 +1,4 @@
-# Na 14-1
+# Na 14-1 versie 1
 
 Proces verbaal van de telling van een herteld stembureau, DSO
 
@@ -45,18 +45,7 @@ Proces verbaal van de telling van een herteld stembureau, DSO
 
 ## Welke data wordt door het GSB in Abacus ingevoerd?
 
-Alleen "Deel 2 - Telresultaten" wordt door het GSB ingevoerd, als onderdeel van de eerste invoer in Abacus samen met N10-1. Deel 1. Onderzoek naar telresultaten is wel onderdeel van de interface. 
-
-### Deel 1 - Onderzoek naar telresultaten
-
-| sectie | titel                                   | ingevuld door Abacus |
-| ------ | --------------------------------------- | -------------------- |
-| 1.1    | Aantallen kiezers en stemmen            | nee                  |
-| 1.2    | Hertelling door gemeentelijk stembureau | nee                  |
-| 1.3    | Lijsten met verschillen                 | nee                  |
-
-
-### 
+Alleen "Deel 2 - Telresultaten" wordt door het GSB ingevoerd, als onderdeel van de eerste invoer in Abacus samen met N10-1.
 
 ### Deel 2 - Telresultaten
 
@@ -68,5 +57,3 @@ Alleen "Deel 2 - Telresultaten" wordt door het GSB ingevoerd, als onderdeel van 
 | 2.4    | Stemmen per lijst en per kandidaat                        | ja                  |
 
 
-
-### 
