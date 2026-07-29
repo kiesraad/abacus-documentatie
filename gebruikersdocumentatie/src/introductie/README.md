@@ -1,7 +1,7 @@
 # Gebruikersdocumentatie Abacus
 
 <p align="center">
-<img src="./img/abacus.png" alt="Abacus software voor verkiezingsuitslagen en zetelverdeling" height="300px">
+<img src="./img/abacus.png" alt="Abacus software voor verkiezingsuitslagen en zetelverdeling" height="300px" style="border:none">
 </p>
 
 Welkom bij Abacus, software voor verkiezingsuitslagen en zetelverdeling. Dankjewel dat je onze software gebruikt!
