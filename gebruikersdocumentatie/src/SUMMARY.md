@@ -55,9 +55,9 @@
   - [Back-ups](./beheerder/backups.md)
   - [Activiteitenlog](./beheerder/activiteitenlog.md)
 
-# Instructies coördinator en invoerder GSB
+# Instructies coördinator GSB
 
-- [Instructies coördinator GSB](./coordinator/README.md)
+- [Instructies coördinator (gemeentelijk stembureau)](./coordinator/README.md)
   - [Inloggen en account instellen](./coordinator/inloggen-account.md)
   - [Zitting voorbereiden](./coordinator/zitting-voorbereiden/README.md)
     - [Aantal kiesgerechtigden wijzigen](./coordinator/zitting-voorbereiden/kiesgerechtigden.md)
@@ -75,23 +75,10 @@
     - [Bevindingen en invoerfase](./coordinator/nieuwe-zitting/bevindingen-invoerfase.md)
     - [Nieuwe zitting afronden](./coordinator/nieuwe-zitting/afronden.md)
   - [Activiteitenlog](./coordinator/activiteitenlog.md)
-- [Instructies invoerder GSB](./invoerder/README.md)
-  - [Inloggen en account instellen](./invoerder/inloggen-account.md)
-  - [Stembureau invoeren](./invoerder/stembureau-invoeren/README.md)
-    - [Verkiezing en stembureau selecteren](./invoerder/stembureau-invoeren/verkiezing-sb-selecteren.md)
-    - [Extra onderzoek](./invoerder/stembureau-invoeren/extra-onderzoek.md)
-    - [Verschillen met stembureau](./invoerder/stembureau-invoeren/verschillen-sb.md)
-    - [Aantal kiezers en stemmen](./invoerder/stembureau-invoeren/kiezers-stemmen.md)
-    - [Verschillen D & H](./invoerder/stembureau-invoeren/verschillen-d-h.md)
-    - [Lijsten invoeren](./invoerder/stembureau-invoeren/lijsten.md)
-    - [Controleren en opslaan](./invoerder/stembureau-invoeren/controleren-opslaan.md)
-  - [Tweede invoer](./invoerder/tweede-invoer.md)
-  - [Pauzeren of afbreken](./invoerder/pauzeren-afbreken.md)
-  - [Extra zitting: corrigendum invoeren](./invoerder/extra-zitting-corrigendum.md)
 
-# Instructies coördinator en invoerder CSB
+# Instructies coördinator CSB
 
-- [Instructies coördinator CSB](./coordinator-csb/README.md)
+- [Instructies coördinator (centraal stembureau)](./coordinator-csb/README.md)
   - [Inloggen en account instellen](./coordinator-csb/inloggen-account.md)
   - [Zitting voorbereiden](./coordinator-csb/zitting-voorbereiden/README.md)
     - [Gebruikers beheren](./coordinator-csb/zitting-voorbereiden/gebruikers-beheren.md)
@@ -107,6 +94,22 @@
     - [Loting en naar proces-verbaal](./coordinator-csb/zitting-afronden/loting-pv.md)
     - [Documenten downloaden](./coordinator-csb/zitting-afronden/docs-downloaden.md)
   - [Activiteitenlog](./coordinator-csb/activiteitenlog.md)
+
+# Instructies invoerder
+
+- [Instructies invoerder](./invoerder/README.md)
+  - [Inloggen en account instellen](./invoerder/inloggen-account.md)
+  - [Stembureau invoeren](./invoerder/stembureau-invoeren/README.md)
+    - [Verkiezing en stembureau selecteren](./invoerder/stembureau-invoeren/verkiezing-sb-selecteren.md)
+    - [Extra onderzoek (alleen GSB)](./invoerder/stembureau-invoeren/extra-onderzoek.md)
+    - [Verschillen met stembureau (alleen GSB)](./invoerder/stembureau-invoeren/verschillen-sb.md)
+    - [Aantal kiezers en stemmen](./invoerder/stembureau-invoeren/kiezers-stemmen.md)
+    - [Verschillen D & H](./invoerder/stembureau-invoeren/verschillen-d-h.md)
+    - [Lijsten invoeren](./invoerder/stembureau-invoeren/lijsten.md)
+    - [Controleren en opslaan](./invoerder/stembureau-invoeren/controleren-opslaan.md)
+  - [Tweede invoer](./invoerder/tweede-invoer.md)
+  - [Pauzeren of afbreken](./invoerder/pauzeren-afbreken.md)
+  - [Extra zitting: corrigendum invoeren](./invoerder/extra-zitting-corrigendum.md)
 
 # Achtergrond bij Abacus
 

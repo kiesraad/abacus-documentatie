@@ -1,7 +1,17 @@
 # Verschillen D & H
 
-Op pagina 6 van het papieren proces-verbaal is aangegeven of er verschillen zijn tussen het aantal kiezers en het aantal uitgebrachte stemmen.
+Op het papieren proces-verbaal is aangegeven of er verschillen zijn tussen het aantal kiezers en het aantal uitgebrachte stemmen.
 
-Neem de vinkjes en cijfers over zoals ze in het proces-verbaal staan en selecteer **Volgende**.
+## Gemeentelijk stembureau
 
-![Verschillen tussen aantal kiezers en uitgebrachte stemmen](./img/invoeren-verschillen-dh.png)
+- Neem de vinkjes en cijfers over zoals ze in het proces-verbaal staan.
+
+![Verschillen tussen aantal kiezers en uitgebrachte stemmen - GSB](./img/inv-verschillen-dh-gsb.png)
+
+## Centraal stembureau
+
+- Neem alleen de cijfers over. De vinkvraag in het proces-verbaal hoef je niet in te vullen.
+
+![Verschillen tussen aantal kiezers en uitgebrachte stemmen - CSB](./img/inv-verschillen-dh-csb.png)
+
+- Wanneer je klaar bent selecteer je **Volgende**.

@@ -4,4 +4,4 @@ Je krijgt inloginstructies van je coördinator. Vul de gegevens in en selecteer 
 
 Wanneer je voor de eerste keer inlogt, stel je je account eerst in voor gebruik. Voer je naam in als er nog geen naam staat, of wijzig je naam als die onjuist is. Kies vervolgens een nieuw wachtwoord en vul dit twee keer in.
 
-![Account instellen](./img/invoeren-account-instellen.png)
+![Account instellen](./img/inv-account-instellen.png)
