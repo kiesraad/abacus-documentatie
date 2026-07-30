@@ -1,8 +1,8 @@
 # Beveiligingscertificaat
 
-Abacus wordt geïnstalleerd met een TLS-beveiligingscertificaat, zodat alle gebruikers Abacus veilig kunnen gebruiken in de browser.
+Abacus wordt geïnstalleerd met een TLS-beveiligingscertificaat, zodat de verbinding tussen de Abacus-server en de clients versleuteld is.
 
-Het certificaat wordt automatisch geïnstalleerd tijdens de installatie van Abacus. Daarna installeer je het certificaat zelf op de clients, zodat alle clients `https` gebruiken en een veilige verbinding hebben met de server.
+Het certificaat wordt automatisch geïnstalleerd tijdens de installatie van Abacus. Daarna installeer je het certificaat zelf op de clients, zodat alle clients `https` gebruiken en een versleutelde verbinding hebben met de server.
 
 ## Certificaat kopiëren
 
