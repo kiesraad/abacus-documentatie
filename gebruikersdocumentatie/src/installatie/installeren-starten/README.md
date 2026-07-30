@@ -1,10 +1,14 @@
 # Installeren en starten
 
-Abacus is ontwikkeld om de uitkomsten van alle stembureaus in de gemeente bij elkaar op te tellen. Abacus controleert de optellingen, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen. In dit document leggen we uit hoe je Abacus installeert.
+Abacus is ontwikkeld ter ondersteuning van het optellen van stembureautotalen en het vaststellen van de verkiezingsuitslag.
+
+De software controleert de handmatige tellingen en telt per niveau de resultaten van de onderliggende niveaus bij elkaar op, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen. Zodra bij het centraal stembureau alle totalen bij elkaar zijn opgeteld, berekent Abacus de zetelverdeling volgens de regels in de Kieswet. Abacus genereert ook de definitieve documenten van de zitting, die worden gedownload en op het uitwisselplatform worden gezet.
+
+In dit document leggen we uit hoe je Abacus installeert.
 
 Bij de onderstaande installatiemethodes is aangegeven op welke besturingssystemen ze werken.
 De methoden voor Linux werken op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (22.04 en 24.04) en Debian (12/bookworm en 13/trixie).
-De Windows-methoden zijn getest op Windows 11.
+De Windows-methode is getest op Windows 11.
 
 Om Abacus goed te kunnen gebruiken, adviseren we het volgende (naast de systeemvereisten die je op de website van de Kiesraad vindt):
 
