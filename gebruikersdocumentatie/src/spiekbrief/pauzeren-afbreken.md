@@ -7,4 +7,4 @@ Na je pauze selecteer je onder **Je hebt nog een openstaande invoer** het stembu
 
 Als je de invoer wil afbreken en weggooien, bijvoorbeeld omdat je opnieuw wil beginnen, selecteer je rechtsboven **Invoer afbreken** en vervolgens **Niet bewaren**.
 
-![Invoer afbreken](./img/invoer-afbreken.png)
+![Invoer afbreken](./img/inv-afbreken.png)
