@@ -2,6 +2,8 @@
 
 Met deze methode installeer je Abacus op een Windows-machine.
 
+**Let op:** Het beveiligingscertificaat wordt geïnstalleerd op Windows, en het bestand wordt in de map `tls` geplaatst in de installatiemap. Dit certificaat kun je daarna op alle computers installeren volgens de instructies in het hoofdstuk [Beveiligingscertificaat](./certificaat.md).
+
 ## Downloaden en installeren
 
 - Je downloadt Abacus via Rijkscloud SecureFileTransfer. Deze link krijg je van de Kiesraad.
