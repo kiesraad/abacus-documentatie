@@ -32,16 +32,25 @@ Eerst kopieer je het certificaat naar de clients.
 
 Voor verschillende Linux-distributies bestaan meerdere manieren om het certificaat te installeren. Hier wordt alleen de methode voor Debian en Ubuntu beschreven.
 
-Kopieer het certificaat naar de map `/usr/local/share/ca-certificates`. Vergelijk de SHA256-hash met  van het bestand via de commandline:
+- Kopieer het certificaat naar de map `/usr/local/share/ca-certificates`.
+- Vervolgens voeg je het certificaat toe aan de systeembrede certificaatset:
+
+```
+sudo update-ca-certificates
+```
+
+Controleer of je het juiste certificaat hebt door de SHA256-hash van het bestand te vergelijken met de hash in het servicelog van de Abacus-service.
+
+- Met deze opdracht vind je de hash van het bestand `ca.pem`:
 
 ```
 openssl x509 -in ca.pem -noout -fingerprint -sha256
 ```
 
-Vervolgens voeg je het certificaat toe aan de systeembrede certificaatset:
+- En met deze opdracht vind je de hash in het servicelog:
 
 ```
-sudo update-ca-certificates
+sudo journalctl -I -u abacus.service
 ```
 
 ## Installeren in de browser
