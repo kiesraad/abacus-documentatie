@@ -21,7 +21,7 @@ Eerst kopieer je het certificaat naar de clients.
 ## Certificaat installeren op Windows
 
 - Dubbelklik op het beveiligingscertificaat en selecteer bovenaan het tabblad **Details**.
-- In het venster selecteer je de vingerafdruk. Deze vingerafdruk kun je vergelijken met de SHA1-fingerprint die je in de command prompt ziet wanneer je de Abacus-server opstart.
+- In het venster selecteer je de vingerafdruk. Ter controle vergelijk je deze vingerafdruk met de SHA1-fingerprint die je in de command prompt ziet wanneer je de Abacus-server opstart.
 
 ![SHA1-hash van het certificaat](./img/windows-sha1-hash.png)
 
@@ -39,7 +39,7 @@ Voor verschillende Linux-distributies bestaan meerdere manieren om het certifica
 sudo update-ca-certificates
 ```
 
-Controleer of je het juiste certificaat hebt door de SHA256-hash van het bestand te vergelijken met de hash in het servicelog van de Abacus-service.
+Ter controle vergelijk je de SHA256-hash van het bestand met de SHA256-fingerprint in het servicelog van de Abacus-service.
 
 - Met deze opdracht vind je de hash van het bestand `ca.pem`:
 
@@ -62,19 +62,19 @@ Het is ook mogelijk om het beveiligingscertificaat te installeren in de browser 
 - Ga naar **Instellingen** → **Privacy, zoeken en services** → **Privacy** → **Certificaten beheren**.
 - Selecteer **Door u geïnstalleerd**, selecteer naast **Vertrouwde certificaten** de optie **Importeren** en selecteer het bestand `ca.cer`.
 - Selecteer **Openen** om het bestand direct te installeren.
-- Vergelijk de SHA256-hash in het grijze vak met de SHA256-fingerprint die je in de command prompt ziet wanneer je de Abacus-server start.
+- Ter controle vergelijk je de SHA256-hash in het grijze vak met de SHA256-fingerprint die je in de command prompt ziet wanneer je de Abacus-server start.
 
 ### Google Chrome
 
 - Ga naar **Instellingen** → **Privacy en beveiliging** → **Beveiliging** → **Certificaten beheren**.
 - Selecteer **Geïnstalleerd door jou**, selecteer naast **Vertrouwde certificaten** de optie **Importeren** en selecteer het bestand `ca.cer`.
 - Selecteer **Openen** om het bestand direct te installeren.
-- Vergelijk de SHA256-hash in het grijze vak met de SHA256-fingerprint die je in de command prompt ziet wanneer je de Abacus-server start.
+- Ter controle vergelijk je de SHA256-hash in het grijze vak met de SHA256-fingerprint die je in de command prompt ziet wanneer je de Abacus-server start.
 
 ### Firefox
 
 - Ga naar **Instellingen** → **Privacy en Beveiliging**. Helemaal onderaan de pagina selecteer je **Geavanceerde instellingen**.
 - Onder **Certificaten** selecteer je **Certificaten beheren**. Selecteer **Importeren...** en selecteer het bestand `ca.cer`.
 - Vink **Deze CA vertrouwen voor het identificeren van websites** aan.
-- Selecteer **Weergeven** om de gegevens van het certificaat te bekijken in de browser. Vergelijk de SHA256-hash met de SHA256-fingerprint die je in de command prompt ziet wanneer je de Abacus-server start.
+- Selecteer **Weergeven** om de gegevens van het certificaat te bekijken in de browser. Ter controle vergelijk je de SHA256-hash met de SHA256-fingerprint die je in de command prompt ziet wanneer je de Abacus-server start.
 - Selecteer **OK** om het certificaat te importeren.
