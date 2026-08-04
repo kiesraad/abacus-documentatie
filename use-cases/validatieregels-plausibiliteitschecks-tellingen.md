@@ -556,7 +556,7 @@ W.001 wordt niet getoond bij een correctie-invoer (correctie van de eerste of de
 > Coördinator (GSB CSO, GSB DSO, CSB): W.002 is er alleen voor invoerders  
 > Voor de coördinator hebben we het scherm 'verschillen oplossen'.
 
-Velden markeren: alle velden die de coördinator heeft leeggemaakt
+Velden markeren: alle velden die vanwege verschillen met de behouden invoer zijn leeggemaakt
 
 De kop noemt de andere invoer: bij correctie van de eerste invoer "Verschil met tweede invoer", bij correctie van de tweede invoer "Verschil met eerste invoer".
 
