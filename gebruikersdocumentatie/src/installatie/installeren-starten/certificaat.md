@@ -21,13 +21,15 @@ Eerst kopieer je het certificaat naar de clients.
 ## Certificaat installeren op Windows
 
 - Dubbelklik op het beveiligingscertificaat en selecteer bovenaan het tabblad **Details**.
-- In het venster selecteer je de vingerafdruk. Ter controle vergelijk je deze vingerafdruk met de SHA1-vingerafdruk die je in de command prompt ziet wanneer je de Abacus-server opstart.
+- In het venster selecteer je de vingerafdruk. Ter controle vergelijk je deze vingerafdruk met de SHA-1-vingerafdruk die je in de command prompt ziet wanneer je de Abacus-server opstart.
 
-Dit is de SHA1-vingerafdruk in het certificaat:
+Dit is de SHA-1-vingerafdruk in het certificaat:
 
-![SHA1-vingerafdruk van het certificaat](./img/windows-sha1-hash.png)
+![SHA-1-vingerafdruk van het certificaat](./img/windows-sha1-vingerafdruk.png)
 
-[comment]: <> (TODO: plaatje van vingerafdruk in command prompt toevoegen)
+Hier vind je de SHA-1-vingerafdruk in de command prompt:
+
+![SHA-1-vingerafdruk in de command prompt](./img/windows-vingerafdruk-cmd.png)
 
 - Ga weer terug naar het tabblad **Algemeen** en selecteer **Certificaat installeren...**.
 - Selecteer dan twee keer **Volgende** en selecteer **Voltooien**.
@@ -43,7 +45,7 @@ Voor verschillende Linux-distributies bestaan meerdere manieren om het certifica
 sudo update-ca-certificates
 ```
 
-Ter controle vergelijk je de SHA256-vingerafdruk van het certificaat met de SHA256-vingerafdruk in het servicelog van de Abacus-service.
+Ter controle vergelijk je de SHA-256-vingerafdruk van het certificaat met de SHA-256-vingerafdruk in het servicelog van de Abacus-service.
 
 - Met deze opdracht vind je de vingerafdruk van het certificaat `ca.pem`:
 
@@ -66,19 +68,19 @@ Het is ook mogelijk om het beveiligingscertificaat te installeren in de browser 
 - Ga naar **Instellingen** → **Privacy, zoeken en services** → **Privacy** → **Certificaten beheren**.
 - Selecteer **Door u geïnstalleerd**, selecteer naast **Vertrouwde certificaten** de optie **Importeren** en selecteer het bestand `ca.cer`.
 - Selecteer **Openen** om het bestand direct te installeren.
-- Ter controle vergelijk je de SHA256-vingerafdruk in het grijze vak met de SHA256-vingerafdruk die je in de command prompt ziet wanneer je de Abacus-server start.
+- Ter controle vergelijk je de SHA-256-vingerafdruk in het grijze vak met de SHA-256-vingerafdruk die je in de command prompt ziet wanneer je de Abacus-server start.
 
 ### Google Chrome
 
 - Ga naar **Instellingen** → **Privacy en beveiliging** → **Beveiliging** → **Certificaten beheren**.
 - Selecteer **Geïnstalleerd door jou**, selecteer naast **Vertrouwde certificaten** de optie **Importeren** en selecteer het bestand `ca.cer`.
 - Selecteer **Openen** om het bestand direct te installeren.
-- Ter controle vergelijk je de SHA256-vingerafdruk in het grijze vak met de SHA256-vingerafdruk die je in de command prompt ziet wanneer je de Abacus-server start.
+- Ter controle vergelijk je de SHA-256-vingerafdruk in het grijze vak met de SHA-256-vingerafdruk die je in de command prompt ziet wanneer je de Abacus-server start.
 
 ### Firefox
 
 - Ga naar **Instellingen** → **Privacy en Beveiliging**. Helemaal onderaan de pagina selecteer je **Geavanceerde instellingen**.
 - Onder **Certificaten** selecteer je **Certificaten beheren**. Selecteer **Importeren...** en selecteer het bestand `ca.cer`.
 - Vink **Deze CA vertrouwen voor het identificeren van websites** aan.
-- Selecteer **Weergeven** om de gegevens van het certificaat te bekijken in de browser. Ter controle vergelijk je de SHA256-vingerafdruk met de SHA256-vingerafdruk die je in de command prompt ziet wanneer je de Abacus-server start.
+- Selecteer **Weergeven** om de gegevens van het certificaat te bekijken in de browser. Ter controle vergelijk je de SHA-256-vingerafdruk met de SHA-256-vingerafdruk die je in de command prompt ziet wanneer je de Abacus-server start.
 - Selecteer **OK** om het certificaat te importeren.
