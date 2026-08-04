@@ -533,18 +533,32 @@ Coördinator (GSB CSO, GSB DSO; bij waarschuwingen):
 | code  | check | GSB CSO | GSB DSO | CSB |
 | ----- | ----- | :-----: | :-----: | :-: |
 | W.001 | (Bij tweede invoer) Niet alle ingevoerde waardes van de tweede invoer zijn gelijk aan die van de eerste invoer | X | X | X |
+| W.002 | (Bij correctie) De coördinator heeft velden leeggemaakt die opnieuw ingevuld moeten worden | X | X | X |
 
 #### W.001 (Bij tweede invoer) Niet alle ingevoerde waardes van de tweede invoer zijn gelijk aan die van de eerste invoer
 
 > Invoerder (GSB CSO, GSB DSO, CSB): **Extra controle nodig** (W.001)  
 > De gemarkeerde velden zijn anders dan in de eerste invoer.
 
-> Coördinator (GSB CSO, GSB DSO, CSB): W.001 is er alleen voor invoerders
+> Coördinator (GSB CSO, GSB DSO, CSB): W.001 is er alleen voor invoerders  
 > Voor de coördinator hebben we het scherm 'verschillen oplossen'.
 
 Velden markeren: alle velden met een verschil
 
-[Voorbeeld in Figma](https://www.figma.com/design/zZlFr8tYiRyp4I26sh6eqp/Kiesraad---Abacus-optelsoftware?node-id=130-10813&t=zTY4ajWtsFkiTOYP-11)
+W.001 wordt niet getoond bij een correctie-invoer (correctie van de eerste of de tweede invoer nadat de coördinator de verschillen heeft beoordeeld). Daar geldt W.002. De invoerder weet immers al waar de verschillen zaten (die velden zijn gemarkeerd en leeggemaakt) en moet ze overnemen van het papieren PV. Tonen dat de invoer afwijkt van die van de andere invoerder zou te sturend zijn, omdat het de interpretatie van het handschrift door de andere invoerder laat meewegen.
+
+#### W.002 (Bij correctie) De coördinator heeft velden leeggemaakt die opnieuw ingevuld moeten worden
+
+> Invoerder (GSB CSO, GSB DSO, CSB): **Verschil met tweede invoer. Nieuwe invoer nodig** (W.002)  
+> Een coördinator heeft beide invoeren vergeleken, en aangegeven dat in deze invoer fouten zijn gemaakt. Neem de gemarkeerde velden opnieuw over van het papieren proces-verbaal.  
+> - Heb je alles ingevuld en komt je invoer overeen met het papier? Ga dan verder.
+
+> Coördinator (GSB CSO, GSB DSO, CSB): W.002 is er alleen voor invoerders  
+> Voor de coördinator hebben we het scherm 'verschillen oplossen'.
+
+Velden markeren: alle velden die de coördinator heeft leeggemaakt
+
+De kop noemt de andere invoer: bij correctie van de eerste invoer "Verschil met tweede invoer", bij correctie van de tweede invoer "Verschil met eerste invoer".
 
 ### Checks voor extra onderzoek en controles (reeks W.1xx)
 
