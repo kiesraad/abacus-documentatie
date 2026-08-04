@@ -13,3 +13,7 @@ Na de installatie van Abacus kun je verkiezingen toevoegen en beheren. Ook maak 
 
 - Zet adblockers uit of voeg Abacus toe aan de lijst met uitzonderingen in de adblocker.
 - Zorg ervoor dat je geen wachtwoordmanager gebruikt.
+
+## Problemen oplossen
+
+Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Beheerder](../introductie/bekende-problemen.md#beheerder) in de introductie.

@@ -7,3 +7,7 @@ Is Abacus nieuw voor je, dan kun je het uitproberen in een online testomgeving. 
 Ook vind je hier andere handige informatie, zoals de help, testdocumenten en de systeem- en browservereisten.
 
 Kom je er met de onderstaande instructies niet uit, neem dan contact op met het team via <abacus@kiesraad.nl>.
+
+## Problemen oplossen
+
+Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Installatie](../introductie/bekende-problemen.md#installatie) in de introductie.
