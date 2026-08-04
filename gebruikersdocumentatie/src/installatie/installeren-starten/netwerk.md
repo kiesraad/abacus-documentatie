@@ -9,7 +9,6 @@ Je installeert Abacus op één computer die dient als server. De andere computer
 - Een hub of netwerkapparaat
 - Een server en een aantal clients
 - Voldoende ethernetkabels voor alle apparaten
-- Extra (unmanaged) netwerkswitches om meer apparaten te kunnen aansluiten (optioneel)
 
 ## Opzet van het netwerk
 
