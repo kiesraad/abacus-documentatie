@@ -26,7 +26,7 @@ Bij deze installatiemethode worden drie snelkoppelingen op het bureaublad geplaa
 
 - Met **1. Start Abacus server** start je de Abacus-server. Gebruik deze snelkoppeling voordat je Abacus opent in de browser.
 - Met **2. Open Abacus in browser** open je de browserinterface.
-- Met **Abacus backups** open je de map met back-ups.
+- Met **Abacus data** open je de map met alle data, zoals de databasebestanden en back-ups.
 
 ![Snelkoppelingen op het bureaublad](./img/windows-snelkoppelingen.png)
 
