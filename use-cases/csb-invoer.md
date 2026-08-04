@@ -88,7 +88,7 @@ __Uitbreidingen:__
 
 3b. De invoer die de coördinator CSB als correcte invoer wil bewaren, bevat zelf geaccepteerde fouten:  
 &emsp; 3b1. De applicatie biedt de correctie-optie niet aan en toont een informatiemelding.  
-&emsp; 3b2. De coördinator CSB gooit de andere invoer weg en laat die opnieuw invoeren.  
+&emsp; 3b2. De coördinator CSB gooit de andere invoer weg.  
 &emsp; 3b3. De coördinator CSB lost de fouten in de bewaarde invoer op.
 
 _Zie ook de flowchart ["Afhandeling fouten en verschillen door coördinator"](./afhandeling-fouten-verschillen-coordinator.md)._
