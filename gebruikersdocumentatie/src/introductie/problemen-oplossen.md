@@ -2,7 +2,7 @@
 
 ## Bekende problemen
 
-Bekende problemen (of *known issues*) in versie 1.0.1 voor GR26 worden hier gedocumenteerd. We zijn op de hoogte van deze problemen en ze worden opgelost in een latere fase.
+Bekende problemen (of *known issues*) in versie 1.1 worden hier gedocumenteerd. We zijn op de hoogte van deze problemen en ze worden opgelost in een latere fase.
 
 | Probleem | Oplossing |
 |----------|-----------|

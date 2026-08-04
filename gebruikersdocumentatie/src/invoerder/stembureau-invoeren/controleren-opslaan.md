@@ -7,7 +7,7 @@ Wanneer je de laatste lijst hebt ingevoerd, selecteer je **Volgende**. Het kan z
 
 ![Fouten en waarschuwingen](./img/inv-contr-fouten.png)
 
-Als er geen waarschuwingen zijn, selecteer je **Opslaan**.
+- Als er geen waarschuwingen zijn, selecteer je **Opslaan**.
 
 ![Controleren en opslaan](./img/inv-contr-opsl.png)
 
