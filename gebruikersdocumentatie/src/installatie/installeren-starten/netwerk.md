@@ -1,6 +1,6 @@
 # Netwerk inrichten
 
-Voordat je Abacus installeert is het belangrijk dat het netwerk goed is ingericht. De aansluit- en gebruiksvoorwaarden van de Kiesraad bevatten de regels hiervoor. Dit netwerk kun je op dezelfde manier opzetten als bij OSV2020.
+Voordat je Abacus installeert is het belangrijk dat het netwerk goed is ingericht. De regels hiervoor staan in de aansluit- en gebruiksvoorwaarden, die je vindt in de toolkit van de verkiezing op de website van de Kiesraad. Dit netwerk kun je op dezelfde manier opzetten als bij OSV2020.
 
 Je installeert Abacus op één computer die dient als server. De andere computers zijn clients en maken via de browser verbinding met de Abacus-server. Abacus mag alleen gebruikt worden in een netwerk dat niet verbonden is met het internet. Dit noemen we ook wel een *airgapped* netwerk.
 
