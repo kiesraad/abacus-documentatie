@@ -28,3 +28,7 @@ Bij verschillen die de invoerder niet kan oplossen onderneemt de coördinator ve
 Het proces-verbaal van het gemeentelijk stembureau moet twee keer met de hand worden ingevoerd door twee verschillende invoerders.
 Ook tijdens de invoer bij het centraal stembureau volg je de instructies en overleg je met je coördinator bij fouten of waarschuwingen.
 Wanneer de invoer klaar is, rondt de coördinator de invoerfase af. Abacus berekent dan de zetelverdeling en genereert het proces-verbaal samen met het EML-telbestand.
+
+## Problemen oplossen
+
+Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Invoerder](../introductie/bekende-problemen.md#invoerder) in de introductie.
