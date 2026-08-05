@@ -4,4 +4,4 @@ De zitting heeft nu de status *Klaar voor invoer*. Klik op de knop **Start invoe
 
 ![De invoer starten](./img/start-invoer-csb.png)
 
-Laat alle aantallen twee keer invoeren door twee verschillende invoerders. Zodra de eerste invoer is begonnen, verandert de status van de verkiezing in *Steminvoer bezig*.
+Laat alle aantallen twee keer invoeren door twee verschillende invoerders. Zodra de eerste invoer is begonnen, verandert de status van de verkiezing in *Invoer bezig*.

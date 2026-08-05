@@ -1,5 +1,7 @@
 # Zitting starten
 
-Wanneer de stemmen zijn geteld en de processen-verbaal zijn ingevuld, krijg je ze weer terug en kan de invoer in Abacus beginnen. Abacus heeft de status *Klaar voor steminvoer*. Staat de verkiezing nog op *Zitting voorbereiden*, controleer dan nogmaals of je alle stappen ter voorbereiding van de zitting hebt uitgevoerd.
+De zitting heeft nu de status *Klaar voor invoer*. Klik op de knop **Start invoer** om de zitting te starten. Nu kunnen de invoerders aan de slag.
 
-Geef de processen-verbaal aan je invoerders en laat ze twee keer invoeren door twee verschillende gebruikers. Zodra de eerste invoer is begonnen, verandert de status van de verkiezing in *Steminvoer bezig*.
+![De invoer starten](./img/start-invoer-gsb.png)
+
+Laat alle aantallen twee keer invoeren door twee verschillende invoerders. Zodra de eerste invoer is begonnen, verandert de status van de verkiezing in *Invoer bezig*.

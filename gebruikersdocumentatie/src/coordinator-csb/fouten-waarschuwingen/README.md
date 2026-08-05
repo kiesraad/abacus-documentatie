@@ -6,6 +6,6 @@ Zowel tijdens als na de invoer kunnen er fouten of waarschuwingen ontstaan.
 
 ![Voorbeeld van een fout en waarschuwingen bij de invoerder](./img/inv-fouten-ws-csb.png)
 
-**Na de invoer** zie je bovenaan in het statusoverzicht van de steminvoer of er fouten of waarschuwingen zijn. Selecteer het stembureau om ze te bekijken en behandelen.
+**Na de invoer** zie je bovenaan in het statusoverzicht van de invoer of er fouten of waarschuwingen zijn. Selecteer het stembureau om ze te bekijken en behandelen.
 
-![Fouten en waarschuwingen na steminvoer](./img/inv-fouten-ws-coord-csb.png)
+![Fouten en waarschuwingen na invoer](./img/inv-fouten-ws-coord-csb.png)
