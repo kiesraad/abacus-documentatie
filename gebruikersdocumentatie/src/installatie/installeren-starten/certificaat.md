@@ -6,7 +6,7 @@ Op **Windows** wordt het beveiligingscertificaat automatisch in het besturingssy
 
 Op **Linux** wordt het beveiligingscertificaat niet automatisch in het besturingssysteem geïnstalleerd. Installeer het certificaat dus op alle computers, inclusief de server.
 
-**Let op:** als je het certificaat systeembreed installeert, lukt het mogelijk niet om het certificaat in de browser te gebruiken. Firefox gebruikt bijvoorbeeld een eigen certificaatbeheerder. Als het nog niet werkt, installeer je het certificaat in de browser volgens de instructies hieronder.
+**Let op:** als je het certificaat in het besturingssysteem installeert, lukt het mogelijk niet om het certificaat in de browser te gebruiken. Firefox gebruikt bijvoorbeeld een eigen certificaatbeheerder. Als het nog niet werkt, installeer je het certificaat in de browser volgens de instructies hieronder.
 
 ## Certificaat kopiëren
 
