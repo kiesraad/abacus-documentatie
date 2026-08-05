@@ -1,16 +1,16 @@
 # Beveiligingscertificaat
 
-Abacus wordt geïnstalleerd met een TLS-beveiligingscertificaat, zodat de verbinding tussen de Abacus-server en de clients versleuteld is.
+Abacus gebruikt HTTPS en daarvoor is een TLS-beveiligingscertificaat nodig. Hiermee zet je een versleutelde verbinding op tussen de Abacus-server en de clients. Na de installatie van Abacus is het beveiligingscertificaat beschikbaar voor installatie in het besturingssysteem of in de gebruikte browsers.
 
-Op **Windows** wordt het beveiligingscertificaat automatisch geïnstalleerd tijdens de installatie van Abacus. Daarna installeer je het certificaat zelf op alle clients, zodat ze `https` gebruiken en een versleutelde verbinding hebben met de server.
+Op **Windows** wordt het beveiligingscertificaat automatisch in het besturingssysteem geïnstalleerd tijdens de installatie van Abacus. Daarna installeer je het certificaat zelf op alle clients, zodat ze `https` gebruiken en een versleutelde verbinding hebben met de server.
 
-Op **Linux** wordt het beveiligingscertificaat niet automatisch geïnstalleerd op de server. Installeer het certificaat dus op alle computers, inclusief de server.
+Op **Linux** wordt het beveiligingscertificaat niet automatisch in het besturingssysteem geïnstalleerd. Installeer het certificaat dus op alle computers, inclusief de server.
 
 **Let op:** als je het certificaat systeembreed installeert, lukt het mogelijk niet om het certificaat in de browser te gebruiken. Firefox gebruikt bijvoorbeeld een eigen certificaatbeheerder. Als het nog niet werkt, installeer je het certificaat in de browser volgens de instructies hieronder.
 
 ## Certificaat kopiëren
 
-Eerst kopieer je het certificaat naar de clients.
+Voordat je het certificaat kunt installeren, moet je het naar de clients kopiëren.
 
 - Op de server open je de installatiemap van Abacus. Voor Windows is dit standaard `C:\Gebruikers\<gebruikersnaam>\AppData\Roaming\Abacus` en voor Linux `/usr/local/bin/abacus`.
 - Ga naar de map `tls`.
