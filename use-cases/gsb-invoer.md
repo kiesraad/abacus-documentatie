@@ -151,9 +151,16 @@ __Uitbreidingen:__
 &emsp; 2a1. De coördinator GSB verwijdert beide invoeren.  
 &emsp; 2a2. De coördinator GSB laat het stembureau opnieuw invoeren door twee invoerders.
 
-### Niet in scope
+3a. De coördinator GSB laat, in plaats van de andere invoer helemaal weg te gooien, alleen de afwijkende velden daarvan corrigeren door de oorspronkelijke invoerder:  
+&emsp; 3a1. De applicatie bewaart de correcte invoer als referentie en wist de afwijkende velden in de andere invoer, gemarkeerd met waarschuwing [W.002](./validatieregels-plausibiliteitschecks-tellingen.md#w002-bij-correctie-de-coördinator-heeft-velden-leeggemaakt-die-opnieuw-ingevuld-moeten-worden). (W.001 wordt bij een correctie-invoer niet getoond.)  
+&emsp; 3a2. De oorspronkelijke invoerder van die invoer corrigeert de gemarkeerde velden aan de hand van het PV.
 
-- Gebruiksvriendelijker alternatief is om afhankelijk van het aantal verschillen drie opties te geven: (1) coördinator GSB kiest één invoer en voegt een verklaring toe aan "Bijzonderheden"; (2) coördinator GSB laat alleen de afwijkende lijst(en) opnieuw invoeren; (3) coördinator GSB laat de volledige invoer opnieuw doen.
+3b. De invoer die de coördinator GSB als correcte invoer wil bewaren, bevat zelf geaccepteerde fouten:  
+&emsp; 3b1. De applicatie biedt de correctie-optie niet aan en toont een informatiemelding.  
+&emsp; 3b2. De coördinator GSB gooit de andere invoer weg (hoofdscenario stap 3 en 4).  
+&emsp; 3b3. [De coördinator GSB beoordeelt de geaccepteerde fouten in de bewaarde invoer.](#de-coördinator-gsb-beoordeelt-de-geaccepteerde-fouten-zee)
+
+_Zie ook de flowchart ["Afhandeling fouten en verschillen door coördinator"](./afhandeling-fouten-verschillen-coordinator.md)._
 
 ## De coördinator GSB beoordeelt de geaccepteerde fouten (zee).
 
