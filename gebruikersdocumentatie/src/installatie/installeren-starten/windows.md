@@ -1,6 +1,6 @@
 # Windows
 
-Met deze methode installeer je Abacus op een Windows-machine.
+Met deze methode installeer je Abacus op een Windows-computer.
 
 **Let op:** Het beveiligingscertificaat wordt geïnstalleerd op Windows, en het bestand wordt in de map `tls` geplaatst in de installatiemap. Dit certificaat kun je daarna op alle computers installeren volgens de instructies in het hoofdstuk [Beveiligingscertificaat](./certificaat.md).
 

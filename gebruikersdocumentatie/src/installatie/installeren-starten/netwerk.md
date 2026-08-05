@@ -14,7 +14,7 @@ Je installeert Abacus op één computer die dient als server. De andere computer
 
 Zo stel je het netwerk in:
 
-- Gebruik een hub of netwerkapparaat met voldoende poorten. Als je meer clients gebruikt dan er poorten zijn, dan kun je één of meer (unmanaged) switches aansluiten tussen het netwerkapparaat en de clients.
+- Gebruik een hub of netwerkapparaat met voldoende poorten.
 - Sluit de server met een ethernetkabel aan op het netwerkapparaat, en doe hetzelfde met de clients en optioneel met de printer.
 
 ![Voorbeeld van een air-gapped netwerk](./img/diagram-netwerk.png)
@@ -40,14 +40,14 @@ Op Linux zijn er verschillende manieren om een statisch IP toe te wijzen. Verand
 sudo ip addr add 192.168.1.101/24 dev eth0
 ```
 
-Als je wilt dat het statische IP-adres ingesteld blijft wanneer je opnieuw opstart, voeg je de netwerkgegevens toe aan het configuratiebestand voor jouw Linux-distributie.
+Als je wilt dat het statische IP-adres ingesteld blijft wanneer je opnieuw opstart, voeg dan de netwerkgegevens toe aan het configuratiebestand voor jouw Linux-distributie.
 
 ## Airgapped netwerk
 
 Nu zorg je dat het netwerk airgapped is en er geen internetverbindingen mogelijk zijn:
 
 - Installeer op elke computer de meest recente updates van het besturingssysteem voordat je de verbinding met het internet verbreekt.
-- Zorg dat alle aanwezige draadloze communicatiemodules zoals wifi en Bluetooth zijn gedeactiveerd, ook op de printer.
+- Zorg dat alle aanwezige draadloze communicatiemodules zoals wifi en bluetooth zijn gedeactiveerd, ook op de printer.
 - Op de computers zelf zet je de wifi-functie uit zodat er ook op die manier geen internetverbinding kan worden gemaakt.
 - Zorg dat de datum en tijd van alle computers kloppen. Als de datum en tijd afwijken, kan dit onder andere leiden tot problemen met inloggen.
 

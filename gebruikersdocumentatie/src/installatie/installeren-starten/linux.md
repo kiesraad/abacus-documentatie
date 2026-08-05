@@ -1,6 +1,6 @@
 # Linux
 
-Met deze methode installeer je Abacus op een Linux-machine.
+Met deze methode installeer je Abacus op een Linux-computer.
 
 **Let op:** Het beveiligingscertificaat wordt tijdens de installatie in de map `tls` geplaatst in de installatiemap. Dit certificaat kun je daarna op alle computers installeren volgens de instructies in het hoofdstuk [Beveiligingscertificaat](./certificaat.md).
 

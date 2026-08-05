@@ -2,7 +2,7 @@
 
 Abacus gebruikt HTTPS en daarvoor is een TLS-beveiligingscertificaat nodig. Hiermee zet je een versleutelde verbinding op tussen de Abacus-server en de clients. Na de installatie van Abacus is het beveiligingscertificaat beschikbaar voor installatie in het besturingssysteem of in de gebruikte browsers.
 
-Op **Windows** wordt het beveiligingscertificaat automatisch in het besturingssysteem geïnstalleerd tijdens de installatie van Abacus. Daarna installeer je het certificaat zelf op alle clients, zodat ze `https` gebruiken en een versleutelde verbinding hebben met de server.
+Op **Windows** wordt het beveiligingscertificaat automatisch in het besturingssysteem geïnstalleerd tijdens de installatie van Abacus. Daarna installeer je het certificaat zelf op alle clients, zodat ze HTTPS gebruiken en een versleutelde verbinding hebben met de server.
 
 Op **Linux** wordt het beveiligingscertificaat niet automatisch in het besturingssysteem geïnstalleerd. Installeer het certificaat dus op alle computers, inclusief de server.
 
@@ -12,7 +12,7 @@ Op **Linux** wordt het beveiligingscertificaat niet automatisch in het besturing
 
 Voordat je het certificaat kunt installeren, moet je het naar de clients kopiëren.
 
-- Op de server open je de installatiemap van Abacus. Voor Windows is dit standaard `C:\Gebruikers\<gebruikersnaam>\AppData\Roaming\Abacus` en voor Linux `/usr/local/bin/abacus`.
+- Op de server open je de installatiemap van Abacus. Voor Windows is dit standaard `C:\Gebruikers\<gebruikersnaam>\AppData\Roaming\Abacus` (bereikbaar via de knop op het bureaublad) en voor Linux `/usr/local/bin/abacus`.
 - Ga naar de map `tls`.
 - Het bestand `ca.cer` is het certificaat voor Windows en webbrowsers, en het bestand `ca.pem` is het certificaat voor Linux. Er zijn twee manieren om het certificaat op de client te zetten:
   - Kopieer het naar een USB-stick en vervolgens naar een handige map op de client.
@@ -82,5 +82,6 @@ Het is ook mogelijk om het beveiligingscertificaat te installeren in de browser 
 - Ga naar **Instellingen** → **Privacy en Beveiliging**. Helemaal onderaan de pagina selecteer je **Geavanceerde instellingen**.
 - Onder **Certificaten** selecteer je **Certificaten beheren**. Selecteer **Importeren...** en selecteer het bestand `ca.cer`.
 - Vink **Deze CA vertrouwen voor het identificeren van websites** aan.
-- Selecteer **Weergeven** om de gegevens van het certificaat te bekijken in de browser. Ter controle vergelijk je de SHA-256-vingerafdruk met de SHA-256-vingerafdruk die je in de command prompt ziet wanneer je de Abacus-server start.
+- Selecteer **Weergeven** om de gegevens van het certificaat te bekijken in de browser.
+- Ter controle vergelijk je de SHA-256-vingerafdruk met de SHA-256-vingerafdruk die je in de command prompt ziet wanneer je de Abacus-server start.
 - Selecteer **OK** om het certificaat te importeren.
