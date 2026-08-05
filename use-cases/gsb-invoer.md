@@ -157,7 +157,7 @@ __Uitbreidingen:__
 
 3b. De invoer die de coördinator GSB als correcte invoer wil bewaren, bevat zelf geaccepteerde fouten:  
 &emsp; 3b1. De applicatie biedt de correctie-optie niet aan en toont een informatiemelding.  
-&emsp; 3b2. De coördinator GSB gooit de andere invoer weg (hoofdscenario stap 3 t/m 5).  
+&emsp; 3b2. De coördinator GSB gooit de andere invoer weg (hoofdscenario stap 3 en 4).  
 &emsp; 3b3. [De coördinator GSB beoordeelt de geaccepteerde fouten in de bewaarde invoer.](#de-coördinator-gsb-beoordeelt-de-geaccepteerde-fouten-zee)
 
 _Zie ook de flowchart ["Afhandeling fouten en verschillen door coördinator"](./afhandeling-fouten-verschillen-coordinator.md)._

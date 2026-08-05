@@ -61,7 +61,7 @@ flowchart TD
 
     invoer-met-fouten-en-waarschuwingen-2 --> verschil-oplossen
     verschil-oplossen -- bewaar 1ste invoer, laat 2de opnieuw invoeren --> klaar-voor-tweede-invoer
-    verschil-oplossen -- bewaarde 2de invoer, 2de invoer wordt 1ste invoer --> fouten
+    verschil-oplossen -- bewaar 2de invoer, 2de invoer wordt 1ste invoer --> fouten
     verschil-oplossen -- verwijder 1ste en 2de invoer --> klaar-voor-eerste-invoer
 
     subgraph sg-correctie[correctie]
