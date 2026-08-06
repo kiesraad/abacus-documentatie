@@ -4,4 +4,4 @@ Je krijgt inloginstructies van de beheerder. Vul de gegevens in op de inlogpagin
 
 Wanneer je voor de eerste keer inlogt, stel je je account eerst in voor gebruik. Voer je naam in als er nog geen naam staat, of wijzig je naam als die onjuist is. Kies vervolgens een nieuw wachtwoord en vul dit twee keer in.
 
-![Account instellen](./img/account-instellen-coord-csb.png)
+![Account instellen](./img/account-instellen-coord.png)

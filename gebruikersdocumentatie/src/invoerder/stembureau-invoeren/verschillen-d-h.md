@@ -6,12 +6,12 @@ Op het papieren proces-verbaal is aangegeven of er verschillen zijn tussen het a
 
 - Neem de vinkjes en cijfers over zoals ze in het proces-verbaal staan.
 
-![Verschillen tussen aantal kiezers en uitgebrachte stemmen - GSB](./img/inv-verschillen-dh-gsb.png)
+![Verschillen tussen aantal kiezers en uitgebrachte stemmen - gemeentelijk stembureau](./img/inv-verschillen-dh-gsb.png)
 
 ## Centraal stembureau
 
 - Neem alleen de cijfers over. De vinkvraag in het proces-verbaal hoef je niet in te vullen.
 
-![Verschillen tussen aantal kiezers en uitgebrachte stemmen - CSB](./img/inv-verschillen-dh-csb.png)
+![Verschillen tussen aantal kiezers en uitgebrachte stemmen - centraal stembureau](./img/inv-verschillen-dh-csb.png)
 
 - Wanneer je klaar bent selecteer je **Volgende**.

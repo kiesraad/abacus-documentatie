@@ -1,5 +1,5 @@
 # Type stembureau
 
-Hier geef je aan voor welk type stembureau je Abacus wilt gebruiken.
+Hier geef je aan voor welk type stembureau je Abacus wil gebruiken.
 
-![Rol van het stembureau selecteren](./img/verkiezing-toevoegen-type-stembureau.png)
+![Type stembureau selecteren](./img/verkiezing-toevoegen-type-stembureau.png)

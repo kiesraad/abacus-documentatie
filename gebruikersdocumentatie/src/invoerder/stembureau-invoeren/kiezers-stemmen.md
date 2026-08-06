@@ -6,13 +6,13 @@ Nu voer je de toegelaten kiezers en uitgebrachte stemmen in.
 
 - Voer de velden A tot en met H in, die je vindt in rubriek B1 - 3.1 en 3.2 van het papieren proces-verbaal.
 
-![Toegelaten kiezers en uitgebrachte stemmen - GSB](./img/inv-kiezers-stemmen-gsb.png)
+![Toegelaten kiezers en uitgebrachte stemmen - gemeentelijk stembureau](./img/inv-kiezers-stemmen-gsb.png)
 
 ## Centraal stembureau
 
 - Voer de velden Z en A tot en met H in, die je vindt in rubriek 2.1 tot en met 2.3 van het proces-verbaal van het gemeentelijk stembureau.
 - **Let op**: voor het centraal stembureau is dit de eerste stap. Aan de linkerkant van het scherm zie je alleen de stappen die relevant zijn voor het centraal stembureau.
 
-![Toegelaten kiezers en uitgebrachte stemmen - CSB](./img/inv-kiezers-stemmen-csb.png)
+![Toegelaten kiezers en uitgebrachte stemmen - centraal stembureau](./img/inv-kiezers-stemmen-csb.png)
 
 Neem de cijfers over zoals ze in het proces-verbaal staan en selecteer **Volgende**.

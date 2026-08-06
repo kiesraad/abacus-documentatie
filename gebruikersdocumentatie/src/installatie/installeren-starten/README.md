@@ -7,8 +7,8 @@ De software controleert de handmatige tellingen en telt per niveau de resultaten
 In dit document leggen we uit hoe je Abacus installeert.
 
 Bij de onderstaande installatiemethodes is aangegeven op welke besturingssystemen ze werken.
-De methoden voor Linux werken op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (22.04 en 24.04) en Debian (12/bookworm en 13/trixie).
 De Windows-methode is getest op Windows 11.
+De methoden voor Linux werken op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (22.04 en 24.04) en Debian (12/bookworm en 13/trixie).
 
 Om Abacus goed te kunnen gebruiken, adviseren we het volgende (naast de systeemvereisten die je op de website van de Kiesraad vindt):
 
