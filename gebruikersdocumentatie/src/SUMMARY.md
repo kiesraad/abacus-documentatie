@@ -27,7 +27,7 @@
 
 - [Spiekbrief voor gebruik](./spiekbrief/README.md)
   - [Invoeren en sneltoetsen](./spiekbrief/invoeren-sneltoetsen.md)
-  - [Waarschuwingen en fouten](./spiekbrief/waarschuwingen-fouten.md)
+  - [Fouten en waarschuwingen](./spiekbrief/fouten-waarschuwingen.md)
   - [Tweede invoer](./spiekbrief/tweede-invoer.md)
   - [Pauzeren of afbreken](./spiekbrief/pauzeren-afbreken.md)
   - [Codes van fouten en waarschuwingen](./spiekbrief/foutcodes/README.md)
@@ -53,7 +53,7 @@
   - [Gebruikers beheren](./beheerder/gebruikers-beheren/README.md)
     - [Gebruiker toevoegen](./beheerder/gebruikers-beheren/gebr-toevoegen.md)
     - [Gebruiker wijzigen of verwijderen](./beheerder/gebruikers-beheren/gebr-wijzigen-verwijderen.md)
-  - [Back-ups](./beheerder/backups.md)
+  - [Back-ups van de database](./beheerder/backups.md)
   - [Activiteitenlog](./beheerder/activiteitenlog.md)
 
 # Instructies coördinator GSB

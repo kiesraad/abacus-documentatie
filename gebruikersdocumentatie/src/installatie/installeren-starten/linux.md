@@ -1,4 +1,4 @@
-# Linux
+# Installeren op Linux
 
 Met deze methode installeer je Abacus op een Linux-computer.
 
@@ -6,8 +6,7 @@ Met deze methode installeer je Abacus op een Linux-computer.
 
 ## Downloaden
 
-- Je downloadt Abacus via Rijkscloud SecureFileTransfer. Deze link krijg je van de Kiesraad.
-- Pak de tarball uit:
+Je downloadt Abacus via Rijkscloud SecureFileTransfer. Deze link krijg je van de Kiesraad. Pak de tarball uit:
 
 ```
 tar -xvf abacus-linux-[versienummer].tar.gz ~/mapnaarkeuze/

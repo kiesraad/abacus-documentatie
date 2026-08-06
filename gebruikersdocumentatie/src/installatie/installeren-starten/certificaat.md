@@ -38,8 +38,7 @@ Hier vind je de SHA-1-vingerafdruk in de command prompt:
 
 Voor verschillende Linux-distributies bestaan meerdere manieren om het certificaat te installeren. Hier wordt alleen de methode voor Debian en Ubuntu beschreven.
 
-- Kopieer het certificaat naar de map `/usr/local/share/ca-certificates`.
-- Vervolgens voeg je het certificaat toe aan de systeembrede certificaatset:
+Kopieer het certificaat naar de map `/usr/local/share/ca-certificates`. Vervolgens voeg je het certificaat toe aan de certificaatset van het besturingssysteem:
 
 ```
 sudo update-ca-certificates
@@ -47,19 +46,19 @@ sudo update-ca-certificates
 
 Ter controle vergelijk je de SHA-256-vingerafdruk van het certificaat met de SHA-256-vingerafdruk in het servicelog van de Abacus-service.
 
-- Met deze opdracht vind je de vingerafdruk van het certificaat `ca.pem`:
+Met deze opdracht vind je de vingerafdruk van het certificaat `ca.pem`:
 
 ```
 openssl x509 -in ca.pem -noout -fingerprint -sha256
 ```
 
-- En met deze opdracht vind je de vingerafdruk in het servicelog:
+En met deze opdracht vind je de vingerafdruk in het servicelog:
 
 ```
 sudo journalctl -I -u abacus.service
 ```
 
-## Installeren in de browser
+## Certificaat installeren in de browser
 
 Het is ook mogelijk om het beveiligingscertificaat te installeren in de browser die je gebruikt.
 

@@ -1,4 +1,4 @@
-# Windows
+# Installeren op Windows
 
 Met deze methode installeer je Abacus op een Windows-computer.
 
