@@ -15,7 +15,7 @@ Als je een EML-bestand met stembureaus (EML 110b) hebt, kun je dit direct toevoe
 **Let op:** Een bestand importeren is niet meer mogelijk als er al stembureaus aanwezig zijn.
 
 - Selecteer **Importeren uit een bestand**.
-- Selecteer daarna **Bestand kiezen** en kies het bestand.
+- Selecteer daarna **Bestand kiezen** en selecteer het bestand.
 
 ![Stembureaus importeren uit een bestand](./img/stembureaus-import.png)
 

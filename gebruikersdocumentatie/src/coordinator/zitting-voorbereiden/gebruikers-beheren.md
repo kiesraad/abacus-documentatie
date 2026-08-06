@@ -11,7 +11,7 @@ Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen.
 ## Gebruiker toevoegen
 
 - Selecteer **+ Gebruiker toevoegen**.
-- Kies eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de naam invoeren.
+- Selecteer eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de naam invoeren.
 
 ![Alleen bij invoerder: type account selecteren](./img/gebr-toev-type-gsb.png)
 

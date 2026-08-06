@@ -112,7 +112,7 @@ Gemarkeerde velden: E, F, G en H
 > - Zo ja: herstel op papier de optelfout door bij E en E.1 t/m E.n de juiste getallen in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
-Veld markeren: E
+Gemarkeerd veld: E
 
 ### F.301: Vergelijk D en H: het vakje *D en H zijn gelijk* is aangevinkt, maar D is niet gelijk aan H
 
@@ -255,7 +255,7 @@ Gemarkeerd veld: foutmelding op 2.3.2
 > - Zo ja: maak een corrigendum en corrigeer daarin de optelfout. Corrigeer ook rubriek 2.3 in het corrigendum.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
 
-Velden markeren: totaal van de lijst
+Gemarkeerde velden: totaal van de lijst
 
 ### F.402 (als F.401 niet getoond wordt): het totaal aantal stemmen op een lijst is kleiner of groter dan de som van het aantal stemmen op de kandidaten van die lijst
 
@@ -280,7 +280,7 @@ Velden markeren: totaal van de lijst
 > - Zo ja: maak een corrigendum en corrigeer daarin de optelfout. Corrigeer ook rubriek 2.3 in het corrigendum.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw. Begin bij deze lijst, en hertel tot de fout gevonden is, of alles één keer herteld is.
 
-Velden markeren: totaal van de lijst
+Gemarkeerde velden: totaal van de lijst
 
 ## Waarschuwingen
 
@@ -289,7 +289,7 @@ Velden markeren: totaal van de lijst
 > Invoerder: **Extra controle nodig**  
 > De gemarkeerde velden zijn anders dan in de eerste invoer.
 
-> Coördinator: W.001 is er alleen voor invoerders
+> Coördinator: W.001 is er alleen voor invoerders\
 > Voor de coördinator hebben we het scherm 'verschillen oplossen'.
 
 Gemarkeerde velden: alle velden met een verschil
@@ -303,7 +303,7 @@ Gemarkeerde velden: alle velden met een verschil
 > - Hertel de blanco stemmen of geef een verklaring voor het hoge aantal.
 > - Geef in elk geval aan wat je hebt gedaan in het proces-verbaal van het GSB (rubriek 1.2).
 
-Veld markeren: F
+Gemarkeerd veld: F
 
 ### W.202: Het aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 
@@ -314,7 +314,7 @@ Veld markeren: F
 > - Hertel de ongeldige stemmen of geef een verklaring voor het hoge aantal.
 > - Geef in elk geval aan wat je hebt gedaan in het proces-verbaal van het GSB (rubriek 1.2).
 
-Veld markeren: G
+Gemarkeerd veld: G
 
 ### W.203: Het verschil tussen het totaal aantal toegelaten kiezers en het totaal aantal uitgebrachte stemmen is groter dan of gelijk aan 2% en groter dan of gelijk aan 15
 
@@ -327,7 +327,7 @@ Veld markeren: G
 > - Verklaar in het proces-verbaal van het GSB (rubriek 1.2) zo goed mogelijk wat de oorzaak van de opmerkelijke uitkomst is.
 > - Schrijf ook op welke stappen het GSB heeft gezet om deze te hertellen en onderzoeken.
 
-Velden markeren: D en H
+Gemarkeerde velden: D en H
 
 ### W.204: Het totaal aantal uitgebrachte stemmen is leeg of 0
 
@@ -339,4 +339,4 @@ Velden markeren: D en H
 > - Zo ja: verklaar in het proces-verbaal van het GSB (rubriek 1.2) waarom in dit stembureau geen stemmen zijn uitgebracht.
 > - Zo nee: verwijder het stembureau uit Abacus. Het proces-verbaal moet niet ingevoerd worden.
 
-Veld markeren: H
+Gemarkeerd veld: H
