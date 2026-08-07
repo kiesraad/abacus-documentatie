@@ -19,7 +19,7 @@ Door bij 14 gemeenten, van klein tot groot, de software te gebruiken is er de ka
 
 De informatie voor de evaluatie komt uit drie bronnen: 
 
-* Aanwezigheid tijdens gebruik
+* Observaties van het Abacus-team tijdens gebruik
 * Focusgroep gericht op Abacus
 * Vragen in de vragenlijst
 
@@ -27,7 +27,7 @@ Daarnaast is er input ontvangen vanuit de NVVB, in de vorm van [een brief aan de
 
 ## Selectie gemeenten
 
-De deelnemende gemeenten hebben zich naar aanleiding van een oproep in de nieuwsbrief verkiezingen grotendeels zelf aangemeld. Enkele gemeenten zijn in het voortraject intensief betrokken geweest, maar de meesten kenden Abacus vooraf niet. De criteria waren; de gemeente moet enthousiast zijn, Abacus moet passen in het proces en het geheel moet een afspiegeling zijn van de gemeenten, qua grootte. 
+De deelnemende gemeenten hebben zich naar aanleiding van een oproep in de nieuwsbrief verkiezingen grotendeels zelf aangemeld. Enkele gemeenten zijn in het voortraject intensief betrokken geweest, maar de meesten kenden Abacus vooraf niet. De criteria waren; de gemeente moet mee willen doen, Abacus moet passen in het proces en het geheel moet een afspiegeling zijn van de gemeenten, qua grootte. 
 
 De verscheidenheid aan gemeenten heeft ervoor gezorgd dat er een breed beeld is ontstaan van de toepassing van Abacus. Er waren zowel gemeenten met veel eigen kennis als gemeenten waar dit veel minder het geval was. Door de aanmelding op initiatief te doen was er veel aandacht en enthousiasme, waardoor het beeld mogelijk positief kleurt. 
 
@@ -37,15 +37,15 @@ Wat naar voren komt is dat de gebruikers vooral de nadruk leggen op het doorontw
 
 De meest voorkomende verbeterpunten die worden genoemd zijn: 
 
-- Oplossen verschillen tussen eerste en tweede invoer: Abacus verplicht conform de WPV twee handmatige invoeren in de software en dat vraagt om meer aandacht voor een correcte eerste invoer.
-- EML2csv integreren: Abacus bevatte het bestand nog niet om met excel de resultaten te bekijken, dit moet apart worden geconverteerd.
-- Read only rol: Abacus heeft nog geen read only pagina om de voortgang bijvoorbeeld te kunnen delen.
+- Oplossen verschillen tussen eerste en tweede invoer: Abacus verplicht conform de WPV twee handmatige invoeren in de software. Waar in OSV2020 bij een verschil één van de twee invoeren als definitief kan worden gekozen, moest in Abacus de afwijkende invoer opnieuw worden gedaan. Dat kost extra tijd, deelnemers verzoeken dit anders op te lossen.
+- EML2csv integreren: Abacus bevatte het bestand nog niet om met Excel de resultaten te bekijken. De EML moest nu met een aparte tool handmatig worden geconverteerd. De wens is om het csv-bestand automatisch vanuit Abacus te kunnen genereren.
+- Read only rol: Abacus heeft nog geen read only pagina om de voortgang op een beamer te kunnen tonen, zonder dat continu opnieuw moet worden ingelogd met een coördinator account.
 - Voortgangsscherm bij meer dan 50 stembureaus wordt wat minder overzichtelijk. 
 - Verklaringen invoeren bij waarschuwingen: Abacus geeft uitgebreide foutmeldingen en waarschuwingen. De verklaringen hierover kunnen echter niet via Abacus worden ingevoerd.
 
 ## Lessen uit de voorbereiding
 
-De gebruikers waardeerden de intensieve en persoonlijke voorbereiding, de bereikbaarheid en aanwezigheid van het ontwikkelteam. Dit maakt het toepassen van nieuw instrumentarium toegankelijker en vertrouwder: als de Kiesraad ter plaatse is, dan hebben ze er vertrouwen in.
+Deelnemende gemeenten waardeerden de intensieve en persoonlijke voorbereiding, de bereikbaarheid en aanwezigheid van het ontwikkelteam. Dit maakt het toepassen van nieuw instrumentarium toegankelijker en vertrouwder: als de Kiesraad ter plaatse is, dan hebben ze er vertrouwen in.
 
 Hierbij wordt terecht aangegeven dat dit bij een bredere toepassing niet schaalbaar is. De ondersteuning moet worden opgenomen in de reguliere voorbereiding van de verkiezingen zoals die door de Kiesraad standaard wordt gedaan. 
 
@@ -88,9 +88,9 @@ Het ontwikkelteam is ter plaatse geweest bij alle gemeenten en heeft een overzic
 - Verschillen oplossen; correctie optie (route die je gebruikt als je fouten hebt) (Issue kiesraad/abacus#3230)
 
 - Read only rol (voortgang bijhouden, met name voorkomen beamerprobleem met uitloggen) (Issue kiesraad/abacus#3234)
-- {design nodig} Voortgangsscherm kan duidelijker bij meer dan 50 stembureaus (Issue kiesraad/abacus#3234)
+- Voortgangsscherm kan duidelijker bij meer dan 50 stembureaus (Issue kiesraad/abacus#3234)
 - Verklaringen invoeren bij waarschuwingen uit het controleprotocol (Issue kiesraad/abacus#3239)
 - Waarschuwingen als 'afgehandeld' kunnen markeren om ze bij te houden (Issue kiesraad/abacus#3239)
-- {design nodig} De keyboard hints worden niet/nauwelijks opgemerkt. Daardoor duurt het relatief lang voordat invoerders hun muis links laten liggen → Eenvoudige onboarding opnemen in de applicatie. Benoemen in de training. (Issue kiesraad/abacus#3238)
+- De keyboard hints worden niet/nauwelijks opgemerkt. Daardoor duurt het relatief lang voordat invoerders hun muis links laten liggen → Eenvoudige onboarding opnemen in de applicatie. Benoemen in de training. (Issue kiesraad/abacus#3238)
 - Abacus als service (i.i.g. Utrecht)  (Issue kiesraad/abacus#3237)
 
