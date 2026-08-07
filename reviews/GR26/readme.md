@@ -1,6 +1,6 @@
 # Gemeenteraadsverkiezingen 2026
 
-Tijdens de gemeenteraadsverkiezingen 2026 is Abacus bij 14 gemeenten gebruikt, met de [release v1.0.1](https://github.com/kiesraad/abacus/releases/tag/v1.0.1). 
+Tijdens de gemeenteraadsverkiezingen 2026 is Abacus bij 14 gemeenten gebruikt, met de [release v1.0.1](https://github.com/kiesraad/abacus/releases/tag/v1.0.1). Rondom deze toepassing zijn onderzoeken uitgevoerd; om de werking van de software te controleren, de uitslagen te controleren en om van de toepassing te leren. Deze onderzoeken zijn hier terug te vinden.
 
 ## Onderzoeken vooraf
 
@@ -15,5 +15,9 @@ Naar aanleiding van een vraag uit de community over de totstandkoming van de pen
 
 De toepassing van Abacus tijdens GR26 wordt geevalueerd. De resultaten hiervan worden hier opgenomen.
 
-* Controle optellingen bij deelnemende gemeenten, met toelichting.
-* Evaluatieonderzoek met vragenlijst en focusgroepen (volgt)
+* [Controle optellingen bij deelnemende gemeenten](controles-abacus-GR26.pdf), met toelichting.
+* [Evaluatieadvies](https://www.kiesraad.nl/documenten/2026/07/03/evaluatieadvies-gemeenteraadsverkiezingen-2026) met vragenlijst en focusgroepen.
+
+## Samenvatting evaluatie GR26
+
+Op basis van de evaluatieonderzoeken en aanwezigheid van de leden van het ontwikkelteam bij de 14 gemeenten die Abacus gebruikten is [een samenvattend document](Evaluatie%20Abacus%20tijdens%20GR26.md) gemaakt met de belangrijkste bevindingen. Voor de volledigheid zijn ook [de belangrijkste onderliggende documenten](evaluatieonderzoeken) toegevoegd.
