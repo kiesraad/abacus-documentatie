@@ -3,7 +3,10 @@
 Abacus is tijdens GR26 gebruikt bij 14 gemeenten. Het [evaluatieadvies van de gemeenteraadsverkiezingen](https://www.kiesraad.nl/documenten/2026/07/03/evaluatieadvies-gemeenteraadsverkiezingen-2026) bevat een paragraaf over Abacus: 
 
 ```
-Afgelopen gemeenteraadsverkiezing hebben 14 gemeenten met een centrale stemopneming de invoer van het gsb uitgevoerd met Abacus. De gemeenten hebben het gebruik van Abacus als heel positief ervaren. Er hebben zich bij deze gedeeltelijke introductie geen problemen voorgedaan. De Kiesraad neemt de verbeterpunten mee in de verdere ontwikkeling van de software. 
+Afgelopen gemeenteraadsverkiezing hebben 14 gemeenten met een centrale stemopneming de invoer van het gsb
+uitgevoerd met Abacus. De gemeenten hebben het gebruik van Abacus als heel positief ervaren. Er hebben
+zich bij deze gedeeltelijke introductie geen problemen voorgedaan. De Kiesraad neemt de verbeterpunten
+mee in de verdere ontwikkeling van de software. 
 ```
 
 Het doel van dit document is een terugblik op het gebruik van Abacus en een inventarisatie van de mogelijke verbeterpunten. Het is geschreven vanuit het perspectief van het ontwikkelteam.
