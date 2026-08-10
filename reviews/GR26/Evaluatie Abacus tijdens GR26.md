@@ -55,7 +55,7 @@ De conclusies uit de verschillende bronnen zijn hieronder in meer detail opgenom
 
 ### Focusgroep
 
-Onderdeel van de focusgroepen die voor de evaluatie van de gemeenteraadsverkiezingen zijn georganiseerd was een groep specifiek over Abacus. Het verslag hiervan is als bijlage toegevoegd. De belangrijkste conclusies zijn positief, met enkele opmerkingen en suggesties: 
+Onderdeel van de focusgroepen die voor de evaluatie van de gemeenteraadsverkiezingen zijn georganiseerd was een groep specifiek over Abacus. [Het verslag hiervan is als bijlage toegevoegd.](evaluatieonderzoeken/rapportage-focusgroepen-gemeenten-gemeenteraadsverkiezingen-2026-1.pdf) De belangrijkste conclusies zijn positief, met enkele opmerkingen en suggesties: 
 
 * Oplossen verschillen zoals in de GR26 versie van Abacus leidt tot tijdverlies
 * Statusscherm stembureaus is onoverzichtelijk bij grotere hoeveelheden stembureaus
@@ -84,9 +84,8 @@ Het ontwikkelteam is ter plaatse geweest bij alle gemeenten en heeft een overzic
 #### Grote verbeteringen
 
 - EML2csv integreren in Abacus (Epic kiesraad/abacus#3053)
-- Backups vanuit de applicatie mogelijk maken (Isssue kiesraad/abacus#3231)
+- Backups vanuit de applicatie mogelijk maken (Issue kiesraad/abacus#3231)
 - Verschillen oplossen; correctie optie (route die je gebruikt als je fouten hebt) (Issue kiesraad/abacus#3230)
-
 - Read only rol (voortgang bijhouden, met name voorkomen beamerprobleem met uitloggen) (Issue kiesraad/abacus#3234)
 - Voortgangsscherm kan duidelijker bij meer dan 50 stembureaus (Issue kiesraad/abacus#3234)
 - Verklaringen invoeren bij waarschuwingen uit het controleprotocol (Issue kiesraad/abacus#3239)
