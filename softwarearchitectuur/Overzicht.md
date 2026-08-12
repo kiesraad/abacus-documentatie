@@ -25,7 +25,7 @@ verduidelijken. Het omvat ook het systeemcontextdiagram.
   verkiezingen.
 - De gebruikers zijn onderverdeeld in de verschillende rollen die worden
   ondersteund door het systeem: beheerder, coördinator en invoerder.
-- Het Uitwisselingsplatform en Platform Teluitslagen zijn bestaande systemen die
+- Het Platform Uitwisseling en Platform Teluitslagen zijn bestaande systemen die
   gebruikt worden om gegevens uit te wisselen met Abacus.
 - De uitslagen van de stembureaus zijn papieren documenten.
 
