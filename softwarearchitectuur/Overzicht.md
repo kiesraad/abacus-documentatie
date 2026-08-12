@@ -27,7 +27,8 @@ verduidelijken. Het omvat ook het systeemcontextdiagram.
   ondersteund door het systeem: beheerder, coördinator en invoerder.
 - Het Platform Uitwisseling en Platform Teluitslagen zijn bestaande systemen die
   gebruikt worden om gegevens uit te wisselen met Abacus.
-- De uitslagen van de stembureaus zijn papieren documenten.
+- De telresultaten van stembureau's zijn papieren documenten (processen-verbaal)
+  die in het verkiezingsproces worden opgesteld.
 
 ## Onderdelen
 
