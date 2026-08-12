@@ -27,7 +27,7 @@ Daarnaast is er input ontvangen vanuit de NVVB, in de vorm van [een brief aan de
 
 ## Selectie gemeenten
 
-De deelnemende gemeenten hebben zich naar aanleiding van een oproep in de nieuwsbrief verkiezingen grotendeels zelf aangemeld. Enkele gemeenten zijn in het voortraject intensief betrokken geweest, maar de meesten kenden Abacus vooraf niet. De criteria waren; de gemeente moet mee willen doen, Abacus moet passen in het proces en het geheel moet een afspiegeling zijn van de gemeenten, qua grootte. 
+De deelnemende gemeenten hebben zich naar aanleiding van een oproep in de nieuwsbrief verkiezingen grotendeels zelf aangemeld. Enkele gemeenten zijn in het voortraject intensief betrokken geweest, maar de meesten kenden Abacus vooraf niet. De criteria waren: de gemeente moet mee willen doen, Abacus moet passen in het proces en het geheel moet een afspiegeling zijn van de gemeenten, qua grootte. 
 
 De verscheidenheid aan gemeenten heeft ervoor gezorgd dat er een breed beeld is ontstaan van de toepassing van Abacus. Er waren zowel gemeenten met veel eigen kennis als gemeenten waar dit veel minder het geval was. Door de aanmelding op initiatief te doen was er veel aandacht en enthousiasme, waardoor het beeld mogelijk positief kleurt. 
 
