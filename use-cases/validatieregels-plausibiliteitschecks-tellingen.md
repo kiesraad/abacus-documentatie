@@ -185,7 +185,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-_N.B. In een volgende zitting is het de coördinator die o.b.v. de Na 14-2 versie 2 invoert of er gecorrigeerde telresultaten zijn._
+_N.B. In een volgende zitting is het de coördinator die o.b.v. de Na 14-1 versie 2 invoert of er gecorrigeerde telresultaten zijn._
 
 ### Regels voor totalen (reeks F.2xx)
 
