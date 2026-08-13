@@ -65,7 +65,7 @@ Deze regels zijn alleen van toepassing bij invoer voor de eerste zitting. De ger
 | F.112 | 'Verschillen met telresultaten van het stembureau': meerdere antwoorden per vraag                                                                  | X |   |   |
 | F.121 | Over het proces-verbaal: Niet alle vragen bij 'Over het proces-verbaal' zijn beantwoord                                                            |   | X |   |
 | F.122 | Over het proces-verbaal: Ongeldige combinatie van antwoorden: `wel corrigendum, geen inlegvel`                                                     |   | X |   |
-| F.131 | 'Controles en correcties - Op eigen initiatief': geen vinkjes bij de eerste twee vragen                                                            |   | X |   |
+| F.131 | 'Controles en correcties - Op eigen initiatief': één of beide vragen niet beantwoord                                                               |   | X |   |
 | F.132 | 'Controles en correcties - Op eigen initiatief': 'gecorrigeerde telresultaten' = 'nee' EN 'Over het proces-verbaal: Is er een corrigendum?' = 'ja' |   | X |   |
 | F.133 | 'Controles en correcties - Op eigen initiatief': 'gecorrigeerde telresultaten' = 'ja' EN 'Over het proces-verbaal: Is er een corrigendum?' = 'nee' |   | X |   |
 | F.134 | 'Controles en correcties - Op eigen initiatief': meer dan 1 antwoord op vraag 'zijn er gecorrigeerde telresultaten'                                |   | X |   |
@@ -129,7 +129,7 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-#### F.131 'Controles en correcties - Op eigen initiatief': geen vinkjes bij de eerste twee vragen
+#### F.131 'Controles en correcties - Op eigen initiatief': één of beide vragen niet beantwoord
 
 > Invoerder (GSB DSO): **Controleer je antwoorden** (F.131)
 
