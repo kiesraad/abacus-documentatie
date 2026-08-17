@@ -53,8 +53,13 @@ frontend en backend.
 
 ![Diagram met componenten backend](./diagrammen/component-backend.png)
 
-Deze componenten zijn in de backend geïmplementeerd als verschillende modules in
-de Rust-codebase.
+Deze componenten zijn in de backend geïmplementeerd als verschillende modules en
+crates in de Rust-codebase. Voor zetelverdeling (`apportionment`) en het maken
+van PDF-bestanden (`pdf_gen`) zijn er losse crates binnen de Abacus-repository.
+Voor EML_NL wordt, naast de EML-module binnen de Abacus-repository, de [`eml-nl`
+crate] gebruikt.
+
+[`eml-nl` crate]: https://crates.io/crates/eml-nl
 
 ## Componenten frontend
 
