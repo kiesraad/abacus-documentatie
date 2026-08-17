@@ -7,7 +7,6 @@ De GSB-bestanden in dit document gelden voor alle ondersteunde verkiezingen (GR,
 ## Open punten
 
 - Hoe stellen we de adresgegevens van de (verkozen) kandidaten beschikbaar, makkelijker dan d.m.v. de totaallijsten (EML_NL 230c)? Deze gegevens zijn nodig voor het opstellen van de benoemings- en geloofsbrieven.
-- Als er een hertelling gebeurt n.a.v. een verzoek van het CSB of van het vertegenwoordigend lichaam, leidt dit dan op stembureau-niveau tot een corrigendum of tot een volledig nieuw tellings-PV?
 - De naamgeving van de PS/WS-outputbestanden van het GSB moet overeenkomen met de naamgeving van OSV2020 en geaccepteerd worden door het overdrachtsplatform. De exacte eisen zijn nog niet bevestigd (zie [kiesraad/abacus#3624](https://github.com/kiesraad/abacus/issues/3624)).
 
 ## Genereren van documenten door Abacus
