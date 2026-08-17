@@ -7,4 +7,4 @@ Nadat de eerste invoer klaar is, doet een andere invoerder een tweede invoer. Di
 Aan het einde van de invoer zie je de waarschuwingen en fouten nog een keer. Bespreek eerst de fouten met de coördinator.
 Als alles klopt zet je een vinkje bij **Ik heb de fouten besproken met de coördinator** en selecteer je **Afronden**.
 
-![Tweede invoer controleren en opslaan](./img/inv-2e-inv-contr-opsl.png)
+![Tweede invoer: controleren en opslaan](./img/inv-2e-inv-contr-opsl.png)

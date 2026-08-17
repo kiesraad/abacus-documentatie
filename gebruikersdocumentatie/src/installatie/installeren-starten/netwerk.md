@@ -14,10 +14,10 @@ Je installeert Abacus op één computer die dient als server. De andere computer
 
 Zo stel je het netwerk in:
 
-- Gebruik een hub of netwerkapparaat met voldoende poorten. Als je meer clients gebruikt dan er poorten zijn, dan kun je één of meer (unmanaged) switches aansluiten tussen het netwerkapparaat en de clients.
+- Gebruik een hub of netwerkapparaat met voldoende poorten.
 - Sluit de server met een ethernetkabel aan op het netwerkapparaat, en doe hetzelfde met de clients en optioneel met de printer.
 
-![Voorbeeld van een air-gapped netwerk](./img/diagram-netwerk.png)
+![Voorbeeld van een airgapped netwerk](./img/diagram-netwerk.png)
 
 ## Statische IP-adressen
 
@@ -25,10 +25,10 @@ Geef alle computers een vast (statisch) IP-adres, zodat je ze altijd kunt identi
 
 ### Op Windows
 
-- Klik op **Win+R** en zoek op `ncpa.cpl` om de klassieke weergave voor netwerkverbindingen te openen.
-- Klik met de rechtermuisknop op de ethernetverbinding en klik op **Eigenschappen**.
-- Selecteer de regel **Network Protocol Version 4 (TCP/IPv4)** en klik op **Eigenschappen**.
-- Selecteer **Het volgende IP-adres gebruiken:** en voer het IP-adres in. Als je op het subnetmasker klikt wordt automatisch `255.255.255.0` ingevuld, dit kun je zo laten. Klik op **OK** en vervolgens op **Sluiten**.
+- Druk op je toetsenbord op **Win+R** en zoek op `ncpa.cpl` om de klassieke weergave voor netwerkverbindingen te openen.
+- Klik met de rechtermuisknop op de ethernetverbinding en selecteer **Eigenschappen**.
+- Selecteer de regel **Network Protocol Version 4 (TCP/IPv4)** en selecteer **Eigenschappen**.
+- Selecteer **Het volgende IP-adres gebruiken:** en voer het IP-adres in. Als je op het subnetmasker klikt wordt automatisch `255.255.255.0` ingevuld, dit kun je zo laten. Selecteer **OK** en vervolgens **Sluiten**.
 
 ![Een statisch IP-adres instellen in Windows](./img/statisch-IP-windows.png)
 
@@ -40,14 +40,14 @@ Op Linux zijn er verschillende manieren om een statisch IP toe te wijzen. Verand
 sudo ip addr add 192.168.1.101/24 dev eth0
 ```
 
-Als je wilt dat het statische IP-adres ingesteld blijft wanneer je opnieuw opstart, voeg je de netwerkgegevens toe aan het configuratiebestand voor jouw Linux-distributie.
+Als je wil dat het statische IP-adres ingesteld blijft wanneer je opnieuw opstart, voeg dan de netwerkgegevens toe aan het configuratiebestand voor jouw Linux-distributie.
 
 ## Airgapped netwerk
 
 Nu zorg je dat het netwerk airgapped is en er geen internetverbindingen mogelijk zijn:
 
 - Installeer op elke computer de meest recente updates van het besturingssysteem voordat je de verbinding met het internet verbreekt.
-- Zorg dat alle aanwezige draadloze communicatiemodules zoals wifi en Bluetooth zijn gedeactiveerd, ook op de printer.
+- Zorg dat alle aanwezige draadloze communicatiemodules zoals wifi en bluetooth zijn gedeactiveerd, ook op de printer.
 - Op de computers zelf zet je de wifi-functie uit zodat er ook op die manier geen internetverbinding kan worden gemaakt.
 - Zorg dat de datum en tijd van alle computers kloppen. Als de datum en tijd afwijken, kan dit onder andere leiden tot problemen met inloggen.
 
