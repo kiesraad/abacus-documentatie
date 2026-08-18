@@ -25,9 +25,10 @@ verduidelijken. Het omvat ook het systeemcontextdiagram.
   verkiezingen.
 - De gebruikers zijn onderverdeeld in de verschillende rollen die worden
   ondersteund door het systeem: beheerder, coördinator en invoerder.
-- Het Uitwisselingsplatform en Platform Teluitslagen zijn bestaande systemen die
+- Het Platform Uitwisseling en Platform Teluitslagen zijn bestaande systemen die
   gebruikt worden om gegevens uit te wisselen met Abacus.
-- De uitslagen van de stembureaus zijn papieren documenten.
+- De telresultaten van stembureau's zijn papieren documenten (processen-verbaal)
+  die in het verkiezingsproces worden opgesteld.
 
 ## Onderdelen
 
@@ -52,8 +53,13 @@ frontend en backend.
 
 ![Diagram met componenten backend](./diagrammen/component-backend.png)
 
-Deze componenten zijn in de backend geïmplementeerd als verschillende modules in
-de Rust-codebase.
+Deze componenten zijn in de backend geïmplementeerd als verschillende modules en
+crates in de Rust-codebase. Voor zetelverdeling (`apportionment`) en het maken
+van PDF-bestanden (`pdf_gen`) zijn er losse crates binnen de Abacus-repository.
+Voor EML_NL wordt, naast de EML-module binnen de Abacus-repository, de [`eml-nl`
+crate] gebruikt.
+
+[`eml-nl` crate]: https://crates.io/crates/eml-nl
 
 ## Componenten frontend
 
