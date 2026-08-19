@@ -23,7 +23,7 @@ P 2a: Proces-verbaal van een gemeentelijk stembureau - Nieuwe zitting
 
 | sectie | titel                                     | ingevuld door Abacus |
 |--------|-------------------------------------------|----------------------|
-| 2.1    | Verplicht: voorzitter en twee leden       | nee                  |
+| 2.1    | Voorzitter en twee leden                  | nee                  |
 | 2.2    | Ondertekening door andere aanwezige leden | nee                  |
 
 ---

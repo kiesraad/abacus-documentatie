@@ -33,7 +33,7 @@ Na 14-1 versie 2: Proces-verbaal van de telling van een herteld stembureau bij e
 
 | sectie | titel                                     | ingevuld door Abacus |
 |--------|-------------------------------------------|----------------------|
-| 3.1    | Verplicht: voorzitter en twee leden       | nee                  |
+| 3.1    | Voorzitter en twee leden                  | nee                  |
 | 3.2    | Ondertekening door andere aanwezige leden | nee                  |
 
 
