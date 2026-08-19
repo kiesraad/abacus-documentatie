@@ -16,18 +16,23 @@ De Kiesraad beheert `vapp-metadata.zip` met daarin de volgende bestanden:
 
 Deze bestanden zijn onderdeel van OSV2020 PP, KS en U.
 
-Het CSB van de verkiezing maakt met OSV2020 KS de verkiezingsdefinitie en de kandidatenlijsten aan. 
+Het CSB van de verkiezing maakt met OSV2020 KS de volgende drie bestanden aan:
+- de verkiezingsdefinitie (EML_NL 110a)
+- de kandidatenlijsten (EML_NL 230b)
+- de totaallijsten (EML_NL 230c): kandidatenlijsten met geboortedatum, adresgegevens kandidaten, gegevens gemachtigden (als van toepassing)
 
-De xSB's (GSB, CSB, etc) lezen de verkiezingsdefinitie en de kandidatenlijsten in de uitslagensoftware (nu: OSV2020 U, straks: Abacus) in.
+De xSB's (GSB, CSB, etc) lezen de verkiezingsdefinitie (OSV2020, Abacus) en de kandidatenlijsten (OSV2020, Abacus) of totaallijsten (OSV2020 CSB) in de uitslagensoftware in.
 
 ### Stembureaus
-nog in te vullen
+
+Stembureaus kunnen worden geïmporteerd d.m.v. een EML_NL 110b-bestand. Gemeentes gebruiken verschillende tools om deze aan te maken.
 
 
 ## Exporteren van data
 
 ### Stembureaus
-nog in te vullen
+Zie [Input- en output-bestanden Abacus](../use-cases/input-en-output/input-output-bestanden.md).
 
 ### Verkiezingsresultaten
-nog in te vullen
+
+Zie [Input- en output-bestanden Abacus](../use-cases/input-en-output/input-output-bestanden.md).
