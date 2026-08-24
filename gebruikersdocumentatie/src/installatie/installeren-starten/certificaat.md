@@ -12,7 +12,7 @@ Op **Linux** wordt het beveiligingscertificaat niet automatisch in het besturing
 
 Voordat je het certificaat kunt installeren, moet je het naar de clients kopiëren.
 
-- Op de server open je de installatiemap van Abacus. Voor Windows is dit standaard `C:\Gebruikers\<gebruikersnaam>\AppData\Roaming\Abacus` (bereikbaar via de knop op het bureaublad) en voor Linux `/usr/local/bin/abacus`.
+- Op de server open je de installatiemap van Abacus. Voor Windows is dit standaard `C:\Gebruikers\<gebruikersnaam>\AppData\Roaming\Abacus` (bereikbaar via de snelkoppeling op het bureaublad) en voor Linux `/usr/local/bin/abacus`.
 - Ga naar de map `tls`.
 - Het bestand `ca.cer` is het certificaat voor Windows en webbrowsers, en het bestand `ca.pem` is het certificaat voor Linux. Er zijn twee manieren om het certificaat op de client te zetten:
   - Kopieer het naar een USB-stick en vervolgens naar een handige map op de client.
@@ -60,7 +60,7 @@ sudo journalctl -I -u abacus.service
 
 ## Certificaat installeren in de browser
 
-Het is ook mogelijk om het beveiligingscertificaat te installeren in de browser die je gebruikt.
+Als een systeembrede installatie van het beveiligingscertificaat niet werkt, installeer je het certificaat in de browser die je gebruikt.
 
 ### Microsoft Edge
 
