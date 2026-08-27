@@ -464,7 +464,7 @@ Velden markeren: I en J
 > Coördinator (GSB): **Vraag 2.3.2 moet overgeslagen worden** (F.313)  
 > D en H zijn gelijk, dus er is geen onverklaard verschil. De vraag over de verklaring van het verschil moet overgeslagen worden.
 
-Veld markeren: foutmelding op 2.3.2
+Veld markeren: foutmelding op 3.3.2 (CSO eerste zitting) / 2.3.2 (CSO volgende zitting en DSO)
 
 ### Regels voor kandidaten en lijsttotalen (reeks F.4xx)
 
