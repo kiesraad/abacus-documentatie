@@ -462,7 +462,7 @@ Velden markeren: I en J
 > Invoerder (GSB): **Controleer je antwoorden** (F.313)
 
 > Coördinator (GSB): **Vraag 2.3.2 moet overgeslagen worden** (F.313)  
-> D en H zijn gelijk, dus er is geen onverklaard verschil. Een antwoord op vraag 2.3.2is niet nodig.
+> D en H zijn gelijk, dus er is geen onverklaard verschil. Een antwoord op vraag 2.3.2 is niet nodig.
 
 Veld markeren: foutmelding op 2.3.2
 
