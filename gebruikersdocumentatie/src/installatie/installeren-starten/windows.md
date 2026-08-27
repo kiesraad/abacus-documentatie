@@ -24,7 +24,7 @@ Met deze methode installeer je Abacus op een Windows-computer.
 
 Bij deze installatiemethode worden drie snelkoppelingen op het bureaublad geplaatst:
 
-- Met **1. Start Abacus server** start je de Abacus-server. Gebruik deze snelkoppeling voordat je Abacus opent in de browser.
+- Met **1. Start Abacus server** start je de Abacus-server. Gebruik deze snelkoppeling altijd voordat je Abacus opent in de browser.
 - Met **2. Open Abacus in browser** open je de browserinterface.
 - Met **Abacus data** open je de map met alle data, zoals de databasebestanden en back-ups.
 

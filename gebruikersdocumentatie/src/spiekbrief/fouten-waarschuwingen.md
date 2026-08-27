@@ -15,6 +15,6 @@ Het kan zijn dat je een fout of waarschuwing krijgt tijdens de invoer of bij de 
 
 - Controleer of je het papieren proces-verbaal goed hebt overgenomen en herstel eventueel je invoer. Met de link boven de waarschuwing of fout ga je naar de plek waar deze voorkomt, en Abacus laat duidelijk zien welke velden je extra moet controleren.
 - **Let op:** je mag het papieren proces-verbaal nooit aanpassen, ook niet als je fouten ziet. Neem de invoer precies over zoals het op het papier staat.
-- Klopt je invoer, maar is de fout of waarschuwing nog zichtbaar? Bespreek de fouten dan met je coördinator. Vink de optie **Ik heb de fouten besproken met de coördinator** aan en selecteer **Afronden**.
+- Klopt je invoer, maar is de fout of waarschuwing nog zichtbaar? Bespreek de fouten dan met je coördinator. Vink daarna de optie **Ik heb de fouten besproken met de coördinator** aan en selecteer **Afronden**.
 
 ![Fouten en waarschuwingen bij controleren en opslaan](./img/inv-contr-fouten.png)

@@ -11,7 +11,7 @@
 
 - [Uitproberen, installeren en starten](./installatie/README.md)
   - [Uitproberen](./installatie/uitproberen.md)
-  - [Installeren en starten](./installatie/installeren-starten/README.md)
+  - [Instructies voor installatie en starten](./installatie/installeren-starten/README.md)
     - [Netwerk inrichten](./installatie/installeren-starten/netwerk.md)
     - [Installeren op Windows](./installatie/installeren-starten/windows.md)
     - [Installeren op Linux](./installatie/installeren-starten/linux.md)
@@ -23,9 +23,9 @@
   - [Browserondersteuning](./installatie/browser.md)
   - [Meewerken als ontwikkelaar](./installatie/ontwikkelaar.md)
 
-# Abacus gebruiken
+# Spiekbrief voor gebruik
 
-- [Spiekbrief voor gebruik](./spiekbrief/README.md)
+- [Inleiding](./spiekbrief/README.md)
   - [Invoeren en sneltoetsen](./spiekbrief/invoeren-sneltoetsen.md)
   - [Fouten en waarschuwingen](./spiekbrief/fouten-waarschuwingen.md)
   - [Tweede invoer](./spiekbrief/tweede-invoer.md)
@@ -35,9 +35,9 @@
     - [Gemeentelijk stembureau - Decentrale stemopneming (DSO)](./spiekbrief/foutcodes/foutcodes-gsb-dso.md)
     - [Centraal stembureau](./spiekbrief/foutcodes/foutcodes-csb.md)
 
-# Instructies beheerder
+# Instructie voor beheerder
 
-- [Instructies voor de beheerder](./beheerder/README.md)
+- [Inleiding](./beheerder/README.md)
   - [Account voor beheerder aanmaken](./beheerder/account-beheerder.md)
   - [Verkiezing toevoegen en beheren](./beheerder/verkiezing-beheren/README.md)
     - [Verkiezingsdefinitie](./beheerder/verkiezing-beheren/verkiezingsdefinitie.md)
@@ -56,9 +56,9 @@
   - [Back-ups van de database](./beheerder/backups.md)
   - [Activiteitenlog](./beheerder/activiteitenlog.md)
 
-# Instructies coördinator GSB
+# Instructie voor coördinator GSB
 
-- [Instructies coördinator (gemeentelijk stembureau)](./coordinator/README.md)
+- [Inleiding](./coordinator/README.md)
   - [Inloggen en account instellen](./coordinator/inloggen-account.md)
   - [Zitting voorbereiden](./coordinator/zitting-voorbereiden/README.md)
     - [Aantal kiesgerechtigden wijzigen](./coordinator/zitting-voorbereiden/kiesgerechtigden.md)
@@ -77,9 +77,9 @@
     - [Nieuwe zitting afronden](./coordinator/nieuwe-zitting/afronden.md)
   - [Activiteitenlog](./coordinator/activiteitenlog.md)
 
-# Instructies coördinator CSB
+# Instructie voor coördinator CSB
 
-- [Instructies coördinator (centraal stembureau)](./coordinator-csb/README.md)
+- [Inleiding](./coordinator-csb/README.md)
   - [Inloggen en account instellen](./coordinator-csb/inloggen-account.md)
   - [Zitting voorbereiden](./coordinator-csb/zitting-voorbereiden/README.md)
     - [Gebruikers beheren](./coordinator-csb/zitting-voorbereiden/gebruikers-beheren.md)
@@ -96,9 +96,9 @@
     - [Documenten downloaden](./coordinator-csb/zitting-afronden/docs-downloaden.md)
   - [Activiteitenlog](./coordinator-csb/activiteitenlog.md)
 
-# Instructies invoerder
+# Instructie voor invoerder
 
-- [Instructies invoerder](./invoerder/README.md)
+- [Inleiding](./invoerder/README.md)
   - [Inloggen en account instellen](./invoerder/inloggen-account.md)
   - [Stembureau invoeren](./invoerder/stembureau-invoeren/README.md)
     - [Verkiezing en stembureau selecteren](./invoerder/stembureau-invoeren/verkiezing-sb-selecteren.md)

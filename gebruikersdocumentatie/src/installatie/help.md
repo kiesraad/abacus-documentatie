@@ -1,6 +1,8 @@
 # Help
 
-Voor meer informatie over de argumenten bekijk je de helpfunctie via de commandline. Op macOS en Linux gebruik je de volgende opdracht:
+Voor meer informatie over de argumenten bekijk je de helpfunctie via de commandline.
+
+Op Linux gebruik je de volgende opdracht:
 
 ```sh
 ./path/to/binary/abacus-[OS-version] --help
