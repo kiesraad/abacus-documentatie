@@ -292,6 +292,7 @@ Veld markeren: E
 | F.310 | (Als D <> H) Verklaring voor verschil niks aangevinkt of zowel 'ja' als 'nee' aangevinkt                                        | X | X |   |
 | F.311 | 2.3.2 Verklaring voor verschil = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt |   | X |   |
 | F.312 | totaal aantal kiezers <> totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen                     |   |   | X |
+| F.313 | (Als D = H) Verklaring voor verschil 'ja' en/of 'nee' aangevinkt                                                                | X | X |   |
 
 #### F.301 "Vergelijk D&H": (Als checkbox D=H is aangevinkt) `D<>H`
 
@@ -455,6 +456,15 @@ Veld markeren: foutmelding op 2.3.2
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: I en J
+
+#### F.313 `(Als D = H) Verklaring voor verschil 'ja' en/of 'nee' aangevinkt`
+
+> Invoerder (GSB): **Controleer je antwoorden** (F.313)
+
+> Coördinator (GSB): **Vraag 2.3.2 moet overgeslagen worden** (F.313)  
+> D en H zijn gelijk, dus er is geen onverklaard verschil. Een antwoord op vraag 2.3.2is niet nodig.
+
+Veld markeren: foutmelding op 2.3.2
 
 ### Regels voor kandidaten en lijsttotalen (reeks F.4xx)
 
