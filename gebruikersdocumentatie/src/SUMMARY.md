@@ -7,21 +7,24 @@
   - [Problemen oplossen](./introductie/problemen-oplossen.md)
   - [Privacyverklaring](./introductie/privacyverklaring.md)
 
-# Abacus installeren
+# Abacus uitproberen
 
-- [Uitproberen, installeren en starten](./installatie/README.md)
-  - [Uitproberen](./installatie/uitproberen.md)
-  - [Instructies voor installatie en starten](./installatie/installeren-starten/README.md)
-    - [Netwerk inrichten](./installatie/installeren-starten/netwerk.md)
-    - [Installeren op Windows](./installatie/installeren-starten/windows.md)
-    - [Installeren op Linux](./installatie/installeren-starten/linux.md)
-    - [Beveiligingscertificaat](./installatie/installeren-starten/certificaat.md)
+- [Inleiding](./uitproberen/README.md)
+  - [Uitproberen](./uitproberen/uitproberen.md)
+  - [Testdocumenten](./uitproberen/testdocumenten.md)
+  - [Meewerken als ontwikkelaar](./uitproberen/ontwikkelaar.md)
+
+# Instructie voor installatie en starten
+
+- [Inleiding](./installatie/README.md)
+  - [Netwerk inrichten](./installatie/netwerk.md)
+  - [Installeren op Windows](./installatie/windows.md)
+  - [Installeren op Linux](./installatie/linux.md)
+  - [Beveiligingscertificaat](./installatie/certificaat.md)
   - [Starten met lege database](./installatie/lege-database.md)
   - [Help](./installatie/help.md)
-  - [Testdocumenten](./installatie/testdocumenten.md)
   - [Systeemvereisten](./installatie/systeemvereisten.md)
   - [Browserondersteuning](./installatie/browser.md)
-  - [Meewerken als ontwikkelaar](./installatie/ontwikkelaar.md)
 
 # Spiekbrief voor gebruik
 
