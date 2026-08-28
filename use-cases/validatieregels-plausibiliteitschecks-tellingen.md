@@ -433,7 +433,7 @@ Veld markeren: I, J
 
 > Coördinator (GSB CSO, GSB DSO): **Deze vraag moet precies één antwoord hebben** (F.310)
 
-Veld markeren: foutmelding op 3.3.2 (CSO) of 2.3.2 (DSO)
+Veld markeren: foutmelding op 3.3.2 (CSO eerste zitting) / 2.3.2 (CSO volgende zitting en DSO)
 
 #### F.311 2.3.2 Verklaring voor verschil = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt
 
@@ -461,7 +461,7 @@ Velden markeren: I en J
 
 > Invoerder (GSB): **Controleer je antwoorden** (F.313)
 
-> Coördinator (GSB): **Vraag 2.3.2 moet overgeslagen worden** (F.313)  
+> Coördinator (GSB): **Deze vraag moet overgelagen worden** (F.313)  
 > D en H zijn gelijk, dus er is geen onverklaard verschil. De vraag over de verklaring van het verschil moet overgeslagen worden.
 
 Veld markeren: foutmelding op 3.3.2 (CSO eerste zitting) / 2.3.2 (CSO volgende zitting en DSO)
