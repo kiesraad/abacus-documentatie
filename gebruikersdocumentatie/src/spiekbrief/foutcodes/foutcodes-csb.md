@@ -91,7 +91,7 @@ Gemarkeerde velden: totaal van de lijst
 > Invoerder: **Extra controle nodig**  
 > De gemarkeerde velden zijn anders dan in de eerste invoer.
 
-> Coördinator: W.001 is er alleen voor invoerders\
+> Coördinator: W.001 is er alleen voor invoerders  
 > Voor de coördinator hebben we het scherm 'verschillen oplossen'.
 
 Gemarkeerde velden: alle velden met een verschil
