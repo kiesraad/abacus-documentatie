@@ -8,16 +8,16 @@ In sommige gevallen kunnen niet alle restzetels automatisch worden toegewezen en
 
 ## Naar loting
 
-- Klik op **Naar loting** om het resultaat van de loting in te voeren. Voor meer details klik je eerst op **Details restzetelverdeling** en dan op **Ga naar loting**.
+- Selecteer **Naar loting** om het resultaat van de loting in te voeren. Voor meer details selecteer je eerst **Details restzetelverdeling** en dan **Ga naar loting**.
 - De loting vindt buiten Abacus plaats, in aanwezigheid van alle leden van het centraal stembureau.
-- Voer het resultaat van de loting in door het juiste keuzerondje te selecteren en klik op **Volgende**.
+- Voer het resultaat van de loting in door het juiste keuzerondje te selecteren en selecteer **Volgende**.
 - Herhaal de bovenstaande stappen voor alle te verdelen restzetels.
 
 ![Selecteer het resultaat van de loting](./img/loting-resultaat.png)
 
 ## Details restzetelverdeling
 
-- Klik op **Details restzetelverdeling** om precies te zien hoe de restzetels worden toegewezen.
+- Selecteer **Details restzetelverdeling** om precies te zien hoe de restzetels worden toegewezen.
 - Bij het **systeem van de grootste gemiddelden** zie je voor elke ronde welk aantal stemmen per zetel elke partij heeft en aan welke lijst de zetel is toegekend. Er is loting nodig als alle (overige) partijen een gelijk aantal stemmen per zetel hebben.
 
 ![Details van de restzetelverdeling - grootste gemiddelden](./img/details-restzetel-gr-gem.png)
@@ -32,7 +32,7 @@ In sommige gevallen kunnen niet alle restzetels automatisch worden toegewezen en
 
 ## Naar proces-verbaal
 
-- Wanneer alle zetels zijn toegewezen, klik je op **Naar proces-verbaal**. Als de details van de zitting nog niet zijn ingevoerd, doe je dit nu. Daarna selecteer je nogmaals **Naar proces-verbaal**.
-- Als je toch nog iets wil wijzigen, klik je op **Zetelverdeling opnieuw doen**. Je kunt dan de overleden kandidaten en de loting van restzetels opnieuw invoeren.
+- Wanneer alle zetels zijn toegewezen, selecteer je **Naar proces-verbaal**. Als de details van de zitting nog niet zijn ingevoerd, doe je dit nu. Daarna selecteer je nogmaals **Naar proces-verbaal**.
+- Als je toch nog iets wil wijzigen, selecteer je **Zetelverdeling opnieuw doen**. Je kunt dan de overleden kandidaten en de loting van restzetels opnieuw invoeren.
 
 ![Alle zetels zijn toegewezen](./img/alle-zetels-toegewezen.png)

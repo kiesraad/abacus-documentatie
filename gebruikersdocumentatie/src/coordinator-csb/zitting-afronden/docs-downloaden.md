@@ -5,7 +5,7 @@ De invoer van het centraal stembureau is afgerond. Op deze pagina download je dr
 - Proces-verbaal model P 22-2
 - EML_NL-telbestand 520 met de zetelverdeling
 - Bijlage 1 van het proces-verbaal P 22-2 met tellingen per lijst en kandidaat
-- EML_NL-telbstand 510d met de totaaltelling van de gemeente
+- EML_NL-telbestand 510d met de totaaltelling van de gemeente
 - CSV-bestand met de totaaltelling
 
 Upload de ZIP-bestanden naar het overdrachtsplatform.

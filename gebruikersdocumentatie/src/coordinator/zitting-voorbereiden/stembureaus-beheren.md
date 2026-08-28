@@ -1,6 +1,6 @@
 # Stembureaus beheren
 
-Als de beheerder de lijst met stembureaus heeft toegevoegd, is de verkiezing klaar voor steminvoer. Als dit nog niet gebeurd is, heeft de verkiezing de status *Zitting voorbereiden*. De steminvoer kan pas beginnen nadat de stembureaus zijn toegevoegd.
+Als de beheerder de lijst met stembureaus heeft toegevoegd, is de verkiezing klaar voor invoer. Als dit nog niet gebeurd is, heeft de verkiezing de status *Zitting voorbereiden*. De invoer kan pas beginnen nadat de stembureaus zijn toegevoegd.
 
 **Let op: Zorg dat de stembureaus in Abacus overeenkomen met de voor de verkiezingen gepubliceerde lijst. Als er afwijkingen zijn, moeten deze worden opgenomen in het proces-verbaal.**
 
@@ -15,7 +15,7 @@ Als je een EML-bestand met stembureaus (EML 110b) hebt, kun je dit direct toevoe
 **Let op:** Een bestand importeren is niet meer mogelijk als er al stembureaus aanwezig zijn.
 
 - Selecteer **Importeren uit een bestand**.
-- Selecteer daarna **Bestand kiezen** en kies het bestand.
+- Selecteer daarna **Bestand kiezen** en selecteer het bestand.
 
 ![Stembureaus importeren uit een bestand](./img/stembureaus-import.png)
 
@@ -45,7 +45,7 @@ Je kunt stembureaus ook handmatig toevoegen om ervoor te zorgen dat de stemburea
 
 ![Stembureau opslaan en toevoegen](./img/stembureau-toevoegen.png)
 
-## # Stembureau wijzigen of verwijderen
+## Stembureau wijzigen of verwijderen
 
 - Selecteer het stembureau dat je wil wijzigen of verwijderen.
 - Wijzig het stembureau door de relevante gegevens te veranderen en vervolgens **Wijzigingen opslaan** te selecteren. Selecteer **Annuleren** als je de wijzigingen toch niet wil opslaan.

@@ -27,7 +27,7 @@
 
 - [Spiekbrief voor gebruik](./spiekbrief/README.md)
   - [Invoeren en sneltoetsen](./spiekbrief/invoeren-sneltoetsen.md)
-  - [Waarschuwingen en fouten](./spiekbrief/waarschuwingen-fouten.md)
+  - [Fouten en waarschuwingen](./spiekbrief/fouten-waarschuwingen.md)
   - [Tweede invoer](./spiekbrief/tweede-invoer.md)
   - [Pauzeren of afbreken](./spiekbrief/pauzeren-afbreken.md)
   - [Codes van fouten en waarschuwingen](./spiekbrief/foutcodes/README.md)
@@ -53,7 +53,7 @@
   - [Gebruikers beheren](./beheerder/gebruikers-beheren/README.md)
     - [Gebruiker toevoegen](./beheerder/gebruikers-beheren/gebr-toevoegen.md)
     - [Gebruiker wijzigen of verwijderen](./beheerder/gebruikers-beheren/gebr-wijzigen-verwijderen.md)
-  - [Back-ups](./beheerder/backups.md)
+  - [Back-ups van de database](./beheerder/backups.md)
   - [Activiteitenlog](./beheerder/activiteitenlog.md)
 
 # Instructies coördinator GSB
@@ -66,12 +66,12 @@
     - [Gebruikers beheren](./coordinator/zitting-voorbereiden/gebruikers-beheren.md)
     - [Processen-verbaal afdrukken](./coordinator/zitting-voorbereiden/pvs-afdrukken.md)
   - [Zitting starten](./coordinator/zitting-starten/README.md)
-    - [Statusoverzicht steminvoer](./coordinator/zitting-starten/statusoverzicht.md)
+    - [Statusoverzicht invoer](./coordinator/zitting-starten/statusoverzicht.md)
     - [Details van de zitting](./coordinator/zitting-starten/details-zitting.md)
   - [Fouten en waarschuwingen](./coordinator/fouten-waarschuwingen/README.md)
     - [Controleren en corrigeren](./coordinator/fouten-waarschuwingen/controleren-corrigeren.md)
   - [Verschil tussen eerste en tweede invoer](./coordinator/verschil-invoer.md)
-  - [Afronden en proces-verbaal opmaken](./coordinator/afronden-pv.md)
+  - [Zitting afronden en proces-verbaal opmaken](./coordinator/afronden-pv.md)
   - [Nieuwe zitting](./coordinator/nieuwe-zitting/README.md)
     - [Bevindingen en invoerfase](./coordinator/nieuwe-zitting/bevindingen-invoerfase.md)
     - [Nieuwe zitting afronden](./coordinator/nieuwe-zitting/afronden.md)
@@ -84,7 +84,7 @@
   - [Zitting voorbereiden](./coordinator-csb/zitting-voorbereiden/README.md)
     - [Gebruikers beheren](./coordinator-csb/zitting-voorbereiden/gebruikers-beheren.md)
   - [Zitting starten](./coordinator-csb/zitting-starten/README.md)
-    - [Statusoverzicht steminvoer](./coordinator-csb/zitting-starten/statusoverzicht.md)
+    - [Statusoverzicht invoer](./coordinator-csb/zitting-starten/statusoverzicht.md)
     - [Details zitting](./coordinator-csb/zitting-starten/details-zitting.md)
   - [Fouten en waarschuwingen](./coordinator-csb/fouten-waarschuwingen/README.md)
     - [Controleren en corrigeren](./coordinator-csb/fouten-waarschuwingen/controleren-corrigeren.md)
@@ -110,7 +110,7 @@
     - [Controleren en opslaan](./invoerder/stembureau-invoeren/controleren-opslaan.md)
   - [Tweede invoer](./invoerder/tweede-invoer.md)
   - [Pauzeren of afbreken](./invoerder/pauzeren-afbreken.md)
-  - [Extra zitting: corrigendum invoeren](./invoerder/extra-zitting-corrigendum.md)
+  - [Extra zitting: corrigendum invoeren (alleen GSB)](./invoerder/extra-zitting-corrigendum.md)
 
 # Achtergrond bij Abacus
 

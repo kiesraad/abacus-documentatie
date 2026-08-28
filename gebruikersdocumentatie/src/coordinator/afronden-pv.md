@@ -1,4 +1,4 @@
-# Afronden en proces-verbaal opmaken
+# Zitting afronden en proces-verbaal opmaken
 
 Wanneer de resultaten van alle stembureaus in jouw gemeente twee keer correct zijn ingevoerd, kun je de uitslag definitief maken en het proces-verbaal opmaken.
 
@@ -11,4 +11,4 @@ Wanneer de resultaten van alle stembureaus in jouw gemeente twee keer correct zi
 ![Afronden en documenten downloaden](./img/telresultaten-downloaden.png)
 
 - Selecteer **Terug naar overzicht** om de invoer af te ronden.
-- Als je toch nog iets wil wijzigen selecteer je **Steminvoer hervatten**.
+- Als je toch nog iets wil wijzigen selecteer je **invoer hervatten**.

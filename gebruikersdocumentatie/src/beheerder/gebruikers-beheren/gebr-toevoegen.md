@@ -1,15 +1,15 @@
 # Gebruiker toevoegen
 
 - Selecteer onder **Gebruikers beheren** de optie **+ Gebruiker toevoegen**.
-- Eerst kies je de rol van de nieuwe gebruiker: Beheerder, Coördinator of Invoerder. Dit kun je later niet meer aanpassen.
+- Eerst selecteer je de rol van de nieuwe gebruiker: Beheerder, Coördinator of Invoerder. Dit kun je later niet meer aanpassen.
 
 ![Rol van de gebruiker](./img/gebr-toev-rol.png)
 
 - Selecteer het type stembureau waarvoor de gebruiker een rol krijgt: **gemeentelijk stembureau (GSB)** of **centraal stembureau (CSB)**.
 
-![Type stembureau gebruiker](./img/gebr-toev-typesb-gsb.png)
+![Type stembureau van de gebruiker](./img/gebr-toev-typesb-gsb.png)
 
-- Als de gebruiker een invoerder is, kies je eerst of het account op naam staat of anoniem is. Een anoniem account blijft niet anoniem: de gebruiker moet bij de eerste keer inloggen altijd diens naam invoeren. Het is niet mogelijk anonieme accounts voor beheerders en coördinators te maken.
+- Als de gebruiker een invoerder is, selecteer je eerst of het account op naam staat of anoniem is. Een anoniem account blijft niet anoniem: de gebruiker moet bij de eerste keer inloggen altijd diens naam invoeren. Het is niet mogelijk anonieme accounts voor beheerders en coördinators te maken.
 
 ![Alleen bij invoerder: type account selecteren](./img/gebr-toev-type-gsb.png)
 
