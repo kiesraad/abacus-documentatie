@@ -115,7 +115,7 @@ __Hoofdscenario:__
 1. De applicatie stelt vast dat alle stembureaus definitieve invoer hebben.
 2. De coördinator GSB sluit de invoerfase af. 
 3. De applicatie stelt vast dat de gegevens van de zitting zijn ingevuld.
-4. De coördinator GSB genereert het PV (DSO: Na 31-1, CSO: Na 31-2) en het tellingsbestand (EML 510 b).
+4. De coördinator GSB genereert het PV (DSO: Na 31-1, CSO: Na 31-2), het tellingsbestand (EML 510 b) en diens digitale handtekening.
 5. De coördinator GSB voegt "Bijlage 2: Bezwaren van aanwezigen op stembureaus" toe aan het PV.
 
 __Uitbreidingen:__
