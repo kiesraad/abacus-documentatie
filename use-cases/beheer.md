@@ -75,7 +75,7 @@ __Uitbreidingen:__
 7b. Het aantal kiesgerechtigden staat niet in het bestand met stembureaus (EML 110b):  
 &emsp; 7b1. De beheerder voert het aantal kiesgerechtigden handmatig in.
 
-9a. De publieke sleutel bestaat nog niet:
+9a. De publieke sleutel bestaat nog niet:  
 &emsp; 9a1. De applicatie maakt een nieuw sleutel-paar aan.
 
 
