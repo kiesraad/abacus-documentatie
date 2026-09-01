@@ -122,6 +122,7 @@ EML_NL 210 (kandidatenlijst voor een politieke groepering) wordt niet gebruikt, 
   - (GR) input voor Abacus - CSB
   - (PS/WS) wordt aangeleverd aan het CSB van de provincie of het waterschap, of aan het HSB (PS met meerdere kieskringen)
   - mogelijk input voor Abacus - GSB, als de telresultaten van de vorige zitting niet meer beschikbaar zijn in Abacus
+  - vergezeld door diens digitale handtekeningsbestand
 
 EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 
@@ -139,6 +140,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
   - `osv4-3_telling_gr2026_gemeentenaam.csv`
   - `Telling_GR2026_GemeenteNaam.zip`
     - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
+    - `Telling_GR2026_GemeenteNaam.eml.xml.signature`
 
 #### Volgende zitting
 
@@ -148,6 +150,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
   - `osv4-3_telling_gr2026_gemeentenaam.csv`
   - `Telling_GR2026_GemeenteNaam.zip` (als corrigendum)
     - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
+    - `Telling_GR2026_GemeenteNaam.eml.xml.signature`
 
 ## CSB (alleen GR)
 

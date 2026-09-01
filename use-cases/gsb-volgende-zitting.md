@@ -143,7 +143,7 @@ __Hoofdscenario:__
 1. De applicatie stelt vast dat de bevindingen voor alle onderzoeken zijn ingevoerd en dat alle onderzochte stembureaus met gecorrigeerde telresultaten definitieve invoer hebben.
 2. De coördinator GSB sluit de invoerfase af.
 3. De applicatie stelt vast dat de gegevens van de zitting zijn ingevuld.
-4. De coördinator GSB genereert de PVs: P 2a (Verslag volgende zitting) & Na 14-2 (Corrigendum GSB) en het EML-bestand Telling 510b.
+4. De coördinator GSB genereert de PVs: P 2a (Verslag volgende zitting) & Na 14-2 (Corrigendum GSB), het EML-bestand Telling 510b en diens digitale handtekening.
 
 __Uitbreidingen:__
 

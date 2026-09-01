@@ -8,8 +8,8 @@ __Niveau:__ hoog-over, wolk, ☁️
 
 1. [De beheerder installeert de applicatie.](#de-beheerder-installeert-de-applicatie-zee)
 2. De beheerder maakt voor zichzelf een eerste account en wachtwoord aan.
-3. [De beheerder zet het GSB voor de verkiezingen in de applicatie.](#de-beheerder-zet-het-gsb-voor-de-verkiezingen-in-de-applicatie-vis)
-4. [De beheerder zet het CSB voor de verkiezingen in de applicatie.](#de-beheerder-zet-het-csb-voor-de-verkiezingen-in-de-applicatie-vis)
+3. [De beheerder zet het GSB voor de verkiezingen in de applicatie.](#de-beheerder-zet-het-gsb-voor-de-verkiezingen-in-de-applicatie-zee)
+4. [De beheerder zet het CSB voor de verkiezingen in de applicatie.](#de-beheerder-zet-het-csb-voor-de-verkiezingen-in-de-applicatie-zee)
 5. [De beheerder maakt de gebruikers aan.](#de-beheerder-maakt-de-gebruikers-aan-zee)
 
 
@@ -40,9 +40,9 @@ __Uitbreidingen:__
 &emsp;&emsp;&emsp; 4a1a1. De beheerder neemt contact op met de Kiesraad.
 
 
-## De beheerder zet het GSB voor de verkiezingen in de applicatie (vis)
+## De beheerder zet het GSB voor de verkiezingen in de applicatie (zee)
 
-__Niveau:__ subfunctie, vis, 🐟
+__Niveau:__ subfunctie, zee, 🌊
 
 ### Hoofdscenario en uitbreidingen
 
@@ -56,6 +56,7 @@ __Hoofdscenario:__
 6. De beheerder selecteert het type stemopneming.
 7. De beheerder bevestigt het aantal kiesgerechtigden in de gemeente.
 8. De applicatie maakt het GSB voor de verkiezing aan.
+9. De beheerder registreert de aangemaakte publieke sleutel.
 
 __Uitbreidingen:__
 
@@ -74,6 +75,10 @@ __Uitbreidingen:__
 7b. Het aantal kiesgerechtigden staat niet in het bestand met stembureaus (EML 110b):  
 &emsp; 7b1. De beheerder voert het aantal kiesgerechtigden handmatig in.
 
+9a. De publieke sleutel bestaat nog niet:  
+&emsp; 9a1. De applicatie maakt een nieuw sleutel-paar aan.
+
+
 ### Bijzonderheden PS/WS
 
 - De verkiezingen voor Provinciale Staten en de waterschappen vinden op dezelfde dag plaats. De beheerder richt elke verkiezing apart in, binnen dezelfde Abacus-installatie.
@@ -86,9 +91,9 @@ __Uitbreidingen:__
 - (WS) Een GSB zonder stembureaus, bijvoorbeeld als het deel van de gemeente in het waterschap geen of te weinig kiesgerechtigden heeft (zie [kiesraad/abacus#3623](https://github.com/kiesraad/abacus/issues/3623)).
 
 
-## De beheerder zet het CSB voor de verkiezingen in de applicatie (vis)
+## De beheerder zet het CSB voor de verkiezingen in de applicatie (zee)
 
-__Niveau:__ subfunctie, vis, 🐟
+__Niveau:__ subfunctie, zee, 🌊
 
 __Precondities:__
 
