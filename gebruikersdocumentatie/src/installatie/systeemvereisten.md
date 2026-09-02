@@ -2,10 +2,8 @@
 
 Hieronder vind je de systeemvereisten voor Abacus. Deze systeemvereisten en de aansluit- en gebruiksvoorschriften vind je ook in de [Toolkit Verkiezingen gemeenteraadsverkiezingen 2026](https://www.kiesraad.nl/verkiezingen/gemeenteraden/documenten-gemeenteraadsverkiezing-2026) op de website van de Kiesraad, die ook te gebruiken zijn voor de herindelingsverkiezing:
 
-- Systeemvereisten OSV2020-Uitslagvaststelling
-- Aansluit- en gebruiksvoorschriften Wet programmatuur verkiezingsuitslagen
-
-[comment]: <> (De toolkit is nog niet bijgewerkt, links volgen later. De systeemvereisten kunnen het beste blijven staan, want de kans dat die veranderen is klein.)
+- [Systeemvereisten OSV2020-Uitslagvaststelling](https://www.kiesraad.nl/documenten/2026/02/13/gr26---systeemvereisten-osv2020-u)
+- [Aansluit- en gebruiksvoorschriften Wet programmatuur verkiezingsuitslagen](https://www.kiesraad.nl/documenten/2025/10/23/aansluit--en-gebruiksvoorschriften-wet-programmatuur-verkiezingsuitslagen)
 
 ## Processortype
 

@@ -21,7 +21,7 @@ Sluit eerst Abacus af voordat je Abacus gaat verwijderen.
 
 **Abacus is geblokkeerd omdat de applicatie is verbonden met het internet.**
 
-Controleer de netwerkverbindingen in het hele netwerk en schakel alles uit. Let ook op dat alle Bluetooth-verbindingen uit staan en de printer (indien aanwezig) geen verbinding heeft met het internet. Wanneer de internetverbinding verbroken is, wacht je 30 seconden en herlaad je de pagina door op de link <ins>Herlaad de pagina</ins> te klikken.
+Controleer de netwerkverbindingen in het hele netwerk en schakel alles uit. Let ook op dat alle bluetooth-verbindingen uit staan en de printer (indien aanwezig) geen verbinding heeft met het internet. Wanneer de internetverbinding verbroken is, wacht je 30 seconden en herlaad je de pagina door op de link <ins>Herlaad de pagina</ins> te klikken.
 
 ![Abacus zit op slot](./img/abacus-slot-airgap.png)
 
@@ -29,7 +29,7 @@ Controleer de netwerkverbindingen in het hele netwerk en schakel alles uit. Let 
 
 **Abacus is geblokkeerd omdat de applicatie is verbonden met het internet.**
 
-Controleer de netwerkverbindingen in het hele netwerk en schakel alles uit. Let ook op dat alle Bluetooth-verbindingen uit staan en de printer (indien aanwezig) geen verbinding heeft met het internet. Wanneer de internetverbinding verbroken is, wacht je 30 seconden en herlaad je de pagina door op de link <ins>Herlaad de pagina</ins> te klikken.
+Controleer de netwerkverbindingen in het hele netwerk en schakel alles uit. Let ook op dat alle bluetooth-verbindingen uit staan en de printer (indien aanwezig) geen verbinding heeft met het internet. Wanneer de internetverbinding verbroken is, wacht je 30 seconden en herlaad je de pagina door op de link <ins>Herlaad de pagina</ins> te klikken.
 
 ![Abacus zit op slot](./img/abacus-slot-airgap.png)
 
