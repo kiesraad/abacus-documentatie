@@ -50,8 +50,8 @@ __Hoofdscenario:__
 
 1. [De beheerder leest de verkiezingsdefinitie (EML 110a) in.](#de-beheerder-leest-de-verkiezingsdefinitie-eml-110a-in-vis)
 2. De beheerder selecteert "Gemeentelijk stembureau (GSB)" als rol van het stembureau.
-3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
-4. (PS/WS) De beheerder selecteert de gemeente van het GSB uit de lijst met gemeenten in de verkiezingsdefinitie.
+3. (PS/WS) De beheerder selecteert de gemeente van het GSB uit de lijst met gemeenten in de verkiezingsdefinitie.
+4. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
 5. [De beheerder leest het bestand met stembureaus en aantal kiesgerechtigden (EML 110b) in.](#de-beheerder-leest-het-bestand-met-stembureaus-en-aantal-kiesgerechtigden-eml-110b-in-vis)
 6. De beheerder selecteert het type stemopneming.
 7. De beheerder bevestigt het aantal kiesgerechtigden in de gemeente.
@@ -60,10 +60,10 @@ __Hoofdscenario:__
 
 __Uitbreidingen:__
 
-4a. (PS/WS) De gemeente van het GSB staat niet in de lijst met gemeenten:  
-&emsp; 4a1. De beheerder stelt vast dat de verkeerde verkiezingsdefinitie is ingelezen en leest het correcte bestand in.  
-&emsp;&emsp; 4a1a. De beheerder stelt vast dat de ingelezen verkiezingsdefinitie wel correct is:  
-&emsp;&emsp;&emsp; 4a1a1. De beheerder neemt contact op met het CSB.
+3a. (PS/WS) De gemeente van het GSB staat niet in de lijst met gemeenten:  
+&emsp; 3a1. De beheerder stelt vast dat de verkeerde verkiezingsdefinitie is ingelezen en leest het correcte bestand in.  
+&emsp;&emsp; 3a1a. De beheerder stelt vast dat de ingelezen verkiezingsdefinitie wel correct is:  
+&emsp;&emsp;&emsp; 3a1a1. De beheerder neemt contact op met het CSB.
 
 5a. De beheerder slaat het invoeren van stembureaus over:  
 &emsp; 5a1. (tijdens stap 6) De beheerder voert het aantal kiesgerechtigden voor het GSB handmatig in.  
