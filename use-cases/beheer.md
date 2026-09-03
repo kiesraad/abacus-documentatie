@@ -50,8 +50,8 @@ __Hoofdscenario:__
 
 1. [De beheerder leest de verkiezingsdefinitie (EML 110a) in.](#de-beheerder-leest-de-verkiezingsdefinitie-eml-110a-in-vis)
 2. De beheerder selecteert "Gemeentelijk stembureau (GSB)" als rol van het stembureau.
-3. (PS/WS) De beheerder selecteert de gemeente van het GSB uit de lijst met gemeenten in de verkiezingsdefinitie.
-4. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
+3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
+4. (PS/WS) De beheerder selecteert de gemeente van het GSB uit de lijst met gemeenten in de verkiezingsdefinitie.
 5. [De beheerder leest het bestand met stembureaus en aantal kiesgerechtigden (EML 110b) in.](#de-beheerder-leest-het-bestand-met-stembureaus-en-aantal-kiesgerechtigden-eml-110b-in-vis)
 6. De beheerder selecteert het type stemopneming.
 7. De beheerder bevestigt het aantal kiesgerechtigden in de gemeente.
@@ -60,10 +60,10 @@ __Hoofdscenario:__
 
 __Uitbreidingen:__
 
-3a. (PS/WS) De gemeente van het GSB staat niet in de lijst met gemeenten:  
-&emsp; 3a1. De beheerder stelt vast dat de verkeerde verkiezingsdefinitie is ingelezen en leest het correcte bestand in.  
-&emsp;&emsp; 3a1a. De beheerder stelt vast dat de ingelezen verkiezingsdefinitie wel correct is:  
-&emsp;&emsp;&emsp; 3a1a1. De beheerder neemt contact op met het CSB.
+4a. (PS/WS) De gemeente van het GSB staat niet in de lijst met gemeenten:  
+&emsp; 4a1. De beheerder stelt vast dat de verkeerde verkiezingsdefinitie is ingelezen en leest het correcte bestand in.  
+&emsp;&emsp; 4a1a. De beheerder stelt vast dat de ingelezen verkiezingsdefinitie wel correct is:  
+&emsp;&emsp;&emsp; 4a1a1. De beheerder neemt contact op met het CSB.
 
 5a. De beheerder slaat het invoeren van stembureaus over:  
 &emsp; 5a1. (tijdens stap 6) De beheerder voert het aantal kiesgerechtigden voor het GSB handmatig in.  
@@ -144,13 +144,13 @@ __Hoofdscenario:__
 
 __Uitbreidingen:__
 
-1a. De applicatie geeft een foutmelding bij het inlezen van de kandidantelijsten (EML 230b):  
+1a. De applicatie geeft een foutmelding bij het inlezen van de kandidatenlijsten (EML 230b):  
 &emsp; 1a1. De beheerder stelt vast dat het verkeerde bestand is ingelezen.  
 &emsp;&emsp; 1a1a. De beheerder stelt vast dat het bestand geen geldige verkiezingsdefinitie bevat:  
 &emsp;&emsp;&emsp; 1a1a1. De beheerder neemt contact op met het CSB.  
 &emsp; 1a2. De beheerder leest het correcte bestand in.
 
-2a. De hash van de kandidantelijsten (EML 230b) klopt niet:  
+2a. De hash van de kandidatenlijsten (EML 230b) klopt niet:  
 &emsp; 2a1. De beheerder stelt vast dat de hash niet correct is overgenomen.  
 &emsp;&emsp; 2a1a. De beheerder stelt vast dat de hash correct is overgenomen:  
 &emsp;&emsp;&emsp; 2a1a1. De beheerder neemt contact op met het CSB.  
