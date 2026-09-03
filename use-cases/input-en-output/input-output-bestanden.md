@@ -33,6 +33,27 @@ De GSB-bestanden in dit document gelden voor alle ondersteunde verkiezingen (GR,
 
 EML_NL 210 (kandidatenlijst voor een politieke groepering) wordt niet gebruikt, want alleen relevant binnen het kandidaatstellingsproces.
 
+### Stembureaus EML_NL 110b
+
+- Import: EML_NL 110b bestand
+- Export: EML_NL 110b bestand in een ZIP-bestand
+
+#### Naamgeving EML_NL 110b bestand
+Regionaal:  
+`Stembureaus_{election.category.to_eml_code()}{election_date.year()}_{election.domain.name}_{election.authority_region}.eml.xml`
+
+Nationaal:  
+`Stembureaus_{election.category.to_eml_code()}{election_date.year()}_{election.authority_region}.eml.xml`
+
+Voorbeeld:  
+`Stembureaus_AB2027_Aardenboezem_Nieuwstrand.eml.xml`
+
+#### Naamgeving ZIP-bestand
+`abacus-exporteren_stemgebieden-{election.eml_name}-eml_110b_stembureaus-{yyyymmdd-hhmmss}.zip`
+
+Voorbeeld:  
+`abacus-exporteren_stemgebieden-algemeen_bestuur_van_het_waterschap_aardenboezem_2027-eml_110b_stembureaus-20260831-111904.zip`
+
 ## GSB
 
 ### Documenten
