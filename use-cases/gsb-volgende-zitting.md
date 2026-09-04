@@ -16,7 +16,7 @@ __Hoofdscenario:__
 6. (voor elk
    verzoek) [Het GSB voert het onderzoek en de eventuele hertelling uit.](#het-gsb-voert-het-onderzoek-en-de-eventuele-hertelling-uit-vlieger)
 7. [De coördinator GSB maakt het PV P 2a en evt. het PV Na 14-2 en tellingsbestand EML 510b aan.](#de-coördinator-gsb-maakt-het-pv-p-2a-en-evt-het-pv-na-14-2-en-tellingsbestand-eml-510b-aan-zee)
-8. (CSO, volgende zitting) De coördinator GSB drukt het Inlegvel Na 31-2 af en vult het in.
+8. (CSO) De coördinator GSB drukt het Inlegvel Na 31-2 af en vult het in.
 9. Het GSB voert de andere onderdelen van de PVs (P 2a en evt. Na 14-2) in.
 10. Het GSB leest de PVs voor: P 2a (Verslag volgende zitting), evt. Na 14-2 (Corrigendum GSB), Na 14-1 versie 2 (DSO, één per SB) of Na 14-2 Bijlage 1 (CSO, één bijlage per SB).
 11. Het GSB ondertekent de PVs (P2a, evt. Na 14-2, DSO: Na 14-1 versie 2, CSO volgende zitting: Inlegvel Na 31-2).
@@ -57,7 +57,8 @@ __Hoofdscenario:__
 
 1. De coördinator GSB selecteert een stembureau en voert "Aanleiding van het onderzoek" (vrije tekst) in de applicatie in.
 2. De applicatie genereert een 'leeg' corrigendum, Na 14-1 versie 2 (DSO) of Bijlage 1 van Na 14-2 (CSO). ('leeg' == klaar om in te vullen: kandidatenlijsten, oorspronkelijke tellingen, verzoek CSB (aanleiding))
-3. De coördinator GSB drukt het 'lege' corrigendum af.
+3. De coördinator GSB drukt het 'lege' corrigendum af.  
+4. (DSO) De coördinator GSB drukt het inlegvel N 10-1 voor het stembureau af.
 
 __Uitbreidingen:__
 
@@ -118,19 +119,25 @@ __Hoofdscenario:__
 2. Het GSB noteert de bevindingen op het corrigendum (DSO: Na 14-1 versie 2, CSO: Na 14-2 Bijlage 1).
 3. Het GSB besluit dat er een hertelling nodig is.
 4. Het GSB stelt een ander resultaat vast in de hertelling.
-5. De coördinator voert de uitkomst van het onderzoek in de applicatie in.
-6. [De coördinator GSB en de invoerders voeren alle gegevens in de applicatie in.](gsb-invoer.md#de-coördinator-gsb-en-de-invoerders-voeren-alle-gegevens-in-de-applicatie-in-vlieger)
-7. Het GSB voegt het corrigendum (DSO: Na 14-1 versie 2, CSO: Na 14-2 Bijlage 1) toe aan de PV's van de zitting.
+5. Het GSB vult het corrigendum in met de gecorrigeerde uitslag.
+6. Het GSB vult het inlegvel N 10-1 in.
+7. De coördinator voert de uitkomst van het onderzoek in de applicatie in.
+8. [De coördinator GSB en de invoerders voeren alle gegevens in de applicatie in.](gsb-invoer.md#de-coördinator-gsb-en-de-invoerders-voeren-alle-gegevens-in-de-applicatie-in-vlieger)
+9. Het GSB voegt het corrigendum (DSO: Na 14-1 versie 2, inlegvel N 10-1, CSO: Na 14-2 Bijlage 1) toe aan de PV's van de zitting.
 
 __Uitbreidingen:__
 
 3a. Het GSB besluit dat er geen hertelling nodig is:  
-&emsp; 3a1. De coördinator GSB voert de uitkomst van het onderzoek in de applicatie in.  
-&emsp; 3a2. Het GSB voegt het corrigendum toe aan de PV's van de zitting.  
+&emsp; 3a1. Het GSB vult op het corrigendum in dat er geen gecorrigeerde uitslag is.  
+&emsp; 3a2. (DSO) Het GSB vult het inlegvel N 10-1 voor het stembureau in.  
+&emsp; 3a3. De coördinator GSB voert de uitkomst van het onderzoek in de applicatie in.  
+&emsp; 3a4. Het GSB voegt het corrigendum (DSO: Na 14-1 versie 2, inlegvel N10-1, CSO: Na 14-2 Bijlage 1) toe aan de PV's van de zitting.  
 
 4a. Het GSB bevestigt het oorspronkelijke resultaat in de hertelling:  
-&emsp; 4a1. De coördinator GSB voert de uitkomst van het onderzoek in de applicatie in.  
-&emsp; 4a2. Het GSB voegt het corrigendum (DSO: Na 14-1 versie 2, CSO: Na 14-2 Bijlage 1) toe aan de PV's van de zitting.
+&emsp; 4a1. Het GSB vult op het corrigendum in dat er geen gecorrigeerde uitslag is.  
+&emsp; 4a2. (DSO) Het GSB vult het inlegvel N 10-1 in.  
+&emsp; 4a3. De coördinator GSB voert de uitkomst van het onderzoek in de applicatie in.  
+&emsp; 4a4. Het GSB voegt het corrigendum (DSO: Na 14-1 versie 2, inlegvel N10-1, CSO: Na 14-2 Bijlage 1) toe aan de PV's van de zitting.  
 
 ## De coördinator GSB maakt het PV P 2a en evt. het PV Na 14-2 en tellingsbestand EML 510b aan (zee)
 
