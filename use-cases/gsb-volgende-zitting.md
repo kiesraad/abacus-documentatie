@@ -16,7 +16,7 @@ __Hoofdscenario:__
 6. (voor elk
    verzoek) [Het GSB voert het onderzoek en de eventuele hertelling uit.](#het-gsb-voert-het-onderzoek-en-de-eventuele-hertelling-uit-vlieger)
 7. [De coördinator GSB maakt het PV P 2a en evt. het PV Na 14-2 en tellingsbestand EML 510b aan.](#de-coördinator-gsb-maakt-het-pv-p-2a-en-evt-het-pv-na-14-2-en-tellingsbestand-eml-510b-aan-zee)
-8. (CSO, volgende zitting) De coördinator GSB drukt het Inlegvel Na 31-2 af en vult het in.
+8. (CSO) De coördinator GSB drukt het Inlegvel Na 31-2 af en vult het in.
 9. Het GSB voert de andere onderdelen van de PVs (P 2a en evt. Na 14-2) in.
 10. Het GSB leest de PVs voor: P 2a (Verslag volgende zitting), evt. Na 14-2 (Corrigendum GSB), Na 14-1 versie 2 (DSO, één per SB) of Na 14-2 Bijlage 1 (CSO, één bijlage per SB).
 11. Het GSB ondertekent de PVs (P2a, evt. Na 14-2, DSO: Na 14-1 versie 2, CSO volgende zitting: Inlegvel Na 31-2).
