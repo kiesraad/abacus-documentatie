@@ -26,8 +26,12 @@ __Hoofdscenario:__
 __Uitbreidingen:__
 
 3b. (DSO) Het GSB stelt vast dat de tellingen van het stembureau mogelijk niet kloppen:  
-&emsp; 3b1. Het GSB doet een (gedeeltelijke) hertelling van het stembureau.  
-&emsp; 3b1. Het GSB noteert de wijzigingen in een corrigendum Na 14-1.
+&emsp; 3b1. Het GSB onderzoekt de telresultaten van het stembureau.  
+&emsp; 3b2. Het GSB bevestigt de oorspronkelijke telresultaten.  
+&emsp;&emsp; 3b2a. Het GSB komt uit op een ander telresultaat:  
+&emsp;&emsp;&emsp; 3b2a1. Het GSB vult een corrigendum in (Na 14-1 versie 1) met de gecorrigeerde telresultaten.  
+&emsp;&emsp;&emsp; 3b2a2. Het GSB vult het inlegvel van de N 10-1 in en voegt het toe aan de N 10-1.   
+&emsp; 3b3. Het GSB vult het inlegvel van de N 10-1 in en voegt het toe aan de N 10-1.
 
 4a. De coördinator GSB ziet een fout in de aangemaakte stembureaus:  
 &emsp; 4a1. De coördinator GSB of de beheerder past de stembureaus aan.
