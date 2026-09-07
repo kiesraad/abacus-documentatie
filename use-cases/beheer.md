@@ -53,7 +53,7 @@ __Hoofdscenario:__
 3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
 4. (PS/WS) De beheerder selecteert de gemeente van het GSB uit de lijst met gemeenten in de verkiezingsdefinitie.
 5. [De beheerder leest het bestand met stembureaus en aantal kiesgerechtigden (EML 110b) in.](#de-beheerder-leest-het-bestand-met-stembureaus-en-aantal-kiesgerechtigden-eml-110b-in-vis)
-6. De beheerder selecteert het type stemopneming.
+6. De beheerder selecteert het type stemopneming: CSO of DSO.
 7. De beheerder bevestigt het aantal kiesgerechtigden in de gemeente.
 8. De applicatie maakt het GSB voor de verkiezing aan.
 9. De beheerder registreert de aangemaakte publieke sleutel.
