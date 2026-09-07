@@ -202,7 +202,9 @@ __Hoofdscenario:__
 __Uitbreidingen:__
 
 1a. Er is geen te importeren bestand met stembureaus:  
-&emsp; 1a1. De beheerder of coördinator voert de stembureaus handmatig in.
+&emsp; 1a1. De beheerder of coördinator voert de stembureaus handmatig in.  
+&emsp; 1a2. [De beheerder of coördinator exporteert de stembureaus](#de-beheerder-of-coördinator-exporteert-de-stembureaus-zee).  
+&emsp; 1a3. De beheerder of coördinator uploadt de export naar het overdrachtsplatform.  
 
 2a. De applicatie geeft een foutmelding bij het inlezen van de lijst met stembureaus:
 
@@ -210,7 +212,7 @@ __Uitbreidingen:__
 &emsp; 4a1. De beheerder of coördinator past de stembureaus aan.
 
 
-## De beheerder exporteert de stembureaus (zee)
+## De beheerder of coördinator exporteert de stembureaus (zee)
 
 __Niveau:__ gebruikersdoel, zee, 🌊
 
@@ -218,8 +220,8 @@ __Niveau:__ gebruikersdoel, zee, 🌊
 
 __Hoofdscenario:__
 
-1. De beheerder exporteert de stembureaus.
-2. De beheerder slaat de geëxporteerde stembureaus op, zodat ze geïmporteerd kunnen worden bij een volgende verkiezing.
+1. De beheerder of coördinator exporteert de stembureaus naar een EML 110b.
+2. De beheerder of coördinator slaat de geëxporteerde stembureaus op, zodat ze geïmporteerd kunnen worden bij een volgende verkiezing.
 
 ## De beheerder maakt de gebruikers aan (zee)
 
