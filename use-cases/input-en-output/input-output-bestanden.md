@@ -38,9 +38,8 @@ EML_NL 210 (kandidatenlijst voor een politieke groepering) wordt niet gebruikt, 
 - Import: EML_NL 110b bestand
 - Export: EML_NL 110b bestand in een ZIP-bestand
 
-#### Naamgeving exportbestand
+#### Export: EML_NL 110b bestand
 
-##### EML_NL 110b bestand
 Regionaal:  
 `Stembureaus_{election.category.to_eml_code()}{election_date.year()}_{election.domain.name}_{election.authority_region}.eml.xml`
 
@@ -50,7 +49,8 @@ Nationaal:
 Voorbeeld:  
 `Stembureaus_AB2027_Aardenboezem_Nieuwstrand.eml.xml`
 
-##### ZIP-bestand
+#### Export: ZIP-bestand
+
 `abacus-exporteren_stemgebieden-{election.eml_name}-eml_110b_stembureaus-{yyyymmdd-hhmmss}.zip`
 
 Voorbeeld:  
