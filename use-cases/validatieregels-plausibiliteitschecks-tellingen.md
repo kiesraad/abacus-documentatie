@@ -292,6 +292,7 @@ Veld markeren: E
 | F.310 | (Als D <> H) Verklaring voor verschil niks aangevinkt of zowel 'ja' als 'nee' aangevinkt                                        | X | X |   |
 | F.311 | 2.3.2 Verklaring voor verschil = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt |   | X |   |
 | F.312 | totaal aantal kiezers <> totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen                     |   |   | X |
+| F.313 | (Als D = H) Verklaring voor verschil 'ja' en/of 'nee' aangevinkt                                                                | X | X |   |
 
 #### F.301 "Vergelijk D&H": (Als checkbox D=H is aangevinkt) `D<>H`
 
@@ -430,9 +431,13 @@ Veld markeren: I, J
 
 > Invoerder (GSB CSO, GSB DSO): **Controleer je antwoorden** (F.310)
 
-> Coördinator (GSB CSO, GSB DSO): **Deze vraag moet precies één antwoord hebben** (F.310)
+> Coördinator (GSB CSO): **Deze vraag moet precies één antwoord hebben** (F.310)
+> Bij vraag 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting) moet één antwoord gekozen worden.
 
-Veld markeren: foutmelding op 3.3.2 (CSO) of 2.3.2 (DSO)
+> Coördinator (GSB DSO): **Deze vraag moet precies één antwoord hebben** (F.310)
+> Bij vraag 2.3.2 moet één antwoord gekozen worden.
+
+Veld markeren: foutmelding op 3.3.2 (CSO eerste zitting) / 2.3.2 (CSO volgende zitting en DSO)
 
 #### F.311 2.3.2 Verklaring voor verschil = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt
 
@@ -455,6 +460,18 @@ Veld markeren: foutmelding op 2.3.2
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
 Velden markeren: I en J
+
+#### F.313 `(Als D = H) Verklaring voor verschil 'ja' en/of 'nee' aangevinkt`
+
+> Invoerder (GSB): **Controleer je antwoorden** (F.313)
+
+> Coördinator (GSB CSO): **Deze vraag moet overgelagen worden** (F.313)  
+> D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting) moet overgeslagen worden.
+
+> Coördinator (GSB DSO): **Deze vraag moet overgelagen worden** (F.313)  
+> D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 2.3.2 moet overgeslagen worden.
+
+Veld markeren: foutmelding op 3.3.2 (CSO eerste zitting) / 2.3.2 (CSO volgende zitting en DSO)
 
 ### Regels voor kandidaten en lijsttotalen (reeks F.4xx)
 
