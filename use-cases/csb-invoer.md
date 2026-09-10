@@ -1,6 +1,6 @@
 # CSB: Invoer
 
-Abacus ondersteunt op dit moment de rol CSB alleen voor gemeenteraadsverkiezingen (GR). Deze use cases gelden dus alleen voor GR.
+Abacus ondersteunt op dit moment de rol CSB alleen voor gemeenteraadsverkiezingen (GR) en waterschapsverkiezingen (WS). Deze use cases gelden dus alleen voor GR en WS.
 
 ## Het CSB voert de tellingen van het GSB in (vlieger)
 
@@ -9,6 +9,8 @@ __Niveau:__ hoog-over, vlieger, 🪁
 ### Hoofdscenario en uitbreidingen
 
 __Hoofdscenario:__
+
+NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - de stappen 2, 3 en 4 worden uitgevoerd voor elk GSB.
 
 1. De coördinator CSB stelt de invoer open.
 2. [De coördinator CSB leest de resultaten van de laatste GSB-zitting in als eerste invoer van het CSB.](#de-coördinator-csb-leest-de-resultaten-van-de-laatste-gsb-zitting-in-als-eerste-invoer-van-het-csb-zee)
@@ -37,7 +39,7 @@ __Hoofdscenario:__
 
 __Uitbreidingen:__
 
-1a. De CSB-applicatie draait op een andere machine dan de GSB-applicatie:  
+1a. De CSB-applicatie draait op een andere machine dan de GSB-applicatie (bij WS altijd het geval):  
 &emsp; 1a1. De coördinator CSB zet het tellingsbestand (EML 510b) op de machine met de CSB-applicatie.  
 &emsp; 1a2. De coördinator CSB leest het tellingsbestand (EML 510b) in.
 
