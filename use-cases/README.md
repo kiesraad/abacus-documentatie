@@ -1,6 +1,6 @@
 # Over deze use cases
 
-Scope van deze use cases zijn de gemeenteraadsverkiezingen (GR) en, alleen voor het gemeentelijk stembureau (GSB), de verkiezingen voor Provinciale Staten (PS) en de waterschappen (WS).
+Scope van deze use cases zijn de gemeenteraadsverkiezingen (GR), waterschapsverkiezingen (WS) en, alleen voor het gemeentelijk stembureau (GSB), de verkiezingen voor Provinciale Staten (PS)
 
 ## Werkwijze
 

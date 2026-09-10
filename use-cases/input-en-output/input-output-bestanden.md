@@ -2,12 +2,11 @@
 
 Dit document geeft een overzicht van alle input- en output-bestanden die relevant zijn voor Abacus. Voor een gedetailleerd overzicht van hoe de modellen gebruikt worden in combinatie met Abacus, zie ["Overzicht modellen en Abacus"](./overzicht-modellen.md). Dit overzicht linkt door naar de relevante details per model.
 
-De GSB-bestanden in dit document gelden voor alle ondersteunde verkiezingen (GR, PS en WS). Abacus ondersteunt de rol CSB alleen voor GR; de sectie [CSB](#csb-alleen-gr) geldt dus alleen voor GR.
+De GSB-bestanden in dit document gelden voor alle ondersteunde verkiezingen (GR, PS en WS). Abacus ondersteunt de rol CSB alleen voor GR en WS; de sectie [CSB](#csb-alleen-gr-en-ws) geldt dus alleen voor GR en WS.
 
 ## Open punten
 
 - Hoe stellen we de adresgegevens van de (verkozen) kandidaten beschikbaar, makkelijker dan d.m.v. de totaallijsten (EML_NL 230c)? Deze gegevens zijn nodig voor het opstellen van de benoemings- en geloofsbrieven.
-- De naamgeving van de PS/WS-outputbestanden van het GSB moet overeenkomen met de naamgeving van OSV2020 en geaccepteerd worden door het overdrachtsplatform. De exacte eisen zijn nog niet bevestigd (zie [kiesraad/abacus#3624](https://github.com/kiesraad/abacus/issues/3624)).
 
 ## Genereren van documenten door Abacus
 
@@ -142,8 +141,8 @@ Voorbeeld:
 
 - Telling 510b: tellingen GSB en SB's
   - output van Abacus - GSB
-  - (GR) input voor Abacus - CSB
-  - (PS/WS) wordt aangeleverd aan het CSB van de provincie of het waterschap, of aan het HSB (PS met meerdere kieskringen)
+  - (GR/WS) input voor Abacus - CSB
+  - (PS) wordt aangeleverd aan het CSB van de provincie of het waterschap, of aan het HSB (PS met meerdere kieskringen)
   - mogelijk input voor Abacus - GSB, als de telresultaten van de vorige zitting niet meer beschikbaar zijn in Abacus
   - vergezeld door diens digitale handtekeningsbestand
 
@@ -152,7 +151,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 #### CSV-bestand met tellingen
 
 - tellingen GSB en SB's
-- worden gepubliceerd op de gemeentewebsite
+- worden gepubliceerd op de gemeentewebsite/waterschapswebsite
 
 ### Naamgeving documenten
 
@@ -175,7 +174,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
     - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
     - `Telling_GR2026_GemeenteNaam.eml.xml.signature`
 
-## CSB (alleen GR)
+## CSB (alleen GR en WS)
 
 ### Documenten
 

@@ -87,7 +87,7 @@ __Uitbreidingen:__
 
 ### Niet in scope
 
-- (PS/WS) De rollen CSB en HSB: Abacus ondersteunt voor PS/WS op dit moment alleen het GSB.
+- (PS) De rollen CSB en HSB: Abacus ondersteunt voor PS op dit moment alleen het GSB.
 - (WS) Een GSB zonder stembureaus, bijvoorbeeld als het deel van de gemeente in het waterschap geen of te weinig kiesgerechtigden heeft (zie [kiesraad/abacus#3623](https://github.com/kiesraad/abacus/issues/3623)).
 
 
@@ -97,7 +97,7 @@ __Niveau:__ subfunctie, zee, 🌊
 
 __Precondities:__
 
-- De verkiezing is een gemeenteraadsverkiezing (GR). Voor PS/WS ondersteunt Abacus de rol CSB nog niet.
+- De verkiezing is een gemeenteraadsverkiezing (GR) of een waterschapsverkiezing (WS). Voor PS ondersteunt Abacus de rol CSB nog niet.
 
 ### Hoofdscenario en uitbreidingen
 
@@ -106,8 +106,8 @@ __Hoofdscenario:__
 1. [De beheerder leest de verkiezingsdefinitie (EML 110a) in.](#de-beheerder-leest-de-verkiezingsdefinitie-eml-110a-in-vis)
 2. De beheerder selecteert "Centraal stembureau (CSB)" als rol van het stembureau.
 3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
-4. De applicatie maakt het CSB voor de verkiezing en het GSB als stembureau voor het CSB aan.
-
+4. De applicatie maakt het CSB voor de verkiezing aan, met de GSB's uit de verkiezingsdefinitie als stembureaus voor het CSB (GR: één GSB, WS: één GSB per gemeente in het waterschap).
+5. De applicatie maakt de eerste zitting van het CSB aan.
 
 ## De beheerder leest de verkiezingsdefinitie (EML 110a) in (vis)
 

@@ -3,7 +3,7 @@
 ## Achtergrond
 
 Deze matrix beschrijft welke functionaliteiten in Abacus voor welke gebruikersrol beschikbaar zijn.
-De matrix geldt voor alle door Abacus ondersteunde verkiezingen (GR, PS en WS). Voor PS/WS ondersteunt Abacus op dit moment alleen het GSB, de rollen coördinator CSB en invoerder CSB zijn daar niet van toepassing.
+De matrix geldt voor alle door Abacus ondersteunde verkiezingen (GR, PS en WS). Voor PS ondersteunt Abacus op dit moment alleen het GSB, de rollen coördinator CSB en invoerder CSB zijn daar niet van toepassing.
 Het GSB verwerkt de tellingen / processen-verbaal van stembureaus, en genereert haar eigen proces-verbaal.
 Vervolgens worden de resultaten van het GSB ingelezen door het CSB (plus eenmaal handmatig invoeren),
 die de zetelverdeling vaststelt en daarvoor een proces-verbaal genereert.
