@@ -30,7 +30,7 @@ Het overzicht van alle input en output van Abacus (dus ook bijvoorbeeld EML_NL) 
 
 ---
 
-## Centraal stembureau (alleen GR)
+## Centraal stembureau (alleen GR en WS)
 
 ### Invoer in Abacus
 
