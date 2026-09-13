@@ -1,15 +1,18 @@
 # Authenticiteit van Abacus vaststellen
 
-Voordat je Abacus installeert, controleer je of de inhoud van het installatiebestand gelijk is aan de inhoud van Abacus zoals gepubliceerd door de Kiesraad. Deze stap is een belangrijke waarborg waarmee we tot betrouwbare verkiezingsresultaten komen. 
+Voordat je Abacus installeert, controleer je of de inhoud van het installatiebestand gelijk is aan de inhoud van Abacus zoals gepubliceerd door de Kiesraad. Deze stap is een belangrijke waarborg waarmee we tot betrouwbare verkiezingsresultaten komen.
 
 Je vergelijkt de hashcode van het Abacus-bestand met de hashcode die op de website van de Kiesraad staat. Als de hashcode overeenkomt weet je dat je de officiële, door de Kiesraad verspreide versie van Abacus installeert. De werkwijze om de hashcode te bepalen hangt af van je besturingssysteem.
 
 ## Authenticiteit vaststellen op Windows
 
-Voor Windows gebruik je de opdracht `certutil` in een opdrachtprompt of PowerShell.
+Op Windows toon je de hashcode met de opdracht `certutil`. In deze instructies gebruiken we hiervoor de opdrachtprompt. Als je liever PowerShell gebruikt, dan kan dat ook.
 
-- Open de opdrachtprompt of PowerShell. De opdrachtprompt open je door naar **Start** te gaan en dan "cmd" te typen.
-- Ga naar de locatie van het installatiebestand.
+- Ga in de Verkenner naar de locatie van het installatiebestand.
+- Typ in de adresbalk van de verkenner `cmd` en druk op Enter. Hiermee open je de opdrachtprompt.
+
+![Typen in de verkenner om de opdrachtprompt te openen](./img/verkenner-opdrachtprompt.png)
+
 - Voer vervolgens de volgende opdracht uit, waarbij `bestandsnaam` de naam is van het Abacus-bestand:
 
 ```
@@ -45,3 +48,9 @@ sha256sum bestandsnaam.tar.gz
 De hashcode staat vervolgens onder de opgegeven opdracht. Deze hashcode controleer je met de hashcode die op de website van de Kiesraad staat. Als de hashcode identiek is, kun je Abacus installeren.
 
 ![De hashcode in Linux](./img/linux-sha256sum.png)
+
+## Hashcode klopt niet
+
+Klopt de hashcode niet? Controleer eerst of je het juiste installatiebestand met het juiste versienummer gebruikt. Als de bestandsnaam correct is, maar de hashcode nog steeds niet klopt, download het bestand dan nog een keer en probeer het opnieuw.
+
+Als je dit allemaal hebt geprobeerd en de authenticiteit van het installatiebestand nog steeds niet kunt vaststellen, neem dan contact op met de Kiesraad.
