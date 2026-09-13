@@ -53,7 +53,7 @@ __Hoofdscenario:__
 3. (PS/WS) De beheerder selecteert de gemeente van het GSB uit de lijst met gemeenten in de verkiezingsdefinitie.
 4. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
 5. [De beheerder leest het bestand met stembureaus en aantal kiesgerechtigden (EML 110b) in.](#de-beheerder-leest-het-bestand-met-stembureaus-en-aantal-kiesgerechtigden-eml-110b-in-vis)
-6. De beheerder selecteert het type stemopneming.
+6. De beheerder selecteert het type stemopneming: CSO of DSO.
 7. De beheerder bevestigt het aantal kiesgerechtigden in de gemeente.
 8. De applicatie maakt het GSB voor de verkiezing aan.
 9. De beheerder registreert de aangemaakte publieke sleutel.
@@ -144,13 +144,13 @@ __Hoofdscenario:__
 
 __Uitbreidingen:__
 
-1a. De applicatie geeft een foutmelding bij het inlezen van de kandidantelijsten (EML 230b):  
+1a. De applicatie geeft een foutmelding bij het inlezen van de kandidatenlijsten (EML 230b):  
 &emsp; 1a1. De beheerder stelt vast dat het verkeerde bestand is ingelezen.  
 &emsp;&emsp; 1a1a. De beheerder stelt vast dat het bestand geen geldige verkiezingsdefinitie bevat:  
 &emsp;&emsp;&emsp; 1a1a1. De beheerder neemt contact op met het CSB.  
 &emsp; 1a2. De beheerder leest het correcte bestand in.
 
-2a. De hash van de kandidantelijsten (EML 230b) klopt niet:  
+2a. De hash van de kandidatenlijsten (EML 230b) klopt niet:  
 &emsp; 2a1. De beheerder stelt vast dat de hash niet correct is overgenomen.  
 &emsp;&emsp; 2a1a. De beheerder stelt vast dat de hash correct is overgenomen:  
 &emsp;&emsp;&emsp; 2a1a1. De beheerder neemt contact op met het CSB.  
@@ -202,7 +202,9 @@ __Hoofdscenario:__
 __Uitbreidingen:__
 
 1a. Er is geen te importeren bestand met stembureaus:  
-&emsp; 1a1. De beheerder of coördinator voert de stembureaus handmatig in.
+&emsp; 1a1. De beheerder of coördinator voert de stembureaus handmatig in.  
+&emsp; 1a2. [De beheerder of coördinator exporteert de stembureaus](#de-beheerder-of-coördinator-exporteert-de-stembureaus-zee).  
+&emsp; 1a3. De beheerder of coördinator uploadt de export naar het overdrachtsplatform.  
 
 2a. De applicatie geeft een foutmelding bij het inlezen van de lijst met stembureaus:
 
@@ -210,7 +212,7 @@ __Uitbreidingen:__
 &emsp; 4a1. De beheerder of coördinator past de stembureaus aan.
 
 
-## De beheerder exporteert de stembureaus (zee)
+## De beheerder of coördinator exporteert de stembureaus (zee)
 
 __Niveau:__ gebruikersdoel, zee, 🌊
 
@@ -218,8 +220,8 @@ __Niveau:__ gebruikersdoel, zee, 🌊
 
 __Hoofdscenario:__
 
-1. De beheerder exporteert de stembureaus.
-2. De beheerder slaat de geëxporteerde stembureaus op, zodat ze geïmporteerd kunnen worden bij een volgende verkiezing.
+1. De beheerder of coördinator exporteert de stembureaus naar een EML 110b.
+2. De beheerder of coördinator slaat de geëxporteerde stembureaus op, zodat ze geïmporteerd kunnen worden bij een volgende verkiezing.
 
 ## De beheerder maakt de gebruikers aan (zee)
 
