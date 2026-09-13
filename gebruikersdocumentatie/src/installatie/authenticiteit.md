@@ -1,6 +1,8 @@
 # Authenticiteit van Abacus vaststellen
 
-Voordat je Abacus installeert, controleer je of de inhoud van het installatiebestand gelijk is aan de inhoud van Abacus zoals gepubliceerd door de Kiesraad. Vergelijk daarvoor de hashcode van het Abacus-bestand met de hashcode die op de website van de Kiesraad staat. De werkwijze om de hashcode te bepalen hangt af van je besturingssysteem.
+Voordat je Abacus installeert, controleer je of de inhoud van het installatiebestand gelijk is aan de inhoud van Abacus zoals gepubliceerd door de Kiesraad. Deze stap is een belangrijke waarborg waarmee we tot betrouwbare verkiezingsresultaten komen. 
+
+Je vergelijkt de hashcode van het Abacus-bestand met de hashcode die op de website van de Kiesraad staat. Als de hashcode overeenkomt weet je dat je de officiële, door de Kiesraad verspreide versie van Abacus installeert. De werkwijze om de hashcode te bepalen hangt af van je besturingssysteem.
 
 ## Authenticiteit vaststellen op Windows
 
