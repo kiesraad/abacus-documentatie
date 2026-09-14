@@ -9,7 +9,7 @@ Voordat we een nieuwe release opleveren voor de wettelijke toets en het beveilig
 - vergelijking output met OSV2020-U
 - modellen langs juridisch expert
 - weinig geraakte functionaliteit, zoals backups, session timeouts, ...
-- simulatie van een zitting
+- simulatie van een zitting met gebruikers (intern, liefst ook extern)
 
 ### Ketentest
 - importeren verkiezingsdefinities en kandidatenlijsten van OSV2020-KS of e-KS
