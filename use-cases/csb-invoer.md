@@ -39,14 +39,10 @@ __Hoofdscenario:__
 
 __Uitbreidingen:__
 
-1a. De CSB-applicatie draait op een andere machine dan de GSB-applicatie (bij WS altijd het geval):  
-&emsp; 1a1. De coördinator CSB zet het tellingsbestand (EML 510b) op de machine met de CSB-applicatie.  
-&emsp; 1a2. De coördinator CSB leest het tellingsbestand (EML 510b) in.
-
-1b. Het is niet mogelijk het tellingsbestand (EML 510b) te importeren:  
-&emsp; 1b1. Het CSB lost in overleg met het GSB het probleem op en importeert alsnog het bestand.  
-&emsp;&emsp; 1b1a. Het CSB slaagt er niet in het probleem op te lossen:  
-&emsp;&emsp;&emsp; 1b1a1. Het CSB doet de eerste invoer handmatig.
+1a. Het is niet mogelijk het tellingsbestand (EML 510b) te importeren:  
+&emsp; 1a1. Het CSB lost in overleg met het GSB het probleem op en importeert alsnog het bestand.  
+&emsp;&emsp; 1a1a. Het CSB slaagt er niet in het probleem op te lossen:  
+&emsp;&emsp;&emsp; 1a1a1. Het CSB doet de eerste invoer handmatig.
 
 2a. De hash van het tellingsbestand (EML 510b) klopt niet:  
 &emsp; 2a1. De coördinator CSB stelt vast dat de hash niet correct is overgenomen.  

@@ -182,7 +182,7 @@ sequenceDiagram
       GSB->>CSB: PV (Model N 10-1, Na 31-1), EML (510b)
     else Centrale stemopneming
       SB->>GSB: PV (Model N 10-2)
-      GSB->>CSB: PV (Model Na 31-2 met bijlage 1), EML ()
+      GSB->>CSB: PV (Model Na 31-2 met bijlage 1), EML (510b)
     end
     opt Onderzoek bij Stembureau
       CSB->>+GSB: Terugverwijzing voor onderzoek
