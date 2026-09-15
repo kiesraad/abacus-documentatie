@@ -25,10 +25,7 @@ Abacus laat niet toe om de eerste invoer van de resultaten van het GSB te import
 ### Strengere interpretatie vierogenpricipe
 De implementatie van het vierogenprincipe bij invoer is strenger in Abacus dan in OSV2020-U. Als de eerste en tweede invoer van tellingen niet gelijk zijn, dan moet in Abacus de foutieve invoer volledig opnieuw gedaan worden. Dit creëert extra werk ten opzichte van gebruik van OSV2020-U, waarin als één van de twee invoeren correct zijn, het mogelijk is die invoer als de definitieve invoer aan te duiden.
 
-Dit is gevolg van een ontwerpkeuze in Abacus, die ondertussen herzien is. De implementatie van het nieuwe ontwerp zal beschikbaar zijn in de volgende release van Abacus.
-
-### Beperkte invoermogelijkheid tekstvelden processen-verbaal
-Er zijn gedeeltes van de processen-verbaal die in Abacus ingevoerd zouden kunnen worden, maar waarvoor dat nog niet mogelijk is. Een voorbeeld hiervan is de presentielijst. Gevolg is dat gemeenten deze gedeeltes buiten Abacus om in moeten vullen.
+Dit is gevolg van een ontwerpkeuze in Abacus. Op basis van de feedback bij het gebruik tijdens GR26 is het ontwerp aangepast. De implementatie hiervan zal beschikbaar zijn in de volgende release van Abacus.
 
 ### Geen benoemings- en geloofsbrieven
 Voor Abacus is de ontwerpkeuze gemaakt om de applicatie geen benoemings- en geloofsbrieven te laten genereren. Dit is iets dat OSV2020-U wel doet. Deze keuze is afgestemd met de gemeente Hilversum.
