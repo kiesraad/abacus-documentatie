@@ -18,6 +18,7 @@
 
 - [Inleiding](./installatie/README.md)
   - [Netwerk inrichten](./installatie/netwerk.md)
+  - [Authenticiteit van Abacus vaststellen](./installatie/authenticiteit.md)
   - [Installeren op Windows](./installatie/windows.md)
   - [Installeren op Linux](./installatie/linux.md)
   - [Beveiligingscertificaat](./installatie/certificaat.md)
