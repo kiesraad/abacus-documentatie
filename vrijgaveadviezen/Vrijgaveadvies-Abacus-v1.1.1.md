@@ -27,8 +27,11 @@ De implementatie van het vierogenprincipe bij invoer is strenger in Abacus dan i
 
 Dit is gevolg van een ontwerpkeuze in Abacus. Op basis van de feedback bij het gebruik tijdens GR26 is het ontwerp aangepast. De implementatie hiervan zal beschikbaar zijn in de volgende release van Abacus.
 
-### Geen benoemings- en geloofsbrieven
-Voor Abacus is de ontwerpkeuze gemaakt om de applicatie geen benoemings- en geloofsbrieven te laten genereren. Dit is iets dat OSV2020-U wel doet. Deze keuze is afgestemd met de gemeente Hilversum.
+### Ontbreken van een alleen-lezen statusoverzicht
+
+Grotere gemeenten hebben de behoefte om een statusoverzicht te tonen door middel van een groot scherm of beamer. Op dit moment is het statusoverzicht in Abacus alleen beschikbaar voor coördinatoren, die dus ingelogd moeten zijn en moeten zorgen dat hun sessie niet verloopt. Dit plaatst een extra last op de coördinator.
+
+De oplossing hiervoor is het toevoegen van een alleen-lezen statusoverzicht in Abacus, dat bereikbaar is zonder in te loggen. Deze wijziging staat op dit moment niet ingepland voor een specifieke release.
 
 
 ## Terugvaloptie
