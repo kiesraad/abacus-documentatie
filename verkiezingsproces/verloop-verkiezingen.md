@@ -181,8 +181,8 @@ sequenceDiagram
       SB->>GSB: PV (Model N 10-1)
       GSB->>CSB: PV (Model N 10-1, Na 31-1), EML (510b)
     else Centrale stemopneming
-      SB->>GSB: PV (Model Model N 10-2)
-      GSB->>CSB: PV (Model Na 31-2 met bijlage 1), EML ()
+      SB->>GSB: PV (Model N 10-2)
+      GSB->>CSB: PV (Model Na 31-2 met bijlage 1), EML (510b)
     end
     opt Onderzoek bij Stembureau
       CSB->>+GSB: Terugverwijzing voor onderzoek
@@ -208,7 +208,7 @@ sequenceDiagram
       SB->>GSB: PV (Model N 10-1)
       GSB->>CSB: PV (Model N 10-1, Na 31-1), EML (510b)
     else Centrale stemopneming
-      SB->>GSB: PV (Model Model N 10-2)
+      SB->>GSB: PV (Model N 10-2)
       GSB->>CSB: PV (Model Na 31-2 met bijlage 1), EML (510b)
     end
     else Provincie met meerdere kieskringen
@@ -218,7 +218,7 @@ sequenceDiagram
     SB->>GSB: PV (Model N 10-1)
     GSB->>HSB: PV (Model N 10-1, Na 31-1), EML (510b)
     else Centrale stemopneming
-      SB->>GSB: PV (Model Model N 10-2)
+      SB->>GSB: PV (Model N 10-2)
       GSB->>HSB: PV (Model Na 31-2 met bijlage 1), EML (510b)
     end
     HSB->>+CSB: PV (Model O 7), EML (510c)
@@ -243,7 +243,7 @@ sequenceDiagram
       SB->>SOL: PV (Model N 10-1)
       SOL->>CSB: PV (Model N 10-1, Na 31-1), EML (510b)
     else Centrale stemopneming
-      SB->>SOL: PV (Model Model N 10-2)
+      SB->>SOL: PV (Model N 10-2)
       SOL->>CSB: PV (Model N 10-2, Na 31-2), EML (510b)
     end
     opt Onderzoek bij Stembureau

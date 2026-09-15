@@ -1,12 +1,14 @@
 # CSB: Zitting
 
-Abacus ondersteunt op dit moment de rol CSB alleen voor gemeenteraadsverkiezingen (GR). Deze use cases gelden dus alleen voor GR.
+Abacus ondersteunt op dit moment de rol CSB alleen voor gemeenteraadsverkiezingen (GR) en waterschapsverkiezingen (WS). Deze use cases gelden dus alleen voor GR en WS.
 
 ## Centraal stembureau (CSB) stelt verkiezingsuitslag vast (wolk)
 
 __Niveau:__ hoog-over, wolk, ☁️
 
 ### Hoofdscenario en uitbreidingen
+
+NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - stappen die 'het GSB' noemen gelden bij WS _per GSB_.
 
 __Hoofdscenario:__
 
@@ -17,12 +19,12 @@ __Hoofdscenario:__
 5. Het CSB voert het controleprotocol optellingen uit. (controleprotocol deel B)
 6. [Het CSB stelt de zetelverdeling vast en wijst de gekozen kandidaten aan.](#het-csb-stelt-de-zetelverdeling-vast-en-wijst-de-gekozen-kandidaten-aan-vlieger)
 7. De applicatie genereert de benodigde bestanden: PV P 22-2, tellingsbestanden EML 510d, EML 520.
-8. De voorzitter CSB (burgemeester) tekent de benoemingsbrieven en de kennisgevingen tot geloofsbrief.
+8. De voorzitter CSB tekent de benoemingsbrieven en de kennisgevingen tot geloofsbrief.
 9. Het CSB voert het controleprotocol zetelverdeling uit. (controleprotocol deel C)
 10. Het CSB opent de zitting.
 11. Het CSB stelt de uitslag vast o.b.v. de P 22-2: controleren op compleetheid, voorlezen, er zijn geen bezwaren, ondertekenen. En sluit daarmee de zitting.
-12. Het CSB publiceert de P 22-2, EML 510d en EML 520 op de website van de gemeente.
-13. Het CSB stuurt alle PVs naar de gemeenteraad.
+12. Het CSB publiceert de P 22-2, EML 510d en EML 520 op de website van de gemeente/het waterschap.
+13. Het CSB stuurt alle PVs naar de gemeenteraad (GR) of het algemeen bestuur (WS).
 14. Het CSB deelt de EML 510d en EML 520 met de Kiesraad.
 
 __Uitbreidingen:__
@@ -43,7 +45,7 @@ __Uitbreidingen:__
 &emsp;&emsp;&emsp; 11a2a2. Het CSB stelt de nieuwe uitslag vast.  
 &emsp;&emsp;&emsp; 11a2a3. Het CSB voegt de sectie "Hertelling" toe aan het oorspronkelijke PV.
 
-13a. De gemeenteraad besluit dat een hertelling nodig is ([Artikel V 4a Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01/#AfdelingIV_HoofdstukV_Paragraaf1_ArtikelV4a)):  
+13a. De gemeenteraad (GR) of het algemeen bestuur (WS) besluit dat een hertelling nodig is ([Artikel V 4a Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01/#AfdelingIV_HoofdstukV_Paragraaf1_ArtikelV4a)):  
 &emsp; 13a1. Het GSB doet de hertelling d.m.v. de corrigendum-flow.  
 &emsp; 13a2. De CSB stelt de nieuwe uitslag vast.  
 &emsp; 13a3. Het CSB maakt een nieuwe P 22-2, EML 510d en EML 520 aan met alleen de nieuwe uitslag.

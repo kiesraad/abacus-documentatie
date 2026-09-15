@@ -1,6 +1,6 @@
 # CSB: Invoer
 
-Abacus ondersteunt op dit moment de rol CSB alleen voor gemeenteraadsverkiezingen (GR). Deze use cases gelden dus alleen voor GR.
+Abacus ondersteunt op dit moment de rol CSB alleen voor gemeenteraadsverkiezingen (GR) en waterschapsverkiezingen (WS). Deze use cases gelden dus alleen voor GR en WS.
 
 ## Het CSB voert de tellingen van het GSB in (vlieger)
 
@@ -9,6 +9,8 @@ __Niveau:__ hoog-over, vlieger, 🪁
 ### Hoofdscenario en uitbreidingen
 
 __Hoofdscenario:__
+
+NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - de stappen 2, 3 en 4 worden uitgevoerd voor elk GSB.
 
 1. De coördinator CSB stelt de invoer open.
 2. [De coördinator CSB leest de resultaten van de laatste GSB-zitting in als eerste invoer van het CSB.](#de-coördinator-csb-leest-de-resultaten-van-de-laatste-gsb-zitting-in-als-eerste-invoer-van-het-csb-zee)
@@ -37,14 +39,10 @@ __Hoofdscenario:__
 
 __Uitbreidingen:__
 
-1a. De CSB-applicatie draait op een andere machine dan de GSB-applicatie:  
-&emsp; 1a1. De coördinator CSB zet het tellingsbestand (EML 510b) op de machine met de CSB-applicatie.  
-&emsp; 1a2. De coördinator CSB leest het tellingsbestand (EML 510b) in.
-
-1b. Het is niet mogelijk het tellingsbestand (EML 510b) te importeren:  
-&emsp; 1b1. Het CSB lost in overleg met het GSB het probleem op en importeert alsnog het bestand.  
-&emsp;&emsp; 1b1a. Het CSB slaagt er niet in het probleem op te lossen:  
-&emsp;&emsp;&emsp; 1b1a1. Het CSB doet de eerste invoer handmatig.
+1a. Het is niet mogelijk het tellingsbestand (EML 510b) te importeren:  
+&emsp; 1a1. Het CSB lost in overleg met het GSB het probleem op en importeert alsnog het bestand.  
+&emsp;&emsp; 1a1a. Het CSB slaagt er niet in het probleem op te lossen:  
+&emsp;&emsp;&emsp; 1a1a1. Het CSB doet de eerste invoer handmatig.
 
 2a. De hash van het tellingsbestand (EML 510b) klopt niet:  
 &emsp; 2a1. De coördinator CSB stelt vast dat de hash niet correct is overgenomen.  
