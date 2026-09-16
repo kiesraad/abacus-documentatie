@@ -5,7 +5,7 @@ __Let op:__ Dit document beschrijft alleen de verkiezingen die op dit moment doo
 ## Verkiezingen
 
 | Verkiezingen       | ElectionCategory | ElectionSubcategory        | GSB        | HSB | CSB          |
-| ------------------ | --------------- | -------------------------- | ---------- | --- | ------------ |
+| ------------------ | ---------------- | -------------------------- | ---------- | --- | ------------ |
 | Gemeenteraad       | GR               | GR1 (minder dan 19 zetels) |  gemeente  |  -  |  gemeente    |
 | Gemeenteraad       | GR               | GR2 (19 of meer zetels)    |  gemeente  |  -  |  gemeente    |
 | Waterschappen      | AB               | AB1 (minder dan 19 zetels) |  gemeente  |  -  |  waterschap  |
