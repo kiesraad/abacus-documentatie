@@ -23,8 +23,8 @@ __Hoofdscenario:__
 9. Het CSB voert het controleprotocol zetelverdeling uit. (controleprotocol deel C)
 10. Het CSB opent de zitting.
 11. Het CSB stelt de uitslag vast o.b.v. de P 22-2: controleren op compleetheid, voorlezen, er zijn geen bezwaren, ondertekenen. En sluit daarmee de zitting.
-12. Het CSB publiceert de P 22-2, EML 510d en EML 520 op de website van de gemeente/het waterschap.
-13. Het CSB stuurt alle PVs naar de gemeenteraad (GR) of het algemeen bestuur (WS).
+12. Het CSB publiceert de P 22-2, EML 510d en EML 520 op de website van het vertegenwoordigend orgaan.
+13. Het CSB stuurt alle PVs naar het vertegenwoordigend orgaan.
 14. Het CSB deelt de EML 510d en EML 520 met de Kiesraad.
 
 __Uitbreidingen:__
@@ -45,7 +45,7 @@ __Uitbreidingen:__
 &emsp;&emsp;&emsp; 11a2a2. Het CSB stelt de nieuwe uitslag vast.  
 &emsp;&emsp;&emsp; 11a2a3. Het CSB voegt de sectie "Hertelling" toe aan het oorspronkelijke PV.
 
-13a. De gemeenteraad (GR) of het algemeen bestuur (WS) besluit dat een hertelling nodig is ([Artikel V 4a Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01/#AfdelingIV_HoofdstukV_Paragraaf1_ArtikelV4a)):  
+13a. Het vertegenwoordigend orgaan besluit dat een hertelling nodig is ([Artikel V 4a Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01/#AfdelingIV_HoofdstukV_Paragraaf1_ArtikelV4a)):  
 &emsp; 13a1. Het GSB doet de hertelling d.m.v. de corrigendum-flow.  
 &emsp; 13a2. De CSB stelt de nieuwe uitslag vast.  
 &emsp; 13a3. Het CSB maakt een nieuwe P 22-2, EML 510d en EML 520 aan met alleen de nieuwe uitslag.
