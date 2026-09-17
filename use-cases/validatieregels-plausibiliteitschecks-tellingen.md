@@ -59,8 +59,10 @@ Deze regels zijn alleen van toepassing bij invoer voor de eerste zitting. De ger
 
 | code  | regel | GSB CSO | GSB DSO | CSB |
 | ----- | ----- | :-----: | :-----: | :-: |
-| F.101 | 'Alleen bij extra onderzoek B1-1': één van beide vragen is beantwoord, en de andere niet                                                                                                        | X |   |   |
-| F.102 | 'Alleen bij extra onderzoek B1-1': meerdere antwoorden op 1 van de vragen                                                                                                                       | X |   |   |
+| F.101 | 'Alleen bij extra onderzoek B1-1': de eerste vraag is niet beantwoord                                                                                                                           | X |   |   |
+| F.102 | 'Alleen bij extra onderzoek B1-1': 'extra onderzoek gedaan' = 'ja' en de tweede vraag is niet beantwoord                                                                                        | X |   |   |
+| F.103 | 'Alleen bij extra onderzoek B1-1': 'extra onderzoek gedaan' = 'nee' en de tweede vraag is beantwoord                                                                                            | X |   |   |
+| F.104 | 'Alleen bij extra onderzoek B1-1': meerdere antwoorden op 1 van de vragen                                                                                                                       | X |   |   |
 | F.111 | 'Verschillen met telresultaten van het stembureau': één of beide vragen zijn niet beantwoord                                                                                                    | X |   |   |
 | F.112 | 'Verschillen met telresultaten van het stembureau': meerdere antwoorden per vraag                                                                                                               | X |   |   |
 | F.121 | Over het proces-verbaal: Niet alle vragen bij 'Over het proces-verbaal' zijn beantwoord                                                                                                         |   | X |   |
@@ -71,21 +73,39 @@ Deze regels zijn alleen van toepassing bij invoer voor de eerste zitting. De ger
 | F.134 | 'Controles en correcties - Op eigen initiatief': 'controles en correcties aanwezig' = 'ja' EN meer dan 1 antwoord op vraag 'zijn er gecorrigeerde telresultaten'                                |   | X |   |
 | F.135 | 'Controles en correcties - Op verzoek van het centraal stembureau': 'controles en correcties aanwezig' = 'ja' EN Ongeldig antwoord in eerste zitting (vraag is ingevuld)                        |   | X |   |
 
-#### F.101 'Alleen bij extra onderzoek B1-1': één van beide vragen is beantwoord, en de andere niet
+#### F.101 'Alleen bij extra onderzoek B1-1': de eerste vraag is niet beantwoord
 
 > Invoerder (GSB CSO): **Controleer je antwoorden** (F.101)
 
-> Coördinator (GSB CSO): **Beide vragen moeten beantwoord ofwel overgeslagen zijn** (F.101)  
+> Coördinator (GSB CSO): **De eerste vraag moet beantwoord worden** (F.101)  
 > Als er extra onderzoek is gedaan, moeten beide vragen beantwoord worden.  
-> Als er geen extra onderzoek is gedaan, moeten deze vragen overgeslagen worden.
+> Als er geen extra onderzoek is gedaan, hoeft alleen de eerste vraag beantwoord te worden.
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
-#### F.102 'Alleen bij extra onderzoek B1-1': meerdere antwoorden op 1 van de vragen
+#### F.102: 'Alleen bij extra onderzoek B1-1': 'extra onderzoek gedaan' = 'ja' en de tweede vraag is niet beantwoord
 
 > Invoerder (GSB CSO): **Controleer je antwoorden** (F.102)
 
-> Coördinator (GSB CSO): **Er mag maar één antwoord per vraag worden gegeven** (F.102)
+> Coördinator (GSB CSO): **De tweede vraag moet beantwoord worden** (F.102)  
+> Als er extra onderzoek is gedaan, moeten beide vragen beantwoord worden.  
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+#### F.103: 'Alleen bij extra onderzoek B1-1': 'extra onderzoek gedaan' = 'nee' en de tweede vraag is beantwoord   
+
+> Invoerder (GSB CSO): **Controleer je antwoorden** (F.103)
+
+> Coördinator (GSB CSO): **De tweede vraag hoeft niet beantwoord te worden** (F.103)  
+> Als er geen extra onderzoek is gedaan, hoeft alleen de eerste vraag beantwoord te worden.  
+
+Velden markeren: geen (laat alleen foutmelding zien op de pagina)
+
+#### F.104 'Alleen bij extra onderzoek B1-1': meerdere antwoorden op 1 van de vragen
+
+> Invoerder (GSB CSO): **Controleer je antwoorden** (F.104)
+
+> Coördinator (GSB CSO): **Er mag maar één antwoord per vraag worden gegeven** (F.104)
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
