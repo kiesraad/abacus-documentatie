@@ -2,7 +2,7 @@
 
 Abacus ondersteunt op dit moment de rol CSB alleen voor gemeenteraadsverkiezingen (GR) en waterschapsverkiezingen (WS). Deze use cases gelden dus alleen voor GR en WS.
 
-## Het centraal stembureau (CSB) stelt verkiezingsuitslag vast (wolk)
+## Het centraal stembureau (CSB) stelt de verkiezingsuitslag vast (wolk)
 
 __Hoofdscenario:__
 1. [Het CSB controleert de GSB-resultaten en voert ze in.](#het-csb-controleert-de-gsb-resultaten-en-voert-ze-in-vlieger)
