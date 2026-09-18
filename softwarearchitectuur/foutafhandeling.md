@@ -38,5 +38,3 @@ Beide fouten worden afgehandeld met een 'De pagina is niet gevonden'-pagina.
 
 ## Air-gap-fouten
 Als Abacus detecteert dat het internet bereikbaar is en Abacus dus niet air-gapped draait, wordt er een passende foutmelding getoond.
-
-Air-gap-detectie kan zowel in de frontend als in de backend gebeuren en de afhandeling moet nog bepaald worden.
