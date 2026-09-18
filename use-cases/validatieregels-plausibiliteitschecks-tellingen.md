@@ -78,8 +78,7 @@ Deze regels zijn alleen van toepassing bij invoer voor de eerste zitting. De ger
 > Invoerder (GSB CSO): **Controleer je antwoorden** (F.101)
 
 > Coördinator (GSB CSO): **De eerste vraag moet beantwoord worden** (F.101)  
-> Als er extra onderzoek is gedaan, moeten beide vragen beantwoord worden.  
-> Als er geen extra onderzoek is gedaan, hoeft alleen de eerste vraag beantwoord te worden.
+> - Herstel de fout door op papier de juiste optie(s) aan te (laten) vinken.
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
@@ -96,8 +95,8 @@ Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
 > Invoerder (GSB CSO): **Controleer je antwoorden** (F.103)
 
-> Coördinator (GSB CSO): **De tweede vraag hoeft niet beantwoord te worden** (F.103)  
-> Als er geen extra onderzoek is gedaan, hoeft alleen de eerste vraag beantwoord te worden.  
+> Coördinator (GSB CSO): **De tweede vraag moet overgeslagen worden** (F.103)  
+> Als er geen extra onderzoek is gedaan, mag alleen de eerste vraag beantwoord worden.  
 
 Velden markeren: geen (laat alleen foutmelding zien op de pagina)
 
