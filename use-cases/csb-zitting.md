@@ -32,8 +32,11 @@ __Uitbreidingen:__
 
 10a. Het vertegenwoordigend orgaan besluit dat een hertelling nodig is ([Artikel V 4a Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01/#AfdelingIV_HoofdstukV_Paragraaf1_ArtikelV4a)):  
 &emsp; 10a1. Het GSB doet de hertelling d.m.v. de corrigendum-flow.  
-&emsp; 10a2. De CSB stelt de nieuwe uitslag vast.  
-&emsp; 10a3. Het CSB maakt een nieuwe P 22-2, EML 510d en EML 520 aan met alleen de nieuwe uitslag.
+&emsp; 10a2. Het CSB stelt de nieuwe uitslag vast.  
+&emsp; 10a3. Het CSB maakt een nieuwe P 22-2, EML 510d en EML 520 aan met alleen de nieuwe uitslag.  
+&emsp; 10a4. Het CSB publiceert de nieuwe P 22-2, EML 510d en EML 520 op de website van het vertegenwoordigend orgaan.  
+&emsp; 10a5. Het CSB stuurt alle PVs naar het vertegenwoordigend orgaan.  
+&emsp; 10a6. Het CSB deelt de nieuwe EML 510d en EML 520 met de Kiesraad.
 
 ### Niet in scope
 
@@ -57,7 +60,8 @@ __Uitbreidingen:__
 3a. Het GSB PV geeft aanleiding tot een terugverwijzing:  
 &emsp; 3a1. Het CSB verwijst terug naar het GSB.  
 &emsp; 3a2. [Gemeentelijk stembureau (GSB) stelt uitkomst vast in volgende zitting (corrigenda)](gsb-volgende-zitting.md#gemeentelijk-stembureau-gsb-stelt-uitkomst-vast-in-volgende-zitting-corrigendum-wolk)  
-&emsp; 3a3. (CSO) Het CSB voegt het Inlegvel Na 31-2 toe aan het PV Na 31-2.
+&emsp; 3a3. (CSO) Het CSB voegt het Inlegvel Na 31-2 toe aan het PV Na 31-2.  
+&emsp; 3a3. (DSO) Het CSB voegt het Inlegvel N 10-1 toe aan de PVs N 10-1 en voegt het Inlegvel Na 31-1 toe aan het het PV Na 31-1.
 
 
 ## Het CSB stelt de zetelverdeling vast en wijst de gekozen kandidaten aan (vlieger)
