@@ -471,7 +471,7 @@ Velden markeren: I en J
 > D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting) moet overgeslagen worden.
 
 > Coördinator (GSB DSO): **Deze vraag moet overgelagen worden** (F.313)  
-> D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 2.3.2 moet overgeslagen worden. Is op het proces-verbaal duidelijk te zien dat de bedoeling was?
+> D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 2.3.2 moet overgeslagen worden. Is op het proces-verbaal duidelijk te zien wat de bedoeling was?
 > - Zo ja: laat dat dan overnemen in Abacus.
 > - Zo nee: maak een corrigendum waarin deze vraag wordt overgeslagen.
 
