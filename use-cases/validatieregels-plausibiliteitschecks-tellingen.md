@@ -435,7 +435,9 @@ Veld markeren: I, J
 > Bij vraag 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting) moet één antwoord gekozen worden.
 
 > Coördinator (GSB DSO): **Deze vraag moet precies één antwoord hebben** (F.310)
-> Bij vraag 2.3.2 moet één antwoord gekozen worden.
+> Bij vraag 2.3.2 moet één antwoord gekozen worden. Is op het proces-verbaal duidelijk aangegeven welk van de opties bedoeld is?
+> - Zo ja: laat dat dan overnemen in Abacus.
+> - Zo nee: maak een corrigendum waarin de juiste optie geselecteerd wordt.
 
 Veld markeren: foutmelding op 3.3.2 (CSO eerste zitting) / 2.3.2 (CSO volgende zitting en DSO)
 
@@ -469,7 +471,9 @@ Velden markeren: I en J
 > D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting) moet overgeslagen worden.
 
 > Coördinator (GSB DSO): **Deze vraag moet overgelagen worden** (F.313)  
-> D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 2.3.2 moet overgeslagen worden.
+> D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 2.3.2 moet overgeslagen worden. Is op het proces-verbaal duidelijk te zien wat de bedoeling was?
+> - Zo ja: laat dat dan overnemen in Abacus.
+> - Zo nee: maak een corrigendum waarin deze vraag wordt overgeslagen.
 
 Veld markeren: foutmelding op 3.3.2 (CSO eerste zitting) / 2.3.2 (CSO volgende zitting en DSO)
 
