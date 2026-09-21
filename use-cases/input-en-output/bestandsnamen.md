@@ -72,7 +72,7 @@ Wordt niet gegenereerd door Abacus.
 
 #### teluitslagenbestand (510b, eerste zitting)
 ```
-definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}_{timestamp}.zip
+definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── Model_Na31-1.pdf (voor DSO)
 ├── Model_Na31-2.pdf (voor CSO)
 ├── osv4-3_telling_{election_id|lower}.csv
@@ -83,7 +83,7 @@ definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphe
 
 Voorbeeld:
 ```
-definitieve-documenten_tk2026_gemeente_utrecht_20260310-1355.zip
+definitieve-documenten_tk2026_gemeente_utrecht-20260310-1355.zip
 ├── Model_Na31-2.pdf
 ├── osv4-3_telling_tk2026.csv
 └── Telling_TK2026.zip
@@ -94,7 +94,7 @@ definitieve-documenten_tk2026_gemeente_utrecht_20260310-1355.zip
 
 #### correctiebestand (510b, volgende zitting)
 ```
-correctie_{election_id|lower}_{region_category|lower}_{region|hyphen}_{timestamp}.zip
+correctie_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── Leeg_Model_P2a.pdf
 ├── Model_Na14-2.pdf
 ├── osv4-3_telling_{election_id|lower}.csv
@@ -120,7 +120,7 @@ EML_NL 510c (tellingsbestand hoofdstembureau) wordt niet gebruikt binnen de huid
 
 #### Teluitslagenbestand (510d)
 ```
-definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}_{timestamp}.zip
+definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── osv4-3_telling_{election_id|lower}.csv
 └── Totaaltelling_{election_id}.zip
     ├── Totaaltelling_{election_id}.eml.xml
@@ -140,7 +140,7 @@ Let op: 's-Hertogenbosch wel of niet met streepje
 
 #### Resultaatbestand (520) - verkozen kandidaten
 ```
-vaststelling-uitslag_{election_id|lower}_{region_category|lower}_{region|hyphen}_{timestamp}.zip
+vaststelling-uitslag_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── Model_P22-2.pdf
 └── Resultaat_{election_id}.zip
     └── Resultaat_{election_id}.eml.xml
