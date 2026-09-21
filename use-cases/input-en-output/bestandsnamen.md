@@ -26,10 +26,7 @@ De volgende transformaties kunnen uitgevoerd worden op de variabelen.
 |---|---|---|
 | `lower` | Kleine letters | `PS2023_Drenthe` wordt `ps2023_drenthe` |
 | `hyphen` | Kleine letters, verwijder accenten, verwijder leestekens (geen letter, cijfer of `-`), vervang spatie met `-`| `'s-Hertogenbosch` wordt `s-hertogenbosch` <br> `Súdwest-Fryslân` wordt `sudwest-fryslan` |
-| `snake` | Kleine letters, verwijder accenten, verwijder leestekens (geen letter, cijfer of `_`), vervang spatie met `_`| `Algemeen bestuur van het waterschap Aardenboezem 2027` wordt `algemeen_bestuur_van_het_waterschap_aardenboezem_2027` |
-
-Openstaande vragen:
-- Wat te doen met `-` bij `snake`?
+| `snake` | Kleine letters, verwijder accenten, verwijder leestekens (geen letter, cijfer, `-` of `_`), vervang spatie met `_`| `Algemeen bestuur van het waterschap Aardenboezem 2027` wordt `algemeen_bestuur_van_het_waterschap_aardenboezem_2027` |
 
 ## Bestanden
 
@@ -44,7 +41,7 @@ Wordt niet gegenereerd door Abacus.
 #### Stembureaulijst (110b)
 ```
 abacus-exporteren_stemgebieden-{election_name|snake}-eml_110b_stembureaus-{timestamp}.zip
-└── Stembureaus_{election_id}_{region}.eml.xml
+└── Stembureaus_{election_id}_{region|hyphen}.eml.xml
 ```
 
 Voorbeeld:
