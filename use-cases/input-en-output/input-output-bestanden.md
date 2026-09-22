@@ -15,6 +15,7 @@ De GSB-bestanden in dit document gelden voor alle ondersteunde verkiezingen (GR,
 - Alleen de documenten die overeenkomen met het ingestelde type stemopneming (DSO of CSO) kunnen gegenereerd worden voor een verkiezing.
 - Het is niet noodzakelijk om te beperken op welk moment bepaalde 'lege' documenten gegenereerd kunnen worden, zolang het onderscheid tussen de verschillende documenten duidelijk is voor gebruikers.
 - Het is niet noodzakelijk om onderscheid te maken tussen beheerders, coördinatoren GSB en coördinatoren CSB voor wie welke 'lege' documenten mag genereren.
+- De naamgeving van alle documenten die Abacus genereert is beschreven in [bestandsnamen](./bestandsnamen.md).
 
 ## Verkiezingsgegevens
 
@@ -36,10 +37,6 @@ EML_NL 210 (kandidatenlijst voor een politieke groepering) wordt niet gebruikt, 
 
 - Import: EML_NL 110b bestand
 - Export: EML_NL 110b bestand in een ZIP-bestand
-
-### Naamgeving documenten
-
-Zie [bestandsnamen](./bestandsnamen.md)
 
 ## GSB
 
@@ -139,10 +136,6 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 - tellingen GSB en SB's
 - worden gepubliceerd op de gemeentewebsite
 
-### Naamgeving documenten
-
-Zie [bestandsnamen](./bestandsnamen.md)
-
 ## CSB (alleen GR en WS)
 
 ### Documenten
@@ -192,5 +185,3 @@ EML_NL 510c (tellingsbestand hoofdstembureau) wordt niet gebruikt binnen de huid
 - tellingen CSB en GSB's
 - worden gepubliceerd op de gemeente- of waterschapswebsite
 
-### Naamgeving documenten
-Zie [bestandsnamen](./bestandsnamen.md)
