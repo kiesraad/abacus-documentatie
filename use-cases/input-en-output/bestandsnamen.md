@@ -1,6 +1,10 @@
 # Bestandsnamen Abacus
 
-Dit document beschrijft hoe de namen van bestanden die Abacus genereert zijn opgebouwd, aan de hand van variabelen, transformaties en templates.
+Dit document beschrijft van bestanden die Abacus genereert hoe de namen zijn opgebouwd aan de hand van variabelen, transformaties en templates.
+
+De template bepaalt welke variabelen met welke transformaties er in de bestandsnaam opgenomen worden.
+
+Als voorbeeld: `osv4-3_telling_{election_id|lower}.csv` beschrijft dat de `election_id` variabele ingevoegd moet worden, waar de `lower` transformatie op uitgevoerd is, met als resultaat `osv4-3_telling_ps2023_drenthe.csv`.
 
 Over het algemeen is een bestandsnaam opgebouwd uit variabelen die zijn gescheiden door een `_`, waarbij de spaties in de variabelen vervangen zijn door een `-`.
 
