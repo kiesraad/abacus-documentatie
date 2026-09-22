@@ -25,8 +25,7 @@ De volgende transformaties kunnen uitgevoerd worden op de variabelen.
 | Transformatie | Uitleg | Voorbeelden |
 |---|---|---|
 | `lower` | Kleine letters | `PS2023_Drenthe` wordt `ps2023_drenthe` |
-| `hyphen` | Kleine letters, verwijder accenten, verwijder leestekens (geen letter, cijfer of `-`), vervang spatie met `-`| `'s-Hertogenbosch` wordt `s-hertogenbosch` <br> `Súdwest-Fryslân` wordt `sudwest-fryslan` |
-| `snake` | Kleine letters, verwijder accenten, verwijder leestekens (geen letter, cijfer, `-` of `_`), vervang spatie met `_`| `Algemeen bestuur van het waterschap Aardenboezem 2027` wordt `algemeen_bestuur_van_het_waterschap_aardenboezem_2027` |
+| `hyphen` | Kleine letters, verwijder accenten, verwijder leestekens (geen letter, cijfer of `-`), vervang spatie met `-` | `'s-Hertogenbosch` wordt `s-hertogenbosch` <br> `Súdwest-Fryslân` wordt `sudwest-fryslan` |
 
 ## Bestanden
 
@@ -39,9 +38,16 @@ Wordt niet gegenereerd door Abacus.
 Wordt niet gegenereerd door Abacus.
 
 #### Stembureaulijst (EML 110b)
+Hiervoor is een extra transformatie nodig, omdat de bestandsnamen op een andere manier worden opgebouwd.
+
+| Transformatie | Uitleg | Voorbeelden |
+|---|---|---|
+| `slugify` | vervang spatie met `_`, verwijder leestekens (geen letter, cijfer of `-`) | `Algemeen bestuur van het waterschap Aardenboezem 2027` wordt `Algemeen_bestuur_van_het_waterschap_Aardenboezem_2027` |
+
+Template:
 ```
-abacus-exporteren_stemgebieden-{election_name|snake}-eml_110b_stembureaus-{timestamp}.zip
-└── Stembureaus_{election_id}_{region|hyphen}.eml.xml
+abacus-exporteren_stemgebieden-{election_name|slugify|lower}-eml_110b_stembureaus-{timestamp}.zip
+└── Stembureaus_{election_id}_{region|slugify}.eml.xml
 ```
 
 Voorbeeld:
