@@ -15,6 +15,7 @@ De GSB-bestanden in dit document gelden voor alle ondersteunde verkiezingen (GR,
 - Alleen de documenten die overeenkomen met het ingestelde type stemopneming (DSO of CSO) kunnen gegenereerd worden voor een verkiezing.
 - Het is niet noodzakelijk om te beperken op welk moment bepaalde 'lege' documenten gegenereerd kunnen worden, zolang het onderscheid tussen de verschillende documenten duidelijk is voor gebruikers.
 - Het is niet noodzakelijk om onderscheid te maken tussen beheerders, coördinatoren GSB en coördinatoren CSB voor wie welke 'lege' documenten mag genereren.
+- De naamgeving van alle documenten die Abacus genereert is beschreven in [bestandsnamen](./bestandsnamen.md).
 
 ## Verkiezingsgegevens
 
@@ -36,24 +37,6 @@ EML_NL 210 (kandidatenlijst voor een politieke groepering) wordt niet gebruikt, 
 
 - Import: EML_NL 110b bestand
 - Export: EML_NL 110b bestand in een ZIP-bestand
-
-#### Export: EML_NL 110b bestand
-
-Regionaal:  
-`Stembureaus_{election.category.to_eml_code()}{election_date.year()}_{election.domain.name}_{election.authority_region}.eml.xml`
-
-Nationaal:  
-`Stembureaus_{election.category.to_eml_code()}{election_date.year()}_{election.authority_region}.eml.xml`
-
-Voorbeeld:  
-`Stembureaus_AB2027_Aardenboezem_Nieuwstrand.eml.xml`
-
-#### Export: ZIP-bestand
-
-`abacus-exporteren_stemgebieden-{election.eml_name}-eml_110b_stembureaus-{yyyymmdd-hhmmss}.zip`
-
-Voorbeeld:  
-`abacus-exporteren_stemgebieden-algemeen_bestuur_van_het_waterschap_aardenboezem_2027-eml_110b_stembureaus-20260831-111904.zip`
 
 ## GSB
 
@@ -153,27 +136,6 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 - tellingen GSB en SB's
 - worden gepubliceerd op de gemeentewebsite
 
-### Naamgeving documenten
-
-#### Eerste zitting
-
-- `definitieve-documenten_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
-  - `Model_Na31-2.pdf`
-  - `osv4-3_telling_gr2026_gemeentenaam.csv`
-  - `Telling_GR2026_GemeenteNaam.zip`
-    - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
-    - `Telling_GR2026_GemeenteNaam.eml.xml.signature`
-
-#### Volgende zitting
-
-- `correctie_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
-  - `Leeg_Model_P2a.pdf`
-  - `Model_Na14-2.pdf` (als corrigendum)
-  - `osv4-3_telling_gr2026_gemeentenaam.csv`
-  - `Telling_GR2026_GemeenteNaam.zip` (als corrigendum)
-    - `Telling_GR2026_GemeenteNaam.eml.xml` (510b)
-    - `Telling_GR2026_GemeenteNaam.eml.xml.signature`
-
 ## CSB (alleen GR en WS)
 
 ### Documenten
@@ -223,17 +185,3 @@ EML_NL 510c (tellingsbestand hoofdstembureau) wordt niet gebruikt binnen de huid
 - tellingen CSB en GSB's
 - worden gepubliceerd op de gemeente- of waterschapswebsite
 
-### Naamgeving documenten
-
-- `definitieve-documenten_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
-  - `osv4-3_telling_gr2026_gemeentenaam.csv`
-  - `Totaaltelling_GR2026_GemeenteNaam.zip`
-    - `Totaaltelling_GR2026_GemeenteNaam.eml.xml` (510d)
-
-- `vaststelling-uitslag_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
-  - `Model_P22-2.pdf`
-  - `Resultaat_GR2026_GemeenteNaam.zip`
-    - `Resultaat_GR2026_GemeenteNaam.eml.xml` (520)
-
-- `model-p22-2-bijlage_gr2026_gemeentenaam_gemeente_gemeente-naam-jjjjmmdd-uummss.zip`
-  - `Model_P22-2_bijlage.pdf`
