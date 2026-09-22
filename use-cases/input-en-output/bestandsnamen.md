@@ -11,7 +11,7 @@ De volgende variabelen worden gebruikt in de bestandsnamen.
 | Variabele naam  | in EML 110a | In Abacus  | Voorbeelden  |
 |---|---|---|---|
 | `election_name` | `ElectionIdentifier/ElectionName` | `election.official_name` | `Algemeen bestuur van het waterschap Aardenboezem 2027`<br>`Provinciale Staten Drenthe 2023` |
-| `election_id`  | `ElectionIdentifier@Id` | `election.election_id`  | `PS2023_Drenthe`<br>`GR2026_sHertogenbosch`<br>`TK2022`  |
+| `election_id`  | `ElectionIdentifier@Id` | `election.election_id`  | `PS2023_Drenthe`<br>`GR2026_sHertogenbosch`<br>`TK2022` |
 | `region` | `RegionName` | `election.authority_region` | `Limburg` |
 | `region_category` | `@RegionCategory` *) | ? | `GEMEENTE` `PROVINCIE` `KIESKRING` |
 | `timestamp` | nvt | nvt | `20260831-111904` |
@@ -32,13 +32,13 @@ De volgende transformaties kunnen uitgevoerd worden op de variabelen.
 
 ### Uitwisseling
 
-#### Verkiezingsdefinitie (110a)
+#### Verkiezingsdefinitie (EML 110a)
 Wordt niet gegenereerd door Abacus.
 
-#### Kandidatenlijsten (230b)
+#### Kandidatenlijsten (EML 230b)
 Wordt niet gegenereerd door Abacus.
 
-#### Stembureaulijst (110b)
+#### Stembureaulijst (EML 110b)
 ```
 abacus-exporteren_stemgebieden-{election_name|snake}-eml_110b_stembureaus-{timestamp}.zip
 └── Stembureaus_{election_id}_{region|hyphen}.eml.xml
@@ -65,12 +65,9 @@ public_key_abacus_ab2027_amstelgooienvecht_gemeente_de-ronde-venen.crt
 public_key_abacus_tk2021_gemeente_eemsdelta.crt
 ```
 
-#### verklaring Ea 6
-Wordt niet gegenereerd door Abacus.
-
 ### Teluitslagen
 
-#### teluitslagenbestand (510b, eerste zitting)
+#### GSB eerste zitting (EML 510b)
 ```
 definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── Model_Na31-1.pdf (voor DSO)
@@ -92,7 +89,7 @@ definitieve-documenten_tk2026_gemeente_utrecht-20260310-1355.zip
 ```
 
 
-#### correctiebestand (510b, volgende zitting)
+#### GSB volgende zitting (EML 510b)
 ```
 correctie_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── Leeg_Model_P2a.pdf
@@ -114,11 +111,7 @@ correctie_gr2026_purmerend_gemeente_purmerend-20251125-144536
     └── Telling_GR2026_Purmerend.eml.xml.signature
 ```
 
-#### teluitslagenbestand (510c)
-
-EML_NL 510c (tellingsbestand hoofdstembureau) wordt niet gebruikt binnen de huidige scope.
-
-#### Teluitslagenbestand (510d)
+#### CSB-zitting Totaaltelling (EML 510d)
 ```
 definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── osv4-3_telling_{election_id|lower}.csv
@@ -138,7 +131,7 @@ definitieve-documenten_gr2026_shertogenbosch_gemeente_s-hertogenbosch-20260921-0
 
 Let op: 's-Hertogenbosch wel of niet met streepje
 
-#### Resultaatbestand (520) - verkozen kandidaten
+#### CSB-zitting Resultaat (EML 520) 
 ```
 vaststelling-uitslag_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── Model_P22-2.pdf
@@ -154,7 +147,7 @@ vaststelling-uitslag_ab2023_amstelgooienvecht_waterschap_amstel-gooi-en-vecht-20
     └── Resultaat_AB2023_AmstelGooienVecht.eml.xml
 ```
 
-#### P22-2 bijlage 1 - Stemmen per lijst en per kandidaat
+#### CSB-zitting P22-2 bijlage 1 (Stemmen per lijst en per kandidaat)
 ```
 model-p22-2-bijlage_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 └── Model_P22-2_bijlage.pdf
