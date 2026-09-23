@@ -9,34 +9,34 @@ __Hoofdscenario:__
 2. Het CSB voert het controleprotocol optellingen uit. (controleprotocol deel B)
 3. [Het CSB stelt de zetelverdeling vast en wijst de gekozen kandidaten aan.](#het-csb-stelt-de-zetelverdeling-vast-en-wijst-de-gekozen-kandidaten-aan-vlieger)
 4. De applicatie genereert de benodigde bestanden: PV P 22-2, tellingsbestanden EML 510d, EML 520.
-5. De voorzitter CSB tekent de benoemingsbrieven en de kennisgevingen tot geloofsbrief.
-6. Het CSB voert het controleprotocol zetelverdeling uit. (controleprotocol deel C)
-7. Het CSB opent de zitting.
-8. Het CSB stelt de uitslag vast o.b.v. de P 22-2: controleren op compleetheid, voorlezen, er zijn geen bezwaren, ondertekenen. En sluit daarmee de zitting.
-9. Het CSB publiceert de P 22-2, EML 510d en EML 520 op de website van het vertegenwoordigend orgaan.
-10. Het CSB stuurt alle PVs naar het vertegenwoordigend orgaan.
-11. Het CSB deelt de EML 510d en EML 520 met de Kiesraad.
+5. Het CSB voert het controleprotocol zetelverdeling uit. (controleprotocol deel C)
+6. Het CSB opent de zitting.
+7. Het CSB stelt de uitslag vast o.b.v. de P 22-2: controleren op compleetheid, voorlezen, er zijn geen bezwaren, ondertekenen. En sluit daarmee de zitting.
+8. Het CSB publiceert de P 22-2, EML 510d en EML 520 op de website van het vertegenwoordigend orgaan.
+9. Het CSB stuurt alle PVs naar het vertegenwoordigend orgaan.
+10. Het CSB deelt de EML 510d en EML 520 met de Kiesraad.
+11. De voorzitter CSB geeft de benoemde leden schriftelijk kennis van hun benoeming.
 
 __Uitbreidingen:__
 
-1-8a. Het CSB moet nieuwe aantallen invoeren ter correctie van de eerder ingevoerde tellingen:  
+1-7a. Het CSB moet nieuwe aantallen invoeren ter correctie van de eerder ingevoerde tellingen:  
 &emsp; 1-8a1. Het CSB corrigeert de eerder ingevoerde aantallen in de applicatie. Er is dus geen tweede CSB-zitting.
 
-8a. Er zijn bezwaren tijdens de zitting:  
-&emsp; 8a1. Het CSB neemt de bezwaren op in het PV.  
-&emsp; 8a2. Het CSB besluit dat geen van de bezwaren reden zijn tot een hertelling.  
-&emsp;&emsp; 8a2a. Het CSB besluit dat een aantal stembureaus herteld moet worden:  
-&emsp;&emsp;&emsp; 8a2a1. Het GSB voert de hertelling uit d.m.v. de corrigendum-flow.  
-&emsp;&emsp;&emsp; 8a2a2. Het CSB stelt de nieuwe uitslag vast.  
-&emsp;&emsp;&emsp; 8a2a3. Het CSB voegt de sectie "Hertelling" toe aan het oorspronkelijke PV.
+7a. Er zijn bezwaren tijdens de zitting:  
+&emsp; 7a1. Het CSB neemt de bezwaren op in het PV.  
+&emsp; 7a2. Het CSB besluit dat geen van de bezwaren reden zijn tot een hertelling.  
+&emsp;&emsp; 7a2a. Het CSB besluit dat een aantal stembureaus herteld moet worden:  
+&emsp;&emsp;&emsp; 7a2a1. Het GSB voert de hertelling uit d.m.v. de corrigendum-flow.  
+&emsp;&emsp;&emsp; 7a2a2. Het CSB stelt de nieuwe uitslag vast.  
+&emsp;&emsp;&emsp; 7a2a3. Het CSB voegt de sectie "Hertelling" toe aan het oorspronkelijke PV.
 
-10a. Het vertegenwoordigend orgaan besluit dat een hertelling nodig is ([Artikel V 4a Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01/#AfdelingIV_HoofdstukV_Paragraaf1_ArtikelV4a)):  
-&emsp; 10a1. Het GSB doet de hertelling d.m.v. de corrigendum-flow.  
-&emsp; 10a2. Het CSB stelt de nieuwe uitslag vast.  
-&emsp; 10a3. Het CSB maakt een nieuwe P 22-2, EML 510d en EML 520 aan met alleen de nieuwe uitslag.  
-&emsp; 10a4. Het CSB publiceert de nieuwe P 22-2, EML 510d en EML 520 op de website van het vertegenwoordigend orgaan.  
-&emsp; 10a5. Het CSB stuurt alle PVs naar het vertegenwoordigend orgaan.  
-&emsp; 10a6. Het CSB deelt de nieuwe EML 510d en EML 520 met de Kiesraad.
+9a. Het vertegenwoordigend orgaan besluit dat een hertelling nodig is ([Artikel V 4a Kieswet](https://wetten.overheid.nl/BWBR0004627/2026-01-01/#AfdelingIV_HoofdstukV_Paragraaf1_ArtikelV4a)):  
+&emsp; 9a1. Het GSB doet de hertelling d.m.v. de corrigendum-flow.  
+&emsp; 9a2. Het CSB stelt de nieuwe uitslag vast.  
+&emsp; 9a3. Het CSB maakt een nieuwe P 22-2, EML 510d en EML 520 aan met alleen de nieuwe uitslag.  
+&emsp; 9a4. Het CSB publiceert de nieuwe P 22-2, EML 510d en EML 520 op de website van het vertegenwoordigend orgaan.  
+&emsp; 9a5. Het CSB stuurt alle PVs naar het vertegenwoordigend orgaan.  
+&emsp; 9a6. Het CSB deelt de nieuwe EML 510d en EML 520 met de Kiesraad.
 
 ### Niet in scope
 
