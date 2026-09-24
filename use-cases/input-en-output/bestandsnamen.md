@@ -18,7 +18,7 @@ De volgende variabelen worden gebruikt in de bestandsnamen.
 | `election_id`  | `ElectionIdentifier@Id` | `election.election_id`  | `PS2023_Drenthe`<br>`GR2026_sHertogenbosch`<br>`TK2022` |
 | `region` | `RegionName` | `election.authority_region` | `Limburg` |
 | `region_category` | `@RegionCategory` *) | ? | `GEMEENTE` `PROVINCIE` `KIESKRING` `WATERSCHAP` |
-| `timestamp` | nvt | nvt | `20260831-111904` |
+| `timestamp` | nvt | `format_datetime()` | `20260831-111904` |
 
 *) `region_category` moet `OPENBAAR_LICHAAM` in plaats van `GEMEENTE` zijn voor Bonaire, Saba en Sint Eustatius. 
 
@@ -84,7 +84,7 @@ definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphe
 
 Voorbeeld:
 ```
-definitieve-documenten_tk2026_gemeente_utrecht-20260310-1355.zip
+definitieve-documenten_tk2026_gemeente_utrecht-20260310-135503.zip
 ├── Model_Na31-2.pdf
 ├── osv4-3_telling_tk2026.csv
 └── Telling_TK2026_gemeente_Utrecht.zip
@@ -106,7 +106,7 @@ correctie_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp
 
 Voorbeeld:
 ```
-correctie_gr2026_purmerend_gemeente_purmerend-20251125-144536
+correctie_gr2026_purmerend_gemeente_purmerend-20251125-144536.zip
 ├── Leeg_Model_P2a.pdf
 ├── Model_Na14-2.pdf
 ├── osv4-3_telling_gr2026_purmerend.csv
