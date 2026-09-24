@@ -8,6 +8,8 @@ Voor de meeste epics betekent dit dat we ze pas verder uitwerken, op het moment 
 
 De epic kick-off wordt tijdens onze twee-wekelijkse meeting ingepland door de twee epic owners. Deelnemers aan de epic kick-off zijn de epic owners, mensen die worden uitgenodigd vanwege hun expertise (UX, security, juridisch, testen, ...), en mensen die er uit interesse bij willen zijn.
 
+De epic-owners doen niet per se al het werk uit de epic, maar houden overzicht over de epic, kijken of de vragen goed zijn beantwoord of dat er verduidelijking nodig is. Samen met de teamlead zorgen ze dat alles duidelijk is en er voortgang wordt geboekt.
+
 In de kick-off worden o.a. de volgende vragen behandeld:
 
 - Is de context van de epic duidelijk? Waar past het in het verkiezingsproces? Hoe past het in de rest van de applicatie?
