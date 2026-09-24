@@ -94,6 +94,10 @@ definitieve-documenten_tk2026_gemeente_utrecht-20260310-135503.zip
 
 
 #### GSB volgende zitting (EML 510b)
+
+N.B.: Als een volgende zitting niet tot een corrigendum (Na 14-1 / Na 14-2) leidt, dan bevat het zip-bestand alleen het bestand _Leeg_Model_P2a.pdf_ (verslag zitting).
+
+
 ```
 correctie_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── Leeg_Model_P2a.pdf
