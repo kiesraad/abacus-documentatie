@@ -121,7 +121,6 @@ definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphe
 ├── osv4-3_telling_{election_id|lower}.csv
 └── Totaaltelling_{election_id}_{region_category|lower}_{region|slugify}.zip
     ├── Totaaltelling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml
-    └── Totaaltelling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml.signature
 ```
 
 Voorbeeld:
@@ -130,7 +129,6 @@ definitieve-documenten_ab2023_amstelgooienvecht_waterschap_amstel-gooi-en-vecht-
 ├── osv4-3_telling_ab2023_amstelgooienvecht.csv
 └── Totaaltelling_AB2023_AmstelGooienVecht_waterschap_Amstel_Gooi_en_Vecht.zip
     ├── Totaaltelling_AB2023_AmstelGooienVecht_waterschap_Amstel_Gooi_en_Vecht.eml.xml
-    └── Totaaltelling_AB2023_AmstelGooienVecht_waterschap_Amstel_Gooi_en_Vecht.eml.xml.signature
 ```
 
 #### CSB-zitting Resultaat (EML 520) 
