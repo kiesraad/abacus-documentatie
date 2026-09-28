@@ -4,7 +4,6 @@ Nadat de eerste invoer klaar is, doet een andere invoerder een tweede invoer. Di
 
 ![Tweede invoer: extra controle nodig](./img/inv-2e-inv-extra-controle.png)
 
-Aan het einde van de invoer zie je de waarschuwingen en fouten nog een keer. Bespreek eerst de fouten met de coördinator.
-Als alles klopt zet je een vinkje bij **Ik heb de fouten besproken met de coördinator** en selecteer je **Afronden**.
+Zie je bij het afronden van de invoer fouten en waarschuwingen die niet geaccepteerd zijn, maar heb je de invoer gecontroleerd en correct overgenomen? Bespreek de fouten dan met je coördinator. Vink daarna de optie aan en rond de invoer af.
 
 ![Tweede invoer: controleren en opslaan](./img/inv-2e-inv-contr-opsl.png)
