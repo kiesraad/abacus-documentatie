@@ -4,7 +4,7 @@ Dit document beschrijft van bestanden die Abacus genereert hoe de namen zijn opg
 
 De template bepaalt welke variabelen met welke transformaties er in de bestandsnaam opgenomen worden.
 
-Als voorbeeld: `osv4-3_telling_{election_id|lower}.csv` beschrijft dat de `election_id` variabele ingevoegd moet worden, waar de `lower` transformatie op uitgevoerd is, met als resultaat `osv4-3_telling_ps2023_drenthe.csv`.
+Als voorbeeld: `abacus_telling_{election_id|lower}.csv` beschrijft dat de `election_id` variabele ingevoegd moet worden, waar de `lower` transformatie op uitgevoerd is, met als resultaat `abacus_telling_ps2023_drenthe.csv`.
 
 Over het algemeen is een bestandsnaam opgebouwd uit variabelen die zijn gescheiden door een `_`, waarbij de spaties in de variabelen vervangen zijn door een `-`.
 
@@ -76,7 +76,7 @@ public_key_abacus_tk2021_gemeente_eemsdelta.crt
 definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── Model_Na31-1.pdf (voor DSO)
 ├── Model_Na31-2.pdf (voor CSO)
-├── osv4-3_telling_{election_id|lower}.csv
+├── abacus_telling_{election_id|lower}.csv
 └── Telling_{election_id}_{region_category|lower}_{region|slugify}.zip
     ├── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml
     └── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml.signature
@@ -86,7 +86,7 @@ Voorbeeld:
 ```
 definitieve-documenten_tk2026_gemeente_utrecht-20260310-135503.zip
 ├── Model_Na31-2.pdf
-├── osv4-3_telling_tk2026.csv
+├── abacus_telling_tk2026.csv
 └── Telling_TK2026_gemeente_Utrecht.zip
     ├── Telling_TK2026_gemeente_Utrecht.eml.xml
     └── Telling_TK2026_gemeente_Utrecht.eml.xml.signature
@@ -102,7 +102,7 @@ N.B.: Als een volgende zitting niet tot een corrigendum (Na 14-1 / Na 14-2) leid
 correctie_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── Leeg_Model_P2a.pdf
 ├── Model_Na14-2.pdf
-├── osv4-3_telling_{election_id|lower}.csv
+├── abacus_telling_{election_id|lower}.csv
 └── Telling_{election_id}_{region_category|lower}_{region|slugify}.zip
     ├── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml
     └── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml.signature
@@ -113,7 +113,7 @@ Voorbeeld:
 correctie_gr2026_purmerend_gemeente_purmerend-20251125-144536.zip
 ├── Leeg_Model_P2a.pdf
 ├── Model_Na14-2.pdf
-├── osv4-3_telling_gr2026_purmerend.csv
+├── abacus_telling_gr2026_purmerend.csv
 └── Telling_GR2026_Purmerend_gemeente_Purmerend.zip
     ├── Telling_GR2026_Purmerend_gemeente_Purmerend.eml.xml
     └── Telling_GR2026_Purmerend_gemeente_Purmerend.eml.xml.signature
@@ -122,17 +122,17 @@ correctie_gr2026_purmerend_gemeente_purmerend-20251125-144536.zip
 #### CSB-zitting Totaaltelling (EML 510d)
 ```
 definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
-├── osv4-3_telling_{election_id|lower}.csv
+├── abacus_telling_{election_id|lower}.csv
 └── Totaaltelling_{election_id}_{region_category|lower}_{region|slugify}.zip
-    ├── Totaaltelling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml
+    └── Totaaltelling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml
 ```
 
 Voorbeeld:
 ```
 definitieve-documenten_ab2023_amstelgooienvecht_waterschap_amstel-gooi-en-vecht-20230103-160614.zip
-├── osv4-3_telling_ab2023_amstelgooienvecht.csv
+├── abacus_telling_ab2023_amstelgooienvecht.csv
 └── Totaaltelling_AB2023_AmstelGooienVecht_waterschap_Amstel_Gooi_en_Vecht.zip
-    ├── Totaaltelling_AB2023_AmstelGooienVecht_waterschap_Amstel_Gooi_en_Vecht.eml.xml
+    └── Totaaltelling_AB2023_AmstelGooienVecht_waterschap_Amstel_Gooi_en_Vecht.eml.xml
 ```
 
 #### CSB-zitting Resultaat (EML 520) 
