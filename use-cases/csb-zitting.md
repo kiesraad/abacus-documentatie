@@ -65,7 +65,7 @@ __Uitbreidingen:__
 &emsp; 3a1. Het CSB verwijst terug naar het GSB.  
 &emsp; 3a2. [Gemeentelijk stembureau (GSB) stelt uitkomst vast in volgende zitting (corrigenda)](gsb-volgende-zitting.md#gemeentelijk-stembureau-gsb-stelt-uitkomst-vast-in-volgende-zitting-corrigendum-wolk)  
 &emsp; 3a3. (CSO) Het CSB voegt het Inlegvel Na 31-2 toe aan het PV Na 31-2.  
-&emsp; 3a3. (DSO) Het CSB voegt het Inlegvel N 10-1 toe aan de PVs N 10-1 en voegt het Inlegvel Na 31-1 toe aan het het PV Na 31-1.
+&emsp; 3a3. (DSO) Het CSB voegt het Inlegvel N 10-1 toe aan de PV's N 10-1 en voegt het Inlegvel Na 31-1 toe aan het het PV Na 31-1.
 
 
 ## Het CSB stelt de zetelverdeling vast en wijst de gekozen kandidaten aan (vlieger)
