@@ -1,6 +1,6 @@
 # Selecteren en invoeren
 
-### Verkiezing en stembureau selecteren
+## Verkiezing en stembureau selecteren
 
 Selecteer eerst de verkiezing waarvoor je stemmen wil invoeren. Hier zie je ook wat de status van de verkiezing is.
 
@@ -10,7 +10,7 @@ Kies het stembureau door het stembureaunummer in te voeren. Dit nummer staat op 
 
 ![Stembureau selecteren - gemeentelijk stembureau](./img/inv-sb-selecteren-gsb.png)
 
-### Proces-verbaal overnemen
+## Proces-verbaal overnemen
 
 Nu kun je beginnen met invoeren. Op elke pagina neem je de vinkjes en getallen over zoals ze op het papieren formulier staan, en wanneer je klaar bent ga je door naar de volgende pagina. Ga hiermee door tot je het hele proces-verbaal hebt overgenomen in Abacus.
 
