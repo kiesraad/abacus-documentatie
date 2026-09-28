@@ -4,6 +4,8 @@ Abacus ondersteunt op dit moment de rol CSB alleen voor gemeenteraadsverkiezinge
 
 ## Het centraal stembureau (CSB) stelt de verkiezingsuitslag vast (wolk)
 
+__Niveau:__ hoog-over, wolk, ☁️
+
 __Hoofdscenario:__
 1. [Het CSB controleert de GSB-resultaten en voert ze in.](#het-csb-controleert-de-gsb-resultaten-en-voert-ze-in-vlieger)
 2. Het CSB voert het controleprotocol optellingen uit. (controleprotocol deel B)
@@ -46,6 +48,8 @@ __Uitbreidingen:__
 
 
 ## Het CSB controleert de GSB-resultaten en voert ze in (vlieger)
+
+Niveau: hoog-over, vlieger, 🪁
 
 NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - stappen die 'het GSB' noemen gelden bij WS _per GSB_.
 
