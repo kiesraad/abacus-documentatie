@@ -15,7 +15,7 @@ __Hoofdscenario:__
 6. Het CSB opent de zitting.
 7. Het CSB stelt de uitslag vast o.b.v. de P 22-2: controleren op compleetheid, voorlezen, er zijn geen bezwaren, ondertekenen. En sluit daarmee de zitting.
 8. Het CSB publiceert de P 22-2, EML 510d en EML 520 op de website van het vertegenwoordigend orgaan.
-9. Het CSB stuurt alle PVs naar het vertegenwoordigend orgaan.
+9. Het CSB stuurt alle PV's naar het vertegenwoordigend orgaan.
 10. Het CSB deelt de EML 510d en EML 520 met de Kiesraad.
 11. De voorzitter CSB geeft de benoemde leden schriftelijk kennis van hun benoeming.
 
@@ -37,7 +37,7 @@ __Uitbreidingen:__
 &emsp; 9a2. Het CSB stelt de nieuwe uitslag vast.  
 &emsp; 9a3. Het CSB maakt een nieuwe P 22-2, EML 510d en EML 520 aan met alleen de nieuwe uitslag.  
 &emsp; 9a4. Het CSB publiceert de nieuwe P 22-2, EML 510d en EML 520 op de website van het vertegenwoordigend orgaan.  
-&emsp; 9a5. Het CSB stuurt alle PVs naar het vertegenwoordigend orgaan.  
+&emsp; 9a5. Het CSB stuurt alle PV's naar het vertegenwoordigend orgaan.  
 &emsp; 9a6. Het CSB deelt de nieuwe EML 510d en EML 520 met de Kiesraad.
 
 ### Niet in scope
@@ -55,7 +55,7 @@ NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - stappen die 'het GSB
 
 __Hoofdscenario:__
 1. Het CSB ontvangt het GSB PV incl. bijlagen (DSO: Na 31-1, CSO: Na 31-2) van de burgemeester.
-2. Het CSB ontvangt alle overige documenten (PVs, onderliggende PVs, corrigenda, tellingsbestand EML 510b) van het GSB en controleert ze op volledigheid.
+2. Het CSB ontvangt alle overige documenten (PV's, onderliggende PV's, corrigenda, tellingsbestand EML 510b) van het GSB en controleert ze op volledigheid.
 3. Het CSB stelt vast dat het GSB PV geen aanleiding geeft tot een terugverwijzing. (controleprotocol deel A)
 4. [Het CSB voert de tellingen van het GSB in.](./csb-invoer.md#het-csb-voert-de-tellingen-van-het-gsb-in-vlieger)
 

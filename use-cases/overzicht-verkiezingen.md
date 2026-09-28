@@ -22,10 +22,10 @@ __Let op:__ Dit document beschrijft alleen de verkiezingen die op dit moment doo
 ### Waterschapsverkiezingen
 - Waterschappen hebben 4 geborgde zetels en een aantal verkozen zetels. In de verkiezingsdefinitie (`NumberOfSeats`) staat het aantal verkozen zetels.
 - Er zijn op dit moment geen waterschappen met minder dan 19 verkozen zetels (AB1-verkiezing). Deze wordt daarom niet door Abacus ondersteund.
-- Er zijn meerdere GSBs voor elk CSB.
-- Een aantal gemeenten vallen in meerdere waterschappen en richten dus meerdere GSBs in, nl. één voor elk waterschap.
+- Er zijn meerdere GSB's voor elk CSB.
+- Een aantal gemeenten vallen in meerdere waterschappen en richten dus meerdere GSB's in, nl. één voor elk waterschap.
 
 ### Provinciale Statenverkiezingen
 - De volgende provincies hebben kieskringen (PS2): Gelderland (2 kieskringen), Noord-Holland (3 kieskringen), Zuid-Holland (4 kieskringen), Noord-Brabant (2 kieskringen), Limburg (2 kieskringen).
-- PS1: Er zijn meerdere GSBs voor elk CSB.
-- PS2: Er zijn meerdere GSBs voor elk HSB. Er zijn 2-4 HSBs voor elk CSB.
+- PS1: Er zijn meerdere GSB's voor elk CSB.
+- PS2: Er zijn meerdere GSB's voor elk HSB. Er zijn 2-4 HSB's voor elk CSB.
