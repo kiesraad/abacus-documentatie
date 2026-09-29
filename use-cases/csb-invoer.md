@@ -48,7 +48,7 @@ __Uitbreidingen:__
 2a. De digitale handtekening is niet valide of klopt niet met de publieke sleutel van het GSB:  
 &emsp; 2a1. Het CSB lost in overleg met het GSB het probleem op en importeert alsnog het bestand.
 &emsp;&emsp; 2a1a. Het CSB slaagt er niet in het probleem op te lossen:  
-&emsp;&emsp;&emsp; 2a1a1. Het CSB doet de eerste invoer handmatig.
+&emsp;&emsp;&emsp; 2a1a1. Het CSB gebruikt het tellingsbestand niet en doet de eerste invoer handmatig.
 
 3a. De applicatie geeft aan dat de hash van het tellingsbestand (EML 510b) niet klopt:  
 &emsp; 3a1. De coördinator CSB stelt vast dat de hash niet correct is overgenomen.  
