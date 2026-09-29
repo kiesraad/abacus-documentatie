@@ -51,7 +51,7 @@ __Hoofdscenario:__
 1. [De beheerder leest de verkiezingsdefinitie (EML 110a) in.](#de-beheerder-leest-de-verkiezingsdefinitie-eml-110a-in-vis)
 2. De beheerder selecteert "Gemeentelijk stembureau (GSB)" als rol van het stembureau.
 3. (PS/WS) De beheerder selecteert de gemeente van het GSB uit de lijst met gemeenten in de verkiezingsdefinitie.
-4. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
+4. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in-vis)
 5. [De beheerder leest het bestand met stembureaus en aantal kiesgerechtigden (EML 110b) in.](#de-beheerder-leest-het-bestand-met-stembureaus-en-aantal-kiesgerechtigden-eml-110b-in-vis)
 6. De beheerder selecteert het type stemopneming: CSO of DSO.
 7. De beheerder bevestigt het aantal kiesgerechtigden in de gemeente.
@@ -105,9 +105,10 @@ __Hoofdscenario:__
 
 1. [De beheerder leest de verkiezingsdefinitie (EML 110a) in.](#de-beheerder-leest-de-verkiezingsdefinitie-eml-110a-in-vis)
 2. De beheerder selecteert "Centraal stembureau (CSB)" als rol van het stembureau.
-3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in)
+3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in-vis)
 4. De applicatie maakt het CSB voor de verkiezing aan, met de GSB's uit de verkiezingsdefinitie als stembureaus voor het CSB (GR: één GSB, WS: één GSB per gemeente in het waterschap).
 5. De applicatie maakt de eerste zitting van het CSB aan.
+6. [De beheerder importeert de publieke sleutels van de GSB's.](#de-beheerder-importeert-de-publieke-sleutels-van-de-gsbs-vis)
 
 ## De beheerder leest de verkiezingsdefinitie (EML 110a) in (vis)
 
@@ -133,7 +134,7 @@ __Uitbreidingen:__
 &emsp; 2a2. De beheerder corrigeert de ingevoerde hash.
 
 
-## De beheerder leest de kandidatenlijsten (EML 230b) in.
+## De beheerder leest de kandidatenlijsten (EML 230b) in (vis)
 
 __Niveau:__ subfunctie, vis, 🐟
 
@@ -155,6 +156,27 @@ __Uitbreidingen:__
 &emsp;&emsp; 2a1a. De beheerder stelt vast dat de hash correct is overgenomen:  
 &emsp;&emsp;&emsp; 2a1a1. De beheerder neemt contact op met het CSB.  
 &emsp; 2a2. De beheerder corrigeert de ingevoerde hash.
+
+
+## De beheerder importeert de publieke sleutels van de GSB's (vis)
+
+__Niveau:__ subfunctie, vis, 🐟
+
+__Hoofdscenario:__
+
+NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - stappen 1 en 2 worden uitgevoerd voor elk GSB.
+
+1. De beheerder importeert het bestand met de publieke sleutel van het GSB.
+2. De applicatie stelt vast dat de publieke sleutel valide is en koppelt deze aan de GSB.
+3. De beheerder stelt vast dat de juiste publieke sleutels geïmporteerd zijn.
+
+2a. Het is niet mogelijk de publieke sleutel te importeren:  
+&emsp; 2a1. De beheerder lost het probleem op en importeert alsnog de publieke sleutel.  
+&emsp;&emsp; 2a1a. De beheerder kan het probleem niet oplossen:  
+&emsp;&emsp;&emsp; 2a1a1. Het CSB doet de eerste invoer handmatig.
+
+3a. De beheerder stelt vast dat er een publieke sleutel verwijderd moet worden:  
+&emsp; 3a1. De beheerder verwijdert een publieke sleutel.
 
 
 ## De beheerder leest het bestand met stembureaus en aantal kiesgerechtigden (EML 110b) in (vis)
