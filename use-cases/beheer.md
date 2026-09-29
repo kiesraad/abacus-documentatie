@@ -167,7 +167,7 @@ __Hoofdscenario:__
 NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - stappen 1 en 2 worden uitgevoerd voor elk GSB.
 
 1. De beheerder importeert het bestand met de publieke sleutel van het GSB.
-2. De applicatie stelt vast dat de publieke sleutel valide is en koppelt deze aan de GSB.
+2. De applicatie stelt vast dat de publieke sleutel valide is en koppelt deze aan het GSB.
 3. De beheerder stelt vast dat de juiste publieke sleutels geïmporteerd zijn.
 
 2a. Het is niet mogelijk de publieke sleutel te importeren:  
