@@ -8,8 +8,8 @@ __Niveau:__ hoog-over, wolk, ☁️
 
 1. [De beheerder installeert de applicatie.](#de-beheerder-installeert-de-applicatie-zee)
 2. De beheerder maakt voor zichzelf een eerste account en wachtwoord aan.
-3. [De beheerder zet het GSB voor de verkiezingen in de applicatie.](#de-beheerder-zet-het-gsb-voor-de-verkiezingen-in-de-applicatie-zee)
-4. [De beheerder zet het CSB voor de verkiezingen in de applicatie.](#de-beheerder-zet-het-csb-voor-de-verkiezingen-in-de-applicatie-zee)
+3. [De beheerder zet het GSB voor de verkiezing in de applicatie.](#de-beheerder-zet-het-gsb-voor-de-verkiezing-in-de-applicatie-zee)
+4. [De beheerder zet het CSB voor de verkiezing in de applicatie.](#de-beheerder-zet-het-csb-voor-de-verkiezing-in-de-applicatie-zee)
 5. [De beheerder maakt de gebruikers aan.](#de-beheerder-maakt-de-gebruikers-aan-zee)
 
 
@@ -40,7 +40,7 @@ __Uitbreidingen:__
 &emsp;&emsp;&emsp; 4a1a1. De beheerder neemt contact op met de Kiesraad.
 
 
-## De beheerder zet het GSB voor de verkiezingen in de applicatie (zee)
+## De beheerder zet het GSB voor de verkiezing in de applicatie (zee)
 
 __Niveau:__ subfunctie, zee, 🌊
 
@@ -87,11 +87,10 @@ __Uitbreidingen:__
 
 ### Niet in scope
 
-- (PS) De rollen CSB en HSB: Abacus ondersteunt voor PS op dit moment alleen het GSB.
 - (WS) Een GSB zonder stembureaus, bijvoorbeeld als het deel van de gemeente in het waterschap geen of te weinig kiesgerechtigden heeft (zie [kiesraad/abacus#3623](https://github.com/kiesraad/abacus/issues/3623)).
 
 
-## De beheerder zet het CSB voor de verkiezingen in de applicatie (zee)
+## De beheerder zet het CSB voor de verkiezing in de applicatie (zee)
 
 __Niveau:__ subfunctie, zee, 🌊
 
