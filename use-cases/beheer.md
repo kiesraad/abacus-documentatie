@@ -106,7 +106,7 @@ __Hoofdscenario:__
 1. [De beheerder leest de verkiezingsdefinitie (EML 110a) in.](#de-beheerder-leest-de-verkiezingsdefinitie-eml-110a-in-vis)
 2. De beheerder selecteert "Centraal stembureau (CSB)" als rol van het stembureau.
 3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in-vis)
-4. De applicatie maakt het CSB voor de verkiezing aan, met de GSB's uit de verkiezingsdefinitie als stembureaus voor het CSB (GR: één GSB, WS: één GSB per gemeente in het waterschap).
+4. De applicatie maakt het CSB voor de verkiezing aan, met de GSB's uit de verkiezingsdefinitie als stembureaus voor het CSB.
 5. De applicatie maakt de eerste zitting van het CSB aan.
 6. [De beheerder importeert de publieke sleutels van de GSB's.](#de-beheerder-importeert-de-publieke-sleutels-van-de-gsbs-vis)
 
