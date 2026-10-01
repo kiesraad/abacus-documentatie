@@ -1,6 +1,6 @@
 # Fouten en waarschuwingen
 
-Het kan zijn dat je tijdens het invoeren of bij het opslaan een waarschuwing krijgt. Er wordt je dan gevraagd om te controleren op fouten. Hieronder lees je wat je moet doen wanneer je fouten of waarschuwingen ziet. In het algemeen geldt: als je niet zeker weet wat je moet doen, overleg dan met je coördinator. Meer informatie over de fouten en waarschuwingen vind je in de [spiekbrief](../../spiekbrief/foutcodes/).
+Het kan zijn dat je tijdens het invoeren of bij het opslaan een waarschuwing ziet. Er wordt je dan gevraagd om je invoer te controleren. Hieronder lees je wat je moet doen wanneer je fouten of waarschuwingen ziet. In het algemeen geldt: als je niet zeker weet wat je moet doen, overleg dan met je coördinator. Meer informatie over de fouten en waarschuwingen vind je in de [spiekbrief](../../spiekbrief/foutcodes/).
 
 ## Tijdens de invoer
 
