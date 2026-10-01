@@ -1,5 +1,12 @@
 # Vrijgaveadvies Abacus v1.1.1
 
+TODO:
+- sectie "Beveiligingsonderzoek"
+    - link naar rapport van het beveiligingsonderzoek
+    - link naar verschillen v1.1.0 - v1.1.1
+- sectie "wettelijke toets"
+    - link naar rapport van de wettelijke toets
+
 ## Inhoudsopgave
 
 - Advies
@@ -92,12 +99,18 @@ We hebben ook de verschillende output-bestanden (GSB eerste zitting, GSB volgend
 
 ### Beveiligingsonderzoek
 
-TODO als rapport beschikbaar is
+In september 2026 heeft Resillion een beveiligingsonderzoek uitgevoerd op Abacus v1.1.0. Resillion is geselecteerd conform de geldende inkoopprocedure. Binnen de betreffende mantelovereenkomst voeren drie partijen deze onderzoeken roulerend uit. Voor de versie van Abacus die tijdens de herindelingsverkiezing wordt gebruikt, is dit Resillion geweest.
+
+In het onderzoek werden geen bevindingen gedaan met risico-inschatting "zeer hoog", "hoog" of "midden". In overleg is besloten om één bevinding met risico-inschatting "laag" en één bevinding met risico-inschatting "informatief" op te lossen in v1.1.1.
+
+Het rapport van het beveiligingsonderzoek is beschikbaar op de site van de Kiesraad. Het volledig overzicht van de verschillen tussen v1.1.0 en v1.1.1 is te vinden op GitHub.
 
 
 ### Wettelijke toets
 
-TODO als rapport beschikbaar is
+In september 2026 heeft Deloitte de wettelijke toets uitgevoerd op Abacus v1.1.0. De conclusie van het rapport is dat Abacus aan de wettelijke kaders van de Kieswet en het Kiesbesluit voldoet.
+
+Het rapport van de wettelijke toets is beschikbaar op de site van de Kiesraad.
 
 
 ## Aandachts- en verbeterpunten testproces
