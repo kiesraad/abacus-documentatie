@@ -4,7 +4,7 @@ Het kan zijn dat je tijdens het invoeren of bij het opslaan een waarschuwing zie
 
 ## Tijdens de invoer
 
-Controleer of je het papieren proces-verbaal goed hebt overgenomen en herstel eventueel je invoer. Abacus laat duidelijk zien welke velden je extra moet controleren.
+Controleer of je het papieren proces-verbaal goed hebt overgenomen en herstel eventueel je invoer. Abacus laat duidelijk zien wat je extra moet controleren.
 
 Zie je een fout of waarschuwing, maar heb je de invoer gecontroleerd en correct overgenomen? Vink dan de optie aan en ga door naar de volgende pagina.
 
