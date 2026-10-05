@@ -109,6 +109,13 @@ __Hoofdscenario:__
 5. De applicatie maakt de eerste zitting van het CSB aan.
 6. [De beheerder importeert de publieke sleutels van de GSB's.](#de-beheerder-importeert-de-publieke-sleutels-van-de-gsbs-vis)
 
+__Uitbreidingen:__
+
+6a. Een GSB maakt op een later moment een nieuwe publieke sleutel beschikbaar.  
+&emsp; 6a1. De beheerder CSB importeert de nieuwe publieke sleutel.  
+&emsp; 6a2. De beheerder CSB verwijdert de oude publieke sleutel.
+
+
 ## De beheerder leest de verkiezingsdefinitie (EML 110a) in (vis)
 
 __Niveau:__ subfunctie, vis, 🐟
@@ -167,7 +174,9 @@ NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - stappen 1 en 2 worde
 
 1. De beheerder importeert het bestand met de publieke sleutel van het GSB.
 2. De applicatie stelt vast dat de publieke sleutel valide is en koppelt deze aan het GSB.
-3. De beheerder stelt vast dat de juiste publieke sleutels geïmporteerd zijn.
+3. De beheerder stelt vast dat de beschikbare publieke sleutels geïmporteerd zijn.
+
+__Uitbreidingen:__
 
 2a. De applicatie stelt vast dat de publieke sleutel niet valide is:  
 &emsp; 2a1. De beheerder lost het probleem op en importeert alsnog de publieke sleutel.  
