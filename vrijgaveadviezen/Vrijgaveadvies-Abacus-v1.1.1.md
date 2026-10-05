@@ -108,7 +108,7 @@ Het rapport van het beveiligingsonderzoek is beschikbaar op de site van de Kiesr
 
 ### Wettelijke toets
 
-In september 2026 heeft Deloitte de wettelijke toets uitgevoerd op Abacus v1.1.0. De conclusie van het rapport is dat Abacus aan de wettelijke kaders van de Kieswet en het Kiesbesluit voldoet.
+In de periode augustus - september 2026 heeft Deloitte de wettelijke toets uitgevoerd op Abacus v1.1.0. De conclusie van het rapport is dat Abacus aan de wettelijke kaders van de Kieswet en het Kiesbesluit voldoet.
 
 Het rapport van de wettelijke toets is beschikbaar op de site van de Kiesraad.
 
