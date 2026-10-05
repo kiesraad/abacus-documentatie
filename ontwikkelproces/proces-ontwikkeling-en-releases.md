@@ -68,6 +68,8 @@ Een release moet aan een aantal vereisten voldoen:
 - Alle documentatie is bijgewerkt voor de wijzigingen in deze release.
 - De release is voorzien van release notes.
 
+Zie [Releaseproces](releaseproces.md) voor meer informatie over het maken van een nieuwe release.
+
 ### Evaluatie
 
 Na de release evalueren we hoe het is verlopen en hoe de release wordt ontvangen. Het verloop van het ontwikkelproces
