@@ -18,6 +18,6 @@ Bij een **tweede invoer** zie je mogelijk extra waarschuwingen als jouw invoer v
 
 Als je helemaal klaar bent met invoeren, sla je je invoer op, en geef je het papieren proces-verbaal terug aan de coördinator.
 
-Als jouw invoer in Abacus duidt op een onjuist of onvolledig ingevuld proces-verbaal, dan moet je deze eerst met de coördinator bespreken. Als je dat gedaan hebt, vink je dat aan en kun je je invoer opslaan.
+Als jouw invoer in Abacus duidt op een onjuist of onvolledig ingevuld proces-verbaal, dan moet je dit eerst met de coördinator bespreken. Als je dat gedaan hebt, vink je dat aan en kun je je invoer opslaan.
 
 ![Fouten en waarschuwingen tijdens het opslaan](./img/inv-contr-fouten.png)
