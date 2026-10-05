@@ -1,12 +1,5 @@
 # Vrijgaveadvies Abacus v1.1.1
 
-TODO:
-- sectie "Beveiligingsonderzoek"
-    - link naar rapport van het beveiligingsonderzoek
-    - link naar verschillen v1.1.0 - v1.1.1
-- sectie "wettelijke toets"
-    - link naar rapport van de wettelijke toets
-
 ## Inhoudsopgave
 
 - Advies
@@ -100,14 +93,14 @@ In september 2026 heeft Resillion een beveiligingsonderzoek uitgevoerd op Abacus
 
 In het onderzoek werden geen bevindingen gedaan met risico-inschatting "zeer hoog", "hoog" of "midden". In overleg is besloten om één bevinding met risico-inschatting "laag" en één bevinding met risico-inschatting "informatief" op te lossen in v1.1.1.
 
-Het rapport van het beveiligingsonderzoek is beschikbaar op de site van de Kiesraad. Het volledig overzicht van de verschillen tussen v1.1.0 en v1.1.1 is te vinden op GitHub.
+Het [rapport van het beveiligingsonderzoek](https://www.kiesraad.nl/documenten/2026/10/05/rapport-pentest-abacus-herindelingsverkiezing-hilversum-wijdemeren) is beschikbaar op de site van de Kiesraad. Het volledig overzicht van de [verschillen tussen v1.1.0 en v1.1.1](https://github.com/kiesraad/abacus/compare/v1.1.0...v1.1.1) is te vinden op GitHub.
 
 
 ### Wettelijke toets
 
 In de periode augustus - september 2026 heeft Deloitte de wettelijke toets uitgevoerd op Abacus v1.1.0. De conclusie van het rapport is dat Abacus aan de wettelijke kaders van de Kieswet en het Kiesbesluit voldoet.
 
-Het rapport van de wettelijke toets is beschikbaar op de site van de Kiesraad.
+Het [rapport van de wettelijke toets](https://www.kiesraad.nl/documenten/2026/10/05/toets-op-wettelijke-kaders-abacus-herindelingsverkiezing-hilversum-wijdemeren) is beschikbaar op de site van de Kiesraad.
 
 
 ## Aandachts- en verbeterpunten testproces
