@@ -26,7 +26,7 @@ Abacus is de nieuwe software voor de ondersteuning van uitslagvaststelling. Op b
 
 Abacus laat niet toe om de eerste invoer van de resultaten van het GSB te importeren d.m.v. een EML-bestand. Beide invoeren moeten dus handmatig gebeuren. In de volgende release van Abacus zal deze import-mogelijkheid wel beschikbaar zijn.
 
-### Strengere interpretatie vierogenpricipe
+### Strengere interpretatie vierogenprincipe
 De implementatie van het vierogenprincipe bij invoer is strenger in Abacus dan in OSV2020-U. Als de eerste en tweede invoer van tellingen niet gelijk zijn, dan moet in Abacus de foutieve invoer volledig opnieuw gedaan worden. Dit creëert extra werk ten opzichte van gebruik van OSV2020-U, waarin als één van de twee invoeren correct zijn, het mogelijk is die invoer als de definitieve invoer aan te duiden.
 
 Dit is gevolg van een ontwerpkeuze in Abacus. Op basis van de feedback bij het gebruik tijdens GR26 is het ontwerp aangepast. De implementatie hiervan zal beschikbaar zijn in de volgende release van Abacus.
