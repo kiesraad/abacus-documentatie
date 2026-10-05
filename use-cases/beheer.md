@@ -169,10 +169,13 @@ NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - stappen 1 en 2 worde
 2. De applicatie stelt vast dat de publieke sleutel valide is en koppelt deze aan het GSB.
 3. De beheerder stelt vast dat de juiste publieke sleutels geïmporteerd zijn.
 
-2a. Het is niet mogelijk de publieke sleutel te importeren:  
+2a. De applicatie stelt vast dat de publieke sleutel niet valide is:  
 &emsp; 2a1. De beheerder lost het probleem op en importeert alsnog de publieke sleutel.  
 &emsp;&emsp; 2a1a. De beheerder kan het probleem niet oplossen:  
 &emsp;&emsp;&emsp; 2a1a1. Het CSB doet de eerste invoer handmatig.
+
+2b. De applicatie stelt vast dat er al een publieke sleutel voor het GSB is geïmporteerd:  
+&emsp; 2b1. De applicatie valideert de additionele publieke sleutel en koppelt deze aan het GSB.
 
 3a. De beheerder stelt vast dat er een publieke sleutel verwijderd moet worden:  
 &emsp; 3a1. De beheerder verwijdert een publieke sleutel.
