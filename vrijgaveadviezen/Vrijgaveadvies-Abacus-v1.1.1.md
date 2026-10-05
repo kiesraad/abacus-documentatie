@@ -18,10 +18,7 @@ TODO:
 
 ## Advies
 
-TODO als alle andere TODOs zijn gedaan
-
-scope gebruik: Herindelingsverkiezing Hilversum-Wijdemeren 2026
-
+Abacus is de nieuwe software voor de ondersteuning van uitslagvaststelling. Op basis van de uitkomsten van de hieronder beschreven test- en kwaliteitstoetsen kan Abacus v1.1.1 ingezet worden bij de herindelingsverkiezing Hilversum-Wijdemeren 2026 voor het gemeentelijk stembureau en het centraal stembureau.
 
 ## Beperkingen Abacus
 
