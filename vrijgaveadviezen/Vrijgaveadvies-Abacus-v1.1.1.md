@@ -20,13 +20,13 @@ Abacus is de nieuwe software voor de ondersteuning van uitslagvaststelling. Op b
 Abacus laat niet toe om de eerste invoer van de resultaten van het GSB te importeren d.m.v. een EML-bestand. Beide invoeren moeten dus handmatig gebeuren. In de volgende release van Abacus zal deze import-mogelijkheid wel beschikbaar zijn.
 
 ### Strengere interpretatie vierogenprincipe
-De implementatie van het vierogenprincipe bij invoer is strenger in Abacus dan in OSV2020-U. Als de eerste en tweede invoer van tellingen niet gelijk zijn, dan moet in Abacus de foutieve invoer volledig opnieuw gedaan worden. Dit creëert extra werk ten opzichte van gebruik van OSV2020-U, waarin als één van de twee invoeren correct zijn, het mogelijk is die invoer als de definitieve invoer aan te duiden.
+De implementatie van het vierogenprincipe bij invoer is strenger in Abacus dan in OSV2020-U. Als de eerste en tweede invoer van tellingen niet gelijk zijn, dan moet in Abacus de foutieve invoer volledig opnieuw gedaan worden. Dit is gevolg van een ontwerpkeuze in Abacus. Dit creëert extra werk ten opzichte van gebruik van OSV2020-U, waarin als één van de twee invoeren correct zijn, het mogelijk is die invoer als de definitieve invoer aan te duiden.
 
-Dit is gevolg van een ontwerpkeuze in Abacus. Op basis van de feedback bij het gebruik tijdens GR26 is het ontwerp aangepast. De implementatie hiervan zal beschikbaar zijn in de volgende release van Abacus.
+Op basis van de feedback bij het gebruik tijdens GR26 is het ontwerp aangepast. De implementatie hiervan zal beschikbaar zijn in de volgende release van Abacus.
 
 ### Ontbreken van een alleen-lezen statusoverzicht
 
-Grotere gemeenten hebben de behoefte om een statusoverzicht te tonen door middel van een groot scherm of beamer. Op dit moment is het statusoverzicht in Abacus alleen beschikbaar voor coördinatoren, die dus ingelogd moeten zijn en moeten zorgen dat hun sessie niet verloopt. Dit plaatst een extra last op de coördinator.
+Grotere gemeenten hebben de behoefte om een statusoverzicht te tonen via een groot scherm of beamer. Op dit moment is het statusoverzicht in Abacus alleen beschikbaar voor coördinatoren, die dus hiervoor ingelogd moeten zijn en blijven. Dit legt een extra last op de coördinator.
 
 De oplossing hiervoor is het toevoegen van een alleen-lezen statusoverzicht in Abacus, dat bereikbaar is zonder in te loggen. Deze wijziging staat op dit moment niet ingepland voor een specifieke release.
 
@@ -42,12 +42,12 @@ De gemeente Hilversum heeft tijdens de GSB- en CSB-zittingen ter plaatse uitgebr
 
 In het ["Testen en kwaliteit"](https://github.com/kiesraad/abacus/blob/a1d4bf958a1038be5ea6e002f17fc800a67d45bb/documentatie/ontwikkelproces/testen-en-kwaliteit.md)-document staan de belangrijkste kwaliteitsattributen voor Abacus. Deze vallen uiteen in twee groepen: externe en interne kwaliteitsattributen. Externe kwaliteitsattributen zijn attributen waar gebruikers direct iets van merken. Interne kwaliteitsattributen zijn attributen die vooral impact hebben op het ontwikkelteam.
 
-In de beschrijving hieronder van de uitgevoerde testwerkzaamheden wordt vooral aandacht gegeven aan de tests die raken aan de externe kwaliteitsattributen:
+In onderstaande beschrijving van de uitgevoerde testwerkzaamheden ligt de nadruk voornamelijk op de externe kwaliteitsattributen:
 - Betrouwbaarheid: kun je de software in de meeste situaties vertrouwen?
 - Bruikbaarheid: is de software makkelijk te gebruiken? (voor alle bedoelde gebruikers, dus ook installatie, controleerbaar door burger, etc.)
 - Beveiliging: biedt de software voldoende bescherming tegen ongewenst gebruik?
 
-Deze zijn namelijk het belangrijkst voor de beslissing of Abacus v1.1.1 goed genoeg is voor de beperkte uitrol.
+Deze kwaliteitsattributen zijn namelijk het belangrijkst voor de beslissing of Abacus v1.1.1 goed genoeg is voor de beperkte uitrol.
 
 
 ### Testwerkzaamheden tijdens ontwikkeling
@@ -66,15 +66,15 @@ Om de gebruiksvriendelijkheid en aansluiting op het proces te valideren, waren e
 
 #### Exploratief testen
 
-Het team heeft op twee momenten de nodige sessies exploratief testen uitgevoerd. De [eerste reeks](https://github.com/kiesraad/abacus/issues/3047) vond plaats in mei/begin juni toen het mogelijk was de volledige CSB-zitting te doorlopen, maar nog niet alle varianten van zetelverdeling waren geïmplementeerd. De [tweede reeks](https://github.com/kiesraad/abacus/issues/3057) vond plaats in juli 2026, nadat zetelverdeling ook volledig was geïmplementeerd.
+Het team heeft op twee momenten de nodige sessies exploratief testen uitgevoerd. De [eerste reeks](https://github.com/kiesraad/abacus/issues/3047) vond plaats in mei/begin juni toen het mogelijk was de volledige CSB-zitting te doorlopen, maar nog niet alle varianten van de zetelverdeling waren geïmplementeerd. De [tweede reeks](https://github.com/kiesraad/abacus/issues/3057) vond plaats in juli 2026, nadat de zetelverdeling ook volledig was geïmplementeerd.
 
-Tijdens deze sessies werden zowel de functionaliteit voor het GSB als het CSB getest. Voor het GSB lag de nadruk op vaststellen dat we geen regressies hadden geïntroduceerd. Voor het CSB lag de nadruk op vaststellen dat Abacus deze zitting goed ondersteunt.
+Tijdens deze sessies werden zowel de functionaliteit voor het GSB als het CSB getest. Voor het GSB lag de nadruk op het vaststellen dat we geen regressies hadden geïntroduceerd. Voor het CSB lag de nadruk op het vaststellen dat Abacus deze zitting goed ondersteunt.
 
 #### Zetelverdeling
 
 Het berekenen van de zetelverdeling en de aanwijzing van de gekozen kandidaten is complex. Deze berekening gebeurt in een aparte module van Abacus, die daarom ook de nodige [extra aandacht](https://github.com/kiesraad/abacus/issues/3361) heeft gekregen.
 
-We hebben uitgebreide geautomatiseerde tests gebouwd voor zetelverdeling. De testdekking is meer dan 95%. Deze dekking is gevalideerd door middel van mutation testing en een extra review.
+We hebben uitgebreide geautomatiseerde tests gebouwd voor de zetelverdeling. De testdekking is meer dan 95%. Deze dekking is gevalideerd door middel van mutation testing en een extra review.
 
 Daarnaast maken we gebruik van fuzz testing. Hierin worden voor willekeurig gegenereerde teluitslagen de zetelverdeling berekend. Ten eerste hebben we tests die de eigenschappen van de zetelverdeling controleren, bijv. geen enkele lijst heeft meer zetels dan het aantal kandidaten op de lijst. Ten tweede hebben we een test die voor dezelfde teluitslag het resultaat van Abacus met dat van OSV2020-U vergelijkt.
 
