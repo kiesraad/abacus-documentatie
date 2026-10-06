@@ -42,6 +42,8 @@ De matrix geldt voor alle door Abacus ondersteunde verkiezingen, zie [Overzicht 
 | **Zitting GSB afronden**                         |           |                 |                 |               |               |
 | Bezwaren en bijzonderheden zitting GSB invoeren  |           |        X        |                 |               |               |
 | Proces-verbaal maken                             |           |        X        |                 |               |               |
+| **Voorbereiding CSB**                            |           |                 |                 |               |               |
+| Publieke sleutels importeren GSB's               |     X     |                 |                 |               |               |
 | **Zitting CSB**                                  |           |                 |                 |               |               |
 | EML_NL bestand zitting GSB importeren            |           |                 |        X        |               |               |
 | Invoer starten/schorsen/stoppen                  |           |                 |        X        |               |               |
