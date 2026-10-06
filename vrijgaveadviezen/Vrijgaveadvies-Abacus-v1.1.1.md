@@ -1,0 +1,108 @@
+# Vrijgaveadvies Abacus v1.1.1
+
+## Inhoudsopgave
+
+- Advies
+- Beperkingen Abacus
+- Terugvaloptie
+- Uitgevoerde testwerkzaamheden
+- Aandachts- en verbeterpunten testproces
+
+
+## Advies
+
+Abacus is de nieuwe software voor de ondersteuning van uitslagvaststelling. Op basis van de uitkomsten van de hieronder beschreven test- en kwaliteitstoetsen kan Abacus v1.1.1 ingezet worden bij de herindelingsverkiezing Hilversum-Wijdemeren 2026 voor het gemeentelijk stembureau en het centraal stembureau.
+
+## Beperkingen Abacus
+
+### Twee keer handmatig invoeren door CSB
+
+Abacus laat niet toe om de eerste invoer van de resultaten van het GSB te importeren d.m.v. een EML-bestand. Beide invoeren moeten dus handmatig gebeuren. In de volgende release van Abacus zal deze import-mogelijkheid wel beschikbaar zijn.
+
+### Strengere interpretatie vierogenprincipe
+De implementatie van het vierogenprincipe bij invoer is strenger in Abacus dan in OSV2020-U. Als de eerste en tweede invoer van tellingen niet gelijk zijn, dan moet in Abacus de foutieve invoer volledig opnieuw gedaan worden. Dit is gevolg van een ontwerpkeuze in Abacus. Dit creëert extra werk ten opzichte van gebruik van OSV2020-U, waarin als één van de twee invoeren correct zijn, het mogelijk is die invoer als de definitieve invoer aan te duiden.
+
+Op basis van de feedback bij het gebruik tijdens GR26 is het ontwerp aangepast. De implementatie hiervan zal beschikbaar zijn in de volgende release van Abacus.
+
+### Ontbreken van een alleen-lezen statusoverzicht
+
+Grotere gemeenten hebben de behoefte om een statusoverzicht te tonen via een groot scherm of beamer. Op dit moment is het statusoverzicht in Abacus alleen beschikbaar voor coördinatoren, die dus hiervoor ingelogd moeten zijn en blijven. Dit legt een extra last op de coördinator.
+
+De oplossing hiervoor is het toevoegen van een alleen-lezen statusoverzicht in Abacus, dat bereikbaar is zonder in te loggen. Deze wijziging staat op dit moment niet ingepland voor een specifieke release.
+
+
+## Terugvaloptie
+
+De gemeente Hilversum heeft tijdens de GSB- en CSB-zittingen ter plaatse uitgebreide ondersteuning vanuit de Kiesraad. Bij eventuele calamiteiten bij het gebruik van Abacus zal de Kiesraad de gemeente bijstaan bij het oplossen van deze problemen, of indien nodig bij het overschakelen op een fallback-optie. Hiervoor is OSV2020-U beschikbaar.
+
+
+## Uitgevoerde testwerkzaamheden
+
+### Relevante kwaliteitsattributen
+
+In het ["Testen en kwaliteit"](https://github.com/kiesraad/abacus/blob/a1d4bf958a1038be5ea6e002f17fc800a67d45bb/documentatie/ontwikkelproces/testen-en-kwaliteit.md)-document staan de belangrijkste kwaliteitsattributen voor Abacus. Deze vallen uiteen in twee groepen: externe en interne kwaliteitsattributen. Externe kwaliteitsattributen zijn attributen waar gebruikers direct iets van merken. Interne kwaliteitsattributen zijn attributen die vooral impact hebben op het ontwikkelteam.
+
+In onderstaande beschrijving van de uitgevoerde testwerkzaamheden ligt de nadruk voornamelijk op de externe kwaliteitsattributen:
+- Betrouwbaarheid: kun je de software in de meeste situaties vertrouwen?
+- Bruikbaarheid: is de software makkelijk te gebruiken? (voor alle bedoelde gebruikers, dus ook installatie, controleerbaar door burger, etc.)
+- Beveiliging: biedt de software voldoende bescherming tegen ongewenst gebruik?
+
+Deze kwaliteitsattributen zijn namelijk het belangrijkst voor de beslissing of Abacus v1.1.1 goed genoeg is voor de beperkte uitrol.
+
+
+### Testwerkzaamheden tijdens ontwikkeling
+
+Tijdens de ontwikkeling werd er continu getest:
+
+- review met "approval" van minstens twee teamleden
+- [linting en geautomatiseerde tests op meerdere niveaus](https://github.com/kiesraad/abacus-documentatie/blob/1c2e47bca15e20d9cf9f748b481e2ea384d9b265/ontwikkelproces/test-tooling.md) in onze ["Build, lint & test"-pipeline](https://github.com/kiesraad/abacus/actions/workflows/build-lint-test.yml)
+- exploratief testen
+
+Om de ondersteuning van verschillende besturingssystemen te testen, draait er een [wekelijkse release-pipeline](https://github.com/kiesraad/abacus/actions/workflows/weekly-e2e-tests.yml). Hierin werd de applicatie gedraaid op Windows en Linux en de end-to-end tests op Chrome en Firefox voor beide besturingssystemen. Als aanvulling hierop wordt er binnen het team gebruik gemaakt van verschillende besturingssystemen en browsers. Tot slot bouwt deze pipeline sinds begin augustus ook het Windows-installatieprogramma.
+
+Om de gebruiksvriendelijkheid en aansluiting op het proces te valideren, waren er regelmatig demo's met stakeholders en met de vaste gebruikersgroep.
+
+### Testwerkzaamheden specifiek voor de release
+
+#### Exploratief testen
+
+Het team heeft op twee momenten de nodige sessies exploratief testen uitgevoerd. De [eerste reeks](https://github.com/kiesraad/abacus/issues/3047) vond plaats in mei/begin juni toen het mogelijk was de volledige CSB-zitting te doorlopen, maar nog niet alle varianten van de zetelverdeling waren geïmplementeerd. De [tweede reeks](https://github.com/kiesraad/abacus/issues/3057) vond plaats in juli 2026, nadat de zetelverdeling ook volledig was geïmplementeerd.
+
+Tijdens deze sessies werden zowel de functionaliteit voor het GSB als het CSB getest. Voor het GSB lag de nadruk op het vaststellen dat we geen regressies hadden geïntroduceerd. Voor het CSB lag de nadruk op het vaststellen dat Abacus deze zitting goed ondersteunt.
+
+#### Zetelverdeling
+
+Het berekenen van de zetelverdeling en de aanwijzing van de gekozen kandidaten is complex. Deze berekening gebeurt in een aparte module van Abacus, die daarom ook de nodige [extra aandacht](https://github.com/kiesraad/abacus/issues/3361) heeft gekregen.
+
+We hebben uitgebreide geautomatiseerde tests gebouwd voor de zetelverdeling. De testdekking is meer dan 95%. Deze dekking is gevalideerd door middel van mutation testing en een extra review.
+
+Daarnaast maken we gebruik van fuzz testing. Hierin worden voor willekeurig gegenereerde teluitslagen de zetelverdeling berekend. Ten eerste hebben we tests die de eigenschappen van de zetelverdeling controleren, bijv. geen enkele lijst heeft meer zetels dan het aantal kandidaten op de lijst. Ten tweede hebben we een test die voor dezelfde teluitslag het resultaat van Abacus met dat van OSV2020-U vergelijkt.
+
+Tot slot hebben we Abacus de zetelverdeling van alle gemeentes van GR26 laten berekenen en die vergeleken met de daadwerkelijke uitslag zoals bepaald door OSV2020-U.
+
+#### Ketentest
+
+We hebben een verkiezingsdefinitie en kandidatenlijsten die zijn gegenereerd met OSV2020-KS in Abacus geladen en een CSB-zitting doorlopen. Hetzelfde is met OSV2020-U gedaan. Dit gaf ons de mogelijkheid de output-documenten van beide met elkaar te vergelijken.
+
+We hebben ook de verschillende output-bestanden (GSB eerste zitting, GSB volgende zitting, CSB) geüpload naar de acceptatie-omgeving van het Platform Teluitslagen.
+
+
+### Beveiligingsonderzoek
+
+In september 2026 heeft Resillion een beveiligingsonderzoek uitgevoerd op Abacus v1.1.0. Resillion is geselecteerd conform de geldende inkoopprocedure. Binnen de betreffende mantelovereenkomst voeren drie partijen deze onderzoeken roulerend uit. Voor de versie van Abacus die tijdens de herindelingsverkiezing wordt gebruikt, is dit Resillion geweest.
+
+In het onderzoek werden geen bevindingen gedaan met risico-inschatting "zeer hoog", "hoog" of "midden". In overleg is besloten om één bevinding met risico-inschatting "laag" en één bevinding met risico-inschatting "informatief" op te lossen in v1.1.1.
+
+Het [rapport van het beveiligingsonderzoek](https://www.kiesraad.nl/documenten/2026/10/05/rapport-pentest-abacus-herindelingsverkiezing-hilversum-wijdemeren) is beschikbaar op de site van de Kiesraad. Het volledige overzicht van de [verschillen tussen v1.1.0 en v1.1.1](https://github.com/kiesraad/abacus/compare/v1.1.0...v1.1.1) is te vinden op GitHub.
+
+
+### Wettelijke toets
+
+In de periode augustus - september 2026 heeft Deloitte de wettelijke toets uitgevoerd op Abacus v1.1.0. De conclusie van het rapport is dat Abacus aan de wettelijke kaders van de Kieswet en het Kiesbesluit voldoet.
+
+Het [rapport van de wettelijke toets](https://www.kiesraad.nl/documenten/2026/10/05/toets-op-wettelijke-kaders-abacus-herindelingsverkiezing-hilversum-wijdemeren) is beschikbaar op de site van de Kiesraad.
+
+
+## Aandachts- en verbeterpunten testproces
+
+Naar aanleiding van de aandachts- en verbeterpunten van de vorige release hebben we regelmatiger exploratief getest. We hebben ook een feature freeze ingesteld aan het einde van de ontwikkelperiode, waardoor we minder overlap hadden tussen ontwikkeling en het release-testen. Beide hebben geholpen om iets meer rust te hebben in het team tegen het moment van oplevering voor het beveiligingsonderzoek en de wettelijke toets.
