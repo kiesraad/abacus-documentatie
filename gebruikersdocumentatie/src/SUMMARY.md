@@ -74,6 +74,7 @@
     - [Verschil tussen eerste en tweede invoer](./coordinator/tijdens-zitting/verschil-invoer.md)
   - [Zitting afronden en proces-verbaal opmaken](./coordinator/afronden-pv.md)
   - [Nieuwe zitting](./coordinator/nieuwe-zitting/README.md)
+    - [Onderzoek toevoegen](./coordinator/nieuwe-zitting/onderzoek.md)
     - [Bevindingen en invoerfase](./coordinator/nieuwe-zitting/bevindingen-invoerfase.md)
   - [Activiteitenlog](./coordinator/activiteitenlog.md)
 
