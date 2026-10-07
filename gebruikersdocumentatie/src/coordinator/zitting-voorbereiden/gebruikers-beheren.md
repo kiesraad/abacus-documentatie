@@ -1,28 +1,15 @@
 # Gebruikers beheren
 
-Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen.
-
-**Let op:** je kunt alleen invoerders beheren. Alleen een beheerder kan ook accounts met de rol van beheerder of coördinator beheren.
-
-- Selecteer in het hoofdmenu **Gebruikers beheren**.
+Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen. Kies hiervoor in het hoofdmenu **Gebruikers beheren**.
 
 ![Gebruikers beheren als coördinator](./img/gebr-beh-coord-gsb.png)
 
-## Gebruiker toevoegen
-
-- Selecteer **+ Gebruiker toevoegen**.
-- Selecteer eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de naam invoeren.
-
-![Alleen bij invoerder: type account selecteren](./img/gebr-toev-type-gsb.png)
-
+- Wanneer je een account toevoegt, selecteer je eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de naam invoeren.
 - Voer de gebruikersnaam, de volledige naam (behalve bij een anonieme invoerder) en een tijdelijk wachtwoord in. Bij de eerste keer inloggen moet de gebruiker het wachtwoord wijzigen.
 
-![Accountgegevens invoeren en opslaan](./img/gebr-toev-details-gsb.png)
+> <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
+> Je kunt alleen invoerders beheren. Alleen een beheerder kan ook accounts met de rol van beheerder of coördinator beheren.
 
 ## Gebruiker wijzigen of verwijderen
 
-- Selecteer onder **Gebruikers beheren** de gebruiker die je wil wijzigen.
-- Wijzig de volledige naam of reset het wachtwoord. De gebruikersnaam en de rol kunnen niet gewijzigd worden.
-- Verwijder de gebruiker door onderaan het scherm **Gebruiker verwijderen** te selecteren.
-
-![Gebruiker wijzigen of verwijderen](./img/gebr-wijz-gsb.png)
+In hetzelfde menu kun je gebruikers ook wijzigen of verwijderen. Klik op de gebruiker en wijzig de gegevens, of verwijder de gebruiker met de rode knop onderaan het scherm. De gebruikersnaam en de rol kunnen niet gewijzigd worden.

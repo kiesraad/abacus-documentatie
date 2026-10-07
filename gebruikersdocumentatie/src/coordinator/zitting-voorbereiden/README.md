@@ -1,9 +1,10 @@
 # Zitting voorbereiden
 
-Voordat de zitting kan beginnen, controleer je of alle gegevens kloppen. In het menu selecteer je onder **Verkiezingen** de naam van de verkiezing. Je ziet dan een overzicht van de zitting en de status van de invoer.
+Mogelijk moet je nog wat voorbereidingen treffen voordat de invoerfase van de zitting kan beginnen. Zo controleer je of alle gegevens kloppen, kun je gebruikers beheren en zorg je dat de processen-verbaal worden afgedrukt.
 
-![Overzicht van geselecteerde verkiezing](./img/verkiez-select-gsb.png)
+In het menu selecteer je de verkiezing. Je ziet dan een overzicht van de zitting en de status van de invoer.
 
-Direct onder de zitting zie je alle gegevens over deze verkiezing.  Hier kun je ook de lege processen-verbaal voor jouw zitting downloaden.
+## Benodigdheden
 
-![Over deze verkiezing en lege processen-verbaal](./img/verkiez-over-gsb.png)
+- Zorg dat je het aantal kiesgerechtigden weet als dit aantal nog niet (juist) is ingevoerd.
+- Zorg dat je de lijst met stembureaus hebt als die nog niet is toegevoegd, of zorg dat je de juiste gegevens hebt zodat je stembureaus handmatig kunt toevoegen of wijzigen.
