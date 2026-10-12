@@ -1,13 +1,15 @@
-# Stembureaus toevoegen
+# Stembureaus beheren
 
-Zonder de lijst met stembureaus kan de invoerfase nog niet worden gestart en zie je de onderstaande melding. Klik hierop om de stembureaus toe te voegen.
-
-![Melding: geen stembureaus](./img/geen-stembureaus.png)
+Als coördinator zorg je ervoor dat de lijst met stembureaus correct is, zodat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd. Hieronder lees je hoe je stembureaus toevoegt, wijzigt en verwijdert.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
-> Zorg dat de stembureaus in Abacus overeenkomen met de voor de verkiezing gepubliceerde lijst. Als er afwijkingen zijn, moeten deze worden opgenomen in het proces-verbaal.
+> De stembureaus in Abacus moeten overeenkomen met de voor de verkiezing gepubliceerde lijst. Als er afwijkingen zijn, moeten deze worden opgenomen in het proces-verbaal.
 
-Als je een EML-bestand met stembureaus (EML 110b) hebt, kun je dit direct importeren. Je kunt stembureaus ook handmatig toevoegen, aanpassen en verwijderen om ervoor te zorgen dat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd.
+## Stembureaus toevoegen
+
+Als de beheerder de stembureaus nog niet heeft toegevoegd, doe je dit zelf. Je ziet dan een melding en de invoerfase kan nog niet worden gestart. Klik op de melding om de stembureaus toe te voegen.
+
+Als je een EML-bestand met stembureaus (EML 110b) hebt, kun je dit direct importeren. Je kunt stembureaus ook handmatig toevoegen, aanpassen en verwijderen.
 
 ![Stembureaus importeren](./img/stembureaus-import.png)
 
