@@ -1,6 +1,6 @@
 # Nieuwe zitting
 
-Als het centraal stembureau hier opdracht voor heeft gegeven, voeg je een nieuwe zitting toe. Dit doe je met de knop **Nieuwe zitting voorbereiden** onder de bestaande zitting. Vervolgens voeg je onderzoeken toe, laat je die uitvoeren en voer je de bevindingen in.
+Als het centraal stembureau hier opdracht voor heeft gegeven, voeg je een nieuwe zitting toe. Dit doe je met de knop **Nieuwe zitting voorbereiden** onder de bestaande zitting. Vervolgens voeg je onderzoeken toe, en nadat de onderzoeken zijn uitgevoerd voer je de bevindingen in.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
 > Wil het gemeentelijk stembureau zelf een fout herstellen en is de zitting nog niet afgesloten door de voorzitter? Ga dan verder in de eerste zitting.

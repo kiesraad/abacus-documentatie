@@ -4,7 +4,7 @@ Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen. Kies hier
 
 ![Gebruikers beheren als coördinator](./img/gebr-beh-coord-gsb.png)
 
-- Wanneer je een account toevoegt, selecteer je eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de naam invoeren.
+- Wanneer je een account toevoegt, selecteer je eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de volledige naam invoeren.
 - Voer de gebruikersnaam, de volledige naam (behalve bij een anonieme invoerder) en een tijdelijk wachtwoord in. Bij de eerste keer inloggen moet de gebruiker het wachtwoord wijzigen.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  

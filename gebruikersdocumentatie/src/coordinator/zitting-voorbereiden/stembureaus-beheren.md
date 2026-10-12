@@ -7,7 +7,7 @@ Zonder de lijst met stembureaus kan de invoerfase nog niet worden gestart en zie
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
 > Zorg dat de stembureaus in Abacus overeenkomen met de voor de verkiezing gepubliceerde lijst. Als er afwijkingen zijn, moeten deze worden opgenomen in het proces-verbaal.
 
-Als je een EML-bestand met stembureaus (EML 110b) hebt, kun je dit direct importeren. Je kunt stembureaus ook handmatig toevoegen om ervoor te zorgen dat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd.
+Als je een EML-bestand met stembureaus (EML 110b) hebt, kun je dit direct importeren. Je kunt stembureaus ook handmatig toevoegen, aanpassen en verwijderen om ervoor te zorgen dat de stembureaus in Abacus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd.
 
 ![Stembureaus importeren](./img/stembureaus-import.png)
 

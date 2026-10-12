@@ -8,4 +8,4 @@ Schrijf op wat de aanleiding is en welke opdracht het centraal stembureau heeft 
 
 ![Aanleiding en opdracht van het centraal stembureau invullen](./img/onderzoek-aanleiding-opdracht.png)
 
-Nu kun je het corrigendum afdrukken en het onderzoek uitvoeren volgens de instructies op het scherm. Als er meer onderzoeken nodig zijn, klik je op **Terug naar alle onderzoeken** om er nog een toe te voegen. Als je klaar bent kun je verder naar de bevindingen.
+Nu kun je het corrigendum afdrukken en kan het onderzoek worden uitgevoerd volgens de instructies op het scherm. Als er meer onderzoeken nodig zijn, klik je op **Terug naar alle onderzoeken** om er nog een toe te voegen. Als je klaar bent kun je verder naar de bevindingen.

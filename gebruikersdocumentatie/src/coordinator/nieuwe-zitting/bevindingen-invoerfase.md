@@ -1,6 +1,6 @@
 # Bevindingen en invoerfase
 
-Na het afronden van een onderzoek is het tijd om de bevindingen in te voeren. Klik op **Invoerfase starten** om de invoer van de bevindingen en eventuele telresultaten te starten.
+Na het afronden van een onderzoek is het tijd om de bevindingen in te voeren. Klik op **Invoerfase starten** om de invoer van de bevindingen en eventuele telresultaten te starten. Tijdens de invoerfase kun je ook nog nieuwe onderzoeken toevoegen.
 
 Neem de bevindingen over zoals ze in het corrigendum zijn opgeschreven en sla het onderzoek op.
 
@@ -11,3 +11,5 @@ In het overzicht van de onderzoeken zie je wat je moet doen en wat de status van
 ## Zitting afronden
 
 Nadat de stembureaus met een gecorrigeerde uitkomst opnieuw twee keer zijn ingevoerd, kun je de nieuwe zitting afronden. Dit doe je op dezelfde manier als bij de eerste zitting. Kijk hiervoor bij [Zitting afronden en proces-verbaal opmaken](../afronden-pv.md).
+
+Het kan voorkomen dat geen enkel onderzoek tot een gecorrigeerde uitkomst leidt. In dat geval rond je de zitting af na het invoeren van alle bevindingen.
