@@ -21,8 +21,8 @@ NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - de stappen 2, 3 en 4
 
 __Uitbreidingen:__
 
-2-3a. Tijdens invoer is er reden om de handmatige invoer (tijdelijk) te stoppen:
-&emsp; 2-3a1. De coördinator CSB pauzeert de invoer.
+2-3a. Tijdens invoer is er reden om de handmatige invoer (tijdelijk) te stoppen:  
+&emsp; 2-3a1. De coördinator CSB pauzeert de invoer.  
 &emsp; 2-3a2. De applicatie blokkeert verdere handmatige invoer.
 
 4a. De applicatie stelt vast dat beide invoeren niet gelijk zijn:  
