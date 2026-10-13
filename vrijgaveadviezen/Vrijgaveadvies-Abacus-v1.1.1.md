@@ -82,6 +82,8 @@ Daarnaast maken we gebruik van fuzz testing. Hierin worden voor willekeurig gege
 
 Tot slot hebben we Abacus de zetelverdeling van alle gemeentes van GR26 laten berekenen en die vergeleken met de daadwerkelijke uitslag zoals bepaald door OSV2020-U.
 
+Met deze uitgebreide en diverse testaanpak hebben we vastgesteld dat Abacus accuraat de zetelverdeling berekent.
+
 #### Ketentest
 
 We hebben een verkiezingsdefinitie en kandidatenlijsten die zijn gegenereerd met OSV2020-KS in Abacus geladen en een CSB-zitting doorlopen. Hetzelfde is met OSV2020-U gedaan. Dit gaf ons de mogelijkheid de output-documenten van beide met elkaar te vergelijken.
