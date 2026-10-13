@@ -74,6 +74,8 @@ Het team heeft op twee momenten de nodige sessies exploratief testen uitgevoerd.
 
 Tijdens deze sessies werden zowel de functionaliteit voor het GSB als het CSB getest. Voor het GSB lag de nadruk op het vaststellen dat we geen regressies hadden geïntroduceerd. Voor het CSB lag de nadruk op het vaststellen dat Abacus deze zitting goed ondersteunt.
 
+Alle belangrijke bevindingen uit deze testsessies zijn opgelost.
+
 #### Zetelverdeling
 
 Het berekenen van de zetelverdeling en de aanwijzing van de gekozen kandidaten is complex. Deze berekening gebeurt in een aparte module van Abacus, die daarom ook de nodige [extra aandacht](https://github.com/kiesraad/abacus/issues/3361) heeft gekregen.
@@ -92,6 +94,7 @@ We hebben een verkiezingsdefinitie en kandidatenlijsten die zijn gegenereerd met
 
 We hebben ook de verschillende output-bestanden (GSB eerste zitting, GSB volgende zitting, CSB) geüpload naar de acceptatie-omgeving van het Platform Teluitslagen.
 
+Beide onderdelen van de ketentest waren succesvol.
 
 ### Beveiligingsonderzoek
 
