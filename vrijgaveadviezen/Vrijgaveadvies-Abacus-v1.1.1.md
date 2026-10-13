@@ -13,6 +13,8 @@
 
 Abacus is de nieuwe software voor de ondersteuning van uitslagvaststelling. Op basis van de uitkomsten van de hieronder beschreven test- en kwaliteitstoetsen kan Abacus v1.1.1 ingezet worden bij de herindelingsverkiezing Hilversum-Wijdemeren 2026 voor het gemeentelijk stembureau en het centraal stembureau.
 
+Deze release breidt de versie van Abacus die tijdens GR26 door gemeentelijke stembureaus is gebruikt, uit met ondersteuning van het centraal stembureau voor een gemeenteraads- of herindelingsverkiezing.
+
 ## Beperkingen Abacus
 
 Onderstaande beperkingen speelden ook tijdens het gebruik van de software voor GR26. Oplossingen voor de eerste twee zullen beschikbaar zijn in de release van Abacus voor PS/WS 27.
