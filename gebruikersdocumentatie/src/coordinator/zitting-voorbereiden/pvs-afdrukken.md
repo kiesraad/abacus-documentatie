@@ -1,6 +1,8 @@
 # Processen-verbaal afdrukken
 
-Onderaan het overzicht van de zitting download je de gegenereerde processen-verbaal voor deze verkiezing. De verkiezingsdefinitie en de gegevens van de gemeente zijn al ingevuld. Druk de bestanden af zodat ze tijdens het telproces kunnen worden ingevuld.
+Onderaan het overzicht van de zitting vind je de lege processen-verbaal voor deze verkiezing, die tijdens het telproces door de stembureaus en het gemeentelijk stembureau worden ingevuld. Mocht je deze documenten nodig hebben, dan kun je ze downloaden en gebruiken. De verkiezing en de gegevens van de gemeente zijn al ingevuld.
+
+## Namen en adressen van stembureaus
 
 Aangezien de stembureau-EML niet alle adresgegevens van de stembureaus bevat, ontbreekt deze informatie uit de lege N 10-2 en Na 31-2 Bijlage 1 die Abacus aanmaakt. Mocht je deze documenten uit Abacus willen gebruiken, vul dan de ontbrekende informatie aan.
 
