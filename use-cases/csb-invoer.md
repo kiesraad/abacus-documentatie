@@ -21,6 +21,10 @@ NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - de stappen 2, 3 en 4
 
 __Uitbreidingen:__
 
+2-3a. Tijdens invoer is er reden om de handmatige invoer (tijdelijk) te stoppen:  
+&emsp; 2-3a1. De coördinator CSB pauzeert de invoer.  
+&emsp; 2-3a2. De applicatie blokkeert verdere handmatige invoer.
+
 4a. De applicatie stelt vast dat beide invoeren niet gelijk zijn:  
 &emsp; 4a1. [De coördinator CSB beoordeelt de verschillen tussen de twee invoeren.](#de-coördinator-csb-beoordeelt-de-verschillen-tussen-de-twee-invoeren-zee)
 
@@ -35,20 +39,27 @@ __Niveau:__ gebruikersdoel, zee, 🌊
 __Hoofdscenario:__
 
 1. De coördinator CSB leest het tellingsbestand (EML 510b) in als eerste invoer.
-2. De coördinator CSB stelt vast dat de hash van het tellingsbestand (EML 510b) klopt.
+2. De applicatie stelt vast dat het tellingsbestand geldig is.
+3. De applicatie stelt vast dat de digitale handtekening van het tellingsbestand klopt met de publieke sleutel van het GSB.
+4. De coördinator CSB stelt vast dat de hash van het tellingsbestand (EML 510b) klopt.
 
 __Uitbreidingen:__
 
-1a. Het is niet mogelijk het tellingsbestand (EML 510b) te importeren:  
-&emsp; 1a1. Het CSB lost in overleg met het GSB het probleem op en importeert alsnog het bestand.  
-&emsp;&emsp; 1a1a. Het CSB slaagt er niet in het probleem op te lossen:  
-&emsp;&emsp;&emsp; 1a1a1. Het CSB doet de eerste invoer handmatig.
+2a. Het tellingsbestand (EML 510b) is niet geldig:  
+&emsp; 2a1. Het CSB lost in overleg met het GSB het probleem op en importeert alsnog het bestand.  
+&emsp;&emsp; 2a1a. Het CSB slaagt er niet in het probleem op te lossen:  
+&emsp;&emsp;&emsp; 2a1a1. Het CSB doet de eerste invoer handmatig.
 
-2a. De hash van het tellingsbestand (EML 510b) klopt niet:  
-&emsp; 2a1. De coördinator CSB stelt vast dat de hash niet correct is overgenomen.  
-&emsp;&emsp; 2a1a. De coördinator CSB stelt vast dat de hash correct is overgenomen:  
-&emsp;&emsp;&emsp; 2a1a1. De coördinator CSB neemt contact op met het GSB.  
-&emsp; 2a2. De coördinator CSB corrigeert de ingevoerde hash.
+3a. De digitale handtekening is niet valide of klopt niet met de publieke sleutel van het GSB:  
+&emsp; 3a1. Het CSB lost in overleg met het GSB het probleem op en importeert alsnog het bestand.  
+&emsp;&emsp; 3a1a. Het CSB slaagt er niet in het probleem op te lossen:  
+&emsp;&emsp;&emsp; 3a1a1. Het CSB gebruikt het tellingsbestand niet en doet de eerste invoer handmatig.
+
+4a. De applicatie geeft aan dat de hash van het tellingsbestand (EML 510b) niet klopt:  
+&emsp; 4a1. De coördinator CSB stelt vast dat de hash niet correct is overgenomen.  
+&emsp;&emsp; 4a1a. De coördinator CSB stelt vast dat de hash correct is overgenomen:  
+&emsp;&emsp;&emsp; 4a1a1. De coördinator CSB neemt contact op met het GSB.  
+&emsp; 4a2. De coördinator CSB corrigeert de ingevoerde hash.
 
 ## De coördinator CSB beoordeelt de verschillen tussen de twee invoeren (zee)
 
