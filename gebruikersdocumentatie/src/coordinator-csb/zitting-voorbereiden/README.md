@@ -1,5 +1,5 @@
 # Zitting voorbereiden
 
-Voordat de invoerfase kan beginnen, controleer je of de gegevens van de zitting kloppen. In het menu selecteer je onder **Verkiezingen** de naam van de verkiezing. Je ziet dan een overzicht van de zitting en de status van de invoer.
+Mogelijk moet je nog wat voorbereidingen treffen voordat de invoerfase van de zitting kan beginnen. Zo controleer je of de gegevens van de zitting kloppen en kun je gebruikers beheren.
 
-Direct onder de zitting zie je alle gegevens over deze verkiezing.
+In het menu selecteer je de verkiezing. Je ziet dan een overzicht van de zitting en de status van de invoer.

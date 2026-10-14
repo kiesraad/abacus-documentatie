@@ -24,5 +24,5 @@ Hier kun je precies zien hoe de restzetels worden toegewezen.
 
 Wanneer alle zetels zijn toegewezen, ga je door naar het proces-verbaal. Als de details van de zitting nog niet zijn ingevoerd, doe je dit nu.
 
-> <i class="fa-solid fa-circle-exclamation"></i> **Let op**
+> <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
 > Als je toch nog iets wil wijzigen, kun je de zetelverdeling opnieuw doen. Je kunt dan de overleden kandidaten en de loting van restzetels opnieuw invoeren.
