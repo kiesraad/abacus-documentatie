@@ -12,6 +12,8 @@ Na het tellen van de stemmen wordt voor elk stembureau een proces-verbaal ingevu
 
 Wanneer alle invoerders klaar zijn, rond je de invoerfase af en kun je het proces-verbaal samen met het EML-telbestand downloaden.
 
+Als het centraal stembureau hier opdracht toe geeft, voeg je een nieuwe zitting toe en voer je de bevindingen van de onderzoeken in. Als er naar aanleiding van een onderzoek gecorrigeerde telresultaten zijn, zorg je dat het corrigendum twee keer wordt ingevoerd door twee verschillende invoerders. Deze zitting rond je op dezelfde manier af als de eerste zitting.
+
 ## Problemen oplossen
 
 Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Coördinator](../introductie/bekende-problemen.md#coördinator) in de introductie.

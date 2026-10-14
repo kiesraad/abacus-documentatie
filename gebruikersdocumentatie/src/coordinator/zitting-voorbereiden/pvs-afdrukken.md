@@ -1,6 +1,6 @@
 # Processen-verbaal afdrukken
 
-Onderaan het overzicht van de zitting download je de lege processen-verbaal voor deze verkiezing, die tijdens het telproces door de stembureaus worden ingevuld. De verkiezing en de gegevens van de gemeente zijn al ingevuld.
+Onderaan het overzicht van de zitting vind je de lege processen-verbaal voor deze verkiezing, die tijdens het telproces door de stembureaus en het gemeentelijk stembureau worden ingevuld. Mocht je deze documenten nodig hebben, dan kun je ze downloaden en gebruiken. De verkiezing en de gegevens van de gemeente zijn al ingevuld.
 
 ## Namen en adressen van stembureaus
 
