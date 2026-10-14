@@ -10,7 +10,4 @@ De invoer van het centraal stembureau is afgerond. Op deze pagina download je dr
 
 Upload de ZIP-bestanden naar het overdrachtsplatform.
 
-![ZIP-bestanden downloaden](./img/pvs-downloaden.png)
-
-- Selecteer **Terug naar overzicht** om naar het overzicht van de zitting te gaan. Hier kun je de zetelverdeling en invoer nogmaals bekijken.
-- Als je toch nog iets wil wijzigen selecteer je **Invoer hervatten**.
+In het overzicht van de zitting kun je de zetelverdeling en invoer nogmaals bekijken. Wil je toch nog iets wijzigen, dan kun je de invoer hervatten.

@@ -1,6 +1,6 @@
 # Tijdens de zitting
 
-Nu start je de invoer en kunnen invoerders aan de slag. Laat alle aantallen twee keer invoeren door twee verschillende invoerders en begeleid ze hierbij.
+Nu start je de invoer en kunnen invoerders aan de slag. Laat alle aantallen twee keer invoeren door twee verschillende invoerders.
 
 ## Benodigdheden
 
