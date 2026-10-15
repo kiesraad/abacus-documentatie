@@ -16,4 +16,4 @@ Als het centraal stembureau hier opdracht toe geeft, voeg je een nieuwe zitting 
 
 ## Problemen oplossen
 
-Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Coördinator](../introductie/bekende-problemen.md#coördinator) in de introductie.
+Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Coördinator](../introductie/problemen-oplossen.md#coördinator-gsb) in de introductie.
