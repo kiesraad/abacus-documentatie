@@ -2,13 +2,13 @@
 
 Als alle zetels zijn toegewezen, hoef je niets meer te doen en kun je direct doorgaan naar het [proces-verbaal](#naar-proces-verbaal).
 
-In sommige gevallen kunnen niet alle restzetels automatisch worden toegewezen en is loting nodig. In een geel vak staat aangegeven waarom de loting noodzakelijk is en hoeveel restzetels op deze manier moeten worden toegewezen.
+In sommige gevallen kunnen niet alle restzetels automatisch worden toegewezen en is loting nodig. Abacus geeft aan waarom de loting noodzakelijk is en hoeveel restzetels op deze manier moeten worden toegewezen.
 
 ![Loting is noodzakelijk](./img/loting-noodzakelijk.png)
 
 ## Naar loting
 
-Met deze knop kun je het resultaat van de loting invoeren. De loting vindt buiten Abacus plaats, in aanwezigheid van alle leden van het centraal stembureau.
+De loting vindt buiten Abacus plaats, in aanwezigheid van alle leden van het centraal stembureau.
 
 Na de loting selecteer je het juiste keuzerondje en dit herhaal je voor alle te verdelen restzetels.
 
@@ -25,4 +25,4 @@ Hier kun je precies zien hoe de restzetels worden toegewezen.
 Wanneer alle zetels zijn toegewezen, ga je door naar het proces-verbaal. Als de details van de zitting nog niet zijn ingevoerd, doe je dit nu.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
-> Als je toch nog iets wil wijzigen, kun je de zetelverdeling opnieuw doen. Je kunt dan de overleden kandidaten en de loting van restzetels opnieuw invoeren.
+> Als je iets vergeten bent en toch nog iets wil wijzigen, kun je de zetelverdeling opnieuw doen. Je kunt dan de overleden kandidaten en de loting van restzetels opnieuw invoeren.
