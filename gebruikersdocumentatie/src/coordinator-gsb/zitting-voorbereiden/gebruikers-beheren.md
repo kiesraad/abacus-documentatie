@@ -12,4 +12,4 @@ Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen. Kies hier
 
 ## Gebruiker wijzigen of verwijderen
 
-In hetzelfde menu kun je gebruikers ook wijzigen of verwijderen. Klik op de gebruiker en wijzig de gegevens, of verwijder de gebruiker met de rode knop onderaan het scherm. De gebruikersnaam en de rol kunnen niet gewijzigd worden.
+In hetzelfde menu kun je gebruikers ook wijzigen of verwijderen. Klik op de gebruiker en wijzig de gegevens of reset het wachtwoord. Je kunt de gebruiker ook verwijderen met de rode knop onderaan het scherm. De gebruikersnaam en de rol kunnen niet gewijzigd worden.

@@ -4,7 +4,7 @@ Abacus biedt de mogelijkheid om back-ups te maken van de database. Hiermee kun j
 
 ## Back-up maken
 
-- Selecteer in het hoofdmenu **Back-ups** en vervolgens de knop **Nu back-up maken**.
+- Ga in het hoofdmenu naar **Back-ups** en maak een back-up.
 
 ![Back-up maken](./img/back-ups-database.png)
 

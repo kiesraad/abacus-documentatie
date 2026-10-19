@@ -9,7 +9,7 @@ In dit document leggen we uit hoe je Abacus gebruikt als beheerder.
 
 ## Wat doe je als beheerder?
 
-Na de installatie van Abacus kun je verkiezingen toevoegen en beheren. Ook maak je gebruikers aan en kun je ze wijzigen als dit nodig is.
+Na de installatie van Abacus kun je verkiezingen toevoegen en beheren. Ook zorg je dat de stembureaus overeenkomen met de stembureaulijst die voorafgaand aan de verkiezingen is gepubliceerd. Tot slot maak je gebruikers aan en kun je ze wijzigen als dit nodig is.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
 > - Zet adblockers uit of voeg Abacus toe aan de lijst met uitzonderingen in de adblocker.
