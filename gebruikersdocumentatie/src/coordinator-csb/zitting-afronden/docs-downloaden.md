@@ -10,4 +10,4 @@ De invoer van het centraal stembureau is afgerond. Op deze pagina download je dr
 
 Upload het ZIP-bestand `Resultaat_Verkiezing_Gemeente.zip` met daarin de EML 520 naar het overdrachtsplatform.
 
-In het overzicht van de zitting kun je de zetelverdeling en invoer nogmaals bekijken. Wil je toch nog iets wijzigen, dan kun je de invoer hervatten.
+In het overzicht van de zitting kun je de zetelverdeling en invoer nogmaals bekijken. Mocht het nodig zijn, dan kun je de invoer hervatten.
