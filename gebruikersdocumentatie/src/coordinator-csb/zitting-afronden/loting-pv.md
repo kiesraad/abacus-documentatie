@@ -16,8 +16,8 @@ Voer het resultaat van de loting in Abacus in. Herhaal dit voor alle via loting 
 
 Hier kun je precies zien hoe de restzetels worden toegewezen.
 
-- Bij het **systeem van de grootste gemiddelden** zie je voor elke ronde welk aantal stemmen per zetel elke partij heeft en aan welke lijst de zetel is toegekend. Er is loting nodig als alle (overige) partijen een gelijk aantal stemmen per zetel hebben.
-- Bij het **systeem van de grootste overschotten** zie je aan welke partijen al een zetel is toegewezen op basis van het grootste overschot aan stemmen. Als alle (overige) partijen een gelijk overschot hebben, is loting nodig.
+- In grote gemeenten met 19 of meer raadszetels worden restzetels verdeeld volgens het **systeem van de grootste gemiddelden**. In dit geval zie je voor elke ronde welk aantal stemmen per zetel elke partij heeft en aan welke lijst de zetel is toegekend. Er is loting nodig als alle (overige) partijen een gelijk aantal stemmen per zetel hebben.
+- In kleine gemeenten met minder dan 19 raadszetels worden restzetels verdeeld volgens het **systeem van de grootste overschotten**. In dit geval zie je aan welke partijen al een zetel is toegewezen op basis van het grootste overschot aan stemmen. Als alle (overige) partijen een gelijk overschot hebben, is loting nodig.
 - Ook kan loting noodzakelijk zijn omdat een lijst de volstrekte meerderheid van stemmen heeft gekregen, maar niet de volstrekte meerderheid aan zetels heeft. Er moet dan een restzetel worden afgestaan.
 
 ## Naar proces-verbaal
