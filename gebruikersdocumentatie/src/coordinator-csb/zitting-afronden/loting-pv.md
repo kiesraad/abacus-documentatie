@@ -10,7 +10,7 @@ In sommige gevallen kunnen niet alle restzetels automatisch worden toegewezen en
 
 De loting vindt buiten Abacus plaats, in aanwezigheid van alle leden van het centraal stembureau.
 
-Na de loting selecteer je het juiste keuzerondje en dit herhaal je voor alle te verdelen restzetels.
+Voer het resultaat van de loting in Abacus in. Herhaal dit voor alle via loting te verdelen restzetels.
 
 ## Details restzetelverdeling
 
