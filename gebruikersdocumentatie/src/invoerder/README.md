@@ -20,4 +20,4 @@ Het proces-verbaal van het gemeentelijk stembureau moet twee keer met de hand wo
 
 ## Problemen oplossen
 
-Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Invoerder](../introductie/bekende-problemen.md#invoerder) in de introductie.
+Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Invoerder](../introductie/problemen-oplossen.md#invoerder) in de introductie.

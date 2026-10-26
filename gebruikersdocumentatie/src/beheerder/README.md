@@ -16,4 +16,4 @@ Na de installatie van Abacus kun je verkiezingen toevoegen en beheren. Ook maak 
 
 ## Problemen oplossen
 
-Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Beheerder](../introductie/bekende-problemen.md#beheerder) in de introductie.
+Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Beheerder](../introductie/problemen-oplossen.md#beheerder) in de introductie.

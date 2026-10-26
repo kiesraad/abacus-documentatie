@@ -62,21 +62,21 @@
 
 # Instructie voor coördinator GSB
 
-- [Inleiding](./coordinator/README.md)
-  - [Inloggen en account instellen](./coordinator/inloggen-account.md)
-  - [Zitting voorbereiden](./coordinator/zitting-voorbereiden/README.md)
-    - [Aantal kiesgerechtigden wijzigen](./coordinator/zitting-voorbereiden/kiesgerechtigden.md)
-    - [Gebruikers beheren](./coordinator/zitting-voorbereiden/gebruikers-beheren.md)
-    - [Stembureaus beheren](./coordinator/zitting-voorbereiden/stembureaus-beheren.md)
-    - [Processen-verbaal afdrukken](./coordinator/zitting-voorbereiden/pvs-afdrukken.md)
-  - [Tijdens de zitting](./coordinator/tijdens-zitting/README.md)
-    - [Fouten en waarschuwingen](./coordinator/tijdens-zitting/fouten-ws.md)
-    - [Verschil tussen eerste en tweede invoer](./coordinator/tijdens-zitting/verschil-invoer.md)
-  - [Zitting afronden en proces-verbaal opmaken](./coordinator/afronden-pv.md)
-  - [Nieuwe zitting](./coordinator/nieuwe-zitting/README.md)
-    - [Onderzoek toevoegen](./coordinator/nieuwe-zitting/onderzoek.md)
-    - [Bevindingen en invoerfase](./coordinator/nieuwe-zitting/bevindingen-invoerfase.md)
-  - [Activiteitenlog](./coordinator/activiteitenlog.md)
+- [Inleiding](./coordinator-gsb/README.md)
+  - [Inloggen en account instellen](./coordinator-gsb/inloggen-account.md)
+  - [Zitting voorbereiden](./coordinator-gsb/zitting-voorbereiden/README.md)
+    - [Aantal kiesgerechtigden wijzigen](./coordinator-gsb/zitting-voorbereiden/kiesgerechtigden.md)
+    - [Gebruikers beheren](./coordinator-gsb/zitting-voorbereiden/gebruikers-beheren.md)
+    - [Stembureaus beheren](./coordinator-gsb/zitting-voorbereiden/stembureaus-beheren.md)
+    - [Processen-verbaal afdrukken](./coordinator-gsb/zitting-voorbereiden/pvs-afdrukken.md)
+  - [Tijdens de zitting](./coordinator-gsb/tijdens-zitting/README.md)
+    - [Fouten en waarschuwingen](./coordinator-gsb/tijdens-zitting/fouten-ws.md)
+    - [Verschil tussen eerste en tweede invoer](./coordinator-gsb/tijdens-zitting/verschil-invoer.md)
+  - [Zitting afronden en proces-verbaal opmaken](./coordinator-gsb/afronden-pv.md)
+  - [Nieuwe zitting](./coordinator-gsb/nieuwe-zitting/README.md)
+    - [Onderzoek toevoegen](./coordinator-gsb/nieuwe-zitting/onderzoek.md)
+    - [Bevindingen en invoerfase](./coordinator-gsb/nieuwe-zitting/bevindingen-invoerfase.md)
+  - [Activiteitenlog](./coordinator-gsb/activiteitenlog.md)
 
 # Instructie voor coördinator CSB
 

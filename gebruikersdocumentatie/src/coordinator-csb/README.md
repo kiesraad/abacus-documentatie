@@ -12,4 +12,4 @@ Het proces-verbaal van het gemeentelijk stembureau moet twee keer met de hand wo
 
 ## Problemen oplossen
 
-Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Coördinator](../introductie/bekende-problemen.md#coördinator) in de introductie.
+Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Coördinator](../introductie/problemen-oplossen.md#coördinator-csb) in de introductie.
