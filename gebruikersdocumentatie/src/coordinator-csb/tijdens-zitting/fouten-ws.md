@@ -4,7 +4,7 @@ Tijdens de invoer kunnen de invoerders te maken hebben met fouten of waarschuwin
 
 Een **waarschuwing** wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. Dit betekent niet per definitie dat je iets moet aanpassen. De uitslag kan dan nog steeds correct zijn, maar het is wel goed om dit te onderzoeken.
 
-Een **fout** wijst op een probleem in het papieren proces-verbaal. Dit probleem moet opgelost worden voordat een tweede invoerder aan de slag gaat. Als het proces-verbaal gecorrigeerd wordt, moet de invoer in Abacus ook aangepast worden. Dat kan door het stembureau helemaal opnieuw in te laten voeren, of door de oorspronkelijke invoerder de fouten te laten herstellen.
+Een **fout** wijst op fouten in het papieren proces-verbaal of een invoerfout. Het proces-verbaal kan worden gecontroleerd door de leden van het gemeentelijk stembureau. Als het papieren proces-verbaal fouten bevat die meteen kunnen worden opgelost door een lid van het gemeentelijk stembureau, kun je de invoer bewaren en correcties laten invoeren door de invoerder. Als de fouten alleen kunnen worden opgelost met een (gedeeltelijke) hertelling, of als de oorspronkelijke invoerder niet meer aanwezig is, kun je het stembureau opnieuw laten invoeren.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
 > Heeft de invoerder een invoerfout gemaakt, maar klopt het papieren proces-verbaal wel? Laat de invoerder dan de invoer corrigeren.
