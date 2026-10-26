@@ -8,9 +8,6 @@ De invoer van het centraal stembureau is afgerond. Op deze pagina download je dr
 - EML_NL-telbestand 510d met de totaaltelling van de gemeente
 - CSV-bestand met de totaaltelling
 
-Upload de ZIP-bestanden naar het overdrachtsplatform.
+Upload het ZIP-bestand `Resultaat_Verkiezing_NaamCSB.zip` met daarin de EML 520 naar het overdrachtsplatform.
 
-![ZIP-bestanden downloaden](./img/pvs-downloaden.png)
-
-- Selecteer **Terug naar overzicht** om naar het overzicht van de zitting te gaan. Hier kun je de zetelverdeling en invoer nogmaals bekijken.
-- Als je toch nog iets wil wijzigen selecteer je **Invoer hervatten**.
+In het overzicht van de zitting kun je de zetelverdeling en invoer nogmaals bekijken. Mocht het nodig zijn, dan kun je de invoer hervatten.
