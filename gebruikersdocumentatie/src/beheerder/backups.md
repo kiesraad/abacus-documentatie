@@ -4,13 +4,13 @@ Abacus biedt de mogelijkheid om back-ups te maken van de database. Hiermee kun j
 
 ## Back-up maken
 
-- Selecteer in het hoofdmenu **Back-ups** en vervolgens de knop **Nu back-up maken**.
+- Ga in het hoofdmenu naar **Back-ups** en maak een back-up.
 
 ![Back-up maken](./img/back-ups-database.png)
 
 Op Windows wordt de back-up opgeslagen in de map `backups` in de installatiemap van Abacus. Op het bureaublad vind je een snelkoppeling naar de back-uplocatie.
 
-Op Linux wordt de back-up opgeslagen in de map `backups` die wordt aangemaakt in de huidige werkdirectory van Abacus. Als je het [systemd unit-bestand](https://github.com/kiesraad/abacus/tree/main/packaging/linux) gebruikt is dat meestal dit pad:
+Op Linux wordt de back-up opgeslagen in de map `backups` die wordt aangemaakt in de huidige werkdirectory van Abacus. Als je het [servicebestand](../installatie/linux.md#installeren) gebruikt is dat meestal dit pad:
 
 `/var/lib/abacus`
 
