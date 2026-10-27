@@ -37,5 +37,5 @@ Op basis van de impact van de bevinding, de impact van een fix, en hoeveel werk 
 Als niet, dan hoef je verder niets te doen.
 
 Als wel, dan doe je het volgende aan:
-- Maak een issue aan van type "bug", hang het aan de milestone van de release.
+- Maak een issue aan, hang het aan de milestone van de release.
 - post het issue in het abacus-kanaal, zodat iedereen op de hoogte is en vragen of aanvullingen aan het issue toe kan voegen.
