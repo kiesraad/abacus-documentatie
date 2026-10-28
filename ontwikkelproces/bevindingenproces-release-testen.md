@@ -28,11 +28,11 @@ Bedenk of er een variant van de bevinding is die ernstiger is (maximize) of meer
 	- detecteerbaarheid: hoe snel na voordoen is het te detecteren? hoe makkelijk is het te detecteren?
 	- oplosbaarheid: kan het opgelost worden door de gebruiker en/of is er een workaround? hoe ingewikkeld of moeilijk zijn die?
 	- impact: op een schaal van "geen geldig verkiezingsresultaat mogelijk" tot "een keer extra moeten klikken"
-- wat zou de impact van de fix zijn? (grootte, complexiteit)
+- wat zou de benodigde effort voor de fix zijn? (grootte, complexiteit)
 
 ### Stap 3: neem de beslissing
 
-Op basis van de impact van de bevinding, de impact van een fix, en hoeveel werk en tijd er nog is voor de release, beslis je of deze bevinding opgelost moet worden voor de release.
+Op basis van de impact van de bevinding en de benodigde effort voor een fix, beslis je of deze bevinding opgelost moet worden voor de release.
 
 Als niet, dan hoef je verder niets te doen.
 
