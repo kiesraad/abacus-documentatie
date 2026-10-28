@@ -9,6 +9,7 @@ Voordat we een nieuwe release opleveren voor de wettelijke toets en het beveilig
 - vergelijking output met OSV2020-U
 - modellen langs juridisch expert
 - weinig geraakte functionaliteit, zoals backups, session timeouts, ...
+- testen met servers en clients zoals beschreven in systeemvereisten
 - simulatie van een zitting met gebruikers (intern, liefst ook extern)
 
 ### Ketentest
@@ -17,7 +18,6 @@ Voordat we een nieuwe release opleveren voor de wettelijke toets en het beveilig
 - upload van output-bestanden naar Platform Teluitslagen
 
 Bij voorkeur met speciale karakters (streepjes, spaties, apostrof, diakrieten) in gemeentenamen e.d.
-
 
 ## Op de release build
 - installatie op Windows en op Linux
