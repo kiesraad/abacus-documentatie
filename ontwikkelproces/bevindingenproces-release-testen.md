@@ -24,6 +24,7 @@ Bedenk of er een variant van de bevinding is die ernstiger is (maximize) of meer
 	- bij welke verkiezingen?
 	- bij welke GSB's/HSB's/CSB's?
 	- bij alle onderliggende SB's of alleen specifieke?
+	- bij welke rollen?
 - hoe ernstig is het als het voorkomt?
 	- detecteerbaarheid: hoe snel na voordoen is het te detecteren? hoe makkelijk is het te detecteren?
 	- oplosbaarheid: kan het opgelost worden door de gebruiker en/of is er een workaround? hoe ingewikkeld of moeilijk zijn die?
@@ -38,4 +39,5 @@ Als niet, dan hoef je verder niets te doen.
 
 Als wel, dan doe je het volgende aan:
 - Maak een issue aan, hang het aan de milestone van de release.
+- Leg in het issue de context en reproductiestappen duidelijk vast, en de fix die je met je debriefer hebt besproken. Zo is de afweging die jullie hebben gemaakt te volgen.
 - post het issue in het abacus-kanaal, zodat iedereen op de hoogte is en vragen of aanvullingen aan het issue toe kan voegen.
