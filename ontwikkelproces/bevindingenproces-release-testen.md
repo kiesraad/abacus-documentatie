@@ -35,11 +35,8 @@ Bedenk of er een variant van de bevinding is die ernstiger is (maximize) of meer
 
 Op basis van de impact van de bevinding en de benodigde effort voor een fix, beslis je of deze bevinding opgelost moet worden voor de release.
 
-Daarna maak je een issue aan. Leg de context en reproductiestappen duidelijk vast, en de fix die je met je debriefer hebt besproken. Zo is de afweging die jullie hebben gemaakt te volgen.
+Daarna maak je een issue aan met het label "finding/1.2". Leg de context en reproductiestappen duidelijk vast, en de fix die je met je debriefer hebt besproken. Zo is de afweging die jullie hebben gemaakt te volgen.
 
-Als het issue voor de release gefixt moet worden, dan:
-- Hang je het issue aan de milestone van de release.
-- Post je het issue in het abacus-kanaal, zodat iedereen op de hoogte is en vragen of aanvullingen aan het issue toe kan voegen.
-
-Als het issue voorlopig niet gefixt moet worden, dan:
-- Voeg je het label "finding/1.2" toe aan het issue.
+Als het issue voor de release gefixt moet worden, voer dan ook de volgende stappen uit:
+- Hang het issue aan de milestone van de release.
+- Post het issue in het abacus-kanaal, zodat iedereen op de hoogte is en vragen of aanvullingen aan het issue toe kan voegen.
