@@ -31,13 +31,15 @@ Bedenk of er een variant van de bevinding is die ernstiger is (maximize) of meer
 	- impact: op een schaal van "geen geldig verkiezingsresultaat mogelijk" tot "een keer extra moeten klikken"
 - wat zou de benodigde effort voor de fix zijn? (grootte, complexiteit)
 
-### Stap 3: neem de beslissing
+### Stap 3: neem de beslissing en maak een issue aan
 
 Op basis van de impact van de bevinding en de benodigde effort voor een fix, beslis je of deze bevinding opgelost moet worden voor de release.
 
-Als niet, dan hoef je verder niets te doen.
+Daarna maak je een issue aan. Leg de context en reproductiestappen duidelijk vast, en de fix die je met je debriefer hebt besproken. Zo is de afweging die jullie hebben gemaakt te volgen.
 
-Als wel, dan doe je het volgende aan:
-- Maak een issue aan, hang het aan de milestone van de release.
-- Leg in het issue de context en reproductiestappen duidelijk vast, en de fix die je met je debriefer hebt besproken. Zo is de afweging die jullie hebben gemaakt te volgen.
-- post het issue in het abacus-kanaal, zodat iedereen op de hoogte is en vragen of aanvullingen aan het issue toe kan voegen.
+Als het issue voor de release gefixt moet worden, dan:
+- Hang je het issue aan de milestone van de release.
+- Post je het issue in het abacus-kanaal, zodat iedereen op de hoogte is en vragen of aanvullingen aan het issue toe kan voegen.
+
+Als het issue voorlopig niet gefixt moet worden, dan:
+- Voeg je het label "finding/1.2" toe aan het issue.
