@@ -4,7 +4,7 @@ Dit zijn alle foutmeldingen en waarschuwingen tijdens de invoer voor het gemeent
 
 ## Fouten
 
-### F.121: Over het proces-verbaal: niet alle vragen bij 'Over het proces-verbaal' zijn beantwoord
+### F.121: *Over het proces-verbaal*: niet alle vragen zijn beantwoord
 
 > Invoerder: **Controleer je antwoorden**
 >
@@ -16,7 +16,7 @@ Dit zijn alle foutmeldingen en waarschuwingen tijdens de invoer voor het gemeent
 > - Bekijk welke documenten aanwezig zijn.
 > - Geef daarna de invoer terug aan de invoerder zodat deze vraag opnieuw beantwoord kan worden.
 
-### F.122: Over het proces-verbaal: de combinatie van antwoorden is ongeldig (er is wel een corrigendum, maar geen inlegvel)
+### F.122: *Over het proces-verbaal*: de combinatie van antwoorden is ongeldig (er is wel een corrigendum, maar geen inlegvel)
 
 > Invoerder: **Het inlegvel ontbreekt, maar hoort wel aanwezig te zijn**
 >
@@ -27,7 +27,7 @@ Dit zijn alle foutmeldingen en waarschuwingen tijdens de invoer voor het gemeent
 > - Zorg dat een correct ingevuld inlegvel wordt toegevoegd.
 > - Geef daarna de invoer terug aan de invoerder zodat deze vraag opnieuw beantwoord kan worden.
 
-### F.131: Controles en correcties: er zijn geen vinkjes gezet bij de eerste twee vragen
+### F.131: *Controles en correcties*: op de pagina *Over het proces-verbaal* is de optie 'Ja, de pagina 'controles en correcties' is aanwezig' aangevinkt, en op de pagina *Controles en correcties* zijn onder *Op eigen initiatief van het gemeentelijk stembureau* één of beide vragen niet beantwoord
 
 > Invoerder: **Controleer je antwoorden**
 
@@ -36,29 +36,35 @@ Dit zijn alle foutmeldingen en waarschuwingen tijdens de invoer voor het gemeent
 > - Zorg dat het inlegvel volledig is ingevuld.
 > - Geef daarna de invoer terug aan de invoerder zodat deze vraag opnieuw beantwoord kan worden.
 
-### F.132: Controles en correcties: de set documenten is ongeldig (de vraag 'Zijn er gecorrigeerde telresultaten?' is beantwoord met 'Nee')
+### F.132: *Controles en correcties*: op de pagina *Over het proces-verbaal* zijn de opties 'Ja, ik heb twee documenten (een proces-verbaal en een corrigendum)' en 'Ja, de pagina 'controles en correcties' is aanwezig' aangevinkt, en op de pagina *Controles en correcties* is onder *Op eigen initiatief van het gemeentelijk stembureau* de optie 'Nee, de oorspronkelijke telresultaten waren correct' aangevinkt
 
-> Invoerder: **Controleer je antwoorden**  
+> Invoerder (GSB DSO): **Controleer je antwoorden**  
 > Er is een corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' geen gecorrigeerde telresultaten.
 >
 > - Overleg met de coördinator.
 
-> Coördinator: **Onterecht corrigendum?**  
+> Coördinator (GSB DSO): **Onterecht corrigendum?**  
 > Er is een corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' geen gecorrigeerde telresultaten.
 >
 > - Als er geen gecorrigeerde telresultaten zijn, dan hoort er ook geen corrigendum te zijn.
 > - Verwijder het corrigendum, of geef op het inlegvel aan dat er wel gecorrigeerde telresultaten zijn.
 > - Geef daarna de invoer terug aan de invoerder.
 
-### F.133: Controles en correcties: er is een ongeldig antwoord gegevens in de eerste zitting (de vraag 'Op verzoek van het centraal stembureau' is ingevuld)
+### F.133: *Controles en correcties*: op de pagina *Over het proces-verbaal* zijn de opties 'Nee, ik heb één document (alleen een proces-verbaal)' en 'Ja, de pagina 'controles en correcties' is aanwezig' aangevinkt, en op de pagina *Controles en correcties* is onder *Op eigen initiatief van het gemeentelijk stembureau* de optie 'Ja, er zijn gecorrigeerde telresultaten' aangevinkt
 
-> Invoerder: **Controleer je antwoorden**
-
-> Coördinator: **Tijdens de eerste zitting kan er nog geen verzoek van het centraal stembureau zijn**
+> Invoerder (GSB DSO): **Controleer je antwoorden**  
+> Er is geen corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' wel gecorrigeerde telresultaten.
 >
-> - Herstel de fout door op papier de juiste optie(s) aan te (laten) vinken.
+> - Overleg met de coördinator.
 
-### F.134: Controles en correcties: er is meer dan 1 antwoord gegeven op de vraag 'Zijn er gecorrigeerde telresultaten?'
+> Coördinator (GSB DSO): **Ontbrekend corrigendum?**  
+> Er is geen corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' wel gecorrigeerde telresultaten.
+>
+> - Als er gecorrigeerde telresultaten zijn, dan hoort er ook een corrigendum te zijn.
+> - Voeg het correcte corrigendum toe, of geef op het inlegvel aan dat er geen gecorrigeerde telresultaten zijn.
+> - Geef daarna de invoer terug aan de invoerder.
+
+### F.134: *Controles en correcties*: op de pagina *Over het proces-verbaal* is de optie 'Ja, de pagina 'controles en correcties' is aanwezig' aangevinkt, en op de pagina *Controles en correcties - Op eigen initiatief van het gemeentelijk stembureau* is er meer dan 1 antwoord gegeven op de vraag 'Zijn er gecorrigeerde telresultaten?'
 
 > Invoerder: **Controleer je antwoorden**
 
@@ -66,17 +72,25 @@ Dit zijn alle foutmeldingen en waarschuwingen tijdens de invoer voor het gemeent
 >
 > - Herstel de fout door op papier de juiste optie(s) aan te (laten) vinken.
 
-### F.201: Het aantal stempassen + volmachten is kleiner of groter dan het totaal aantal toegelaten kiezers
+### F.135 *Controles en correcties*: op de pagina *Over het proces-verbaal* is de optie 'Ja, de pagina 'controles en correcties' is aanwezig' aangevinkt, en op de pagina *Controles en correcties* is de vraag *Op verzoek van het centraal stembureau* ingevuld
+
+> Invoerder (GSB DSO): **Controleer je antwoorden**
+
+> Coördinator (GSB DSO): **Tijdens de eerste zitting kan er nog geen verzoek van het Centraal Stembureau zijn**
+>
+> - Herstel de fout door op papier de juiste optie(s) aan te (laten) vinken.
+
+### F.201: Het aantal stempassen + volmachten + kiezerspassen is kleiner of groter dan het totaal aantal toegelaten kiezers
 
 > Invoerder: **Controleer je antwoorden**
 
-> Coördinator: **A en B tellen niet op tot D**  
+> Coördinator: **A, B en C tellen niet op tot D**  
 > Controleer in rubriek 2.3 of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
 >
 > - Zo ja: herstel op papier de optelfout door bij D het juiste getal in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
-Gemarkeerde velden: A, B en D
+Gemarkeerde velden: A, B, C en D
 
 ### F.202 (Als F.204 niet getoond wordt): E.1 t/m E.n tellen niet op naar E
 
@@ -146,7 +160,7 @@ Gemarkeerd veld: foutmelding op 2.3.1 "Vergelijk D en H"
 
 Gemarkeerd veld: foutmelding op 2.3.1 "Vergelijk D en H"
 
-### F.304: Vergelijk D en H: er zijn meerdere vakjes aangevinkt of is geen enkel vakje aangevinkt
+### F.304: Vergelijk D en H: er zijn meerdere vakjes aangevinkt of er is geen enkel vakje aangevinkt
 
 > Invoerder: **Controleer je antwoorden**
 
@@ -229,6 +243,10 @@ Gemarkeerd veld: I, J
 > Invoerder: **Controleer je antwoorden**
 
 > Coördinator: **Deze vraag moet precies één antwoord hebben**
+> Bij vraag 2.3.2 moet één antwoord gekozen worden. Is op het proces-verbaal duidelijk aangegeven welk van de opties bedoeld is?
+>
+> - Zo ja: laat dat dan overnemen in Abacus.
+> - Zo nee: maak een corrigendum waarin de juiste optie geselecteerd wordt.
 
 Gemarkeerd veld: foutmelding op 2.3.2
 
@@ -245,7 +263,19 @@ Gemarkeerd veld: foutmelding op 2.3.2
 
 Gemarkeerd veld: foutmelding op 2.3.2
 
-### F.401: Er zijn stemmen op kandidaten (of het lijsttotaal van corresponderende E.n is groter dan 0) en het totaal aantal stemmen op een lijst is leeg of 0
+### F.313: D is gelijk aan H en bij de verklaring voor het verschil is 'ja' en/of 'nee' aangevinkt
+
+> Invoerder: **Controleer je antwoorden**
+
+> Coördinator: **Deze vraag moet overgelagen worden**  
+> D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 2.3.2 moet overgeslagen worden. Is op het proces-verbaal duidelijk te zien wat de bedoeling was?
+>
+> - Zo ja: laat dat dan overnemen in Abacus.
+> - Zo nee: maak een corrigendum waarin deze vraag wordt overgeslagen.
+
+Gemarkeerd veld: foutmelding op 2.3.2
+
+### F.401: Er zijn stemmen op kandidaten (of het lijsttotaal van corresponderende E.x is groter dan 0) en het totaal aantal stemmen op een lijst is leeg of 0
 
 > Invoerder: **Controleer het totaal van de lijst. Is dit veld op het papieren proces-verbaal ook leeg? Dan kan je verdergaan**
 
@@ -293,6 +323,18 @@ Gemarkeerde velden: totaal van de lijst
 > Voor de coördinator hebben we het scherm 'verschillen oplossen'.
 
 Gemarkeerde velden: alle velden met een verschil
+
+### W.002 (bij correctie): de coördinator heeft velden leeggemaakt die opnieuw ingevuld moeten worden
+
+> Invoerder: **Verschil met tweede invoer. Nieuwe invoer nodig**  
+> Een coördinator heeft beide invoeren vergeleken, en aangegeven dat in deze invoer fouten zijn gemaakt. Neem de gemarkeerde velden opnieuw over van het papieren proces-verbaal.  
+>
+> - Heb je alles ingevuld en komt je invoer overeen met het papier? Ga dan verder.
+
+> Coördinator: W.002 is er alleen voor invoerders  
+> Voor de coördinator hebben we het scherm 'verschillen oplossen'.
+
+Gemarkeerde velden: alle velden die door de coördinator zijn leeggemaakt
 
 ### W.201: Het aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 
