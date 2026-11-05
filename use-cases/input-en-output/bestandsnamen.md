@@ -76,7 +76,7 @@ public_key_abacus_tk2021_gemeente_eemsdelta.crt
 definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── Model_Na31-1.pdf (voor DSO)
 ├── Model_Na31-2.pdf (voor CSO)
-├── abacus_telling_{election_id|lower}.csv
+├── abacus_telling_{election_id}_{region_category|lower}_{region|slugify}.csv
 └── Telling_{election_id}_{region_category|lower}_{region|slugify}.zip
     ├── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml
     └── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml.signature
@@ -86,7 +86,7 @@ Voorbeeld:
 ```
 definitieve-documenten_tk2026_gemeente_utrecht-20260310-135503.zip
 ├── Model_Na31-2.pdf
-├── abacus_telling_tk2026.csv
+├── abacus_telling_TK2026_gemeente_Utrecht.csv
 └── Telling_TK2026_gemeente_Utrecht.zip
     ├── Telling_TK2026_gemeente_Utrecht.eml.xml
     └── Telling_TK2026_gemeente_Utrecht.eml.xml.signature
@@ -102,7 +102,7 @@ N.B.: Als een volgende zitting niet tot een corrigendum (Na 14-1 / Na 14-2) leid
 correctie_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
 ├── Leeg_Model_P2a.pdf
 ├── Model_Na14-2.pdf
-├── abacus_telling_{election_id|lower}.csv
+├── abacus_telling_{election_id}_{region_category|lower}_{region|slugify}.csv
 └── Telling_{election_id}_{region_category|lower}_{region|slugify}.zip
     ├── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml
     └── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml.signature
@@ -113,7 +113,7 @@ Voorbeeld:
 correctie_gr2026_purmerend_gemeente_purmerend-20251125-144536.zip
 ├── Leeg_Model_P2a.pdf
 ├── Model_Na14-2.pdf
-├── abacus_telling_gr2026_purmerend.csv
+├── abacus_telling_GR2026_Purmerend_gemeente_Purmerend.csv
 └── Telling_GR2026_Purmerend_gemeente_Purmerend.zip
     ├── Telling_GR2026_Purmerend_gemeente_Purmerend.eml.xml
     └── Telling_GR2026_Purmerend_gemeente_Purmerend.eml.xml.signature
