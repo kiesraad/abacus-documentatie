@@ -127,7 +127,7 @@ EML_NL 210 (kandidatenlijst voor een politieke groepering) wordt niet gebruikt, 
 
 #### Na 31-2 Inlegvel (CSO): Inlegvel PV GSB eerste zitting n.a.v. controles in opdracht van CSB
 
-- lege versie gegenereerd door Abacus voor een tweede (en alleen tweede) zitting
+- lege versie gegenereerd door Abacus voor een volgende (en alleen volgende) zitting
 - wordt toegevoegd aan Na 31-2 om aan te geven dat het GSB een onderzoek heeft uitgevoerd en of er wel/geen gecorrigeerde telresultaten zijn
 
 
