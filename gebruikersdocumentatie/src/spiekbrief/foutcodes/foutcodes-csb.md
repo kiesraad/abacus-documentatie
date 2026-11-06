@@ -4,15 +4,15 @@ Dit zijn alle foutmeldingen en waarschuwingen die je kunt tegenkomen tijdens de 
 
 ## Fouten
 
-### F.201: Het aantal stempassen + volmachten is kleiner of groter dan het totaal aantal toegelaten kiezers
+### F.201: Het aantal stempassen + volmachten + kiezerspassen is kleiner of groter dan het totaal aantal toegelaten kiezers
 
 > Invoerder: **Controleer je antwoorden**
 
-> Coördinator: **A en B tellen niet op tot D**  
+> Coördinator: **A, B en C tellen niet op tot D**  
 > Je kan niet verder met dit proces-verbaal. Controleer of er iets is misgegaan bij het opmaken of overdragen van het proces-verbaal van het onderliggende niveau.  
 > Blijft de fout? Overleg dan met het CSB over de vervolgstappen.
 
-Gemarkeerde velden: A, B en D
+Gemarkeerde velden: A, B, C en D
 
 ### F.202 (Als F.204 niet getoond wordt): E.1 t/m E.n tellen niet op naar E
 
@@ -54,7 +54,7 @@ Gemarkeerd veld: E
 
 Gemarkeerde velden: I en J
 
-### F.401: Er zijn stemmen op kandidaten (of het lijsttotaal van corresponderende E.n is groter dan 0) en het totaal aantal stemmen op een lijst is leeg of 0
+### F.401: Er zijn stemmen op kandidaten (of het lijsttotaal van corresponderende E.x is groter dan 0) en het totaal aantal stemmen op een lijst is leeg of 0
 
 > Invoerder: **Controleer het totaal van de lijst. Is dit veld op het papieren proces-verbaal ook leeg? Dan kan je verdergaan**
 
@@ -95,6 +95,18 @@ Gemarkeerde velden: totaal van de lijst
 > Voor de coördinator hebben we het scherm 'verschillen oplossen'.
 
 Gemarkeerde velden: alle velden met een verschil
+
+### W.002 (bij correctie): de coördinator heeft velden leeggemaakt die opnieuw ingevuld moeten worden
+
+> Invoerder: **Verschil met tweede invoer. Nieuwe invoer nodig**  
+> Een coördinator heeft beide invoeren vergeleken, en aangegeven dat in deze invoer fouten zijn gemaakt. Neem de gemarkeerde velden opnieuw over van het papieren proces-verbaal.  
+>
+> - Heb je alles ingevuld en komt je invoer overeen met het papier? Ga dan verder.
+
+> Coördinator: W.002 is er alleen voor invoerders  
+> Voor de coördinator hebben we het scherm 'verschillen oplossen'.
+
+Gemarkeerde velden: alle velden die door de coördinator zijn leeggemaakt
 
 ### W.204: Het totaal aantal uitgebrachte stemmen is leeg of 0
 

@@ -5,5 +5,5 @@ Het invoeren van een stembureau betekent dat je het papieren proces-verbaal prec
 ## Benodigdheden
 
 - Zorg dat je ingelogd bent volgens de instructies hierboven.
-- Van de coördinator krijg je een proces-verbaal om in te voeren.
+- Van de coördinator krijg je een proces-verbaal om in te voeren. Bij decentrale stemopneming (DSO) krijg je mogelijk twee documenten: een proces-verbaal en een corrigendum.
 - Gebruik tijdens de invoer de sneltoetsen en tips die je vindt in de [spiekbrief](../../spiekbrief/invoeren-sneltoetsen.md).
