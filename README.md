@@ -6,7 +6,7 @@ Hier vind je de documentatie over Abacus. De documentatie wordt telkens aangevul
 
 Voor informatie over het installeren, starten en gebruiken van Abacus ga je naar de website [Abacus Documentatie](https://kiesraad.github.io/abacus-documentatie/). Hier vind je niet alleen alle beschikbare gebruikersdocumentatie, maar bieden we ook uitleg over het verkiezingsproces.
 
-De brondocumenten van de gebruikersdocumentatie zijn te vinden in deze repository in de map [gebruikersdocumentatie](https://github.com/kiesraad/abacus-documentatie/tree/src/main/gebruikersdocumentatie).
+De brondocumenten van de gebruikersdocumentatie zijn te vinden in deze repository in de map [gebruikersdocumentatie](https://github.com/kiesraad/abacus-documentatie/tree/main/gebruikersdocumentatie).
 
 ## Ontwikkeling
 
