@@ -250,7 +250,7 @@ Gemarkeerd veld: I, J
 
 Gemarkeerd veld: foutmelding op 2.3.2
 
-#### F.311: Bij 2.3.2 (verklaring voor verschil) is 'Nee' aangevinkt en bij de stap 'Controles en correcties' is 'vanwege een onverklaard verschil' niet aangevinkt
+### F.311: Bij 2.3.2 (verklaring voor verschil) is 'Nee' aangevinkt en bij de stap 'Controles en correcties' is 'vanwege een onverklaard verschil' niet aangevinkt
 
 > Invoerder: **Controleer je antwoorden**
 
