@@ -21,7 +21,7 @@ Dit zijn alle foutmeldingen en waarschuwingen die je kunt tegenkomen tijdens de 
 
 ### F.103: *Extra onderzoek B1-1*: de vraag 'extra onderzoek gedaan' is beantwoord met 'nee' en de tweede vraag is beantwoord
 
-> Invoerder: Controleer je antwoorden
+> Invoerder: **Controleer je antwoorden**
 
 > Coördinator: De tweede vraag moet overgeslagen worden  
 > Als er geen extra onderzoek is gedaan, mag alleen de eerste vraag beantwoord worden.
