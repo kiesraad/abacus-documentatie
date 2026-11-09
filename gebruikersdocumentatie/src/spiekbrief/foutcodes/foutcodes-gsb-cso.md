@@ -8,29 +8,29 @@ Dit zijn alle foutmeldingen en waarschuwingen die je kunt tegenkomen tijdens de 
 
 > Invoerder: **Controleer je antwoorden**
 
-> Coördinator (GSB CSO): **De eerste vraag moet beantwoord worden**  
+> Coördinator: **De eerste vraag moet beantwoord worden**  
 >
 > - Herstel de fout door op papier de juiste optie(s) aan te (laten) vinken.
 
 ### F.102: *Extra onderzoek B1-1*: de vraag 'extra onderzoek gedaan' is beantwoord met 'ja' en de tweede vraag is niet beantwoord
 
-> Invoerder (GSB CSO): **Controleer je antwoorden**
+> Invoerder: **Controleer je antwoorden**
 
-> Coördinator (GSB CSO): **De tweede vraag moet beantwoord worden**  
+> Coördinator: **De tweede vraag moet beantwoord worden**  
 > Als er extra onderzoek is gedaan, moeten beide vragen beantwoord worden.  
 
 ### F.103: *Extra onderzoek B1-1*: de vraag 'extra onderzoek gedaan' is beantwoord met 'nee' en de tweede vraag is beantwoord
 
-> Invoerder (GSB CSO): Controleer je antwoorden
+> Invoerder: Controleer je antwoorden
 
-> Coördinator (GSB CSO): De tweede vraag moet overgeslagen worden  
+> Coördinator: De tweede vraag moet overgeslagen worden  
 > Als er geen extra onderzoek is gedaan, mag alleen de eerste vraag beantwoord worden.
 
 ### F.104 *Extra onderzoek B1-1*: er zijn meerdere antwoorden gegeven op 1 van de vragen
 
-> Invoerder (GSB CSO): **Controleer je antwoorden**
+> Invoerder: **Controleer je antwoorden**
 
-> Coördinator (GSB CSO): **Er mag maar één antwoord per vraag worden gegeven**
+> Coördinator: **Er mag maar één antwoord per vraag worden gegeven**
 
 ### F.111: *Verschillen met telresultaten van het stembureau*: één of beide vragen zijn niet beantwoord
 

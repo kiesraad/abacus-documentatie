@@ -38,12 +38,12 @@ Dit zijn alle foutmeldingen en waarschuwingen tijdens de invoer voor het gemeent
 
 ### F.132: *Controles en correcties*: op de pagina *Over het proces-verbaal* zijn de opties 'Ja, ik heb twee documenten (een proces-verbaal en een corrigendum)' en 'Ja, de pagina 'controles en correcties' is aanwezig' aangevinkt, en op de pagina *Controles en correcties* is onder *Op eigen initiatief van het gemeentelijk stembureau* de optie 'Nee, de oorspronkelijke telresultaten waren correct' aangevinkt
 
-> Invoerder (GSB DSO): **Controleer je antwoorden**  
+> Invoerder: **Controleer je antwoorden**  
 > Er is een corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' geen gecorrigeerde telresultaten.
 >
 > - Overleg met de coördinator.
 
-> Coördinator (GSB DSO): **Onterecht corrigendum?**  
+> Coördinator: **Onterecht corrigendum?**  
 > Er is een corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' geen gecorrigeerde telresultaten.
 >
 > - Als er geen gecorrigeerde telresultaten zijn, dan hoort er ook geen corrigendum te zijn.
@@ -52,12 +52,12 @@ Dit zijn alle foutmeldingen en waarschuwingen tijdens de invoer voor het gemeent
 
 ### F.133: *Controles en correcties*: op de pagina *Over het proces-verbaal* zijn de opties 'Nee, ik heb één document (alleen een proces-verbaal)' en 'Ja, de pagina 'controles en correcties' is aanwezig' aangevinkt, en op de pagina *Controles en correcties* is onder *Op eigen initiatief van het gemeentelijk stembureau* de optie 'Ja, er zijn gecorrigeerde telresultaten' aangevinkt
 
-> Invoerder (GSB DSO): **Controleer je antwoorden**  
+> Invoerder: **Controleer je antwoorden**  
 > Er is geen corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' wel gecorrigeerde telresultaten.
 >
 > - Overleg met de coördinator.
 
-> Coördinator (GSB DSO): **Ontbrekend corrigendum?**  
+> Coördinator: **Ontbrekend corrigendum?**  
 > Er is geen corrigendum, maar er zijn volgens de antwoorden op het inlegvel 'controles en correcties' wel gecorrigeerde telresultaten.
 >
 > - Als er gecorrigeerde telresultaten zijn, dan hoort er ook een corrigendum te zijn.
@@ -74,9 +74,9 @@ Dit zijn alle foutmeldingen en waarschuwingen tijdens de invoer voor het gemeent
 
 ### F.135 *Controles en correcties*: op de pagina *Over het proces-verbaal* is de optie 'Ja, de pagina 'controles en correcties' is aanwezig' aangevinkt, en op de pagina *Controles en correcties* is de vraag *Op verzoek van het centraal stembureau* ingevuld
 
-> Invoerder (GSB DSO): **Controleer je antwoorden**
+> Invoerder: **Controleer je antwoorden**
 
-> Coördinator (GSB DSO): **Tijdens de eerste zitting kan er nog geen verzoek van het Centraal Stembureau zijn**
+> Coördinator: **Tijdens de eerste zitting kan er nog geen verzoek van het Centraal Stembureau zijn**
 >
 > - Herstel de fout door op papier de juiste optie(s) aan te (laten) vinken.
 
@@ -94,7 +94,7 @@ Gemarkeerde velden: A, B, C en D
 
 ### F.202 (Als F.204 niet getoond wordt): E.1 t/m E.n tellen niet op naar E
 
-> Invoerder **Controleer je antwoorden**
+> Invoerder: **Controleer je antwoorden**
 
 > Coördinator: **De stemmen op lijsten tellen niet op tot E**  
 > Controleer in rubriek 2.3 of er een onverklaard verschil opgelost wordt als de juiste getallen bij E en H worden ingevuld.
