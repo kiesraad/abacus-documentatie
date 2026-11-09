@@ -4,7 +4,7 @@ Nu start je de invoer en kunnen invoerders aan de slag. Laat alle aantallen twee
 
 ## Benodigdheden
 
-- Als je in een gemeente met *decentrale stemopname (DSO)* werkt, kan het voorkomen dat het papieren proces-verbaal herteld is. Je geeft de invoerder dan twee documenten: het proces-verbaal en een corrigendum. Zorg dat de invoerder eerst het proces-verbaal invult en daarna pas de gecorrigeerde telresultaten van het corrigendum overneemt.
+- Als je in een gemeente met *decentrale stemopname (DSO)* werkt, kan het voorkomen dat een stembureau herteld is tijdens de eerste zitting van het GSB. Je geeft de invoerder dan twee documenten: het proces-verbaal en het corrigendum. Zorg dat de invoerder eerst het proces-verbaal helemaal invult en daarna vanaf de controleren en opslaan pagina terug gaat om de gecorrigeerde telresultaten van het corrigendum in te voeren.
 - Zorg dat je de **Details van de zitting** invoert via de knop in het overzicht van de verkiezing. Voer de plaatsnaam, datum en starttijd van de zitting in en sla de wijzigingen op. Dit kun je op elk moment tijdens de zitting doen. Abacus stuurt je automatisch naar dit scherm als deze gegevens nog niet zijn ingevuld als je het proces-verbaal gaat printen.
 - Met de knop **Bekijk voortgang** ga je naar de pagina **Statusoverzicht invoer**. Hier zie je in één oogopslag wat de status van de invoer is en wat er nog moet worden ingevoerd. Hier zie je ook welke invoer speciale aandacht van jou als coördinator nodig heeft vanwege fouten en/of waarschuwingen.
 - Abacus instrueert invoerders om invoer die duidt op fouten in het papieren proces-verbaal met jou te overleggen. Houd de lijst met fouten en waarschuwingen uit de [spiekbrief](../../spiekbrief/foutcodes/) dus bij de hand.
