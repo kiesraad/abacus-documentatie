@@ -23,7 +23,7 @@ Dit zijn alle foutmeldingen en waarschuwingen die je kunt tegenkomen tijdens de 
 
 > Invoerder: **Controleer je antwoorden**
 
-> Coördinator: De tweede vraag moet overgeslagen worden  
+> Coördinator: **De tweede vraag moet overgeslagen worden**  
 > Als er geen extra onderzoek is gedaan, mag alleen de eerste vraag beantwoord worden.
 
 ### F.104 *Extra onderzoek B1-1*: er zijn meerdere antwoorden gegeven op 1 van de vragen
