@@ -98,7 +98,7 @@ Gemarkeerde velden: alle velden met een verschil
 
 ### W.002 (bij correctie): de coördinator heeft velden leeggemaakt die opnieuw ingevuld moeten worden
 
-> Invoerder: **Verschil met tweede invoer. Nieuwe invoer nodig**  
+> Invoerder: **Verschil met andere invoer. Nieuwe invoer nodig**  
 > Een coördinator heeft beide invoeren vergeleken, en aangegeven dat in deze invoer fouten zijn gemaakt. Neem de gemarkeerde velden opnieuw over van het papieren proces-verbaal.  
 >
 > - Heb je alles ingevuld en komt je invoer overeen met het papier? Ga dan verder.

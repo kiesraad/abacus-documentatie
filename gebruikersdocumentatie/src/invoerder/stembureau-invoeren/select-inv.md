@@ -27,6 +27,6 @@ Nu kun je beginnen met invoeren. Op elke pagina neem je de vinkjes en getallen o
 
 Als je in een gemeente met *decentrale stemopname (DSO)* werkt, kan het voorkomen dat het papieren proces-verbaal herteld is. Je krijgt dan twee documenten van de coördinator: het proces-verbaal en een corrigendum. De invoer doe je dan zo:
 
-- Aan het begin van de invoer geef je aan dat je twee documenten hebt. Controleer of de extra pagina **Controles en correcties** is ingevoegd en neem de vinkjes over in Abacus.
+- Aan het begin van de invoer geef je aan dat je twee documenten hebt. Controleer of de extra pagina **Controles en correcties** als tweede pagina in het proces-verbaal is ingevoegd en neem de vinkjes over in Abacus.
 - Voer eerst het hele proces-verbaal in, maar sla de invoer nog niet op.
 - Pak nu het corrigendum en neem de gecorrigeerde telresultaten over. Nu kun je de invoer opslaan.
