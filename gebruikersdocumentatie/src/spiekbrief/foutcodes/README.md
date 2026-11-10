@@ -1,6 +1,6 @@
 # Codes van fouten en waarschuwingen
 
-Dit is een overzicht van de fouten en waarschuwingen die je kunt tegenkomen in Abacus en wat je kunt doen als invoerder en als coördinator.
+Dit is een overzicht van de fouten en waarschuwingen die je tijdens de invoer kunt tegenkomen in Abacus en wat je kunt doen als invoerder en als coördinator.
 
 ## Definities
 

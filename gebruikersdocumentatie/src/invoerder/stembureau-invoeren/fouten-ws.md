@@ -1,23 +1,12 @@
 # Fouten en waarschuwingen
 
-Het kan zijn dat je tijdens het invoeren of bij het opslaan een waarschuwing ziet. Er wordt je dan gevraagd om je invoer te controleren. Hieronder lees je wat je moet doen wanneer je fouten of waarschuwingen ziet. In het algemeen geldt: als je niet zeker weet wat je moet doen, overleg dan met je coördinator. Meer informatie over de fouten en waarschuwingen vind je in de [spiekbrief](../../spiekbrief/foutcodes/).
+Tijdens de invoer kun je te maken hebben met fouten of waarschuwingen.
 
-## Tijdens de invoer
+Een **waarschuwing** wijst op opmerkelijke aantallen in het papieren proces-verbaal. Dit betekent niet per definitie dat je iets moet aanpassen. Het proces-verbaal kan dan nog steeds correct zijn, maar het is wel goed om dit te onderzoeken.
 
-Controleer of je het papieren proces-verbaal goed hebt overgenomen en herstel eventueel je invoer. Abacus laat duidelijk zien wat je extra moet controleren.
+Een **fout** wijst op fouten in het papieren proces-verbaal of een invoerfout. Het proces-verbaal kan worden gecontroleerd door de leden van het gemeentelijk stembureau. Als het papieren proces-verbaal fouten bevat die meteen kunnen worden opgelost door een lid van het gemeentelijk stembureau, kun je de invoer bewaren en later de correcties invoeren. Als de fouten alleen kunnen worden opgelost met een (gedeeltelijke) hertelling, of als de oorspronkelijke invoerder niet meer aanwezig is, kun je het stembureau opnieuw invoeren. Dit kan pas nadat de invoer is verwijderd door de oorspronkelijke invoerder of de coördinator.
 
-Zie je een fout of waarschuwing, maar heb je de invoer gecontroleerd en correct overgenomen? Vink dan de optie aan en ga door naar de volgende pagina.
+> <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
+> Heb je een invoerfout gemaakt, maar klopt het papieren proces-verbaal wel? Corrigeer dan de invoer.
 
-![Fouten en waarschuwingen tijdens het invoeren](./img/inv-fouten-waarschuwingen.png)
-
-Bij een **tweede invoer** zie je mogelijk extra waarschuwingen als jouw invoer verschilt met de eerste invoer. Hier ga je op dezelfde manier mee om.
-
-![Tweede invoer: extra controle nodig](./img/inv-2e-inv-extra-controle.png)
-
-## Bij het afronden van de invoer
-
-Als je helemaal klaar bent met invoeren, sla je je invoer op, en geef je het papieren proces-verbaal terug aan de coördinator.
-
-Als jouw invoer in Abacus duidt op een onjuist of onvolledig ingevuld proces-verbaal, dan moet je dit eerst met de coördinator bespreken. Als je dat gedaan hebt, vink je dat aan en kun je je invoer opslaan.
-
-![Fouten en waarschuwingen tijdens het opslaan](./img/inv-contr-fouten.png)
+Bij fouten en waarschuwingen geeft Abacus duidelijk aan wat je moet doen. In het algemeen geldt: als je niet zeker weet wat je moet doen, overleg dan met je coördinator. Meer informatie over oplossingen en handelingen voor de fouten en waarschuwingen vind je in de [spiekbrief](../../spiekbrief/foutcodes/).
