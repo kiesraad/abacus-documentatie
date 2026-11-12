@@ -2,11 +2,14 @@
 
 Met deze methode installeer je Abacus op een Linux-computer.
 
-**Let op:** Het beveiligingscertificaat wordt tijdens de installatie in de map `tls` geplaatst in de installatiemap. Dit certificaat kun je daarna op alle computers installeren volgens de instructies in het hoofdstuk [Beveiligingscertificaat](./certificaat.md).
+De installatiemethode voor Linux werkt op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (24.04 en 26.04) en Debian (13/trixie).
+
+> <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
+> Het beveiligingscertificaat wordt tijdens de installatie in de map `/var/lib/abacus/tls` geplaatst. Dit certificaat kun je daarna op alle computers installeren volgens de instructies in het hoofdstuk [Beveiligingscertificaat](./certificaat.md).
 
 ## Downloaden
 
-Je downloadt Abacus via Rijkscloud SecureFileTransfer. Deze link krijg je van de Kiesraad. Pak de tarball uit:
+Je downloadt Abacus via het overdrachtsplatform Uitwisseling. Pak de tarball uit:
 
 ```
 tar -xvf abacus-linux-[versienummer].tar.gz ~/mapnaarkeuze/
@@ -14,9 +17,10 @@ tar -xvf abacus-linux-[versienummer].tar.gz ~/mapnaarkeuze/
 
 ## Installeren
 
-Kopieer Abacus en het servicebestand naar de juiste mappen:
+Ga naar de map met de uitgepakte bestanden en kopieer Abacus en het servicebestand naar de juiste mappen:
 
 ```
+cd ~/mapnaarkeuze/
 sudo cp abacus /usr/local/bin/abacus
 sudo cp abacus.service /etc/systemd/system/abacus.service
 ```

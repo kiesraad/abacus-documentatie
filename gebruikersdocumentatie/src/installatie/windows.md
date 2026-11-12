@@ -2,24 +2,27 @@
 
 Met deze methode installeer je Abacus op een Windows-computer.
 
-**Let op:** Het beveiligingscertificaat wordt geïnstalleerd op Windows, en het bestand wordt in de map `tls` geplaatst in de installatiemap. Dit certificaat kun je daarna op alle computers installeren volgens de instructies in het hoofdstuk [Beveiligingscertificaat](./certificaat.md).
+De installatiemethode voor Windows is getest op Windows 11 en Windows Server 2022.
+
+> <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
+> Het beveiligingscertificaat wordt geïnstalleerd op Windows, en het bestand wordt in de map `tls` geplaatst in de gegevensmap. Dit certificaat kun je daarna op alle computers installeren volgens de instructies in het hoofdstuk [Beveiligingscertificaat](./certificaat.md).
 
 ## Downloaden en installeren
 
-Je downloadt Abacus via Rijkscloud SecureFileTransfer. Deze link krijg je van de Kiesraad Dubbelklik op het gedownloade bestand om het installatieprogramma te openen.
+Je downloadt Abacus via het overdrachtsplatform Uitwisseling. Dubbelklik op het gedownloade bestand om het installatieprogramma te openen, en volg de instructies op het scherm. Bij de pop-up sta je toe dat Abacus wijzigingen aan het apparaat aanbrengt.
 
-- Bij de pop-up sta je toe dat Abacus wijzigingen aan het apparaat aanbrengt.
-- Het installatieprogramma kopieert alle bestanden, installeert Microsoft Visual C++ Redistributable en maakt het beveiligingscertificaat aan. Tot slot wordt de Abacus-service gestart.
-- Nu kun je het installatieprogramma sluiten. Als je de Abacus-interface niet direct wil openen in de browser, zet dan eerst het vinkje uit.
+Als je de Abacus-interface niet direct wil openen in de browser, zet dan het vinkje uit voordat je het installatieprogramma afsluit.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
-> De Abacus-service is nu actief en wordt automatisch opgestart wanneer de computer wordt aangezet.
+> De Abacus-service wordt gestart na de installatie en wanneer de computer wordt opgestart.
 
 ## Starten
 
-Bij deze installatiemethode worden twee snelkoppelingen op het bureaublad geplaatst:
+Tijdens de installatie zijn er twee snelkoppelingen op het bureaublad geplaatst:
 
 - Met **Open Abacus in browser** open je de browserinterface.
-- Met **Abacus data** open je de map met alle data, zoals de databasebestanden en back-ups.
+- Met **Abacus data** open je de gegevensmap, met daarin de databasebestanden, het certificaat, back-ups en logs. Je kunt deze map alleen als Administrator openen.
 
-**Let op:** Wanneer je de Abacus-server start, start Windows een zwart opdrachtvenster (command prompt). Je kunt dit venster minimaliseren, maar zorg ervoor dat het open blijft. Als je dit venster sluit wordt de Abacus-server gestopt.
+## Problemen oplossen
+
+- In sommige gevallen toont Windows een blauw venster van Microsoft Defender. Als dit gebeurt, klik dan op <ins>Meer informatie</ins> en dan op **Toch uitvoeren**.

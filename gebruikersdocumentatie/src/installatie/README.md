@@ -6,15 +6,15 @@ De software controleert de handmatige tellingen en telt per niveau de resultaten
 
 In dit document leggen we uit hoe je Abacus installeert.
 
-Bij de onderstaande installatiemethodes is aangegeven op welke besturingssystemen ze werken.
-De Windows-methode is getest op Windows 11.
-De methoden voor Linux werken op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (22.04 en 24.04) en Debian (12/bookworm en 13/trixie).
+## Vereisten
 
-Om Abacus goed te kunnen gebruiken, adviseren we het volgende (naast de systeemvereisten die je op de website van de Kiesraad vindt):
-
-- Gebruik de meest recente versie van Edge, Chrome of Firefox.
-- Gebruik geen adblocker; dit kan foutmeldingen veroorzaken. Zet adblockers daarom uit of voeg Abacus toe aan de lijst met uitzonderingen.
-- Gebruik geen wachtwoordmanager; in sommige gevallen worden wachtwoorden in wachtwoordmanagers verkeerd opgeslagen. Schakel je wachtwoordmanager dus uit.
+- Het installatieprogramma van Abacus. Je downloadt Abacus via het overdrachtsplatform Uitwisseling. De instructies voor het gebruik van het overdrachtsplatform vind je op de website van de Kiesraad.
+- Een server en een aantal clients.
+- Een hub of netwerkapparaat en voldoende kabels voor alle apparaten.
+- Om Abacus goed te kunnen gebruiken, adviseren we daarnaast het volgende (naast de systeemvereisten die je op de website van de Kiesraad vindt):
+  - Gebruik de meest recente versie van Edge, Chrome of Firefox.
+  - Gebruik geen adblocker; dit kan foutmeldingen veroorzaken. Zet adblockers daarom uit of voeg Abacus toe aan de lijst met uitzonderingen.
+  - Gebruik geen wachtwoordmanager; in sommige gevallen worden wachtwoorden in wachtwoordmanagers verkeerd opgeslagen. Schakel je wachtwoordmanager dus uit.
 
 ## Problemen oplossen
 
