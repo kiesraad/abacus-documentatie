@@ -14,13 +14,14 @@
   - Volg het reguliere PR-proces, maar houd de wijzigingen zo klein mogelijk om
     het backporten naar de releasebranch eenvoudiger te maken.
   - Voeg het label `needs-backport/1.1` toe aan de PR.
+  - Voeg de releasemijlpaal '1.1 Herindelingsverkiezing 2026' toe aan de PR.
 - Maak een pull request om de mergecommit te backporten naar de releasebranch:
   - Maak een nieuwe branch aan op basis van de releasebranch.
   - `git cherry-pick <merge commit id>`
   - Open een PR met de releasebranch als doelbranch.
   - Voeg de releasemijlpaal '1.1 Herindelingsverkiezing 2026' toe aan de PR.
   - Verwijder het label `needs-backport/1.1` van de oorspronkelijke PR.
-  - De issue kan na het samenvoegen worden gesloten.
+  - De issue kan na het mergen worden gesloten.
 
 ## Een nieuwe release taggen
 
