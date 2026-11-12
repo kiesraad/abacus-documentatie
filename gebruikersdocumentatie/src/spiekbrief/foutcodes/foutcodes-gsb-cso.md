@@ -4,43 +4,57 @@ Dit zijn alle foutmeldingen en waarschuwingen die je kunt tegenkomen tijdens de 
 
 ## Fouten
 
-### F.101: Alleen bij extra onderzoek B1-1: één van beide vragen is beantwoord, en de andere niet
+### F.101: *Extra onderzoek B1-1*: de eerste vraag is niet beantwoord
 
 > Invoerder: **Controleer je antwoorden**
 
-> Coördinator: **Beide vragen moeten beantwoord ofwel overgeslagen zijn**  
-> Als er extra onderzoek is gedaan, moeten beide vragen beantwoord worden.  
-> Als er geen extra onderzoek is gedaan, moeten deze vragen overgeslagen worden.
+> Coördinator: **De eerste vraag moet beantwoord worden**  
+>
+> - Herstel de fout door op papier de juiste optie(s) aan te (laten) vinken.
 
-### F.102: Alleen bij extra onderzoek B1-1: er zijn meerdere antwoorden gegeven op één van de vragen
+### F.102: *Extra onderzoek B1-1*: de vraag 'extra onderzoek gedaan' is beantwoord met 'ja' en de tweede vraag is niet beantwoord
+
+> Invoerder: **Controleer je antwoorden**
+
+> Coördinator: **De tweede vraag moet beantwoord worden**  
+> Als er extra onderzoek is gedaan, moeten beide vragen beantwoord worden.  
+
+### F.103: *Extra onderzoek B1-1*: de vraag 'extra onderzoek gedaan' is beantwoord met 'nee' en de tweede vraag is beantwoord
+
+> Invoerder: **Controleer je antwoorden**
+
+> Coördinator: **De tweede vraag moet overgeslagen worden**  
+> Als er geen extra onderzoek is gedaan, mag alleen de eerste vraag beantwoord worden.
+
+### F.104 *Extra onderzoek B1-1*: er zijn meerdere antwoorden gegeven op 1 van de vragen
 
 > Invoerder: **Controleer je antwoorden**
 
 > Coördinator: **Er mag maar één antwoord per vraag worden gegeven**
 
-### F.111: Verschillen met telresultaten van het stembureau: één of beide vragen zijn niet beantwoord
+### F.111: *Verschillen met telresultaten van het stembureau*: één of beide vragen zijn niet beantwoord
 
 > Invoerder: **Controleer je antwoorden**
 
 > Coördinator: **Bij beide vragen moet een antwoord gegeven worden**
 
-### F.112: Verschillen met telresultaten van het stembureau: er zijn meerdere antwoorden per vraag gegeven
+### F.112: *Verschillen met telresultaten van het stembureau*: er zijn meerdere antwoorden per vraag gegeven
 
 > Invoerder: **Controleer je antwoorden**
 
 > Coördinator: **Er mag maar één antwoord per vraag worden gegeven**
 
-### F.201: Het aantal stempassen + volmachten is kleiner of groter dan het totaal aantal toegelaten kiezers
+### F.201: Het aantal stempassen + volmachten + kiezerspassen is kleiner of groter dan het totaal aantal toegelaten kiezers
 
 > Invoerder: **Controleer je antwoorden**
 
-> Coördinator: **A en B tellen niet op tot D**  
+> Coördinator: **A, B en C tellen niet op tot D**  
 > Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
 >
 > - Zo ja: herstel op papier de optelfout door bij D het juiste getal in te vullen.
 > - Zo nee: tel de stembiljetten en het aantal toegelaten kiezers opnieuw tot de fout gevonden is, of alles één keer herteld is.
 
-Gemarkeerde velden: A, B en D
+Gemarkeerde velden: A, B, C en D
 
 ### F.202 (Als F.204 niet getoond wordt): E.1 t/m E.n tellen niet op naar E
 
@@ -106,7 +120,7 @@ Gemarkeerd veld: foutmelding op 3.3.1 "Vergelijk D en H"
 
 Gemarkeerd veld: foutmelding op 3.3.1 "Vergelijk D en H"
 
-### F.304: Vergelijk D en H: er zijn meerdere vakjes aangevinkt of is geen enkel vakje aangevinkt
+### F.304: Vergelijk D en H: er zijn meerdere vakjes aangevinkt of er is geen enkel vakje aangevinkt
 
 > Invoerder: **Controleer je antwoorden**
 
@@ -178,10 +192,20 @@ Gemarkeerd veld: I, J
 > Invoerder: **Controleer je antwoorden**
 
 > Coördinator: **Deze vraag moet precies één antwoord hebben**
+> Bij vraag 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting) moet één antwoord gekozen worden.
 
-Gemarkeerd veld: foutmelding op 3.3.2
+Gemarkeerd veld: foutmelding op 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting)
 
-### F.401: Er zijn stemmen op kandidaten (of het lijsttotaal van corresponderende E.n is groter dan 0) en het totaal aantal stemmen op een lijst is leeg of 0
+### F.313: D is gelijk aan H en bij de verklaring voor het verschil is 'ja' en/of 'nee' aangevinkt
+
+> Invoerder: **Controleer je antwoorden**
+
+> Coördinator: **Deze vraag moet overgelagen worden**  
+> D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting) moet overgeslagen worden.
+
+Gemarkeerd veld: foutmelding op 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting)
+
+### F.401: Er zijn stemmen op kandidaten (of het lijsttotaal van corresponderende E.x is groter dan 0) en het totaal aantal stemmen op een lijst is leeg of 0
 
 > Invoerder: **Controleer het totaal van de lijst. Is dit veld op het papieren proces-verbaal ook leeg? Dan kan je verdergaan**
 
@@ -230,6 +254,18 @@ Gemarkeerde velden: totaal van de lijst
 > Voor de coördinator hebben we het scherm 'verschillen oplossen'.
 
 Gemarkeerde velden: alle velden met een verschil
+
+### W.002 (bij correctie): de coördinator heeft velden leeggemaakt die opnieuw ingevuld moeten worden
+
+> Invoerder: **Verschil met andere invoer. Nieuwe invoer nodig**  
+> Een coördinator heeft beide invoeren vergeleken, en aangegeven dat in deze invoer fouten zijn gemaakt. Neem de gemarkeerde velden opnieuw over van het papieren proces-verbaal.  
+>
+> - Heb je alles ingevuld en komt je invoer overeen met het papier? Ga dan verder.
+
+> Coördinator: W.002 is er alleen voor invoerders  
+> Voor de coördinator hebben we het scherm 'verschillen oplossen'.
+
+Gemarkeerde velden: alle velden die door de coördinator zijn leeggemaakt
 
 ### W.201: Het aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 

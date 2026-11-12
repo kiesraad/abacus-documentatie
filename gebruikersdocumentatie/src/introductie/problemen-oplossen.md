@@ -2,12 +2,11 @@
 
 ## Bekende problemen
 
-Bekende problemen (of *known issues*) in versie 1.1 worden hier gedocumenteerd. We zijn op de hoogte van deze problemen en ze worden opgelost in een latere fase.
+Bekende problemen (of *known issues*) worden hier gedocumenteerd. We zijn op de hoogte van deze problemen en ze worden opgelost in een latere fase.
 
 | Probleem | Oplossing |
 |----------|-----------|
 | Het EXE-bestand en de databasebestanden blijven bestaan als Abacus wordt verwijderd zonder eerst af te sluiten. | Sluit eerst Abacus af voordat je Abacus gaat verwijderen. |
-| In een tweede of latere zitting is het niet mogelijk om een stembureau te verwijderen als die aan een onderzoek is gekoppeld. | Verwijder eerst het onderzoek en daarna pas het stembureau. |
 
 ## Problemen en oplossingen
 
@@ -40,10 +39,6 @@ Controleer de netwerkverbindingen in het hele netwerk en schakel alles uit. Let 
 Geef dit door aan de beheerder. Die controleert de netwerkverbindingen en schakelt alles uit. Wanneer de internetverbinding verbroken is, wacht je 30 seconden en herlaad je de pagina door op de link <ins>Herlaad de pagina</ins> te klikken.
 
 ![Abacus zit op slot](./img/abacus-slot-airgap.png)
-
-**In een tweede of latere zitting is het niet mogelijk om een stembureau te verwijderen als die aan een onderzoek is gekoppeld.**
-
-Verwijder eerst het onderzoek en daarna pas het stembureau.
 
 ### Coördinator CSB
 

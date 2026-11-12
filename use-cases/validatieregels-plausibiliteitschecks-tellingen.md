@@ -606,7 +606,7 @@ W.001 wordt niet getoond bij een correctie-invoer (correctie van de eerste of de
 
 #### W.002 (Bij correctie) De coördinator heeft velden leeggemaakt die opnieuw ingevuld moeten worden
 
-> Invoerder (GSB CSO, GSB DSO, CSB): **Verschil met tweede invoer. Nieuwe invoer nodig** (W.002)  
+> Invoerder (GSB CSO, GSB DSO, CSB): **Verschil met andere invoer. Nieuwe invoer nodig** (W.002)  
 > Een coördinator heeft beide invoeren vergeleken, en aangegeven dat in deze invoer fouten zijn gemaakt. Neem de gemarkeerde velden opnieuw over van het papieren proces-verbaal.  
 > - Heb je alles ingevuld en komt je invoer overeen met het papier? Ga dan verder.
 
