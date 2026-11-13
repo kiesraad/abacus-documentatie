@@ -1,6 +1,7 @@
 # Starten met lege database
 
-In de map met het installatiebestand maakt Abacus het databasebestand `db.sqlite` aan waarin alle verkiezings- en gebruikersgegevens worden opgeslagen.
-Gooi dit bestand weg als je deze gegevens wil verwijderen en Abacus wil starten met een lege database.
+In de gegevensmap maakt Abacus het databasebestand `db.sqlite` aan waarin alle verkiezings- en gebruikersgegevens worden opgeslagen.
 
-Op Windows in command prompt of op Linux in een terminal kun je ook de database resetten door Abacus te starten met het argument `-r` of `--reset-database`.
+Als je deze gegevens wil verwijderen en Abacus wil starten met een lege database, stop dan eerst de Abacus-service en verwijder het bestand. Daarna kun je de Abacus-service weer starten.
+
+Hoe je de service kunt starten en stoppen op Windows lees je onder [**Beheren**](./windows.md#beheren) in het hoofdstuk **Installeren op Windows**. Voor Linux kijk je onder [**Beheren**](./linux.md#beheren) in het hoofdstuk **Installeren op Linux**.

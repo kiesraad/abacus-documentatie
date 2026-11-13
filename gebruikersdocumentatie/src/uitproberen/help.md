@@ -1,4 +1,4 @@
-# Help
+# Helpfunctie
 
 Voor meer informatie over de argumenten bekijk je de helpfunctie via de commandline.
 

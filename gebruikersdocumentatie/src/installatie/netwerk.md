@@ -27,8 +27,9 @@ Geef alle computers een vast (statisch) IP-adres, zodat je ze altijd kunt identi
 
 - Druk op je toetsenbord op **Win+R** en zoek op `ncpa.cpl` om de klassieke weergave voor netwerkverbindingen te openen.
 - Klik met de rechtermuisknop op de ethernetverbinding en selecteer **Eigenschappen**.
-- Selecteer de regel **Network Protocol Version 4 (TCP/IPv4)** en selecteer **Eigenschappen**.
-- Selecteer **Het volgende IP-adres gebruiken:** en voer het IP-adres in. Als je op het subnetmasker klikt wordt automatisch `255.255.255.0` ingevuld, dit kun je zo laten. Selecteer **OK** en vervolgens **Sluiten**.
+- Selecteer de regel **Network Protocol Version 4 (TCP/IPv4)** en selecteer weer **Eigenschappen**.
+- Selecteer **Het volgende IP-adres gebruiken:** en voer het IP-adres in. Elke computer geef je een eigen IP-adres, bijvoorbeeld `192.168.1.101`, `192.168.1.102`, enzovoort.
+- Als je op het subnetmasker klikt wordt automatisch `255.255.255.0` ingevuld, dit kun je zo laten. Bevestig dit en sluit de vensters.
 
 ![Een statisch IP-adres instellen in Windows](./img/statisch-IP-windows.png)
 
