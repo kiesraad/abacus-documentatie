@@ -23,6 +23,10 @@ Tijdens de installatie zijn er twee snelkoppelingen op het bureaublad geplaatst:
 - Met **Open Abacus in browser** open je de browserinterface.
 - Met **Abacus data** open je de gegevensmap, met daarin de databasebestanden, het certificaat, back-ups en logs. Je kunt deze map alleen als Administrator openen.
 
+## Beheren
+
+Als je de Abacus-service wil stoppen of herstarten, zoek en open je **Services** via de zoekfunctie op de werkbalk. Klik op de Abacus-service in de lijst en klik in het veld naast de lijst op <ins>stoppen</ins> of <ins>opnieuw starten</ins>.
+
 ## Problemen oplossen
 
 - In sommige gevallen toont Windows een blauw venster van Microsoft Defender. Als dit gebeurt, klik dan op <ins>Meer informatie</ins> en dan op **Toch uitvoeren**.
