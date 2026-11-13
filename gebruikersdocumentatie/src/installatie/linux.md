@@ -12,7 +12,7 @@ De installatiemethode voor Linux werkt op alle gangbare (recente) Linux-distribu
 Je downloadt Abacus via het overdrachtsplatform Uitwisseling. Pak de tarball uit:
 
 ```
-tar -xvf abacus-linux-[versienummer].tar.gz ~/mapnaarkeuze/
+tar -xvf abacus-linux-[versienummer].tar.gz -C ~/mapnaarkeuze/
 ```
 
 ## Installeren
@@ -20,7 +20,7 @@ tar -xvf abacus-linux-[versienummer].tar.gz ~/mapnaarkeuze/
 Ga naar de map met de uitgepakte bestanden en kopieer Abacus en het servicebestand naar de juiste mappen:
 
 ```
-cd ~/mapnaarkeuze/
+cd ~/mapnaarkeuze/abacus-linux-[versienummer]
 sudo cp abacus /usr/local/bin/abacus
 sudo cp abacus.service /etc/systemd/system/abacus.service
 ```
