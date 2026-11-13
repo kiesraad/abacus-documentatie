@@ -486,10 +486,10 @@ Velden markeren: I en J
 
 > Invoerder (GSB): **Controleer je antwoorden** (F.313)
 
-> Coördinator (GSB CSO): **Deze vraag moet overgelagen worden** (F.313)  
+> Coördinator (GSB CSO): **Deze vraag moet overgeslagen worden** (F.313)  
 > D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting) moet overgeslagen worden.
 
-> Coördinator (GSB DSO): **Deze vraag moet overgelagen worden** (F.313)  
+> Coördinator (GSB DSO): **Deze vraag moet overgeslagen worden** (F.313)  
 > D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 2.3.2 moet overgeslagen worden. Is op het proces-verbaal duidelijk te zien wat de bedoeling was?
 > - Zo ja: laat dat dan overnemen in Abacus.
 > - Zo nee: maak een corrigendum waarin deze vraag wordt overgeslagen.
@@ -673,7 +673,7 @@ Velden markeren: D en H
 
 > Invoerder (GSB CSO, GSB DSO, CSB): **Controleer je antwoorden** (W.204)
 
-> Coördinator  (GSB CSO, GSB DSO): **Het totaal aantal uitgebrachte stemmen (H) is nul** (W.204)  
+> Coördinator (GSB CSO, GSB DSO): **Het totaal aantal uitgebrachte stemmen (H) is nul** (W.204)  
 > Controleer of het stembureau is opgenomen in de vóór de verkiezing gepubliceerde lijst.
 > - Zo ja: verklaar in het proces-verbaal van het GSB (rubriek 1.2) waarom in dit stembureau geen stemmen zijn uitgebracht.
 > - Zo nee: verwijder het stembureau uit Abacus. Het proces-verbaal moet niet ingevoerd worden.
