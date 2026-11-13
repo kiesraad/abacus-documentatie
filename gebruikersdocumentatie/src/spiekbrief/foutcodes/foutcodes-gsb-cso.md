@@ -200,7 +200,7 @@ Gemarkeerd veld: foutmelding op 3.2.3 (eerste zitting) of 2.3.2 (volgende zittin
 
 > Invoerder: **Controleer je antwoorden**
 
-> Coördinator: **Deze vraag moet overgelagen worden**  
+> Coördinator: **Deze vraag moet overgeslagen worden**  
 > D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting) moet overgeslagen worden.
 
 Gemarkeerd veld: foutmelding op 3.2.3 (eerste zitting) of 2.3.2 (volgende zitting)

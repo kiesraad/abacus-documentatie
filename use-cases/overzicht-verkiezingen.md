@@ -12,6 +12,7 @@ __Let op:__ Dit document beschrijft alleen de verkiezingen die op dit moment doo
 | Waterschappen      | AB               | AB2 (19 of meer zetels)    |  gemeente  |  -  |  waterschap  |
 | Provinciale Staten | PS               | PS1 (geen kieskringen)     |  gemeente  |  -  |  *           |
 | Provinciale Staten | PS               | PS2 (kieskringen)          |  gemeente  |  *  |  *           |
+| Tweede Kamer       | TK               | TK                         |  gemeente  |  *  |  *    |
 
 "-": niet van toepassing.  
 "*": nog niet ondersteund door Abacus.
@@ -29,3 +30,7 @@ __Let op:__ Dit document beschrijft alleen de verkiezingen die op dit moment doo
 - De volgende provincies hebben kieskringen (PS2): Gelderland (2 kieskringen), Noord-Holland (3 kieskringen), Zuid-Holland (4 kieskringen), Noord-Brabant (2 kieskringen), Limburg (2 kieskringen).
 - PS1: Er zijn meerdere GSB's voor elk CSB.
 - PS2: Er zijn meerdere GSB's voor elk HSB. Er zijn 2-4 HSB's voor elk CSB.
+
+### Tweede Kamerverkiezingen
+- Er zijn 20 kieskringen in totaal
+- Er zijn meerdere GSB's voor elke kieskring. De kieskring is het HSB (er zijn dus 20 HSB's in totaal). De Kiesraad is het CSB.

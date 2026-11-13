@@ -267,7 +267,7 @@ Gemarkeerd veld: foutmelding op 2.3.2
 
 > Invoerder: **Controleer je antwoorden**
 
-> Coördinator: **Deze vraag moet overgelagen worden**  
+> Coördinator: **Deze vraag moet overgeslagen worden**  
 > D en H zijn gelijk, dus er is geen onverklaard verschil. Vraag 2.3.2 moet overgeslagen worden. Is op het proces-verbaal duidelijk te zien wat de bedoeling was?
 >
 > - Zo ja: laat dat dan overnemen in Abacus.
