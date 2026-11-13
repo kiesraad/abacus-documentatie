@@ -15,7 +15,7 @@ Eerst kopieer je het certificaat naar de clients. Dit kun je op twee manieren do
 
 ### Via de browser
 
-- Typ in de browser `http://[ip-van-Abacus-server]/ca.cer` (voor Windows) of `http://[ip-van-Abacus-server]/ca.pem` (voor Linux), dus bijvoorbeeld `http://192.168.1.10/ca.cer`, en druk op enter. Hiermee download je het certificaat direct van de Abacus-server.
+- Typ in de browser `http://[ip-van-Abacus-server]/ca.cer` (op Windows-clients) of `http://[ip-van-Abacus-server]/ca.pem` (op Linux-clients), dus bijvoorbeeld `http://192.168.1.10/ca.cer`, en druk op enter. Hiermee download je het certificaat direct van de Abacus-server.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
 > Zorg dat je **http** typt, niet **https**. Met https probeert de browser het certificaat te herkennen terwijl je dit nog niet hebt geïnstalleerd.
@@ -23,7 +23,7 @@ Eerst kopieer je het certificaat naar de clients. Dit kun je op twee manieren do
 ### Via USB
 
 - Ga naar het certificaatbestand op de server. Op Windows open je hiervoor de gegevensmap met de snelkoppeling **Abacus data** op het bureaublad en ga je naar de map `tls`. Op Linux staat het bestand in de map `/var/lib/abacus/tls`.
-- Het bestand `ca.cer` is het certificaat voor Windows en webbrowsers, en het bestand `ca.pem` is het certificaat voor Linux.
+- Het bestand `ca.cer` is het certificaat voor Windows-clients en webbrowsers, en het bestand `ca.pem` is het certificaat voor Linux-clients.
 - Kopieer het naar een USB-stick en vervolgens naar een handige map op de client.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
