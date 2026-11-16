@@ -70,9 +70,10 @@ Voor verschillende Linux-distributies bestaan meerdere manieren om het certifica
 
 ### Installeren op de server en clients
 
-Kopieer het certificaat naar de map `/usr/local/share/ca-certificates`. Vervolgens voeg je het certificaat toe aan de certificaatset van het besturingssysteem:
+Kopieer het certificaat naar de map `/usr/local/share/ca-certificates`. Vervolgens hernoem je het bestand en voeg je het certificaat toe aan de certificaatset van het besturingssysteem:
 
 ```
+sudo mv ca.pem ca.crt
 sudo update-ca-certificates
 ```
 
@@ -80,10 +81,10 @@ sudo update-ca-certificates
 
 Ter controle vergelijk je de SHA-256-vingerafdruk van het certificaat met de SHA-256-vingerafdruk in het servicelog van de Abacus-service.
 
-Met deze opdracht vind je de vingerafdruk van het certificaat `ca.pem`:
+Met deze opdracht vind je de vingerafdruk van het certificaat `ca.crt`:
 
 ```
-openssl x509 -in ca.pem -noout -fingerprint -sha256
+openssl x509 -in ca.crt -noout -fingerprint -sha256
 ```
 
 En met deze opdracht vind je de vingerafdruk in het servicelog:
