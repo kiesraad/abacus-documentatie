@@ -18,4 +18,4 @@ In dit document leggen we uit hoe je Abacus installeert.
 
 ## Problemen oplossen
 
-Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Installatie](../introductie/bekende-problemen.md#installatie) in de introductie.
+Bekende problemen en de oplossingen hiervoor vind je in het hoofdstuk [Problemen oplossen - Installatie](../introductie/problemen-oplossen.md#installatie) in de introductie.

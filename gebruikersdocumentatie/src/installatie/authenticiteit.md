@@ -26,7 +26,7 @@ certutil -hashfile abacus-windows-setup-[versie].exe SHA256
 
 De hashcode staat onder de opgegeven opdracht. Deze hashcode controleer je met de hashcode die op de website van de Kiesraad staat. Als de hashcode identiek is, kun je Abacus installeren.
 
-![De opdracht en de uitvoer in de opdrachtprompt](./img/opdrachtprompt-certutil.png)
+![De opdracht en de uitvoer in de opdrachtprompt](./img/opdrachtprompt-certutil.png)  
 *Dit is een voorbeeld van de hashcode in de opdrachtprompt*
 
 ## Authenticiteit vaststellen op Linux
@@ -42,7 +42,7 @@ sha256sum abacus-linux-[versie].tar.gz
 
 De hashcode staat vervolgens onder de opgegeven opdracht. Deze hashcode controleer je met de hashcode die op de website van de Kiesraad staat. Als de hashcode identiek is, kun je Abacus installeren.
 
-![De hashcode in Linux](./img/linux-sha256sum.png)
+![De hashcode in Linux](./img/linux-sha256sum.png) 
 *Dit is een voorbeeld van de hashcode in de terminal*
 
 ## Hashcode klopt niet

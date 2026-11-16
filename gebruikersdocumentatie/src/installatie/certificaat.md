@@ -40,7 +40,7 @@ Op Windows controleer je de SHA-1-vingerafdruk. Ga eerst naar de vingerafdruk va
 - Dubbelklik op het beveiligingscertificaat en selecteer bovenaan het tabblad **Details**.
 - In het venster selecteer je **Vingerafdruk**. De waarde zie je in het onderstaande veld.
 
-![SHA-1-vingerafdruk van het certificaat](./img/windows-sha-1-cert.png)
+![SHA-1-vingerafdruk van het certificaat](./img/windows-sha-1-cert.png)  
 *Dit is een voorbeeld van de SHA-1-vingerafdruk van het certificaat*
 
 Ter controle vergelijk je deze vingerafdruk met de vingerafdruk in het logbestand. Die vind je zo:
@@ -48,7 +48,7 @@ Ter controle vergelijk je deze vingerafdruk met de vingerafdruk in het logbestan
 - Op de server open je de gegevensmap via de snelkoppeling **Abacus data** op het bureaublad en ga je naar de map `logs`.
 - Open het bestand `abacus` en zoek naar de regel *SHA-1 fingerprint*. De waarde staat op dezelfde regel.
 
-![SHA-1-vingerafdruk in het log van Abacus](./img/windows-sha-1-log.png)
+![SHA-1-vingerafdruk in het log van Abacus](./img/windows-sha-1-log.png)  
 *Dit is een voorbeeld van de SHA-1-vingerafdruk in het log van Abacus*
 
 ### Installeren op de client

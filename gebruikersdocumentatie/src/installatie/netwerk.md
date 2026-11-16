@@ -58,4 +58,4 @@ Zorg dat Abacus op de server draait en het beveiligingscertificaat is geïnstall
 
 ## Meer informatie
 
-Meer informatie over de vereisten voor de computer en het besturingssysteem vind je in het hoofdstuk [Systeemvereisten](../systeemvereisten.md).
+Meer informatie over de vereisten voor de computer en het besturingssysteem vind je in het hoofdstuk [Systeemvereisten](./systeemvereisten.md).
