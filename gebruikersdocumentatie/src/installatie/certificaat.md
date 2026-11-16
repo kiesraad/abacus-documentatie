@@ -46,7 +46,7 @@ Op Windows controleer je de SHA-1-vingerafdruk. Ga eerst naar de vingerafdruk va
 Ter controle vergelijk je deze vingerafdruk met de vingerafdruk in het logbestand. Die vind je zo:
 
 - Op de server open je de gegevensmap via de snelkoppeling **Abacus data** op het bureaublad en ga je naar de map `logs`.
-- Open het bestand `abacus` en zoek naar de regel *SHA-1 fingerprint*. De waarde staat op dezelfde regel.
+- Open het bestand `abacus.log` en zoek naar de regel *SHA-1 fingerprint*. De waarde staat op dezelfde regel.
 
 ![SHA-1-vingerafdruk in het log van Abacus](./img/windows-sha-1-log.png)  
 *Dit is een voorbeeld van de SHA-1-vingerafdruk in het log van Abacus*
@@ -122,4 +122,4 @@ Als een systeembrede installatie van het beveiligingscertificaat niet werkt, ins
 ## Problemen oplossen
 
 - Het kan voorkomen dat de browser op de client een foutmelding geeft nadat het certificaat is geïnstalleerd. Start de browser dan opnieuw. Als dit niet werkt, start je de computer opnieuw op.
-- Als de netwerkconfiguratie wijzigt wanneer Abacus al is gestart, werkt het certificaat mogelijk niet goed meer op Windows. Herstart op de server dan de Abacus-service of start Windows opnieuw op, zodat Abacus het certificaat opnieuw kan aanmaken.
+- Als de netwerkconfiguratie wijzigt wanneer Abacus al is gestart, werkt het certificaat mogelijk niet goed meer op Windows. Herstart op de server dan de Abacus-service of start Windows opnieuw op, zodat Abacus het servercertificaat opnieuw kan aanmaken. Op de clients hoef je het certificaat niet opnieuw te installeren.
