@@ -6,7 +6,7 @@ Ga naar **Instellingen** → **Apps** → **Geïnstalleerde apps**. Zoek vervolg
 
 ## Op Linux
 
-Stop de Abacus-service, schakel de service uit en verwijder de bestanden. Herstart daarna systemd.
+Stop de Abacus-service, schakel de service uit en verwijder de bestanden. Herlaad daarna de systemd-configuratie.
 
 ```
 sudo systemctl disable --now abacus.service
