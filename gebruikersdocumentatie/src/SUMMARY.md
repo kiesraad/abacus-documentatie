@@ -24,6 +24,7 @@
   - [Installeren op Linux](./installatie/linux.md)
   - [Beveiligingscertificaat](./installatie/certificaat.md)
   - [Starten met lege database](./installatie/lege-database.md)
+  - [Abacus verwijderen](./installatie/verwijderen.md)
   - [Systeemvereisten](./installatie/systeemvereisten.md)
   - [Browserondersteuning](./installatie/browser.md)
 
