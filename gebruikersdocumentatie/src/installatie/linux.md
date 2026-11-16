@@ -2,7 +2,7 @@
 
 Met deze methode installeer je Abacus op een Linux-computer.
 
-De installatiemethode voor Linux werkt op alle gangbare (recente) Linux-distributies en zijn getest op Ubuntu (24.04 en 26.04).
+De installatiemethode voor Linux werkt op alle gangbare (recente) Linux-distributies en is getest op Ubuntu (24.04 en 26.04).
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
 > Het beveiligingscertificaat wordt tijdens de installatie in de map `/var/lib/abacus/tls` geplaatst. Dit certificaat kun je daarna op alle computers installeren volgens de instructies in het hoofdstuk [Beveiligingscertificaat](./certificaat.md).
