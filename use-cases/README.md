@@ -4,7 +4,7 @@ Scope van deze use cases:
 - gemeenteraadsverkiezingen (GR)
 - waterschapsverkiezingen (WS)
 - Provinciale Statenverkiezingen (PS) - alleen het gemeentelijk stembureau (GSB).
-- Tweede Kamerverkiezingen (TK) - alleen het gemeentelijk stembureau (GSB).
+- Tweede Kamerverkiezingen (TK) - alleen het gemeentelijk stembureau (GSB) en het hoofdstembureau (HSB).
 
 Voor meer details, zie [Overzicht verkiezingen](./overzicht-verkiezingen.md).
 

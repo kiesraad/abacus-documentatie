@@ -4,15 +4,15 @@ __Let op:__ Dit document beschrijft alleen de verkiezingen die op dit moment doo
 
 ## Verkiezingen
 
-| Verkiezingen       | ElectionCategory | ElectionSubcategory        | GSB        | HSB | CSB          |
-| ------------------ | ---------------- | -------------------------- | ---------- | --- | ------------ |
-| Gemeenteraad       | GR               | GR1 (minder dan 19 zetels) |  gemeente  |  -  |  gemeente    |
-| Gemeenteraad       | GR               | GR2 (19 of meer zetels)    |  gemeente  |  -  |  gemeente    |
-| Waterschappen      | AB               | AB1 (minder dan 19 zetels) |  -         |  -  |  -           |
-| Waterschappen      | AB               | AB2 (19 of meer zetels)    |  gemeente  |  -  |  waterschap  |
-| Provinciale Staten | PS               | PS1 (geen kieskringen)     |  gemeente  |  -  |  *           |
-| Provinciale Staten | PS               | PS2 (kieskringen)          |  gemeente  |  *  |  *           |
-| Tweede Kamer       | TK               | TK                         |  gemeente  |  *  |  *    |
+| Verkiezingen       | ElectionCategory | ElectionSubcategory        | GSB       | HSB | CSB       |
+| ------------------ | ---------------- | -------------------------- | --------- | --------- | ----------|
+| Gemeenteraad       | GR               | GR1 (minder dan 19 zetels) | gemeente | -  | gemeente   |
+| Gemeenteraad       | GR               | GR2 (19 of meer zetels)    | gemeente | -  | gemeente   |
+| Waterschappen      | AB               | AB1 (minder dan 19 zetels) | -        | -  | -          |
+| Waterschappen      | AB               | AB2 (19 of meer zetels)    | gemeente | -  | waterschap|
+| Provinciale Staten | PS               | PS1 (geen kieskringen)     | gemeente | -  | *          |
+| Provinciale Staten | PS               | PS2 (kieskringen)          | gemeente | *  | *          |
+| Tweede Kamer       | TK               | TK                         | gemeente | kieskring| *    |
 
 "-": niet van toepassing.  
 "*": nog niet ondersteund door Abacus.
