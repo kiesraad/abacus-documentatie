@@ -119,6 +119,27 @@ correctie_gr2026_purmerend_gemeente_purmerend-20251125-144536.zip
     └── Telling_GR2026_Purmerend_gemeente_Purmerend.eml.xml.signature
 ```
 
+#### HSB-zitting Telling (EML 510c)
+```
+definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
+├── Model_O7.pdf
+├── abacus_telling_{election_id}_{region_category|lower}_{region|slugify}.csv
+└── Telling_{election_id}_{region_category|lower}_{region|slugify}.zip
+    └── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml
+    └── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml.signature
+```
+
+Voorbeeld:
+```
+definitieve-documenten_tk2025_kieskring_den-helder-20250103-160614.zip
+├── Model_O7.pdf
+├── abacus_telling_TK2025_kieskring_Den_Helder.csv
+└── Telling_TK2025_kieskring_Den_Helder.zip
+    ├── Telling_TK2025_kieskring_Den_Helder.eml.xml
+    └── Telling_TK2025_kieskring_Den_Helder.eml.xml.signature
+```
+
+
 #### CSB-zitting Totaaltelling (EML 510d)
 ```
 definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
