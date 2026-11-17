@@ -11,6 +11,7 @@
 
 - [Inleiding](./uitproberen/README.md)
   - [Uitproberen](./uitproberen/uitproberen.md)
+  - [Helpfunctie](./uitproberen/help.md)
   - [Testdocumenten](./uitproberen/testdocumenten.md)
   - [Meewerken als ontwikkelaar](./uitproberen/ontwikkelaar.md)
 
@@ -23,7 +24,7 @@
   - [Installeren op Linux](./installatie/linux.md)
   - [Beveiligingscertificaat](./installatie/certificaat.md)
   - [Starten met lege database](./installatie/lege-database.md)
-  - [Help](./installatie/help.md)
+  - [Abacus verwijderen](./installatie/verwijderen.md)
   - [Systeemvereisten](./installatie/systeemvereisten.md)
   - [Browserondersteuning](./installatie/browser.md)
 
