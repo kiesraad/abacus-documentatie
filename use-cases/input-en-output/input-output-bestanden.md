@@ -177,8 +177,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 #### CSV-bestand met tellingen
 
 - tellingen HSB en GSB's
-- waar wordt deze gepubliceerd?
-
+- worden gepubliceerd op de website van de gemeente waarin de kieskring zetelt
 
 
 ## CSB (alleen GR en WS)

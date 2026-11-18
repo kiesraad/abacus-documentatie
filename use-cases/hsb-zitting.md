@@ -10,8 +10,7 @@ __Hoofdscenario:__
 1. [Het HSB controleert de GSB-resultaten en voert ze in.](#het-hsb-controleert-de-gsb-resultaten-en-voert-ze-in-vlieger)
 2. [De coördinator HSB maakt het PV (O 7) en het tellingsbestand EML 510c aan.](#de-coördinator-hsb-maakt-het-pv-o-7-en-het-tellingsbestand-eml-510c-aan-zee)
 3. Het HSB voert het controleprotocol (handmatige controle optellingen software) uit en stelt geen verschillen vast.
-4. Het HSB stelt de totalen van het HSB vast o.b.v. het PV (O 7): controleren op compleetheid,
-   voorlezen, geen additionele bezwaren en bijzonderheden, ondertekenen. En sluit daarmee de zitting.
+4. Het HSB stelt de totalen van het HSB vast o.b.v. het PV (O 7): controleren op compleetheid, ondertekenen. En sluit daarmee de zitting.
 5. Het HSB stelt het tellingsbestand EML 510c beschikbaar aan het hogere stembureau voor de uitslagvaststelling.
 6. Het HSB stelt het PV HSB (O 7) beschikbaar aan de burgemeester.
 7. De burgemeester publiceert het PV HSB (O 7) en brengt het over naar het hogere stembureau.
@@ -29,11 +28,8 @@ applicatie:
 &emsp;&emsp;&emsp; 3a2a1. Het HSB neemt contact op met de Kiesraad.
 
 4a. Het HSB stelt een probleem vast met het PV:  
-&emsp; 4a1. Het HSB stelt het bezwaar vast.  
-&emsp; 4a2. Het HSB gaat over tot hertelling. (zie uitbreiding 4b)
-
-4b. Er zijn bezwaren en/of bijzonderheden tijdens het voorlezen van het PV:  
-&emsp; 4b1. Het HSB voegt de bijzonderheden en/of bezwaren met de hand toe aan het papieren PV.
+&emsp; 4a1. Het HSB stelt het probleem vast.  
+&emsp; 4a2. Het HSB informeert het CSB door sectie 1.2 van het PV (O 7) in te vullen. Het CSB gaat het probleem onderzoeken.
 
 ### Niet in scope
 

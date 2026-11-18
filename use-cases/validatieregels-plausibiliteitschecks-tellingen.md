@@ -6,7 +6,7 @@
 Een fout wijst op een probleem in het papieren proces-verbaal. Dit probleem moet opgelost worden voordat een tweede invoerder aan de slag gaat. Als een proces-verbaal gecorrigeerd wordt, moet het proces-verbaal twee keer opnieuw ingevoerd worden.
 
 **[Waarschuwing](#plausibiliteitschecks-geven-waarschuwingen)**:
-Een waarschuwing wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. Dit moet het GSB of HSB verklaren, anders kan dit resulteren in een nieuwe zitting.
+Een waarschuwing wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. Dit moet het GSB verklaren, anders kan dit resulteren in een nieuwe zitting.
 
 ### Meerdere fouten en waarschuwingen in 1 response
 
@@ -39,11 +39,11 @@ De foutmelding die wordt getoond bestaat uit vier onderdelen:
 
 Titel, nummer en toelichting zijn uniek voor iedere foutmelding. Het handelingsperspectief is voor alle meldingen gelijk, en is als volgt:
 
-Invoerder (GSB CSO, GSB DSO, HSB, CSB; bij fouten):
+Invoerder (GSB CSO, GSB DSO, CSB; bij fouten):
 > - Heb je iets niet goed overgenomen? Herstel de fout en ga verder.
 > - Heb je alles gecontroleerd en komt je invoer overeen met het papier? Ga dan verder.
 
-Coördinator (GSB CSO, GSB DSO, HSB, CSB; bij fouten)
+Coördinator (GSB CSO, GSB DSO; bij fouten)
 > - Controleer of de invoer in Abacus goed is overgenomen van het papieren proces-verbaal.
 > - Zit de fout ook in het papieren proces-verbaal? Los de fout dan daar op.
 
