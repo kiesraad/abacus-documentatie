@@ -217,7 +217,7 @@ _N.B. In een volgende zitting is het de coördinator die o.b.v. de Na 14-1 versi
 
 #### F.201 `stempassen + volmachten + kiezerspassen <> totaal toegelaten kiezers`
 
-> Invoerder (GSB CSO, GSB DSO, CSB, HSB): **Controleer je antwoorden** (F.201)
+> Invoerder (GSB CSO, GSB DSO, HSB, CSB): **Controleer je antwoorden** (F.201)
 
 > Coördinator (GSB CSO): **A, B en C tellen niet op tot D** (F.201)  
 > Controleer in rubriek 3.3 (eerste zitting) of 2.3 (volgende zitting) of er een onverklaard verschil opgelost wordt als het juiste getal bij D wordt ingevuld.
