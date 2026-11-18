@@ -56,8 +56,8 @@ applicatie:
 &emsp;&emsp;&emsp; 7a2a1. Het GSB neemt contact op met de Kiesraad.
 
 8a. Het GSB stelt een probleem vast met het PV:  
-&emsp; 8a1. Het GSB stelt het bezwaar vast.  
-&emsp; 8a2. Het GSB gaat over tot hertelling. (zie uitbreiding 4b)
+&emsp; 8a1. Het GSB stelt het probleem vast.  
+&emsp; 8a2. Het GSB gaat over tot hertelling. (zie uitbreiding 3b)
 
 8b. Er zijn bezwaren en/of bijzonderheden tijdens het voorlezen van het PV:  
 &emsp; 8b1. Het GSB voegt de bijzonderheden en/of bezwaren met de hand toe aan het papieren PV.

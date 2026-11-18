@@ -33,6 +33,11 @@ P 2a: Proces-verbaal van een gemeentelijk stembureau - Nieuwe zitting
 Geen.
 
 
+## Welke data wordt door het HSB in Abacus ingevoerd?
+
+Geen.
+
+
 ## Welke data wordt door het CSB in Abacus ingevoerd?
 
 Geen.
