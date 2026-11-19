@@ -10,7 +10,7 @@ Naast het toevoegen van de verkiezing en stembureaus voeg je ook (andere) beheer
 4. Voer de gebruikersnaam, de volledige naam (behalve bij een anonieme invoerder) en een tijdelijk wachtwoord in. Bij de eerste keer inloggen moet de gebruiker het wachtwoord wijzigen.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
-> Het type stembureau dat je selecteert voor de gebruiker geldt voor alle verkiezingen in Abacus. Als er bijvoorbeeld een Provinciale Statenverkiezing en een waterschapsverkiezing zijn toegevoegd, heeft een GSB-gebruiker toegang tot beide verkiezingen.
+> Het type stembureau dat je selecteert voor de gebruiker geldt voor alle verkiezingen in Abacus. Als bijvoorbeeld voor zowel een Provinciale Statenverkiezing als een waterschapsverkiezing een GSB is toegevoegd, heeft een GSB-gebruiker toegang tot beide verkiezingen.
 
 ## Gebruiker wijzigen of verwijderen
 
