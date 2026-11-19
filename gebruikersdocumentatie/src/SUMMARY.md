@@ -76,6 +76,7 @@
   - [Zitting voorbereiden](./coordinator-csb/zitting-voorbereiden/README.md)
     - [Gebruikers beheren](./coordinator-csb/zitting-voorbereiden/gebruikers-beheren.md)
   - [Tijdens de zitting](./coordinator-csb/tijdens-zitting/README.md)
+    - [Telling gemeentelijk stembureau importeren](./coordinator-csb/tijdens-zitting/telling-import.md)
     - [Fouten en waarschuwingen](./coordinator-csb/tijdens-zitting/fouten-ws.md)
     - [Verschil tussen eerste en tweede invoer](./coordinator-csb/tijdens-zitting/verschil-invoer.md)
   - [Zitting afronden en proces-verbaal opmaken](./coordinator-csb/zitting-afronden/README.md)

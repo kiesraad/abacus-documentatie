@@ -8,7 +8,7 @@ In dit document leggen we uit hoe je Abacus gebruikt als coördinator bij het ce
 
 ## Wat doe je als coördinator?
 
-Het proces-verbaal van het gemeentelijk stembureau moet twee keer met de hand worden ingevoerd door twee verschillende invoerders. Wanneer de invoer klaar is, rond je de invoerfase af. Abacus berekent dan de zetelverdeling. Na afronding kun je het proces-verbaal samen met het EML-telbestand downloaden.
+Eerst lees je de tellingsbestanden van het onderliggende stembureauniveau in. Daarna moet de invoer nog één keer met de hand worden gedaan en los je eventuele fouten en waarschuwingen op. Wanneer de invoer klaar is, rond je de invoerfase af. Abacus berekent dan de zetelverdeling. Na afronding kun je het proces-verbaal van het centraal stembureau samen met het EML-tellingsbestand downloaden.
 
 ## Problemen oplossen
 
