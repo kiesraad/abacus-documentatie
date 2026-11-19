@@ -209,11 +209,11 @@ _N.B. In een volgende zitting is het de coördinator die o.b.v. de Na 14-1 versi
 ### Regels voor totalen (reeks F.2xx)
 
 | code  | regel | GSB CSO | GSB DSO | HSB | CSB |
-| ----- | ----- | :-----: | :-----: | :-: | :-: |
-| F.201 | stempassen + volmachten + kiezerspassen <> totaal toegelaten kiezers                                     | X | X | X | X |
-| F.202 | E.1 t/m E.n tellen niet op naar E                                                                        | X | X | X | X |
-| F.203 | stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen         | X | X | X | X |
-| F.204 | De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en E = leeg of 0                                   | X | X | X | X |
+| ----- | ------------------------------------------------------------------------------------------------ | :-----: | :-----: | :-: | :-: |
+| F.201 | stempassen + volmachten + kiezerspassen <> totaal toegelaten kiezers| X | X | X | X |
+| F.202 | E.1 t/m E.n tellen niet op naar E| X | X | X | X |
+| F.203 | stemmen op kandidaten + blanco stemmen + ongeldige stemmen <> totaal aantal uitgebrachte stemmen | X | X | X | X |
+| F.204 | De som van lijsttotalen (E.1 t/m E.n) is groter dan 0 en E = leeg of 0| X | X | X | X |
 
 #### F.201 `stempassen + volmachten + kiezerspassen <> totaal toegelaten kiezers`
 
@@ -298,20 +298,20 @@ Veld markeren: E
 ### Regels voor verschillen (reeks F.3xx)
 
 | code  | regel | GSB CSO | GSB DSO | HSB | CSB |
-| ----- | ----- | :-----: | :-----: | :-: | :-: |
-| F.301 | "Vergelijk D&H": (Als checkbox D=H is aangevinkt) `D<>H`                                                                        | X | X |   |   |
-| F.302 | "Vergelijk D&H": (Als checkbox H>D is aangevinkt) `H<=D`                                                                        | X | X |   |   |
-| F.303 | "Vergelijk D&H": (Als checkbox H<D is aangevinkt) `H>=D`                                                                        | X | X |   |   |
-| F.304 | "Vergelijk D&H": Meerdere aangevinkt of geen enkele aangevinkt                                                                  | X | X |   |   |
-| F.305 | (Als D = H) I en/of J zijn ingevuld                                                                                             | X | X |   |   |
-| F.306 | (Als H > D) `I <> H - D`                                                                                                        | X | X |   |   |
-| F.307 | (Als H > D) J is ingevuld                                                                                                       | X | X |   |   |
-| F.308 | (Als H < D) `J <> D - H`                                                                                                        | X | X |   |   |
-| F.309 | (Als H < D) I is ingevuld                                                                                                       | X | X |   |   |
-| F.310 | (Als D <> H) Verklaring voor verschil niks aangevinkt of zowel 'ja' als 'nee' aangevinkt                                        | X | X |   |   |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------| :-----: | :-----: | :-: | :-: |
+| F.301 | "Vergelijk D&H": (Als checkbox D=H is aangevinkt) `D<>H`| X | X |   |   |
+| F.302 | "Vergelijk D&H": (Als checkbox H>D is aangevinkt) `H<=D`| X | X |   |   |
+| F.303 | "Vergelijk D&H": (Als checkbox H<D is aangevinkt) `H>=D`| X | X |   |   |
+| F.304 | "Vergelijk D&H": Meerdere aangevinkt of geen enkele aangevinkt| X | X |   |   |
+| F.305 | (Als D = H) I en/of J zijn ingevuld| X | X |   |   |
+| F.306 | (Als H > D) `I <> H - D`| X | X |   |   |
+| F.307 | (Als H > D) J is ingevuld| X | X |   |   |
+| F.308 | (Als H < D) `J <> D - H`| X | X |   |   |
+| F.309 | (Als H < D) I is ingevuld| X | X |   |   |
+| F.310 | (Als D <> H) Verklaring voor verschil niks aangevinkt of zowel 'ja' als 'nee' aangevinkt| X | X |   |   |
 | F.311 | 2.3.2 Verklaring voor verschil = nee en 'vanwege een onverklaard verschil' in stap 'controles en correcties' is niet aangevinkt |   | X |   |   |
-| F.312 | totaal aantal kiezers <> totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen                     |   |   | X | X |
-| F.313 | (Als D = H) Verklaring voor verschil 'ja' en/of 'nee' aangevinkt                                                                | X | X |   |   |
+| F.312 | totaal aantal kiezers <> totaal aantal uitgebrachte stemmen - meer getelde stemmen + minder getelde stemmen|   |   | X | X |
+| F.313 | (Als D = H) Verklaring voor verschil 'ja' en/of 'nee' aangevinkt| X | X |   |   |
 
 #### F.301 "Vergelijk D&H": (Als checkbox D=H is aangevinkt) `D<>H`
 
@@ -499,10 +499,10 @@ Veld markeren: foutmelding op 3.3.2 (CSO eerste zitting) / 2.3.2 (CSO volgende z
 ### Regels voor kandidaten en lijsttotalen (reeks F.4xx)
 
 | code  | regel | GSB CSO | GSB DSO | HSB | CSB |
-| ----- | ----- | :-----: | :-----: | :-: | :-: |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------- | :-----: | :-----: | :-: | :-: |
 | F.401 | `Er zijn (stemmen op kandidaten of het lijsttotaal van corresponderende E.x is groter dan 0) en het totaal aantal stemmen op een lijst = leeg of 0` | X | X | X | X |
-| F.402 | (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst <> som van aantal stemmen op de kandidaten van die lijst`                        | X | X | X | X |
-| F.403 | (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst komt niet overeen met het lijsttotaal van corresponderende E.x`                  | X | X | X | X |
+| F.402 | (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst <> som van aantal stemmen op de kandidaten van die lijst`| X | X | X | X |
+| F.403 | (Als F.401 niet getoond wordt) `Totaal aantal stemmen op een lijst komt niet overeen met het lijsttotaal van corresponderende E.x`| X | X | X | X |
 
 #### F.401 `Er zijn (stemmen op kandidaten of het lijsttotaal van corresponderende E.x is groter dan 0) en het totaal aantal stemmen op een lijst = leeg of 0`
 > Invoerder (GSB CSO, GSB DSO, HSB, CSB): **Controleer het totaal van de lijst. Is dit veld op het papieren proces-verbaal ook leeg? Dan kan je verdergaan** (F.401)
@@ -588,9 +588,9 @@ Coördinator (GSB CSO, GSB DSO; bij waarschuwingen):
 ### Checks voor alle velden (reeks W.0xx)
 
 | code  | check | GSB CSO | GSB DSO | HSB | CSB |
-| ----- | ----- | :-----: | :-----: | :-: | :-: |
+| ----- | -------------------------------------------------------------------------------------------------------------- | :-----: | :-----: | :-: | :-: |
 | W.001 | (Bij tweede invoer) Niet alle ingevoerde waardes van de tweede invoer zijn gelijk aan die van de eerste invoer | X | X | X | X |
-| W.002 | (Bij correctie) De coördinator heeft velden leeggemaakt die opnieuw ingevuld moeten worden | X | X | X | X |
+| W.002 | (Bij correctie) De coördinator heeft velden leeggemaakt die opnieuw ingevuld moeten worden| X | X | X | X |
 
 #### W.001 (Bij tweede invoer) Niet alle ingevoerde waardes van de tweede invoer zijn gelijk aan die van de eerste invoer
 
@@ -624,13 +624,13 @@ Geen checks.
 ### Checks voor totalen (reeks W.2xx)
 
 | code  | check | GSB CSO | GSB DSO | HSB | CSB |
-| ----- | ----- | :-----: | :-----: | :-: | :-: |
-| W.201 | Aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen                                                      | X | X |   |   |
-| W.202 | Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen                                                   | X | X |   |   |
+| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | :-----: | :-----: | :-: | :-: |
+| W.201 | Aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen| X | X |   |   |
+| W.202 | Aantal ongeldige stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen| X | X |   |   |
 | W.203 | Verschil tussen totaal aantal toegelaten kiezers en totaal aantal uitgebrachte stemmen is groter dan of gelijk aan 2% en groter dan of gelijk aan 15 | X | X |   |   |
-| W.204 | Totaal aantal uitgebrachte stemmen leeg of 0                                                                                                         | X | X | X | X |
-| W.205 | Aantal kiesgerechtigden = leeg of 0                                                                                                                  |   |   | X | X |
-| W.206 | Aantal kiesgerechtigden is kleiner dan aantal stempassen                                                                                             |   |   | X | X |
+| W.204 | Totaal aantal uitgebrachte stemmen leeg of 0| X | X | X | X |
+| W.205 | Aantal kiesgerechtigden = leeg of 0|   |   | X | X |
+| W.206 | Aantal kiesgerechtigden is kleiner dan aantal stempassen|   |   | X | X |
 
 #### W.201 aantal blanco stemmen is groter dan of gelijk aan 3% van het totaal aantal uitgebrachte stemmen
 
