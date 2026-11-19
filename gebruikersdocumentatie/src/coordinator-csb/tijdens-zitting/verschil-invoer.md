@@ -2,15 +2,15 @@
 
 Wanneer een proces-verbaal twee keer is ingevoerd, kan er een verschil zijn tussen de eerste en tweede invoer. Op het statusoverzicht zie je dit bovenaan staan.
 
-## Invoer weggooien
+Controleer welke invoer overeenkomt met het proces-verbaal. Kies de correcte invoer, of bewaar geen van beide invoeren als ze allebei niet overeenkomen met het proces-verbaal.
 
-Controleer welke invoer overeenkomt met het proces-verbaal. Kies de correcte invoer en sla je keuze op. De andere invoer wordt weggegooid en moet opnieuw gedaan worden. Bewaar geen van beide invoeren als ze allebei niet overeenkomen met het proces-verbaal.
+Als je een van beide invoeren kiest, geef je aan wat je wilt doen met de invoer die <ins>niet</ins> klopt. Als je het hele proces-verbaal opnieuw wilt laten invoeren, wordt de invoer die niet klopt weggegooid.
 
 ## Invoer corrigeren
 
-Je kunt er ook voor kiezen om de afwijkende invoer niet helemaal opnieuw te laten doen, maar alleen de afwijkende velden te laten corrigeren door de oorspronkelijke invoerder van die invoer.
+Je kunt er ook voor kiezen om de afwijkende invoer niet helemaal opnieuw te laten doen, maar alleen de afwijkende velden te laten herstellen door de oorspronkelijke invoerder.
 
-Bij de correctie maak je de velden met verschillen leeg. Deze velden worden gemarkeerd met een waarschuwing. De invoerder kan in de correctie-invoer niet zien of nieuwe invoer afwijkt ten opzichte van de andere invoer. Komt de gecorrigeerde invoer na de correctie nog steeds niet overeen met de bewaarde invoer, dan moet je de verschillen opnieuw oplossen.
+Bij de correctie worden de velden met verschillen leeggemaakt. Deze velden worden gemarkeerd met een waarschuwing. De invoerder kan in de correctie-invoer niet zien of nieuwe invoer afwijkt ten opzichte van de andere invoer. Komt de gecorrigeerde invoer na de correctie nog steeds niet overeen met de bewaarde invoer, dan moet je de verschillen opnieuw oplossen.
 
 Correctie is alleen mogelijk als de invoer die bewaard wordt zelf geen fouten bevat.
 
