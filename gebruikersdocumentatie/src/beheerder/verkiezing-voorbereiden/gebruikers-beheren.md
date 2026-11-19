@@ -4,10 +4,13 @@ Naast het toevoegen van de verkiezing en stembureaus voeg je ook (andere) beheer
 
 ![Gebruikers beheren](./img/gebr-beh-beheerder.png)
 
-- Eerst selecteer je de rol van de nieuwe gebruiker: Beheerder, Coördinator of Invoerder. Dit kun je later niet meer aanpassen.
-- Selecteer het type stembureau waarvoor de gebruiker een rol krijgt: *gemeentelijk stembureau (GSB)* of *centraal stembureau (CSB)*.
-- Als de gebruiker een invoerder is, selecteer je eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de volledige naam invoeren.
-- Voer de gebruikersnaam, de volledige naam (behalve bij een anonieme invoerder) en een tijdelijk wachtwoord in. Bij de eerste keer inloggen moet de gebruiker het wachtwoord wijzigen.
+1. Eerst selecteer je de rol van de nieuwe gebruiker: Beheerder, Coördinator of Invoerder. Dit kun je later niet meer aanpassen.
+2. Selecteer het type stembureau waarvoor de gebruiker een rol krijgt: *gemeentelijk stembureau (GSB)* of *centraal stembureau (CSB)*.
+3. Als de gebruiker een invoerder is, selecteer je eerst of het account op naam staat of anoniem is. Voor een anoniem account moet de gebruiker bij de eerste keer inloggen de volledige naam invoeren.
+4. Voer de gebruikersnaam, de volledige naam (behalve bij een anonieme invoerder) en een tijdelijk wachtwoord in. Bij de eerste keer inloggen moet de gebruiker het wachtwoord wijzigen.
+
+> <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
+> Het type stembureau dat je selecteert voor de gebruiker geldt voor alle verkiezingen in Abacus. Als er bijvoorbeeld een Provinciale Statenverkiezing en een waterschapsverkiezing zijn toegevoegd, heeft een GSB-gebruiker toegang tot beide verkiezingen.
 
 ## Gebruiker wijzigen of verwijderen
 
