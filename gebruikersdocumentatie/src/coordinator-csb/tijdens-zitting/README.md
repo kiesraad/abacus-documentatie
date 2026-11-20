@@ -1,6 +1,6 @@
 # Tijdens de zitting
 
-Importeer eerst alle tellingsbestanden van de gemeentelijk stembureaus in de lijst. In sommige gevallen is dat er één. Daarna start je de invoer.
+Wanneer je de invoerfase hebt gestart, importeer je eerst alle tellingsbestanden van de gemeentelijk stembureaus in de lijst. In sommige gevallen is dat er één.
 
 ## Benodigdheden
 

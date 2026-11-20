@@ -1,6 +1,6 @@
 # Verschil tussen eerste en tweede invoer
 
-Wanneer een proces-verbaal twee keer is ingevoerd, kan er een verschil zijn tussen de eerste en tweede invoer. Op het statusoverzicht zie je dit bovenaan staan.
+Wanneer een proces-verbaal is ingevoerd, kan er een verschil zijn tussen de eerste en tweede invoer. Op het statusoverzicht zie je dit bovenaan staan.
 
 Controleer welke invoer overeenkomt met het proces-verbaal. Kies de correcte invoer, of bewaar geen van beide invoeren als ze allebei niet overeenkomen met het proces-verbaal.
 
@@ -15,4 +15,4 @@ Bij het herstel worden de velden met verschillen leeggemaakt. Deze velden worden
 De invoer herstellen is alleen mogelijk als de invoer die bewaard wordt zelf geen fouten bevat.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
-> Herstellen is alleen mogelijk voor een handmatige invoer. De digitale invoer die je hebt geïmporteerd uit het tellingsbestand van het GSB kan niet hersteld worden. Als er een fout in het tellingsbestand zit, dan moet het GSB deze fout oplossen in een nieuwe zitting.
+> Herstellen is alleen mogelijk voor een handmatige invoer. In de digitale invoer die je hebt geïmporteerd uit het tellingsbestand kunnen afwijkingen met het papieren proces-verbaal niet worden hersteld. Er is een tweede handmatige invoer nodig vanaf het papieren proces-verbaal.
