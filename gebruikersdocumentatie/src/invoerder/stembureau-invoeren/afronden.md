@@ -4,4 +4,4 @@ Heb je de laatste lijst ingevoerd en zijn er geen fouten of waarschuwingen, of h
 
 ![Controleren en opslaan](./img/inv-contr-opsl.png)
 
-Je invoer is nu opgeslagen. Geef het proces-verbaal terug aan de coördinator. Als je nog een stembureau wil invoeren, kun je direct een ander stembureaunummer invullen of een stembureau uit de lijst kiezen.
+Wanneer de invoer is opgeslagen, geef je het proces-verbaal terug aan de coördinator. Als je nog een stembureau wil invoeren, kun je direct een ander stembureaunummer invullen of een stembureau uit de lijst kiezen.

@@ -29,4 +29,4 @@ Als je in een gemeente met *decentrale stemopname (DSO)* werkt, kan het voorkome
 
 - Aan het begin van de invoer geef je aan dat je twee documenten hebt. Controleer of de extra pagina **Controles en correcties** als tweede pagina in het proces-verbaal is ingevoegd en neem de vinkjes over in Abacus.
 - Voer eerst het hele proces-verbaal in, maar sla de invoer nog niet op.
-- Pak nu het corrigendum en neem de gecorrigeerde telresultaten over. Nu kun je de invoer opslaan.
+- Pak nu het corrigendum en neem de gewijzigde telresultaten over. Nu kun je de invoer opslaan.
