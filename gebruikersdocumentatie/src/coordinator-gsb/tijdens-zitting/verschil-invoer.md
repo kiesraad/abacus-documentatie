@@ -15,4 +15,4 @@ Bij het herstel worden de velden met verschillen leeggemaakt. Deze velden worden
 De invoer herstellen is alleen mogelijk als de invoer die bewaard wordt zelf geen fouten bevat.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
-> Als na de tweede invoer blijkt dat er waarschijnlijk fouten in het papieren proces-verbaal zijn gemaakt, kun je de invoer die niet klopt niet laten herstellen door de oorspronkelijke invoerder. Laat eerst het papieren proces-verbaal controleren. De invoer wordt verwijderd.
+> Als na de tweede invoer blijkt dat er waarschijnlijk fouten in het papieren proces-verbaal zijn gemaakt, kun je de niet-kloppende invoer niet laten herstellen door de oorspronkelijke invoerder. Laat eerst het papieren proces-verbaal controleren. De invoer wordt verwijderd.
