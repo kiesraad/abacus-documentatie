@@ -1,7 +1,5 @@
 # Publieke sleutels
 
-<introzinnetje>
-
 Het is belangrijk dat de publieke sleutel van het gemeentelijk stembureau wordt geregistreerd bij de Kiesraad. Met de publieke sleutel kan iedereen controleren dat bestanden echt op de computer met Abacus zijn gemaakt en niet zijn gewijzigd.
 
 ## Downloaden en registreren (GSB)
