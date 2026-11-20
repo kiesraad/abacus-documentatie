@@ -92,6 +92,7 @@
   - [Stembureau invoeren](./invoerder/stembureau-invoeren/README.md)
     - [Selecteren en invoeren](./invoerder/stembureau-invoeren/select-inv.md)
     - [Fouten en waarschuwingen](./invoerder/stembureau-invoeren/fouten-ws.md)
+    - [Invoer herstellen](./invoerder/stembureau-invoeren/herstellen.md)
     - [Afronden](./invoerder/stembureau-invoeren/afronden.md)
   - [Pauzeren of afbreken](./invoerder/pauzeren-afbreken.md)
   - [Extra zitting: corrigendum invoeren (alleen GSB)](./invoerder/extra-zitting-corrigendum.md)
