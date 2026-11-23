@@ -17,15 +17,12 @@ __Hoofdscenario:__
 
 __Uitbreidingen:__
 
-1a. Het HSB moet nieuwe aantallen invoeren ter correctie van de eerder ingevoerde tellingen:  
-&emsp; 1a1. Het HSB is al opgeheven en corrigeert de eerder ingevoerde aantallen niet. Dit is de taak van het CSB. Er is dus geen tweede HSB-zitting.
-
 3a. Het HSB stelt verschillen vast d.m.v. het controleprotocol (handmatige controle optellingen software):  
 &emsp; 3a1. Het HSB controleert de resultaten van het controleprotocol.  
 &emsp; 3a2. Het HSB vindt een fout in de resultaten van het controleprotocol en corrigeert deze.  
 &emsp;&emsp; 3a2a. Het HSB vindt geen fout en bevestigt een verschil tussen de controles en de resultaten van de
 applicatie:  
-&emsp;&emsp;&emsp; 3a2a1. Het HSB neemt contact op met de Kiesraad.
+&emsp;&emsp;&emsp; 3a2a1. Het HSB vult rubriek 1.2 (Fouten en vermoedens van fouten) van het PV O 7 in.
 
 4a. Het HSB stelt een probleem vast met het PV:  
 &emsp; 4a1. Het HSB stelt het probleem vast.  
@@ -51,10 +48,8 @@ __Hoofdscenario:__
 __Uitbreidingen:__
 
 3a. Het GSB PV geeft aanleiding tot een terugverwijzing:  
-&emsp; 3a1. Het HSB verwijst terug naar het GSB.  
-&emsp; 3a2. [Gemeentelijk stembureau (GSB) stelt uitkomst vast in volgende zitting (corrigenda)](gsb-volgende-zitting.md#gemeentelijk-stembureau-gsb-stelt-uitkomst-vast-in-volgende-zitting-corrigendum-wolk)  
-&emsp; 3a3. (CSO) Het HSB voegt het Inlegvel Na 31-2 toe aan het PV Na 31-2.  
-&emsp; 3a3. (DSO) Het HSB voegt het Inlegvel N 10-1 toe aan de PV's N 10-1 en voegt het Inlegvel Na 31-1 toe aan het het PV Na 31-1.
+&emsp; 3a1. Het HSB informeert het CSB door sectie 1.2 van het PV (O 7) in te vullen. Het CSB gaat het probleem onderzoeken.  
+
 
 ## De coördinator HSB maakt het PV (O 7) en het tellingsbestand EML 510c aan (zee)
 

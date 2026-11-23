@@ -158,7 +158,6 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 |-------------------|:---:|:---:|---------------------------------------------|:-----------------:|:-----------------:|
 | Na 31-1           |  X  |     | PV GSB - 1ste zitting                       |         X         |                   |
 | Na 31-2           |     |  X  | PV GSB - 1ste zitting                       |         X         |                   |
-| Na 14-2           |  X  |  X  | Corrigendum GSB - 2de zitting               |         X         |                   |
 | O 7            |  X  |  X  | PV HSB                        |                   |         X         |
 
 #### O 7: PV op HSB-niveau

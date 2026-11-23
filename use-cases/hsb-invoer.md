@@ -13,7 +13,7 @@ __Hoofdscenario:__
 N.B. Bij TK zijn er meerdere GSB's - de stappen 2, 3 en 4 worden uitgevoerd voor elk GSB.
 
 1. De coördinator HSB stelt de invoer open.
-2. [De coördinator HSB leest de resultaten van de laatste GSB-zitting in als eerste invoer van het HSB.](#de-coördinator-hsb-leest-de-resultaten-van-de-laatste-gsb-zitting-in-als-eerste-invoer-van-het-hsb-zee)
+2. [De coördinator HSB leest de resultaten van de GSB-zitting in als eerste invoer van het HSB.](#de-coördinator-hsb-leest-de-resultaten-van-de-gsb-zitting-in-als-eerste-invoer-van-het-hsb-zee)
 3. Het HSB voert de resultaten handmatig in als tweede invoer.
 4. De applicatie stelt vast dat beide invoeren gelijk zijn.
 5. (parallel aan invoer resultaten) De coördinator HSB voert de locatie, startdatum en starttijd van de zitting in.
@@ -30,7 +30,7 @@ __Uitbreidingen:__
 
 _Zie ook de flowchart ["Afhandeling fouten en verschillen door coördinator"](./afhandeling-fouten-verschillen-coordinator.md)._
 
-## De coördinator HSB leest de resultaten van de laatste GSB-zitting in als eerste invoer van het HSB (zee)
+## De coördinator HSB leest de resultaten van de GSB-zitting in als eerste invoer van het HSB (zee)
 
 __Niveau:__ gebruikersdoel, zee, 🌊
 
@@ -38,7 +38,7 @@ __Niveau:__ gebruikersdoel, zee, 🌊
 
 __Hoofdscenario:__
 
-1. De coördinator HSB leest het tellingsbestand (EML 510b) in als eerste invoer.
+1. De coördinator HSB leest het tellingsbestand van het GSB (EML 510b) in als eerste invoer.
 2. De applicatie stelt vast dat het tellingsbestand geldig is.
 3. De applicatie stelt vast dat de digitale handtekening van het tellingsbestand klopt met de publieke sleutel van het GSB.
 4. De coördinator HSB stelt vast dat de hash van het tellingsbestand (EML 510b) klopt.
@@ -46,7 +46,7 @@ __Hoofdscenario:__
 __Uitbreidingen:__
 
 2a. Het tellingsbestand (EML 510b) is niet geldig:  
-&emsp; 2a1. Het HSB lost in overleg met het GSB het probleem op en importeert alsnog het bestand.  
+&emsp; 2a1. Het HSB lost in overleg met het GSB het probleem op en importeert alsnog een geldig bestand.  
 &emsp;&emsp; 2a1a. Het HSB slaagt er niet in het probleem op te lossen:  
 &emsp;&emsp;&emsp; 2a1a1. Het HSB doet de eerste invoer handmatig.
 
@@ -69,7 +69,7 @@ __Niveau:__ gebruikersdoel, zee, 🌊
 
 __Hoofdscenario:__
 
-1. De coördinator HSB vergelijkt de eerste en tweede invoer met het papieren PV (DSO: Na 31-1, CSO: Na 31-2; evt. Na 14-2).  
+1. De coördinator HSB vergelijkt de eerste en tweede invoer met het papieren PV (DSO: Na 31-1, CSO: Na 31-2).  
 2. De coördinator HSB stelt vast dat de digitale invoer correct is, maar de handmatige invoer niet.
 3. De coördinator HSB gooit de handmatige invoer weg.
 4. De coördinator HSB laat opnieuw handmatig invoeren.

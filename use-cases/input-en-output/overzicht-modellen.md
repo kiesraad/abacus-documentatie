@@ -36,7 +36,6 @@ Het overzicht van alle input en output van Abacus (dus ook bijvoorbeeld EML_NL) 
 
 - CSO: [Na 31-2](Na31-2.md#welke-data-wordt-door-het-hsb-in-abacus-ingevoerd)
 - DSO: [Na 31-1](Na31-1.md#welke-data-wordt-door-het-hsb-in-abacus-ingevoerd)
-- CSO/DSO: [Na 14-2](Na14-2.md#welke-data-wordt-door-het-hsb-in-abacus-ingevoerd)
 
 ### Output van Abacus
 - [O 7](O7.md#welke-data-zet-abacus-in-dit-proces-verbaal-voor-het-hsb)
