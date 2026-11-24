@@ -1,6 +1,6 @@
 # Beheer
 
-## De beheerder richt de applicatie in voor GSB en/of CSB (wolk)
+## De beheerder richt de applicatie in voor GSB, HSB en/of CSB (wolk)
 
 __Niveau:__ hoog-over, wolk, ☁️
 
@@ -9,8 +9,9 @@ __Niveau:__ hoog-over, wolk, ☁️
 1. [De beheerder installeert de applicatie.](#de-beheerder-installeert-de-applicatie-zee)
 2. De beheerder maakt voor zichzelf een eerste account en wachtwoord aan.
 3. [De beheerder zet het GSB voor de verkiezing in de applicatie.](#de-beheerder-zet-het-gsb-voor-de-verkiezing-in-de-applicatie-zee)
-4. [De beheerder zet het CSB voor de verkiezing in de applicatie.](#de-beheerder-zet-het-csb-voor-de-verkiezing-in-de-applicatie-zee)
-5. [De beheerder maakt de gebruikers aan.](#de-beheerder-maakt-de-gebruikers-aan-zee)
+4. [De beheerder zet het HSB voor de verkiezing in de applicatie.](#de-beheerder-zet-het-hsb-voor-de-verkiezing-in-de-applicatie-zee)
+5. [De beheerder zet het CSB voor de verkiezing in de applicatie.](#de-beheerder-zet-het-csb-voor-de-verkiezing-in-de-applicatie-zee)
+6. [De beheerder maakt de gebruikers aan.](#de-beheerder-maakt-de-gebruikers-aan-zee)
 
 
 ## De beheerder installeert de applicatie (zee)
@@ -105,15 +106,16 @@ __Hoofdscenario:__
 1. [De beheerder leest de verkiezingsdefinitie (EML 110a) in.](#de-beheerder-leest-de-verkiezingsdefinitie-eml-110a-in-vis)
 2. De beheerder selecteert "Hoofdstembureau (HSB)" als rol van het stembureau.
 3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in-vis)
-4. De applicatie maakt het HSB voor de verkiezing aan, met de GSB's uit de verkiezingsdefinitie als stembureaus voor het CSB.
-5. De applicatie maakt de eerste zitting van het HSB aan.
-6. [De beheerder importeert de publieke sleutels van de GSB's.](#de-beheerder-importeert-de-publieke-sleutels-van-de-gsbs-vis)
+4. De applicatie maakt het HSB voor de verkiezing aan, met de GSB's uit de verkiezingsdefinitie als stembureaus voor het HSB.
+5. De beheerder registreert de aangemaakte publieke sleutel.
+6. De applicatie maakt de eerste zitting van het HSB aan.
+7. [De beheerder importeert de publieke sleutels van de GSB's.](#de-beheerder-importeert-de-publieke-sleutels-van-de-gsbs-vis)
 
 __Uitbreidingen:__
 
-6a. Een GSB maakt op een later moment een nieuwe publieke sleutel beschikbaar.  
-&emsp; 6a1. De beheerder HSB importeert de nieuwe publieke sleutel.  
-&emsp; 6a2. De beheerder HSB verwijdert de oude publieke sleutel.
+7a. Een GSB maakt op een later moment een nieuwe publieke sleutel beschikbaar.  
+&emsp; 7a1. De beheerder HSB importeert de nieuwe publieke sleutel.  
+&emsp; 7a2. De beheerder HSB verwijdert de oude publieke sleutel.
 
 
 ## De beheerder zet het CSB voor de verkiezing in de applicatie (zee)
@@ -246,7 +248,7 @@ __Niveau:__ gebruikersdoel, zee, 🌊
 
 __Precondities:__
 
-- De stembureaus zijn niet tijdens [het inrichten van de applicatie](#de-beheerder-richt-de-applicatie-in-voor-gsb-enof-csb-wolk) ingevoerd.
+- De stembureaus zijn niet tijdens [het inrichten van de applicatie](#de-beheerder-richt-de-applicatie-in-voor-gsb-hsb-enof-csb-wolk) ingevoerd.
 - De invoerfase van de zitting is nog niet gestart. Na het starten van de invoerfase kan alleen de [coördinator nog wijzigingen in de lijst met stembureaus aanbrengen](./gsb-eerste-zitting.md#de-coördinator-gsb-bewerkt-de-stembureaus-tijdens-de-eerste-zitting-zee).
 
 ### Hoofdscenario en uitbreidingen
@@ -301,11 +303,11 @@ __Hoofdscenario:__
 
 __Uitbreidingen:__
 
-4-5a. De beheerder heeft de volledige naam niet van de invoerder die nog toegevoegd moet worden:  
-&emsp; 4-5a1. De beheerder maakt een invoerder aan met een gebruikersnaam en tijdelijk wachtwoord, 
+5-7a. De beheerder heeft de volledige naam niet van de invoerder die nog toegevoegd moet worden:  
+&emsp; 5-7a1. De beheerder maakt een invoerder aan met een gebruikersnaam en tijdelijk wachtwoord, 
   maar zonder volledige naam.  
 
-6a. De lijst met gebruikers moet aangepast worden:  
-&emsp; 6a1. De beheerder past de volledige naam aan van een gebruiker.  
-&emsp; 6a2. De beheerder stelt een nieuw tijdelijk wachtwoord in voor een gebruiker.  
-&emsp; 6a3. De beheerder verwijdert een gebruiker.
+8a. De lijst met gebruikers moet aangepast worden:  
+&emsp; 8a1. De beheerder past de volledige naam aan van een gebruiker.  
+&emsp; 8a2. De beheerder stelt een nieuw tijdelijk wachtwoord in voor een gebruiker.  
+&emsp; 8a3. De beheerder verwijdert een gebruiker.
