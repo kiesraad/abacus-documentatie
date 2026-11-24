@@ -10,7 +10,7 @@ Als je een van beide invoeren kiest, geef je aan wat je wilt doen met de invoer 
 
 Je kunt er ook voor kiezen om de afwijkende invoer niet helemaal opnieuw te laten doen, maar alleen de afwijkende velden te laten herstellen door de oorspronkelijke invoerder.
 
-Bij het herstel worden de velden met verschillen leeggemaakt. Deze velden worden gemarkeerd met een waarschuwing. De invoerder kan bij het herstellen van de invoer niet zien of nieuwe invoer afwijkt ten opzichte van de andere invoer. Komt de herstelde invoer na de correctie nog steeds niet overeen met de bewaarde invoer, dan moet je de verschillen opnieuw oplossen.
+Bij het herstel worden de velden met verschillen leeggemaakt. Deze velden worden gemarkeerd met een waarschuwing. De invoerder moet de ontbrekende velden opnieuw overnemen van het papier, en krijgt niet te zien of de nieuwe invoer afwijkt ten opzichte van de andere. Zo blijven de invoeren onafhankelijk van elkaar. Komt de herstelde invoer na de correctie nog steeds niet overeen met de bewaarde invoer, dan moet je de verschillen opnieuw oplossen.
 
 De invoer herstellen is alleen mogelijk als de invoer die bewaard wordt zelf geen fouten bevat.
 
