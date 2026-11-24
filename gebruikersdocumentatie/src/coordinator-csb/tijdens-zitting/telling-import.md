@@ -1,6 +1,6 @@
 # Telling gemeentelijk stembureau importeren
 
-Voordat de invoer kan beginnen, importeer je alle EML-tellingsbestanden (510b) van de gemeentelijk stembureaus in de lijst. In sommige gevallen is dat er één. Van het centraal stembureau heb je instructies gekregen waarmee je de bestanden kunt downloaden. Zet ze op de computer.
+Voordat de invoer kan beginnen, importeer je alle EML-tellingsbestanden (510b) van de gemeentelijk stembureaus in de lijst. Van het centraal stembureau heb je instructies gekregen waarmee je de bestanden kunt downloaden. Zet ze op de Abacus-werkplek van de coördinator.
 
 ## Tellingsbestand uploaden
 
