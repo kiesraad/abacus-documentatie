@@ -3,7 +3,7 @@
 Dit zijn de instructies voor het verwijderen van Abacus op Windows en Linux.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
-> Als je de database, back-ups en logbestanden ook verwijdert, gaan alle gegevens verloren, inclusief de aangemaakte verkiezingen, gebruikers en logbestanden. Kopieer deze bestanden eerst naar een andere plek als je ze toch wilt bewaren.
+> Als je de database, back-ups en logbestanden ook verwijdert, gaan alle gegevens verloren, inclusief de aangemaakte verkiezingen, gebruikers en logbestanden. Kopieer deze bestanden eerst naar een andere plek als je ze toch wil bewaren.
 
 ## Op Windows
 
