@@ -6,7 +6,7 @@ Dit is een overzicht van de fouten en waarschuwingen die je tijdens de invoer ku
 
 **Fout**: een fout wijst op een probleem in het papieren proces-verbaal. Dit probleem moet opgelost worden voordat een tweede invoerder aan de slag gaat. Als een proces-verbaal gecorrigeerd wordt, moet het proces-verbaal twee keer opnieuw ingevoerd worden.
 
-**Waarschuwing**: een waarschuwing wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. De uitslag kan dan nog steeds correct zijn, maar het is wel goed om dit te onderzoeken.
+**Waarschuwing**: een waarschuwing wijst op een opmerkelijk telresultaat in het papieren proces-verbaal. Het telresultaat kan dan nog steeds correct zijn, maar het is wel goed om dit te onderzoeken.
 
 ## Fout
 
