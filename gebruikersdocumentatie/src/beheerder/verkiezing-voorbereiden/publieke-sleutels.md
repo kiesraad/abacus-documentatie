@@ -9,9 +9,6 @@ De publieke sleutel van het **gemeentelijk stembureau** registreer je bij de Kie
 - Maak de publieke sleutel aan via de optie **Publieke sleutel registreren**. Het laden van de publieke sleutel kan even duren. Wanneer dit klaar is, klik je op de naam van de sleutel om het crt-bestand op te slaan op de computer.
 - Upload de sleutel naar het overdrachtsplatform Uitwisseling om de sleutel te registreren. Wanneer je dit hebt gedaan, geef je dat aan in Abacus.
 
-> <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
-> Bij **Provinciale Staten- en waterschapsverkiezingen**: als het gemeentelijk stembureau niet in de lijst met gemeenten staat, dan is de verkeerde verkiezingsdefinitie toegevoegd in Abacus. Voeg de verkiezing opnieuw toe en kies het correcte bestand. Weet je zeker dat de verkiezingsdefinitie correct is maar zie je de gemeente nog steeds niet in de lijst? Neem dan contact op met het CSB.
-
 ## Publieke sleutels importeren (CSB)
 
 Bij een verkiezing voor het **centraal stembureau** importeer je eerst de publieke sleutels van alle gemeentelijk stembureaus.
