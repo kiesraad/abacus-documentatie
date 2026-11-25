@@ -13,7 +13,7 @@ De publieke sleutel van het **gemeentelijk stembureau** registreer je bij de Kie
 
 Bij een verkiezing voor het **centraal stembureau** importeer je eerst de publieke sleutels van alle gemeentelijk stembureaus.
 
-- Download de publieke sleutels van het overdrachtsplatform Uitwisseling en zet ze op de Abacus-werkplek van de beheerder..
+- Download de publieke sleutels van het overdrachtsplatform Uitwisseling en zet ze op de Abacus-werkplek van de beheerder.
 - Laad de sleutels in Abacus via de optie **Publieke sleutel GSB's importeren**. Selecteer de sleutelbestanden een voor een en voeg ze toe. Zorg dat voor elk stembureau een sleutel aanwezig is.
 - Als een gemeentelijk stembureau op een later tijdstip een nieuwe publieke sleutel beschikbaar maakt, importeer je de nieuwe sleutel en verwijder je de oude sleutel.
 
