@@ -4,6 +4,6 @@ Wanneer je de invoerfase hebt gestart, importeer je eerst alle tellingsbestanden
 
 ## Benodigdheden
 
-- Download de **EML-tellingsbestanden (510b)** van de gemeentelijk stembureaus aan de hand van de instructies die je van het centraal stembureau hebt gekregen, en zet ze op de Abacus-werkplek van de coördinator.
+- Download voor elk gemeentelijk stembureau **het ZIP-bestand met daarin het EML-tellingsbestand (510b) en het bestand met de digitale handtekening** aan de hand van de instructies die je van het centraal stembureau hebt gekregen, en zet ze op de Abacus-werkplek van de coördinator.
 - Zorg dat je de **Details van de zitting** invoert via de knop in het overzicht van de verkiezing. Voer de plaatsnaam, datum en starttijd van de zitting in en sla de wijzigingen op. Dit kun je op elk moment tijdens de zitting doen. Abacus stuurt je automatisch naar dit scherm als deze gegevens nog niet zijn ingevuld als je het proces-verbaal gaat printen.
 - Met de knop **Bekijk voortgang** ga je naar de pagina **Statusoverzicht invoer**. Hier zie je in één oogopslag wat de status van de invoer is en wat er nog moet worden ingevoerd. Hier zie je ook welke invoer speciale aandacht van jou als coördinator nodig heeft vanwege fouten en/of waarschuwingen.

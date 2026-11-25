@@ -15,4 +15,4 @@ Bij het herstel worden de velden met verschillen leeggemaakt. Deze velden worden
 De invoer herstellen is alleen mogelijk als de invoer die bewaard wordt zelf geen fouten bevat.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
-> Herstellen is alleen mogelijk voor de handmatige (tweede) invoer. Als de digitale invoer die je hebt geïmporteerd uit het GSB-tellingsbestand afwijkt van het papieren proces-verbaal, kan dit niet worden hersteld in Abacus. Er is een tweede handmatige invoer nodig vanaf het papieren proces-verbaal.
+> Herstellen is alleen mogelijk voor handmatige invoer. Als de digitale invoer die je hebt geïmporteerd uit het GSB-tellingsbestand afwijkt van het papieren proces-verbaal, kan dit niet worden hersteld in Abacus. Er is een tweede handmatige invoer nodig vanaf het papieren proces-verbaal.
