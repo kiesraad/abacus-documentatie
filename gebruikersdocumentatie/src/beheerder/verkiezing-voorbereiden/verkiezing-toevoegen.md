@@ -4,7 +4,7 @@ Wanneer je bent ingelogd in je account, kun je direct een verkiezing toevoegen. 
 
 1. Importeer de **verkiezingsdefinitie (EML 110a)**. Je ziet nu de digitale vingerafdruk die bij het bestand hoort, waarvan twee delen zijn afgeschermd. Voer de ontbrekende delen van de vingerafdruk in. Het aparte TXT-bestand met de volledige digitale vingerafdruk staat in hetzelfde ZIP-bestand als de verkiezingsdefinitie.
 2. Geef aan voor welk **type stembureau** je Abacus wil gebruiken: het gemeentelijk stembureau (GSB) of het centraal stembureau (CSB). Voor elk stembureauniveau maak je een aparte verkiezing aan.
-    - Als je een gemeentelijk stembureau toevoegt voor een Provinciale Statenverkiezing of waterschapsverkiezing, kies je daarna in de lijst voor welke gemeente je het gemeentelijk stembureau wilt toevoegen.
+    - Als je een gemeentelijk stembureau toevoegt, kies je daarna in de lijst voor welke gemeente dat is. Bij gemeenteraadsverkiezingen wordt deze stap overgeslagen omdat elke gemeente een eigen verkiezingsdefinitie heeft.
 3. Importeer de **kandidatenlijsten (EML 230b)**. Net zoals bij de verkiezingsdefinitie voer je de ontbrekende delen van de digitale vingerafdruk in. De digitale vingerafdruk van het EML-bestand met de kandidatenlijsten (EML 230b) vind je in het document *OSV_3-7* dat je downloadt uit OSV2020-KS.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  

@@ -1,6 +1,6 @@
 # Publieke sleutels
 
-Het is belangrijk dat de publieke sleutel van het gemeentelijk stembureau wordt geregistreerd bij de Kiesraad. Met de publieke sleutel kan iedereen controleren dat bestanden echt op de computer met Abacus zijn gemaakt en niet zijn gewijzigd.
+De publieke sleutel van het gemeentelijk stembureau moet worden aangeleverd op het overdrachtsplatform Uitwisseling. Met de publieke sleutel kan iedereen controleren dat bestanden echt op de computer met Abacus zijn gemaakt en niet zijn gewijzigd.
 
 ## Downloaden en registreren (GSB)
 
@@ -21,4 +21,4 @@ Bij een verkiezing voor het **centraal stembureau** importeer je eerst de publie
 - Als een gemeentelijk stembureau op een later tijdstip een nieuwe publieke sleutel beschikbaar maakt, importeer je de nieuwe sleutel en verwijder je de oude sleutel.
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
-> Als de publieke sleutel ongeldig is, probeer het dan opnieuw of zorg dat de juiste sleutel op het overdrachtsplatform wordt geregistreerd. Werkt het nog niet? Dan moet de eerste invoer van het centraal stembureau handmatig worden uitgevoerd.
+> Als de publieke sleutel ongeldig is, probeer het dan opnieuw of zorg dat het gemeentelijk stembureau alsnog de juiste sleutel op het overdrachtsplatform registreert. Werkt het nog niet? Dan moet de eerste invoer van het gemeentelijk stembureau handmatig worden uitgevoerd.

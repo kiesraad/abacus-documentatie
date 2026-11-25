@@ -16,7 +16,7 @@ Op Linux wordt de back-up opgeslagen in de map `backups` die wordt aangemaakt in
 
 ## Back-up terugzetten
 
-Als een bestand weer nodig hebt, kun je dit vanuit de back-uplocatie weer kopiëren naar de gegevensmap.
+Als je een back-up wil terugzetten, doe je dit door het bestand vanuit de back-uplocatie weer te kopiëren naar de gegevensmap. Volg daarbij onderstaande stappen.
 
 - Let erop dat er geen gebruikers ingelogd zijn en zorg dat de Abacus-service is gestopt. Instructies hiervoor vind je in de Instructies voor installeren en starten voor [Windows](../installatie/windows.md#beheren) en [Linux](../installatie/linux.md#beheren).
 - Ga naar de gegevensmap en wijzig de naam van het databasebestand `db.sqlite` naar `db.sqlite.oud`.
