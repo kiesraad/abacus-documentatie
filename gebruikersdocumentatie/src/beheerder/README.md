@@ -5,7 +5,7 @@ Abacus is ontwikkeld ter ondersteuning van het optellen van stembureautotalen en
 De software controleert de handmatige tellingen en telt per niveau de resultaten van de onderliggende niveaus bij elkaar op, zodat tel- en schrijffouten kunnen worden gedetecteerd en voorkomen.
 Zodra bij het centraal stembureau alle totalen bij elkaar zijn opgeteld, berekent Abacus de zetelverdeling volgens de regels in de Kieswet. Abacus genereert ook de definitieve documenten van de zitting, die worden gedownload en op het overdrachtsplatform gezet.
 
-Bij de verkiezingen voor Provinciale Staten en waterschappen in 2027 gaan alle gemeentelijk stembureaus gebruikmaken van Abacus. Daarnaast gebruiken ook de centraal stembureaus van de waterschappen Abacus voor het controleren van de optellingen en het berekenen van de uitslag en de zetelverdeling.
+Bij de verkiezingen voor Provinciale Staten en waterschappen in 2027 gebruiken alle gemeentelijk stembureaus Abacus voor het vastleggen van de telresultaten. Daarnaast gebruiken ook de centraal stembureaus van de waterschappen Abacus voor het controleren van de optellingen en het berekenen van de uitslag en de zetelverdeling.
 
 In dit document leggen we uit hoe je Abacus gebruikt als beheerder.
 
