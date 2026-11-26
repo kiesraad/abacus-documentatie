@@ -21,3 +21,7 @@ Als je een stembureau handmatig invult, voer je de gegevens van het stembureau i
 ## Stembureau wijzigen of verwijderen
 
 In het menu met stembureaus kun je stembureaus ook wijzigen of verwijderen. Klik op het stembureau en wijzig de gegevens, of verwijder het stembureau met de rode knop onderaan het scherm.
+
+## Lijst exporteren
+
+Je kunt de lijst met stembureaus ook exporteren zodat die weer kan worden gebruikt voor een andere verkiezing. In het menu met stembureaus download je de lijst via de knop **Lijst exporteren**. Je downloadt een ZIP-bestand met daarin het EML-bestand met de stembureaus.
