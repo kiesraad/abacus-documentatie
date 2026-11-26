@@ -46,6 +46,7 @@
   - [Account voor beheerder aanmaken](./beheerder/account-beheerder.md)
   - [Verkiezing voorbereiden](./beheerder/verkiezing-voorbereiden/README.md)
     - [Verkiezing toevoegen](./beheerder/verkiezing-voorbereiden/verkiezing-toevoegen.md)
+    - [Publieke sleutels](./beheerder/verkiezing-voorbereiden/publieke-sleutels.md)
     - [Stembureaus beheren (gemeentelijk stembureau)](./beheerder/verkiezing-voorbereiden/stembureaus-beheren.md)
     - [Gebruikers beheren](./beheerder/verkiezing-voorbereiden/gebruikers-beheren.md)
   - [Back-ups van de database](./beheerder/backups.md)

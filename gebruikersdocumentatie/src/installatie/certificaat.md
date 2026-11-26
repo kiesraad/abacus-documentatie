@@ -58,7 +58,7 @@ Op de client sluit je eerst de browser. Ga naar het certificaatbestand en voer d
 - Dubbelklik op het beveiligingscertificaat en selecteer **Certificaat installeren...**.
 - Selecteer **Lokale computer** en ga door. Bij de pop-up sta je toe dat het Windows-hostproces wijzigingen aan het apparaat aanbrengt.
 - Selecteer **Alle certificaten in het onderstaande archief opslaan** en klik op **Bladeren...**.
-- Selecteer **Vertrouwde basiscertificeringsinstanties** en bevestig dit. Nu kun je de wizard voltooien.
+- Selecteer **Vertrouwde basiscertificeringsinstanties** (**Trusted Root Certification Authorities**) en bevestig dit. Nu kun je de wizard voltooien.
 
 Nu open je de browser en controleer je of het werkt door naar https://[ip-van-Abacus-server] te gaan.
 
