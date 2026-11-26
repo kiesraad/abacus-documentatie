@@ -11,18 +11,10 @@ De matrix geldt voor alle door Abacus ondersteunde verkiezingen, zie [Overzicht 
   Kan de applicatie inrichten en klaarzetten voor gebruik.
   Geen bevoegdheden in het uitslagen / telproces.
   Primair bedoeld voor technische medewerkers die verder geen rol in het verkiezingsproces hebben.
-- **Coördinator GSB**:
-  Inhoudelijk expert die de zittingen van het GSB leidt.
-- **Coördinator HSB**:
-  Inhoudelijk expert die de zittingen van het HSB leidt.
-- **Coördinator CSB**:
-  Inhoudelijk expert die de zittingen van het CSB leidt.
-- **Invoerder GSB**:
-  Kan tellingen invoeren tijdens de zitting van het GSB.
-- **Invoerder HSB**:
-  Kan tellingen invoeren tijdens de zitting van het HSB.
-- **Invoerder CSB**:
-  Kan tellingen invoeren tijdens de zitting van het CSB.
+- **Coördinator GSB/HSB/CSB**:
+  Inhoudelijk expert die de zittingen van het GSB, HSB of CSB leidt.
+- **Invoerder GSB/HSB/CSB**:
+  Kan tellingen invoeren tijdens de zitting van het GSB, HSB of CSB.
 
 ## Rollen en rechten
 

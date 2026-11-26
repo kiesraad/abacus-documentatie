@@ -8,10 +8,11 @@ __Niveau:__ hoog-over, wolk, ☁️
 
 1. [De beheerder installeert de applicatie.](#de-beheerder-installeert-de-applicatie-zee)
 2. De beheerder maakt voor zichzelf een eerste account en wachtwoord aan.
-3. [De beheerder zet het GSB voor de verkiezing in de applicatie.](#de-beheerder-zet-het-gsb-voor-de-verkiezing-in-de-applicatie-zee)
-4. [De beheerder zet het HSB voor de verkiezing in de applicatie.](#de-beheerder-zet-het-hsb-voor-de-verkiezing-in-de-applicatie-zee)
-5. [De beheerder zet het CSB voor de verkiezing in de applicatie.](#de-beheerder-zet-het-csb-voor-de-verkiezing-in-de-applicatie-zee)
-6. [De beheerder maakt de gebruikers aan.](#de-beheerder-maakt-de-gebruikers-aan-zee)
+3. De beheerder zet één of meerdere *SB's voor de verkiezing in de applicatie:
+  - [GSB: gemeentelijk stembureau](#de-beheerder-zet-het-gsb-voor-de-verkiezing-in-de-applicatie-zee)
+  - [HSB: hoofdstembureau](#de-beheerder-zet-het-hsb-voor-de-verkiezing-in-de-applicatie-zee)
+  - [CSB: centraal stembureau](#de-beheerder-zet-het-csb-voor-de-verkiezing-in-de-applicatie-zee)
+4. [De beheerder maakt de gebruikers aan.](#de-beheerder-maakt-de-gebruikers-aan-zee)
 
 
 ## De beheerder installeert de applicatie (zee)
@@ -293,21 +294,17 @@ __Niveau:__ gebruikersdoel, zee, 🌊
 __Hoofdscenario:__
 
 1. De beheerder maakt beheerders aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-2. De beheerder maakt coördinatoren voor het GSB aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-3. De beheerder maakt coördinatoren voor het HSB aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-4. De beheerder maakt coördinatoren voor het CSB aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-5. De beheerder maakt invoerders voor het GSB aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-6. De beheerder maakt invoerders voor het HSB aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-7. De beheerder maakt invoerders voor het CSB aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-8. De beheerder controleert de lijst met gebruikers en stelt vast dat alle gebruikers goed zijn.
+2. De beheerder maakt coördinatoren voor de relevante *SB's aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
+3. De beheerder maakt invoerders voor de relevante *SB's aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
+4. De beheerder controleert de lijst met gebruikers en stelt vast dat alle gebruikers goed zijn.
 
 __Uitbreidingen:__
 
-5-7a. De beheerder heeft de volledige naam niet van de invoerder die nog toegevoegd moet worden:  
-&emsp; 5-7a1. De beheerder maakt een invoerder aan met een gebruikersnaam en tijdelijk wachtwoord, 
+3a. De beheerder heeft de volledige naam niet van de invoerder die nog toegevoegd moet worden:  
+&emsp; 3a1. De beheerder maakt een invoerder aan met een gebruikersnaam en tijdelijk wachtwoord, 
   maar zonder volledige naam.  
 
-8a. De lijst met gebruikers moet aangepast worden:  
-&emsp; 8a1. De beheerder past de volledige naam aan van een gebruiker.  
-&emsp; 8a2. De beheerder stelt een nieuw tijdelijk wachtwoord in voor een gebruiker.  
-&emsp; 8a3. De beheerder verwijdert een gebruiker.
+4a. De lijst met gebruikers moet aangepast worden:  
+&emsp; 4a1. De beheerder past de volledige naam aan van een gebruiker.  
+&emsp; 4a2. De beheerder stelt een nieuw tijdelijk wachtwoord in voor een gebruiker.  
+&emsp; 4a3. De beheerder verwijdert een gebruiker.

@@ -154,11 +154,12 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 
 ### Documenten
 
-| Model (onderdeel) | DSO | CSO | Doel                                        | input voor Abacus | output van Abacus |
-|-------------------|:---:|:---:|---------------------------------------------|:-----------------:|:-----------------:|
-| Na 31-1           |  X  |     | PV GSB - 1ste zitting                       |         X         |                   |
-| Na 31-2           |     |  X  | PV GSB - 1ste zitting                       |         X         |                   |
-| O 7            |  X  |  X  | PV HSB                        |                   |         X         |
+| Model (onderdeel) | DSO | CSO | Doel                              |'leeg' document uit Abacus| input voor Abacus | output van Abacus |
+|-------------------|:---:|:---:|-----------------------------------|:---------------------------:|:-----------------:|:-----------------:|
+| Na 31-1           |  X  |     | PV GSB - 1ste zitting ||         X         |                   |
+| Na 31-2           |     |  X  | PV GSB - 1ste zitting |       |         X         |                   |
+| O 7            |  X  |  X  | PV HSB |                  | |         X         |
+| O 7 Inlegvel  |     |  X  | Inlegvel n.a.v. controle door CSB |         X         |                   ||
 
 #### O 7: PV op HSB-niveau
 

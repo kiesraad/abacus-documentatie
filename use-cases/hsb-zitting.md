@@ -12,8 +12,7 @@ __Hoofdscenario:__
 3. Het HSB voert het controleprotocol (handmatige controle optellingen software) uit en stelt geen verschillen vast.
 4. Het HSB stelt de totalen van het HSB vast o.b.v. het PV (O 7): controleren op compleetheid, ondertekenen. En sluit daarmee de zitting.
 5. Het HSB stelt het tellingsbestand EML 510c beschikbaar aan het hogere stembureau voor de uitslagvaststelling.
-6. Het HSB stelt het PV HSB (O 7) beschikbaar aan de burgemeester.
-7. De burgemeester publiceert het PV HSB (O 7) en brengt het over naar het hogere stembureau.
+6. Het HSB stelt het PV HSB (O 7) vast, publiceert het PV en brengt het over naar het hogere stembureau.
 
 __Uitbreidingen:__
 
@@ -22,15 +21,10 @@ __Uitbreidingen:__
 &emsp; 3a2. Het HSB vindt een fout in de resultaten van het controleprotocol en corrigeert deze.  
 &emsp;&emsp; 3a2a. Het HSB vindt geen fout en bevestigt een verschil tussen de controles en de resultaten van de
 applicatie:  
-&emsp;&emsp;&emsp; 3a2a1. Het HSB vult rubriek 1.2 (Fouten en vermoedens van fouten) van het PV O 7 in.
+&emsp;&emsp;&emsp; 3a2a1. Het HSB neemt contact op met de Kiesraad en vult sectie 2.5 (Uitkomst controleprotocol) van het PV O 7 aan met de verschillen.
 
 4a. Het HSB stelt een probleem vast met het PV:  
-&emsp; 4a1. Het HSB stelt het probleem vast.  
-&emsp; 4a2. Het HSB informeert het CSB door sectie 1.2 van het PV (O 7) in te vullen. Het CSB gaat het probleem onderzoeken.
-
-### Niet in scope
-
-- Elektronische handtekening van documenten.
+&emsp; 4a1. Het HSB corrigeert het probleem.
 
 
 ## Het HSB controleert de GSB-resultaten en voert ze in (vlieger)
