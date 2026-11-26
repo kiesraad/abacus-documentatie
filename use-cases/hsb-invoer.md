@@ -79,25 +79,18 @@ __Uitbreidingen:__
 2a. De coördinator HSB stelt vast dat de digitale invoer incorrect is, maar de handmatige wel correct is:  
 &emsp; 2a1. De coördinator HSB gooit de digitale invoer weg.  
 &emsp; 2a2. De coördinator HSB laat een keer extra handmatig invoeren.  
-&emsp;&emsp; 2a2a. De coördinator HSB wil, in plaats van de digitale invoer helemaal weg te gooien, alleen de afwijkende velden daarvan laten corrigeren:  
-&emsp;&emsp;&emsp; 2a2a1. De applicatie biedt voor een digitale invoer de correctie-optie niet aan en toont een melding.  
-&emsp;&emsp;&emsp; 2a2a2. De coördinator HSB gooit de digitale invoer weg en laat een keer extra handmatig invoeren (2a1 en 2a2).
+&emsp; 2a3. HSB maakt hier een melding van in het PV (O 7).
+
 
 2b. De coördinator HSB stelt vast dat zowel de digitale als de handmatige invoer niet correct zijn:  
 &emsp; 2b1. De coördinator HSB gooit beide invoeren weg.  
 &emsp; 2b2. De coördinator HSB laat twee keer opnieuw handmatig invoeren.
 
 2c. Beide invoeren zijn handmatig gedaan:  
-&emsp; 2c1. De coördinator HSB gooit de incorrecte invoer(en) weg.  
-&emsp; 2c2. De coördinator HSB laat de invoer(en) opnieuw handmatig invoeren.
+&emsp; 2c1. De coördinator HSB lost de verschillen op zoals beschreven in [De coördinator GSB beoordeelt de verschillen tussen de twee invoeren.](gsb-invoer.md#de-coördinator-gsb-beoordeelt-de-verschillen-tussen-de-twee-invoeren-zee)
 
 3a. De coördinator HSB laat, in plaats van de handmatige invoer helemaal weg te gooien, alleen de afwijkende velden daarvan corrigeren door dezelfde invoerder:  
 &emsp; 3a1. De applicatie bewaart de digitale invoer als referentie en wist de afwijkende velden in de handmatige invoer, gemarkeerd met waarschuwing [W.002](./validatieregels-plausibiliteitschecks-tellingen.md#w002-bij-correctie-de-coördinator-heeft-velden-leeggemaakt-die-opnieuw-ingevuld-moeten-worden). (W.001 wordt bij een correctie-invoer niet getoond.)  
 &emsp; 3a2. De invoerder corrigeert de gemarkeerde velden aan de hand van het PV.
-
-3b. De invoer die de coördinator HSB als correcte invoer wil bewaren, bevat zelf geaccepteerde fouten:  
-&emsp; 3b1. De applicatie biedt de correctie-optie niet aan en toont een informatiemelding.  
-&emsp; 3b2. De coördinator HSB gooit de andere invoer weg.  
-&emsp; 3b3. De coördinator HSB lost de fouten in de bewaarde invoer op.
 
 _Zie ook de flowchart ["Afhandeling fouten en verschillen door coördinator"](./afhandeling-fouten-verschillen-coordinator.md)._

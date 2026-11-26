@@ -78,10 +78,7 @@ __Uitbreidingen:__
 
 2a. De coördinator CSB stelt vast dat de digitale invoer incorrect is, maar de handmatige wel correct is:  
 &emsp; 2a1. De coördinator CSB gooit de digitale invoer weg.  
-&emsp; 2a2. De coördinator CSB laat een keer extra handmatig invoeren.  
-&emsp;&emsp; 2a2a. De coördinator CSB wil, in plaats van de digitale invoer helemaal weg te gooien, alleen de afwijkende velden daarvan laten corrigeren:  
-&emsp;&emsp;&emsp; 2a2a1. De applicatie biedt voor een digitale invoer de correctie-optie niet aan en toont een melding.  
-&emsp;&emsp;&emsp; 2a2a2. De coördinator CSB gooit de digitale invoer weg en laat een keer extra handmatig invoeren (2a1 en 2a2).
+&emsp; 2a2. De coördinator CSB laat een keer extra handmatig invoeren.
 
 2b. De coördinator CSB stelt vast dat zowel de digitale als de handmatige invoer niet correct zijn:  
 &emsp; 2b1. De coördinator CSB gooit beide invoeren weg.  
