@@ -1,6 +1,6 @@
 # Verkiezing toevoegen
 
-Wanneer je bent ingelogd in je account, kun je direct een verkiezing toevoegen. Als er al een verkiezing is en je nog een verkiezing wilt toevoegen, doe je dit via **Verkiezingen beheren** in het hoofdmenu. Vervolgens voeg je de verkiezing toe volgens de onderstaande stappen.
+Wanneer je bent ingelogd in je account, kun je direct een verkiezing toevoegen. Als er al een verkiezing is en je nog een verkiezing wil toevoegen, doe je dit via **Verkiezingen beheren** in het hoofdmenu. Vervolgens voeg je de verkiezing toe volgens de onderstaande stappen.
 
 1. Importeer de **verkiezingsdefinitie (EML 110a)**. Je ziet nu de digitale vingerafdruk die bij het bestand hoort, waarvan twee delen zijn afgeschermd. Controleer of de hele vingerafdruk klopt en voer daarna de ontbrekende delen van de vingerafdruk in. Het aparte TXT-bestand met de volledige digitale vingerafdruk staat in hetzelfde ZIP-bestand als de verkiezingsdefinitie.
 2. Geef aan voor welk **type stembureau** je Abacus wil gebruiken: het gemeentelijk stembureau (GSB) of het centraal stembureau (CSB). Voor elk stembureauniveau maak je een aparte verkiezing aan.
