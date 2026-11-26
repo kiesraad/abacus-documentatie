@@ -85,8 +85,7 @@ __Uitbreidingen:__
 &emsp; 2b2. De coördinator CSB laat twee keer opnieuw handmatig invoeren.
 
 2c. Beide invoeren zijn handmatig gedaan:  
-&emsp; 2c1. De coördinator CSB gooit de incorrecte invoer(en) weg.  
-&emsp; 2c2. De coördinator CSB laat de invoer(en) opnieuw handmatig invoeren.
+&emsp; 2c1. De coördinator CSB lost de verschillen op zoals beschreven in [De coördinator GSB beoordeelt de verschillen tussen de twee invoeren.](gsb-invoer.md#de-coördinator-gsb-beoordeelt-de-verschillen-tussen-de-twee-invoeren-zee)
 
 3a. De coördinator CSB laat, in plaats van de handmatige invoer helemaal weg te gooien, alleen de afwijkende velden daarvan corrigeren door dezelfde invoerder:  
 &emsp; 3a1. De applicatie bewaart de digitale invoer als referentie en wist de afwijkende velden in de handmatige invoer, gemarkeerd met waarschuwing [W.002](./validatieregels-plausibiliteitschecks-tellingen.md#w002-bij-correctie-de-coördinator-heeft-velden-leeggemaakt-die-opnieuw-ingevuld-moeten-worden). (W.001 wordt bij een correctie-invoer niet getoond.)  
