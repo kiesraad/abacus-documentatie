@@ -11,6 +11,7 @@
 
 - [Inleiding](./uitproberen/README.md)
   - [Uitproberen](./uitproberen/uitproberen.md)
+  - [Helpfunctie](./uitproberen/help.md)
   - [Testdocumenten](./uitproberen/testdocumenten.md)
   - [Meewerken als ontwikkelaar](./uitproberen/ontwikkelaar.md)
 
@@ -23,7 +24,7 @@
   - [Installeren op Linux](./installatie/linux.md)
   - [Beveiligingscertificaat](./installatie/certificaat.md)
   - [Starten met lege database](./installatie/lege-database.md)
-  - [Help](./installatie/help.md)
+  - [Abacus verwijderen](./installatie/verwijderen.md)
   - [Systeemvereisten](./installatie/systeemvereisten.md)
   - [Browserondersteuning](./installatie/browser.md)
 
@@ -45,6 +46,7 @@
   - [Account voor beheerder aanmaken](./beheerder/account-beheerder.md)
   - [Verkiezing voorbereiden](./beheerder/verkiezing-voorbereiden/README.md)
     - [Verkiezing toevoegen](./beheerder/verkiezing-voorbereiden/verkiezing-toevoegen.md)
+    - [Publieke sleutels](./beheerder/verkiezing-voorbereiden/publieke-sleutels.md)
     - [Stembureaus beheren (gemeentelijk stembureau)](./beheerder/verkiezing-voorbereiden/stembureaus-beheren.md)
     - [Gebruikers beheren](./beheerder/verkiezing-voorbereiden/gebruikers-beheren.md)
   - [Back-ups van de database](./beheerder/backups.md)
@@ -75,6 +77,7 @@
   - [Zitting voorbereiden](./coordinator-csb/zitting-voorbereiden/README.md)
     - [Gebruikers beheren](./coordinator-csb/zitting-voorbereiden/gebruikers-beheren.md)
   - [Tijdens de zitting](./coordinator-csb/tijdens-zitting/README.md)
+    - [Telling gemeentelijk stembureau importeren](./coordinator-csb/tijdens-zitting/telling-import.md)
     - [Fouten en waarschuwingen](./coordinator-csb/tijdens-zitting/fouten-ws.md)
     - [Verschil tussen eerste en tweede invoer](./coordinator-csb/tijdens-zitting/verschil-invoer.md)
   - [Zitting afronden en proces-verbaal opmaken](./coordinator-csb/zitting-afronden/README.md)
@@ -91,6 +94,7 @@
   - [Stembureau invoeren](./invoerder/stembureau-invoeren/README.md)
     - [Selecteren en invoeren](./invoerder/stembureau-invoeren/select-inv.md)
     - [Fouten en waarschuwingen](./invoerder/stembureau-invoeren/fouten-ws.md)
+    - [Invoer herstellen](./invoerder/stembureau-invoeren/herstellen.md)
     - [Afronden](./invoerder/stembureau-invoeren/afronden.md)
   - [Pauzeren of afbreken](./invoerder/pauzeren-afbreken.md)
   - [Extra zitting: corrigendum invoeren (alleen GSB)](./invoerder/extra-zitting-corrigendum.md)

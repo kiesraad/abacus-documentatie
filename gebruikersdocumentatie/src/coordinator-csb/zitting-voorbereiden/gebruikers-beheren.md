@@ -9,6 +9,8 @@ Als coördinator kun je gebruikers toevoegen, wijzigen of verwijderen. Kies hier
 
 > <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
 > Je kunt alleen invoerders beheren. Alleen een beheerder kan ook accounts met de rol van beheerder of coördinator beheren.
+>
+> De invoerder heeft toegang tot alle verkiezingen die je als coördinator in Abacus ziet.
 
 ## Gebruiker wijzigen of verwijderen
 

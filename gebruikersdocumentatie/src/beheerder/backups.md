@@ -8,7 +8,7 @@ Abacus biedt de mogelijkheid om back-ups te maken van de database. Hiermee kun j
 
 ![Back-up maken](./img/back-ups-database.png)
 
-Op Windows wordt de back-up opgeslagen in de map `backups` in de installatiemap van Abacus. Op het bureaublad vind je een snelkoppeling naar de back-uplocatie.
+Op Windows wordt de back-up opgeslagen in de map `backups` in de gegevensmap van Abacus. Open deze map via de snelkoppeling **Abacus data** op het bureaublad.
 
 Op Linux wordt de back-up opgeslagen in de map `backups` die wordt aangemaakt in de huidige werkdirectory van Abacus. Als je het [servicebestand](../installatie/linux.md#installeren) gebruikt is dat meestal dit pad:
 
@@ -16,12 +16,12 @@ Op Linux wordt de back-up opgeslagen in de map `backups` die wordt aangemaakt in
 
 ## Back-up terugzetten
 
-Als je de bestanden weer nodig hebt, kun je ze vanuit de back-uplocatie weer kopiëren naar de installatiemap.
+Als je een back-up wil terugzetten, doe je dit door het bestand vanuit de back-uplocatie weer te kopiëren naar de gegevensmap. Volg daarbij onderstaande stappen.
 
-- Let erop dat er geen gebruikers ingelogd zijn en zorg dat Abacus is gestopt.
-- Ga naar de installatiemap en wijzig de naam van het databasebestand `db.sqlite` naar `db.sqlite.oud`.
-- Gebruik de snelkoppeling op het bureaublad om de back-uplocatie te openen.
-- Back-upbestanden hebben de naam `db_backup_[datum-tijd].sqlite`. Kopieer het back-upbestand dat je wil terugzetten naar de installatiemap.
+- Let erop dat er geen gebruikers ingelogd zijn en zorg dat de Abacus-service is gestopt. Instructies hiervoor vind je in de Instructies voor installeren en starten voor [Windows](../installatie/windows.md#beheren) en [Linux](../installatie/linux.md#beheren).
+- Ga naar de gegevensmap en wijzig de naam van het databasebestand `db.sqlite` naar `db.sqlite.oud`.
+- Ga via de gegevensmap naar de map `backups`.
+- Back-upbestanden hebben de naam `db_backup_[datum-tijd].sqlite`. Kopieer het back-upbestand dat je wil terugzetten naar de gegevensmap.
 - Wijzig de naam van het back-upbestand naar `db.sqlite`.
 
 Daarna kun je Abacus weer starten en verdergaan met de invoer.

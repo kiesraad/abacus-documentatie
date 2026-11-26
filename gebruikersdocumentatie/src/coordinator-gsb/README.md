@@ -4,15 +4,17 @@ Abacus is ontwikkeld ter ondersteuning van het optellen van stembureautotalen en
 
 De software controleert de handmatige tellingen om tel- en schrijffouten te detecteren en telt per niveau de resultaten van de onderliggende niveaus bij elkaar op. Zodra bij het centraal stembureau alle totalen bij elkaar zijn opgeteld, berekent Abacus de zetelverdeling volgens de regels in de Kieswet. Abacus genereert ook de definitieve documenten van de zitting, die worden gedownload en op het overdrachtsplatform worden gezet.
 
+Bij de verkiezingen voor Provinciale Staten en waterschappen in 2027 gebruiken alle gemeentelijk stembureaus Abacus voor het vastleggen van de telresultaten. Daarnaast gebruiken ook de centraal stembureaus van de waterschappen Abacus voor het controleren van de optellingen en het berekenen van de uitslag en de zetelverdeling.
+
 In dit document leggen we uit hoe je Abacus gebruikt als coördinator bij het gemeentelijk stembureau.
 
 ## Wat doe je als coördinator?
 
 Na het tellen van de stemmen wordt voor elk stembureau een proces-verbaal ingevuld. De invoerders nemen de cijfers van de processen-verbaal over in Abacus. Als coördinator begeleid je de invoerders en help je waar mogelijk bij het oplossen van waarschuwingen, fouten en andere problemen bij de invoer.
 
-Wanneer alle invoerders klaar zijn, rond je de invoerfase af en kun je het proces-verbaal samen met het EML-telbestand downloaden.
+Wanneer alle invoerders klaar zijn, rond je de invoerfase af en kun je het proces-verbaal samen met het EML-tellingsbestand downloaden.
 
-Als het centraal stembureau hier opdracht toe geeft, voeg je een nieuwe zitting toe en voer je de bevindingen van de onderzoeken in. Als er naar aanleiding van een onderzoek gecorrigeerde telresultaten zijn, zorg je dat het corrigendum twee keer wordt ingevoerd door twee verschillende invoerders. Deze zitting rond je op dezelfde manier af als de eerste zitting.
+Als het centraal stembureau hier opdracht toe geeft, voeg je een nieuwe zitting toe en voer je de bevindingen van de onderzoeken in. Als er naar aanleiding van een onderzoek gewijzigde telresultaten zijn, zorg je dat het corrigendum twee keer wordt ingevoerd door twee verschillende invoerders. Deze zitting rond je op dezelfde manier af als de eerste zitting.
 
 ## Problemen oplossen
 

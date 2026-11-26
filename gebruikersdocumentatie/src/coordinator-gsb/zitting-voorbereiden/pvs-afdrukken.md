@@ -2,8 +2,6 @@
 
 Onderaan het overzicht van de zitting vind je de lege processen-verbaal voor deze verkiezing, die tijdens het telproces door de stembureaus en het gemeentelijk stembureau worden ingevuld. Mocht je deze documenten nodig hebben, dan kun je ze downloaden en gebruiken. De verkiezing en de gegevens van de gemeente zijn al ingevuld.
 
-## Namen en adressen van stembureaus
-
-Aangezien de stembureau-EML niet alle adresgegevens van de stembureaus bevat, ontbreekt deze informatie uit de lege N 10-2 en Na 31-2 Bijlage 1 die Abacus aanmaakt. Mocht je deze documenten uit Abacus willen gebruiken, vul dan de ontbrekende informatie aan.
-
-In een aantal stembureaumanagers kan je kiezen of je de EML exporteert met de namen van de stembureaus, of met de adressen. Het is belangrijk dat de lijst die je in Abacus importeert de namen van de stembureaus bevat, zodat ze worden geïmporteerd in Abacus en correct worden weergegeven op het proces-verbaal van het GSB. Importeer je een lijst met adresgegevens, dan moet je de stembureaunamen in Abacus handmatig toevoegen.
+> <i class="fa-solid fa-circle-exclamation"></i> **Let op**  
+>
+> Het is belangrijk dat de adresgegevens op de processen-verbaal staan. Controleer dit daarom voordat je de processen-verbaal afdrukt.

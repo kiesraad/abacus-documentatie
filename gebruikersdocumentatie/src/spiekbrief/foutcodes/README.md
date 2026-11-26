@@ -4,15 +4,13 @@ Dit is een overzicht van de fouten en waarschuwingen die je tijdens de invoer ku
 
 ## Definities
 
-**Fout**:
-Een fout wijst op een probleem in het papieren proces-verbaal. Dit probleem moet opgelost worden voordat een tweede invoerder aan de slag gaat. Als een proces-verbaal gecorrigeerd wordt, moet het proces-verbaal twee keer opnieuw ingevoerd worden.
+**Fout**: een fout wijst op een probleem in het papieren proces-verbaal. Dit probleem moet opgelost worden voordat een tweede invoerder aan de slag gaat. Als een proces-verbaal gecorrigeerd wordt, moet het proces-verbaal twee keer opnieuw ingevoerd worden.
 
-**Waarschuwing**:
-Een waarschuwing wijst op een opmerkelijke uitkomst in het papieren proces-verbaal. De uitslag kan dan nog steeds correct zijn, maar het is wel goed om dit te onderzoeken.
+**Waarschuwing**: een waarschuwing wijst op een opmerkelijk telresultaat in het papieren proces-verbaal. Het telresultaat kan dan nog steeds correct zijn, maar het is wel goed om dit te onderzoeken.
 
-## Fouten
+## Fout
 
-Validatieregels vragen de gebruiker de invoer extra te controleren en geven een foutmelding. De melding bestaat uit drie onderdelen:
+Een foutmelding bestaat uit drie onderdelen:
 
 - Een regel met de foutcode, de titel en een korte toelichting
 - De melding die de invoerder krijgt
@@ -20,13 +18,11 @@ Validatieregels vragen de gebruiker de invoer extra te controleren en geven een 
 
 Als er bij de foutmelding velden worden gemarkeerd, zie je in het overzicht ook welke velden dit zijn.
 
-## Waarschuwingen
+## Waarschuwing
 
-Plausibiliteitschecks vragen de gebruiker de invoer extra te controleren en geven een waarschuwing.
-
-De waarschuwing die wordt getoond bestaat uit dezelfde onderdelen als bij de validatieregels. Voor de invoerder is het handelingsperspectief voor alle plausibiliteitschecks als volgt:
+Een waarschuwing bestaat uit dezelfde onderdelen als een foutmelding. De invoerder doet altijd het volgende:
 
 > - Heb je iets niet goed overgenomen? Herstel de fout en ga verder.
 > - Heb je alles gecontroleerd en komt je invoer overeen met het papier? Ga dan verder.
 
-Voor de coördinator is er geen standaard handelingsperspectief. De specifieke handelingen staan in de onderstaande waarschuwingen.
+Voor de coördinator staan de specifieke handelingen in de onderstaande waarschuwingen.

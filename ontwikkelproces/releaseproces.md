@@ -65,3 +65,4 @@
   onderdeel van het installatieprogramma).
 - Schrijf de releaseopmerkingen.
 - Publiceer de release.
+- De ondertekende versie voor Windows wordt gepubliceerd [uiterlijk de 21ste dag voor de dag van stemming](https://wetten.overheid.nl/jci1.3:c:BWBR0004632&afdeling=II&hoofdstuk=Ea&artikel=Ea_6&z=2025-08-01&g=2025-08-01).

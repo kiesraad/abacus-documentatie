@@ -4,9 +4,13 @@ Abacus is ontwikkeld ter ondersteuning van het optellen van stembureautotalen en
 
 De software controleert de handmatige tellingen om tel- en schrijffouten te detecteren en telt per niveau de resultaten van de onderliggende niveaus bij elkaar op. Zodra bij het centraal stembureau alle totalen bij elkaar zijn opgeteld, berekent Abacus de zetelverdeling volgens de regels in de Kieswet. Abacus genereert ook de definitieve documenten van de zitting, die worden gedownload en op het overdrachtsplatform worden gezet.
 
+Bij de verkiezingen voor Provinciale Staten en waterschappen in 2027 gebruiken alle gemeentelijk stembureaus Abacus voor het vastleggen van de telresultaten. Daarnaast gebruiken ook de centraal stembureaus van de waterschappen Abacus voor het controleren van de optellingen en het berekenen van de uitslag en de zetelverdeling.
+
 In dit document leggen we uit hoe je Abacus gebruikt als invoerder.
 
-## Gemeentelijk stembureau
+## Wat doe je als invoerder?
+
+### Gemeentelijk stembureau
 
 Het resultaat van de telling van elk stembureau is vastgelegd in een proces-verbaal. Tijdens de invoer bij het gemeentelijk stembureau neem je de cijfers op dit proces-verbaal over in Abacus. Vervolgens controleert Abacus of de cijfers met elkaar kloppen, bijvoorbeeld of de optellingen goed zijn. Ook wordt gecheckt of er bijzondere afwijkingen zijn, bijvoorbeeld als het aantal ongeldige stemmen hoog is. Als er fouten of waarschuwingen zijn, volg je de instructies op of overleg je het met je coördinator.
 
@@ -14,9 +18,9 @@ Elk stembureau wordt twee keer ingevoerd (door twee verschillende invoerders). B
 
 Als alles klopt, is de invoer van het stembureau compleet. Als de twee invoerders het proces-verbaal verschillend hebben overgenomen, onderneemt de coördinator verdere actie. Het kan bijvoorbeeld nodig zijn om het aantal toegelaten kiezers en (een deel van) de stembiljetten opnieuw te tellen.
 
-## Centraal stembureau
+### Centraal stembureau
 
-Het proces-verbaal van het gemeentelijk stembureau moet twee keer met de hand worden ingevoerd door twee verschillende invoerders. Ook tijdens de invoer bij het centraal stembureau volg je de instructies en overleg je met je coördinator bij fouten of waarschuwingen. Wanneer de invoer klaar is, rondt de coördinator de invoerfase af. Abacus berekent dan de zetelverdeling en stelt het proces-verbaal op samen met het EML-telbestand.
+Bij het centraal stembureau worden de tellingsbestanden van het onderliggende niveau ingelezen. Daarna worden de processen-verbaal nog één keer met de hand ingevoerd. Ook tijdens de invoer bij het centraal stembureau volg je de instructies en overleg je met je coördinator bij fouten of waarschuwingen. Wanneer de invoer klaar is, rondt de coördinator de invoerfase af. Abacus berekent dan de zetelverdeling en stelt het proces-verbaal van het centraal stembureau op, samen met het EML-tellingsbestand.
 
 ## Problemen oplossen
 

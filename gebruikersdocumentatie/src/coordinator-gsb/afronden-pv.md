@@ -5,6 +5,6 @@ Wanneer de resultaten van alle stembureaus in jouw gemeente twee keer correct zi
 Als de details van de zitting nog niet zijn ingevoerd, doe je dit nu. Daarna ga je door naar het proces-verbaal. Op deze pagina download je een ZIP-bestand met de volgende documenten:
 
 - PDF-document met het proces-verbaal
-- EML- en CSV-bestanden met digitale telresultaten
+- EML- en CSV-bestanden met digitale telresultaten, en een digitale handtekening van het EML-bestand
 
 Je invoer is nu afgerond. Als je toch nog iets wil wijzigen kun je de invoer ook hervatten.

@@ -6,5 +6,5 @@ In het menu selecteer je de verkiezing. Je ziet dan een overzicht van de zitting
 
 ## Benodigdheden
 
-- Zorg dat je het aantal kiesgerechtigden weet als dit aantal nog niet (juist) is ingevoerd.
-- Zorg dat je de lijst met stembureaus hebt als die nog niet is toegevoegd, of zorg dat je de juiste gegevens hebt zodat je stembureaus handmatig kunt toevoegen of wijzigen.
+- Zorg dat je het **aantal kiesgerechtigden** weet als dit aantal nog niet (juist) is ingevoerd.
+- Zorg dat je de **lijst met stembureaus** hebt als die nog niet is toegevoegd, of zorg dat je de juiste gegevens hebt zodat je stembureaus handmatig kunt toevoegen of wijzigen.
