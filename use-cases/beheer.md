@@ -1,6 +1,6 @@
 # Beheer
 
-## De beheerder richt de applicatie in voor GSB en/of CSB (wolk)
+## De beheerder richt de applicatie in voor GSB, HSB en/of CSB (wolk)
 
 __Niveau:__ hoog-over, wolk, ☁️
 
@@ -8,9 +8,11 @@ __Niveau:__ hoog-over, wolk, ☁️
 
 1. [De beheerder installeert de applicatie.](#de-beheerder-installeert-de-applicatie-zee)
 2. De beheerder maakt voor zichzelf een eerste account en wachtwoord aan.
-3. [De beheerder zet het GSB voor de verkiezing in de applicatie.](#de-beheerder-zet-het-gsb-voor-de-verkiezing-in-de-applicatie-zee)
-4. [De beheerder zet het CSB voor de verkiezing in de applicatie.](#de-beheerder-zet-het-csb-voor-de-verkiezing-in-de-applicatie-zee)
-5. [De beheerder maakt de gebruikers aan.](#de-beheerder-maakt-de-gebruikers-aan-zee)
+3. De beheerder zet één of meerdere *SB's voor de verkiezing in de applicatie:
+  - [GSB: gemeentelijk stembureau](#de-beheerder-zet-het-gsb-voor-de-verkiezing-in-de-applicatie-zee)
+  - [HSB: hoofdstembureau](#de-beheerder-zet-het-hsb-voor-de-verkiezing-in-de-applicatie-zee)
+  - [CSB: centraal stembureau](#de-beheerder-zet-het-csb-voor-de-verkiezing-in-de-applicatie-zee)
+4. [De beheerder maakt de gebruikers aan.](#de-beheerder-maakt-de-gebruikers-aan-zee)
 
 
 ## De beheerder installeert de applicatie (zee)
@@ -56,7 +58,7 @@ __Hoofdscenario:__
 6. De beheerder selecteert het type stemopneming: CSO of DSO.
 7. De beheerder bevestigt het aantal kiesgerechtigden in de gemeente.
 8. De applicatie maakt het GSB voor de verkiezing aan.
-9. De beheerder registreert de aangemaakte publieke sleutel.
+9. De beheerder registreert de aangemaakte publieke sleutel op het overdrachtsplatform.
 
 __Uitbreidingen:__
 
@@ -90,6 +92,33 @@ __Uitbreidingen:__
 - (WS) Een GSB zonder stembureaus, bijvoorbeeld als het deel van de gemeente in het waterschap geen of te weinig kiesgerechtigden heeft (zie [kiesraad/abacus#3623](https://github.com/kiesraad/abacus/issues/3623)).
 
 
+## De beheerder zet het HSB voor de verkiezing in de applicatie (zee)
+
+__Niveau:__ subfunctie, zee, 🌊
+
+__Precondities:__
+
+- De verkiezing is een Tweede Kamerverkiezing (TK). Voor PS ondersteunt Abacus de rol HSB nog niet.
+
+### Hoofdscenario en uitbreidingen
+
+__Hoofdscenario:__
+
+1. [De beheerder leest de verkiezingsdefinitie (EML 110a) in.](#de-beheerder-leest-de-verkiezingsdefinitie-eml-110a-in-vis)
+2. De beheerder selecteert "Hoofdstembureau (HSB)" als rol van het stembureau.
+3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in-vis)
+4. De applicatie maakt het HSB voor de verkiezing aan, met de GSB's uit de verkiezingsdefinitie als stembureaus voor het HSB.
+5. De beheerder registreert de aangemaakte publieke sleutel op het overdrachtsplatform.
+6. De applicatie maakt de zitting van het HSB aan.
+7. [De beheerder importeert de publieke sleutels van de GSB's.](#de-beheerder-importeert-de-publieke-sleutels-van-de-gsbs-vis)
+
+__Uitbreidingen:__
+
+7a. Een GSB maakt op een later moment een nieuwe publieke sleutel beschikbaar.  
+&emsp; 7a1. De beheerder HSB importeert de nieuwe publieke sleutel.  
+&emsp; 7a2. De beheerder HSB verwijdert de oude publieke sleutel.
+
+
 ## De beheerder zet het CSB voor de verkiezing in de applicatie (zee)
 
 __Niveau:__ subfunctie, zee, 🌊
@@ -106,7 +135,7 @@ __Hoofdscenario:__
 2. De beheerder selecteert "Centraal stembureau (CSB)" als rol van het stembureau.
 3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in-vis)
 4. De applicatie maakt het CSB voor de verkiezing aan, met de GSB's uit de verkiezingsdefinitie als stembureaus voor het CSB.
-5. De applicatie maakt de eerste zitting van het CSB aan.
+5. De applicatie maakt de zitting van het CSB aan.
 6. [De beheerder importeert de publieke sleutels van de GSB's.](#de-beheerder-importeert-de-publieke-sleutels-van-de-gsbs-vis)
 
 __Uitbreidingen:__
@@ -170,7 +199,7 @@ __Niveau:__ subfunctie, vis, 🐟
 
 __Hoofdscenario:__
 
-NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - stappen 1 en 2 worden uitgevoerd voor elk GSB.
+N.B. Bij GR is er één GSB. Bij WS en TK zijn er meerdere GSB's - stappen 1 en 2 worden uitgevoerd voor elk GSB.
 
 1. De beheerder importeert het bestand met de publieke sleutel van het GSB.
 2. De applicatie stelt vast dat de publieke sleutel valide is en koppelt deze aan het GSB.
@@ -181,7 +210,7 @@ __Uitbreidingen:__
 2a. De applicatie stelt vast dat de publieke sleutel niet valide is:  
 &emsp; 2a1. De beheerder lost het probleem op en importeert alsnog de publieke sleutel.  
 &emsp;&emsp; 2a1a. De beheerder kan het probleem niet oplossen:  
-&emsp;&emsp;&emsp; 2a1a1. Het CSB doet de eerste invoer handmatig.
+&emsp;&emsp;&emsp; 2a1a1. Het HSB of CSB doet de eerste invoer handmatig.
 
 2b. De applicatie stelt vast dat er al een publieke sleutel voor het GSB is geïmporteerd:  
 &emsp; 2b1. De applicatie valideert de additionele publieke sleutel en koppelt deze aan het GSB.
@@ -220,7 +249,7 @@ __Niveau:__ gebruikersdoel, zee, 🌊
 
 __Precondities:__
 
-- De stembureaus zijn niet tijdens [het inrichten van de applicatie](#de-beheerder-richt-de-applicatie-in-voor-gsb-enof-csb-wolk) ingevoerd.
+- De stembureaus zijn niet tijdens [het inrichten van de applicatie](#de-beheerder-richt-de-applicatie-in-voor-gsb-hsb-enof-csb-wolk) ingevoerd.
 - De invoerfase van de zitting is nog niet gestart. Na het starten van de invoerfase kan alleen de [coördinator nog wijzigingen in de lijst met stembureaus aanbrengen](./gsb-eerste-zitting.md#de-coördinator-gsb-bewerkt-de-stembureaus-tijdens-de-eerste-zitting-zee).
 
 ### Hoofdscenario en uitbreidingen
@@ -265,19 +294,17 @@ __Niveau:__ gebruikersdoel, zee, 🌊
 __Hoofdscenario:__
 
 1. De beheerder maakt beheerders aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-2. De beheerder maakt coördinatoren voor het GSB aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-3. De beheerder maakt coördinatoren voor het CSB aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-4. De beheerder maakt invoerders voor het GSB aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-5. De beheerder maakt invoerders voor het CSB aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
-6. De beheerder controleert de lijst met gebruikers en stelt vast dat alle gebruikers goed zijn.
+2. De beheerder maakt coördinatoren voor de relevante *SB's aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
+3. De beheerder maakt invoerders voor de relevante *SB's aan met een gebruikersnaam, volledige naam en tijdelijk wachtwoord.
+4. De beheerder controleert de lijst met gebruikers en stelt vast dat alle gebruikers goed zijn.
 
 __Uitbreidingen:__
 
-4-5a. De beheerder heeft de volledige naam niet van de invoerder die nog toegevoegd moet worden:  
-&emsp; 4-5a1. De beheerder maakt een invoerder aan met een gebruikersnaam en tijdelijk wachtwoord, 
+3a. De beheerder heeft de volledige naam niet van de invoerder die nog toegevoegd moet worden:  
+&emsp; 3a1. De beheerder maakt een invoerder aan met een gebruikersnaam en tijdelijk wachtwoord, 
   maar zonder volledige naam.  
 
-6a. De lijst met gebruikers moet aangepast worden:  
-&emsp; 6a1. De beheerder past de volledige naam aan van een gebruiker.  
-&emsp; 6a2. De beheerder stelt een nieuw tijdelijk wachtwoord in voor een gebruiker.  
-&emsp; 6a3. De beheerder verwijdert een gebruiker.
+4a. De lijst met gebruikers moet aangepast worden:  
+&emsp; 4a1. De beheerder past de volledige naam aan van een gebruiker.  
+&emsp; 4a2. De beheerder stelt een nieuw tijdelijk wachtwoord in voor een gebruiker.  
+&emsp; 4a3. De beheerder verwijdert een gebruiker.

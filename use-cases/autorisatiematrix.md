@@ -11,49 +11,56 @@ De matrix geldt voor alle door Abacus ondersteunde verkiezingen, zie [Overzicht 
   Kan de applicatie inrichten en klaarzetten voor gebruik.
   Geen bevoegdheden in het uitslagen / telproces.
   Primair bedoeld voor technische medewerkers die verder geen rol in het verkiezingsproces hebben.
-- **Coördinator GSB**:
-  Inhoudelijk expert die de zittingen van het GSB leidt.
-- **Coördinator CSB**:
-  Inhoudelijk expert die de zittingen van het CSB leidt.
-- **Invoerder GSB**:
-  Kan tellingen invoeren tijdens de zitting van het GSB.
-- **Invoerder CSB**:
-  Kan tellingen invoeren tijdens de zitting van het CSB.
+- **Coördinator GSB/HSB/CSB**:
+  Inhoudelijk expert die de zittingen van het GSB, HSB of CSB leidt.
+- **Invoerder GSB/HSB/CSB**:
+  Kan tellingen invoeren tijdens de zitting van het GSB, HSB of CSB.
 
 ## Rollen en rechten
 
-| Functionaliteit \ Rol                            | Beheerder | Coördinator GSB | Coördinator CSB | Invoerder GSB | Invoerder CSB |
-|--------------------------------------------------|:---------:|:---------------:|:---------------:|:-------------:|:-------------:|
-| **Voorbereiding**                                |           |                 |                 |               |               |
-| Applicatie installeren                           |     X     |                 |                 |               |               |
-| Verkiezing configureren                          |     X     |                 |                 |               |               |
-| Invoerstations beheren                           |     X     |                 |                 |               |               |
-| Stembureaus beheren [^1]                         |     X     |        X        |                 |               |               |
-| Gebruikers beheren: alle gebruikers              |     X     |                 |                 |               |               |
-| Gebruikers beheren: invoerders GSB               |           |        X        |                 |               |               |
-| Gebruikers beheren: invoerders CSB               |           |                 |        X        |               |               |
-| **Tijdens de zitting GSB**                       |           |                 |                 |               |               |
-| Een nieuwe zitting openen                        |           |        X        |                 |               |               |
-| Stembureaus beheren [^1]                         |           |        X        |                 |               |               |
-| Invoer starten/schorsen/stoppen                  |           |        X        |                 |               |               |
-| Tellingen SB invoeren en waarschuwingen oplossen |           |                 |                 |       X       |               |
-| Conflicten en waarschuwingen oplossen            |           |        X        |                 |               |               |
-| Volledig ingevoerde tellingen SB's bekijken      |     X     |        X        |                 |               |               |
-| **Zitting GSB afronden**                         |           |                 |                 |               |               |
-| Bezwaren en bijzonderheden zitting GSB invoeren  |           |        X        |                 |               |               |
-| Proces-verbaal maken                             |           |        X        |                 |               |               |
-| **Voorbereiding CSB**                            |           |                 |                 |               |               |
-| Publieke sleutels importeren GSB's               |     X     |                 |                 |               |               |
-| **Zitting CSB**                                  |           |                 |                 |               |               |
-| EML_NL bestand zitting GSB importeren            |           |                 |        X        |               |               |
-| Invoer starten/schorsen/stoppen                  |           |                 |        X        |               |               |
-| Resultaten GSB invoeren                          |           |                 |                 |               |       X       |
-| Conflicten en waarschuwingen oplossen            |           |                 |        X        |               |               |
-| Volledig ingevoerde tellingen GSB bekijken       |     X     |                 |        X        |               |               |
-| **Zitting CSB afronden**                         |           |                 |                 |               |               |
-| Zetelverdeling vaststellen                       |           |                 |        X        |               |               |
-| Proces-verbaal maken                             |           |                 |        X        |               |               |
-| **Algemeen**                                     |           |                 |                 |               |               |
-| Logs raadplegen                                  |     X     |        X        |        X        |               |               |
+| Functionaliteit \ Rol                            | Beheerder | Coördinator GSB | Coördinator HSB | Coördinator CSB | Invoerder GSB | Invoerder HSB | Invoerder CSB |
+|---------------------------------------------------|:---------:|:---------------:|:---------------:|:---------------:|:-------------:|:-------------:|:-------------:|
+| **Voorbereiding**                                |           |                 |   |                 |               |   |               |
+| Applicatie installeren                           |     X     |                 |   |                 |               |   |               |
+| Verkiezing configureren                          |     X     |                 |   |                 |               |   |               |
+| Invoerstations beheren                           |     X     |                 |   |                 |               |   |               |
+| Stembureaus beheren [^1]                         |     X     |        X        |   |                 |               |   |               |
+| Gebruikers beheren: alle gebruikers              |     X     |                 |   |                 |               |   |               |
+| Gebruikers beheren: invoerders GSB               |           |        X        |   |                 |               |   |               |
+| Gebruikers beheren: invoerders HSB               |           |                 | X  |                 |               |   |               |
+| Gebruikers beheren: invoerders CSB               |           |                 |   |        X        |               |   |               |
+| **Tijdens de zitting GSB**                       |           |                 |   |                 |               |   |               |
+| Een nieuwe zitting openen                        |           |        X        |   |                 |               |   |               |
+| Stembureaus beheren [^1]                         |           |        X        |   |                 |               |   |               |
+| Invoer starten/schorsen/stoppen                  |           |        X        |   |                 |               |   |               |
+| Tellingen SB invoeren en waarschuwingen oplossen|           |                 |   |                 |       X       |   |               |
+| Conflicten en waarschuwingen oplossen            |           |        X        |   |                 |               |   |               |
+| Volledig ingevoerde tellingen SB's bekijken      |     X     |        X        |   |                 |               |   |               |
+| **Zitting GSB afronden**                         |           |                 |   |                 |               |   |               |
+| Bezwaren en bijzonderheden zitting GSB invoeren|           |        X        |   |                 |               |   |               |
+| Proces-verbaal maken                             |           |        X        |   |                 |               |   |               |
+| **Voorbereiding HSB**                            |           |                 |   |                 |               |   |               |
+| Publieke sleutels importeren GSB's               |     X     |                 |   |                 |               |   |               |
+| **Zitting HSB**                                  |           |                 |   |                 |               |   |               |
+| EML_NL bestand zitting GSB importeren            |           |                 | X  |                |               |   |               |
+| Invoer starten/schorsen/stoppen                  |           |                 | X  |                |               |   |               |
+| Resultaten GSB invoeren                          |           |                 |   |                 |               | X  |              |
+| Conflicten en waarschuwingen oplossen            |           |                 | X  |                |               |   |               |
+| Volledig ingevoerde tellingen GSB bekijken       |     X     |                 | X  |                |               |   |               |
+| **Zitting HSB afronden**                       |           |                 |   |                 |               |   |               |
+| Proces-verbaal maken                           |           |                 | X  |                |               |   |               |
+| **Voorbereiding CSB**                          |           |                 |   |                 |               |   |               |
+| Publieke sleutels importeren GSB's of HSB's     |     X     |                 |   |                 |               |   |               |
+| **Zitting CSB**                                |           |                 |   |                 |               |   |               |
+| EML_NL bestand zitting GSB of HSB importeren    |           |                 |   |        X        |               |   |               |
+| Invoer starten/schorsen/stoppen                |           |                 |   |        X        |               |   |               |
+| Resultaten GSB of HSB invoeren                   |           |                 |   |                 |               |   |       X       |
+| Conflicten en waarschuwingen oplossen          |           |                 |   |        X        |               |   |               |
+| Volledig ingevoerde tellingen GSB of HSB bekijken |     X     |                 |   |        X        |               |   |               |
+| **Zitting CSB afronden**                         |           |                 |   |                 |               |   |               |
+| Zetelverdeling vaststellen                       |           |                 |   |        X        |               |   |               |
+| Proces-verbaal maken                             |           |                 |   |        X        |               |   |               |
+| **Algemeen**                                     |           |                 |   |                 |               |   |               |
+| Logs raadplegen                                  |     X     |        X        |   |        X        |               |   |               |
 
-[^1]: Stembureaus binnen de gemeente waar gestemd kan worden. Niet GSB(s) of CSB.
+[^1]: Stembureaus binnen de gemeente waar gestemd kan worden. Niet GSB(s), HSB of CSB.

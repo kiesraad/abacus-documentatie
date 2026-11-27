@@ -95,7 +95,7 @@ definitieve-documenten_tk2026_gemeente_utrecht-20260310-135503.zip
 
 #### GSB volgende zitting (EML 510b)
 
-N.B.: Als een volgende zitting niet tot een corrigendum (Na 14-1 / Na 14-2) leidt, dan bevat het zip-bestand alleen het bestand _Leeg_Model_P2a.pdf_ (verslag zitting).
+N.B. Als een volgende zitting niet tot een corrigendum (Na 14-1 / Na 14-2) leidt, dan bevat het zip-bestand alleen het bestand _Leeg_Model_P2a.pdf_ (verslag zitting).
 
 
 ```
@@ -118,6 +118,27 @@ correctie_gr2026_purmerend_gemeente_purmerend-20251125-144536.zip
     ├── Telling_GR2026_Purmerend_gemeente_Purmerend.eml.xml
     └── Telling_GR2026_Purmerend_gemeente_Purmerend.eml.xml.signature
 ```
+
+#### HSB-zitting Telling (EML 510c)
+```
+definitieve-documenten_{election_id|lower}_{region_category|lower}_{region|hyphen}-{timestamp}.zip
+├── Model_O7.pdf
+├── abacus_telling_{election_id}_{region_category|lower}_{region|slugify}.csv
+└── Telling_{election_id}_{region_category|lower}_{region|slugify}.zip
+    ├── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml
+    └── Telling_{election_id}_{region_category|lower}_{region|slugify}.eml.xml.signature
+```
+
+Voorbeeld:
+```
+definitieve-documenten_tk2025_kieskring_den-helder-20250103-160614.zip
+├── Model_O7.pdf
+├── abacus_telling_TK2025_kieskring_Den_Helder.csv
+└── Telling_TK2025_kieskring_Den_Helder.zip
+    ├── Telling_TK2025_kieskring_Den_Helder.eml.xml
+    └── Telling_TK2025_kieskring_Den_Helder.eml.xml.signature
+```
+
 
 #### CSB-zitting Totaaltelling (EML 510d)
 ```
