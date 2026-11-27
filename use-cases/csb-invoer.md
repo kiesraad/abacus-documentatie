@@ -10,11 +10,11 @@ __Niveau:__ hoog-over, vlieger, 🪁
 
 __Hoofdscenario:__
 
-NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - de stappen 2, 3 en 4 worden uitgevoerd voor elk GSB.
+N.B. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - de stappen 2, 3 en 4 worden uitgevoerd voor elk GSB.
 
 1. De coördinator CSB stelt de invoer open.
 2. [De coördinator CSB leest de resultaten van de laatste GSB-zitting in als eerste invoer van het CSB.](#de-coördinator-csb-leest-de-resultaten-van-de-laatste-gsb-zitting-in-als-eerste-invoer-van-het-csb-zee)
-3. Het CSB voert de resultaten handmatig in als tweede invoer.
+3. De coördinator CSB laat de resultaten handmatig invoeren als tweede invoer.
 4. De applicatie stelt vast dat beide invoeren gelijk zijn.
 5. (parallel aan invoer resultaten) De coördinator CSB voert de locatie, startdatum en starttijd van de zitting in.
 6. De applicatie slaat het definitieve resultaat op.
@@ -88,7 +88,7 @@ __Uitbreidingen:__
 &emsp; 2c1. De coördinator CSB lost de verschillen op zoals beschreven in [De coördinator GSB beoordeelt de verschillen tussen de twee invoeren.](gsb-invoer.md#de-coördinator-gsb-beoordeelt-de-verschillen-tussen-de-twee-invoeren-zee)
 
 3a. De coördinator CSB laat, in plaats van de handmatige invoer helemaal weg te gooien, alleen de afwijkende velden daarvan corrigeren door dezelfde invoerder:  
-&emsp; 3a1. De applicatie bewaart de digitale invoer als referentie en wist de afwijkende velden in de handmatige invoer, gemarkeerd met waarschuwing [W.002](./validatieregels-plausibiliteitschecks-tellingen.md#w002-bij-correctie-de-coördinator-heeft-velden-leeggemaakt-die-opnieuw-ingevuld-moeten-worden). (W.001 wordt bij een correctie-invoer niet getoond.)  
+&emsp; 3a1. De applicatie bewaart de andere invoer als referentie en wist de afwijkende velden in de handmatige invoer, gemarkeerd met waarschuwing [W.002](./validatieregels-plausibiliteitschecks-tellingen.md#w002-bij-correctie-de-coördinator-heeft-velden-leeggemaakt-die-opnieuw-ingevuld-moeten-worden). (W.001 wordt bij een correctie-invoer niet getoond.)  
 &emsp; 3a2. De invoerder corrigeert de gemarkeerde velden aan de hand van het PV.
 
 3b. De invoer die de coördinator CSB als correcte invoer wil bewaren, bevat zelf geaccepteerde fouten:  

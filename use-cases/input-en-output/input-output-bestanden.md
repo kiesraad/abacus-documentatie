@@ -168,7 +168,7 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 
 #### O 7 Inlegvel: Inlegvel PV HSB n.a.v. corrigendum HSB
 - let op: wordt aangemaakt door het CSB, niet door het HSB
-- lege versie gegenereerd door Abacus
+- lege versie gegenereerd door Abacus (in Corrigendum HSB verkiezing)
 - wordt toegevoegd aan O 7 om aan te geven dat het CSB een corrigendum op de O 7 heeft opgesteld
 
 ### Tellingsbestanden

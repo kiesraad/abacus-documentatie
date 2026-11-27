@@ -11,8 +11,8 @@ __Hoofdscenario:__
 2. [De coördinator HSB maakt het PV (O 7) en het tellingsbestand EML 510c aan.](#de-coördinator-hsb-maakt-het-pv-o-7-en-het-tellingsbestand-eml-510c-aan-zee)
 3. Het HSB voert het controleprotocol (handmatige controle optellingen software) uit en stelt geen verschillen vast.
 4. Tijdens de (niet-openbare) HSB-zitting stelt het HSB de totalen van het HSB vast o.b.v. het PV (O 7): controleren op compleetheid, ondertekenen.
-5. Het HSB stelt het tellingsbestand EML 510c beschikbaar aan het hogere stembureau voor de uitslagvaststelling.
-6. Het HSB stelt het PV HSB (O 7) vast, publiceert het PV en brengt het over naar het hogere stembureau.
+5. Het HSB stelt het tellingsbestand EML 510c beschikbaar aan het CSB voor de uitslagvaststelling.
+6. Het HSB stelt het PV HSB (O 7) vast, publiceert het PV en brengt het over naar het CSB.
 
 __Uitbreidingen:__
 
@@ -24,7 +24,7 @@ applicatie:
 &emsp;&emsp;&emsp; 3a2a1. Het HSB neemt contact op met de Kiesraad en vult sectie 2.5 (Uitkomst controleprotocol) van het PV O 7 aan met de verschillen.
 
 4a. Het HSB stelt een probleem vast met het PV:  
-&emsp; 4a1. Het HSB corrigeert het probleem.
+&emsp; 4a1. Het HSB corrigeert het probleem in het PV.
 
 
 ## Het HSB controleert de GSB-resultaten en voert ze in (vlieger)

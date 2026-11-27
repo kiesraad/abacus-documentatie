@@ -51,7 +51,7 @@ __Uitbreidingen:__
 
 Niveau: hoog-over, vlieger, 🪁
 
-NB. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - stappen die 'het GSB' noemen gelden bij WS _per GSB_.
+N.B. Bij GR is er één GSB. Bij WS zijn er meerdere GSB's - stappen die 'het GSB' noemen gelden bij WS _per GSB_.
 
 __Hoofdscenario:__
 1. Het CSB ontvangt het GSB PV incl. bijlagen (DSO: Na 31-1, CSO: Na 31-2) van de burgemeester.

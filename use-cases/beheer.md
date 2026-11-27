@@ -58,7 +58,7 @@ __Hoofdscenario:__
 6. De beheerder selecteert het type stemopneming: CSO of DSO.
 7. De beheerder bevestigt het aantal kiesgerechtigden in de gemeente.
 8. De applicatie maakt het GSB voor de verkiezing aan.
-9. De beheerder registreert de aangemaakte publieke sleutel.
+9. De beheerder registreert de aangemaakte publieke sleutel op het overdrachtsplatform.
 
 __Uitbreidingen:__
 
@@ -108,8 +108,8 @@ __Hoofdscenario:__
 2. De beheerder selecteert "Hoofdstembureau (HSB)" als rol van het stembureau.
 3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in-vis)
 4. De applicatie maakt het HSB voor de verkiezing aan, met de GSB's uit de verkiezingsdefinitie als stembureaus voor het HSB.
-5. De beheerder registreert de aangemaakte publieke sleutel.
-6. De applicatie maakt de eerste zitting van het HSB aan.
+5. De beheerder registreert de aangemaakte publieke sleutel op het overdrachtsplatform.
+6. De applicatie maakt de zitting van het HSB aan.
 7. [De beheerder importeert de publieke sleutels van de GSB's.](#de-beheerder-importeert-de-publieke-sleutels-van-de-gsbs-vis)
 
 __Uitbreidingen:__
@@ -135,7 +135,7 @@ __Hoofdscenario:__
 2. De beheerder selecteert "Centraal stembureau (CSB)" als rol van het stembureau.
 3. [De beheerder leest de kandidatenlijsten (EML 230b) in.](#de-beheerder-leest-de-kandidatenlijsten-eml-230b-in-vis)
 4. De applicatie maakt het CSB voor de verkiezing aan, met de GSB's uit de verkiezingsdefinitie als stembureaus voor het CSB.
-5. De applicatie maakt de eerste zitting van het CSB aan.
+5. De applicatie maakt de zitting van het CSB aan.
 6. [De beheerder importeert de publieke sleutels van de GSB's.](#de-beheerder-importeert-de-publieke-sleutels-van-de-gsbs-vis)
 
 __Uitbreidingen:__

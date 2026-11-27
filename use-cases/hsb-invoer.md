@@ -14,7 +14,7 @@ N.B. Bij TK zijn er meerdere GSB's - de stappen 2, 3 en 4 worden uitgevoerd voor
 
 1. De coördinator HSB stelt de invoer open.
 2. [De coördinator HSB leest de resultaten van de GSB-zitting in als eerste invoer van het HSB.](#de-coördinator-hsb-leest-de-resultaten-van-de-gsb-zitting-in-als-eerste-invoer-van-het-hsb-zee)
-3. Het HSB voert de resultaten handmatig in als tweede invoer.
+3. De coördinator HSB laat de resultaten handmatig invoeren als tweede invoer.
 4. De applicatie stelt vast dat beide invoeren gelijk zijn.
 5. (parallel aan invoer resultaten) De coördinator HSB voert de locatie, startdatum en starttijd van de zitting in.
 6. De applicatie slaat het definitieve resultaat op.
@@ -90,7 +90,7 @@ __Uitbreidingen:__
 &emsp; 2c1. De coördinator HSB lost de verschillen op zoals beschreven in [De coördinator GSB beoordeelt de verschillen tussen de twee invoeren.](gsb-invoer.md#de-coördinator-gsb-beoordeelt-de-verschillen-tussen-de-twee-invoeren-zee)
 
 3a. De coördinator HSB laat, in plaats van de handmatige invoer helemaal weg te gooien, alleen de afwijkende velden daarvan corrigeren door dezelfde invoerder:  
-&emsp; 3a1. De applicatie bewaart de digitale invoer als referentie en wist de afwijkende velden in de handmatige invoer, gemarkeerd met waarschuwing [W.002](./validatieregels-plausibiliteitschecks-tellingen.md#w002-bij-correctie-de-coördinator-heeft-velden-leeggemaakt-die-opnieuw-ingevuld-moeten-worden). (W.001 wordt bij een correctie-invoer niet getoond.)  
+&emsp; 3a1. De applicatie bewaart de andere invoer als referentie en wist de afwijkende velden in de handmatige invoer, gemarkeerd met waarschuwing [W.002](./validatieregels-plausibiliteitschecks-tellingen.md#w002-bij-correctie-de-coördinator-heeft-velden-leeggemaakt-die-opnieuw-ingevuld-moeten-worden). (W.001 wordt bij een correctie-invoer niet getoond.)  
 &emsp; 3a2. De invoerder corrigeert de gemarkeerde velden aan de hand van het PV.
 
 _Zie ook de flowchart ["Afhandeling fouten en verschillen door coördinator"](./afhandeling-fouten-verschillen-coordinator.md)._
