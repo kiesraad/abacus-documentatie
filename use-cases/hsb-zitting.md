@@ -10,7 +10,7 @@ __Hoofdscenario:__
 1. [Het HSB controleert de GSB-resultaten en voert ze in.](#het-hsb-controleert-de-gsb-resultaten-en-voert-ze-in-vlieger)
 2. [De coördinator HSB maakt het PV (O 7) en het tellingsbestand EML 510c aan.](#de-coördinator-hsb-maakt-het-pv-o-7-en-het-tellingsbestand-eml-510c-aan-zee)
 3. Het HSB voert het controleprotocol (handmatige controle optellingen software) uit en stelt geen verschillen vast.
-4. Het HSB stelt de totalen van het HSB vast o.b.v. het PV (O 7): controleren op compleetheid, ondertekenen. En sluit daarmee de zitting.
+4. Tijdens de (niet-openbare) HSB-zitting stelt het HSB de totalen van het HSB vast o.b.v. het PV (O 7): controleren op compleetheid, ondertekenen.
 5. Het HSB stelt het tellingsbestand EML 510c beschikbaar aan het hogere stembureau voor de uitslagvaststelling.
 6. Het HSB stelt het PV HSB (O 7) vast, publiceert het PV en brengt het over naar het hogere stembureau.
 

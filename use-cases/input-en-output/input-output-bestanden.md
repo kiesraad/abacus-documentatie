@@ -159,12 +159,17 @@ EML_NL 510a (tellingsbestand stembureau) wordt niet gebruikt.
 | Na 31-1           |  X  |     | PV GSB - 1ste zitting ||         X         |                   |
 | Na 31-2           |     |  X  | PV GSB - 1ste zitting |       |         X         |                   |
 | O 7            |  X  |  X  | PV HSB |                  | |         X         |
-| O 7 Inlegvel  |     |  X  | Inlegvel n.a.v. controle door CSB |         X         |                   ||
+| O 7 Inlegvel  |  X  |  X  | Inlegvel n.a.v. controle door CSB |         X         |                   ||
 
 #### O 7: PV op HSB-niveau
 
 - gegenereerd door Abacus
 - zie [O 7](O7.md)
+
+#### O 7 Inlegvel: Inlegvel PV HSB n.a.v. corrigendum HSB
+- let op: wordt aangemaakt door het CSB, niet door het HSB
+- lege versie gegenereerd door Abacus
+- wordt toegevoegd aan O 7 om aan te geven dat het CSB een corrigendum op de O 7 heeft opgesteld
 
 ### Tellingsbestanden
 
